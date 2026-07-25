@@ -1043,6 +1043,7 @@ PREDICATE_LABELS = {
     "first_campaign_date": "최초 시험 캠페인",
     "pilot_first_molten_iron_date": "파일럿 첫 용선 생산",
     "site_preparation_status_date": "부지 준비 확인 시점",
+    "equipment_reference": "대표 설비 참고",
 }
 TECHNICAL_FEATURE_GROUPS = (
     (

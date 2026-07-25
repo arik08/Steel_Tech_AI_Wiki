@@ -6,7 +6,7 @@
 
 !!! info "현재 감시 범위"
 
-    **11개 기업** · **11개 기술** · **88개 Source** · **418개 Claim**
+    **11개 기업** · **11개 기술** · **88개 Source** · **423개 Claim**
 
     [[REVIEW|사람 검토 대기]] **0건** · 근거가 연결된 주체 **40개**
 
@@ -63,7 +63,7 @@ flowchart LR
 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | [[companies/COM-POSCO|● 확인]] |  |  | [[companies/COM-Nippon-Steel|● 확인]] | [[companies/COM-JFE-Steel|● 확인]] | [[companies/COM-Tata-Steel|● 확인]] |  |  |  |  |  |  |
 | [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | [[companies/COM-POSCO|● 확인]] | [[companies/COM-ArcelorMittal|● 확인]] |  |  |  |  |  |  |  |  |  |  |
 | [[technologies/TEC-high-grade-eaf-and-scrap-impurity-removal|고급강 EAF·스크랩 불순물 제거]] |  |  |  | [[companies/COM-Nippon-Steel|● 확인]] |  |  |  |  |  |  |  |  |
-| [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] |  |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|● 확인]] |  |  |
+| [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | [[companies/COM-POSCO|● 확인]] |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|● 확인]] | [[companies/COM-Rio-Tinto|● 확인]] |  |
 | [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 제련]] |  |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|● 확인]] |  |  |
 | [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 제철]] |  |  |  |  |  |  |  |  |  |  | [[companies/COM-Rio-Tinto|● 확인]] |  |
 

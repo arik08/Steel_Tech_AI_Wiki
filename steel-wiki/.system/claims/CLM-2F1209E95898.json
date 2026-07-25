@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2F1209E95898",
+  "subject_id": "COM-Rio-Tinto",
+  "predicate": "fine_ore_hydrogen_reduction_status",
+  "value": "voestalpine·Primetals 등과 HY4SMELT 실증에 참여해 저·중품위 미분광의 HYFOR-전기 Smelter 경로를 검증 중",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E316D68F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals 공식 HY4SMELT 파트너 발표",
+      "source_ids": [
+        "SRC-20260725-E316D68F"
+      ]
+    }
+  ]
+}

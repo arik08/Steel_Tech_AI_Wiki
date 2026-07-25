@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8E89B97521BE",
+  "subject_id": "COM-POSCO",
+  "predicate": "fine_ore_hydrogen_reduction_status",
+  "value": "포항제철소에서 연 30만 톤 HyREX 통합 실증설비를 공동설계하고 부지를 준비 중; 2030년 상용화 기술개발 완료 목표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-B859CA04"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "POSCO 최신 공식 HyREX 현황",
+      "source_ids": [
+        "SRC-20260725-B859CA04"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,22 @@
 
 # HY4Smelt 실증 프로젝트
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **10건** · 직접 연결 근거 **1건**
+> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **11건** · 직접 연결 근거 **2건**
+
+
+![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
+
+*대표 이미지 — Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor))*
+
+
+## 설비·공정 이미지
+
+![HYFOR 파일럿 플랜트 내부의 미분광 분배 장치와 배관](<https://dam.primetals.com/m/5cabf17404a68773/webimage-DSC_0098x.png>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Primetals Technologies HYFOR 파일럿 플랜트의 미분광 분배·공급 설비
+
+- 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · 권리 `link_only` · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor) · 작성·촬영 Primetals Technologies
+- 권리 메모: Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
 
 !!! abstract "현재 상태"
 
@@ -16,6 +31,7 @@
 | **목표 가동 시점** | 2027년 말 [^src-20260725-e316d68f] |
 | **시간당 처리능력** | 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] |
 | **착공 시점** | 2025-09-25 [^src-20260725-e316d68f] |
+| **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고 [^src-20260725-a23b5a64] |
 | **적용 원료** | 응집하지 않은 저·중품위 철광석 미분을 중점 검증 [^src-20260725-e316d68f] |
 | **통합 설비 구성** | HYFOR 수소 미분광 직접환원과 전기 Smelter를 결합한 통합 실증설비 [^src-20260725-e316d68f] |
 | **위치** | Linz, Austria [^src-20260725-e316d68f] |
@@ -30,10 +46,13 @@
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
 | 2025-09-25 | 발표·검증 | **위치**: Linz, Austria · **적용 원료**: 응집하지 않은 저·중품위 철광석 미분을 중점 검증 · **프로젝트 상태**: 건설 중 · **공개 성과의 한계**: 착공과 설계 처리량은 연속 실증 또는 상업 운전 완료의 증거가 아님 · **목표 가동 시점**: 2027년 말 · **시간당 처리능력**: 시간당 3톤 (3 tonnes per hour) · **제품 형태**: 미분 DRI를 전기 Smelter에서 용융해 용융 철 제품을 생산하는 경로 · **참여 기관**: voestalpine, Primetals Technologies, Rio Tinto 및 기타 프로젝트 파트너 · **통합 설비 구성**: HYFOR 수소 미분광 직접환원과 전기 Smelter를 결합한 통합 실증설비 · **착공 시점**: 2025-09-25 [^src-20260725-e316d68f] |
+| 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고 [^src-20260725-a23b5a64] |
 | 2027 | 목표 일정 | **목표 가동 시점**: 2027년 말 [^src-20260725-e316d68f] |
 
 ## 근거 자료
 
+- **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상 · [원문 보기](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 - **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25 · [원문 보기](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
 
+[^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 [^src-20260725-e316d68f]: **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]

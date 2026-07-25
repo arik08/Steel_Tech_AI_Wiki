@@ -2943,3 +2943,39 @@ CLM-E4D295782E31: PRJ-POSCO-HYREX-DEMO / technology_route = FINEX 유동층 경�
 ## [2026-07-25T20:02:41+09:00] add-claim
 
 CLM-B251C4CB1F37: PRJ-POSCO-HYREX-DEMO / result_limitations = 1 t/h ESF의 첫 용선은 용융 단위조작 근거이며 30만 t/y 통합설비의 연속운전을 입증하지 않음
+
+## [2026-07-25T20:03:27+09:00] sync-obsidian
+
+40 subjects and 88 sources projected.
+
+## [2026-07-25T20:04:42+09:00] add-claim
+
+CLM-FC268458A101: PRJ-HYFOR-DONAWITZ-PILOT / equipment_reference = HYFOR 파일럿 유동층 반응기 실제 설비 사진; 공식 기술 페이지의 현재 설비 참고
+
+## [2026-07-25T20:04:42+09:00] add-claim
+
+CLM-6594453CAE78: PRJ-HY4SMELT / equipment_reference = HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고
+
+## [2026-07-25T20:04:43+09:00] add-claim
+
+CLM-C96351E0E8C6: PRJ-POSCO-HYREX-DEMO / equipment_reference = HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고
+
+## [2026-07-25T20:04:43+09:00] sync-obsidian
+
+40 subjects and 88 sources projected.
+
+## [2026-07-25T20:04:57+09:00] add-claim
+
+CLM-8E89B97521BE: COM-POSCO / fine_ore_hydrogen_reduction_status = 포항제철소에서 연 30만 톤 HyREX 통합 실증설비를 공동설계하고 부지를 준비 중; 2030년 상용화 기술개발 완료 목표
+
+## [2026-07-25T20:04:57+09:00] add-claim
+
+CLM-2F1209E95898: COM-Rio-Tinto / fine_ore_hydrogen_reduction_status = voestalpine·Primetals 등과 HY4SMELT 실증에 참여해 저·중품위 미분광의 HYFOR-전기 Smelter 경로를 검증 중
+
+## [2026-07-25T20:04:58+09:00] sync-obsidian
+
+40 subjects and 88 sources projected.
+
+## [2026-07-25T20:05:14+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md

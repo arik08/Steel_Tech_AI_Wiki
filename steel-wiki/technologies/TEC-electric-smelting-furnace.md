@@ -50,7 +50,7 @@
 이 문서의 ESF는 스크랩을 배치식으로 녹여 용강을 만드는 EAF가 아니라, DRI를 연속 투입해 잔류 FeO를 추가 환원하고 맥석을 슬래그로 분리하여 BOF·EAF 정련용 고탄소 용선을 만드는 제선 설비를 뜻합니다.
 
 - **근거 확인 기업:** 5개
-- **직접 연결 근거:** 14건
+- **직접 연결 근거:** 15건
 
 ## 작동 원리
 
@@ -166,6 +166,20 @@ flowchart TB
 - 출처 [[sources/SRC-20260725-8D0BD4B8|SRC-20260725-8D0BD4B8]] · 권리 `link_only` · [원문 페이지](https://transformation.thyssenkrupp-steel.com/startseite.html) · 작성·촬영 thyssenkrupp Steel Europe
 - 권리 메모: thyssenkrupp Steel 공식 프로젝트 사이트의 실제 공사 사진입니다. 재사용 권한을 별도 확인하지 않아 원문 링크로만 표시합니다.
 
+![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비
+
+- 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · 권리 `link_only` · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor) · 작성·촬영 Primetals Technologies
+- 권리 메모: Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
+
+![HYFOR 파일럿 플랜트 내부의 미분광 분배 장치와 배관](<https://dam.primetals.com/m/5cabf17404a68773/webimage-DSC_0098x.png>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Primetals Technologies HYFOR 파일럿 플랜트의 미분광 분배·공급 설비
+
+- 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · 권리 `link_only` · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor) · 작성·촬영 Primetals Technologies
+- 권리 메모: Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
+
 
 ## 기업별 상세 현황
 
@@ -251,6 +265,7 @@ flowchart TB
 - [[sources/SRC-20260725-7E8ABC86|China launches first million-tonne near-zero-carbon steel line at Baowu]] — State-owned Assets Supervision and Administration Commission of China, 2026-01-07 · [원문](https://en.sasac.gov.cn/2026/01/07/c_20292.htm)
 - [[sources/SRC-20260725-8A93E42F|Value chain GHG emission reductions — DRI-ESF programme update]] — BHP, 게시일 미상 · [원문](https://www.bhp.com/sustainability/climate-change/value-chain-ghg-emission-reductions)
 - [[sources/SRC-20260725-8D0BD4B8|thyssenkrupp Steel direct-reduction transformation project status]] — thyssenkrupp Steel Europe, 게시일 미상 · [원문](https://transformation.thyssenkrupp-steel.com/startseite.html)
+- [[sources/SRC-20260725-A23B5A64|HYFOR: Hydrogen-Based Fine-Ore Reduction]] — Primetals Technologies, 게시일 미상 · [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/)
 - [[sources/SRC-20260725-A6759186|POSCO HyREX electric smelting furnace pilot status]] — POSCO Group Newsroom, 2024-09-11 · [원문](https://newsroom.posco.com/en/world-climate-industry-expo-2024-checking-posco-groups-carbon-reduction-capabilities/)
 - [[sources/SRC-20260725-C37A3042|Industry giants collaborating to seek to decarbonise steel]] — Australian Renewable Energy Agency, 2025-06-17 · [원문](https://arena.gov.au/assets/2025/06/ARENA-Media-Release_NeoSmelt_17062025_FINAL.pdf)
 - [[sources/SRC-20260725-C9D824F2|Metso opens DRI Smelting Furnace pilot facility in Pori, Finland]] — Metso, 2024-10-25 · [원문](https://www.metso.com/corporate/media/news/2024/10/metso-opens-dri-smelting-furnace-pilot-facility-in-pori-finland/)
