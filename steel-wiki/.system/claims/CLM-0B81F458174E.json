@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0B81F458174E",
+  "subject_id": "PRJ-NUCOR-GALLATIN-EAF-CCUS",
+  "predicate": "technology_route",
+  "value": "EAF 저농도 배가스 → 기존 수계 아민 포집 → 수소생산 결합 이중 polishing loop → 용매 열화물·대기오염물질 측정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-6D04090A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Gallatin CCUS 기술 경로 등록",
+      "source_ids": [
+        "SRC-20260725-6D04090A"
+      ]
+    }
+  ]
+}

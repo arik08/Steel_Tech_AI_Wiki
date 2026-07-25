@@ -27,7 +27,11 @@
       "rights_note": "Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "TEC-hydrogen-based-fine-ore-reduction",
+        "PRJ-HYFOR-DONAWITZ-PILOT"
+      ]
     },
     {
       "media_id": "MED-C2D1BCA808CA",
@@ -41,7 +45,11 @@
       "rights_note": "Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "TEC-hydrogen-based-fine-ore-reduction",
+        "PRJ-HYFOR-DONAWITZ-PILOT"
+      ]
     }
   ]
 }

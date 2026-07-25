@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CAAA9A198452",
+  "subject_id": "PRJ-JFE-KURASHIKI-LARGE-EAF",
+  "predicate": "product_scope",
+  "value": "전기강판과 고장력강 등 고품질·고기능 강재의 대량 생산 목표",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-38762376"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-38762376"
+      ]
+    }
+  ]
+}

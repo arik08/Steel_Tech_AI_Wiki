@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-68C24D4675C9",
+  "subject_id": "PRJ-NIPPON-KIMITSU-COURSE50",
+  "predicate": "performance_disclosure_limit",
+  "value": "45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F396D188",
+    "SRC-20260725-46C2DBC8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "실증 해석 한계 기록",
+      "source_ids": [
+        "SRC-20260725-F396D188",
+        "SRC-20260725-46C2DBC8"
+      ]
+    }
+  ]
+}

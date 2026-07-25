@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-2646550D3EEF",
+  "subject_id": "PRJ-NIPPON-JAPAN-EAF-CONVERSION",
+  "predicate": "project_status",
+  "value": "3개 거점 전기로 신설·증설·재가동 투자 확정; Yawata는 2026-04-15 착공, Hirohata·Shunan은 공개 목표 일정에 따른 추진 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E5BC335B",
+    "SRC-20260725-E3271B0A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Nippon Steel 전기로 전환 프로젝트 등록",
+      "source_ids": [
+        "SRC-20260725-E5BC335B",
+        "SRC-20260725-E3271B0A"
+      ]
+    }
+  ]
+}

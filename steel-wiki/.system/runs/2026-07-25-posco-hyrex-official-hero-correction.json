@@ -1,0 +1,31 @@
+{
+  "run_id": "posco-hyrex-official-hero-correction",
+  "started_at": "2026-07-25T23:31:00+09:00",
+  "completed_at": "2026-07-25T23:42:00+09:00",
+  "status": "success",
+  "baseline_date": "2026-07-25",
+  "scope": {
+    "purpose": "POSCO·HyREX 대표 이미지의 공정 형상 오류를 공식 POSCO 공정도로 교정",
+    "affected_subjects": [
+      "COM-POSCO",
+      "PRJ-POSCO-HYREX-DEMO"
+    ]
+  },
+  "source_ids": [
+    "SRC-20260725-013F0FA1"
+  ],
+  "reused_source_ids": [
+    "SRC-20260725-BAB49577",
+    "SRC-20260725-B859CA04"
+  ],
+  "counts": {
+    "new_sources": 1,
+    "claims_created": 2,
+    "official_media_added": 1,
+    "inaccurate_ai_media_hidden": 1
+  },
+  "limitations": [
+    "공식 공정도는 개념도이며 포항 30만 t/y 실증설비의 준공도나 배관계장도가 아님",
+    "원본 이미지 재사용 권한은 별도 확인하지 않아 link_only 원격 표시로 등록"
+  ]
+}

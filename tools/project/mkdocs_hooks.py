@@ -9,6 +9,9 @@ from typing import Any
 
 
 WIKILINK_RE = re.compile(r"\[\[([^\[\]|]+?)(?:\|([^\]]+))?\]\]")
+HALF_YEAR_REPORT_TITLE_RE = re.compile(
+    r"^(?P<period>\d{4}년 [상하]반기) 철강 신기술·프로젝트 동향$"
+)
 
 
 def convert_wikilinks(markdown: str, current_src_path: str) -> str:
@@ -78,6 +81,42 @@ def _page_title(path: Path) -> str:
     return path.stem
 
 
+def _report_nav_title(path: Path) -> str:
+    title = _page_title(path)
+    match = HALF_YEAR_REPORT_TITLE_RE.fullmatch(title)
+    if match:
+        return f"{match.group('period')} 동향"
+    return title
+
+
+def _report_date(path: Path) -> str:
+    lines = path.read_text(encoding="utf-8").splitlines()
+    if lines and lines[0].strip() == "---":
+        for line in lines[1:]:
+            if line.strip() == "---":
+                break
+            key, separator, value = line.partition(":")
+            if separator and key.strip() == "date":
+                return value.strip().strip("\"'")
+    return ""
+
+
+def _report_pages(root: Path) -> list[dict[str, str]]:
+    paths = sorted(
+        root.glob("reports/briefs/*.md"),
+        key=lambda path: (
+            _report_date(path),
+            _page_title(path).casefold(),
+        ),
+        reverse=True,
+    )
+    return [
+        {_report_nav_title(path): path.relative_to(root).as_posix()}
+        for path in paths
+        if path.is_file()
+    ]
+
+
 def _pages(root: Path, pattern: str) -> list[dict[str, str]]:
     paths = sorted(root.glob(pattern), key=lambda path: _page_title(path).casefold())
     if pattern == "companies/*.md":
@@ -119,7 +158,15 @@ def on_config(config: Any) -> Any:
     report_index = root / "reports" / "index.md"
     if report_index.is_file():
         trend_reports.append({"동향 보고서 안내": "reports/index.md"})
-    trend_reports.extend(_pages(root, "reports/briefs/*.md"))
+    academic_landscape = root / "reports" / "academic-landscape-2026.md"
+    if academic_landscape.is_file():
+        trend_reports.append(
+            {
+                _report_nav_title(academic_landscape):
+                academic_landscape.relative_to(root).as_posix()
+            }
+        )
+    trend_reports.extend(_report_pages(root))
     if trend_reports:
         nav.append({"동향 보고서": trend_reports})
 

@@ -1,0 +1,32 @@
+{
+  "source_id": "SRC-20260726-6CC774DD",
+  "title": "Electric Smelting Furnace-Based Flowsheets",
+  "url": "https://www.aist.org/getmedia/1f692aad-90e1-4d92-b591-6b97060144cf/Electric-Smelting-Furnace-based-Flowsheets.pdf",
+  "canonical_url": "https://www.aist.org/getmedia/1f692aad-90e1-4d92-b591-6b97060144cf/Electric-Smelting-Furnace-based-Flowsheets.pdf",
+  "publisher": "Association for Iron & Steel Technology",
+  "published_at": "2026-03-09",
+  "collected_at": "2026-07-26",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "6cc774ddf4165161f43643cec0d07047de16e32e7c57aee2da4b2cc9cde64094",
+  "academic": {
+    "kind": "conference_presentation",
+    "authors": [
+      "S. Ge (Gesa)",
+      "K. Joubarani",
+      "K. Chomyn",
+      "M. Estabrooks"
+    ],
+    "venue": "Scrap Supplements and Alternative Ironmaking 10 Conference Materials",
+    "conference_name": "Scrap Supplements and Alternative Ironmaking 10",
+    "conference_date": "2026-03-09",
+    "conference_location": "Orlando, Florida, USA",
+    "peer_review_status": "not_peer_reviewed"
+  },
+  "raw_sha256": "0bb8866e885f8bfa7968f28d2f2a5fd6d7fc0ad1d4a5eb2b6e0d2df27f8f8356",
+  "raw_path": ".system/raw/SRC-20260726-6CC774DD.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

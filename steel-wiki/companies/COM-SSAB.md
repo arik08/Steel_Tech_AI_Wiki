@@ -14,8 +14,9 @@
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 2개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 2개 |
     | **실행 단계** | 연구·실증 1건 · 공식 현황 확인 1건 |
-    | **직접 연결 근거** | 3건 |
+    | **직접 연결 근거** | 4건 |
 
 ## 기술 포트폴리오
 
@@ -56,6 +57,66 @@
 | **목표 가동 시점** | 2029년 말 [^src-20260725-fab12dbf][^src-20260725-31601585] |
 | **투자비** | EUR 4.5 billion [^src-20260725-fab12dbf][^src-20260725-31601585] |
 
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-HYBRIT-LULEA-PILOT|HYBRIT 룰레오 수소 DRI 파일럿]]** | 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. [^src-20260725-75a329bd] | **기술 경로** 철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬 [^src-20260725-75a329bd] · **위치** Luleå, Sweden [^src-20260725-75a329bd] |
+| **[[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] | **기술 경로** 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 [^src-20260725-31601585] · **위치** Luleå, Sweden [^src-20260725-31601585] · **연간 생산능력** 연간 2,500,000톤 [^src-20260725-31601585] · **투자비** EUR 4.5 billion [^src-20260725-31601585] · **목표 가동 시점** 2029년 말 가동 목표 [^src-20260725-31601585] |
+
+## 프로젝트별 상세
+
+??? info "HYBRIT 룰레오 수소 DRI 파일럿"
+
+    **프로젝트 문서:** [[projects/PRJ-HYBRIT-LULEA-PILOT|HYBRIT 룰레오 수소 DRI 파일럿]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **공개 성과의 한계** | 정부 요약에도 설비 가동률·캠페인별 생산량·제품별 품질 통계·감사된 생산원가는 공개되지 않음 [^src-20260725-c4a8eda3] |
+    | **프로젝트 상태** | 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. [^src-20260725-75a329bd] |
+    | **기술 경로** | 철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬 [^src-20260725-75a329bd] |
+    | **파일럿 생산량** | 2024년 8월까지 수소환원철 5,000톤 이상 [^src-20260725-75a329bd] |
+    | **위치** | Luleå, Sweden [^src-20260725-75a329bd] |
+    | **정부 독립 검증** | Swedish Energy Agency 2024 전환 분석이 2018~2024 파일럿 완료와 수소 생산·저장 및 DRI-EAF 통합 조업 성과를 독립 요약 [^src-20260725-c4a8eda3] |
+    | **수소 저장 시험 종료 목표** | 수소 저장 파일럿을 2026년까지 계속 [^src-20260725-75a329bd] |
+    | **전해조 장기운전 결과** | 알칼라인 수전해 설비의 장기운전과 수소 저장, 수소 DRI의 EAF 용해 조업법 개발을 정부 분석이 확인 [^src-20260725-c4a8eda3] |
+    | **단계 완료 시점** | 2024년 [^src-20260725-75a329bd] |
+    | **프로젝트 착수 시점** | 2018년 [^src-20260725-75a329bd] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2018 | 착수 | **프로젝트 착수 시점**: 2018년 [^src-20260725-75a329bd] |
+    | 2024 | 단계 완료 | **단계 완료 시점**: 2024년 [^src-20260725-75a329bd] |
+    | 2024-08-27 | 발표·검증 | **프로젝트 상태**: 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. · **기술 경로**: 철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬 · **파일럿 생산량**: 2024년 8월까지 수소환원철 5,000톤 이상 · **위치**: Luleå, Sweden · **수소 저장 시험 종료 목표**: 수소 저장 파일럿을 2026년까지 계속 · **단계 완료 시점**: 2024년 · **프로젝트 착수 시점**: 2018년 [^src-20260725-75a329bd] |
+    | 2024-12-01 | 발표·검증 | **공개 성과의 한계**: 정부 요약에도 설비 가동률·캠페인별 생산량·제품별 품질 통계·감사된 생산원가는 공개되지 않음 · **정부 독립 검증**: Swedish Energy Agency 2024 전환 분석이 2018~2024 파일럿 완료와 수소 생산·저장 및 DRI-EAF 통합 조업 성과를 독립 요약 · **전해조 장기운전 결과**: 알칼라인 수전해 설비의 장기운전과 수소 저장, 수소 DRI의 EAF 용해 조업법 개발을 정부 분석이 확인 [^src-20260725-c4a8eda3] |
+    | 2026 | 목표 일정 | **수소 저장 시험 종료 목표**: 수소 저장 파일럿을 2026년까지 계속 [^src-20260725-75a329bd] |
+
+??? info "SSAB Luleå 신규 전기제철소"
+
+    **프로젝트 문서:** [[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **연간 생산능력** | 연간 2,500,000톤 [^src-20260725-31601585] |
+    | **착공 시점** | 2025-09-17 기공식 [^src-20260725-31601585] |
+    | **위치** | Luleå, Sweden [^src-20260725-31601585] |
+    | **연간 CO2 감축·회피량** | 기존 고로 경로 대체 후 연간 약 3 Mt CO2 감축 추정 [^src-20260725-31601585] |
+    | **투자비** | EUR 4.5 billion [^src-20260725-31601585] |
+    | **기술 경로** | 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 [^src-20260725-31601585] |
+    | **프로젝트 상태** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] |
+    | **목표 가동 시점** | 2029년 말 가동 목표 [^src-20260725-31601585] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-09-17 | 발표·검증 | **연간 생산능력**: 연간 2,500,000톤 · **착공 시점**: 2025-09-17 기공식 · **위치**: Luleå, Sweden · **연간 CO2 감축·회피량**: 기존 고로 경로 대체 후 연간 약 3 Mt CO2 감축 추정 · **투자비**: EUR 4.5 billion · **기술 경로**: 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 · **프로젝트 상태**: 2025-09-17 기공 후 신규 전기제철소 건설 중 · **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585] |
+    | 2029 | 목표 일정 | **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
@@ -80,8 +141,10 @@
 | --- | --- | --- |
 | [[sources/SRC-20260725-31601585|SSAB begins construction of new Luleå electric steel mill]] | SSAB · 2025-09-17 | [원문 보기](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule) |
 | [[sources/SRC-20260725-75A329BD|HYBRIT six-year pilot research results]] | SSAB · 2024-08-27 | [원문 보기](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial) |
+| [[sources/SRC-20260725-C4A8EDA3|Swedish Energy Agency review of HYBRIT pilot phase]] | Swedish Energy Agency · 2024-12-01 | [원문 보기](https://www.energimyndigheten.se/4ab557/globalassets/forskning--innovation/industri/nulagesanalys-av-industrins-omstallning-2024_webb.pdf) |
 | [[sources/SRC-20260725-FAB12DBF|SSAB postpones Luleå mill commissioning to end-2029]] | SSAB · 2025-06-19 | [원문 보기](https://www.ssab.com/en/news/2025/06/ssab-postpones-commissioning-of-new-steel-mill-in-lule-by-12-months) |
 
 [^src-20260725-31601585]: **SSAB begins construction of new Luleå electric steel mill** — SSAB, 2025-09-17. [원문](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule) · [[sources/SRC-20260725-31601585|보관 원문·메타데이터]]
 [^src-20260725-75a329bd]: **HYBRIT six-year pilot research results** — SSAB, 2024-08-27. [원문](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial) · [[sources/SRC-20260725-75A329BD|보관 원문·메타데이터]]
+[^src-20260725-c4a8eda3]: **Swedish Energy Agency review of HYBRIT pilot phase** — Swedish Energy Agency, 2024-12-01. [원문](https://www.energimyndigheten.se/4ab557/globalassets/forskning--innovation/industri/nulagesanalys-av-industrins-omstallning-2024_webb.pdf) · [[sources/SRC-20260725-C4A8EDA3|보관 원문·메타데이터]]
 [^src-20260725-fab12dbf]: **SSAB postpones Luleå mill commissioning to end-2029** — SSAB, 2025-06-19. [원문](https://www.ssab.com/en/news/2025/06/ssab-postpones-commissioning-of-new-steel-mill-in-lule-by-12-months) · [[sources/SRC-20260725-FAB12DBF|보관 원문·메타데이터]]

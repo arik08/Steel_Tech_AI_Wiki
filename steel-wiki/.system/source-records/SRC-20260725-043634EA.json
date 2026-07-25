@@ -14,5 +14,18 @@
   "raw_path": ".system/raw/SRC-20260725-043634EA.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Lei Guo",
+      "Qipeng Bao",
+      "Jintao Gao",
+      "Qingshan Zhu",
+      "Zhancheng Guo"
+    ],
+    "venue": "ISIJ International",
+    "doi": "10.2355/isijinternational.isijint-2019-392",
+    "peer_review_status": "peer_reviewed"
+  }
 }

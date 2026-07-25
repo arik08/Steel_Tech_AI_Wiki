@@ -2,7 +2,7 @@
 
 # thyssenkrupp Duisburg tkH2Steel
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **10건** · 직접 연결 근거 **1건**
+> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **14건** · 직접 연결 근거 **2건**
 
 
 ![thyssenkrupp Duisburg 직접환원탑 첫 지지기둥](<https://transformation.thyssenkrupp-steel.com/media/dr_anlage_1/bilder_2/traeger1_dr_turm_image_w450_h338.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
@@ -23,8 +23,12 @@
 | **연간 CO2 감축·회피량** | 수소 사용 시 연간 3.5 Mt CO2 초과 회피 잠재량 회사 추정 [^src-20260725-8d0bd4b8] |
 | **착공 시점** | 2024년 말 본 공사 착수 [^src-20260725-8d0bd4b8] |
 | **수소망 연결 목표** | 2027년 지역 수소망 연결 계획 [^src-20260725-8d0bd4b8] |
+| **재생수소 지원 구조** | 첫 10년 동안 실제 재생수소 사용량·가격을 독립 전문가가 연간 검증하는 조건부 지원 메커니즘 [^src-20260725-9a98e2af] |
 | **수소 전환 순서** | 천연가스로 램프업한 뒤 수소 비율을 단계적으로 높여 최대 100% 수소 운전 목표 [^src-20260725-8d0bd4b8] |
 | **위치** | Duisburg, Germany [^src-20260725-8d0bd4b8] |
+| **기존 승인 용량** | 2023년 EU 승인 가정은 연 2.3 Mt 저탄소 용선; 최신 회사 설계 표기는 연 2.5 Mt DRI [^src-20260725-9a98e2af] |
+| **기존 실증 개시 목표** | 2023년 EU 승인 당시 2026년 가동 가정; 최신 회사 일정은 2027년 시운전 개시로 변경 [^src-20260725-9a98e2af] |
+| **정부 지원 규모** | EU 승인 기준 직접보조 최대 EUR 550 million과 재생수소 전환 지원 최대 EUR 1.45 billion [^src-20260725-9a98e2af] |
 | **목표 시운전 시점** | 2027년 시운전 개시 목표 [^src-20260725-8d0bd4b8] |
 | **DR 타워 철골 설치 시점** | 2026-02 SMS가 직접환원탑 철골 설치 착수 [^src-20260725-8d0bd4b8] |
 
@@ -34,6 +38,7 @@
 
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
+| 2023-07-20 | 발표·검증 | **기존 승인 용량**: 2023년 EU 승인 가정은 연 2.3 Mt 저탄소 용선; 최신 회사 설계 표기는 연 2.5 Mt DRI · **재생수소 지원 구조**: 첫 10년 동안 실제 재생수소 사용량·가격을 독립 전문가가 연간 검증하는 조건부 지원 메커니즘 · **정부 지원 규모**: EU 승인 기준 직접보조 최대 EUR 550 million과 재생수소 전환 지원 최대 EUR 1.45 billion · **기존 실증 개시 목표**: 2023년 EU 승인 당시 2026년 가동 가정; 최신 회사 일정은 2027년 시운전 개시로 변경 [^src-20260725-9a98e2af] |
 | 2024 | 실행 일정 | **착공 시점**: 2024년 말 본 공사 착수 [^src-20260725-8d0bd4b8] |
 | 2026-02 | 실행 일정 | **DR 타워 철골 설치 시점**: 2026-02 SMS가 직접환원탑 철골 설치 착수 [^src-20260725-8d0bd4b8] |
 | 2026-07-25 | 수집 확인 | **기술 경로**: 직접환원로 + 후단 용융로 2기 + 기존 제철소 연계 · **연간 CO2 감축·회피량**: 수소 사용 시 연간 3.5 Mt CO2 초과 회피 잠재량 회사 추정 · **목표 시운전 시점**: 2027년 시운전 개시 목표 · **DR 타워 철골 설치 시점**: 2026-02 SMS가 직접환원탑 철골 설치 착수 · **프로젝트 상태**: 2024년 말 본 공사에 착수했고 2026-02 직접환원탑 철골 설치 단계 · **착공 시점**: 2024년 말 본 공사 착수 · **수소 전환 순서**: 천연가스로 램프업한 뒤 수소 비율을 단계적으로 높여 최대 100% 수소 운전 목표 · **연간 생산능력**: 연간 DRI 2,500,000톤 · **위치**: Duisburg, Germany · **수소망 연결 목표**: 2027년 지역 수소망 연결 계획 [^src-20260725-8d0bd4b8] |
@@ -43,5 +48,7 @@
 ## 근거 자료
 
 - **thyssenkrupp Steel direct-reduction transformation project status** — thyssenkrupp Steel Europe, 게시일 미상 · [원문 보기](https://transformation.thyssenkrupp-steel.com/startseite.html) · [[sources/SRC-20260725-8D0BD4B8|보관 원문·메타데이터]]
+- **European Commission approves German aid for thyssenkrupp Steel Duisburg transition** — European Commission, 2023-07-20 · [원문 보기](https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_23_3928/IP_23_3928_EN.pdf) · [[sources/SRC-20260725-9A98E2AF|보관 원문·메타데이터]]
 
 [^src-20260725-8d0bd4b8]: **thyssenkrupp Steel direct-reduction transformation project status** — thyssenkrupp Steel Europe, 게시일 미상. [원문](https://transformation.thyssenkrupp-steel.com/startseite.html) · [[sources/SRC-20260725-8D0BD4B8|보관 원문·메타데이터]]
+[^src-20260725-9a98e2af]: **European Commission approves German aid for thyssenkrupp Steel Duisburg transition** — European Commission, 2023-07-20. [원문](https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_23_3928/IP_23_3928_EN.pdf) · [[sources/SRC-20260725-9A98E2AF|보관 원문·메타데이터]]

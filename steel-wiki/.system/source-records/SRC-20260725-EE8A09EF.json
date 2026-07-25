@@ -14,5 +14,25 @@
   "raw_path": ".system/raw/SRC-20260725-EE8A09EF.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Henri Pauna",
+      "Daniel Ernst",
+      "Michael Zarl",
+      "Isnaldi Rodrigues de Souza Filho",
+      "Michael Kulse",
+      "Ömer Büyükuslu",
+      "Matic Jovičević-Klug",
+      "Hauke Springer",
+      "Marko Huttula",
+      "Johannes Schenk",
+      "Timo Fabritius",
+      "Dierk Raabe"
+    ],
+    "venue": "steel research international",
+    "doi": "10.1002/srin.202400028",
+    "peer_review_status": "peer_reviewed"
+  }
 }

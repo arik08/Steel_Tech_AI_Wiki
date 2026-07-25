@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-4B6B10397585",
+  "subject_id": "PRJ-NUCOR-CONVENT-DRI-CCS",
+  "predicate": "project_status",
+  "value": "Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BF5036AE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "기존 Nucor CCS 근거를 프로젝트로 구조화",
+      "source_ids": [
+        "SRC-20260725-BF5036AE"
+      ]
+    }
+  ]
+}

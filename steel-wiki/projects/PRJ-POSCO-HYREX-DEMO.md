@@ -2,22 +2,12 @@
 
 # POSCO 포항 HyREX 통합 실증
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **15건** · 직접 연결 근거 **5건**
+> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **16건** · 직접 연결 근거 **6건**
 
 
-![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도](<https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor))*
-
-
-## 설비·공정 이미지
-
-![HYFOR 파일럿 플랜트 내부의 미분광 분배 장치와 배관](<https://dam.primetals.com/m/5cabf17404a68773/webimage-DSC_0098x.png>){ .steel-media-image .steel-media-compact }
-
-**실제 설비 사진.** Primetals Technologies HYFOR 파일럿 플랜트의 미분광 분배·공급 설비
-
-- 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · 권리 `link_only` · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor) · 작성·촬영 Primetals Technologies
-- 권리 메모: Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
+*대표 이미지 — POSCO 공식 HyREX 공정도: 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-013F0FA1|SRC-20260725-013F0FA1]] · [원문 페이지](https://www.posco.com/homepage/docs/eng7/jsp/hyrex))*
 
 !!! abstract "현재 상태"
 
@@ -38,6 +28,7 @@
 | **업무협약 시점** | 2022 [^src-20260725-bab49577] |
 | **파일럿 첫 용선 생산** | 2024-04 [^src-20260725-a6759186] |
 | **파일럿 생산량** | 1 t/h 전기용융 파일럿을 가동해 첫 용선을 생산 [^src-20260725-a6759186] |
+| **공정 구성** | POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
 | **공개 성과의 한계** | 1 t/h ESF의 첫 용선은 용융 단위조작 근거이며 30만 t/y 통합설비의 연속운전을 입증하지 않음 [^src-20260725-a6759186] |
 | **부지 준비 확인 시점** | 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
 | **공급사 발표 시점** | 2024-09-19 [^src-20260725-bab49577] |
@@ -58,17 +49,20 @@
 | 2025-10-29 | 발표·검증 | **기술 경로**: FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] |
 | 2026-06-22 | 발표·검증 | **연간 생산능력**: 연 300,000 tonnes · **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 · **프로젝트 상태**: 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 · **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
 | 2026-06-22 | 실행 현황 | **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
+| 2026-07-25 | 수집 확인 | **공정 구성**: POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
 | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
 | 2030 | 목표 일정 | **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] |
 
 ## 근거 자료
 
+- **HyREX Hydrogen Reduction Ironmaking** — POSCO, 게시일 미상 · [원문 보기](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/) · [[sources/SRC-20260725-013F0FA1|보관 원문·메타데이터]]
 - **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상 · [원문 보기](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 - **POSCO HyREX electric smelting furnace pilot status** — POSCO Group Newsroom, 2024-09-11 · [원문 보기](https://newsroom.posco.com/en/world-climate-industry-expo-2024-checking-posco-groups-carbon-reduction-capabilities/) · [[sources/SRC-20260725-A6759186|보관 원문·메타데이터]]
 - **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22 · [원문 보기](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
 - **Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant** — Primetals Technologies, 2024-09-19 · [원문 보기](https://www.primetals.com/en/news/primetals-technologies-and-posco-sign-cooperation-agreement-for-hyrex-direct-reduction-plant/) · [[sources/SRC-20260725-BAB49577|보관 원문·메타데이터]]
 - **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29 · [원문 보기](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
 
+[^src-20260725-013f0fa1]: **HyREX Hydrogen Reduction Ironmaking** — POSCO, 게시일 미상. [원문](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/) · [[sources/SRC-20260725-013F0FA1|보관 원문·메타데이터]]
 [^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 [^src-20260725-a6759186]: **POSCO HyREX electric smelting furnace pilot status** — POSCO Group Newsroom, 2024-09-11. [원문](https://newsroom.posco.com/en/world-climate-industry-expo-2024-checking-posco-groups-carbon-reduction-capabilities/) · [[sources/SRC-20260725-A6759186|보관 원문·메타데이터]]
 [^src-20260725-b859ca04]: **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]

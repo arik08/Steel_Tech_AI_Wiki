@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-929304D2E15B",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "conference_process_configuration",
+  "value": "Hatch의 AIST 2026 발표는 사전환원 후 ESF에서 맥석을 저-FeO 슬래그로 배출해 저품위 광석을 처리하는 flowsheet를 제시했다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260726-6CC774DD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "공급사 학회 발표의 공정 구성으로 한정",
+      "source_ids": [
+        "SRC-20260726-6CC774DD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-20260725-0A7903EA",
+  "title": "Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration",
+  "url": "https://www.nipponsteel.com/en/news/20230209_100.html",
+  "canonical_url": "https://www.nipponsteel.com/en/news/20230209_100.html",
+  "publisher": "Nippon Steel Corporation",
+  "published_at": "2023-02-09",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "0a7903eadfec491ab0d00da2c1ca75b5f1492e1f929c62edf566b439de6b9e39",
+  "raw_sha256": "5c0010dbe5c062a05bdb7e2e73fa4f151f43e258d54240cf1f295feaa7775cc7",
+  "raw_path": ".system/raw/SRC-20260725-0A7903EA.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-F462179B070D",
+      "kind": "process_diagram",
+      "caption": "Nippon Steel 공식 COURSE50 개발·Kimitsu 제2고로 확대 실증 개념도; 실제 배관계장도나 준공도가 아님",
+      "alt_text": "12입방미터 시험고로에서 4500입방미터 Kimitsu 제2고로 수소취입 실증으로 확대하는 COURSE50 공식 개념도",
+      "creator": "Nippon Steel Corporation",
+      "image_url": "https://www.nipponsteel.com/common/secure/en/news/20230209_100.jpg",
+      "origin_url": "https://www.nipponsteel.com/en/news/20230209_100.html",
+      "rights_status": "link_only",
+      "rights_note": "Nippon Steel 공식 발표 페이지의 원격 이미지를 복제하지 않고 직접 표시",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "COM-Nippon-Steel",
+        "PRJ-NIPPON-KIMITSU-COURSE50"
+      ]
+    }
+  ]
+}

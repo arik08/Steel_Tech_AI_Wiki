@@ -4,7 +4,7 @@
   "url": "https://www.nist.gov/publications/conceptual-architecture-digital-twins-human-loop-based-smart-manufacturing",
   "canonical_url": "https://www.nist.gov/publications/conceptual-architecture-digital-twins-human-loop-based-smart-manufacturing",
   "publisher": "National Institute of Standards and Technology",
-  "published_at": "2023-11-02",
+  "published_at": "2023-10-29",
   "collected_at": "2026-07-25",
   "source_type": "academic",
   "language": "en",
@@ -14,5 +14,21 @@
   "raw_path": ".system/raw/SRC-20260725-8BA7A1B3.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "conference_paper",
+    "authors": [
+      "Duck Bong Kim",
+      "Mahdi Sadeqi Bajestani",
+      "Guodong Shao",
+      "Albert Jones",
+      "Sang Do Noh"
+    ],
+    "venue": "Volume 3: Advanced Manufacturing",
+    "doi": "10.1115/imece2023-112791",
+    "conference_name": "ASME 2023 International Mechanical Engineering Congress and Exposition (IMECE2023)",
+    "conference_date": "2023-10-29",
+    "conference_location": "New Orleans, Louisiana, USA",
+    "peer_review_status": "peer_reviewed"
+  }
 }

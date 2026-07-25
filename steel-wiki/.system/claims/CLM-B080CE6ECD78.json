@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-B080CE6ECD78",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "operating_temperature",
+  "value": "회사 기술 설명 기준 약 60°C 저온 운전",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D6930918"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 내용 부실 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-D6930918"
+      ]
+    }
+  ]
+}

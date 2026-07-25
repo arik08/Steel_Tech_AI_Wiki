@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![전기로 하부를 투명하게 표현한 Consteerrer 전자기 교반 장치 내부 구성도](<https://tenova.com/sites/default/files/styles/original/public/images/paragraphs/2021/CONSTEERRER.jpg.webp>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![폐제품 파쇄부터 AI 선별기와 규격 스크랩 생산까지 보여주는 Sortera 공정도](<https://sortera.wpengine.com/wp-content/uploads/2020/09/Screen-Shot-2020-09-10-at-8.55.13-AM.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Tenova Consteerrer 전자기 교반 장치의 전기로 하부 내부 구성도. 광양 설비에 적용된 기술의 범용 공급사 도면이며 POSCO 광양 전기로의 준공도(as-built)는 아님 (장치 구성도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-C888600A|SRC-20260725-C888600A]] · [원문 페이지](https://tenova.com/technologies/electric-arc-furnaces-eaf))*
+*대표 이미지 — Sortera의 자동차 금속 재활용용 AI 센서 선별 공정 개념도. 파쇄·혼합 스크랩을 AI 선별기에 통과시켜 규격별 원료로 나누는 범용 플랫폼 설명도이며, DOE 지원 철스크랩 열기계적 탈동 모듈의 준공도(as-built)는 아님 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-3DA8B9C7|SRC-20260725-3DA8B9C7]] · [원문 페이지](https://www.sorteratechnologies.com/technology))*
 
 !!! abstract "한눈에 보기"
 
@@ -43,8 +43,8 @@
 
 ‘불순물 제거’를 하나의 노내 처리로 보지 않습니다. 구리·주석은 통상적인 산화슬래그로 제거하기 어려워 해체·파쇄·선별·희석 또는 아직 개발 중인 탈동 공정이 핵심인 반면, 인은 산화·염기성 슬래그, 질소는 공기 차단·CO 기포·진공 등 서로 다른 제어창을 사용합니다.
 
-- **근거 확인 기업:** 1개
-- **직접 연결 근거:** 11건
+- **근거 확인 기업:** 3개
+- **직접 연결 근거:** 15건
 
 ## 작동 원리
 
@@ -95,42 +95,50 @@ flowchart TB
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **스크랩 품질 위계** | 자체발생·가공 스크랩처럼 이력이 분명한 청정 원료에서 노폐 파쇄스크랩으로 갈수록 성분 편차와 Cu·Sn 관리 부담이 커지며, 제품 등급별 허용치에 맞춘 분리 배합이 필요 [^src-20260725-9dccdb31] | 회사 IR |
-| **불순물 유입원** | 폐자동차·가전·설비의 구리 배선, 모터와 합금 부품이 파쇄 중 철 조각에 얽히거나 둘러싸여 자력선별 뒤에도 잔류 [^src-20260725-4366e5b1] | 학술 연구 |
-| **구리 열간취성** | 가열 중 Fe가 선택 산화되면 강-스케일 계면에 액상 Cu 농축상이 생겨 오스테나이트 입계로 침투하고 열간가공 표면균열을 유발 [^src-20260725-c79793b1] | 학술 연구 |
-| **주석의 복합 영향** | Sn은 Cu에 의한 표면 열간취성을 가속하므로 Cu 단독 수치만으로 판재 균열 위험을 판정하면 불충분 [^src-20260725-c79793b1] | 학술 연구 |
-| **고급 판재의 구리 기준** | 2019년 종합평가에서 다수 고부가 판재는 야금학적 문제를 피하기 위해 Cu 0.1 wt% 미만이 필요 [^src-20260725-4366e5b1] | 학술 연구 |
-| **파쇄 노폐스크랩의 구리 수준** | 2019년 종합평가의 대표값에서 노폐 파쇄스크랩은 통상 약 0.4 wt% Cu [^src-20260725-4366e5b1] | 학술 연구 |
-| **통상 산화정련의 한계** | 용강의 통상 산화슬래그 정련에서는 Cu보다 Fe가 우선 산화되므로 용해된 Cu를 제거할 수 없음 [^src-20260725-4366e5b1] | 학술 연구 |
-| **용해 전 해방·분리** | Cu 분리는 혼합·용해 전이 에너지상 유리하지만 자력·밀도 선별 성능은 파쇄에서 Cu 부착물을 얼마나 해방했는지에 좌우됨 [^src-20260725-4366e5b1] | 학술 연구 |
-| **센서·영상 선별** | RGB 영상은 노출된 구리선·코일 같은 가시 물체를 분류하는 저비용 보조수단이며 XRF·LIBS는 개별 조각의 원소 분석과 등급 선별에 사용 가능 [^src-20260725-7ddd98e7] | 학술 연구 |
-| **벌크 성분 측정 한계** | XRF·LIBS의 점측정은 취득시간·표면오염·조각별 편차와 질량정보 부족 때문에 고속 파쇄스크랩 전체의 벌크 Cu 농도를 곧바로 대표하기 어려움 [^src-20260725-7ddd98e7] | 학술 연구 |
-| **영상 분류 연구 결과** | 상용 등급 스크랩으로 구성한 연구 데이터셋에서 영상분할 지도 분류기가 Cu 조성 등급을 86.67% 정확도로 분류했으나 생산라인 벌크 성분 보증은 아님 [^src-20260725-7ddd98e7] | 학술 연구 |
-| **희석·배합 경로** | 고Cu 스크랩은 청정 스크랩이나 1차 철원과 혼합해 평균 Cu를 낮추는 방식이 현재 활용되지만 이는 Cu 제거가 아니라 희석 [^src-20260725-7ddd98e7] | 학술 연구 |
+| **불순물 유입원** | 폐자동차·가전·설비의 구리 배선, 모터와 합금 부품이 파쇄 중 철 조각에 얽히거나 둘러싸여 자력선별 뒤에도 잔류 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **구리 열간취성** | 가열 중 Fe가 선택 산화되면 강-스케일 계면에 액상 Cu 농축상이 생겨 오스테나이트 입계로 침투하고 열간가공 표면균열을 유발 [^src-20260725-c79793b1] | 학술지 논문 |
+| **주석의 복합 영향** | Sn은 Cu에 의한 표면 열간취성을 가속하므로 Cu 단독 수치만으로 판재 균열 위험을 판정하면 불충분 [^src-20260725-c79793b1] | 학술지 논문 |
+| **고급 판재의 구리 기준** | 2019년 종합평가에서 다수 고부가 판재는 야금학적 문제를 피하기 위해 Cu 0.1 wt% 미만이 필요 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **파쇄 노폐스크랩의 구리 수준** | 2019년 종합평가의 대표값에서 노폐 파쇄스크랩은 통상 약 0.4 wt% Cu [^src-20260725-4366e5b1] | 학술지 논문 |
+| **통상 산화정련의 한계** | 용강의 통상 산화슬래그 정련에서는 Cu보다 Fe가 우선 산화되므로 용해된 Cu를 제거할 수 없음 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **용해 전 해방·분리** | Cu 분리는 혼합·용해 전이 에너지상 유리하지만 자력·밀도 선별 성능은 파쇄에서 Cu 부착물을 얼마나 해방했는지에 좌우됨 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **센서·영상 선별** | RGB 영상은 노출된 구리선·코일 같은 가시 물체를 분류하는 저비용 보조수단이며 XRF·LIBS는 개별 조각의 원소 분석과 등급 선별에 사용 가능 [^src-20260725-7ddd98e7] | 학술지 논문 |
+| **벌크 성분 측정 한계** | XRF·LIBS의 점측정은 취득시간·표면오염·조각별 편차와 질량정보 부족 때문에 고속 파쇄스크랩 전체의 벌크 Cu 농도를 곧바로 대표하기 어려움 [^src-20260725-7ddd98e7] | 학술지 논문 |
+| **영상 분류 연구 결과** | 상용 등급 스크랩으로 구성한 연구 데이터셋에서 영상분할 지도 분류기가 Cu 조성 등급을 86.67% 정확도로 분류했으나 생산라인 벌크 성분 보증은 아님 [^src-20260725-7ddd98e7] | 학술지 논문 |
+| **희석·배합 경로** | 고Cu 스크랩은 청정 스크랩이나 1차 철원과 혼합해 평균 Cu를 낮추는 방식이 현재 활용되지만 이는 Cu 제거가 아니라 희석 [^src-20260725-7ddd98e7] | 학술지 논문 |
 | **청정 1차 철 배합** | Nippon Steel은 당시 고급강 EAF에 용선·자체발생 스크랩·가공 스크랩을 통제 투입하고 장기적으로 스크랩과 DRI 조합을 제시 [^src-20260725-9dccdb31] | 회사 IR |
-| **고체 스크랩 처리 후보** | 고체 스크랩 후보에는 고밀도 파쇄·물리선별, 선택 용융, 산화취화, 염소화, 암모니아 침출 등이 있으나 실제 이종 파쇄스크랩의 효과와 잔사·시약 회수가 핵심 [^src-20260725-4366e5b1] | 학술 연구 |
-| **용탕 추출 후보** | 용탕 탈동 후보에는 진공증류·반응성 가스 증발·황화슬래그 또는 매트·용매·세라믹 여과·응고편석이 있으나 다수는 실험·제안 단계 [^src-20260725-4366e5b1] | 학술 연구 |
-| **진공증류** | Cu의 높은 증기압을 이용한 진공증류는 열손실이 작은 반응기에서 가능성이 있으나 진공 아크 재용해는 저처리량 특수강용 추가 재용해 공정 [^src-20260725-4366e5b1] | 학술 연구 |
-| **황화슬래그·매트** | 황이 Fe보다 Cu와 우선 반응하는 성질을 이용한 황화슬래그·매트 탈동이 제안됐지만 탄소·황 조정과 후속 탈황 등 보정 공정이 추가될 수 있음 [^src-20260725-4366e5b1] | 학술 연구 |
-| **탈인 제어** | EAF 탈인은 FeO에 의한 P 산화와 CaO계 슬래그의 인산염 고정으로 진행되며 CaO 활성도·산소퍼텐셜·온도·교반을 함께 제어해야 함 [^src-20260725-d37c44f7] | 학술 연구 |
+| **고체 스크랩 처리 후보** | 고체 스크랩 후보에는 고밀도 파쇄·물리선별, 선택 용융, 산화취화, 염소화, 암모니아 침출 등이 있으나 실제 이종 파쇄스크랩의 효과와 잔사·시약 회수가 핵심 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **용탕 추출 후보** | 용탕 탈동 후보에는 진공증류·반응성 가스 증발·황화슬래그 또는 매트·용매·세라믹 여과·응고편석이 있으나 다수는 실험·제안 단계 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **진공증류** | Cu의 높은 증기압을 이용한 진공증류는 열손실이 작은 반응기에서 가능성이 있으나 진공 아크 재용해는 저처리량 특수강용 추가 재용해 공정 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **황화슬래그·매트** | 황이 Fe보다 Cu와 우선 반응하는 성질을 이용한 황화슬래그·매트 탈동이 제안됐지만 탄소·황 조정과 후속 탈황 등 보정 공정이 추가될 수 있음 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **탈인 제어** | EAF 탈인은 FeO에 의한 P 산화와 CaO계 슬래그의 인산염 고정으로 진행되며 CaO 활성도·산소퍼텐셜·온도·교반을 함께 제어해야 함 [^src-20260725-d37c44f7] | 학술지 논문 |
 | **탈질 제어** | 저질소 운전은 저질소 DRI 배합, 포밍슬래그와 출강 관리, CO 미세기포에 의한 질소 세정 및 필요 시 진공처리를 조합 [^src-20260725-9fbef9c2] | 정부·공공자료 |
 | **질소 유입원** | EAF 질소는 장입재, 용강의 공기 노출과 아크 영역의 이온화 질소 등에서 유입 [^src-20260725-9fbef9c2] | 정부·공공자료 |
 | **보고된 질소 수준 비교** | 2004년 보고서의 당시 비교값은 BOF 30~40 ppm N, EAF 70~100 ppm N이며 현재 모든 공장의 보증값이 아니라 저질소 EAF 과제의 기준선 [^src-20260725-9fbef9c2] | 정부·공공자료 |
 | **2차정련 역할** | 고급강 EAF는 용해 뒤 래들 정련·진공처리·연주·압연까지 연결해 N·S·개재물·성분·표면 품질을 맞춰야 하며 EAF 출강 성분만으로 완성되지 않음 [^src-20260725-9dccdb31] | 회사 IR |
-| **종점 인 예측 연구 결과** | 실조업 데이터 기반 FA-MM-TabNet 연구는 종점 P 예측 MAE 0.0024, RMSE 0.0034, ±0.005% 범위 적중률 90.82%를 보고했으나 단일 데이터셋 결과 [^src-20260725-d37c44f7] | 학술 연구 |
-| **철 수율·잔사** | 선별·침출·고온처리·황화슬래그의 평가는 Cu 저감률뿐 아니라 철 손실, 시약·용매 재순환, Cu 함유 잔사와 후속 정련부하를 포함해야 함 [^src-20260725-4366e5b1] | 학술 연구 |
+| **종점 인 예측 연구 결과** | 실조업 데이터 기반 FA-MM-TabNet 연구는 종점 P 예측 MAE 0.0024, RMSE 0.0034, ±0.005% 범위 적중률 90.82%를 보고했으나 단일 데이터셋 결과 [^src-20260725-d37c44f7] | 학술지 논문 |
+| **철 수율·잔사** | 선별·침출·고온처리·황화슬래그의 평가는 Cu 저감률뿐 아니라 철 손실, 시약·용매 재순환, Cu 함유 잔사와 후속 정련부하를 포함해야 함 [^src-20260725-4366e5b1] | 학술지 논문 |
 | **제품 등급별 제약** | 전기강판, 980 MPa 이상 3세대 초고장력강, IF 자동차 외판은 서로 다른 성분·표면 요구를 가지므로 한 강종 생산 실적을 모든 고급강으로 일반화할 수 없음 [^src-20260725-9dccdb31] | 회사 IR |
 
 ### 반응·셀·공정
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **작동 원리** | 불순물의 물성·열역학에 따라 공정 위치를 달리한다. Cu·Sn은 용해 전 분리·희석을 우선하고 P는 산화·염기성 슬래그, N은 공기 차단·CO 기포·진공으로 제어한다 [^src-20260725-4366e5b1] | 학술 연구 |
+| **작동 원리** | 불순물의 물성·열역학에 따라 공정 위치를 달리한다. Cu·Sn은 용해 전 분리·희석을 우선하고 P는 산화·염기성 슬래그, N은 공기 차단·CO 기포·진공으로 제어한다 [^src-20260725-4366e5b1] | 학술지 논문 |
+| **공정 구성** | AIST 2026 발표의 디지털 스크랩 입고 범위는 자동 분류, 트럭 용적·중량·밀도, 성분, MES/ERP 연계, 위험물 탐지와 특성화를 포함한다. [^src-20260726-def03677] | 학회 발표 |
+
+### 원료·운전·제품
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **EAF 연계** | Ternium Pesquería 공급사 발표의 EAF 투입 구성은 연 2.1 Mt DRI와 1.5 Mt 스크랩을 결합하는 설계로 제시됐다. [^src-20260726-cedf7736] | 학회 발표 |
 
 ### 실증·산업화
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **공개 개발 단계** | 고급강 EAF는 Hirohata 등 특정 통제 원료·제품에서 상업 생산 사례가 있으나 광범위한 노폐스크랩을 정제해 모든 고급 판재에 적용하는 기술은 연구·실증이 병존 [^src-20260725-9dccdb31] | 회사 IR |
+| **시험 결과** | 발표 자료의 제시된 시험 구성에서 트럭 컨테이너 탐지 정확도 96%, 위험물 탐지 재현율 76%가 보고되었다. 타 현장 일반화 성능은 검증되지 않았다. [^src-20260726-def03677] | 학회 발표 |
 | **상용 규모 확대 조건** | 대형 EAF 확대에는 스크랩·DRI 용해시간, DRI 맥석·공극의 열전달 저하, 정련 교반, 생산성 및 제품별 불순물 제어를 함께 검증해야 함 [^src-20260725-9dccdb31] | 회사 IR |
 | **공개 성과의 한계** | DRI 미분 주입 파일럿은 성공하지 못했고 일부 전규모 데이터만 확보됐으므로 해당 주입법을 상용 검증된 탈질 해법으로 간주할 수 없음 [^src-20260725-9fbef9c2] | 정부·공공자료 |
 
@@ -139,22 +147,34 @@ flowchart TB
 
 | 날짜 | 공개 사건 |
 | --- | --- |
+| 2002-03-01 | Suppression of Surface Hot Shortness due to Cu in Recycled Steels [^src-20260725-c79793b1] |
 | 2004-03-31 | Nitrogen Control in Electric Arc Furnace Steelmaking by DRI (TRP 0009) [^src-20260725-9fbef9c2] |
 | 2019-02-27 | Finding the Most Efficient Way to Remove Residual Copper from Steel Scrap [^src-20260725-4366e5b1] |
 | 2021-03-30 | Nippon Steel Carbon Neutral Vision 2050 [^src-20260725-9dccdb31] |
 | 2023-06-07 | Tenova for POSCO Gwangyang plant [^src-20260725-c888600a] |
+| 2025-01-23 | METI Green Steel for GX: Kurashiki EAF [^src-20260725-ded07902] |
+| 2025-04-10 | JFE Steel to introduce advanced large-scale EAF at Kurashiki [^src-20260725-38762376] |
 | 2025-07-15 | Integrating Metallurgical Mechanisms and Explainable Deep Learning Methods to Predict Phosphorus Content in Electric Arc Furnace Steelmaking for Enhanced Efficiency [^src-20260725-d37c44f7] |
+| 2026-03-09 | Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation [^src-20260726-cedf7736] |
+| 2026-03-09 | Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management [^src-20260726-def03677] |
 | 2026-06-22 | POSCO completes Gwangyang EAF and advances HyREX [^src-20260725-b859ca04] |
 | 2026-06-24 | Image-Segmentation-Guided Fragmentized Steel Scrap Tramp Material Characterization [^src-20260725-7ddd98e7] |
 
 ## 설비·공정 이미지
 
-![폐제품 파쇄부터 AI 선별기와 규격 스크랩 생산까지 보여주는 Sortera 공정도](<https://sortera.wpengine.com/wp-content/uploads/2020/09/Screen-Shot-2020-09-10-at-8.55.13-AM.png>){ .steel-media-image .steel-media-detail }
+![해안 부두와 철원 물류, 대형 전기로, 배가스 열회수, 노외정련 설비가 연결된 개념 구성](../assets/media/SRC-20260725-38762376/MED-509F32DFCABA.png){ .steel-media-image .steel-media-compact }
 
-**공정 개념도.** Sortera의 자동차 금속 재활용용 AI 센서 선별 공정 개념도. 파쇄·혼합 스크랩을 AI 선별기에 통과시켜 규격별 원료로 나누는 범용 플랫폼 설명도이며, DOE 지원 철스크랩 열기계적 탈동 모듈의 준공도(as-built)는 아님
+**AI 재구성.** Kurashiki 대형 EAF의 부두·냉철원 물류·스크랩/DRI 용해·노외정련 통합 경로 AI 재구성. 실제 JFE 준공도가 아님
 
-- 출처 [[sources/SRC-20260725-3DA8B9C7|SRC-20260725-3DA8B9C7]] · 권리 `link_only` · [원문 페이지](https://www.sorteratechnologies.com/technology) · 작성·촬영 Sortera Technologies
-- 권리 메모: Sortera 공식 기술 페이지에서 원본과 맥락을 확인했습니다. 재사용 허가를 별도 확인하지 않아 원격 링크만 보존하며, 철스크랩 탈동 실증 설비의 실제 도면으로 해석하지 않습니다.
+- 출처 [[sources/SRC-20260725-38762376|SRC-20260725-38762376]] · 권리 `ai_generated` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: JFE 공식 투자 발표의 설비 범위를 바탕으로 생성했으며 실제 배치·공사진척·성능의 증거로 사용하지 않음
+
+![전기로 하부를 투명하게 표현한 Consteerrer 전자기 교반 장치 내부 구성도](<https://tenova.com/sites/default/files/styles/original/public/images/paragraphs/2021/CONSTEERRER.jpg.webp>){ .steel-media-image .steel-media-detail }
+
+**장치 구성도.** Tenova Consteerrer 전자기 교반 장치의 전기로 하부 내부 구성도. 광양 설비에 적용된 기술의 범용 공급사 도면이며 POSCO 광양 전기로의 준공도(as-built)는 아님
+
+- 출처 [[sources/SRC-20260725-C888600A|SRC-20260725-C888600A]] · 권리 `link_only` · [원문 페이지](https://tenova.com/technologies/electric-arc-furnaces-eaf) · 작성·촬영 Tenova
+- 권리 메모: Tenova 공식 기술 페이지에서 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시하며, 광양 프로젝트의 준공도는 아닙니다.
 
 ![전기로 본체와 전극 승강부, 출강 용기를 표현한 3D 설비 구성도](<https://tenova.com/sites/default/files/styles/original/public/images/paragraphs/2021/TECH_DATA_EAF.jpg.webp>){ .steel-media-image .steel-media-detail }
 
@@ -166,6 +186,14 @@ flowchart TB
 
 ## 기업별 상세 현황
 
+### [[companies/COM-POSCO|POSCO]]
+
+**확인된 현황.** 광양제철소 연 250만 톤 대형 전기로(EAF)를 2026년 6월 17일 준공해 저탄소강 생산을 개시했으며 약 6,000억 원을 투자했다. 고로 용선 혼합, 스크랩 선별·성분 제어 기술을 개발해 2030년 자동차강판·전기강판 등 고급강 양산을 목표로 한다. [^src-20260725-b859ca04]
+
+**단계 판단: 가동·현장 적용.** 설비 준공을 넘어 생산 개시 또는 상용 운전이 확인됩니다. 이용률과 제품 단위 성과는 후속 운전 데이터로 계속 검증해야 합니다.
+
+- **날짜:** 발표 2026-06-22 · 수집 2026-07-25 · 검증 2026-07-25
+
 ### [[companies/COM-Nippon-Steel|Nippon Steel]]
 
 **확인된 현황.** 10톤/charge 시험 EAF에서 2025년부터 고효율 탈인·탈질 시험; Hirohata 통합 EAF에서 고급강 상업 생산 [^src-20260725-daaeec2b]
@@ -173,6 +201,14 @@ flowchart TB
 **단계 판단: 연구·실증.** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
 
 - **날짜:** 발표 미상 · 수집 2026-07-25 · 검증 2026-07-25
+
+### [[companies/COM-JFE-Steel|JFE Steel]]
+
+**확인된 현황.** Kurashiki에 연 200만 톤 대형 EAF·노외정련·냉철원 물류를 JPY 329.4 billion으로 투자 결정; 2028 회계연도 1분기 생산 목표 [^src-20260725-38762376]
+
+**단계 판단: 계획·투자.** 기업의 방향성과 자원 투입 의지는 확인되지만 실제 설비 성능이나 상용 운전이 입증된 단계는 아닙니다.
+
+- **날짜:** 발표 2025-04-10 · 수집 2026-07-25 · 검증 2026-07-25
 
 ## 관련 프로젝트
 
@@ -182,6 +218,7 @@ flowchart TB
 | --- | --- | --- |
 | **[[projects/PRJ-SORTERA-SCRAP-DECOPPER|Sortera 스크랩 구리 제거 프로젝트]]** | 미국 DOE가 개발·실증 대상으로 선정한 프로젝트이며 준공·상업운전·성능 결과는 공개 출처에서 확인되지 않음 [^src-20260725-34ffe3b8] | - |
 | **[[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]** | 2026-06-17 준공 후 저탄소강 생산 개시 [^src-20260725-b859ca04] | **연간 생산능력** 연간 2,500,000톤 [^src-20260725-b859ca04] · **목표 시운전 시점** 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
+| **[[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]** | 2025-04-10 투자·건설을 결정하고 정부 보조금 승인을 확보한 건설 준비 단계 [^src-20260725-38762376] | **연간 생산능력** 연간 약 2,000,000톤 조강 [^src-20260725-38762376] · **목표 가동 시점** 2028-04 시작 회계연도 1분기 생산 개시 목표 [^src-20260725-38762376] |
 
 ## 기술적 쟁점과 미공개 데이터
 
@@ -214,24 +251,32 @@ flowchart TB
 ## 출처
 
 - [[sources/SRC-20260725-34FFE3B8|DOE selects steel scrap copper-removal and molten sulfide electrolysis projects]] — U.S. Department of Energy, 게시일 미상 · [원문](https://www.energy.gov/cmei/ito/ito-fy23-fy24-high-priority-selections)
+- [[sources/SRC-20260725-38762376|JFE Steel to introduce advanced large-scale EAF at Kurashiki]] — JFE Steel Corporation, 2025-04-10 · [원문](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html)
 - [[sources/SRC-20260725-3DA8B9C7|Sortera Technologies AI sensor sorting platform]] — Sortera Technologies, 게시일 미상 · [원문](https://www.sorteratechnologies.com/technology)
 - [[sources/SRC-20260725-4366E5B1|Finding the Most Efficient Way to Remove Residual Copper from Steel Scrap]] — Springer Nature / Metallurgical and Materials Transactions B, 2019-02-27 · [원문](https://link.springer.com/article/10.1007/s11663-019-01537-9)
 - [[sources/SRC-20260725-7DDD98E7|Image-Segmentation-Guided Fragmentized Steel Scrap Tramp Material Characterization]] — Springer Nature / Journal of Sustainable Metallurgy, 2026-06-24 · [원문](https://link.springer.com/article/10.1007/s40831-026-01569-x)
 - [[sources/SRC-20260725-9DCCDB31|Nippon Steel Carbon Neutral Vision 2050]] — Nippon Steel Corporation, 2021-03-30 · [원문](https://www.nipponsteel.com/en/ir/library/pdf/20210330_ZC.pdf)
 - [[sources/SRC-20260725-9FBEF9C2|Nitrogen Control in Electric Arc Furnace Steelmaking by DRI (TRP 0009)]] — American Iron and Steel Institute / U.S. Department of Energy, 2004-03-31 · [원문](https://www.osti.gov/biblio/840951)
 - [[sources/SRC-20260725-B859CA04|POSCO completes Gwangyang EAF and advances HyREX]] — POSCO Group Newsroom, 2026-06-22 · [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/)
-- [[sources/SRC-20260725-C79793B1|Suppression of Surface Hot Shortness due to Cu in Recycled Steels]] — The Japan Institute of Metals and Materials, 게시일 미상 · [원문](https://www.jstage.jst.go.jp/article/matertrans/43/3/43_3_292/_article)
+- [[sources/SRC-20260725-C79793B1|Suppression of Surface Hot Shortness due to Cu in Recycled Steels]] — The Japan Institute of Metals and Materials, 2002-03-01 · [원문](https://www.jstage.jst.go.jp/article/matertrans/43/3/43_3_292/_article)
 - [[sources/SRC-20260725-C888600A|Tenova for POSCO Gwangyang plant]] — Tenova, 2023-06-07 · [원문](https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant)
 - [[sources/SRC-20260725-D37C44F7|Integrating Metallurgical Mechanisms and Explainable Deep Learning Methods to Predict Phosphorus Content in Electric Arc Furnace Steelmaking for Enhanced Efficiency]] — The Iron and Steel Institute of Japan, 2025-07-15 · [원문](https://www.jstage.jst.go.jp/article/isijinternational/65/8/65_ISIJINT-2024-326/_html/-char/en)
 - [[sources/SRC-20260725-DAAEEC2B|Nippon Steel develops high-grade steel production in large EAFs]] — Nippon Steel, 게시일 미상 · [원문](https://www.nipponsteel.com/en/sustainability/env/climate/future.html)
+- [[sources/SRC-20260725-DED07902|METI Green Steel for GX: Kurashiki EAF]] — Ministry of Economy, Trade and Industry, Japan, 2025-01-23 · [원문](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf)
+- [[sources/SRC-20260726-CEDF7736|Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/e89e02e8-f108-4e65-b52a-939bec855f83/Tomorrows-Steel-Mill-Today-Ternium.pdf)
+- [[sources/SRC-20260726-DEF03677|Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/e771fab2-8303-4f35-b945-bcac8028c804/Evolving-Scrapyard-Intergrating-New-Solutions-Advanced.pdf)
 
 [^src-20260725-34ffe3b8]: **DOE selects steel scrap copper-removal and molten sulfide electrolysis projects** — U.S. Department of Energy, 게시일 미상. [원문](https://www.energy.gov/cmei/ito/ito-fy23-fy24-high-priority-selections) · [[sources/SRC-20260725-34FFE3B8|보관 원문·메타데이터]]
-[^src-20260725-4366e5b1]: **Finding the Most Efficient Way to Remove Residual Copper from Steel Scrap** — Springer Nature / Metallurgical and Materials Transactions B, 2019-02-27. [원문](https://link.springer.com/article/10.1007/s11663-019-01537-9) · [[sources/SRC-20260725-4366E5B1|보관 원문·메타데이터]]
-[^src-20260725-7ddd98e7]: **Image-Segmentation-Guided Fragmentized Steel Scrap Tramp Material Characterization** — Springer Nature / Journal of Sustainable Metallurgy, 2026-06-24. [원문](https://link.springer.com/article/10.1007/s40831-026-01569-x) · [[sources/SRC-20260725-7DDD98E7|보관 원문·메타데이터]]
+[^src-20260725-38762376]: **JFE Steel to introduce advanced large-scale EAF at Kurashiki** — JFE Steel Corporation, 2025-04-10. [원문](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · [[sources/SRC-20260725-38762376|보관 원문·메타데이터]]
+[^src-20260725-4366e5b1]: **Finding the Most Efficient Way to Remove Residual Copper from Steel Scrap** — Springer Nature / Metallurgical and Materials Transactions B, 2019-02-27. DOI: [10.1007/s11663-019-01537-9](https://doi.org/10.1007/s11663-019-01537-9). [원문](https://link.springer.com/article/10.1007/s11663-019-01537-9) · [[sources/SRC-20260725-4366E5B1|보관 원문·메타데이터]]
+[^src-20260725-7ddd98e7]: **Image-Segmentation-Guided Fragmentized Steel Scrap Tramp Material Characterization** — Springer Nature / Journal of Sustainable Metallurgy, 2026-06-24. DOI: [10.1007/s40831-026-01569-x](https://doi.org/10.1007/s40831-026-01569-x). [원문](https://link.springer.com/article/10.1007/s40831-026-01569-x) · [[sources/SRC-20260725-7DDD98E7|보관 원문·메타데이터]]
 [^src-20260725-9dccdb31]: **Nippon Steel Carbon Neutral Vision 2050** — Nippon Steel Corporation, 2021-03-30. [원문](https://www.nipponsteel.com/en/ir/library/pdf/20210330_ZC.pdf) · [[sources/SRC-20260725-9DCCDB31|보관 원문·메타데이터]]
 [^src-20260725-9fbef9c2]: **Nitrogen Control in Electric Arc Furnace Steelmaking by DRI (TRP 0009)** — American Iron and Steel Institute / U.S. Department of Energy, 2004-03-31. [원문](https://www.osti.gov/biblio/840951) · [[sources/SRC-20260725-9FBEF9C2|보관 원문·메타데이터]]
 [^src-20260725-b859ca04]: **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
-[^src-20260725-c79793b1]: **Suppression of Surface Hot Shortness due to Cu in Recycled Steels** — The Japan Institute of Metals and Materials, 게시일 미상. [원문](https://www.jstage.jst.go.jp/article/matertrans/43/3/43_3_292/_article) · [[sources/SRC-20260725-C79793B1|보관 원문·메타데이터]]
+[^src-20260725-c79793b1]: **Suppression of Surface Hot Shortness due to Cu in Recycled Steels** — The Japan Institute of Metals and Materials, 2002-03-01. DOI: [10.2320/matertrans.43.292](https://doi.org/10.2320/matertrans.43.292). [원문](https://www.jstage.jst.go.jp/article/matertrans/43/3/43_3_292/_article) · [[sources/SRC-20260725-C79793B1|보관 원문·메타데이터]]
 [^src-20260725-c888600a]: **Tenova for POSCO Gwangyang plant** — Tenova, 2023-06-07. [원문](https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant) · [[sources/SRC-20260725-C888600A|보관 원문·메타데이터]]
-[^src-20260725-d37c44f7]: **Integrating Metallurgical Mechanisms and Explainable Deep Learning Methods to Predict Phosphorus Content in Electric Arc Furnace Steelmaking for Enhanced Efficiency** — The Iron and Steel Institute of Japan, 2025-07-15. [원문](https://www.jstage.jst.go.jp/article/isijinternational/65/8/65_ISIJINT-2024-326/_html/-char/en) · [[sources/SRC-20260725-D37C44F7|보관 원문·메타데이터]]
+[^src-20260725-d37c44f7]: **Integrating Metallurgical Mechanisms and Explainable Deep Learning Methods to Predict Phosphorus Content in Electric Arc Furnace Steelmaking for Enhanced Efficiency** — The Iron and Steel Institute of Japan, 2025-07-15. DOI: [10.2355/isijinternational.isijint-2024-326](https://doi.org/10.2355/isijinternational.isijint-2024-326). [원문](https://www.jstage.jst.go.jp/article/isijinternational/65/8/65_ISIJINT-2024-326/_html/-char/en) · [[sources/SRC-20260725-D37C44F7|보관 원문·메타데이터]]
 [^src-20260725-daaeec2b]: **Nippon Steel develops high-grade steel production in large EAFs** — Nippon Steel, 게시일 미상. [원문](https://www.nipponsteel.com/en/sustainability/env/climate/future.html) · [[sources/SRC-20260725-DAAEEC2B|보관 원문·메타데이터]]
+[^src-20260725-ded07902]: **METI Green Steel for GX: Kurashiki EAF** — Ministry of Economy, Trade and Industry, Japan, 2025-01-23. [원문](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf) · [[sources/SRC-20260725-DED07902|보관 원문·메타데이터]]
+[^src-20260726-cedf7736]: **Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/e89e02e8-f108-4e65-b52a-939bec855f83/Tomorrows-Steel-Mill-Today-Ternium.pdf) · [[sources/SRC-20260726-CEDF7736|보관 원문·메타데이터]]
+[^src-20260726-def03677]: **Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/e771fab2-8303-4f35-b945-bcac8028c804/Evolving-Scrapyard-Intergrating-New-Solutions-Advanced.pdf) · [[sources/SRC-20260726-DEF03677|보관 원문·메타데이터]]

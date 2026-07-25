@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-279D5ECCDFF9",
+  "subject_id": "PRJ-NUCOR-CONVENT-DRI-CCS",
+  "predicate": "technology_route",
+  "value": "Convent 천연가스 DRI 설비 배출 CO2 포집 → ExxonMobil 수송 → Louisiana 내 ExxonMobil 저장시설 영구저장 계획",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BF5036AE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Convent DRI-CCS 경로 등록",
+      "source_ids": [
+        "SRC-20260725-BF5036AE"
+      ]
+    }
+  ]
+}

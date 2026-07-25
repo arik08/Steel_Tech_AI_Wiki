@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C0A1F3CE9576",
+  "subject_id": "PRJ-TATA-IJMUIDEN-DRP-EAF",
+  "predicate": "equipment_configuration",
+  "value": "Blast Furnace 7과 Coke and Gas Plant 2를 DRP와 EAF로 대체하는 1단계 범위",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E71081D1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-E71081D1"
+      ]
+    }
+  ]
+}

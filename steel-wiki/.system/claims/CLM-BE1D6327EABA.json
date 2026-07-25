@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BE1D6327EABA",
+  "subject_id": "PRJ-NIPPON-HASAKI-H2-DRI",
+  "predicate": "location",
+  "value": "Nippon Steel Hasaki R&D Center, Kamisu, Ibaraki, Japan",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-280A7FAC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Hasaki 위치 등록",
+      "source_ids": [
+        "SRC-20260725-280A7FAC"
+      ]
+    }
+  ]
+}

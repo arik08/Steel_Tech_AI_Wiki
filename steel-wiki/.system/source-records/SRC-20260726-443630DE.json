@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260726-443630DE",
+  "title": "Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach",
+  "url": "https://imis.aist.org/AISTPapers/Abstracts_Only_PDF/PR-389-235.pdf",
+  "canonical_url": "https://imis.aist.org/AISTPapers/Abstracts_Only_PDF/PR-389-235.pdf",
+  "publisher": "Association for Iron & Steel Technology",
+  "published_at": "2025-05-05",
+  "collected_at": "2026-07-26",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "443630de1247cbb536421a630803880ab5c1c6ee5d60d38b4f2815503033e42d",
+  "academic": {
+    "kind": "conference_paper",
+    "authors": [
+      "T. K. Wickham",
+      "E. K. L. Kleynhans",
+      "S. C. Louw",
+      "I. J. Geldenhuys"
+    ],
+    "venue": "AISTech 2025 Conference Proceedings",
+    "doi": "10.33313/389/243",
+    "conference_name": "AISTech 2025",
+    "conference_date": "2025-05-05",
+    "conference_location": "Nashville, Tennessee, USA",
+    "peer_review_status": "unknown"
+  },
+  "raw_sha256": "3cf12903525629ece86489b324ed36635fcd0111ecf2cb410f711a277265ff23",
+  "raw_path": ".system/raw/SRC-20260726-443630DE.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

@@ -3,7 +3,7 @@
   "subject_id": "COM-Tata-Steel",
   "predicate": "electric_smelting_furnace_status",
   "value": "EASyMelt electric-assisted syngas smelter 공동 산업 실증을 위한 MoU 단계; 완료 실증은 미확인",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2026-07-25",
   "last_verified": "2026-07-25",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260725-6B30EDDE"
       ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "2026-04-21 확정 계약은 2023 MoU 단계보다 최신이고 실행 의사 수준이 상향되어 기존 상태를 대체함"
     }
-  ]
+  ],
+  "superseded_by": "CLM-717B360D107E"
 }

@@ -46,7 +46,7 @@
 ‘무펠릿’은 모든 조립을 금지한다는 뜻이 아닙니다. Circored는 통상적인 DR 펠릿을 생략하지만 50 μm 이하 초미분을 바인더와 함께 미세 조립할 수 있습니다. 또한 HYFOR·HyREX의 다단 유동층과 Circored의 순환·기포 유동층은 반응기 구성과 운전창이 다르므로 동일 공정으로 합산하지 않습니다.
 
 - **근거 확인 기업:** 3개
-- **직접 연결 근거:** 9건
+- **직접 연결 근거:** 11건
 
 ## 작동 원리
 
@@ -97,13 +97,14 @@ flowchart TB
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
+| **공정 구성** | 발표는 FINEX·HyREX형 유동층이 소결·펠릿화 없이 분광을 사용할 수 있지만 유동화를 위해 광석 대비 큰 수소 유량이 필요하다고 설명했다. 이는 발표자의 공정 해설이며 HyREX 상업 성능 검증은 아니다. [^src-20260726-eadb3777] | 학회 발표 |
 | **건조·예열·산화** | HYFOR는 미분광을 800°C 이상에서 예열·산화하고, 파일럿 설명에서는 약 900°C 예열 후 환원함 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **유동화 방식** | HYFOR·HyREX는 다단 유동층 캐스케이드, Circored는 순환 유동층과 기포 유동층을 조합 [^src-20260725-6f7c35d8] | 설비 공급사 |
 | **유동층 단계 구성** | HYFOR는 가스 정제·가열 계통과 연결된 일련의 유동층 반응기에서 단계적으로 환원 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **환원가스 재순환** | HYFOR는 반응 후 가스를 정제해 공정으로 재순환하는 폐회로 환원가스 계통을 사용 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **분진 회수·재순환** | HYFOR 파일럿은 건식 집진으로 회수한 분진을 공정에 재투입하도록 구성 [^src-20260725-bc8de092] | 설비 공급사 |
-| **고착 발생 메커니즘** | 환원 중 생성된 금속철 표면과 철 whisker가 입자 사이 결합을 만들어 유동층 탈유동화를 일으킬 수 있음 [^src-20260725-043634ea] | 학술 연구 |
-| **고착 억제 수단** | 고착 완화 수단은 표면 코팅, 광석 혼합, 조립, 단계환원, 순환·원추형 유동층, 기계적 교반과 입자 구조 제어를 포함 [^src-20260725-043634ea] | 학술 연구 |
+| **고착 발생 메커니즘** | 환원 중 생성된 금속철 표면과 철 whisker가 입자 사이 결합을 만들어 유동층 탈유동화를 일으킬 수 있음 [^src-20260725-043634ea] | 학술지 논문 |
+| **고착 억제 수단** | 고착 완화 수단은 표면 코팅, 광석 혼합, 조립, 단계환원, 순환·원추형 유동층, 기계적 교반과 입자 구조 제어를 포함 [^src-20260725-043634ea] | 학술지 논문 |
 
 ### 원료·운전·제품
 
@@ -111,14 +112,15 @@ flowchart TB
 | --- | --- | --- |
 | **적용 원료** | HYFOR는 입자 크기 0.15 mm 미만의 철광석 농축분을 100% 사용할 수 있도록 설계됨 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **제품 형태** | HYFOR의 고온 미분 DRI는 약 600°C로 배출되며 HBI 압축 또는 용융설비 직결이 가능 [^src-20260725-a23b5a64] | 설비 공급사 |
+| **원료 품질 요구** | 다단 수소환원 발표는 맥석 증가가 최종 환원도 저하 및 fayalite 같은 난환원상 형성과 연결될 수 있다고 결론냈다. [^src-20260726-eadb3777] | 학회 발표 |
 | **원료 입도 범위** | HYFOR 기준 0.15 mm 미만; Circored 기준 통상 0.1~2.0 mm이며 열적 파쇄 조건에 따라 최대 6 mm까지 검토 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **초미분 처리** | Circored는 50 μm 미만 초미분을 바인더와 함께 평균 0.5 mm 미만으로 미세조립할 수 있음 [^src-20260725-6f7c35d8] | 설비 공급사 |
 | **환원 온도** | Circored는 철 고착을 피하기 위해 수소 환원을 700°C 미만에서 수행하도록 설계 [^src-20260725-6f7c35d8] | 설비 공급사 |
 | **단계별 환원도** | Circored의 첫 순환 유동층에서 최대 약 80%, 후단 기포 유동층에서 95% 초과 금속화를 목표 [^src-20260725-6f7c35d8] | 설비 공급사 |
-| **비산·입자 손실 위험** | 미립자 비산은 유동층의 철 손실·집진 부하·입도별 체류시간 편차를 만드는 핵심 운전 위험 [^src-20260725-043634ea] | 학술 연구 |
-| **가스속도 상충관계** | 가스속도를 높이면 입자 접촉·고착을 줄일 수 있으나 가스 이용률 저하와 에너지·비산 부담이 증가할 수 있음 [^src-20260725-043634ea] | 학술 연구 |
-| **광석 품위·맥석 영향** | 광석 품위와 맥석 조성은 철 핵생성·whisker·입자 표면을 통해 고착과 환원 거동에 영향을 줌 [^src-20260725-043634ea] | 학술 연구 |
-| **입자 형상·표면 영향** | 입자 크기뿐 아니라 형상·표면 구조와 환원 중 생성철의 형태가 고착 성향을 좌우함 [^src-20260725-043634ea] | 학술 연구 |
+| **비산·입자 손실 위험** | 미립자 비산은 유동층의 철 손실·집진 부하·입도별 체류시간 편차를 만드는 핵심 운전 위험 [^src-20260725-043634ea] | 학술지 논문 |
+| **가스속도 상충관계** | 가스속도를 높이면 입자 접촉·고착을 줄일 수 있으나 가스 이용률 저하와 에너지·비산 부담이 증가할 수 있음 [^src-20260725-043634ea] | 학술지 논문 |
+| **광석 품위·맥석 영향** | 광석 품위와 맥석 조성은 철 핵생성·whisker·입자 표면을 통해 고착과 환원 거동에 영향을 줌 [^src-20260725-043634ea] | 학술지 논문 |
+| **입자 형상·표면 영향** | 입자 크기뿐 아니라 형상·표면 구조와 환원 중 생성철의 형태가 고착 성향을 좌우함 [^src-20260725-043634ea] | 학술지 논문 |
 | **압축·브리켓 필요성** | Circored는 환원철을 HBI로 압축하는 경로와 뜨거운 DRI를 직접 용융하는 경로를 모두 제시 [^src-20260725-6f7c35d8] | 설비 공급사 |
 | **고온 환원철 이송** | HyREX 포항 실증 공급범위에는 유동층에서 전기용융로까지 고온 DRI를 운반하는 설비가 포함 [^src-20260725-bab49577] | 설비 공급사 |
 | **후단 제품 처리** | 저품위 미분광 Circored 경로는 약 85% 금속화 후 전기용융로에서 용선과 슬래그로 분리하는 구성을 제시 [^src-20260725-6f7c35d8] | 설비 공급사 |
@@ -128,7 +130,7 @@ flowchart TB
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **공개 개발 단계** | HYFOR는 파일럿 운전, HY4SMELT와 POSCO HyREX는 통합 실증 설비 건설·준비 단계 [^src-20260725-e316d68f] | 설비 공급사 |
-| **상용 규모 확대 조건** | 상업화에는 장기 압력강하 안정성, 고착·분진·사이클론 마모, 가스정제와 고온 DRI-ESF 통합 가동률 검증이 필요 [^src-20260725-043634ea] | 학술 연구 |
+| **상용 규모 확대 조건** | 상업화에는 장기 압력강하 안정성, 고착·분진·사이클론 마모, 가스정제와 고온 DRI-ESF 통합 가동률 검증이 필요 [^src-20260725-043634ea] | 학술지 논문 |
 | **상용화 모델** | Circored 표준 설계는 단일 라인 연 125만 톤 규모를 제시하지만 현재 상업 운전 실적과는 구분해야 함 [^src-20260725-6f7c35d8] | 설비 공급사 |
 | **과거 실증 이력** | Trinidad Circored 실증은 1999년 가동을 시작해 수개월 동안 30만 톤을 넘는 HBI를 생산했다고 공급사가 보고 [^src-20260725-6f7c35d8] | 설비 공급사 |
 | **파일럿 회분 투입량** | HYFOR 2021년 초기 시험은 시험 회당 약 800 kg의 광석을 사용 [^src-20260725-bc8de092] | 설비 공급사 |
@@ -145,6 +147,7 @@ flowchart TB
 | 2024-09-19 | Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant [^src-20260725-bab49577] |
 | 2025-09-25 | Construction begins on HYFOR and Smelter demonstration plant [^src-20260725-e316d68f] |
 | 2025-10-29 | POSCO decarbonization strategies from CCUS to HyREX [^src-20260725-ff076fe4] |
+| 2026-03-11 | Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction [^src-20260726-eadb3777] |
 | 2026-06-22 | POSCO completes Gwangyang EAF and advances HyREX [^src-20260725-b859ca04] |
 
 ## 설비·공정 이미지
@@ -224,6 +227,7 @@ flowchart TB
 
 ## 출처
 
+- [[sources/SRC-20260725-013F0FA1|HyREX Hydrogen Reduction Ironmaking]] — POSCO, 게시일 미상 · [원문](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/)
 - [[sources/SRC-20260725-043634EA|A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore]] — The Iron and Steel Institute of Japan, 2020-01-15 · [원문](https://www.jstage.jst.go.jp/article/isijinternational/60/1/60_ISIJINT-2019-392/_html/-char/en)
 - [[sources/SRC-20260725-6F7C35D8|Circored Fine Ore Direct Reduction]] — Metso Outotec, 게시일 미상 · [원문](https://www.metso.com/globalassets/pdfs-and-other-downloads/circored---fine-ore-direct-reduction.pdf?r=3)
 - [[sources/SRC-20260725-A23B5A64|HYFOR: Hydrogen-Based Fine-Ore Reduction]] — Primetals Technologies, 게시일 미상 · [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/)
@@ -233,8 +237,9 @@ flowchart TB
 - [[sources/SRC-20260725-BC8DE092|HYFOR Pilot Plant Under Operation]] — Primetals Technologies, 2021-06-24 · [원문](https://www.primetals.com/en/news/hyfor-pilot-plant-under-operation-the-next-step-for-carbon-free-hydrogen-based-direct-reduction-is-done/)
 - [[sources/SRC-20260725-E316D68F|Construction begins on HYFOR and Smelter demonstration plant]] — Primetals Technologies, 2025-09-25 · [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf)
 - [[sources/SRC-20260725-FF076FE4|POSCO decarbonization strategies from CCUS to HyREX]] — POSCO Group Newsroom, 2025-10-29 · [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/)
+- [[sources/SRC-20260726-EADB3777|Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction]] — Association for Iron & Steel Technology, 2026-03-11 · [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf)
 
-[^src-20260725-043634ea]: **A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore** — The Iron and Steel Institute of Japan, 2020-01-15. [원문](https://www.jstage.jst.go.jp/article/isijinternational/60/1/60_ISIJINT-2019-392/_html/-char/en) · [[sources/SRC-20260725-043634EA|보관 원문·메타데이터]]
+[^src-20260725-043634ea]: **A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore** — The Iron and Steel Institute of Japan, 2020-01-15. DOI: [10.2355/isijinternational.isijint-2019-392](https://doi.org/10.2355/isijinternational.isijint-2019-392). [원문](https://www.jstage.jst.go.jp/article/isijinternational/60/1/60_ISIJINT-2019-392/_html/-char/en) · [[sources/SRC-20260725-043634EA|보관 원문·메타데이터]]
 [^src-20260725-6f7c35d8]: **Circored Fine Ore Direct Reduction** — Metso Outotec, 게시일 미상. [원문](https://www.metso.com/globalassets/pdfs-and-other-downloads/circored---fine-ore-direct-reduction.pdf?r=3) · [[sources/SRC-20260725-6F7C35D8|보관 원문·메타데이터]]
 [^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 [^src-20260725-a6759186]: **POSCO HyREX electric smelting furnace pilot status** — POSCO Group Newsroom, 2024-09-11. [원문](https://newsroom.posco.com/en/world-climate-industry-expo-2024-checking-posco-groups-carbon-reduction-capabilities/) · [[sources/SRC-20260725-A6759186|보관 원문·메타데이터]]
@@ -243,3 +248,4 @@ flowchart TB
 [^src-20260725-bc8de092]: **HYFOR Pilot Plant Under Operation** — Primetals Technologies, 2021-06-24. [원문](https://www.primetals.com/en/news/hyfor-pilot-plant-under-operation-the-next-step-for-carbon-free-hydrogen-based-direct-reduction-is-done/) · [[sources/SRC-20260725-BC8DE092|보관 원문·메타데이터]]
 [^src-20260725-e316d68f]: **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
 [^src-20260725-ff076fe4]: **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29. [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
+[^src-20260726-eadb3777]: **Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction** — Association for Iron & Steel Technology, 2026-03-11. [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf) · [[sources/SRC-20260726-EADB3777|보관 원문·메타데이터]]

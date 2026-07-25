@@ -2,7 +2,7 @@
 
 # 마이크로웨이브·바이오매스 환원제철 (BioIron)
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-26** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 환원·용융 경로"
 
@@ -47,7 +47,7 @@
 이 문서는 Rio Tinto BioIron의 공개 특허·독일 소형 파일럿과 건설이 중단된 서호주 1 t/h 선형 노상로 설계를 중심으로 다룹니다. 바이오차를 기존 고로·소결·EAF에 일부 대체 투입하는 일반 바이오매스 활용과, 마이크로웨이브 용융로 자체는 별도 기술입니다.
 
 - **근거 확인 기업:** 1개
-- **직접 연결 근거:** 8건
+- **직접 연결 근거:** 9건
 
 ## 작동 원리
 
@@ -103,6 +103,7 @@ flowchart TB
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **작동 원리** | 철광석과 바이오매스가 마이크로웨이브를 흡수해 내부 발열하고 바이오매스 열분해 가스와 고정탄소가 산화철을 환원 [^src-20260725-d965f782] | 특허 |
+| **학회 공개 공정 구성** | 2023 AIST 발표 공정: 미분광·flux·raw biomass green briquette → 600°C 초과 예열·사전환원 → microwave metallisation → electric melter gangue 제거 [^src-20260726-7a19874f] | 학회 발표 |
 | **노형·전극 구성** | 예열·사전환원 구역과 마이크로웨이브 구역으로 나뉜 연속 선형 노상로 설계 [^src-20260725-e5cfe77a] | 인허가 자료 |
 | **노 구역 구성** | 전단 재래식 가열 예열·사전환원부와 후단 마이크로웨이브 고금속화부의 2구역 구성 [^src-20260725-e5cfe77a] | 인허가 자료 |
 | **선형 노상 이송** | 브리켓을 노상을 따라 연속 이송하고 구역 사이 모터 구동 컴팩터 롤로 층고를 고르게 유지 [^src-20260725-e5cfe77a] | 인허가 자료 |
@@ -118,6 +119,7 @@ flowchart TB
 | --- | --- | --- |
 | **운전 온도** | 특허 청구 범위의 hematite 금속화 온도 800~950°C; 설명 실시형태는 최대 1100°C 범위를 제시 [^src-20260725-d965f782] | 특허 |
 | **적용 원료** | Pilbara 철광석 미분, 바이오매스, 석회석·돌로마이트·마그네사이트계 플럭스와 소량 흑연 첨가제 [^src-20260725-e5cfe77a] | 인허가 자료 |
+| **학술 검증 원료 범위** | 2023 AIST 발표는 agricultural·aquatic·forestry residue biomass 시험과 Pilbara fines 적용을 회사 연구 범위로 공개 [^src-20260726-7a19874f] | 학회 발표 |
 | **제품 형태** | 마이크로웨이브 구역에서 생산되는 고금속화 탄소함유 DRI; 후단 HBI 또는 용선·강으로 전환 필요 [^src-20260725-e5cfe77a] | 인허가 자료 |
 | **부산물** | CO·미연탄화수소·타르 가능 성분·분진·슬래그 및 바이오매스 회분 [^src-20260725-e5cfe77a] | 인허가 자료 |
 | **바이오매스 역할** | 바이오매스는 주 환원제이며 열분해 가스의 연소열도 예열·사전환원에 이용 가능 [^src-20260725-e5cfe77a] | 인허가 자료 |
@@ -165,6 +167,7 @@ flowchart TB
 | 날짜 | 공개 사건 |
 | --- | --- |
 | 2022-11-23 | Rio Tinto BioIron proves successful for low-carbon iron-making [^src-20260725-4c776b11] |
+| 2023-03-08 | Rio Tinto Steel Decarbonisation and Biomass Ironmaking [^src-20260726-7a19874f] |
 | 2023-12-06 | Introduction to BioIron - Investor Seminar 2023 [^src-20260725-aee7865a] |
 | 2024-04-16 | US11959153B2 Production of iron [^src-20260725-d965f782] |
 | 2024-06-04 | Rio Tinto develops BioIron R&D facility in Western Australia [^src-20260725-f1d3edea] |
@@ -240,6 +243,7 @@ flowchart TB
 - [[sources/SRC-20260725-D965F782|US11959153B2 Production of iron]] — United States Patent and Trademark Office / Google Patents, 2024-04-16 · [원문](https://patents.google.com/patent/US11959153B2/en)
 - [[sources/SRC-20260725-E5CFE77A|BioIron Pilot Plant Works Approval W6964/2024/1 Decision Report]] — Western Australia Department of Water and Environmental Regulation, 2025-07-28 · [원문](https://www.der.wa.gov.au/images/documents/our-work/licences-and-works-approvals/Decisions_/W6964/W6964%2028-07-2025%20DR.pdf)
 - [[sources/SRC-20260725-F1D3EDEA|Rio Tinto develops BioIron R&D facility in Western Australia]] — Rio Tinto, 2024-06-04 · [원문](https://www.riotinto.com/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-low-carbon-steelmaking)
+- [[sources/SRC-20260726-7A19874F|Rio Tinto Steel Decarbonisation and Biomass Ironmaking]] — Rio Tinto / Association for Iron & Steel Technology, 2023-03-08 · [원문](https://www.aist.org/AIST/aist/AIST/Conferences_Exhibitions/Training_Seminars/Scrap%20Files/18-Leigh-and-Buckley.pdf)
 
 [^src-20260725-32ea9484]: **Decarbonising the steel value chain 2024** — Rio Tinto, 2024-12-31. [원문](https://www.riotinto.com/-/media/content/documents/sustainability/climate-change/decarbonising-steel-value-chain-2024.pdf?rev=b75e4ed6640c46a593c6c9b9abcca0cc) · [[sources/SRC-20260725-32EA9484|보관 원문·메타데이터]]
 [^src-20260725-4c776b11]: **Rio Tinto BioIron proves successful for low-carbon iron-making** — Rio Tinto, 2022-11-23. [원문](https://www.riotinto.com/en/news/releases/2022/rio-tintos-bioiron-proves-successful-for-low-carbon-iron-making) · [[sources/SRC-20260725-4C776B11|보관 원문·메타데이터]]
@@ -249,3 +253,4 @@ flowchart TB
 [^src-20260725-d965f782]: **US11959153B2 Production of iron** — United States Patent and Trademark Office / Google Patents, 2024-04-16. [원문](https://patents.google.com/patent/US11959153B2/en) · [[sources/SRC-20260725-D965F782|보관 원문·메타데이터]]
 [^src-20260725-e5cfe77a]: **BioIron Pilot Plant Works Approval W6964/2024/1 Decision Report** — Western Australia Department of Water and Environmental Regulation, 2025-07-28. [원문](https://www.der.wa.gov.au/images/documents/our-work/licences-and-works-approvals/Decisions_/W6964/W6964%2028-07-2025%20DR.pdf) · [[sources/SRC-20260725-E5CFE77A|보관 원문·메타데이터]]
 [^src-20260725-f1d3edea]: **Rio Tinto develops BioIron R&D facility in Western Australia** — Rio Tinto, 2024-06-04. [원문](https://www.riotinto.com/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-low-carbon-steelmaking) · [[sources/SRC-20260725-F1D3EDEA|보관 원문·메타데이터]]
+[^src-20260726-7a19874f]: **Rio Tinto Steel Decarbonisation and Biomass Ironmaking** — Rio Tinto / Association for Iron & Steel Technology, 2023-03-08. [원문](https://www.aist.org/AIST/aist/AIST/Conferences_Exhibitions/Training_Seminars/Scrap%20Files/18-Leigh-and-Buckley.pdf) · [[sources/SRC-20260726-7A19874F|보관 원문·메타데이터]]

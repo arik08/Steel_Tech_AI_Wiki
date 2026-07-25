@@ -14,5 +14,18 @@
   "raw_path": ".system/raw/SRC-20260725-DB8169D9.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Daniel Ernst",
+      "Ubaid Manzoor",
+      "Isnaldi Rodrigues Souza Filho",
+      "Michael Andreas Zarl",
+      "Johannes Schenk"
+    ],
+    "venue": "Metals",
+    "doi": "10.3390/met13030558",
+    "peer_review_status": "peer_reviewed"
+  }
 }

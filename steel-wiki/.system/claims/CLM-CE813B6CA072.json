@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CE813B6CA072",
+  "subject_id": "PRJ-TK-H2STEEL-DUISBURG",
+  "predicate": "state_aid_amount",
+  "value": "EU 승인 기준 직접보조 최대 EUR 550 million과 재생수소 전환 지원 최대 EUR 1.45 billion",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-9A98E2AF"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "단일 출처 핵심 프로젝트 독립 근거 보강",
+      "source_ids": [
+        "SRC-20260725-9A98E2AF"
+      ]
+    }
+  ]
+}

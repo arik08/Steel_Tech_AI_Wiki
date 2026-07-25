@@ -6,12 +6,17 @@
 
 !!! info "마지막 성공 조사"
 
-    **2026-07-25 15:25** 기준 · 최근 성공 조사 **5건** 기록
+    **2026-07-26 01:02** 기준 · 최근 성공 조사 **10건** 기록
 
 ## 최근 조사 실행
 
 | 완료 시각 | 조사 범위 | 반영 결과 |
 |---|---|---|
+| 2026-07-26 01:02 | 11개 감시 기술의 논문·학회 근거 커버리지 감사, 기존 학술 메타데이터 보강 및 공식 원문 기반 공백 보완 | 신규 Source 14 · 신규 Claim 26 · 검토 대기 0 · 접근 실패 1 |
+| 2026-07-25 23:42 | POSCO·HyREX 대표 이미지의 공정 형상 오류를 공식 POSCO 공정도로 교정 | 신규 Source 1 · 신규 Claim 2 |
+| 2026-07-25 23:18 | 다른 기술·프로젝트의 설비 사진이 대표 이미지와 갤러리에 반복 승격되는 문제 수정 | Source 3 · Claim 0 |
+| 2026-07-25 22:45 | 골격 수준 프로젝트, 회사별 누락 프로젝트, 단일 출처 핵심 프로젝트와 기술-프로젝트 연결 보강 | 신규 Source 10 · 신규 Claim 84 · 검토 대기 0 · 접근 실패 1 |
+| 2026-07-25 22:07 | 회사별 상세 문서에서 프로젝트 정보가 비어 있던 3개 기업의 공식 프로젝트 근거 보강 | 신규 Source 9 · 신규 Claim 50 · 검토 대기 0 |
 | 2026-07-25 15:25 | 백과사전형 기술 문서 시범 구축 · low-temperature aqueous iron electrolysis | 신규 Source 3 · 신규 Claim 7 · 검토 대기 0 |
 | 2026-07-25 15:03 | future-steel-wiki-ingest | 신규 Source 7 · 신규 Claim 16 · 검토 대기 0 |
 | 2026-07-25 14:57 | future-steel-technology-sensing | 신규 Source 0 · 신규 Claim 0 |
@@ -27,6 +32,21 @@
 | 2027-12-31 | [[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]] | 목표 시운전 시점 | 신규 등록 | 2027년 시운전 개시 목표 · 현재 유효 | [[sources/SRC-20260725-8D0BD4B8|근거 보기]] |
 | 2027-12-31 | [[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]] | 수소망 연결 목표 | 신규 등록 | 2027년 지역 수소망 연결 계획 · 현재 유효 | [[sources/SRC-20260725-8D0BD4B8|근거 보기]] |
 | 2026-12-31 | [[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]] | 기존 시운전 목표 | 신규 등록 | 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 · 과거 계획 기록 | [[sources/SRC-20260725-C925BF86|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]] | 학술 검증 원료 범위 | 신규 등록 | 2023 AIST 발표는 agricultural·aquatic·forestry residue biomass 시험과 Pilbara fines 적용을 회사 연구 범위로 공개 · 현재 유효 | [[sources/SRC-20260726-7A19874F|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]] | 학회 공개 공정 구성 | 신규 등록 | 2023 AIST 발표 공정: 미분광·flux·raw biomass green briquette → 600°C 초과 예열·사전환원 → microwave metallisation → electric melter gangue 제거 · 현재 유효 | [[sources/SRC-20260726-7A19874F|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | 학술 검증 원료 범위 | 신규 등록 | 2023 학술 연구에서 혼합 hematite-magnetite 알칼리 현탁액의 저온 전해채취를 연구 규모로 검증 · 현재 유효 | [[sources/SRC-20260726-B9ACCB8F|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | 학술 실험 조건 | 신규 등록 | 2015 전도성 콜로이드 전극 실험: 45 wt% NaOH, 110 °C, 1.7 V, 5시간 전해 · 현재 유효 | [[sources/SRC-20260726-3F53AC8C|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | 학술 검토 기술 범위 | 신규 등록 | RawMat 2021 학회 논문은 SIDERWIN의 저온 알칼리 철 전해채취 경로와 bauxite residue 적용 연구를 공개 · 현재 유효 | [[sources/SRC-20260726-7BCEED6F|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | 지역별 경로 의존성 | 신규 등록 | 2025 종설은 스크랩·광석 품질, 저탄소 전력·수소, 물류·정책의 지역차 때문에 단일 보편 경로가 없다고 평가 · 현재 유효 | [[sources/SRC-20260726-6AADACF1|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | 경로 공통 제약 | 신규 등록 | 학술 종설이 공통 제약으로 저탄소 전력·수소 공급, 광석 품위, 스크랩 Cu 축적, 공정 열, 전해 셀 스케일업을 지적 · 현재 유효 | [[sources/SRC-20260726-10602BC9|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | 학술 검토 기술 범위 | 신규 등록 | 2024 종설은 수소 직접환원·수소 플라즈마/용융·암모니아 환원·수계/용융산화물 전해·바이오카본 EAF를 저탄소 후보군으로 검토 · 현재 유효 | [[sources/SRC-20260726-10602BC9|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] | 스케일업 검토 방법 | 신규 등록 | AISTech 2025 논문은 산업 최종 요구조건을 소규모 시험 설계에 반복 반영하는 scenario-based requirements engineering을 제안 · 현재 유효 | [[sources/SRC-20260726-443630DE|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] | 공개 스케일업 근거 공백 | 신규 등록 | AISTech 2025 논문은 산업 규모 HPSR의 예비 techno-economic·commercial feasibility 공개 연구가 부족하다고 명시 · 현재 유효 | [[sources/SRC-20260726-443630DE|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] | 학회 저자 단계 평가 | 신규 등록 | AISTech 2025 논문 저자들은 HPSR을 TRL 5로 평가했으며 공식 프로젝트 인증과 구분 필요 · 현재 유효 | [[sources/SRC-20260726-443630DE|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] | EAF 연계 | 검토 후 공존 | Tenova의 AIST 2026 발표는 건설 중인 Ternium Pesquería 3단계를 DRI–EAF–LF–RH-OB 통합 라인으로 제시하고, 2.1 Mt/y DRI·1.5 Mt/y 스크랩·2.6 Mt/y 슬래브 구성을 보고했다. 수치는 공급사 보고이며 달성 생산량이 아니다. · 현재 유효 | [[sources/SRC-20260726-CEDF7736|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] | EAF 연계 | 공존 확인 | 0%C 수소 DRI를 EAF에서 녹일 때는 FeO 환원, 용강 교반, 슬래그 포밍과 화학에너지를 위해 별도 탄소·산소·불활성가스 또는 조업·설비 변경이 필요할 수 있다. · 현재 유효 | [[sources/SRC-20260725-45CF187D|근거 보기]] |
+| 2026-07-26 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | 원료 품위별 용융로 선택 | 신규 등록 | AISTech 2024 논문 초록은 고품위 DRI·낮은 slag량에는 EAF, 저품위 DRI·높은 gangue에는 별도 smelter가 필요하다고 구분 · 현재 유효 | [[sources/SRC-20260726-E01E47B8|근거 보기]] |
+| 2026-07-26 | [[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]] | 학회 발표 당시 파일럿 계획 | 신규 등록 | 2023-03-08 AIST 발표 당시 1 t/h 연속 파일럿 상세설계 진행 계획 · 과거 계획 기록 | [[sources/SRC-20260726-7A19874F|근거 보기]] |
 | 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 검증·검정·불확도 정량화 | 신규 등록 | 데이터, 모델과 트윈 결과에 대해 verification·validation·uncertainty quantification을 수행해 목적 적합성과 신뢰도를 입증 · 현재 유효 | [[sources/SRC-20260725-30A4249E|근거 보기]] |
 | 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 데이터·결정 추적성 | 신규 등록 | 공정 데이터와 제품·설비 이력을 연결해 이상 진단, 원인 추적과 품질 계보를 지원 · 현재 유효 | [[sources/SRC-20260725-28E5A30F|근거 보기]] |
 | 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 기술 정의 | 신규 등록 | 물리 제조공정의 실시간 데이터와 목적 적합한 모델을 지속 동기화해 상태를 추정·예측하고, 검증된 결과를 사람 또는 제어계의 의사결정에 연결하는 운영 체계 · 현재 유효 | [[sources/SRC-20260725-30A4249E|근거 보기]] |
@@ -57,21 +77,6 @@
 | 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 운전 온도 | 신규 등록 | Boston Metal의 고온 MOE Steel 경로는 약 1,600°C에서 운전한다. · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
 | 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 저온 학술 변형 온도 | 신규 등록 | 서울대의 B2O3-Na2O 저온 MOE 실험은 1173 K(900°C)에서 수행됐다. · 현재 유효 | [[sources/SRC-20260725-1486633E|근거 보기]] |
 | 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 필요 인프라 | 신규 등록 | UNIDO·Agora 시나리오는 MOE 조강 1톤당 12.4–14.8 GJ의 전력을 가정하며, 대규모 저탄소 전력 공급과 저장·계통 인프라가 필요할 수 있다. · 현재 유효 | [[sources/SRC-20260725-4E9EE842|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 적용 원료 | 신규 등록 | Boston Metal은 모든 등급의 철광석을 직접 투입할 수 있고 소결·펠릿화 전처리를 생략할 수 있다고 설명한다. · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 전력원단위 추정 | 신규 등록 | 성숙 설비를 가정한 문헌 추정치는 2.89–4.45 kWh/kg-Fe이며, 별도 모델은 약 4.7–4.78 kWh/kg-Fe를 제시한다. · 현재 유효 | [[sources/SRC-20260725-1AD87D2B|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 배출 경계 | 신규 등록 | Boston Metal은 재생전력을 사용할 경우 탄소 환원제 없이 공정에서 직접 CO2를 발생시키지 않는다고 설명한다. 전력 공급망 배출은 이 주장과 별도로 평가해야 한다. · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 경제성 평가 | 신규 등록 | UNIDO·Agora의 2050 시나리오는 MOE 생산비를 조강 톤당 582–766달러로 추정한다. 상업 실측 원가가 아닌 모델 값이다. · 현재 유효 | [[sources/SRC-20260725-4E9EE842|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 후단 활용 | 신규 등록 | 출선한 액체 철은 래들 정련으로 직접 이송할 수 있다. · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 공개 개발 단계 | 신규 등록 | 2025년 Boston Metal Woburn의 다중 불활성 양극 산업 셀에서 톤 단위 철 출선이 확인됐으나, 별도의 제철 실증 플랜트는 향후 단계로 제시됐다. · 현재 유효 | [[sources/SRC-20260725-3C2197EF|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 전류효율 | 신규 등록 | 1.6 V 저온 MOE 실험에서 시약 산화철의 전류 효율은 공기 중 65.50–68.72%, Ar 중 67.49–78.56%였고, 철광석 시료는 공기 중 64.14–67.58%였다. · 현재 유효 | [[sources/SRC-20260725-1486633E|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 총괄 반응 | 재검증 | Fe2O3를 전기분해해 2Fe와 3/2 O2로 분리하며, 음극에서 Fe3+가 전자를 받아 철이 되고 양극에서 산화물 이온이 산소를 방출한다. · 현재 유효 | [[sources/SRC-20260725-CEDC4521|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 총괄 반응 | 신규 등록 | Fe2O3를 전기분해해 2Fe와 3/2 O2로 분리하며, 음극에서 Fe3+가 전자를 받아 철이 되고 양극에서 산화물 이온이 산소를 방출한다. · 현재 유효 | [[sources/SRC-20260725-CEDC4521|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 상용화 모델 | 신규 등록 | Boston Metal은 철강사에 MOE 기술을 라이선스하고 핵심 금속 불활성 양극을 공급하는 사업 모델을 제시한다. · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 전해 셀 구성 | 신규 등록 | 용융 산화물 전해질에 불활성 양극을 담그고 셀 바닥의 액체 철 풀을 음극이자 제품 수집부로 사용하는 전해 셀이다. · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 연속운전 결과 | 신규 등록 | DOE 프로젝트에서 10 kg 철 생산과 산소 발생을 확인했지만, 100 kg을 1주 동안 생산하려던 내구 캠페인은 생산량과 기간 모두 목표에 미달했다. · 현재 유효 | [[sources/SRC-20260725-CEDC4521|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 부산물 | 신규 등록 | 불활성 양극에서 산소 가스가 발생한다. · 현재 유효 | [[sources/SRC-20260725-CEDC4521|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 양극 재료 | 신규 등록 | Cr 기반 합금 불활성 양극은 전도성 Cr(III)-Al 산화물 보호층을 형성해 제한된 소모로 산소를 발생시킬 수 있다. · 현재 유효 | [[sources/SRC-20260725-147875E9|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 양극 내구성 | 신규 등록 | Ir 양극 소모는 고-CaO 염기성 전해질에서 고-SiO2 산성 전해질보다 약 20배 높게 측정되어, 전해질 조성이 양극 수명을 크게 좌우한다. · 현재 유효 | [[sources/SRC-20260725-1A6AFBF8|근거 보기]] |
 
 !!! note "표를 읽는 법"
 

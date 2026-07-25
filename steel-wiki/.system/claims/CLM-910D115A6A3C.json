@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-910D115A6A3C",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "independent_government_validation",
+  "value": "Swedish Energy Agency 2024 전환 분석이 2018~2024 파일럿 완료와 수소 생산·저장 및 DRI-EAF 통합 조업 성과를 독립 요약",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C4A8EDA3"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "단일 출처 핵심 프로젝트 독립 근거 보강",
+      "source_ids": [
+        "SRC-20260725-C4A8EDA3"
+      ]
+    }
+  ]
+}

@@ -14,5 +14,21 @@
   "raw_path": ".system/raw/SRC-20260725-31725163.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Shabnam Sabah",
+      "Ujwal Kudaru",
+      "Geoffrey Brooks",
+      "M. Akbar Rhamdhani",
+      "Kwaku Owusu",
+      "Banty Kumar",
+      "Chunlin Chen",
+      "Adrien Guiraud"
+    ],
+    "venue": "Journal of Sustainable Metallurgy",
+    "doi": "10.1007/s40831-026-01459-2",
+    "peer_review_status": "peer_reviewed"
+  }
 }

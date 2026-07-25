@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E53FA25605EB",
+  "subject_id": "PRJ-TK-H2STEEL-DUISBURG",
+  "predicate": "original_target_start_date",
+  "value": "2023년 EU 승인 당시 2026년 가동 가정; 최신 회사 일정은 2027년 시운전 개시로 변경",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-9A98E2AF"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "단일 출처 핵심 프로젝트 독립 근거 보강",
+      "source_ids": [
+        "SRC-20260725-9A98E2AF"
+      ]
+    }
+  ]
+}

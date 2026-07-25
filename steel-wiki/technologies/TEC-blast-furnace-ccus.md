@@ -43,7 +43,7 @@
 
 이 문서는 고로가스에서 CO2를 분리하는 설비만이 아니라, 고로가스 재순환·산소송풍, 압축·액화·수송, 영구 저장 또는 제품 전환까지의 사슬을 다룹니다. CCU 제품화와 지중 CCS는 탄소의 체류기간과 회계 경계가 다르므로 분리해 봅니다.
 
-- **근거 확인 기업:** 6개
+- **근거 확인 기업:** 5개
 - **직접 연결 근거:** 18건
 
 ## 작동 원리
@@ -83,35 +83,37 @@ flowchart TB
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **총괄 반응** | 탄소순환 고로의 메탄화 반응은 CO2 + 4H2 → CH4 + 2H2O이며, 생성 합성메탄을 환원제로 재주입한다. [^src-20260725-054778aa] | 회사 IR |
-| **작동 원리** | 고로 상부가스를 전처리한 뒤 CO2를 선택적으로 제거하고, CO·H2가 풍부한 잔류가스는 고로 또는 가스망에 재순환하며 포집 CO2는 활용 또는 저장 규격으로 정제·압축한다. [^src-20260725-2eabd949] | 학술 연구 |
+| **작동 원리** | 고로 상부가스를 전처리한 뒤 CO2를 선택적으로 제거하고, CO·H2가 풍부한 잔류가스는 고로 또는 가스망에 재순환하며 포집 CO2는 활용 또는 저장 규격으로 정제·압축한다. [^src-20260725-2eabd949] | 연구보고서 |
+| **학회 공개 공정 구성** | Helix Carbon의 AIST 2026 발표는 고로 상부가스 재순환, 전기화 및 탄소 관리를 결합한 retrofit 개념을 제안했다. [^src-20260726-b392bd57] | 학회 발표 |
 | **포집 대상·지점** | 우선 포집 대상은 연소 전의 고로 상부가스이며, 제철소 전체 감축을 위해서는 열풍로·코크스오븐·소결·발전 등 분산 배출원을 별도로 포함해야 한다. [^src-20260725-46a2055d] | 회사 발표 |
-| **원료가스 조건** | 고로가스는 CO2뿐 아니라 CO·H2·N2와 분진·황계 불순물을 포함하므로 포집 전 제진·냉각·불순물 제거와 가스 조성 안정화가 필요하다. [^src-20260725-2eabd949] | 학술 연구 |
-| **포집 공정 경로** | 대표 구성은 기존 연소가스에 MEA를 적용하는 후단 포집과, 산소송풍 고로에서 상부가스를 재순환하고 MDEA/Pz로 CO2를 제거하는 공정통합형 포집이다. [^src-20260725-2eabd949] | 학술 연구 |
-| **분리·흡수 방식** | 공개 경로에는 MEA·MDEA/Pz 화학흡수, PSA/VPSA와 같은 흡착 분리가 포함되며 선택은 원료가스 압력·CO2 농도·불순물·요구 순도에 좌우된다. [^src-20260725-2eabd949] | 학술 연구 |
+| **원료가스 조건** | 고로가스는 CO2뿐 아니라 CO·H2·N2와 분진·황계 불순물을 포함하므로 포집 전 제진·냉각·불순물 제거와 가스 조성 안정화가 필요하다. [^src-20260725-2eabd949] | 연구보고서 |
+| **포집 공정 경로** | 대표 구성은 기존 연소가스에 MEA를 적용하는 후단 포집과, 산소송풍 고로에서 상부가스를 재순환하고 MDEA/Pz로 CO2를 제거하는 공정통합형 포집이다. [^src-20260725-2eabd949] | 연구보고서 |
+| **분리·흡수 방식** | 공개 경로에는 MEA·MDEA/Pz 화학흡수, PSA/VPSA와 같은 흡착 분리가 포함되며 선택은 원료가스 압력·CO2 농도·불순물·요구 순도에 좌우된다. [^src-20260725-2eabd949] | 연구보고서 |
 | **상부가스 재순환** | CO2 제거 후 CO·H2가 풍부해진 상부가스를 고로에 재주입하면 환원가스 이용률과 포집가스 CO2 농도를 높일 수 있으나, 재순환 가스 가열·압축과 노내 분포 제어가 필요하다. [^src-20260725-a8c28387] | 정부·공공자료 |
-| **산소송풍·열수지** | TGR-BF는 질소 희석을 줄이기 위해 산소송풍을 결합하며, 열풍 현열 감소와 환원반응 열수지를 보상할 산소공장·가스 가열·노내 열관리 설계가 필요하다. [^src-20260725-2eabd949] | 학술 연구 |
+| **산소송풍·열수지** | TGR-BF는 질소 희석을 줄이기 위해 산소송풍을 결합하며, 열풍 현열 감소와 환원반응 열수지를 보상할 산소공장·가스 가열·노내 열관리 설계가 필요하다. [^src-20260725-2eabd949] | 연구보고서 |
 
 ### 에너지·환경·경제
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **배출 경계** | BF–BOF 직접배출을 50% 이상 줄이는 시나리오에는 CCS가 필요하지만, 실제 순감축은 포집률이 아니라 포집 에너지·수송·저장·누출과 CCU 제품 재배출을 반영한 CO2 순회피량으로 산정해야 한다. [^src-20260725-2eabd949] | 학술 연구 |
-| **경제성 평가** | IEAGHG는 후단 포집의 기술적 적용 가능성을 확인하면서도 에너지·자본비가 철강 원가와 국제 경쟁력에 큰 부담이 될 수 있다고 평가했으며, 산소고로는 대규모 실증이 더 필요하다고 보았다. [^src-20260725-2eabd949] | 학술 연구 |
+| **배출 경계** | BF–BOF 직접배출을 50% 이상 줄이는 시나리오에는 CCS가 필요하지만, 실제 순감축은 포집률이 아니라 포집 에너지·수송·저장·누출과 CCU 제품 재배출을 반영한 CO2 순회피량으로 산정해야 한다. [^src-20260725-2eabd949] | 연구보고서 |
+| **경제성 평가** | IEAGHG는 후단 포집의 기술적 적용 가능성을 확인하면서도 에너지·자본비가 철강 원가와 국제 경쟁력에 큰 부담이 될 수 있다고 평가했으며, 산소고로는 대규모 실증이 더 필요하다고 보았다. [^src-20260725-2eabd949] | 연구보고서 |
 | **포집 성능** | Nippon Steel ESCAP은 일반 화학흡수 대비 열소비 40% 이상 절감과 불순물 함유 원료가스에서 99.9% 이상 고순도 CO2 회수를 공표했지만, 이는 특정 대형 고로 전체 포집률을 의미하지 않는다. [^src-20260725-1a31be76] | 회사 발표 |
-| **재생열·에너지 부담** | 화학흡수의 흡수액 재생열과 CO2 압축 전력은 순회피량과 비용의 핵심 부하이며, 제철소 폐열·증기망 통합 여부에 따라 성능이 달라진다. [^src-20260725-2eabd949] | 학술 연구 |
+| **재생열·에너지 부담** | 화학흡수의 흡수액 재생열과 CO2 압축 전력은 순회피량과 비용의 핵심 부하이며, 제철소 폐열·증기망 통합 여부에 따라 성능이 달라진다. [^src-20260725-2eabd949] | 연구보고서 |
 | **압축·액화·수송** | 포집 후에는 탈수·압축 또는 액화, 육상 배관이나 선박 수송, 인수터미널을 하나의 규격으로 연결해야 하며 Nippon Steel은 액화·선박 수송을 포함한 CCS 가치사슬을 설계 중이다. [^src-20260725-1a31be76] | 회사 발표 |
 | **영구 저장 경로** | 영구 저장은 저장용량 평가, 주입정, 압력관리, MRV와 장기 책임이 필요하며, 제철소 포집설비와 저장처의 연간 인수능력·가동률이 일치해야 한다. [^src-20260725-bbcc117e] | 회사 발표 |
 | **활용 경로** | 공개 활용 경로는 공정용 CO2, 폐수 pH 조정, 전로 저취가스 대체, 에탄올·메탄올·합성메탄 생산이며 각 경로의 규모와 탄소 체류기간이 다르다. [^src-20260725-3176f88e] | 회사 IR |
 | **탄소회계 경계** | CCU 제품의 포집량을 전량 영구 감축으로 계산할 수 없으며, 추가 수소·전력, 대체 화석제품, 제품 사용 중 재배출과 최종 처분을 포함한 전과정 순회피량으로 평가해야 한다. [^src-20260725-b6fb82e5] | 회사 발표 |
-| **개조 범위** | 후단 연소가스 포집은 기존 제철소 개조가 기술적으로 가능하지만, 대형 흡수탑·재생기·증기·냉각수·압축기와 가스망 개조가 필요해 단순 부착형 설비로 볼 수 없다. [^src-20260725-2eabd949] | 학술 연구 |
-| **제철소 전체 포집 범위** | 고로가스 한 지점의 회수율과 BF–BOF 제품 1톤당 제철소 전체 감축률은 구분해야 하며, 소결·코크스·열풍로·발전과 포집 에너지 배출을 시스템 경계에 포함해야 한다. [^src-20260725-2eabd949] | 학술 연구 |
+| **개조 범위** | 후단 연소가스 포집은 기존 제철소 개조가 기술적으로 가능하지만, 대형 흡수탑·재생기·증기·냉각수·압축기와 가스망 개조가 필요해 단순 부착형 설비로 볼 수 없다. [^src-20260725-2eabd949] | 연구보고서 |
+| **제철소 전체 포집 범위** | 고로가스 한 지점의 회수율과 BF–BOF 제품 1톤당 제철소 전체 감축률은 구분해야 하며, 소결·코크스·열풍로·발전과 포집 에너지 배출을 시스템 경계에 포함해야 한다. [^src-20260725-2eabd949] | 연구보고서 |
 
 ### 실증·산업화
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **공개 개발 단계** | 소규모 고로가스 포집과 CCU 제품화 설비는 가동 사례가 있으나, 상업 규모 고로 상부가스 포집과 대규모 영구 저장을 결합한 일관 BF–CCS 사슬은 공개 근거상 아직 확대 실증이 필요하다. [^src-20260725-2eabd949] | 학술 연구 |
+| **공개 개발 단계** | 소규모 고로가스 포집과 CCU 제품화 설비는 가동 사례가 있으나, 상업 규모 고로 상부가스 포집과 대규모 영구 저장을 결합한 일관 BF–CCS 사슬은 공개 근거상 아직 확대 실증이 필요하다. [^src-20260725-2eabd949] | 연구보고서 |
 | **확인된 실증 규모** | 확인 규모는 Tata 5 t-CO2/day BF가스 포집, Steelanol 80 million L/year 에탄올 제품화, ULCOS 기술규모 TGR-BF 연구, JFE 150 m3 시험고로 계획까지이며 서로 다른 포집·활용 경로다. [^src-20260725-46a2055d] | 회사 발표 |
+| **공개 성과의 한계** | 전기화 상부가스 재순환 자료는 독립 운전 검증이 아닌 공급사의 비동료심사 학회 발표이므로 정량 성능은 별도 운전자료나 독립 연구로 교차검증해야 한다. [^src-20260726-b392bd57] | 학회 발표 |
 | **기존 산업 운전 사례** | Al Reyadah는 철강부문 연 800,000톤 CO2 포집·EOR 주입의 상업 사슬이지만 Emirates Steel은 가스기반 DRI이므로 상업 고로 CCUS의 직접 근거로 사용할 수 없다. [^src-20260725-bbcc117e] | 회사 발표 |
 
 
@@ -122,6 +124,7 @@ flowchart TB
 | 2013-07-01 | Iron and Steel CCS Study — Techno-Economics Integrated Steel Mill [^src-20260725-2eabd949] |
 | 2014-01-31 | ULCOS top gas recycling blast furnace process — final report [^src-20260725-e493b07b] |
 | 2017-01-19 | Al Reyadah commercial steel-sector CCUS facility [^src-20260725-bbcc117e] |
+| 2018-09-04 | Carbon2Chem technical center in Duisburg [^src-20260725-fed4b2d7] |
 | 2021-09-14 | Tata Steel commissions carbon capture plant for blast furnace gas at Jamshedpur [^src-20260725-46a2055d] |
 | 2022-09-01 | JFE Steel carbon-neutral strategy — carbon-recycling blast furnace [^src-20260725-054778aa] |
 | 2022-09-01 | JFE technical report on carbon-recycling blast furnace [^src-20260725-7e6dfd33] |
@@ -130,7 +133,7 @@ flowchart TB
 | 2024-06-12 | Tata Steel FY2023-24 Jamshedpur CCU operating update [^src-20260725-3176f88e] |
 | 2025-01-06 | JFE Steel 2025 priorities for carbon-neutral technologies [^src-20260725-ec77a362] |
 | 2025-09-29 | Tata Steel Nederland integrated decarbonisation project letter of intent [^src-20260725-789ab58f] |
-| 2025-10-29 | POSCO decarbonization strategies from CCUS to HyREX [^src-20260725-ff076fe4] |
+| 2026-03-09 | Profitable Decarbonization of the Blast Furnace Through Electrified Top-Gas Recycling [^src-20260726-b392bd57] |
 
 ## 설비·공정 이미지
 
@@ -144,13 +147,6 @@ flowchart TB
 ![배관과 흡수설비로 구성된 Tata Steel Jamshedpur 고로가스 탄소포집 설비](<https://www.tatasteel.com/media/14387/facillity-pic_1-1.jpg>){ .steel-media-image .steel-media-compact }
 
 **실제 설비 사진.** Tata Steel Jamshedpur 5 TPD 고로가스 CO2 포집설비 공식 사진
-
-- 출처 [[sources/SRC-20260725-46A2055D|SRC-20260725-46A2055D]] · 권리 `link_only` · [원문 페이지](https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur) · 작성·촬영 Tata Steel
-- 권리 메모: Tata Steel 공식 보도자료 원본 사진을 외부 링크로만 표시
-
-![Tata Steel Jamshedpur 탄소포집 설비 준공 행사](<https://www.tatasteel.com/media/14389/inauguration-pic_1.jpg>){ .steel-media-image .steel-media-compact }
-
-**실제 설비 사진.** 2021년 Tata Steel Jamshedpur CO2 포집설비 준공 행사 공식 사진
 
 - 출처 [[sources/SRC-20260725-46A2055D|SRC-20260725-46A2055D]] · 권리 `link_only` · [원문 페이지](https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur) · 작성·촬영 Tata Steel
 - 권리 메모: Tata Steel 공식 보도자료 원본 사진을 외부 링크로만 표시
@@ -178,14 +174,6 @@ flowchart TB
 
 
 ## 기업별 상세 현황
-
-### [[companies/COM-POSCO|POSCO]]
-
-**확인된 현황.** 2024년 1월 포항 코크스오븐 중순도 CO2 주입·전환 실증 및 제철소 설비별 단계적 CCS 검토; 전 고로 CCS 상용 배치 근거는 미확인 [^src-20260725-ff076fe4]
-
-**단계 판단: 연구·실증.** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
-
-- **날짜:** 발표 2025-10-29 · 수집 2026-07-25 · 검증 2026-07-25
 
 ### [[companies/COM-ArcelorMittal|ArcelorMittal]]
 
@@ -280,8 +268,8 @@ flowchart TB
 - [[sources/SRC-20260725-CD029AB1|Carbon2Chem development phases and industrial application validation]] — thyssenkrupp AG, 게시일 미상 · [원문](https://www.thyssenkrupp.com/en/newsroom/press-releases/pressdetailpage/carbon2chem%28r%29-awarded-euro50-million-research-grant-295734)
 - [[sources/SRC-20260725-E493B07B|ULCOS top gas recycling blast furnace process — final report]] — European Commission Directorate-General for Research and Innovation, 2014-01-31 · [원문](https://op.europa.eu/en/publication-detail/-/publication/0371a7f6-3e10-40aa-a8ec-16c1bfabdc38/language-en)
 - [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]] — JFE Steel Corporation, 2025-01-06 · [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html)
-- [[sources/SRC-20260725-FED4B2D7|Carbon2Chem technical center in Duisburg]] — Fraunhofer UMSICHT, 게시일 미상 · [원문](https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html)
-- [[sources/SRC-20260725-FF076FE4|POSCO decarbonization strategies from CCUS to HyREX]] — POSCO Group Newsroom, 2025-10-29 · [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/)
+- [[sources/SRC-20260725-FED4B2D7|Carbon2Chem technical center in Duisburg]] — Fraunhofer UMSICHT, 2018-09-04 · [원문](https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html)
+- [[sources/SRC-20260726-B392BD57|Profitable Decarbonization of the Blast Furnace Through Electrified Top-Gas Recycling]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/7b039809-54af-40f1-9c74-1a9df73d4c82/Profitable-Decarbonization-of-the-Blast-Furnace-updated.pdf)
 
 [^src-20260725-054778aa]: **JFE Steel carbon-neutral strategy — carbon-recycling blast furnace** — JFE Steel Corporation, 2022-09-01. [원문](https://www.jfe-steel.co.jp/en/company/pdf/carbon-neutral-strategy_220901_1.pdf) · [[sources/SRC-20260725-054778AA|보관 원문·메타데이터]]
 [^src-20260725-1a31be76]: **Breakthrough technology development and CCUS for carbon-neutral steelmaking** — Nippon Steel Corporation, 게시일 미상. [원문](https://www.nipponsteel.com/en/sustainability/env/climate/future.html) · [[sources/SRC-20260725-1A31BE76|보관 원문·메타데이터]]
@@ -299,5 +287,5 @@ flowchart TB
 [^src-20260725-cd029ab1]: **Carbon2Chem development phases and industrial application validation** — thyssenkrupp AG, 게시일 미상. [원문](https://www.thyssenkrupp.com/en/newsroom/press-releases/pressdetailpage/carbon2chem%28r%29-awarded-euro50-million-research-grant-295734) · [[sources/SRC-20260725-CD029AB1|보관 원문·메타데이터]]
 [^src-20260725-e493b07b]: **ULCOS top gas recycling blast furnace process — final report** — European Commission Directorate-General for Research and Innovation, 2014-01-31. [원문](https://op.europa.eu/en/publication-detail/-/publication/0371a7f6-3e10-40aa-a8ec-16c1bfabdc38/language-en) · [[sources/SRC-20260725-E493B07B|보관 원문·메타데이터]]
 [^src-20260725-ec77a362]: **JFE Steel 2025 priorities for carbon-neutral technologies** — JFE Steel Corporation, 2025-01-06. [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) · [[sources/SRC-20260725-EC77A362|보관 원문·메타데이터]]
-[^src-20260725-fed4b2d7]: **Carbon2Chem technical center in Duisburg** — Fraunhofer UMSICHT, 게시일 미상. [원문](https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html) · [[sources/SRC-20260725-FED4B2D7|보관 원문·메타데이터]]
-[^src-20260725-ff076fe4]: **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29. [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
+[^src-20260725-fed4b2d7]: **Carbon2Chem technical center in Duisburg** — Fraunhofer UMSICHT, 2018-09-04. DOI: [10.1002/cite.201800067](https://doi.org/10.1002/cite.201800067). [원문](https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html) · [[sources/SRC-20260725-FED4B2D7|보관 원문·메타데이터]]
+[^src-20260726-b392bd57]: **Profitable Decarbonization of the Blast Furnace Through Electrified Top-Gas Recycling** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/7b039809-54af-40f1-9c74-1a9df73d4c82/Profitable-Decarbonization-of-the-Blast-Furnace-updated.pdf) · [[sources/SRC-20260726-B392BD57|보관 원문·메타데이터]]

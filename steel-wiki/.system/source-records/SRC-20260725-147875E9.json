@@ -14,5 +14,16 @@
   "raw_path": ".system/raw/SRC-20260725-147875E9.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Antoine Allanore",
+      "Lan Yin",
+      "Donald R. Sadoway"
+    ],
+    "venue": "Nature",
+    "doi": "10.1038/nature12134",
+    "peer_review_status": "peer_reviewed"
+  }
 }

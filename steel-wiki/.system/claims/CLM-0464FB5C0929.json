@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-0464FB5C0929",
+  "subject_id": "PRJ-NUCOR-GALLATIN-EAF-CCUS",
+  "predicate": "project_status",
+  "value": "기존 열통합 아민 포집 파일럿의 구축·시험 후, DOE 선정 과제로 수소생산 결합 polishing loop를 기존 포집장치에 통합 설계·건설·시험하는 연구개발 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-FE353D3A",
+    "SRC-20260725-6D04090A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Nucor 회사 페이지 프로젝트 공백 보강",
+      "source_ids": [
+        "SRC-20260725-FE353D3A",
+        "SRC-20260725-6D04090A"
+      ]
+    }
+  ]
+}

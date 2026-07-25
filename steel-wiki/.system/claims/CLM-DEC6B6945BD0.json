@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DEC6B6945BD0",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "eaf_integration",
+  "value": "Ternium Pesquería 공급사 발표의 EAF 투입 구성은 연 2.1 Mt DRI와 1.5 Mt 스크랩을 결합하는 설계로 제시됐다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260726-CEDF7736"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "AIST 공식 발표의 설계 기준이며 운영 실적과 구분",
+      "source_ids": [
+        "SRC-20260726-CEDF7736"
+      ]
+    }
+  ]
+}

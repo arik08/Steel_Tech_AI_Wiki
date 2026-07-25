@@ -3975,3 +3975,1155 @@ CLM-F647E8197F44: added evidence SRC-20260725-E5CFE77A
 ## [2026-07-25T20:50:11+09:00] audit
 
 0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T21:49:58+09:00] sync-obsidian
+
+44 subjects and 104 sources projected.
+
+## [2026-07-25T21:49:58+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T21:50:50+09:00] sync-obsidian
+
+44 subjects and 104 sources projected.
+
+## [2026-07-25T21:50:51+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T21:56:31+09:00] add-source
+
+SRC-20260725-7D498404: China Baowu green development report: Zhanjiang hydrogen shaft furnace
+
+## [2026-07-25T21:56:31+09:00] add-source
+
+SRC-20260725-F396D188: Nippon Steel FY2025 results: carbon-neutral technology progress
+
+## [2026-07-25T21:56:32+09:00] add-source
+
+SRC-20260725-E5BC335B: Nippon Steel investment decision for three-site EAF conversion
+
+## [2026-07-25T21:56:32+09:00] add-source
+
+SRC-20260725-E3271B0A: Nippon Steel starts Yawata large-EAF conversion construction
+
+## [2026-07-25T21:56:33+09:00] add-source
+
+SRC-20260725-0A7903EA: Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration
+
+## [2026-07-25T21:56:34+09:00] add-source
+
+SRC-20260725-46C2DBC8: Nippon Steel Kimitsu COURSE50 large-BF preparation status
+
+## [2026-07-25T21:56:34+09:00] add-source
+
+SRC-20260725-280A7FAC: Nippon Steel GX briefing: Hasaki hydrogen DRI test furnace
+
+## [2026-07-25T21:56:35+09:00] add-source
+
+SRC-20260725-FE353D3A: Nucor and University of Kentucky carbon-capture pilot at Gallatin
+
+## [2026-07-25T21:56:35+09:00] add-source
+
+SRC-20260725-6D04090A: DOE Round 5 selection: UK IDEA dual-loop capture at Nucor Steel Gallatin
+
+## [2026-07-25T21:57:16+09:00] add-claim
+
+CLM-0F7B0EB02890: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / project_status = 2026-01-07 기준 100만 톤급 수소 기반 샤프트로-전기로 연계 저탄소 후판 생산라인이 전면 가동됐다고 중국 국유자산감독관리위원회가 발표
+
+## [2026-07-25T21:57:17+09:00] add-claim
+
+CLM-FEA1EC210BA8: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / technology_route = 수소 기반 샤프트로 DRI와 철스크랩을 원료로 고효율 전기로 용해 후 기존 압연설비에서 저탄소·near-zero-carbon 강판 생산
+
+## [2026-07-25T21:57:17+09:00] add-claim
+
+CLM-9D161A541173: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / location = Baoshan Iron & Steel Zhanjiang plant, Guangdong, China
+
+## [2026-07-25T21:57:18+09:00] add-claim
+
+CLM-5756840282D9: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / capacity_tpy = 연간 1,000,000톤급 저탄소 철강 생산라인
+
+## [2026-07-25T21:57:18+09:00] add-claim
+
+CLM-6E344136531F: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / expected_co2_reduction = 기존 고로-전로 장공정 대비 CO2 50~80% 감축, 연간 314만 톤 초과 감축 예상치; 실측 제품 탄소집약도는 미공개
+
+## [2026-07-25T21:57:19+09:00] add-claim
+
+CLM-C00669F5CA7C: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / commissioning_date = 2023-12-23 중국 최초 100만 톤급 수소 기반 샤프트로 점화·가동
+
+## [2026-07-25T21:57:19+09:00] add-claim
+
+CLM-40BF66D49600: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / campaign_result = 2024-08-22까지 168시간 연속 전부하 생산으로 주간 생산능력 평가 통과
+
+## [2026-07-25T21:57:20+09:00] add-claim
+
+CLM-FC5CA9A6929A: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / reducing_gas_composition = 수소 70%의 고수소 환원 조건을 검증했다고 회사 보고; 완전 수소 운전의 장기 실적은 미확인
+
+## [2026-07-25T21:57:21+09:00] add-claim
+
+CLM-4CBE0A4D473B: PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF / performance_disclosure_limit = 운전지표가 설계치를 상회했다고 보고했으나 금속화율·에너지 원단위·제품 탄소집약도 개별 수치는 공개하지 않음
+
+## [2026-07-25T21:57:51+09:00] add-claim
+
+CLM-9F836E3BFC4F: PRJ-NIPPON-KIMITSU-COURSE50 / project_status = 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인
+
+## [2026-07-25T21:57:51+09:00] add-claim
+
+CLM-8CA84FAFEB23: PRJ-NIPPON-KIMITSU-COURSE50 / technology_route = Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체
+
+## [2026-07-25T21:57:52+09:00] add-claim
+
+CLM-824EB15B329D: PRJ-NIPPON-KIMITSU-COURSE50 / location = East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan
+
+## [2026-07-25T21:57:53+09:00] add-claim
+
+CLM-AA5B0C53292E: PRJ-NIPPON-KIMITSU-COURSE50 / furnace_volume = 실증 대상 상용 고로 4,500 m3; 기존 시험고로 12 m3 대비 약 400배
+
+## [2026-07-25T21:57:53+09:00] add-claim
+
+CLM-A5E52936EB76: PRJ-NIPPON-KIMITSU-COURSE50 / original_target_start_date = 2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명
+
+## [2026-07-25T21:57:54+09:00] add-claim
+
+CLM-89D5C9A5141B: PRJ-NIPPON-KIMITSU-COURSE50 / test_result = Kimitsu 소형 시험고로에서 2026년 2~3월 CO2 배출 45% 감축을 회사가 보고; 4,500 m3 고로 실증 결과는 아님
+
+## [2026-07-25T21:57:54+09:00] add-claim
+
+CLM-A72861C4DD70: PRJ-NIPPON-KIMITSU-COURSE50 / partners = NEDO Green Innovation Fund 수소제철 컨소시엄: Nippon Steel, JFE Steel, Kobe Steel, Japan Research and Development Center for Metals
+
+## [2026-07-25T21:57:55+09:00] add-claim
+
+CLM-68C24D4675C9: PRJ-NIPPON-KIMITSU-COURSE50 / performance_disclosure_limit = 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음
+
+## [2026-07-25T21:58:17+09:00] add-claim
+
+CLM-2646550D3EEF: PRJ-NIPPON-JAPAN-EAF-CONVERSION / project_status = 3개 거점 전기로 신설·증설·재가동 투자 확정; Yawata는 2026-04-15 착공, Hirohata·Shunan은 공개 목표 일정에 따른 추진 단계
+
+## [2026-07-25T21:58:18+09:00] add-claim
+
+CLM-9875D6008F6B: PRJ-NIPPON-JAPAN-EAF-CONVERSION / technology_route = 고로 상공정을 대형 전기로로 전환하고 고급강 제조·물류·전력공급·후단 에너지 설비를 함께 구축
+
+## [2026-07-25T21:58:19+09:00] add-claim
+
+CLM-48348CB82467: PRJ-NIPPON-JAPAN-EAF-CONVERSION / location = Kyushu Works Yawata, Setouchi Works Hirohata, Yamaguchi Works Shunan, Japan
+
+## [2026-07-25T21:58:19+09:00] add-claim
+
+CLM-69F33C9E9268: PRJ-NIPPON-JAPAN-EAF-CONVERSION / capacity_tpy = 3개 거점 합계 약 2,900,000톤/년: Yawata 2.0 Mt/y, Hirohata 0.5 Mt/y, Shunan 0.4 Mt/y
+
+## [2026-07-25T21:58:20+09:00] add-claim
+
+CLM-63177B23E820: PRJ-NIPPON-JAPAN-EAF-CONVERSION / capex_jpy = 총 JPY 868.7 billion: Yawata 630.2bn, Hirohata 140.0bn, Shunan 98.5bn
+
+## [2026-07-25T21:58:20+09:00] add-claim
+
+CLM-E515D8FF262D: PRJ-NIPPON-JAPAN-EAF-CONVERSION / funding_amount = GX Promotion Act 정부지원 최대 JPY 251.4 billion: Yawata 179.9bn, Hirohata 42.8bn, Shunan 28.7bn
+
+## [2026-07-25T21:58:21+09:00] add-claim
+
+CLM-0B1224BF36AE: PRJ-NIPPON-JAPAN-EAF-CONVERSION / target_start_date = Shunan FY2028 하반기, Yawata·Hirohata FY2029 하반기 생산 개시 목표
+
+## [2026-07-25T21:58:22+09:00] add-claim
+
+CLM-984E83C844EF: PRJ-NIPPON-JAPAN-EAF-CONVERSION / construction_start_date = 2026-04-15 Yawata 대형 전기로 전환공사 착공; 다른 두 거점의 동시 착공 근거는 아님
+
+## [2026-07-25T21:58:22+09:00] add-claim
+
+CLM-E99F24F5F034: PRJ-NIPPON-JAPAN-EAF-CONVERSION / site_scope = Yawata 신규 전기로 1기, Hirohata 전기로 1기 증설, Shunan 전기로 1기 개조·재가동
+
+## [2026-07-25T21:58:42+09:00] add-claim
+
+CLM-9E687C199BAD: PRJ-NIPPON-HASAKI-H2-DRI / project_status = Nippon Steel이 저품위 철광석 수소환원 시험로를 건설하고 2026년 3월 운전을 개시한 연구개발 프로젝트
+
+## [2026-07-25T21:58:42+09:00] add-claim
+
+CLM-0E3E861D9FB6: PRJ-NIPPON-HASAKI-H2-DRI / technology_route = 저품위 철광석을 100% 수소로 직접환원하고 환원-냉각-성형 전 공정을 상용 유사 구성으로 평가
+
+## [2026-07-25T21:58:43+09:00] add-claim
+
+CLM-BE1D6327EABA: PRJ-NIPPON-HASAKI-H2-DRI / location = Nippon Steel Hasaki R&D Center, Kamisu, Ibaraki, Japan
+
+## [2026-07-25T21:58:43+09:00] add-claim
+
+CLM-1CC2942C1E08: PRJ-NIPPON-HASAKI-H2-DRI / capacity_tph = 시험로 설계 처리량 약 1 tonne/hour
+
+## [2026-07-25T21:58:44+09:00] add-claim
+
+CLM-123433B7CBD4: PRJ-NIPPON-HASAKI-H2-DRI / reactor_height = 시험 샤프트로 높이 약 60 m; 상용 설비 참고 높이 100~150 m
+
+## [2026-07-25T21:58:45+09:00] add-claim
+
+CLM-69FD64FE257D: PRJ-NIPPON-HASAKI-H2-DRI / facility_footprint = 시험 부지 약 80 m × 200 m
+
+## [2026-07-25T21:58:45+09:00] add-claim
+
+CLM-E6D50B6DFC19: PRJ-NIPPON-HASAKI-H2-DRI / commissioning_date = 2026-03 시험 환원로 운전 개시
+
+## [2026-07-25T21:58:46+09:00] add-claim
+
+CLM-DBF41AE322B3: PRJ-NIPPON-HASAKI-H2-DRI / scale_up_plan = FY2027부터 추가 대형 검증 검토, 2040년경 실용화 기술 확립 목표
+
+## [2026-07-25T21:58:46+09:00] add-claim
+
+CLM-6B72BAE0DE00: PRJ-NIPPON-HASAKI-H2-DRI / performance_disclosure_limit = 시험로 운전 개시는 확인됐으나 금속화율·수소원단위·가동률·제품 품질과 상용 연속운전 실적은 공개 근거에서 확인되지 않음
+
+## [2026-07-25T21:59:18+09:00] add-claim
+
+CLM-0464FB5C0929: PRJ-NUCOR-GALLATIN-EAF-CCUS / project_status = 기존 열통합 아민 포집 파일럿의 구축·시험 후, DOE 선정 과제로 수소생산 결합 polishing loop를 기존 포집장치에 통합 설계·건설·시험하는 연구개발 단계
+
+## [2026-07-25T21:59:18+09:00] add-claim
+
+CLM-0B81F458174E: PRJ-NUCOR-GALLATIN-EAF-CCUS / technology_route = EAF 저농도 배가스 → 기존 수계 아민 포집 → 수소생산 결합 이중 polishing loop → 용매 열화물·대기오염물질 측정
+
+## [2026-07-25T21:59:19+09:00] add-claim
+
+CLM-4D7E22ED7AA7: PRJ-NUCOR-GALLATIN-EAF-CCUS / location = Nucor Steel Gallatin, Ghent, Kentucky, United States
+
+## [2026-07-25T21:59:20+09:00] add-claim
+
+CLM-065338B851D7: PRJ-NUCOR-GALLATIN-EAF-CCUS / funding_amount = DOE USD 3,000,000 + 비연방 USD 750,001 = 총 USD 3,750,001
+
+## [2026-07-25T21:59:20+09:00] add-claim
+
+CLM-55582A89B8F1: PRJ-NUCOR-GALLATIN-EAF-CCUS / partners = Nucor Corporation, University of Kentucky Research Foundation, U.S. DOE/NETL; 2022 발표 기준 산학 전문가 50명 초과 참여
+
+## [2026-07-25T21:59:21+09:00] add-claim
+
+CLM-392A3A8D565E: PRJ-NUCOR-GALLATIN-EAF-CCUS / outlet_co2_target = 이중 polishing 처리 후 CO2 100 ppm 미만 배가스 대상 기술개발 목표; 달성 실적은 미확인
+
+## [2026-07-25T21:59:21+09:00] add-claim
+
+CLM-B2DBEBF08828: PRJ-NUCOR-GALLATIN-EAF-CCUS / development_stage = engineering-scale 포집 성능·비용·재현성 평가; 상업 포집량·영구저장량은 미공개
+
+## [2026-07-25T21:59:22+09:00] add-claim
+
+CLM-2E765986FC23: PRJ-NUCOR-GALLATIN-EAF-CCUS / emissions_measurement_scope = 통합 포집계통 시험에서 용매·용매열화물 배출과 criteria pollutants를 측정하는 범위
+
+## [2026-07-25T21:59:23+09:00] add-claim
+
+CLM-4B6B10397585: PRJ-NUCOR-CONVENT-DRI-CCS / project_status = Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음
+
+## [2026-07-25T21:59:29+09:00] add-claim
+
+CLM-5D85BF3C7A00: PRJ-NUCOR-CONVENT-DRI-CCS / location = Nucor DRI plant, Convent, Louisiana, United States
+
+## [2026-07-25T21:59:29+09:00] add-claim
+
+CLM-3F90022AEDD0: PRJ-NUCOR-CONVENT-DRI-CCS / capture_capacity_tpy = 연간 최대 800,000 metric tonnes CO2 포집·수송·저장 계약
+
+## [2026-07-25T21:59:30+09:00] add-claim
+
+CLM-F78AA9076129: PRJ-NUCOR-CONVENT-DRI-CCS / target_start_date = 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인
+
+## [2026-07-25T21:59:30+09:00] add-claim
+
+CLM-DC5A565BBCB4: PRJ-NUCOR-CONVENT-DRI-CCS / partners = Nucor Corporation 및 ExxonMobil
+
+## [2026-07-25T21:59:31+09:00] add-claim
+
+CLM-A1FCE4AE688F: PRJ-NUCOR-CONVENT-DRI-CCS / emissions_boundary = 고로가 아닌 천연가스 DRI 설비 CCS이며, DRI 환원제를 수소로 전환했다는 근거는 아님
+
+## [2026-07-25T22:05:28+09:00] add-image
+
+MED-CDAE0740FBCA: attached to SRC-20260725-7D498404 (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:05:28+09:00] add-image
+
+MED-5E56BC5A8C58: attached to SRC-20260725-FE353D3A (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:05:29+09:00] add-image
+
+MED-B53ECCA94FC1: attached to SRC-20260725-BF5036AE (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:05:48+09:00] add-image
+
+MED-F462179B070D: attached to SRC-20260725-0A7903EA (process_diagram, link_only)
+
+## [2026-07-25T22:05:49+09:00] add-image
+
+MED-A34A6CFFDDAC: attached to SRC-20260725-E3271B0A (facility_photo, link_only)
+
+## [2026-07-25T22:05:50+09:00] add-image
+
+MED-3F950057A664: attached to SRC-20260725-F396D188 (facility_photo, link_only)
+
+## [2026-07-25T22:05:58+09:00] sync-obsidian
+
+50 subjects and 113 sources projected.
+
+## [2026-07-25T22:05:58+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T22:06:43+09:00] add-image
+
+MED-A648A3BF984F: attached to SRC-20260725-280A7FAC (facility_photo, link_only)
+
+## [2026-07-25T22:06:44+09:00] sync-obsidian
+
+50 subjects and 113 sources projected.
+
+## [2026-07-25T22:06:44+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T22:08:24+09:00] sync-obsidian
+
+50 subjects and 113 sources projected.
+
+## [2026-07-25T22:08:25+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T22:15:34+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T22:15:40+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T22:19:57+09:00] add-source
+
+SRC-20260725-D3C50354: DOE NEPA review for Iron Production by Molten Sulfide Electrolysis
+
+## [2026-07-25T22:19:58+09:00] add-source
+
+SRC-20260725-29802D50: Tata Steel proceeds with phased EASyMelt industrial demonstration
+
+## [2026-07-25T22:19:59+09:00] add-source
+
+SRC-20260725-38762376: JFE Steel to introduce advanced large-scale EAF at Kurashiki
+
+## [2026-07-25T22:20:00+09:00] add-source
+
+SRC-20260725-FBE26310: ArcelorMittal Volteron research and scale-up status
+
+## [2026-07-25T22:20:01+09:00] add-source
+
+SRC-20260725-E71081D1: Tata Steel Nederland 2025-2026 Green Steel Project status
+
+## [2026-07-25T22:20:02+09:00] add-source
+
+SRC-20260725-3B0845FF: ArcelorMittal confirms intention to invest EUR 1.2 billion in Dunkirk
+
+## [2026-07-25T22:21:25+09:00] add-claim
+
+CLM-430B49375FC5: PRJ-MOLTEN-SULFIDE-ELECTROLYSIS / project_status = DOE 지원 아래 MIT가 황화·전해 설비의 설계·개발·제작·현장시험을 추진하는 연구개발 단계이며 통합 파일럿 완료 운전은 확인되지 않음
+
+## [2026-07-25T22:21:25+09:00] add-claim
+
+CLM-643F1970A350: PRJ-MOLTEN-SULFIDE-ELECTROLYSIS / technology_route = 광석·고Cu 스크랩을 선택적으로 황화한 뒤 용융 황화물 전해로 철을 용융 금속으로 회수하고 Cu 불순물 분리를 병행하는 경로
+
+## [2026-07-25T22:21:26+09:00] add-claim
+
+CLM-080BA928C05C: PRJ-MOLTEN-SULFIDE-ELECTROLYSIS / location = MIT Building 5, Cambridge, Massachusetts, USA
+
+## [2026-07-25T22:21:26+09:00] add-claim
+
+CLM-27BFAC0D7B4E: PRJ-MOLTEN-SULFIDE-ELECTROLYSIS / partners = Massachusetts Institute of Technology와 Rio Tinto
+
+## [2026-07-25T22:21:27+09:00] add-claim
+
+CLM-DCBCD6E36807: PRJ-MOLTEN-SULFIDE-ELECTROLYSIS / permit_decision_date = 2024-10-15 DOE NEPA categorical exclusion 게시
+
+## [2026-07-25T22:21:28+09:00] add-claim
+
+CLM-8FF3E1C9758E: PRJ-MOLTEN-SULFIDE-ELECTROLYSIS / equipment_configuration = 선택 황화 장치와 용융 황화물 전해 장치의 설계·제작·현장시험 범위
+
+## [2026-07-25T22:21:28+09:00] add-claim
+
+CLM-EA1968367A15: PRJ-MOLTEN-SULFIDE-ELECTROLYSIS / process_risk = CO·CO2·SO2·황·H2S 계열 가스의 포집·세정·배출 관리가 필요한 연구 설비
+
+## [2026-07-25T22:21:29+09:00] add-claim
+
+CLM-7C2207354E1D: PRJ-ELECTRA-CLEAN-IRON-DEMO / technology_route = 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로
+
+## [2026-07-25T22:21:30+09:00] add-claim
+
+CLM-859D897C80A2: PRJ-ELECTRA-CLEAN-IRON-DEMO / equipment_configuration = 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성
+
+## [2026-07-25T22:21:30+09:00] add-claim
+
+CLM-B080CE6ECD78: PRJ-ELECTRA-CLEAN-IRON-DEMO / operating_temperature = 회사 기술 설명 기준 약 60°C 저온 운전
+
+## [2026-07-25T22:21:31+09:00] add-claim
+
+CLM-FA9205CAFCE2: PRJ-ELECTRA-CLEAN-IRON-DEMO / product_purity = 회사 주장 기준 99% 초과 순도 철
+
+## [2026-07-25T22:21:31+09:00] add-claim
+
+CLM-86B6C796874E: PRJ-ELECTRA-CLEAN-IRON-DEMO / feedstock_scope = 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명
+
+## [2026-07-25T22:21:32+09:00] add-claim
+
+CLM-A1100FDC5AD6: PRJ-ELECTRA-CLEAN-IRON-DEMO / downstream_route = 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용
+
+## [2026-07-25T22:21:33+09:00] add-claim
+
+CLM-7D01857731B6: PRJ-ELECTRA-CLEAN-IRON-DEMO / performance_disclosure_limit = 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음
+
+## [2026-07-25T22:21:33+09:00] add-claim
+
+CLM-A62FF0C591B5: PRJ-BOSTON-METAL-MOE-WOBURN / project_start_date = 2018-08-01 DOE 협력 프로젝트 착수
+
+## [2026-07-25T22:21:34+09:00] add-claim
+
+CLM-8BDCFEFD3D5F: PRJ-BOSTON-METAL-MOE-WOBURN / project_completion_date = DOE 협력 프로젝트 기간은 2023-01-31 종료
+
+## [2026-07-25T22:21:35+09:00] add-claim
+
+CLM-F5A7E924FF19: PRJ-BOSTON-METAL-MOE-WOBURN / funding_amount = DOE 지원 USD 1,750,032와 프로젝트 비용분담 USD 2,295,752
+
+## [2026-07-25T22:21:35+09:00] add-claim
+
+CLM-2116E4826530: PRJ-BOSTON-METAL-MOE-WOBURN / technology_route = 상용 철광석을 용융 산화물 전해질에서 불활성 양극으로 전해해 음극의 액체 철과 양극의 산소를 생산
+
+## [2026-07-25T22:21:36+09:00] add-claim
+
+CLM-70828CCD8391: PRJ-BOSTON-METAL-MOE-WOBURN / equipment_configuration = 자체발열형 MOE 셀, 다중 불활성 양극, 액체 금속 반복 출선과 셀·양극 수 증가에 의한 모듈 확대
+
+## [2026-07-25T22:21:36+09:00] add-claim
+
+CLM-6630D248BB8E: PRJ-BOSTON-METAL-MOE-WOBURN / campaign_result = DOE 실증에서 10 kg 철 생산과 산소 발생을 확인했으나 후속 100 kg·1주 내구 캠페인은 당시 목표에 미달
+
+## [2026-07-25T22:21:37+09:00] add-claim
+
+CLM-CABC86766682: PRJ-BOSTON-METAL-MOE-WOBURN / result_limitations = 2025년 산업 셀의 톤 단위 출선 발표에도 연속 캠페인 시간·전류효율·양극 마모율·연산 환산능력은 공개되지 않음
+
+## [2026-07-25T22:21:37+09:00] add-claim
+
+CLM-FB00C49D020E: PRJ-BOSTON-METAL-MOE-WOBURN / commercial_model = Boston Metal은 셀과 불활성 양극 기술을 제철사에 라이선스하는 모델을 제시하며 자체 상업 제철소 운영과는 구분
+
+## [2026-07-25T22:22:41+09:00] add-claim
+
+CLM-7DE7303C3BC1: PRJ-ARCELORMITTAL-DUNKIRK-EAF / project_status = 2026-02-10 200만 t/y 전기로 건설을 확정한 투자 실행 단계; 실제 착공·설비 설치·가동은 후속 확인 필요
+
+## [2026-07-25T22:22:41+09:00] add-claim
+
+CLM-1D649A12B3F3: PRJ-ARCELORMITTAL-DUNKIRK-EAF / location = Dunkirk, France
+
+## [2026-07-25T22:22:42+09:00] add-claim
+
+CLM-A3FEFE366357: PRJ-ARCELORMITTAL-DUNKIRK-EAF / capacity_tpy = 연간 2,000,000톤 조강
+
+## [2026-07-25T22:22:42+09:00] add-claim
+
+CLM-C6D70A2E76DA: PRJ-ARCELORMITTAL-DUNKIRK-EAF / capex_eur = EUR 1.3 billion
+
+## [2026-07-25T22:22:43+09:00] add-claim
+
+CLM-526E28FDC377: PRJ-ARCELORMITTAL-DUNKIRK-EAF / target_commissioning_date = 2029년 가동 목표
+
+## [2026-07-25T22:22:44+09:00] add-claim
+
+CLM-104CD17B3A48: PRJ-ARCELORMITTAL-DUNKIRK-EAF / technology_route = 스크랩·HBI/DRI·용선을 혼합 투입하는 대형 EAF 제강 경로
+
+## [2026-07-25T22:22:45+09:00] add-claim
+
+CLM-4C7A295B8B48: PRJ-ARCELORMITTAL-DUNKIRK-EAF / emissions_per_tonne = 회사 추정 0.6 tCO2/t-steel로 고로 비교 대비 약 3분의 1
+
+## [2026-07-25T22:22:45+09:00] add-claim
+
+CLM-1ECFE81EFAB0: PRJ-ARCELORMITTAL-DUNKIRK-EAF / funding_amount = 프랑스 에너지절감인증서 지원이 EUR 1.3 billion 투자비의 50%를 담당할 예정
+
+## [2026-07-25T22:22:46+09:00] add-claim
+
+CLM-ED1CE05AB8A3: PRJ-ARCELORMITTAL-DUNKIRK-EAF / investment_announcement_date = 2025-05-15 약 EUR 1.2 billion 투자 의향 발표
+
+## [2026-07-25T22:22:46+09:00] add-claim
+
+CLM-78E38B4D92E3: PRJ-ARCELORMITTAL-DUNKIRK-EAF / schedule_change = 2025년 유럽 탈탄소 프로젝트 연기 국면의 조건부 투자 의향에서 2026년 EUR 1.3 billion 건설 확정으로 전환
+
+## [2026-07-25T22:22:47+09:00] add-claim
+
+CLM-DC0A579BA043: PRJ-ARCELORMITTAL-VOLTERON / project_status = 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음
+
+## [2026-07-25T22:22:47+09:00] add-claim
+
+CLM-9BACE5B55A1D: PRJ-ARCELORMITTAL-VOLTERON / partners = ArcelorMittal과 John Cockerill; 전신 SIDERWIN은 EU Horizon 2020 컨소시엄
+
+## [2026-07-25T22:22:48+09:00] add-claim
+
+CLM-1B329626943B: PRJ-ARCELORMITTAL-VOLTERON / technology_route = 철광석·물·수산화나트륨 전해질을 약 110°C에서 전해해 철판을 직접 생산한 뒤 EAF 제강으로 연결
+
+## [2026-07-25T22:22:49+09:00] add-claim
+
+CLM-CA7E5924CA77: PRJ-ARCELORMITTAL-VOLTERON / equipment_configuration = 저온 수계 전해 셀과 1 m² 철판 생산 규모 R&D 설비
+
+## [2026-07-25T22:22:49+09:00] add-claim
+
+CLM-59262EA04EFB: PRJ-ARCELORMITTAL-VOLTERON / operating_temperature = 최대 약 110°C
+
+## [2026-07-25T22:22:50+09:00] add-claim
+
+CLM-4E890E76ED27: PRJ-ARCELORMITTAL-VOLTERON / product_form = 약 1 m² 면적·5 mm 두께의 순철 판재를 R&D 설비에서 생산
+
+## [2026-07-25T22:23:56+09:00] add-claim
+
+CLM-7450A8CF24B8: PRJ-ARCELORMITTAL-VOLTERON / capacity_tpy = 2023년 발표한 산업 1단계 목표 40,000~80,000 t/y
+
+## [2026-07-25T22:23:56+09:00] add-claim
+
+CLM-42930A2B0F2E: PRJ-ARCELORMITTAL-VOLTERON / target_start_date = 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요
+
+## [2026-07-25T22:23:57+09:00] add-claim
+
+CLM-0A2E950EF9D1: PRJ-ARCELORMITTAL-VOLTERON / scale_up_plan = 1단계 검증 후 연간 300,000~1,000,000톤으로 확대 의향
+
+## [2026-07-25T22:23:59+09:00] add-claim
+
+CLM-BA8AD6F9BD07: PRJ-ARCELORMITTAL-VOLTERON / performance_disclosure_limit = 전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족
+
+## [2026-07-25T22:24:00+09:00] add-claim
+
+CLM-FAE9E4939A9A: PRJ-TATA-JAMSHEDPUR-EASYMELT / project_status = 2023년 MoU와 front-end loading 검토를 거쳐 2026-04-21 확정 계약 후 단계적 산업 실증 추진 단계
+
+## [2026-07-25T22:24:01+09:00] add-claim
+
+CLM-0B03FD406BAB: PRJ-TATA-JAMSHEDPUR-EASYMELT / location = Jamshedpur Works E blast furnace, India
+
+## [2026-07-25T22:24:02+09:00] add-claim
+
+CLM-FC1C8B9D2E2E: PRJ-TATA-JAMSHEDPUR-EASYMELT / furnace_volume = 649 m³ E 고로
+
+## [2026-07-25T22:24:03+09:00] add-claim
+
+CLM-EB4ACF6F3405: PRJ-TATA-JAMSHEDPUR-EASYMELT / partners = Tata Steel, Paul Wurth S.A.와 SMS group
+
+## [2026-07-25T22:24:04+09:00] add-claim
+
+CLM-23FE99E6BC27: PRJ-TATA-JAMSHEDPUR-EASYMELT / technology_route = 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 토치 가열을 결합한 electrically-assisted syngas smelter
+
+## [2026-07-25T22:24:05+09:00] add-claim
+
+CLM-E68B29C04210: PRJ-TATA-JAMSHEDPUR-EASYMELT / expected_co2_reduction = 기준 고로 운전 대비 CO2 50% 초과 감축 목표
+
+## [2026-07-25T22:24:06+09:00] add-claim
+
+CLM-890A3C7B4F52: PRJ-TATA-JAMSHEDPUR-EASYMELT / mou_date = 2023-06 Tata Steel과 SMS group MoU
+
+## [2026-07-25T22:24:07+09:00] add-claim
+
+CLM-936CDEFE6D2F: PRJ-TATA-JAMSHEDPUR-EASYMELT / investment_approval_date = 2026-04-21 확정 계약과 단계적 추진 결정 발표
+
+## [2026-07-25T22:24:09+09:00] add-claim
+
+CLM-257FBFD75914: PRJ-TATA-JAMSHEDPUR-EASYMELT / performance_disclosure_limit = 시운전 목표일·투자비·실제 감축 실적·연속운전 조건은 공개되지 않음
+
+## [2026-07-25T22:24:10+09:00] add-claim
+
+CLM-C2233FC551C9: PRJ-TATA-IJMUIDEN-DRP-EAF / project_status = Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음
+
+## [2026-07-25T22:24:11+09:00] add-claim
+
+CLM-80223F4DF69E: PRJ-TATA-IJMUIDEN-DRP-EAF / location = IJmuiden, Netherlands
+
+## [2026-07-25T22:24:12+09:00] add-claim
+
+CLM-F9AC2795958F: PRJ-TATA-IJMUIDEN-DRP-EAF / technology_route = 초기 천연가스 사용이 가능한 직접환원로와 EAF를 도입하고 향후 바이오메탄·수소 비율을 높이는 전환 경로
+
+## [2026-07-25T22:24:13+09:00] add-claim
+
+CLM-C0A1F3CE9576: PRJ-TATA-IJMUIDEN-DRP-EAF / equipment_configuration = Blast Furnace 7과 Coke and Gas Plant 2를 DRP와 EAF로 대체하는 1단계 범위
+
+## [2026-07-25T22:24:14+09:00] add-claim
+
+CLM-1D51732145C1: PRJ-TATA-IJMUIDEN-DRP-EAF / target_completion_date = 2030년 전환 목표를 유지하지만 확정 시운전 일정은 미공개
+
+## [2026-07-25T22:24:15+09:00] add-claim
+
+CLM-238E5A53B3D5: PRJ-TATA-IJMUIDEN-DRP-EAF / scrap_share_target = 2019년 17%에서 2030년 30%로 재활용 철원 비중 확대 목표
+
+## [2026-07-25T22:24:16+09:00] add-claim
+
+CLM-23F73F49DC0A: PRJ-TATA-IJMUIDEN-DRP-EAF / site_scope = Green Steel Project Phase 1: IJmuiden 고로 7호·코크스가스공장 2호 폐쇄와 DRP-EAF 신설
+
+## [2026-07-25T22:24:17+09:00] add-claim
+
+CLM-544508146DB8: PRJ-TATA-IJMUIDEN-DRP-EAF / performance_disclosure_limit = DRP·EAF 설계용량, 수소 전환 일정, 투자비, FID와 착공일은 현재 공개 자료에서 확정되지 않음
+
+## [2026-07-25T22:24:18+09:00] add-claim
+
+CLM-F83A2F90E5A9: PRJ-JFE-KURASHIKI-LARGE-EAF / project_status = 2025-04-10 투자·건설을 결정하고 정부 보조금 승인을 확보한 건설 준비 단계
+
+## [2026-07-25T22:24:19+09:00] add-claim
+
+CLM-76AB7553D576: PRJ-JFE-KURASHIKI-LARGE-EAF / location = West Japan Works Kurashiki facility, Japan
+
+## [2026-07-25T22:24:20+09:00] add-claim
+
+CLM-618C76921DD2: PRJ-JFE-KURASHIKI-LARGE-EAF / capacity_tpy = 연간 약 2,000,000톤 조강
+
+## [2026-07-25T22:24:21+09:00] add-claim
+
+CLM-110ECE8F9AFC: PRJ-JFE-KURASHIKI-LARGE-EAF / capex_jpy = JPY 329.4 billion
+
+## [2026-07-25T22:24:22+09:00] add-claim
+
+CLM-261E43415972: PRJ-JFE-KURASHIKI-LARGE-EAF / funding_amount = 일본 정부 보조금 최대 JPY 104.5 billion 예상
+
+## [2026-07-25T22:24:24+09:00] add-claim
+
+CLM-46E0A5BA39BF: PRJ-JFE-KURASHIKI-LARGE-EAF / target_start_date = 2028-04 시작 회계연도 1분기 생산 개시 목표
+
+## [2026-07-25T22:24:25+09:00] add-claim
+
+CLM-F9783293C741: PRJ-JFE-KURASHIKI-LARGE-EAF / technology_route = 스크랩·저탄소 DRI를 고효율 대형 EAF에서 용해하고 고급강 정련·물류 설비와 통합
+
+## [2026-07-25T22:24:26+09:00] add-claim
+
+CLM-52DCB96B2D73: PRJ-JFE-KURASHIKI-LARGE-EAF / equipment_configuration = 대형 EAF, 노외정련, 냉철원 물류·분배 설비와 부두 개량
+
+## [2026-07-25T22:24:28+09:00] add-claim
+
+CLM-CAAA9A198452: PRJ-JFE-KURASHIKI-LARGE-EAF / product_scope = 전기강판과 고장력강 등 고품질·고기능 강재의 대량 생산 목표
+
+## [2026-07-25T22:24:29+09:00] add-claim
+
+CLM-5292F36A01B4: PRJ-JFE-KURASHIKI-LARGE-EAF / performance_disclosure_limit = 실제 DRI 배합률·전력원단위·불순물 관리 성능·공사 진척률과 가동 실적은 아직 확인되지 않음
+
+## [2026-07-25T22:24:45+09:00] add-claim
+
+CLM-B27D63E46210: COM-JFE-Steel / high_grade_eaf_scrap_purification_status = Kurashiki에 연 200만 톤 대형 EAF·노외정련·냉철원 물류를 JPY 329.4 billion으로 투자 결정; 2028 회계연도 1분기 생산 목표
+
+## [2026-07-25T22:24:46+09:00] review-required
+
+REV-CLM-4314B8A226C4: conflicting values for COM-Tata-Steel / electric_smelting_furnace_status
+
+## [2026-07-25T22:24:47+09:00] review-required
+
+REV-CLM-E482157CBDE4: conflicting values for COM-ArcelorMittal / aqueous_iron_electrolysis_status
+
+## [2026-07-25T22:25:01+09:00] resolve-review
+
+REV-CLM-4314B8A226C4: supersede. 2026-04-21 확정 계약은 2023 MoU 단계보다 최신이고 실행 의사 수준이 상향되어 기존 상태를 대체함
+
+## [2026-07-25T22:25:01+09:00] resolve-review
+
+REV-CLM-E482157CBDE4: supersede. 최신 공식 R&D 설명의 TRL 6과 산업 1단계 미착공 상태가 2023 계획보다 현재 상태를 더 정확히 나타냄
+
+## [2026-07-25T22:38:14+09:00] add-image
+
+MED-C0BADDD0DCD4: attached to SRC-20260725-D3C50354 (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:38:15+09:00] add-image
+
+MED-F0E1DDA6F73D: attached to SRC-20260725-FBE26310 (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:38:15+09:00] add-image
+
+MED-59A319A168AC: attached to SRC-20260725-61382798 (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:38:16+09:00] add-image
+
+MED-4B6744FBED5B: attached to SRC-20260725-29802D50 (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:38:17+09:00] add-image
+
+MED-9911B32AD15F: attached to SRC-20260725-E71081D1 (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:38:17+09:00] add-image
+
+MED-509F32DFCABA: attached to SRC-20260725-38762376 (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:38:31+09:00] sync-obsidian
+
+55 subjects and 119 sources projected.
+
+## [2026-07-25T22:39:08+09:00] add-source
+
+SRC-20260725-DED07902: METI Green Steel for GX: Kurashiki EAF
+
+## [2026-07-25T22:39:20+09:00] add-claim
+
+CLM-63259114435B: PRJ-JFE-KURASHIKI-LARGE-EAF / government_support_confirmation = 일본 METI GX 자료가 Kurashiki 약 200만 t/y 대형 EAF와 FY2028 상업생산 목표를 정부 지원 전환사업으로 확인
+
+## [2026-07-25T22:39:20+09:00] add-claim
+
+CLM-0B8B0826826F: PRJ-JFE-KURASHIKI-LARGE-EAF / target_commercial_operation_date = FY2028 상업생산 목표를 METI 자료에서 교차 확인
+
+## [2026-07-25T22:40:46+09:00] add-source
+
+SRC-20260725-C4A8EDA3: Swedish Energy Agency review of HYBRIT pilot phase
+
+## [2026-07-25T22:40:47+09:00] add-source
+
+SRC-20260725-9A98E2AF: European Commission approves German aid for thyssenkrupp Steel Duisburg transition
+
+## [2026-07-25T22:43:52+09:00] add-claim
+
+CLM-910D115A6A3C: PRJ-HYBRIT-LULEA-PILOT / independent_government_validation = Swedish Energy Agency 2024 전환 분석이 2018~2024 파일럿 완료와 수소 생산·저장 및 DRI-EAF 통합 조업 성과를 독립 요약
+
+## [2026-07-25T22:43:53+09:00] add-claim
+
+CLM-97254BF5154D: PRJ-HYBRIT-LULEA-PILOT / electrolyzer_long_term_result = 알칼라인 수전해 설비의 장기운전과 수소 저장, 수소 DRI의 EAF 용해 조업법 개발을 정부 분석이 확인
+
+## [2026-07-25T22:43:53+09:00] add-claim
+
+CLM-00CBB41A0609: PRJ-HYBRIT-LULEA-PILOT / performance_disclosure_limit = 정부 요약에도 설비 가동률·캠페인별 생산량·제품별 품질 통계·감사된 생산원가는 공개되지 않음
+
+## [2026-07-25T22:43:54+09:00] add-claim
+
+CLM-CE813B6CA072: PRJ-TK-H2STEEL-DUISBURG / state_aid_amount = EU 승인 기준 직접보조 최대 EUR 550 million과 재생수소 전환 지원 최대 EUR 1.45 billion
+
+## [2026-07-25T22:43:55+09:00] add-claim
+
+CLM-E53FA25605EB: PRJ-TK-H2STEEL-DUISBURG / original_target_start_date = 2023년 EU 승인 당시 2026년 가동 가정; 최신 회사 일정은 2027년 시운전 개시로 변경
+
+## [2026-07-25T22:43:55+09:00] add-claim
+
+CLM-1C9D7E3DA69E: PRJ-TK-H2STEEL-DUISBURG / original_capacity_tpy = 2023년 EU 승인 가정은 연 2.3 Mt 저탄소 용선; 최신 회사 설계 표기는 연 2.5 Mt DRI
+
+## [2026-07-25T22:43:56+09:00] add-claim
+
+CLM-7B1F2D93987B: PRJ-TK-H2STEEL-DUISBURG / hydrogen_support_mechanism = 첫 10년 동안 실제 재생수소 사용량·가격을 독립 전문가가 연간 검증하는 조건부 지원 메커니즘
+
+## [2026-07-25T22:43:57+09:00] add-claim
+
+CLM-93CE887C0BD3: PRJ-NUCOR-CONVENT-DRI-CCS / agreement_confirmation = Nucor도 ExxonMobil과의 Convent DRI CO2 포집·수송·영구저장 계약과 최대 80만 t/y 설계를 별도 공식 확인
+
+## [2026-07-25T22:43:58+09:00] add-claim
+
+CLM-C73F9EA18412: PRJ-NUCOR-CONVENT-DRI-CCS / performance_disclosure_limit = 계약과 설계용량은 양사에서 확인되지만 시운전·연간 실제 포집량·포집률·수송 개시·영구 주입 실적은 미확인
+
+## [2026-07-25T22:44:34+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T22:46:26+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T22:46:51+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T22:47:52+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T22:49:57+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T22:49:58+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T22:58:12+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T22:59:07+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T22:59:52+09:00] add-image
+
+MED-F0531463286B: attached to SRC-20260725-E316D68F (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:59:53+09:00] add-image
+
+MED-3DC84B6B237E: attached to SRC-20260725-BAB49577 (ai_reconstruction, ai_generated)
+
+## [2026-07-25T22:59:54+09:00] add-image
+
+MED-FC50247D9359: attached to SRC-20260725-973F138F (ai_reconstruction, ai_generated)
+
+## [2026-07-25T23:01:31+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T23:01:31+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:04:19+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T23:04:59+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:15:04+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T23:15:04+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:16:11+09:00] add-claim
+
+CLM-F2C5963D4AE5: COM-POSCO / high_grade_eaf_scrap_purification_status = 광양제철소 연 250만 톤 대형 전기로(EAF)를 2026년 6월 17일 준공해 저탄소강 생산을 개시했으며 약 6,000억 원을 투자했다. 고로 용선 혼합, 스크랩 선별·성분 제어 기술을 개발해 2030년 자동차강판·전기강판 등 고급강 양산을 목표로 한다.
+
+## [2026-07-25T23:16:12+09:00] sync-obsidian
+
+55 subjects and 123 sources projected.
+
+## [2026-07-25T23:19:39+09:00] add-source
+
+SRC-20260725-013F0FA1: HyREX Hydrogen Reduction Ironmaking
+
+## [2026-07-25T23:19:59+09:00] add-image
+
+MED-E8ACEB49EE3F: attached to SRC-20260725-013F0FA1 (process_diagram, link_only)
+
+## [2026-07-25T23:20:00+09:00] add-claim
+
+CLM-498A0FB3D09E: COM-POSCO / hyrex_process_configuration = POSCO 공식 HyREX 공정도는 분철광석을 4단 유동층 환원로에서 순차 환원해 DRI로 만들고, 전기용융로에서 용선화한 뒤 전로와 연속주조로 연결하는 구성을 제시한다.
+
+## [2026-07-25T23:20:01+09:00] add-claim
+
+CLM-4D0ECD1F88B1: PRJ-POSCO-HYREX-DEMO / process_configuration = POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계
+
+## [2026-07-25T23:20:29+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-25T23:21:13+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-25T23:21:14+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:40:32+09:00] add-claim
+
+CLM-39E60F4CBED8: COM-Tata-Steel / easymelt_status = 2026-04-21 Jamshedpur 649 m3 E고로를 전기보조 합성가스 재순환 방식으로 단계 개조하는 EASyMelt 산업 실증 확정 계약 체결; DRI 전기용융로(ESF)와는 다른 고로 개조 기술이며 시운전일과 실제 감축 실적은 미공개
+
+## [2026-07-25T23:40:33+09:00] add-claim
+
+CLM-39E4A9A206CA: COM-POSCO / steelworks_ccus_status = 2024년 1월 포항 코크스오븐에서 중순도 포집 CO2 주입·전환을 실증했고 코크스오븐·소결·열풍로·발전설비별 단계적 CCS를 검토 중; 고로 자체 CCUS 실증 또는 전 고로 CCS 상용 배치 근거는 미확인
+
+## [2026-07-25T23:41:17+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-25T23:41:17+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:48:24+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:48:52+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-25T23:48:52+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:57:31+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-25T23:57:31+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:58:29+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-25T23:58:29+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T23:58:33+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-25T23:58:33+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-26T00:05:25+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-26T00:08:23+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-26T00:08:23+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-26.md
+
+## [2026-07-26T00:10:23+09:00] sync-obsidian
+
+55 subjects and 124 sources projected.
+
+## [2026-07-26T00:10:23+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-26.md
+
+## [2026-07-26T00:27:11+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-043634EA: journal_article 10.2355/isijinternational.isijint-2019-392
+
+## [2026-07-26T00:27:12+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-147875E9: journal_article 10.1038/nature12134
+
+## [2026-07-26T00:27:13+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-1486633E: journal_article 10.1038/s41598-026-58521-y
+
+## [2026-07-26T00:27:13+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-1A6AFBF8: journal_article 10.1149/1.3623446
+
+## [2026-07-26T00:27:14+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-1AD87D2B: journal_article 10.1007/s40831-024-00878-3
+
+## [2026-07-26T00:27:14+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-1F1EA152: journal_article 10.3390/pr13020420
+
+## [2026-07-26T00:27:15+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-2EABD949: research_report
+
+## [2026-07-26T00:27:16+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-31725163: journal_article 10.1007/s40831-026-01459-2
+
+## [2026-07-26T00:27:16+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-4333339B: journal_article 10.1007/s11663-025-03610-y
+
+## [2026-07-26T00:27:17+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-4366E5B1: journal_article 10.1007/s11663-019-01537-9
+
+## [2026-07-26T00:27:17+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-7DDD98E7: journal_article 10.1007/s40831-026-01569-x
+
+## [2026-07-26T00:27:18+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-7E6DFD33: research_report
+
+## [2026-07-26T00:27:19+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-8BA7A1B3: conference_paper 10.1115/imece2023-112791
+
+## [2026-07-26T00:27:19+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-99B78C86: journal_article 10.1007/s11663-024-03188-x
+
+## [2026-07-26T00:27:20+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-C79793B1: journal_article 10.2320/matertrans.43.292
+
+## [2026-07-26T00:27:21+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-D37C44F7: journal_article 10.2355/isijinternational.isijint-2024-326
+
+## [2026-07-26T00:27:21+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-DB8169D9: journal_article 10.3390/met13030558
+
+## [2026-07-26T00:27:22+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-EE8A09EF: journal_article 10.1002/srin.202400028
+
+## [2026-07-26T00:27:22+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-F13F33CD: journal_article 10.1007/s42243-025-01583-5
+
+## [2026-07-26T00:27:23+09:00] academic-metadata
+
+Updated academic metadata for SRC-20260725-FED4B2D7: journal_article 10.1002/cite.201800067
+
+## [2026-07-26T00:29:57+09:00] add-source
+
+SRC-20260726-3F53AC8C: Low temperature electrolysis for iron production via conductive colloidal electrode
+
+## [2026-07-26T00:29:58+09:00] add-source
+
+SRC-20260726-7BCEED6F: ΣIDERWIN—A New Route for Iron Production
+
+## [2026-07-26T00:29:59+09:00] add-source
+
+SRC-20260726-B9ACCB8F: Low-Temperature Electrowinning of Iron from Mixed Hematite-Magnetite Alkaline Suspensions
+
+## [2026-07-26T00:29:59+09:00] add-source
+
+SRC-20260726-10602BC9: Chemical and electrochemical pathways to low-carbon iron and steel
+
+## [2026-07-26T00:30:00+09:00] add-source
+
+SRC-20260726-6AADACF1: Routes to reducing emissions from steel production
+
+## [2026-07-26T00:30:00+09:00] add-source
+
+SRC-20260726-7A19874F: Rio Tinto Steel Decarbonisation and Biomass Ironmaking
+
+## [2026-07-26T00:30:01+09:00] add-source
+
+SRC-20260726-E01E47B8: Smelter — Green Steelmaking Using Low-Grade DRI
+
+## [2026-07-26T00:30:02+09:00] add-source
+
+SRC-20260726-443630DE: Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach
+
+## [2026-07-26T00:31:10+09:00] add-claim
+
+CLM-28F103109C42: TEC-low-temperature-aqueous-iron-electrolysis / laboratory_electrolysis_condition = 2015 전도성 콜로이드 전극 실험: 45 wt% NaOH, 110 °C, 1.7 V, 5시간 전해
+
+## [2026-07-26T00:31:11+09:00] add-claim
+
+CLM-28CF934500AF: TEC-low-temperature-aqueous-iron-electrolysis / ore_feed_scope = 2023 학술 연구에서 혼합 hematite-magnetite 알칼리 현탁액의 저온 전해채취를 연구 규모로 검증
+
+## [2026-07-26T00:31:11+09:00] add-claim
+
+CLM-76DDA4428E3A: TEC-low-temperature-aqueous-iron-electrolysis / academic_route_scope = RawMat 2021 학회 논문은 SIDERWIN의 저온 알칼리 철 전해채취 경로와 bauxite residue 적용 연구를 공개
+
+## [2026-07-26T00:31:12+09:00] add-claim
+
+CLM-D0157030A4CA: TEC-low-carbon-ironmaking / academic_route_scope = 2024 종설은 수소 직접환원·수소 플라즈마/용융·암모니아 환원·수계/용융산화물 전해·바이오카본 EAF를 저탄소 후보군으로 검토
+
+## [2026-07-26T00:31:13+09:00] add-claim
+
+CLM-59E9EC9A6F37: TEC-low-carbon-ironmaking / cross_route_constraints = 학술 종설이 공통 제약으로 저탄소 전력·수소 공급, 광석 품위, 스크랩 Cu 축적, 공정 열, 전해 셀 스케일업을 지적
+
+## [2026-07-26T00:31:13+09:00] add-claim
+
+CLM-2E3DA0323256: TEC-low-carbon-ironmaking / regional_route_dependency = 2025 종설은 스크랩·광석 품질, 저탄소 전력·수소, 물류·정책의 지역차 때문에 단일 보편 경로가 없다고 평가
+
+## [2026-07-26T00:31:14+09:00] add-claim
+
+CLM-53E803BB6936: TEC-microwave-biomass-ironmaking / conference_process_configuration = 2023 AIST 발표 공정: 미분광·flux·raw biomass green briquette → 600°C 초과 예열·사전환원 → microwave metallisation → electric melter gangue 제거
+
+## [2026-07-26T00:31:15+09:00] add-claim
+
+CLM-0FD591F308C7: PRJ-BIOIRON-WA-RD / original_pilot_capacity_plan = 2023-03-08 AIST 발표 당시 1 t/h 연속 파일럿 상세설계 진행 계획
+
+## [2026-07-26T00:31:15+09:00] add-claim
+
+CLM-8548E2B5A20B: TEC-microwave-biomass-ironmaking / ore_feed_scope = 2023 AIST 발표는 agricultural·aquatic·forestry residue biomass 시험과 Pilbara fines 적용을 회사 연구 범위로 공개
+
+## [2026-07-26T00:31:16+09:00] add-claim
+
+CLM-98BA41978AED: TEC-electric-smelting-furnace / furnace_selection_by_feed_grade = AISTech 2024 논문 초록은 고품위 DRI·낮은 slag량에는 EAF, 저품위 DRI·높은 gangue에는 별도 smelter가 필요하다고 구분
+
+## [2026-07-26T00:31:17+09:00] add-claim
+
+CLM-DFFABC7A0509: TEC-hydrogen-plasma-smelting-reduction / conference_author_stage_assessment = AISTech 2025 논문 저자들은 HPSR을 TRL 5로 평가했으며 공식 프로젝트 인증과 구분 필요
+
+## [2026-07-26T00:31:17+09:00] add-claim
+
+CLM-A5A1BCD75626: TEC-hydrogen-plasma-smelting-reduction / public_scaleup_evidence_gap = AISTech 2025 논문은 산업 규모 HPSR의 예비 techno-economic·commercial feasibility 공개 연구가 부족하다고 명시
+
+## [2026-07-26T00:31:18+09:00] add-claim
+
+CLM-612DE693AE4D: TEC-hydrogen-plasma-smelting-reduction / scaleup_methodology = AISTech 2025 논문은 산업 최종 요구조건을 소규모 시험 설계에 반복 반영하는 scenario-based requirements engineering을 제안
+
+## [2026-07-26T00:37:06+09:00] add-source
+
+SRC-20260726-9F56DB69: Volteron — Scalable Electrochemical Ironmaking for Green Steel Production
+
+## [2026-07-26T00:37:07+09:00] add-source
+
+SRC-20260726-DEF03677: Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management
+
+## [2026-07-26T00:37:08+09:00] add-source
+
+SRC-20260726-CEDF7736: Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation
+
+## [2026-07-26T00:37:08+09:00] add-source
+
+SRC-20260726-EADB3777: Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction
+
+## [2026-07-26T00:38:08+09:00] add-claim
+
+CLM-DFC79B49EE0D: TEC-low-temperature-aqueous-iron-electrolysis / scale_up_plan = Volteron 개발사 발표는 1 m² 파일럿 성숙도와 규제 여건을 전제로 2026년 40–80 kt/y step-up plant 계약 로드맵을 제시했다. 이는 계획이며 가동 실적이 아니다.
+
+## [2026-07-26T00:38:09+09:00] add-claim
+
+CLM-70B9EF9408A9: TEC-high-grade-eaf-and-scrap-impurity-removal / process_configuration = AIST 2026 발표의 디지털 스크랩 입고 범위는 자동 분류, 트럭 용적·중량·밀도, 성분, MES/ERP 연계, 위험물 탐지와 특성화를 포함한다.
+
+## [2026-07-26T00:38:09+09:00] add-claim
+
+CLM-ACEE5EF9D2CE: TEC-high-grade-eaf-and-scrap-impurity-removal / test_result = 발표 자료의 제시된 시험 구성에서 트럭 컨테이너 탐지 정확도 96%, 위험물 탐지 재현율 76%가 보고되었다. 타 현장 일반화 성능은 검증되지 않았다.
+
+## [2026-07-26T00:38:10+09:00] add-claim
+
+CLM-DA4EF28FAB71: TEC-smart-steelworks / process_configuration = 학회 발표 사례는 스크랩 입고 영상·계측을 화학성분 및 MES/ERP와 연결하는 cloud/edge 기반 운영 구성을 제시했다.
+
+## [2026-07-26T00:38:11+09:00] review-required
+
+REV-CLM-99AECB5AEECA: conflicting values for TEC-hydrogen-direct-reduced-iron / eaf_integration
+
+## [2026-07-26T00:38:11+09:00] add-claim
+
+CLM-DEC6B6945BD0: TEC-high-grade-eaf-and-scrap-impurity-removal / eaf_integration = Ternium Pesquería 공급사 발표의 EAF 투입 구성은 연 2.1 Mt DRI와 1.5 Mt 스크랩을 결합하는 설계로 제시됐다.
+
+## [2026-07-26T00:38:12+09:00] add-claim
+
+CLM-B1712F676D80: TEC-hydrogen-direct-reduced-iron / reduction_degree = AIST 2026 다단 수소환원 실험은 네 광석의 최종 환원도를 Carajás 89%, MAC 80%, Roy Hill 81%, Yandi 73.3%로 보고했다. 이 값은 해당 실험 순서에 한정된다.
+
+## [2026-07-26T00:38:13+09:00] add-claim
+
+CLM-36750B48F252: TEC-hydrogen-based-fine-ore-reduction / ore_quality_requirement = 다단 수소환원 발표는 맥석 증가가 최종 환원도 저하 및 fayalite 같은 난환원상 형성과 연결될 수 있다고 결론냈다.
+
+## [2026-07-26T00:38:14+09:00] add-claim
+
+CLM-C0C2C09D523F: TEC-hydrogen-based-fine-ore-reduction / process_configuration = 발표는 FINEX·HyREX형 유동층이 소결·펠릿화 없이 분광을 사용할 수 있지만 유동화를 위해 광석 대비 큰 수소 유량이 필요하다고 설명했다. 이는 발표자의 공정 해설이며 HyREX 상업 성능 검증은 아니다.
+
+## [2026-07-26T00:38:37+09:00] resolve-review
+
+REV-CLM-99AECB5AEECA: coexist. 기존 Claim은 무탄소 DRI의 EAF 용해 일반 운전 제약이고, 신규 Claim은 Ternium Pesquería 공급사 발표의 특정 통합 설계·용량이다. 대상 범위와 근거 시점이 달라 함께 유지한다.
+
+## [2026-07-26T00:39:20+09:00] add-source
+
+SRC-20260726-6CC774DD: Electric Smelting Furnace-Based Flowsheets
+
+## [2026-07-26T00:39:21+09:00] add-source
+
+SRC-20260726-B392BD57: Profitable Decarbonization of the Blast Furnace Through Electrified Top-Gas Recycling
+
+## [2026-07-26T00:39:36+09:00] add-claim
+
+CLM-929304D2E15B: TEC-electric-smelting-furnace / conference_process_configuration = Hatch의 AIST 2026 발표는 사전환원 후 ESF에서 맥석을 저-FeO 슬래그로 배출해 저품위 광석을 처리하는 flowsheet를 제시했다.
+
+## [2026-07-26T00:39:36+09:00] add-claim
+
+CLM-1FC11D25E950: TEC-electric-smelting-furnace / public_scaleup_evidence_gap = 발표의 CRISP+ 약 120–160 MW·1.5 Mt/y 초과 수치는 개념 설계치이며, 명명된 상용 설비의 달성 실적으로 확인되지 않았다.
+
+## [2026-07-26T00:39:37+09:00] add-claim
+
+CLM-9972D7A3DB90: TEC-blast-furnace-ccus / conference_process_configuration = Helix Carbon의 AIST 2026 발표는 고로 상부가스 재순환, 전기화 및 탄소 관리를 결합한 retrofit 개념을 제안했다.
+
+## [2026-07-26T00:39:38+09:00] add-claim
+
+CLM-D98EE599A56D: TEC-blast-furnace-ccus / performance_disclosure_limit = 전기화 상부가스 재순환 자료는 독립 운전 검증이 아닌 공급사의 비동료심사 학회 발표이므로 정량 성능은 별도 운전자료나 독립 연구로 교차검증해야 한다.
+
+## [2026-07-26T00:43:23+09:00] sync-obsidian
+
+55 subjects and 138 sources projected.
+
+## [2026-07-26T00:44:13+09:00] sync-obsidian
+
+55 subjects and 138 sources projected.
+
+## [2026-07-26T00:44:26+09:00] audit
+
+1 findings. Report: reports/audits/audit-2026-07-26.md
+
+## [2026-07-26T00:45:42+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-26.md
+
+## [2026-07-26T01:38:15+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-26.md

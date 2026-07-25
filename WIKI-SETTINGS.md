@@ -64,6 +64,13 @@
 - equipment_supplier
 - specialist_media
 
+## 학술 탐색 범위
+
+- journal_article
+- conference_paper
+- conference_presentation
+- preprint
+
 ## 리스크 신호
 
 - delay

@@ -4,7 +4,7 @@
   "url": "https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html",
   "canonical_url": "https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html",
   "publisher": "Fraunhofer UMSICHT",
-  "published_at": null,
+  "published_at": "2018-09-04",
   "collected_at": "2026-07-25",
   "source_type": "academic",
   "language": "en",
@@ -27,7 +27,27 @@
       "rights_note": "Fraunhofer UMSICHT 공식 페이지 원본 사진을 외부 링크로만 표시",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "COM-thyssenkrupp-Steel",
+        "TEC-blast-furnace-ccus",
+        "PRJ-CARBON2CHEM-DUISBURG"
+      ]
     }
-  ]
+  ],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Teresa Wich",
+      "Wiebke Lüke",
+      "Karsten Büker",
+      "Olaf von Morstein",
+      "Ralph Kleinschmidt",
+      "Markus Oles",
+      "Reinhold Achatz"
+    ],
+    "venue": "Chemie Ingenieur Technik",
+    "doi": "10.1002/cite.201800067",
+    "peer_review_status": "peer_reviewed"
+  }
 }

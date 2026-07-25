@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-612DE693AE4D",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "scaleup_methodology",
+  "value": "AISTech 2025 논문은 산업 최종 요구조건을 소규모 시험 설계에 반복 반영하는 scenario-based requirements engineering을 제안",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-26",
+  "last_verified": "2026-07-26",
+  "source_ids": [
+    "SRC-20260726-443630DE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-26",
+      "action": "created",
+      "reason": "AISTech 공식 초록",
+      "source_ids": [
+        "SRC-20260726-443630DE"
+      ]
+    }
+  ]
+}

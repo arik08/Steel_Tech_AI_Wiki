@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-20260725-013F0FA1",
+  "title": "HyREX Hydrogen Reduction Ironmaking",
+  "url": "https://www.posco.com/homepage/docs/eng7/jsp/hyrex/",
+  "canonical_url": "https://www.posco.com/homepage/docs/eng7/jsp/hyrex",
+  "publisher": "POSCO",
+  "published_at": null,
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "013f0fa1b031a2688e399b75e6bf687491aa746c5c5818ca01747345a7057e0e",
+  "raw_sha256": "e1a5d6472bd27f3b7948711535c08e6352359be9bad5289cfa99a2442b60942d",
+  "raw_path": ".system/raw/SRC-20260725-013F0FA1.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-E8ACEB49EE3F",
+      "kind": "process_diagram",
+      "caption": "POSCO 공식 HyREX 공정도: 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계",
+      "alt_text": "분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도",
+      "creator": "POSCO",
+      "image_url": "https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg",
+      "origin_url": "https://www.posco.com/homepage/docs/eng7/jsp/hyrex",
+      "rights_status": "link_only",
+      "rights_note": "POSCO 공식 HyREX 페이지에서 원본 이미지와 공정 설명을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원격 링크로만 표시합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null,
+      "hero_priority": -100,
+      "subject_ids": [
+        "COM-POSCO",
+        "PRJ-POSCO-HYREX-DEMO"
+      ]
+    }
+  ]
+}

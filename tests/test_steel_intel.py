@@ -44,9 +44,16 @@ class SteelIntelTests(unittest.TestCase):
             source_type="company_release",
             language="en",
             reliability="primary",
+            academic=None,
             supporting_of=None,
             force=force,
         )
+
+    def test_claim_stage_treats_completed_facility_with_production_start_as_operating(self):
+        stage, _ = steel_intel.claim_stage(
+            "2026년 6월 준공해 저탄소강 생산을 개시했다."
+        )
+        self.assertEqual(stage, "가동·현장 적용")
 
     def test_index_is_the_only_home_projection(self):
         self.assertTrue((self.root / "index.md").is_file())
@@ -128,6 +135,127 @@ class SteelIntelTests(unittest.TestCase):
             reference,
             "[[sources/SRC-EXAMPLE|:material-link-variant:]]",
         )
+
+    def test_academic_source_metadata_is_searchable_and_rendered(self):
+        content = self.root.parent / "conference-paper.md"
+        content.write_text(
+            "# Hydrogen reduction pilot results\n\nPilot campaign details.",
+            encoding="utf-8",
+        )
+        args = self.source_args(
+            content,
+            "Hydrogen reduction pilot results",
+            "https://doi.org/10.1234/example.2026.001",
+        )
+        args.source_type = "academic"
+        args.publisher = "AIST"
+        args.academic_kind = "conference_paper"
+        args.author = ["A. Researcher", "B. Engineer"]
+        args.venue = "AISTech 2026 Proceedings"
+        args.doi = "https://doi.org/10.1234/example.2026.001"
+        args.conference_name = "AISTech 2026"
+        args.conference_date = "2026-05-04"
+        args.conference_location = "Pittsburgh, USA"
+        args.peer_review_status = "peer_reviewed"
+
+        result = steel_intel.add_source(args)
+        source_id = result["source_id"]
+        record = steel_intel.source_record_by_id(self.root, source_id)[1]
+
+        self.assertEqual(record["academic"]["kind"], "conference_paper")
+        self.assertEqual(record["academic"]["doi"], "10.1234/example.2026.001")
+        source_page = (self.root / "sources" / f"{source_id}.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("## 학술 정보", source_page)
+        self.assertIn("학회 논문", source_page)
+        self.assertIn("AISTech 2026", source_page)
+        self.assertIn("https://doi.org/10.1234/example.2026.001", source_page)
+
+        search_result = steel_intel.search_store(
+            Namespace(root=str(self.root), query="AISTech", limit=10)
+        )
+        self.assertEqual(search_result["sources"][0]["source_id"], source_id)
+        self.assertEqual(
+            search_result["sources"][0]["academic"]["kind"],
+            "conference_paper",
+        )
+
+    def test_academic_source_requires_kind_and_valid_doi(self):
+        content = self.root.parent / "paper.md"
+        content.write_text("paper body", encoding="utf-8")
+        args = self.source_args(content, "Paper", "https://example.com/paper")
+        args.source_type = "academic"
+        with self.assertRaisesRegex(ValueError, "require --academic-kind"):
+            steel_intel.add_source(args)
+
+        args.academic_kind = "journal_article"
+        args.doi = "not-a-doi"
+        with self.assertRaisesRegex(ValueError, "Invalid DOI"):
+            steel_intel.add_source(args)
+
+    def test_set_academic_metadata_enriches_existing_source(self):
+        content = self.root.parent / "legacy-paper.md"
+        content.write_text("legacy paper body", encoding="utf-8")
+        args = self.source_args(
+            content, "Legacy paper", "https://example.com/legacy-paper"
+        )
+        args.source_type = "academic"
+        args.academic_kind = "journal_article"
+        created = steel_intel.add_source(args)
+
+        result = steel_intel.set_academic_metadata(
+            Namespace(
+                root=str(self.root),
+                source_id=created["source_id"],
+                academic=None,
+                academic_kind="journal_article",
+                author=["First Author", "Second Author"],
+                venue="Journal of Green Iron",
+                doi="https://doi.org/10.1234/green.iron",
+                conference_name=None,
+                conference_date=None,
+                conference_location=None,
+                peer_review_status="peer_reviewed",
+                published_at="2024-02-03",
+            )
+        )
+
+        self.assertEqual(result["academic"]["doi"], "10.1234/green.iron")
+        self.assertEqual(
+            result["academic"]["authors"], ["First Author", "Second Author"]
+        )
+        record = steel_intel.source_record_by_id(
+            self.root, created["source_id"]
+        )[1]
+        self.assertEqual(record["published_at"], "2024-02-03")
+        page = (
+            self.root / "sources" / f"{created['source_id']}.md"
+        ).read_text(encoding="utf-8")
+        self.assertIn("Journal of Green Iron", page)
+        self.assertIn("First Author, Second Author", page)
+
+    def test_audit_detects_invalid_academic_metadata(self):
+        content = self.root.parent / "audit-paper.md"
+        content.write_text("paper body", encoding="utf-8")
+        args = self.source_args(content, "Paper", "https://example.com/paper")
+        args.source_type = "academic"
+        args.academic_kind = "journal_article"
+        result = steel_intel.add_source(args)
+        record_path, record = steel_intel.source_record_by_id(
+            self.root, result["source_id"]
+        )
+        record["academic"]["kind"] = "conference"
+        record["academic"]["doi"] = "bad-doi"
+        steel_intel.write_json(record_path, record)
+
+        audit = steel_intel.audit_store(
+            Namespace(root=str(self.root), stale_days=180)
+        )
+        self.assertEqual(audit["counts"]["source_schema"], 2)
+        report = (self.root / audit["report"]).read_text(encoding="utf-8")
+        self.assertIn("invalid academic kind", report)
+        self.assertIn("invalid DOI", report)
 
     def test_technology_navigation_is_collapsed_and_marks_current_page(self):
         settings = {
@@ -272,6 +400,12 @@ class SteelIntelTests(unittest.TestCase):
             "# Steel Intelligence Audit\n",
             encoding="utf-8",
         )
+        (
+            self.root / "reports" / "academic-landscape-2026.md"
+        ).write_text(
+            "# 철강 신기술 논문·학회 근거 지형 2026\n",
+            encoding="utf-8",
+        )
 
         config = {"docs_dir": str(self.root)}
         mkdocs_hooks.on_config(config)
@@ -289,7 +423,52 @@ class SteelIntelTests(unittest.TestCase):
             {"일일 철강 기술 동향": "reports/briefs/brief-2026-07-24.md"},
             trend_nav,
         )
+        self.assertIn(
+            {
+                "철강 신기술 논문·학회 근거 지형 2026":
+                "reports/academic-landscape-2026.md"
+            },
+            trend_nav,
+        )
         self.assertNotIn("audit-", repr(config["nav"]))
+
+    def test_mkdocs_navigation_shortens_and_sorts_half_year_reports(self):
+        older_report = (
+            self.root / "reports" / "briefs" / "brief-2025-h2.md"
+        )
+        older_report.write_text(
+            "---\n"
+            "date: 2025-12-31\n"
+            "---\n"
+            "# 2025년 하반기 철강 신기술·프로젝트 동향\n",
+            encoding="utf-8",
+        )
+        newer_report = (
+            self.root / "reports" / "briefs" / "brief-2026-h1.md"
+        )
+        newer_report.write_text(
+            "---\n"
+            "date: 2026-07-25\n"
+            "---\n"
+            "# 2026년 상반기 철강 신기술·프로젝트 동향\n",
+            encoding="utf-8",
+        )
+
+        config = {"docs_dir": str(self.root)}
+        mkdocs_hooks.on_config(config)
+
+        trend_nav = next(
+            item["동향 보고서"]
+            for item in config["nav"]
+            if "동향 보고서" in item
+        )
+        self.assertEqual(
+            trend_nav[-2:],
+            [
+                {"2026년 상반기 동향": "reports/briefs/brief-2026-h1.md"},
+                {"2025년 하반기 동향": "reports/briefs/brief-2025-h2.md"},
+            ],
+        )
 
     def test_mermaid_contrast_fallback_is_loaded(self):
         config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
@@ -586,6 +765,14 @@ class SteelIntelTests(unittest.TestCase):
             "**확인 날짜:** 발표 2026-07-21 · 검증 2026-07-25",
             company_page,
         )
+        self.assertIn("## 주요 프로젝트", company_page)
+        self.assertIn(
+            "[[projects/PRJ-EXAMPLE-DRI|PRJ-EXAMPLE-DRI]]",
+            company_page,
+        )
+        self.assertIn("## 프로젝트별 상세", company_page)
+        self.assertIn("**전체 공개 연혁**", company_page)
+        self.assertIn("| **목표 가동 시점** | 2027", company_page)
         self.assertNotIn("공식 근거를 확인하지 못한 영역", company_page)
         self.assertNotIn(
             "용융산화물 전기분해 (Molten Oxide Electrolysis)",
@@ -614,7 +801,11 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("## 기술별 기업 현황", index_page)
         self.assertIn("| 기술 |", index_page)
         self.assertIn(
-            "[[companies/COM-Example-Steel|● 확인]]",
+            "[[companies/COM-Example-Steel|단계 미상]]",
+            index_page,
+        )
+        self.assertIn(
+            "**단계 흐름:** 연구 → 소규모 시험·파일럿 → 실증",
             index_page,
         )
         self.assertNotIn("○ 미확인", index_page)
@@ -730,7 +921,7 @@ class SteelIntelTests(unittest.TestCase):
         )
         self.assertIn("**발행된 보고서 1건**", report_index)
         self.assertIn(
-            "철강 기술 동향 브리프 · 2026-07-20–2026-07-25",
+            f"철강 기술 동향 브리프 · 2026-07-20–{steel_intel.today()}",
             report_index,
         )
         html_report = (self.root / change_brief["html_report"]).read_text(
@@ -802,6 +993,53 @@ class SteelIntelTests(unittest.TestCase):
         )
         self.assertEqual(audit["counts"]["source_integrity"], 1)
 
+    def test_audit_does_not_flag_resolved_coexisting_claims(self):
+        first_file = Path(self.temp_dir.name) / "first-scope.md"
+        first_file.write_text(
+            "The general EAF route needs carbon and oxygen control.",
+            encoding="utf-8",
+        )
+        second_file = Path(self.temp_dir.name) / "project-scope.md"
+        second_file.write_text(
+            "A named project combines DRI and scrap in its EAF design.",
+            encoding="utf-8",
+        )
+        first_source = steel_intel.add_source(
+            self.source_args(
+                first_file,
+                "General EAF integration study",
+                "https://example.com/general-eaf",
+            )
+        )
+        second_source = steel_intel.add_source(
+            self.source_args(
+                second_file,
+                "Project EAF integration design",
+                "https://example.com/project-eaf",
+            )
+        )
+        steel_intel.add_claim(
+            self.claim_args(first_source["source_id"], "general operating constraint")
+        )
+        conflict = steel_intel.add_claim(
+            self.claim_args(second_source["source_id"], "project-specific design")
+        )
+        self.assertEqual(conflict["action"], "review_required")
+        steel_intel.resolve_review(
+            Namespace(
+                root=str(self.root),
+                review_id=conflict["review_id"],
+                decision="coexist",
+                rationale="The claims describe different scopes.",
+                related_source=None,
+            )
+        )
+
+        audit = steel_intel.audit_store(
+            Namespace(root=str(self.root), stale_days=180)
+        )
+        self.assertEqual(audit["counts"]["active_conflicts"], 0)
+
     def test_optional_source_images_are_projected_and_audited(self):
         incoming = Path(self.temp_dir.name) / "source.md"
         incoming.write_text(
@@ -840,11 +1078,24 @@ class SteelIntelTests(unittest.TestCase):
                 kind="facility_photo",
                 rights_status="permitted",
                 rights_note="공식 미디어 자료의 내부 기술검토 사용 조건 확인",
+                subject_id=["COM-EXAMPLE-STEEL", "PRJ-EXAMPLE-DRI"],
             )
         )
         self.assertEqual(added["action"], "image_added")
         local_image = self.root / added["local_path"]
         self.assertTrue(local_image.is_file())
+        stored_source = json.loads(
+            (
+                self.root
+                / ".system"
+                / "source-records"
+                / f"{source_id}.json"
+            ).read_text(encoding="utf-8")
+        )
+        self.assertEqual(
+            stored_source["images"][0]["subject_ids"],
+            ["COM-EXAMPLE-STEEL", "PRJ-EXAMPLE-DRI"],
+        )
 
         link_only = steel_intel.add_image(
             Namespace(
@@ -974,6 +1225,48 @@ class SteelIntelTests(unittest.TestCase):
         )
         self.assertNotIn("이미지를 복제하지 않았습니다", gallery)
 
+    def test_subject_scoped_media_is_not_reused_on_unrelated_pages(self):
+        source_id = "SRC-SCOPED-MEDIA"
+        sources = {
+            source_id: {
+                "images": [
+                    {
+                        "media_id": "MED-HYFOR",
+                        "image_url": "https://example.com/hyfor.jpg",
+                        "origin_url": "https://example.com/hyfor",
+                        "caption": "HYFOR 실제 설비",
+                        "alt_text": "HYFOR 실제 설비",
+                        "kind": "facility_photo",
+                        "rights_status": "link_only",
+                        "subject_ids": [
+                            "TEC-hydrogen-based-fine-ore-reduction",
+                            "PRJ-HYFOR-DONAWITZ-PILOT",
+                        ],
+                    }
+                ]
+            }
+        }
+
+        allowed_hero, _ = steel_intel.representative_image_lines(
+            [source_id],
+            sources,
+            subject_id="PRJ-HYFOR-DONAWITZ-PILOT",
+        )
+        unrelated_hero, _ = steel_intel.representative_image_lines(
+            [source_id],
+            sources,
+            subject_id="PRJ-POSCO-HYREX-DEMO",
+        )
+        unrelated_gallery = steel_intel.media_gallery_lines(
+            [source_id],
+            sources,
+            subject_id="PRJ-POSCO-HYREX-DEMO",
+        )
+
+        self.assertIn("HYFOR 실제 설비", "\n".join(allowed_hero))
+        self.assertEqual(unrelated_hero, [])
+        self.assertEqual(unrelated_gallery, [])
+
     def test_representative_image_prefers_process_diagram_for_technology_page(self):
         source_id = "SRC-ESF-IMAGES"
         lines, excluded_media_ids = steel_intel.representative_image_lines(
@@ -1081,6 +1374,219 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("2028년 하반기", markdown)
         self.assertIn("5 t-CO2/day", markdown)
         self.assertNotIn("<br>", markdown)
+
+    def test_technology_maturity_label_is_conservative_about_targets(self):
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "연 30만 톤 통합 실증설비 부지를 준비 중"
+            ),
+            "건설·구축",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "2027년 가동 목표인 산업규모 실증설비 건설 중"
+            ),
+            "건설·구축",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "2030년까지 상용화 기술 개발 완료 목표"
+            ),
+            "연구",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "파일럿 설비 운전 확인; 상업 규모 운전은 미확인"
+            ),
+            "파일럿",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "900°C 학술 연구를 지원했다. 자체 파일럿 설비 운전은 확인되지 않는다."
+            ),
+            "외부 연구 지원",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "TRL 6 R&D 설비까지 확대했으나 산업 설비 가동은 미확인"
+            ),
+            "연구",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "대형 EAF 고급강 상업 생산"
+            ),
+            "상용",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "파일럿 건설은 기술 과제로 중단; R&D는 지속"
+            ),
+            "일부 프로젝트 중단",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "2026년 500 kg ESF로 중품위광 DRI 용융 시험"
+            ),
+            "소규모 시험",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "소결 Digital Twin과 복수 사업장의 WEF Global Lighthouse 확인"
+            ),
+            "가동·적용",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "복수 저탄소 경로를 개발·적용",
+                "low-carbon ironmaking",
+            ),
+            "경로·프로젝트 확인",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "Boston Metal MOE에 전략 투자; 자체 상용 설비가 아닌 외부 기술 투자 단계"
+            ),
+            "외부 전략투자",
+        )
+        self.assertEqual(
+            steel_intel.technology_maturity_label(
+                "초기 천연가스 운전 후 수소를 단계 도입하는 조건부 계획"
+            ),
+            "조건부 계획",
+        )
+
+    def test_company_project_linking_ignores_generic_company_words(self):
+        company_claims = [
+            {
+                "subject_id": "COM-Boston-Metal",
+                "predicate": "molten_oxide_electrolysis_status",
+                "value": "Boston Metal industrial cell operating",
+                "status": "active",
+                "source_ids": ["SRC-BOSTON"],
+            }
+        ]
+        claims_by_subject = {
+            "COM-Boston-Metal": company_claims,
+            "PRJ-BOSTON-MOE": [
+                {
+                    "predicate": "project_status",
+                    "value": "Boston Metal industrial cell operating",
+                    "status": "active",
+                    "source_ids": ["SRC-BOSTON"],
+                }
+            ],
+            "PRJ-OTHER-SMELTER": [
+                {
+                    "predicate": "project_status",
+                    "value": "Other company metal smelter construction",
+                    "status": "active",
+                    "source_ids": ["SRC-OTHER"],
+                }
+            ],
+        }
+
+        related = steel_intel.company_related_projects(
+            "COM-Boston-Metal",
+            "Boston Metal",
+            company_claims,
+            claims_by_subject,
+        )
+
+        self.assertEqual([project_id for project_id, _ in related], ["PRJ-BOSTON-MOE"])
+
+    def test_company_dossier_requires_explicit_scope_for_related_project_media(self):
+        company_claims = [
+            {
+                "subject_id": "COM-POSCO",
+                "predicate": "partnership_status",
+                "value": "POSCO partner projects",
+                "status": "active",
+                "last_verified": "2026-07-25",
+                "source_ids": ["SRC-POSCO"],
+            }
+        ]
+        claims_by_subject = {
+            "COM-POSCO": company_claims,
+            "PRJ-PARTNER-UNSCOPED": [
+                {
+                    "subject_id": "PRJ-PARTNER-UNSCOPED",
+                    "predicate": "project_status",
+                    "value": "POSCO partner pilot",
+                    "status": "active",
+                    "last_verified": "2026-07-25",
+                    "source_ids": ["SRC-PARTNER-UNSCOPED"],
+                }
+            ],
+            "PRJ-POSCO-SCOPED": [
+                {
+                    "subject_id": "PRJ-POSCO-SCOPED",
+                    "predicate": "project_status",
+                    "value": "POSCO owned pilot",
+                    "status": "active",
+                    "last_verified": "2026-07-25",
+                    "source_ids": ["SRC-POSCO-SCOPED"],
+                }
+            ],
+        }
+        sources = {
+            "SRC-POSCO": {
+                "title": "POSCO company status",
+                "publisher": "POSCO",
+                "url": "https://example.com/posco",
+            },
+            "SRC-PARTNER-UNSCOPED": {
+                "title": "Partner pilot",
+                "publisher": "Partner",
+                "url": "https://example.com/partner",
+                "images": [
+                    {
+                        "media_id": "MED-PARTNER",
+                        "kind": "facility_photo",
+                        "caption": "Partner-owned facility",
+                        "alt_text": "Partner-owned facility",
+                        "origin_url": "https://example.com/partner",
+                        "rights_status": "link_only",
+                        "rights_note": "Official partner image",
+                        "image_url": "https://example.com/partner.jpg",
+                    }
+                ],
+            },
+            "SRC-POSCO-SCOPED": {
+                "title": "POSCO pilot",
+                "publisher": "POSCO",
+                "url": "https://example.com/posco-pilot",
+                "images": [
+                    {
+                        "media_id": "MED-POSCO",
+                        "kind": "facility_photo",
+                        "caption": "POSCO-owned facility",
+                        "alt_text": "POSCO-owned facility",
+                        "origin_url": "https://example.com/posco-pilot",
+                        "rights_status": "link_only",
+                        "rights_note": "Official POSCO image",
+                        "image_url": "https://example.com/posco.jpg",
+                        "subject_ids": ["COM-POSCO", "PRJ-POSCO-SCOPED"],
+                    }
+                ],
+            },
+        }
+
+        markdown = "\n".join(
+            steel_intel.company_dossier_lines(
+                "COM-POSCO",
+                "POSCO",
+                company_claims,
+                company_claims,
+                [],
+                {"companies": ["POSCO"], "technologies": []},
+                sources,
+                claims_by_subject,
+            )
+        )
+
+        self.assertIn("POSCO-owned facility", markdown)
+        self.assertNotIn("Partner-owned facility", markdown)
 
     def test_project_timeline_supports_month_dates_and_hides_bad_correction_values(self):
         source_id = "SRC-CORRECTION"

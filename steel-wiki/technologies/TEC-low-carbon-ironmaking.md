@@ -2,7 +2,7 @@
 
 # 저탄소 제철 종합 경로 (Low-carbon Ironmaking)
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-26** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 통합·운영 기술"
 
@@ -25,9 +25,9 @@
     **저탄소 제철 종합 경로 (Low-carbon Ironmaking) · 현재** · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![전기로 하부를 투명하게 표현한 Consteerrer 전자기 교반 장치 내부 구성도](<https://tenova.com/sites/default/files/styles/original/public/images/paragraphs/2021/CONSTEERRER.jpg.webp>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![ResponsibleSteel 탈탄소 진척도 수준 도표](<https://cdn.prod.website-files.com/653ed7060b01292cd4518d0e/69252147bfd2458286f637e1_Understanding%20ResponsibleSteel%E2%80%99s%20Decarbonisation%20Progress%20Levels.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Tenova Consteerrer 전자기 교반 장치의 전기로 하부 내부 구성도. 광양 설비에 적용된 기술의 범용 공급사 도면이며 POSCO 광양 전기로의 준공도(as-built)는 아님 (장치 구성도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-C888600A|SRC-20260725-C888600A]] · [원문 페이지](https://tenova.com/technologies/electric-arc-furnaces-eaf))*
+*대표 이미지 — ResponsibleSteel 탈탄소 진척도 수준 설명도: 스크랩 비율을 고려해 사업장 배출 성과를 비교하는 공식 도표 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-9B4DDCDD|SRC-20260725-9B4DDCDD]] · [원문 페이지](https://www.responsiblesteel.org/resources/the-decarbonisation-progress-levels))*
 
 !!! abstract "한눈에 보기"
 
@@ -43,7 +43,7 @@
 이 문서는 개별 반응기의 우열을 정하는 문서가 아닙니다. 1차 철과 스크랩, 기존 고로 자산과 신규 설비, 전력·수소·CO2 인프라, 제품 인증을 하나의 전환 포트폴리오로 연결해 읽습니다.
 
 - **근거 확인 기업:** 9개
-- **직접 연결 근거:** 16건
+- **직접 연결 근거:** 25건
 
 ## 작동 원리
 
@@ -106,6 +106,7 @@ flowchart TB
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
+| **학술 검토 기술 범위** | 2024 종설은 수소 직접환원·수소 플라즈마/용융·암모니아 환원·수계/용융산화물 전해·바이오카본 EAF를 저탄소 후보군으로 검토 [^src-20260726-10602bc9] | 학술지 논문 |
 | **스크랩 경로 에너지 이점** | 스크랩 기반 전기로 생산은 철광석 기반 생산 에너지의 약 8분의 1이 필요하다는 IEA 분석이 있다. [^src-20260725-38165abc] | 정부·공공자료 |
 | **스크랩 공급 제약** | 스크랩 공급은 사회 내 철강 축적량과 제품 수명에 좌우되므로, 재활용 확대만으로 1차 철 생산 수요를 제거할 수 없다. [^src-20260725-38165abc] | 정부·공공자료 |
 | **스크랩 비율 보정** | ResponsibleSteel은 스크랩의 제약·지역 편중과 단순 재배분의 탄소누출 위험을 반영하기 위해 스크랩 비율에 따라 문턱이 달라지는 비교 방식을 사용한다. [^src-20260725-9b4ddcdd] | 기타 |
@@ -120,6 +121,8 @@ flowchart TB
 | **비교 배출 경계** | 배출량 비교는 순제로에 부합하는 시스템 경계와 범위, 전력 처리, 부산물·크레딧 규칙을 정렬해야 하며 모든 생산시설 간 비교가 가능해야 한다. [^src-20260725-238e8691] | 정부·공공자료 |
 | **데이터 품질 요구** | 일반 배출계수보다 사업장·제품별 감사 가능한 실측 데이터를 우선하고, 세분성·투명성·정기성을 갖춘 자료 수집이 필요하다. [^src-20260725-238e8691] | 정부·공공자료 |
 | **산정 방법론 한계** | IEA가 검토한 기존 철강 배출량 산정·데이터 프레임워크 중 제안된 순제로 원칙을 모두 충족하는 단일 체계나 조합은 없었다. [^src-20260725-238e8691] | 정부·공공자료 |
+| **경로 공통 제약** | 학술 종설이 공통 제약으로 저탄소 전력·수소 공급, 광석 품위, 스크랩 Cu 축적, 공정 열, 전해 셀 스케일업을 지적 [^src-20260726-10602bc9] | 학술지 논문 |
+| **지역별 경로 의존성** | 2025 종설은 스크랩·광석 품질, 저탄소 전력·수소, 물류·정책의 지역차 때문에 단일 보편 경로가 없다고 평가 [^src-20260726-6aadacf1] | 학술지 논문 |
 | **초기 비용 프리미엄** | 초기 근제로배출 철강·시멘트의 생산비 프리미엄은 지역과 기술에 따라 기존 공정 대비 약 10~125%로 추정됐다. [^src-20260725-bd336973] | 정부·공공자료 |
 | **외부 인프라 의존성** | 저배출 수소, 발전·송배전망, CO2 운송·저장 인프라는 제철소 외부 조건이지만 저탄소 경로의 가동률·배출량·원가를 결정하는 필수 구성요소이다. [^src-20260725-bd336973] | 정부·공공자료 |
 | **Progress Level 1 문턱 예시** | ResponsibleSteel Progress Level 1 예시에서 스크랩 20% 사업장은 2.34 tCO2e/t 이하, 스크랩 80% 사업장은 0.96 tCO2e/t 이하이며 Scope 1·2와 상류 Scope 3를 포함한다. [^src-20260725-9b4ddcdd] | 기타 |
@@ -147,17 +150,33 @@ flowchart TB
 | 2020-10-08 | Iron and Steel Technology Roadmap [^src-20260725-38165abc] |
 | 2023-04-04 | Emissions Measurement and Data Collection for a Net Zero Steel Industry [^src-20260725-238e8691] |
 | 2023-06-07 | Tenova for POSCO Gwangyang plant [^src-20260725-c888600a] |
+| 2023-06-14 | Tata Steel and SMS group plan EASyMelt industrial demonstration [^src-20260725-6b30edde] |
+| 2023-07-20 | European Commission approves German aid for thyssenkrupp Steel Duisburg transition [^src-20260725-9a98e2af] |
 | 2024-09-23 | The Decarbonisation Progress Levels [^src-20260725-9b4ddcdd] |
+| 2024-10-01 | Chemical and electrochemical pathways to low-carbon iron and steel [^src-20260726-10602bc9] |
 | 2025-01-06 | JFE Steel 2025 priorities for carbon-neutral technologies [^src-20260725-ec77a362] |
+| 2025-01-23 | METI Green Steel for GX: Kurashiki EAF [^src-20260725-ded07902] |
 | 2025-03-19 | Demand and Supply Measures for the Steel and Cement Transition [^src-20260725-bd336973] |
+| 2025-04-10 | JFE Steel to introduce advanced large-scale EAF at Kurashiki [^src-20260725-38762376] |
+| 2025-05-15 | ArcelorMittal confirms intention to invest EUR 1.2 billion in Dunkirk [^src-20260725-3b0845ff] |
 | 2025-09-17 | SSAB begins construction of new Luleå electric steel mill [^src-20260725-31601585] |
 | 2025-09-29 | Tata Steel Nederland integrated decarbonisation project letter of intent [^src-20260725-789ab58f] |
+| 2025-12-03 | Routes to reducing emissions from steel production [^src-20260726-6aadacf1] |
 | 2026-01-07 | China launches first million-tonne near-zero-carbon steel line at Baowu [^src-20260725-7e8abc86] |
 | 2026-02-10 | ArcelorMittal confirms €1.3bn Dunkirk EAF construction [^src-20260725-61382798] |
+| 2026-04-21 | Tata Steel proceeds with phased EASyMelt industrial demonstration [^src-20260725-29802d50] |
+| 2026-05-01 | Tata Steel Nederland 2025-2026 Green Steel Project status [^src-20260725-e71081d1] |
 | 2026-06-22 | POSCO completes Gwangyang EAF and advances HyREX [^src-20260725-b859ca04] |
 | 2026-07-01 | Energy Technology Perspectives 2026 executive summary [^src-20260725-79d4b2ed] |
 
 ## 설비·공정 이미지
+
+![고로 상부가스를 세정·개질하고 플라즈마로 가열해 열풍구로 재주입하는 폐회로 개념 구성](../assets/media/SRC-20260725-29802D50/MED-4B6744FBED5B.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** EASyMelt의 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 가열·열풍구 주입 경로 AI 재구성. Jamshedpur E고로의 준공도가 아님
+
+- 출처 [[sources/SRC-20260725-29802D50|SRC-20260725-29802D50]] · 권리 `ai_generated` · [원문 페이지](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: Tata Steel과 SMS group의 공식 공정 설명을 바탕으로 생성했으며 실제 개조 설비 배치와 운전 증거로 사용하지 않음
 
 ![SSAB Luleå 전기제철소 기공식](<https://mb.cision.com/Public/980/4235985/a783e1cf18bc6171_org.jpg>){ .steel-media-image .steel-media-compact }
 
@@ -173,6 +192,20 @@ flowchart TB
 - 출처 [[sources/SRC-20260725-38165ABC|SRC-20260725-38165ABC]] · 권리 `link_only` · [원문 페이지](https://www.iea.org/reports/iron-and-steel-technology-roadmap) · 작성·촬영 International Energy Agency / source-page credited stock image
 - 권리 메모: IEA 공식 보고서 페이지의 대표 이미지입니다. 재사용 권한을 별도 확인하지 않아 다운로드하지 않고 원문 링크로만 표시합니다.
 
+![해안 부두와 철원 물류, 대형 전기로, 배가스 열회수, 노외정련 설비가 연결된 개념 구성](../assets/media/SRC-20260725-38762376/MED-509F32DFCABA.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** Kurashiki 대형 EAF의 부두·냉철원 물류·스크랩/DRI 용해·노외정련 통합 경로 AI 재구성. 실제 JFE 준공도가 아님
+
+- 출처 [[sources/SRC-20260725-38762376|SRC-20260725-38762376]] · 권리 `ai_generated` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: JFE 공식 투자 발표의 설비 범위를 바탕으로 생성했으며 실제 배치·공사진척·성능의 증거로 사용하지 않음
+
+![해안 제철소의 대형 전기로에 스크랩과 환원철·용선이 투입되고 정련과 주조로 연결되는 개념 구성](../assets/media/SRC-20260725-61382798/MED-59A319A168AC.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** Dunkirk 대형 EAF의 스크랩·HBI/DRI·용선 혼합, 배가스 처리와 후단 정련 경로 AI 재구성. 실제 Dunkirk 준공도가 아님
+
+- 출처 [[sources/SRC-20260725-61382798|SRC-20260725-61382798]] · 권리 `ai_generated` · [원문 페이지](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-confirms-the-construction-of-an-electric-arc-furnace-in-dunkirk-france-a-13-billion-investment-supporting-an-important-step-in-its-decarbonisation) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: ArcelorMittal 공식 투자 발표의 공정 범위를 바탕으로 생성했으며 실제 설비 배치·형상·공사진척의 증거로 사용하지 않음
+
 ![thyssenkrupp Duisburg 직접환원탑 첫 지지기둥](<https://transformation.thyssenkrupp-steel.com/media/dr_anlage_1/bilder_2/traeger1_dr_turm_image_w450_h338.jpg>){ .steel-media-image .steel-media-compact }
 
 **실제 설비 사진.** thyssenkrupp Duisburg 직접환원탑 첫 18 m 지지기둥 설치 현장
@@ -180,19 +213,12 @@ flowchart TB
 - 출처 [[sources/SRC-20260725-8D0BD4B8|SRC-20260725-8D0BD4B8]] · 권리 `link_only` · [원문 페이지](https://transformation.thyssenkrupp-steel.com/startseite.html) · 작성·촬영 thyssenkrupp Steel Europe
 - 권리 메모: thyssenkrupp Steel 공식 프로젝트 사이트의 실제 공사 사진입니다. 재사용 권한을 별도 확인하지 않아 원문 링크로만 표시합니다.
 
-![ResponsibleSteel 탈탄소 진척도 수준 도표](<https://cdn.prod.website-files.com/653ed7060b01292cd4518d0e/69252147bfd2458286f637e1_Understanding%20ResponsibleSteel%E2%80%99s%20Decarbonisation%20Progress%20Levels.png>){ .steel-media-image .steel-media-detail }
+![해안 제철소에서 샤프트 직접환원로의 DRI와 스크랩이 대형 전기로로 연결되고 기존 고로가 배경에 남아 있는 전환 개념도](../assets/media/SRC-20260725-E71081D1/MED-9911B32AD15F.png){ .steel-media-image .steel-media-compact }
 
-**공정 개념도.** ResponsibleSteel 탈탄소 진척도 수준 설명도: 스크랩 비율을 고려해 사업장 배출 성과를 비교하는 공식 도표
+**AI 재구성.** IJmuiden Green Steel 1단계의 DRP–EAF·스크랩 통합 전환 경로 AI 재구성. 최종 설계나 착공 완료 상태를 나타내지 않음
 
-- 출처 [[sources/SRC-20260725-9B4DDCDD|SRC-20260725-9B4DDCDD]] · 권리 `link_only` · [원문 페이지](https://www.responsiblesteel.org/resources/the-decarbonisation-progress-levels) · 작성·촬영 ResponsibleSteel
-- 권리 메모: ResponsibleSteel 공식 원문에 게시된 설명도입니다. 재사용 권한을 별도 확인하지 않아 다운로드하지 않고 원문 링크로만 표시합니다.
-
-![전기로 본체와 전극 승강부, 출강 용기를 표현한 3D 설비 구성도](<https://tenova.com/sites/default/files/styles/original/public/images/paragraphs/2021/TECH_DATA_EAF.jpg.webp>){ .steel-media-image .steel-media-detail }
-
-**장치 구성도.** Tenova 전기로 본체·전극 승강부·출강 용기 배치를 보여주는 범용 3D 장치 구성도. POSCO 광양 전기로의 준공도(as-built)는 아님
-
-- 출처 [[sources/SRC-20260725-C888600A|SRC-20260725-C888600A]] · 권리 `link_only` · [원문 페이지](https://tenova.com/technologies/electric-arc-furnaces-eaf) · 작성·촬영 Tenova
-- 권리 메모: Tenova 공식 기술 페이지에서 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시하며, 광양 프로젝트의 준공도는 아닙니다.
+- 출처 [[sources/SRC-20260725-E71081D1|SRC-20260725-E71081D1]] · 권리 `ai_generated` · [원문 페이지](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: Tata Steel Nederland 연차보고서의 계획 범위를 바탕으로 생성했으며 FID·준공도·실제 공사진척의 증거가 아님
 
 
 ## 기업별 상세 현황
@@ -278,6 +304,10 @@ flowchart TB
 | **[[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]** | 2026-06-17 준공 후 저탄소강 생산 개시 [^src-20260725-b859ca04] | **연간 생산능력** 연간 2,500,000톤 [^src-20260725-b859ca04] · **목표 시운전 시점** 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
 | **[[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] | **연간 생산능력** 연간 2,500,000톤 [^src-20260725-31601585] · **목표 가동 시점** 2029년 말 가동 목표 [^src-20260725-31601585] |
 | **[[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]]** | 2024년 말 본 공사에 착수했고 2026-02 직접환원탑 철골 설치 단계 [^src-20260725-8d0bd4b8] | **연간 생산능력** 연간 DRI 2,500,000톤 [^src-20260725-8d0bd4b8] · **목표 시운전 시점** 2027년 시운전 개시 목표 [^src-20260725-8d0bd4b8] |
+| **[[projects/PRJ-ARCELORMITTAL-DUNKIRK-EAF|ArcelorMittal Dunkirk 대형 전기로]]** | 2026-02-10 200만 t/y 전기로 건설을 확정한 투자 실행 단계; 실제 착공·설비 설치·가동은 후속 확인 필요 [^src-20260725-61382798] | **연간 생산능력** 연간 2,000,000톤 조강 [^src-20260725-61382798] · **목표 시운전 시점** 2029년 가동 목표 [^src-20260725-61382798] |
+| **[[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]** | Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음 [^src-20260725-e71081d1] | - |
+| **[[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]** | 2025-04-10 투자·건설을 결정하고 정부 보조금 승인을 확보한 건설 준비 단계 [^src-20260725-38762376] | **연간 생산능력** 연간 약 2,000,000톤 조강 [^src-20260725-38762376] · **목표 가동 시점** 2028-04 시작 회계연도 1분기 생산 개시 목표 [^src-20260725-38762376] |
+| **[[projects/PRJ-TATA-JAMSHEDPUR-EASYMELT|Tata Jamshedpur EASyMelt 산업 실증]]** | 2023년 MoU와 front-end loading 검토를 거쳐 2026-04-21 확정 계약 후 단계적 산업 실증 추진 단계 [^src-20260725-29802d50] | - |
 
 ## 기술적 쟁점과 미공개 데이터
 
@@ -307,35 +337,53 @@ flowchart TB
 ## 출처
 
 - [[sources/SRC-20260725-238E8691|Emissions Measurement and Data Collection for a Net Zero Steel Industry]] — International Energy Agency, 2023-04-04 · [원문](https://www.iea.org/reports/emissions-measurement-and-data-collection-for-a-net-zero-steel-industry)
+- [[sources/SRC-20260725-29802D50|Tata Steel proceeds with phased EASyMelt industrial demonstration]] — Tata Steel, 2026-04-21 · [원문](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology/)
 - [[sources/SRC-20260725-31601585|SSAB begins construction of new Luleå electric steel mill]] — SSAB, 2025-09-17 · [원문](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule)
 - [[sources/SRC-20260725-38165ABC|Iron and Steel Technology Roadmap]] — International Energy Agency, 2020-10-08 · [원문](https://www.iea.org/reports/iron-and-steel-technology-roadmap)
+- [[sources/SRC-20260725-38762376|JFE Steel to introduce advanced large-scale EAF at Kurashiki]] — JFE Steel Corporation, 2025-04-10 · [원문](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html)
+- [[sources/SRC-20260725-3B0845FF|ArcelorMittal confirms intention to invest EUR 1.2 billion in Dunkirk]] — ArcelorMittal, 2025-05-15 · [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-confirms-its-intention-to-invest-12-billion-in-dunkirk-to-decarbonize)
 - [[sources/SRC-20260725-45A1D063|Nippon Steel research and development for carbon-neutral steelmaking]] — Nippon Steel Corporation, 게시일 미상 · [원문](https://www.nipponsteel.com/en/sustainability/quality/rd.html)
 - [[sources/SRC-20260725-61382798|ArcelorMittal confirms €1.3bn Dunkirk EAF construction]] — ArcelorMittal, 2026-02-10 · [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-confirms-the-construction-of-an-electric-arc-furnace-in-dunkirk-france-a-13-billion-investment-supporting-an-important-step-in-its-decarbonisation)
+- [[sources/SRC-20260725-6B30EDDE|Tata Steel and SMS group plan EASyMelt industrial demonstration]] — Tata Steel, 2023-06-14 · [원문](https://www.tatasteel.com/media/newsroom/press-releases/india/2023/tata-steel-limited-signs-a-mou-with-germany-s-sms-group-to-collaborate-on-decarbonisation-technology/)
 - [[sources/SRC-20260725-6C80084B|Tata Steel climate action technology roadmap]] — Tata Steel, 게시일 미상 · [원문](https://www.tatasteel.com/sustainability/environment/climate-action/)
 - [[sources/SRC-20260725-789AB58F|Tata Steel Nederland integrated decarbonisation project letter of intent]] — Tata Steel, 2025-09-29 · [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/)
 - [[sources/SRC-20260725-79D4B2ED|Energy Technology Perspectives 2026 executive summary]] — International Energy Agency, 2026-07-01 · [원문](https://www.iea.org/reports/energy-technology-perspectives-2026/executive-summary)
 - [[sources/SRC-20260725-7E8ABC86|China launches first million-tonne near-zero-carbon steel line at Baowu]] — State-owned Assets Supervision and Administration Commission of China, 2026-01-07 · [원문](https://en.sasac.gov.cn/2026/01/07/c_20292.htm)
 - [[sources/SRC-20260725-8D0BD4B8|thyssenkrupp Steel direct-reduction transformation project status]] — thyssenkrupp Steel Europe, 게시일 미상 · [원문](https://transformation.thyssenkrupp-steel.com/startseite.html)
+- [[sources/SRC-20260725-9A98E2AF|European Commission approves German aid for thyssenkrupp Steel Duisburg transition]] — European Commission, 2023-07-20 · [원문](https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_23_3928/IP_23_3928_EN.pdf)
 - [[sources/SRC-20260725-9B4DDCDD|The Decarbonisation Progress Levels]] — ResponsibleSteel, 2024-09-23 · [원문](https://www.responsiblesteel.org/resources/the-decarbonisation-progress-levels)
 - [[sources/SRC-20260725-AA686449|Nucor sustainability and EAF steelmaking profile]] — Nucor Corporation, 게시일 미상 · [원문](https://nucor.com/sustainability/)
 - [[sources/SRC-20260725-B859CA04|POSCO completes Gwangyang EAF and advances HyREX]] — POSCO Group Newsroom, 2026-06-22 · [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/)
 - [[sources/SRC-20260725-BD336973|Demand and Supply Measures for the Steel and Cement Transition]] — International Energy Agency, 2025-03-19 · [원문](https://www.iea.org/reports/demand-and-supply-measures-for-the-steel-and-cement-transition)
 - [[sources/SRC-20260725-C888600A|Tenova for POSCO Gwangyang plant]] — Tenova, 2023-06-07 · [원문](https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant)
+- [[sources/SRC-20260725-DED07902|METI Green Steel for GX: Kurashiki EAF]] — Ministry of Economy, Trade and Industry, Japan, 2025-01-23 · [원문](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf)
+- [[sources/SRC-20260725-E71081D1|Tata Steel Nederland 2025-2026 Green Steel Project status]] — Tata Steel Nederland, 2026-05-01 · [원문](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf)
 - [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]] — JFE Steel Corporation, 2025-01-06 · [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html)
+- [[sources/SRC-20260726-10602BC9|Chemical and electrochemical pathways to low-carbon iron and steel]] — npj Materials Sustainability / Springer Nature, 2024-10-01 · [원문](https://www.nature.com/articles/s44296-024-00036-6)
+- [[sources/SRC-20260726-6AADACF1|Routes to reducing emissions from steel production]] — Nature Reviews Clean Technology, 2025-12-03 · [원문](https://www.nature.com/articles/s44359-025-00118-1)
 
 [^src-20260725-238e8691]: **Emissions Measurement and Data Collection for a Net Zero Steel Industry** — International Energy Agency, 2023-04-04. [원문](https://www.iea.org/reports/emissions-measurement-and-data-collection-for-a-net-zero-steel-industry) · [[sources/SRC-20260725-238E8691|보관 원문·메타데이터]]
+[^src-20260725-29802d50]: **Tata Steel proceeds with phased EASyMelt industrial demonstration** — Tata Steel, 2026-04-21. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology/) · [[sources/SRC-20260725-29802D50|보관 원문·메타데이터]]
 [^src-20260725-31601585]: **SSAB begins construction of new Luleå electric steel mill** — SSAB, 2025-09-17. [원문](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule) · [[sources/SRC-20260725-31601585|보관 원문·메타데이터]]
 [^src-20260725-38165abc]: **Iron and Steel Technology Roadmap** — International Energy Agency, 2020-10-08. [원문](https://www.iea.org/reports/iron-and-steel-technology-roadmap) · [[sources/SRC-20260725-38165ABC|보관 원문·메타데이터]]
+[^src-20260725-38762376]: **JFE Steel to introduce advanced large-scale EAF at Kurashiki** — JFE Steel Corporation, 2025-04-10. [원문](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · [[sources/SRC-20260725-38762376|보관 원문·메타데이터]]
+[^src-20260725-3b0845ff]: **ArcelorMittal confirms intention to invest EUR 1.2 billion in Dunkirk** — ArcelorMittal, 2025-05-15. [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-confirms-its-intention-to-invest-12-billion-in-dunkirk-to-decarbonize) · [[sources/SRC-20260725-3B0845FF|보관 원문·메타데이터]]
 [^src-20260725-45a1d063]: **Nippon Steel research and development for carbon-neutral steelmaking** — Nippon Steel Corporation, 게시일 미상. [원문](https://www.nipponsteel.com/en/sustainability/quality/rd.html) · [[sources/SRC-20260725-45A1D063|보관 원문·메타데이터]]
 [^src-20260725-61382798]: **ArcelorMittal confirms €1.3bn Dunkirk EAF construction** — ArcelorMittal, 2026-02-10. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-confirms-the-construction-of-an-electric-arc-furnace-in-dunkirk-france-a-13-billion-investment-supporting-an-important-step-in-its-decarbonisation) · [[sources/SRC-20260725-61382798|보관 원문·메타데이터]]
+[^src-20260725-6b30edde]: **Tata Steel and SMS group plan EASyMelt industrial demonstration** — Tata Steel, 2023-06-14. [원문](https://www.tatasteel.com/media/newsroom/press-releases/india/2023/tata-steel-limited-signs-a-mou-with-germany-s-sms-group-to-collaborate-on-decarbonisation-technology/) · [[sources/SRC-20260725-6B30EDDE|보관 원문·메타데이터]]
 [^src-20260725-6c80084b]: **Tata Steel climate action technology roadmap** — Tata Steel, 게시일 미상. [원문](https://www.tatasteel.com/sustainability/environment/climate-action/) · [[sources/SRC-20260725-6C80084B|보관 원문·메타데이터]]
 [^src-20260725-789ab58f]: **Tata Steel Nederland integrated decarbonisation project letter of intent** — Tata Steel, 2025-09-29. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/) · [[sources/SRC-20260725-789AB58F|보관 원문·메타데이터]]
 [^src-20260725-79d4b2ed]: **Energy Technology Perspectives 2026 executive summary** — International Energy Agency, 2026-07-01. [원문](https://www.iea.org/reports/energy-technology-perspectives-2026/executive-summary) · [[sources/SRC-20260725-79D4B2ED|보관 원문·메타데이터]]
 [^src-20260725-7e8abc86]: **China launches first million-tonne near-zero-carbon steel line at Baowu** — State-owned Assets Supervision and Administration Commission of China, 2026-01-07. [원문](https://en.sasac.gov.cn/2026/01/07/c_20292.htm) · [[sources/SRC-20260725-7E8ABC86|보관 원문·메타데이터]]
 [^src-20260725-8d0bd4b8]: **thyssenkrupp Steel direct-reduction transformation project status** — thyssenkrupp Steel Europe, 게시일 미상. [원문](https://transformation.thyssenkrupp-steel.com/startseite.html) · [[sources/SRC-20260725-8D0BD4B8|보관 원문·메타데이터]]
+[^src-20260725-9a98e2af]: **European Commission approves German aid for thyssenkrupp Steel Duisburg transition** — European Commission, 2023-07-20. [원문](https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_23_3928/IP_23_3928_EN.pdf) · [[sources/SRC-20260725-9A98E2AF|보관 원문·메타데이터]]
 [^src-20260725-9b4ddcdd]: **The Decarbonisation Progress Levels** — ResponsibleSteel, 2024-09-23. [원문](https://www.responsiblesteel.org/resources/the-decarbonisation-progress-levels) · [[sources/SRC-20260725-9B4DDCDD|보관 원문·메타데이터]]
 [^src-20260725-aa686449]: **Nucor sustainability and EAF steelmaking profile** — Nucor Corporation, 게시일 미상. [원문](https://nucor.com/sustainability/) · [[sources/SRC-20260725-AA686449|보관 원문·메타데이터]]
 [^src-20260725-b859ca04]: **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
 [^src-20260725-bd336973]: **Demand and Supply Measures for the Steel and Cement Transition** — International Energy Agency, 2025-03-19. [원문](https://www.iea.org/reports/demand-and-supply-measures-for-the-steel-and-cement-transition) · [[sources/SRC-20260725-BD336973|보관 원문·메타데이터]]
 [^src-20260725-c888600a]: **Tenova for POSCO Gwangyang plant** — Tenova, 2023-06-07. [원문](https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant) · [[sources/SRC-20260725-C888600A|보관 원문·메타데이터]]
+[^src-20260725-ded07902]: **METI Green Steel for GX: Kurashiki EAF** — Ministry of Economy, Trade and Industry, Japan, 2025-01-23. [원문](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf) · [[sources/SRC-20260725-DED07902|보관 원문·메타데이터]]
+[^src-20260725-e71081d1]: **Tata Steel Nederland 2025-2026 Green Steel Project status** — Tata Steel Nederland, 2026-05-01. [원문](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) · [[sources/SRC-20260725-E71081D1|보관 원문·메타데이터]]
 [^src-20260725-ec77a362]: **JFE Steel 2025 priorities for carbon-neutral technologies** — JFE Steel Corporation, 2025-01-06. [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) · [[sources/SRC-20260725-EC77A362|보관 원문·메타데이터]]
+[^src-20260726-10602bc9]: **Chemical and electrochemical pathways to low-carbon iron and steel** — npj Materials Sustainability / Springer Nature, 2024-10-01. DOI: [10.1038/s44296-024-00036-6](https://doi.org/10.1038/s44296-024-00036-6). [원문](https://www.nature.com/articles/s44296-024-00036-6) · [[sources/SRC-20260726-10602BC9|보관 원문·메타데이터]]
+[^src-20260726-6aadacf1]: **Routes to reducing emissions from steel production** — Nature Reviews Clean Technology, 2025-12-03. DOI: [10.1038/s44359-025-00118-1](https://doi.org/10.1038/s44359-025-00118-1). [원문](https://www.nature.com/articles/s44359-025-00118-1) · [[sources/SRC-20260726-6AADACF1|보관 원문·메타데이터]]

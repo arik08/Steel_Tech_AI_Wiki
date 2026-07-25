@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D98EE599A56D",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "performance_disclosure_limit",
+  "value": "전기화 상부가스 재순환 자료는 독립 운전 검증이 아닌 공급사의 비동료심사 학회 발표이므로 정량 성능은 별도 운전자료나 독립 연구로 교차검증해야 한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260726-B392BD57"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "발표 유형과 검증 수준의 경계를 명시",
+      "source_ids": [
+        "SRC-20260726-B392BD57"
+      ]
+    }
+  ]
+}

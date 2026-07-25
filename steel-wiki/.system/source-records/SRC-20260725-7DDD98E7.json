@@ -14,5 +14,17 @@
   "raw_path": ".system/raw/SRC-20260725-7DDD98E7.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Yijun Quan",
+      "Sanjay Singhal",
+      "Zushu Li",
+      "Giovanni Montana"
+    ],
+    "venue": "Journal of Sustainable Metallurgy",
+    "doi": "10.1007/s40831-026-01569-x",
+    "peer_review_status": "peer_reviewed"
+  }
 }

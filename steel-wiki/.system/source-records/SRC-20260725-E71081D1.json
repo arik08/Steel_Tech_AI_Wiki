@@ -1,0 +1,39 @@
+{
+  "source_id": "SRC-20260725-E71081D1",
+  "title": "Tata Steel Nederland 2025-2026 Green Steel Project status",
+  "url": "https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf",
+  "canonical_url": "https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf",
+  "publisher": "Tata Steel Nederland",
+  "published_at": "2026-05-01",
+  "collected_at": "2026-07-25",
+  "source_type": "company_ir",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "e71081d1ff37d818872037c68d2c469d61e1cfa1f2cf034d838674a842d037cd",
+  "raw_sha256": "258599a433cee755214d6737f2f6ba9b66002b02581a58be41e0961c4d840420",
+  "raw_path": ".system/raw/SRC-20260725-E71081D1.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-9911B32AD15F",
+      "kind": "ai_reconstruction",
+      "caption": "IJmuiden Green Steel 1단계의 DRP–EAF·스크랩 통합 전환 경로 AI 재구성. 최종 설계나 착공 완료 상태를 나타내지 않음",
+      "alt_text": "해안 제철소에서 샤프트 직접환원로의 DRI와 스크랩이 대형 전기로로 연결되고 기존 고로가 배경에 남아 있는 전환 개념도",
+      "creator": "OpenAI image generation / Codex",
+      "image_url": null,
+      "origin_url": "https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf",
+      "rights_status": "ai_generated",
+      "rights_note": "Tata Steel Nederland 연차보고서의 계획 범위를 바탕으로 생성했으며 FID·준공도·실제 공사진척의 증거가 아님",
+      "collected_at": "2026-07-25",
+      "content_sha256": "9911b32ad15ff1e592ad07760b668fa1a08c5aeb83d1ff81bfbc67d1533b9d10",
+      "local_path": "assets/media/SRC-20260725-E71081D1/MED-9911B32AD15F.png",
+      "subject_ids": [
+        "COM-Tata-Steel",
+        "TEC-hydrogen-direct-reduced-iron",
+        "TEC-low-carbon-ironmaking",
+        "PRJ-TATA-IJMUIDEN-DRP-EAF"
+      ]
+    }
+  ]
+}

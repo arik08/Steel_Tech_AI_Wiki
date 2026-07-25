@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-859D897C80A2",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "equipment_configuration",
+  "value": "산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D6930918"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 내용 부실 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-D6930918"
+      ]
+    }
+  ]
+}

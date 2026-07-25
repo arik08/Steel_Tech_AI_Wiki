@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-4D0ECD1F88B1",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "process_configuration",
+  "value": "POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-013F0FA1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "사용자 제공 모형과 일치하는 POSCO 공식 HyREX 공정도 확인",
+      "source_ids": [
+        "SRC-20260725-013F0FA1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-A5E52936EB76",
+  "subject_id": "PRJ-NIPPON-KIMITSU-COURSE50",
+  "predicate": "original_target_start_date",
+  "value": "2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-0A7903EA",
+    "SRC-20260725-46C2DBC8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "기존 목표와 최신 준비 상태를 함께 보존",
+      "source_ids": [
+        "SRC-20260725-0A7903EA",
+        "SRC-20260725-46C2DBC8"
+      ]
+    }
+  ]
+}

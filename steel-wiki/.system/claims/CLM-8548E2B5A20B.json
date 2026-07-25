@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8548E2B5A20B",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "ore_feed_scope",
+  "value": "2023 AIST 발표는 agricultural·aquatic·forestry residue biomass 시험과 Pilbara fines 적용을 회사 연구 범위로 공개",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-26",
+  "last_verified": "2026-07-26",
+  "source_ids": [
+    "SRC-20260726-7A19874F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-26",
+      "action": "created",
+      "reason": "회사 학회 발표의 시험 범위",
+      "source_ids": [
+        "SRC-20260726-7A19874F"
+      ]
+    }
+  ]
+}

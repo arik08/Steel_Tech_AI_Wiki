@@ -14,5 +14,16 @@
   "raw_path": ".system/raw/SRC-20260725-4366E5B1.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Katrin E. Daehn",
+      "André Cabrera Serrenho",
+      "Julian Allwood"
+    ],
+    "venue": "Metallurgical and Materials Transactions B",
+    "doi": "10.1007/s11663-019-01537-9",
+    "peer_review_status": "peer_reviewed"
+  }
 }

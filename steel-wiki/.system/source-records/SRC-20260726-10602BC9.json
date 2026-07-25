@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-20260726-10602BC9",
+  "title": "Chemical and electrochemical pathways to low-carbon iron and steel",
+  "url": "https://www.nature.com/articles/s44296-024-00036-6",
+  "canonical_url": "https://www.nature.com/articles/s44296-024-00036-6",
+  "publisher": "npj Materials Sustainability / Springer Nature",
+  "published_at": "2024-10-01",
+  "collected_at": "2026-07-26",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "10602bc9e84f85d03c9f16990dd1bd5e70a8b13ff29291314686f6db6e85762b",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Kerry Rippy",
+      "Robert T. Bell",
+      "Noemi Leick"
+    ],
+    "venue": "npj Materials Sustainability",
+    "doi": "10.1038/s44296-024-00036-6",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "840ee923599d516a44c6992317607596c9c4184a7eb6b324faf142cf04e0a004",
+  "raw_path": ".system/raw/SRC-20260726-10602BC9.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

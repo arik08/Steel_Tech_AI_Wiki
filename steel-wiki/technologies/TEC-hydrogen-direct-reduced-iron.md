@@ -48,8 +48,8 @@
 
 이 문서는 펠릿·괴광을 충전하는 샤프트로 중심의 수소 DRI를 주축으로 다룹니다. 미분광 유동층 경로는 ‘무펠릿 미분광 수소환원’ 문서에서 별도로 비교합니다.
 
-- **근거 확인 기업:** 8개
-- **직접 연결 근거:** 14건
+- **근거 확인 기업:** 7개
+- **직접 연결 근거:** 18건
 
 ## 작동 원리
 
@@ -111,8 +111,9 @@ flowchart TB
 | **부산물** | HYBRIT의 순수 수소 펠릿 환원은 물을 환원 반응의 부산물로 설명한다. [^src-20260725-75a329bd] | 회사 발표 |
 | **수소 원단위** | 2018년 MIDREX H2 설계 추정치는 약 650 Nm3-H2/t-DRI, 질량 기준 약 54 kg-H2/t-DRI다. [^src-20260725-afa5c853] | 정부·공공자료 |
 | **원료 품질 요구** | 0%C 수소 DRI에 저품위 원료를 쓰면 맥석과 잔류 FeO가 늘어 EAF 슬래그량·전력·수율 부담이 커질 수 있다. [^src-20260725-45cf187d] | 설비 공급사 |
-| **스티킹·클러스터링** | DRI 스티킹은 철 whisker, 새로 형성된 고표면에너지 금속철, 저융점 공정상 때문에 발생할 수 있으며 온도가 높을수록 위험이 커진다. 불활성 산화물 코팅은 물리적 장벽이지만 광석·도포 조건별 검증이 필요하다. [^src-20260725-99b78c86] | 학술 연구 |
-| **EAF 연계** | 0%C 수소 DRI를 EAF에서 녹일 때는 FeO 환원, 용강 교반, 슬래그 포밍과 화학에너지를 위해 별도 탄소·산소·불활성가스 또는 조업·설비 변경이 필요할 수 있다. [^src-20260725-45cf187d] | 설비 공급사 |
+| **스티킹·클러스터링** | DRI 스티킹은 철 whisker, 새로 형성된 고표면에너지 금속철, 저융점 공정상 때문에 발생할 수 있으며 온도가 높을수록 위험이 커진다. 불활성 산화물 코팅은 물리적 장벽이지만 광석·도포 조건별 검증이 필요하다. [^src-20260725-99b78c86] | 학술지 논문 |
+| **EAF 연계** | Tenova의 AIST 2026 발표는 건설 중인 Ternium Pesquería 3단계를 DRI–EAF–LF–RH-OB 통합 라인으로 제시하고, 2.1 Mt/y DRI·1.5 Mt/y 스크랩·2.6 Mt/y 슬래브 구성을 보고했다. 수치는 공급사 보고이며 달성 생산량이 아니다. [^src-20260726-cedf7736] | 학회 발표 |
+| **단계별 환원도** | AIST 2026 다단 수소환원 실험은 네 광석의 최종 환원도를 Carajás 89%, MAC 80%, Roy Hill 81%, Yandi 73.3%로 보고했다. 이 값은 해당 실험 순서에 한정된다. [^src-20260726-eadb3777] | 학회 발표 |
 
 ### 에너지·환경·경제
 
@@ -142,12 +143,15 @@ flowchart TB
 | 2020-10-08 | Iron and Steel Technology Roadmap [^src-20260725-2b01239e] |
 | 2024-07-26 | Sticking in Shaft Furnace and Fluidized Bed Ironmaking Processes: A Comprehensive Review Focusing on the Effect of Coating Materials [^src-20260725-99b78c86] |
 | 2024-08-27 | HYBRIT six-year pilot research results [^src-20260725-75a329bd] |
+| 2024-12-01 | Swedish Energy Agency review of HYBRIT pilot phase [^src-20260725-c4a8eda3] |
 | 2025-01-06 | JFE Steel 2025 priorities for carbon-neutral technologies [^src-20260725-ec77a362] |
 | 2025-06-19 | ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans [^src-20260725-395d8a82] |
 | 2025-09-29 | Tata Steel Nederland integrated decarbonisation project letter of intent [^src-20260725-789ab58f] |
 | 2026-01-07 | China launches first million-tonne near-zero-carbon steel line at Baowu [^src-20260725-7e8abc86] |
+| 2026-03-09 | Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation [^src-20260726-cedf7736] |
+| 2026-03-11 | Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction [^src-20260726-eadb3777] |
+| 2026-05-01 | Tata Steel Nederland 2025-2026 Green Steel Project status [^src-20260725-e71081d1] |
 | 2026-06-12 | China Baowu and Rio Tinto complete hydrogen DRI and electric-smelting trials [^src-20260725-3ff9886c] |
-| 2026-06-22 | POSCO completes Gwangyang EAF and advances HyREX [^src-20260725-b859ca04] |
 
 ## 설비·공정 이미지
 
@@ -158,16 +162,15 @@ flowchart TB
 - 출처 [[sources/SRC-20260725-8D0BD4B8|SRC-20260725-8D0BD4B8]] · 권리 `link_only` · [원문 페이지](https://transformation.thyssenkrupp-steel.com/startseite.html) · 작성·촬영 thyssenkrupp Steel Europe
 - 권리 메모: thyssenkrupp Steel 공식 프로젝트 사이트의 실제 공사 사진입니다. 재사용 권한을 별도 확인하지 않아 원문 링크로만 표시합니다.
 
+![해안 제철소에서 샤프트 직접환원로의 DRI와 스크랩이 대형 전기로로 연결되고 기존 고로가 배경에 남아 있는 전환 개념도](../assets/media/SRC-20260725-E71081D1/MED-9911B32AD15F.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** IJmuiden Green Steel 1단계의 DRP–EAF·스크랩 통합 전환 경로 AI 재구성. 최종 설계나 착공 완료 상태를 나타내지 않음
+
+- 출처 [[sources/SRC-20260725-E71081D1|SRC-20260725-E71081D1]] · 권리 `ai_generated` · [원문 페이지](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: Tata Steel Nederland 연차보고서의 계획 범위를 바탕으로 생성했으며 FID·준공도·실제 공사진척의 증거가 아님
+
 
 ## 기업별 상세 현황
-
-### [[companies/COM-POSCO|POSCO]]
-
-**확인된 현황.** 연 30만 톤 HyREX 실증설비 부지를 준비 중이며 2030년까지 상용화 기술 개발 완료 목표; 상용 운전 달성 근거는 아님 [^src-20260725-b859ca04]
-
-**단계 판단: 연구·실증.** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
-
-- **날짜:** 발표 2026-06-22 · 수집 2026-07-25 · 검증 2026-07-25
 
 ### [[companies/COM-ArcelorMittal|ArcelorMittal]]
 
@@ -232,6 +235,7 @@ flowchart TB
 | 프로젝트 | 현재 확인 상태 | 일정·규모 |
 | --- | --- | --- |
 | **[[projects/PRJ-HYBRIT-LULEA-PILOT|HYBRIT 룰레오 수소 DRI 파일럿]]** | 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. [^src-20260725-75a329bd] | - |
+| **[[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]** | Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음 [^src-20260725-e71081d1] | - |
 
 ## 기술적 쟁점과 미공개 데이터
 
@@ -263,15 +267,19 @@ flowchart TB
 - [[sources/SRC-20260725-3FF9886C|China Baowu and Rio Tinto complete hydrogen DRI and electric-smelting trials]] — Rio Tinto, 2026-06-12 · [원문](https://www.riotinto.com/news/releases/2026/china-baowu-and-rio-tinto-complete-pilbara-blend-iron-ore-pelletisation-and-direct-reduction-trials)
 - [[sources/SRC-20260725-45A1D063|Nippon Steel research and development for carbon-neutral steelmaking]] — Nippon Steel Corporation, 게시일 미상 · [원문](https://www.nipponsteel.com/en/sustainability/quality/rd.html)
 - [[sources/SRC-20260725-45CF187D|Impact of Hydrogen DRI on EAF Steelmaking]] — Midrex Technologies, 게시일 미상 · [원문](https://www.midrex.com/tech-article/impact-of-hydrogen-dri-on-eaf-steelmaking/)
+- [[sources/SRC-20260725-6C80084B|Tata Steel climate action technology roadmap]] — Tata Steel, 게시일 미상 · [원문](https://www.tatasteel.com/sustainability/environment/climate-action/)
 - [[sources/SRC-20260725-75A329BD|HYBRIT six-year pilot research results]] — SSAB, 2024-08-27 · [원문](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial)
 - [[sources/SRC-20260725-789AB58F|Tata Steel Nederland integrated decarbonisation project letter of intent]] — Tata Steel, 2025-09-29 · [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/)
 - [[sources/SRC-20260725-7E8ABC86|China launches first million-tonne near-zero-carbon steel line at Baowu]] — State-owned Assets Supervision and Administration Commission of China, 2026-01-07 · [원문](https://en.sasac.gov.cn/2026/01/07/c_20292.htm)
 - [[sources/SRC-20260725-8D0BD4B8|thyssenkrupp Steel direct-reduction transformation project status]] — thyssenkrupp Steel Europe, 게시일 미상 · [원문](https://transformation.thyssenkrupp-steel.com/startseite.html)
 - [[sources/SRC-20260725-99B78C86|Sticking in Shaft Furnace and Fluidized Bed Ironmaking Processes: A Comprehensive Review Focusing on the Effect of Coating Materials]] — Metallurgical and Materials Transactions B, 2024-07-26 · [원문](https://link.springer.com/article/10.1007/s11663-024-03188-x)
 - [[sources/SRC-20260725-AFA5C853|Hydrogen Uses in Ironmaking]] — U.S. Department of Energy / Midrex Technologies, 게시일 미상 · [원문](https://www.energy.gov/sites/prod/files/2018/08/f54/fcto-h2-scale-kickoff-2018-8-chevrier.pdf)
-- [[sources/SRC-20260725-B859CA04|POSCO completes Gwangyang EAF and advances HyREX]] — POSCO Group Newsroom, 2026-06-22 · [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/)
+- [[sources/SRC-20260725-C4A8EDA3|Swedish Energy Agency review of HYBRIT pilot phase]] — Swedish Energy Agency, 2024-12-01 · [원문](https://www.energimyndigheten.se/4ab557/globalassets/forskning--innovation/industri/nulagesanalys-av-industrins-omstallning-2024_webb.pdf)
 - [[sources/SRC-20260725-D230993B|MIDREX H2 current process configuration]] — Midrex Technologies, 게시일 미상 · [원문](https://www.midrex.com/midrex-process/midrex-h2/)
+- [[sources/SRC-20260725-E71081D1|Tata Steel Nederland 2025-2026 Green Steel Project status]] — Tata Steel Nederland, 2026-05-01 · [원문](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf)
 - [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]] — JFE Steel Corporation, 2025-01-06 · [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html)
+- [[sources/SRC-20260726-CEDF7736|Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/e89e02e8-f108-4e65-b52a-939bec855f83/Tomorrows-Steel-Mill-Today-Ternium.pdf)
+- [[sources/SRC-20260726-EADB3777|Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction]] — Association for Iron & Steel Technology, 2026-03-11 · [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf)
 
 [^src-20260725-2b01239e]: **Iron and Steel Technology Roadmap** — International Energy Agency, 2020-10-08. [원문](https://www.iea.org/reports/iron-and-steel-technology-roadmap) · [[sources/SRC-20260725-2B01239E|보관 원문·메타데이터]]
 [^src-20260725-395d8a82]: **ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans** — ArcelorMittal, 2025-06-19. [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-europe-urges-faster-implementation-of-steel-and-metals-action-plan) · [[sources/SRC-20260725-395D8A82|보관 원문·메타데이터]]
@@ -282,8 +290,11 @@ flowchart TB
 [^src-20260725-789ab58f]: **Tata Steel Nederland integrated decarbonisation project letter of intent** — Tata Steel, 2025-09-29. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/) · [[sources/SRC-20260725-789AB58F|보관 원문·메타데이터]]
 [^src-20260725-7e8abc86]: **China launches first million-tonne near-zero-carbon steel line at Baowu** — State-owned Assets Supervision and Administration Commission of China, 2026-01-07. [원문](https://en.sasac.gov.cn/2026/01/07/c_20292.htm) · [[sources/SRC-20260725-7E8ABC86|보관 원문·메타데이터]]
 [^src-20260725-8d0bd4b8]: **thyssenkrupp Steel direct-reduction transformation project status** — thyssenkrupp Steel Europe, 게시일 미상. [원문](https://transformation.thyssenkrupp-steel.com/startseite.html) · [[sources/SRC-20260725-8D0BD4B8|보관 원문·메타데이터]]
-[^src-20260725-99b78c86]: **Sticking in Shaft Furnace and Fluidized Bed Ironmaking Processes: A Comprehensive Review Focusing on the Effect of Coating Materials** — Metallurgical and Materials Transactions B, 2024-07-26. [원문](https://link.springer.com/article/10.1007/s11663-024-03188-x) · [[sources/SRC-20260725-99B78C86|보관 원문·메타데이터]]
+[^src-20260725-99b78c86]: **Sticking in Shaft Furnace and Fluidized Bed Ironmaking Processes: A Comprehensive Review Focusing on the Effect of Coating Materials** — Metallurgical and Materials Transactions B, 2024-07-26. DOI: [10.1007/s11663-024-03188-x](https://doi.org/10.1007/s11663-024-03188-x). [원문](https://link.springer.com/article/10.1007/s11663-024-03188-x) · [[sources/SRC-20260725-99B78C86|보관 원문·메타데이터]]
 [^src-20260725-afa5c853]: **Hydrogen Uses in Ironmaking** — U.S. Department of Energy / Midrex Technologies, 게시일 미상. [원문](https://www.energy.gov/sites/prod/files/2018/08/f54/fcto-h2-scale-kickoff-2018-8-chevrier.pdf) · [[sources/SRC-20260725-AFA5C853|보관 원문·메타데이터]]
-[^src-20260725-b859ca04]: **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
+[^src-20260725-c4a8eda3]: **Swedish Energy Agency review of HYBRIT pilot phase** — Swedish Energy Agency, 2024-12-01. [원문](https://www.energimyndigheten.se/4ab557/globalassets/forskning--innovation/industri/nulagesanalys-av-industrins-omstallning-2024_webb.pdf) · [[sources/SRC-20260725-C4A8EDA3|보관 원문·메타데이터]]
 [^src-20260725-d230993b]: **MIDREX H2 current process configuration** — Midrex Technologies, 게시일 미상. [원문](https://www.midrex.com/midrex-process/midrex-h2/) · [[sources/SRC-20260725-D230993B|보관 원문·메타데이터]]
+[^src-20260725-e71081d1]: **Tata Steel Nederland 2025-2026 Green Steel Project status** — Tata Steel Nederland, 2026-05-01. [원문](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) · [[sources/SRC-20260725-E71081D1|보관 원문·메타데이터]]
 [^src-20260725-ec77a362]: **JFE Steel 2025 priorities for carbon-neutral technologies** — JFE Steel Corporation, 2025-01-06. [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) · [[sources/SRC-20260725-EC77A362|보관 원문·메타데이터]]
+[^src-20260726-cedf7736]: **Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/e89e02e8-f108-4e65-b52a-939bec855f83/Tomorrows-Steel-Mill-Today-Ternium.pdf) · [[sources/SRC-20260726-CEDF7736|보관 원문·메타데이터]]
+[^src-20260726-eadb3777]: **Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction** — Association for Iron & Steel Technology, 2026-03-11. [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf) · [[sources/SRC-20260726-EADB3777|보관 원문·메타데이터]]

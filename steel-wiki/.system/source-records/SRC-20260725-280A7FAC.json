@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-20260725-280A7FAC",
+  "title": "Nippon Steel GX briefing: Hasaki hydrogen DRI test furnace",
+  "url": "https://www.nipponsteel.com/en/ir/library/pdf/20250313_100.pdf",
+  "canonical_url": "https://www.nipponsteel.com/en/ir/library/pdf/20250313_100.pdf",
+  "publisher": "Nippon Steel Corporation",
+  "published_at": null,
+  "collected_at": "2026-07-25",
+  "source_type": "company_ir",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "280a7fac2e23801926f8093d707c61bed6a118ad5c79491188fbe2e37fcb6d7b",
+  "raw_sha256": "543015101c71b7cc00225f951ad625775feed8ba3005eb753ea331b40ae6eefe",
+  "raw_path": ".system/raw/SRC-20260725-280A7FAC.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-A648A3BF984F",
+      "kind": "facility_photo",
+      "caption": "Hasaki R&D Center 시험 샤프트로 운전동(앞)과 시험 샤프트로(뒤)의 Nippon Steel 공식 사진",
+      "alt_text": "Hasaki 연구개발센터의 시험 샤프트로 운전동과 높이 약 60미터 시험 샤프트로",
+      "creator": "Nippon Steel Corporation",
+      "image_url": "https://www.nipponsteel.com/en/carbon-neutral/img/zerocarbon_im20.webp",
+      "origin_url": "https://www.nipponsteel.com/en/carbon-neutral/zerocarbon.html",
+      "rights_status": "link_only",
+      "rights_note": "Nippon Steel 공식 Carbon Neutral Vision 페이지의 원격 이미지를 복제하지 않고 직접 표시",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "COM-Nippon-Steel",
+        "PRJ-NIPPON-HASAKI-H2-DRI"
+      ]
+    }
+  ]
+}

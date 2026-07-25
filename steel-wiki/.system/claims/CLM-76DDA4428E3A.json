@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-76DDA4428E3A",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "academic_route_scope",
+  "value": "RawMat 2021 학회 논문은 SIDERWIN의 저온 알칼리 철 전해채취 경로와 bauxite residue 적용 연구를 공개",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-26",
+  "last_verified": "2026-07-26",
+  "source_ids": [
+    "SRC-20260726-7BCEED6F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-26",
+      "action": "created",
+      "reason": "SIDERWIN 학회 프로시딩",
+      "source_ids": [
+        "SRC-20260726-7BCEED6F"
+      ]
+    }
+  ]
+}

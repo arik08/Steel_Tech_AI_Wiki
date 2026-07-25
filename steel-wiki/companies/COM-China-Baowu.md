@@ -4,13 +4,19 @@
 
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
+
+![수소 샤프트로에서 생산된 DRI와 철스크랩이 전기로에 장입되어 슬래브로 압연되는 공정 재구성](../assets/media/SRC-20260725-7D498404/MED-CDAE0740FBCA.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+
+*대표 이미지 — Zhanjiang 수소 기반 샤프트로-DRI·스크랩-전기로-슬래브 압연 경로의 출처 기반 AI 재구성; 실제 준공도나 설비 사진이 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-7D498404|SRC-20260725-7D498404]] · [원문 페이지](https://res.baowugroup.com/attach/2025/08/18/a284678855c94f6ab74f2d394d80042f.pdf))*
+
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 3개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 1개 |
     | **실행 단계** | 가동·현장 적용 1건 · 연구·실증 1건 · 준공·가동 준비 1건 |
-    | **직접 연결 근거** | 2건 |
+    | **직접 연결 근거** | 3건 |
 
 ## 기술 포트폴리오
 
@@ -54,6 +60,40 @@
 
     **다음 확인:** 발표·MOU와 FID·착공·준공·램프업을 분리하고, 철광석 품위와 스크랩 추가성, 실제 수소 비율, 전력 탄소집약도, CO2 영구저장량, 제품별 Scope 1·2·상류 Scope 3 및 제3자 검증 출하량을 같은 기준으로 확인해야 합니다.
 
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF|China Baowu Zhanjiang 수소 샤프트로–전기로 라인]]** | 2026-01-07 기준 100만 톤급 수소 기반 샤프트로-전기로 연계 저탄소 후판 생산라인이 전면 가동됐다고 중국 국유자산감독관리위원회가 발표 [^src-20260725-7e8abc86] | **기술 경로** 수소 기반 샤프트로 DRI와 철스크랩을 원료로 고효율 전기로 용해 후 기존 압연설비에서 저탄소·near-zero-carbon 강판 생산 [^src-20260725-7e8abc86] · **위치** Baoshan Iron & Steel Zhanjiang plant, Guangdong, China [^src-20260725-7e8abc86] · **연간 생산능력** 연간 1,000,000톤급 저탄소 철강 생산라인 [^src-20260725-7e8abc86] |
+
+## 프로젝트별 상세
+
+??? info "China Baowu Zhanjiang 수소 샤프트로–전기로 라인"
+
+    **프로젝트 문서:** [[projects/PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF|China Baowu Zhanjiang 수소 샤프트로–전기로 라인]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **프로젝트 상태** | 2026-01-07 기준 100만 톤급 수소 기반 샤프트로-전기로 연계 저탄소 후판 생산라인이 전면 가동됐다고 중국 국유자산감독관리위원회가 발표 [^src-20260725-7e8abc86] |
+    | **연속운전 결과** | 2024-08-22까지 168시간 연속 전부하 생산으로 주간 생산능력 평가 통과 [^src-20260725-7d498404] |
+    | **공개 성과의 한계** | 운전지표가 설계치를 상회했다고 보고했으나 금속화율·에너지 원단위·제품 탄소집약도 개별 수치는 공개하지 않음 [^src-20260725-7d498404] |
+    | **연간 생산능력** | 연간 1,000,000톤급 저탄소 철강 생산라인 [^src-20260725-7e8abc86] |
+    | **예상 CO2 감축** | 기존 고로-전로 장공정 대비 CO2 50~80% 감축, 연간 314만 톤 초과 감축 예상치; 실측 제품 탄소집약도는 미공개 [^src-20260725-7e8abc86] |
+    | **위치** | Baoshan Iron & Steel Zhanjiang plant, Guangdong, China [^src-20260725-7e8abc86] |
+    | **가동·시운전 확인 시점** | 2023-12-23 중국 최초 100만 톤급 수소 기반 샤프트로 점화·가동 [^src-20260725-7d498404] |
+    | **환원가스 조성** | 수소 70%의 고수소 환원 조건을 검증했다고 회사 보고; 완전 수소 운전의 장기 실적은 미확인 [^src-20260725-7d498404] |
+    | **기술 경로** | 수소 기반 샤프트로 DRI와 철스크랩을 원료로 고효율 전기로 용해 후 기존 압연설비에서 저탄소·near-zero-carbon 강판 생산 [^src-20260725-7e8abc86] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2023-12-23 | 실행 일정 | **가동·시운전 확인 시점**: 2023-12-23 중국 최초 100만 톤급 수소 기반 샤프트로 점화·가동 [^src-20260725-7d498404] |
+    | 2025-08-18 | 발표·검증 | **연속운전 결과**: 2024-08-22까지 168시간 연속 전부하 생산으로 주간 생산능력 평가 통과 · **공개 성과의 한계**: 운전지표가 설계치를 상회했다고 보고했으나 금속화율·에너지 원단위·제품 탄소집약도 개별 수치는 공개하지 않음 · **가동·시운전 확인 시점**: 2023-12-23 중국 최초 100만 톤급 수소 기반 샤프트로 점화·가동 · **환원가스 조성**: 수소 70%의 고수소 환원 조건을 검증했다고 회사 보고; 완전 수소 운전의 장기 실적은 미확인 [^src-20260725-7d498404] |
+    | 2026-01-07 | 발표·검증 | **프로젝트 상태**: 2026-01-07 기준 100만 톤급 수소 기반 샤프트로-전기로 연계 저탄소 후판 생산라인이 전면 가동됐다고 중국 국유자산감독관리위원회가 발표 · **연간 생산능력**: 연간 1,000,000톤급 저탄소 철강 생산라인 · **예상 CO2 감축**: 기존 고로-전로 장공정 대비 CO2 50~80% 감축, 연간 314만 톤 초과 감축 예상치; 실측 제품 탄소집약도는 미공개 · **위치**: Baoshan Iron & Steel Zhanjiang plant, Guangdong, China · **기술 경로**: 수소 기반 샤프트로 DRI와 철스크랩을 원료로 고효율 전기로 용해 후 기존 압연설비에서 저탄소·near-zero-carbon 강판 생산 [^src-20260725-7e8abc86] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
@@ -67,7 +107,9 @@
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
 | [[sources/SRC-20260725-3FF9886C|China Baowu and Rio Tinto complete hydrogen DRI and electric-smelting trials]] | Rio Tinto · 2026-06-12 | [원문 보기](https://www.riotinto.com/news/releases/2026/china-baowu-and-rio-tinto-complete-pilbara-blend-iron-ore-pelletisation-and-direct-reduction-trials) |
+| [[sources/SRC-20260725-7D498404|China Baowu green development report: Zhanjiang hydrogen shaft furnace]] | China Baowu Steel Group Corporation Limited · 2025-08-18 | [원문 보기](https://res.baowugroup.com/attach/2025/08/18/a284678855c94f6ab74f2d394d80042f.pdf) |
 | [[sources/SRC-20260725-7E8ABC86|China launches first million-tonne near-zero-carbon steel line at Baowu]] | State-owned Assets Supervision and Administration Commission of China · 2026-01-07 | [원문 보기](https://en.sasac.gov.cn/2026/01/07/c_20292.htm) |
 
 [^src-20260725-3ff9886c]: **China Baowu and Rio Tinto complete hydrogen DRI and electric-smelting trials** — Rio Tinto, 2026-06-12. [원문](https://www.riotinto.com/news/releases/2026/china-baowu-and-rio-tinto-complete-pilbara-blend-iron-ore-pelletisation-and-direct-reduction-trials) · [[sources/SRC-20260725-3FF9886C|보관 원문·메타데이터]]
+[^src-20260725-7d498404]: **China Baowu green development report: Zhanjiang hydrogen shaft furnace** — China Baowu Steel Group Corporation Limited, 2025-08-18. [원문](https://res.baowugroup.com/attach/2025/08/18/a284678855c94f6ab74f2d394d80042f.pdf) · [[sources/SRC-20260725-7D498404|보관 원문·메타데이터]]
 [^src-20260725-7e8abc86]: **China launches first million-tonne near-zero-carbon steel line at Baowu** — State-owned Assets Supervision and Administration Commission of China, 2026-01-07. [원문](https://en.sasac.gov.cn/2026/01/07/c_20292.htm) · [[sources/SRC-20260725-7E8ABC86|보관 원문·메타데이터]]

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-70828CCD8391",
+  "subject_id": "PRJ-BOSTON-METAL-MOE-WOBURN",
+  "predicate": "equipment_configuration",
+  "value": "자체발열형 MOE 셀, 다중 불활성 양극, 액체 금속 반복 출선과 셀·양극 수 증가에 의한 모듈 확대",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-CEDC4521"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 내용 부실 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-CEDC4521"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-FAE9E4939A9A",
+  "subject_id": "PRJ-TATA-JAMSHEDPUR-EASYMELT",
+  "predicate": "project_status",
+  "value": "2023년 MoU와 front-end loading 검토를 거쳐 2026-04-21 확정 계약 후 단계적 산업 실증 추진 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-29802D50"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-29802D50"
+      ]
+    }
+  ]
+}

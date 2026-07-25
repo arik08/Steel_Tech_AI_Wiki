@@ -27,7 +27,11 @@
       "rights_note": "Tenova 공식 기술 페이지에서 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시하며, 광양 프로젝트의 준공도는 아닙니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "TEC-high-grade-eaf-and-scrap-impurity-removal",
+        "PRJ-POSCO-GWANGYANG-EAF"
+      ]
     },
     {
       "media_id": "MED-028228A5D2C0",
@@ -41,7 +45,11 @@
       "rights_note": "Tenova 공식 기술 페이지에서 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시하며, 광양 프로젝트의 준공도는 아닙니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "TEC-high-grade-eaf-and-scrap-impurity-removal",
+        "PRJ-POSCO-GWANGYANG-EAF"
+      ]
     },
     {
       "media_id": "MED-EF872DB2DAAD",
@@ -55,7 +63,11 @@
       "rights_note": "Tenova 공식 프로젝트 발표 페이지의 설비 전경입니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "COM-POSCO",
+        "PRJ-POSCO-GWANGYANG-EAF"
+      ]
     }
   ]
 }

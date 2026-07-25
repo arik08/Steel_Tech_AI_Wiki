@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1FC11D25E950",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "public_scaleup_evidence_gap",
+  "value": "발표의 CRISP+ 약 120–160 MW·1.5 Mt/y 초과 수치는 개념 설계치이며, 명명된 상용 설비의 달성 실적으로 확인되지 않았다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260726-6CC774DD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "학회 발표의 개념치와 상용 실적을 구분",
+      "source_ids": [
+        "SRC-20260726-6CC774DD"
+      ]
+    }
+  ]
+}

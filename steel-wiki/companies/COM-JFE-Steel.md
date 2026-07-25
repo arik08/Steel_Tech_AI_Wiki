@@ -13,9 +13,10 @@
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 4개 / 감시 기술 11개 |
-    | **실행 단계** | 연구·실증 2건 · 계획·투자 1건 · 가동·현장 적용 1건 |
-    | **직접 연결 근거** | 3건 |
+    | **확인된 기술** | 5개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 3개 |
+    | **실행 단계** | 연구·실증 2건 · 계획·투자 2건 · 가동·현장 적용 1건 |
+    | **직접 연결 근거** | 8건 |
 
 ## 기술 포트폴리오
 
@@ -27,6 +28,7 @@
 | **[[technologies/TEC-blast-furnace-ccus|고로 CCUS]]** | 포집 CO2를 수소로 합성메탄화해 고로에 재순환하는 carbon-recycling BF 개발 단계 [^src-20260725-ec77a362][^src-20260725-7e6dfd33] | **연구·실증** |
 | **[[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]]** | carbon-recycling BF·수소 DRI·대형 EAF 3개 축; Kurashiki 대형 EAF 전환 및 Chiba EAF 건설 계획 [^src-20260725-ec77a362] | **계획·투자** |
 | **[[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]** | 전 고로 CPS 배치 완료, 일본 7개 소결설비에 CPS 전개 중; 센서·AI·물리모델 기반 실시간 예측 [^src-20260725-41586a75] | **가동·현장 적용** |
+| **[[technologies/TEC-high-grade-eaf-and-scrap-impurity-removal|고급강 EAF·스크랩 불순물 제거]]** | Kurashiki에 연 200만 톤 대형 EAF·노외정련·냉철원 물류를 JPY 329.4 billion으로 투자 결정; 2028 회계연도 1분기 생산 목표 [^src-20260725-38762376] | **계획·투자** |
 
 ## 기술별 근거와 확인 과제
 
@@ -70,15 +72,116 @@
 
     **다음 확인:** 적용 공정·설비 수·운전기간, 모델 입력과 검증 기준, 조언·사람 승인·폐루프 중 실제 권한, 수동 전환·인터록·OT 보안, 기준선이 공개된 정량 성과와 다른 공장으로의 재현 여부를 확인해야 합니다.
 
+??? info "고급강 EAF·스크랩 불순물 제거 · 계획·투자"
+
+    **확인된 사실:** Kurashiki에 연 200만 톤 대형 EAF·노외정련·냉철원 물류를 JPY 329.4 billion으로 투자 결정; 2028 회계연도 1분기 생산 목표 [^src-20260725-38762376]
+
+    **판단 기준:** 기업의 방향성과 자원 투입 의지는 확인되지만 실제 설비 성능이나 상용 운전이 입증된 단계는 아닙니다.
+
+    **확인 날짜:** 발표 2025-04-10 · 검증 2026-07-25
+
+    **다음 확인:** 스크랩 종류·해방도·센서 판정의 대표성, Cu·Sn 실제 제거율과 철 손실, DRI/HBI·용선 희석 의존도, 탭 N·P·S, 처리량·가동률, 제품별 합격률과 대형 EAF 장기 생산 실적을 확인해야 합니다.
+
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]** | 2025-04-10 투자·건설을 결정하고 정부 보조금 승인을 확보한 건설 준비 단계 [^src-20260725-38762376] | **기술 경로** 스크랩·저탄소 DRI를 고효율 대형 EAF에서 용해하고 고급강 정련·물류 설비와 통합 [^src-20260725-38762376] · **위치** West Japan Works Kurashiki facility, Japan [^src-20260725-38762376] · **연간 생산능력** 연간 약 2,000,000톤 조강 [^src-20260725-38762376] · **지원·조달 금액** 일본 정부 보조금 최대 JPY 104.5 billion 예상 [^src-20260725-38762376] · **목표 가동 시점** 2028-04 시작 회계연도 1분기 생산 개시 목표 [^src-20260725-38762376] |
+| **[[projects/PRJ-JFE-SINTER-CPS-ROLLOUT|JFE 일본 7개 소결설비 CPS 전개]]** | 일본 내 7개 소결 생산설비에 CPS 전개 중이며 전 고로 공정의 CPS 배치는 완료됐다고 회사 발표 [^src-20260725-41586a75] | **위치** JFE Steel 일본 내 7개 소결 생산설비 [^src-20260725-41586a75] |
+| **[[projects/PRJ-NIPPON-KIMITSU-COURSE50|Nippon Steel Kimitsu COURSE50 실증]]** | 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 [^src-20260725-46c2dbc8] | **기술 경로** Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 [^src-20260725-46c2dbc8] · **위치** East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan [^src-20260725-0a7903ea] |
+
+## 프로젝트별 상세
+
+??? info "JFE Kurashiki 대형 고효율 전기로"
+
+    **프로젝트 문서:** [[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **목표 상업생산 시점** | FY2028 상업생산 목표를 METI 자료에서 교차 확인 [^src-20260725-ded07902] |
+    | **투자비** | JPY 329.4 billion [^src-20260725-38762376] |
+    | **지원·조달 금액** | 일본 정부 보조금 최대 JPY 104.5 billion 예상 [^src-20260725-38762376] |
+    | **목표 가동 시점** | 2028-04 시작 회계연도 1분기 생산 개시 목표 [^src-20260725-38762376] |
+    | **공개 성과의 한계** | 실제 DRI 배합률·전력원단위·불순물 관리 성능·공사 진척률과 가동 실적은 아직 확인되지 않음 [^src-20260725-38762376] |
+    | **설비 구성** | 대형 EAF, 노외정련, 냉철원 물류·분배 설비와 부두 개량 [^src-20260725-38762376] |
+    | **연간 생산능력** | 연간 약 2,000,000톤 조강 [^src-20260725-38762376] |
+    | **정부 지원 교차검증** | 일본 METI GX 자료가 Kurashiki 약 200만 t/y 대형 EAF와 FY2028 상업생산 목표를 정부 지원 전환사업으로 확인 [^src-20260725-ded07902] |
+    | **위치** | West Japan Works Kurashiki facility, Japan [^src-20260725-38762376] |
+    | **목표 제품 범위** | 전기강판과 고장력강 등 고품질·고기능 강재의 대량 생산 목표 [^src-20260725-38762376] |
+    | **프로젝트 상태** | 2025-04-10 투자·건설을 결정하고 정부 보조금 승인을 확보한 건설 준비 단계 [^src-20260725-38762376] |
+    | **기술 경로** | 스크랩·저탄소 DRI를 고효율 대형 EAF에서 용해하고 고급강 정련·물류 설비와 통합 [^src-20260725-38762376] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-01-23 | 발표·검증 | **목표 상업생산 시점**: FY2028 상업생산 목표를 METI 자료에서 교차 확인 · **정부 지원 교차검증**: 일본 METI GX 자료가 Kurashiki 약 200만 t/y 대형 EAF와 FY2028 상업생산 목표를 정부 지원 전환사업으로 확인 [^src-20260725-ded07902] |
+    | 2025-04-10 | 발표·검증 | **투자비**: JPY 329.4 billion · **지원·조달 금액**: 일본 정부 보조금 최대 JPY 104.5 billion 예상 · **목표 가동 시점**: 2028-04 시작 회계연도 1분기 생산 개시 목표 · **공개 성과의 한계**: 실제 DRI 배합률·전력원단위·불순물 관리 성능·공사 진척률과 가동 실적은 아직 확인되지 않음 · **설비 구성**: 대형 EAF, 노외정련, 냉철원 물류·분배 설비와 부두 개량 · **연간 생산능력**: 연간 약 2,000,000톤 조강 · **위치**: West Japan Works Kurashiki facility, Japan · **목표 제품 범위**: 전기강판과 고장력강 등 고품질·고기능 강재의 대량 생산 목표 · **프로젝트 상태**: 2025-04-10 투자·건설을 결정하고 정부 보조금 승인을 확보한 건설 준비 단계 · **기술 경로**: 스크랩·저탄소 DRI를 고효율 대형 EAF에서 용해하고 고급강 정련·물류 설비와 통합 [^src-20260725-38762376] |
+    | 2028 | 목표 상업생산 시점 | **목표 상업생산 시점**: FY2028 상업생산 목표를 METI 자료에서 교차 확인 [^src-20260725-ded07902] |
+    | 2028-04 | 목표 일정 | **목표 가동 시점**: 2028-04 시작 회계연도 1분기 생산 개시 목표 [^src-20260725-38762376] |
+
+??? info "JFE 일본 7개 소결설비 CPS 전개"
+
+    **프로젝트 문서:** [[projects/PRJ-JFE-SINTER-CPS-ROLLOUT|JFE 일본 7개 소결설비 CPS 전개]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **공개 성과의 한계** | 라인별 기준선, 절대·상대 개선량, 운전기간과 통계 불확도는 공개하지 않음 [^src-20260725-41586a75] |
+    | **프로젝트 상태** | 일본 내 7개 소결 생산설비에 CPS 전개 중이며 전 고로 공정의 CPS 배치는 완료됐다고 회사 발표 [^src-20260725-41586a75] |
+    | **의사결정·제어 권한** | 도식은 예측값 기반 최적 조작을 제시하지만 운전자 승인과 완전 폐루프 중 실제 권한은 공개하지 않음 [^src-20260725-41586a75] |
+    | **설비 구성** | 소결기 센서 입력, 통계·기계학습 모델, 열화학 물리 시뮬레이션, 최적화 모듈을 결합한 CPS [^src-20260725-41586a75] |
+    | **현장 배치 범위** | 전 고로 CPS 완료 후 7개 소결설비로 전개하고 다른 제조공정으로 확대 [^src-20260725-41586a75] |
+    | **작동 원리** | 소결층 내부 상태를 실시간 예측하고 예측값에 근거한 최적 조작을 도출 [^src-20260725-41586a75] |
+    | **위치** | JFE Steel 일본 내 7개 소결 생산설비 [^src-20260725-41586a75] |
+    | **성과 측정 지표** | 품질 안정, 생산성 향상, 코크스 사용과 온실가스 감축을 목표·성과 항목으로 제시 [^src-20260725-41586a75] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-10-07 | 발표·검증 | **공개 성과의 한계**: 라인별 기준선, 절대·상대 개선량, 운전기간과 통계 불확도는 공개하지 않음 · **프로젝트 상태**: 일본 내 7개 소결 생산설비에 CPS 전개 중이며 전 고로 공정의 CPS 배치는 완료됐다고 회사 발표 · **의사결정·제어 권한**: 도식은 예측값 기반 최적 조작을 제시하지만 운전자 승인과 완전 폐루프 중 실제 권한은 공개하지 않음 · **설비 구성**: 소결기 센서 입력, 통계·기계학습 모델, 열화학 물리 시뮬레이션, 최적화 모듈을 결합한 CPS · **현장 배치 범위**: 전 고로 CPS 완료 후 7개 소결설비로 전개하고 다른 제조공정으로 확대 · **작동 원리**: 소결층 내부 상태를 실시간 예측하고 예측값에 근거한 최적 조작을 도출 · **위치**: JFE Steel 일본 내 7개 소결 생산설비 · **성과 측정 지표**: 품질 안정, 생산성 향상, 코크스 사용과 온실가스 감축을 목표·성과 항목으로 제시 [^src-20260725-41586a75] |
+
+??? info "Nippon Steel Kimitsu COURSE50 실증"
+
+    **프로젝트 문서:** [[projects/PRJ-NIPPON-KIMITSU-COURSE50|Nippon Steel Kimitsu COURSE50 실증]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **공개 성과의 한계** | 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음 [^src-20260725-f396d188][^src-20260725-46c2dbc8] |
+    | **위치** | East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan [^src-20260725-0a7903ea] |
+    | **시험 결과** | Kimitsu 소형 시험고로에서 2026년 2~3월 CO2 배출 45% 감축을 회사가 보고; 4,500 m3 고로 실증 결과는 아님 [^src-20260725-f396d188] |
+    | **기술 경로** | Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 [^src-20260725-46c2dbc8] |
+    | **프로젝트 상태** | 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 [^src-20260725-46c2dbc8] |
+    | **기존 실증 개시 목표** | 2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명 [^src-20260725-0a7903ea][^src-20260725-46c2dbc8] |
+    | **참여 기관** | NEDO Green Innovation Fund 수소제철 컨소시엄: Nippon Steel, JFE Steel, Kobe Steel, Japan Research and Development Center for Metals [^src-20260725-0a7903ea] |
+    | **노 용적** | 실증 대상 상용 고로 4,500 m3; 기존 시험고로 12 m3 대비 약 400배 [^src-20260725-0a7903ea] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2023-02-09 | 발표·검증 | **위치**: East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan · **기존 실증 개시 목표**: 2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명 · **참여 기관**: NEDO Green Innovation Fund 수소제철 컨소시엄: Nippon Steel, JFE Steel, Kobe Steel, Japan Research and Development Center for Metals · **노 용적**: 실증 대상 상용 고로 4,500 m3; 기존 시험고로 12 m3 대비 약 400배 [^src-20260725-0a7903ea] |
+    | 2026-05-29 | 발표·검증 | **공개 성과의 한계**: 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음 · **기술 경로**: Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 · **프로젝트 상태**: 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 · **기존 실증 개시 목표**: 2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명 [^src-20260725-46c2dbc8] |
+    | 2026-06-02 | 발표·검증 | **공개 성과의 한계**: 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음 · **시험 결과**: Kimitsu 소형 시험고로에서 2026년 2~3월 CO2 배출 45% 감축을 회사가 보고; 4,500 m3 고로 실증 결과는 아님 [^src-20260725-f396d188] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
 
     - 확인된 사실만으로 기술 경쟁력을 단일 순위로 평가하지 않았습니다. 실증 규모, 상용 운전, 원료·에너지 조건이 서로 다르기 때문입니다.
-    - 현재 자료의 실행 단계 분포는 연구·실증 2건 · 계획·투자 1건 · 가동·현장 적용 1건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
+    - 현재 자료의 실행 단계 분포는 연구·실증 2건 · 계획·투자 2건 · 가동·현장 적용 1건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
     - 다음 갱신에서는 목표치보다 착공·준공·누적 생산량·가동률·제품 단위 배출량처럼 실행을 입증하는 지표를 우선 확인하는 것이 좋습니다.
 
 ## 설비·공정 이미지
+
+![해안 부두와 철원 물류, 대형 전기로, 배가스 열회수, 노외정련 설비가 연결된 개념 구성](../assets/media/SRC-20260725-38762376/MED-509F32DFCABA.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** Kurashiki 대형 EAF의 부두·냉철원 물류·스크랩/DRI 용해·노외정련 통합 경로 AI 재구성. 실제 JFE 준공도가 아님
+
+- 출처 [[sources/SRC-20260725-38762376|SRC-20260725-38762376]] · 권리 `ai_generated` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: JFE 공식 투자 발표의 설비 범위를 바탕으로 생성했으며 실제 배치·공사진척·성능의 증거로 사용하지 않음
 
 ![물리 제철소와 사이버 모델, AI, 운전지침, 로봇 자동화를 양방향으로 연결한 JFE 지능형 제철소 구조도](<https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-2.png>){ .steel-media-image .steel-media-detail }
 
@@ -92,10 +195,20 @@
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-0A7903EA|Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration]] | Nippon Steel Corporation · 2023-02-09 | [원문 보기](https://www.nipponsteel.com/en/news/20230209_100.html) |
+| [[sources/SRC-20260725-38762376|JFE Steel to introduce advanced large-scale EAF at Kurashiki]] | JFE Steel Corporation · 2025-04-10 | [원문 보기](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) |
 | [[sources/SRC-20260725-41586A75|JFE Steel deploys CPS technology across sintering facilities]] | JFE Steel Corporation · 2025-10-07 | [원문 보기](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html) |
+| [[sources/SRC-20260725-46C2DBC8|Nippon Steel Kimitsu COURSE50 large-BF preparation status]] | Nippon Steel Corporation · 2026-05-29 | [원문 보기](https://www.nipponsteel.com/newsroom/stories/technology/20260529_100.html) |
 | [[sources/SRC-20260725-7E6DFD33|JFE technical report on carbon-recycling blast furnace]] | JFE Steel Corporation · 2022-09-01 | [원문 보기](https://www.jfe-steel.co.jp/en/research/report/028/pdf/028-02.pdf) |
+| [[sources/SRC-20260725-DED07902|METI Green Steel for GX: Kurashiki EAF]] | Ministry of Economy, Trade and Industry, Japan · 2025-01-23 | [원문 보기](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf) |
 | [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]] | JFE Steel Corporation · 2025-01-06 | [원문 보기](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) |
+| [[sources/SRC-20260725-F396D188|Nippon Steel FY2025 results: carbon-neutral technology progress]] | Nippon Steel Corporation · 2026-06-02 | [원문 보기](https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf) |
 
+[^src-20260725-0a7903ea]: **Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration** — Nippon Steel Corporation, 2023-02-09. [원문](https://www.nipponsteel.com/en/news/20230209_100.html) · [[sources/SRC-20260725-0A7903EA|보관 원문·메타데이터]]
+[^src-20260725-38762376]: **JFE Steel to introduce advanced large-scale EAF at Kurashiki** — JFE Steel Corporation, 2025-04-10. [원문](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · [[sources/SRC-20260725-38762376|보관 원문·메타데이터]]
 [^src-20260725-41586a75]: **JFE Steel deploys CPS technology across sintering facilities** — JFE Steel Corporation, 2025-10-07. [원문](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html) · [[sources/SRC-20260725-41586A75|보관 원문·메타데이터]]
+[^src-20260725-46c2dbc8]: **Nippon Steel Kimitsu COURSE50 large-BF preparation status** — Nippon Steel Corporation, 2026-05-29. [원문](https://www.nipponsteel.com/newsroom/stories/technology/20260529_100.html) · [[sources/SRC-20260725-46C2DBC8|보관 원문·메타데이터]]
 [^src-20260725-7e6dfd33]: **JFE technical report on carbon-recycling blast furnace** — JFE Steel Corporation, 2022-09-01. [원문](https://www.jfe-steel.co.jp/en/research/report/028/pdf/028-02.pdf) · [[sources/SRC-20260725-7E6DFD33|보관 원문·메타데이터]]
+[^src-20260725-ded07902]: **METI Green Steel for GX: Kurashiki EAF** — Ministry of Economy, Trade and Industry, Japan, 2025-01-23. [원문](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf) · [[sources/SRC-20260725-DED07902|보관 원문·메타데이터]]
 [^src-20260725-ec77a362]: **JFE Steel 2025 priorities for carbon-neutral technologies** — JFE Steel Corporation, 2025-01-06. [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) · [[sources/SRC-20260725-EC77A362|보관 원문·메타데이터]]
+[^src-20260725-f396d188]: **Nippon Steel FY2025 results: carbon-neutral technology progress** — Nippon Steel Corporation, 2026-06-02. [원문](https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf) · [[sources/SRC-20260725-F396D188|보관 원문·메타데이터]]

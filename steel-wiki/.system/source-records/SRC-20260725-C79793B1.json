@@ -4,7 +4,7 @@
   "url": "https://www.jstage.jst.go.jp/article/matertrans/43/3/43_3_292/_article",
   "canonical_url": "https://www.jstage.jst.go.jp/article/matertrans/43/3/43_3_292/_article",
   "publisher": "The Japan Institute of Metals and Materials",
-  "published_at": null,
+  "published_at": "2002-03-01",
   "collected_at": "2026-07-25",
   "source_type": "academic",
   "language": "en",
@@ -14,5 +14,20 @@
   "raw_path": ".system/raw/SRC-20260725-C79793B1.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Koji Shibata",
+      "Soek-Jong Seo",
+      "Masashi Kaga",
+      "Hiroshi Uchino",
+      "Akio Sasanuma",
+      "Kentaro Asakura",
+      "Chihiro Nagasaki"
+    ],
+    "venue": "Materials Transactions",
+    "doi": "10.2320/matertrans.43.292",
+    "peer_review_status": "peer_reviewed"
+  }
 }

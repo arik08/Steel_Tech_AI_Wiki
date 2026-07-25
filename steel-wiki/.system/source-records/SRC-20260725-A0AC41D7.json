@@ -27,7 +27,12 @@
       "rights_note": "K1-MET 공식 SuS-F 프로젝트 페이지에서 원본 도식과 HPSR process schematic 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "TEC-hydrogen-plasma-smelting-reduction",
+        "COM-voestalpine",
+        "PRJ-SUSTEEL-DONAWITZ"
+      ]
     }
   ]
 }

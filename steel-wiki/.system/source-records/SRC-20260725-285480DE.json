@@ -27,7 +27,11 @@
       "rights_note": "POSCO 공식 기술 소개 페이지에서 원본과 맥락을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "COM-POSCO",
+        "PRJ-POSCO-GWANGYANG-ONE-TOUCH-CONVERTER"
+      ]
     }
   ]
 }

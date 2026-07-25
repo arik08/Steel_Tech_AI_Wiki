@@ -80,6 +80,8 @@ python skills/steel-intelligence/scripts/steel_intel.py add-image steel-wiki `
   --source-id SRC-20260725-A1B2C3D4 `
   --image-url "https://example.com/media/pilot-plant.jpg" `
   --origin-url "https://example.com/update" `
+  --subject-id COM-EXAMPLE-STEEL `
+  --subject-id PRJ-HAMBURG-DRI `
   --caption "Example Steel 수소환원 실증 설비 전경" `
   --alt-text "환원로와 가스 배관이 설치된 실증 설비" `
   --creator "Example Steel" `
@@ -91,6 +93,9 @@ python skills/steel-intelligence/scripts/steel_intel.py add-image steel-wiki `
 복제 권리가 불명확하면 `--rights-status link_only`를 사용한다. 이 경우 파일을
 내려받지 않고 이미지 URL과 원문 링크만 보존한다. AI 도식은 로컬 파일과 함께
 `--kind ai_reconstruction --rights-status ai_generated`로 등록한다.
+회사·기술·프로젝트 페이지에서 이미지 소속을 오인하지 않도록 `--subject-id`를
+반복해 표시가 허용되는 주체를 명시한다. 협력 프로젝트의 이미지는 참여 회사 전체에
+자동 허용하지 않고, 실제 설비 소유·운영 주체가 확인된 회사만 `COM-` 대상으로 넣는다.
 
 예:
 
@@ -105,6 +110,49 @@ python skills/steel-intelligence/scripts/steel_intel.py add-source steel-wiki `
   --language en `
   --reliability primary
 ```
+
+논문이나 학회 자료는 자료 형태와 식별 정보를 함께 등록한다.
+
+```powershell
+python skills/steel-intelligence/scripts/steel_intel.py add-source steel-wiki `
+  --content-file .\incoming\aistech-paper.md `
+  --title "Hydrogen reduction pilot results" `
+  --url "https://doi.org/10.1234/example.2026.001" `
+  --publisher "AIST" `
+  --published-at 2026-05-04 `
+  --source-type academic `
+  --academic-kind conference_paper `
+  --author "A. Researcher" `
+  --author "B. Engineer" `
+  --venue "AISTech 2026 Proceedings" `
+  --doi "10.1234/example.2026.001" `
+  --conference-name "AISTech 2026" `
+  --conference-date 2026-05-04 `
+  --conference-location "Pittsburgh, USA" `
+  --peer-review-status peer_reviewed `
+  --language en `
+  --reliability primary
+```
+
+DOI 랜딩 페이지, 출판사 원문, 학회 공식 프로그램을 우선 확인한다. 초록만 공개된
+경우에는 초록에서 직접 확인되는 범위만 Claim으로 만들고, 학회 발표 자료와 이후
+학술지 논문이 같은 연구인지 DOI·저자·제목·실험 조건으로 교차 확인한다.
+
+기존에 등록된 학술 Source의 원문을 다시 확인해 메타데이터를 보강할 때는 원문을
+재등록하지 않고 `set-academic-metadata`를 사용한다.
+
+```powershell
+python skills/steel-intelligence/scripts/steel_intel.py set-academic-metadata steel-wiki `
+  --source-id SRC-20260725-A1B2C3D4 `
+  --academic-kind journal_article `
+  --author "A. Researcher" `
+  --venue "Journal of Sustainable Metallurgy" `
+  --doi "10.1234/example.2026.001" `
+  --peer-review-status peer_reviewed
+```
+
+이 명령은 `.system/raw/`의 보관 원문을 바꾸지 않고 Source 레코드와 사람용
+출처 페이지의 `학술 정보`만 갱신한다.
 
 ## 3. Reconcile
 

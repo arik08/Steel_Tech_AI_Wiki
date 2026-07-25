@@ -14,8 +14,9 @@
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 2개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 4개 |
     | **실행 단계** | 건설·구축 1건 · 연구·실증 1건 |
-    | **직접 연결 근거** | 4건 |
+    | **직접 연결 근거** | 11건 |
 
 ## 기술 포트폴리오
 
@@ -48,6 +49,149 @@
 
     **다음 확인:** 200 kg/h 연속화의 실제 달성 여부, 연속 투입·출강 시간과 가동률, 아크 안정성·Ar 비율, H₂·전력 원단위, 배가스 회수, 전극·내화물 소비, Fe 증발·철 수율, 광종별 슬래그·P/S 거동, 모델 기반 제어와 2026년 이후 후속 일정을 확인해야 합니다.
 
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]** | 건설 중 [^src-20260725-e316d68f] | **위치** Linz, Austria [^src-20260725-e316d68f] · **시간당 처리능력** 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] · **목표 가동 시점** 2027년 말 [^src-20260725-e316d68f] |
+| **[[projects/PRJ-HYFOR-DONAWITZ-PILOT|HYFOR Donawitz 수소환원 파일럿]]** | 2021년 4월 시운전 후 초기 시험 캠페인을 수행한 HYFOR 수소 미분광 환원 파일럿 [^src-20260725-bc8de092] | **위치** voestalpine Donawitz 제철소, 오스트리아 [^src-20260725-bc8de092] |
+| **[[projects/PRJ-LIGHTBOW-HPSR-CONTROL|LIGHTBOW HPSR 아크 제어 연구]]** | HPSR 연속 투입 중 아크 출력의 모델 기반 제어를 개발하는 FFG 진행 프로젝트 [^src-20260725-973f138f] | - |
+| **[[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]]** | Donawitz SuSteel 시험설비에서 수소 플라즈마 단일단계 조강 생산 시험을 수행 중; 연속화·수소공급·가스회수 연구 단계 [^src-20260725-f2f9bb6e] | **위치** voestalpine Stahl Donawitz, Austria [^src-20260725-a0ac41d7] · **지원·조달 금액** EUR 3,946,740 [^src-20260725-34d63eea] |
+
+## 프로젝트별 상세
+
+??? info "HY4Smelt 실증 프로젝트"
+
+    **프로젝트 문서:** [[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **위치** | Linz, Austria [^src-20260725-e316d68f] |
+    | **적용 원료** | 응집하지 않은 저·중품위 철광석 미분을 중점 검증 [^src-20260725-e316d68f] |
+    | **프로젝트 상태** | 건설 중 [^src-20260725-e316d68f] |
+    | **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고 [^src-20260725-a23b5a64] |
+    | **공개 성과의 한계** | 착공과 설계 처리량은 연속 실증 또는 상업 운전 완료의 증거가 아님 [^src-20260725-e316d68f] |
+    | **목표 가동 시점** | 2027년 말 [^src-20260725-e316d68f] |
+    | **시간당 처리능력** | 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] |
+    | **제품 형태** | 미분 DRI를 전기 Smelter에서 용융해 용융 철 제품을 생산하는 경로 [^src-20260725-e316d68f] |
+    | **참여 기관** | voestalpine, Primetals Technologies, Rio Tinto 및 기타 프로젝트 파트너 [^src-20260725-e316d68f] |
+    | **통합 설비 구성** | HYFOR 수소 미분광 직접환원과 전기 Smelter를 결합한 통합 실증설비 [^src-20260725-e316d68f] |
+    | **착공 시점** | 2025-09-25 [^src-20260725-e316d68f] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-09-25 | 발표·검증 | **위치**: Linz, Austria · **적용 원료**: 응집하지 않은 저·중품위 철광석 미분을 중점 검증 · **프로젝트 상태**: 건설 중 · **공개 성과의 한계**: 착공과 설계 처리량은 연속 실증 또는 상업 운전 완료의 증거가 아님 · **목표 가동 시점**: 2027년 말 · **시간당 처리능력**: 시간당 3톤 (3 tonnes per hour) · **제품 형태**: 미분 DRI를 전기 Smelter에서 용융해 용융 철 제품을 생산하는 경로 · **참여 기관**: voestalpine, Primetals Technologies, Rio Tinto 및 기타 프로젝트 파트너 · **통합 설비 구성**: HYFOR 수소 미분광 직접환원과 전기 Smelter를 결합한 통합 실증설비 · **착공 시점**: 2025-09-25 [^src-20260725-e316d68f] |
+    | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고 [^src-20260725-a23b5a64] |
+    | 2027 | 목표 일정 | **목표 가동 시점**: 2027년 말 [^src-20260725-e316d68f] |
+
+??? info "HYFOR Donawitz 수소환원 파일럿"
+
+    **프로젝트 문서:** [[projects/PRJ-HYFOR-DONAWITZ-PILOT|HYFOR Donawitz 수소환원 파일럿]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **환원가스 조성** | 초기 캠페인에 100% 수소 사용 [^src-20260725-bc8de092] |
+    | **프로젝트 상태** | 2021년 4월 시운전 후 초기 시험 캠페인을 수행한 HYFOR 수소 미분광 환원 파일럿 [^src-20260725-bc8de092] |
+    | **통합 설비 구성** | 예열·산화 장치, 수소 환원 장치, 건식 가스처리, 분진 재순환 계통 [^src-20260725-bc8de092] |
+    | **파일럿 캠페인 계획** | 적철광·자철광 등 여러 농축분으로 최소 2년간 캠페인 계획 [^src-20260725-bc8de092] |
+    | **제품 형태** | 약 600°C의 고온 DRI 미분 [^src-20260725-bc8de092] |
+    | **건조·예열·산화** | 농축분을 약 900°C로 예열한 뒤 수소 환원 [^src-20260725-bc8de092] |
+    | **가동·시운전 확인 시점** | 2021-04 [^src-20260725-bc8de092] |
+    | **파일럿 회분 투입량** | 시험 회당 약 800 kg 철광석 [^src-20260725-bc8de092] |
+    | **후단 제품 처리** | 고온 브리켓 시험과 EAF 고온 DRI 이송 또는 HBI 생산을 후단 선택지로 제시 [^src-20260725-bc8de092] |
+    | **공개 성과의 한계** | 초기 회분 시험은 광종별 장기 금속화율·수소원단위·고착·가동률을 입증하지 않음 [^src-20260725-bc8de092] |
+    | **최초 시험 캠페인** | 2021-04~2021-05 [^src-20260725-bc8de092] |
+    | **위치** | voestalpine Donawitz 제철소, 오스트리아 [^src-20260725-bc8de092] |
+    | **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; 공식 기술 페이지의 현재 설비 참고 [^src-20260725-a23b5a64] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2021-04 | 실증 이력 | **최초 시험 캠페인**: 2021-04~2021-05 [^src-20260725-bc8de092] |
+    | 2021-04 | 실행 일정 | **가동·시운전 확인 시점**: 2021-04 [^src-20260725-bc8de092] |
+    | 2021-06-24 | 발표·검증 | **환원가스 조성**: 초기 캠페인에 100% 수소 사용 · **프로젝트 상태**: 2021년 4월 시운전 후 초기 시험 캠페인을 수행한 HYFOR 수소 미분광 환원 파일럿 · **통합 설비 구성**: 예열·산화 장치, 수소 환원 장치, 건식 가스처리, 분진 재순환 계통 · **파일럿 캠페인 계획**: 적철광·자철광 등 여러 농축분으로 최소 2년간 캠페인 계획 · **제품 형태**: 약 600°C의 고온 DRI 미분 · **건조·예열·산화**: 농축분을 약 900°C로 예열한 뒤 수소 환원 · **가동·시운전 확인 시점**: 2021-04 · **파일럿 회분 투입량**: 시험 회당 약 800 kg 철광석 · **후단 제품 처리**: 고온 브리켓 시험과 EAF 고온 DRI 이송 또는 HBI 생산을 후단 선택지로 제시 · **공개 성과의 한계**: 초기 회분 시험은 광종별 장기 금속화율·수소원단위·고착·가동률을 입증하지 않음 · **최초 시험 캠페인**: 2021-04~2021-05 · **위치**: voestalpine Donawitz 제철소, 오스트리아 [^src-20260725-bc8de092] |
+    | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; 공식 기술 페이지의 현재 설비 참고 [^src-20260725-a23b5a64] |
+
+??? info "LIGHTBOW HPSR 아크 제어 연구"
+
+    **프로젝트 문서:** [[projects/PRJ-LIGHTBOW-HPSR-CONTROL|LIGHTBOW HPSR 아크 제어 연구]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **참여 기관** | K1-MET, Universität Linz, Pirhofer Automation, voestalpine Stahl, voestalpine Stahl Donawitz [^src-20260725-973f138f] |
+    | **대표 설비 참고** | K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; LIGHTBOW 전용 준공도는 아님 [^src-20260725-a0ac41d7] |
+    | **프로젝트 상태** | HPSR 연속 투입 중 아크 출력의 모델 기반 제어를 개발하는 FFG 진행 프로젝트 [^src-20260725-973f138f] |
+    | **목표 준공 시점** | 2026-12-31 [^src-20260725-973f138f] |
+    | **공개 성과의 한계** | 프로젝트 목표는 제어모델 개발이며 연속 제강 성능 달성의 증거가 아님 [^src-20260725-973f138f] |
+    | **플라즈마 아크 구성** | Ar-H2-미분광을 중공 전극으로 공급하고 전극-용융욕 사이 직류 아크를 형성 [^src-20260725-973f138f] |
+    | **장입·전력 제어** | 연속 수소·광석 공급 중 정밀 아크 출력 제어가 미해결 과제 [^src-20260725-973f138f] |
+    | **모델 계층** | 실험과 수치 시뮬레이션으로 제어전략에 통합할 아크 모델 개발 [^src-20260725-973f138f] |
+    | **프로젝트 착수 시점** | 2024-07-01 [^src-20260725-973f138f] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2024-07-01 | 착수 | **프로젝트 착수 시점**: 2024-07-01 [^src-20260725-973f138f] |
+    | 2026-07-25 | 수집 확인 | **대표 설비 참고**: K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; LIGHTBOW 전용 준공도는 아님 [^src-20260725-a0ac41d7] |
+    | 2026-07-25 | 수집 확인 | **참여 기관**: K1-MET, Universität Linz, Pirhofer Automation, voestalpine Stahl, voestalpine Stahl Donawitz · **프로젝트 상태**: HPSR 연속 투입 중 아크 출력의 모델 기반 제어를 개발하는 FFG 진행 프로젝트 · **목표 준공 시점**: 2026-12-31 · **공개 성과의 한계**: 프로젝트 목표는 제어모델 개발이며 연속 제강 성능 달성의 증거가 아님 · **플라즈마 아크 구성**: Ar-H2-미분광을 중공 전극으로 공급하고 전극-용융욕 사이 직류 아크를 형성 · **장입·전력 제어**: 연속 수소·광석 공급 중 정밀 아크 출력 제어가 미해결 과제 · **모델 계층**: 실험과 수치 시뮬레이션으로 제어전략에 통합할 아크 모델 개발 · **프로젝트 착수 시점**: 2024-07-01 [^src-20260725-973f138f] |
+    | 2026-12-31 | 목표 일정 | **목표 준공 시점**: 2026-12-31 [^src-20260725-973f138f] |
+
+??? info "voestalpine Donawitz SuSteel·SuS-F"
+
+    **프로젝트 문서:** [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **대표 설비 참고** | K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; 실제 배관계장도나 준공도는 아님 [^src-20260725-a0ac41d7] |
+    | **프로젝트 착수 시점** | 2016-09-01 [^src-20260725-2fa1b498] |
+    | **위치** | voestalpine Stahl Donawitz, Austria [^src-20260725-a0ac41d7] |
+    | **총 프로젝트 규모** | EUR 6,770,925 [^src-20260725-34d63eea] |
+    | **파일럿 운전 개시** | 2021 [^src-20260725-f2f9bb6e] |
+    | **참여 기관** | voestalpine Stahl, voestalpine Stahl Donawitz, K1-MET, Montanuniversitaet Leoben, Pirhofer Automation, WIVA P&G [^src-20260725-34d63eea] |
+    | **목표 기술성숙도** | TRL 7 시스템 프로토타입 운전환경 실증 목표 [^src-20260725-a0ac41d7] |
+    | **현재 공식 종료 시점** | 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정 [^src-20260725-34d63eea] |
+    | **파일럿 회분 투입량** | 2025 논문이 기술한 기존 실증 설비 광석 용량 200 kg/trial [^src-20260725-1f1ea152] |
+    | **용융욕·회분 용량** | 약 100 g 실험실 규모에서 약 90 kg 용융 파일럿으로 확대 [^src-20260725-2fa1b498] |
+    | **후속 프로젝트 착수** | 2022-10-01 SuS-F 착수 [^src-20260725-34d63eea] |
+    | **연속화 목표 처리량** | SuS-F 확대 목표 200 kg ore/h 완전 연속 운전 [^src-20260725-1f1ea152] |
+    | **수증기 회수·재전해** | 배가스 수증기 응축수의 수전해 재이용 개념 개발 목표 [^src-20260725-a0ac41d7] |
+    | **중간 후속단계 종료** | 2023-06 초기 후속 연구 종료 [^src-20260725-2fa1b498] |
+    | **시험 원료 공급률** | 공개 2024 캠페인에서 미분광 100~200 g/min 연속 투입 [^src-20260725-ee8a09ef] |
+    | **공개 성과의 한계** | 시험설비 운전과 목표 처리량은 200 kg/h 장기 연속 생산·가동률·상용 경제성을 입증하지 않음 [^src-20260725-f2f9bb6e] |
+    | **기존 목표 종료 시점** | 2025-09-30 K1-MET 페이지의 기존 SuS-F 종료 일정 [^src-20260725-a0ac41d7] |
+    | **프로젝트 상태** | Donawitz SuSteel 시험설비에서 수소 플라즈마 단일단계 조강 생산 시험을 수행 중; 연속화·수소공급·가스회수 연구 단계 [^src-20260725-f2f9bb6e] |
+    | **성과 측정 지표** | 2025/26 중점 연구는 수소 공급 확보와 가스 회수 개선 [^src-20260725-f2f9bb6e] |
+    | **경제성 평가** | SuSteel 관련 2025/26 R&D 비용 EUR 0.86 million; 전년 EUR 0.89 million [^src-20260725-f2f9bb6e] |
+    | **운전 방식** | 초기 배치에서 미분광 연속공급·저탄소강 반연속 출강으로 전환 목표 [^src-20260725-a0ac41d7] |
+    | **기술성숙도** | 2025 Processes 논문 저자 평가 TRL 5 [^src-20260725-1f1ea152] |
+    | **배가스 현열·수소 회수** | 배가스 미반응 수소와 현열을 사전환원·예열에 재이용하는 확대안 [^src-20260725-1f1ea152] |
+    | **단계 완료 시점** | 2020-02-29 최초 SuSteel 단계 종료 [^src-20260725-2fa1b498] |
+    | **지원·조달 금액** | EUR 3,946,740 [^src-20260725-34d63eea] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2016-09-01 | 착수 | **프로젝트 착수 시점**: 2016-09-01 [^src-20260725-2fa1b498] |
+    | 2020-02-29 | 단계 완료 | **단계 완료 시점**: 2020-02-29 최초 SuSteel 단계 종료 [^src-20260725-2fa1b498] |
+    | 2021 | 실증 이력 | **파일럿 운전 개시**: 2021 [^src-20260725-f2f9bb6e] |
+    | 2022-10-01 | 후속 단계 | **후속 프로젝트 착수**: 2022-10-01 SuS-F 착수 [^src-20260725-34d63eea] |
+    | 2023-06 | 후속 단계 | **중간 후속단계 종료**: 2023-06 초기 후속 연구 종료 [^src-20260725-2fa1b498] |
+    | 2024-05-15 | 발표·검증 | **시험 원료 공급률**: 공개 2024 캠페인에서 미분광 100~200 g/min 연속 투입 [^src-20260725-ee8a09ef] |
+    | 2025-02-05 | 발표·검증 | **파일럿 회분 투입량**: 2025 논문이 기술한 기존 실증 설비 광석 용량 200 kg/trial · **연속화 목표 처리량**: SuS-F 확대 목표 200 kg ore/h 완전 연속 운전 · **기술성숙도**: 2025 Processes 논문 저자 평가 TRL 5 · **배가스 현열·수소 회수**: 배가스 미반응 수소와 현열을 사전환원·예열에 재이용하는 확대안 [^src-20260725-1f1ea152] |
+    | 2025-09-30 | 기존 목표 | **기존 목표 종료 시점**: 2025-09-30 K1-MET 페이지의 기존 SuS-F 종료 일정 [^src-20260725-a0ac41d7] |
+    | 2026-06-04 | 발표·검증 | **파일럿 운전 개시**: 2021 · **공개 성과의 한계**: 시험설비 운전과 목표 처리량은 200 kg/h 장기 연속 생산·가동률·상용 경제성을 입증하지 않음 · **프로젝트 상태**: Donawitz SuSteel 시험설비에서 수소 플라즈마 단일단계 조강 생산 시험을 수행 중; 연속화·수소공급·가스회수 연구 단계 · **성과 측정 지표**: 2025/26 중점 연구는 수소 공급 확보와 가스 회수 개선 · **경제성 평가**: SuSteel 관련 2025/26 R&D 비용 EUR 0.86 million; 전년 EUR 0.89 million [^src-20260725-f2f9bb6e] |
+    | 2026-07-25 | 수집 확인 | **대표 설비 참고**: K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; 실제 배관계장도나 준공도는 아님 · **위치**: voestalpine Stahl Donawitz, Austria · **목표 기술성숙도**: TRL 7 시스템 프로토타입 운전환경 실증 목표 · **수증기 회수·재전해**: 배가스 수증기 응축수의 수전해 재이용 개념 개발 목표 · **기존 목표 종료 시점**: 2025-09-30 K1-MET 페이지의 기존 SuS-F 종료 일정 · **운전 방식**: 초기 배치에서 미분광 연속공급·저탄소강 반연속 출강으로 전환 목표 [^src-20260725-a0ac41d7] |
+    | 2026-07-25 | 수집 확인 | **총 프로젝트 규모**: EUR 6,770,925 · **참여 기관**: voestalpine Stahl, voestalpine Stahl Donawitz, K1-MET, Montanuniversitaet Leoben, Pirhofer Automation, WIVA P&G · **현재 공식 종료 시점**: 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정 · **후속 프로젝트 착수**: 2022-10-01 SuS-F 착수 · **지원·조달 금액**: EUR 3,946,740 [^src-20260725-34d63eea] |
+    | 2026-07-25 | 수집 확인 | **프로젝트 착수 시점**: 2016-09-01 · **용융욕·회분 용량**: 약 100 g 실험실 규모에서 약 90 kg 용융 파일럿으로 확대 · **중간 후속단계 종료**: 2023-06 초기 후속 연구 종료 · **단계 완료 시점**: 2020-02-29 최초 SuSteel 단계 종료 [^src-20260725-2fa1b498] |
+    | 2026-09-30 | 현재 공식 일정 | **현재 공식 종료 시점**: 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정 [^src-20260725-34d63eea] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
@@ -60,12 +204,26 @@
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-1F1EA152|Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction]] | Processes / MDPI · 2025-02-05 | [원문 보기](https://www.k1-met.com/fileadmin/user_upload/Publications/Adami_2025_-_Strategic_selection_of_a_pre-reduction_reactor_for_increased_hydrogen_utilization_in_hydrogen_plasma_smelting_reduction.pdf) |
+| [[sources/SRC-20260725-2FA1B498|Project SuSteel: Sustainable steel production utilising hydrogen]] | K1-MET GmbH · 게시일 미상 | [원문 보기](https://www.k1-met.com/en/non_comet/susteel) |
+| [[sources/SRC-20260725-34D63EEA|SUS-F Sustainable Steelmaking Follow Up]] | Austrian Climate and Energy Fund · 게시일 미상 | [원문 보기](https://www.klimafonds.gv.at/projekt/sus-f/) |
+| [[sources/SRC-20260725-973F138F|LIGHTBOW: Model-based control in metallurgical arc-plasma processes]] | Austrian Research Promotion Agency (FFG) · 게시일 미상 | [원문 보기](https://projekte.ffg.at/projekt/5122268) |
 | [[sources/SRC-20260725-A0AC41D7|Project SuS-F: SuSteel follow-up]] | K1-MET GmbH · 게시일 미상 | [원문 보기](https://www.k1-met.com/en/non_comet/sus_f) |
+| [[sources/SRC-20260725-A23B5A64|HYFOR: Hydrogen-Based Fine-Ore Reduction]] | Primetals Technologies · 게시일 미상 | [원문 보기](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) |
+| [[sources/SRC-20260725-BC8DE092|HYFOR Pilot Plant Under Operation]] | Primetals Technologies · 2021-06-24 | [원문 보기](https://www.primetals.com/en/news/hyfor-pilot-plant-under-operation-the-next-step-for-carbon-free-hydrogen-based-direct-reduction-is-done/) |
 | [[sources/SRC-20260725-E316D68F|Construction begins on HYFOR and Smelter demonstration plant]] | Primetals Technologies · 2025-09-25 | [원문 보기](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) |
+| [[sources/SRC-20260725-EE8A09EF|The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements]] | Steel Research International / Wiley · 2024-05-15 | [원문 보기](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/Pauna_et_al__2024__Optical_spectra_HPSR_StResInt.pdf) |
 | [[sources/SRC-20260725-F2F9BB6E|Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz]] | voestalpine AG · 2026-06-04 | [원문 보기](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) |
 | [[sources/SRC-20260725-FE22DEFE|voestalpine researches hydrogen plasma steelmaking in SuSteel]] | voestalpine · 2022-04-27 | [원문 보기](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/) |
 
+[^src-20260725-1f1ea152]: **Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction** — Processes / MDPI, 2025-02-05. DOI: [10.3390/pr13020420](https://doi.org/10.3390/pr13020420). [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Adami_2025_-_Strategic_selection_of_a_pre-reduction_reactor_for_increased_hydrogen_utilization_in_hydrogen_plasma_smelting_reduction.pdf) · [[sources/SRC-20260725-1F1EA152|보관 원문·메타데이터]]
+[^src-20260725-2fa1b498]: **Project SuSteel: Sustainable steel production utilising hydrogen** — K1-MET GmbH, 게시일 미상. [원문](https://www.k1-met.com/en/non_comet/susteel) · [[sources/SRC-20260725-2FA1B498|보관 원문·메타데이터]]
+[^src-20260725-34d63eea]: **SUS-F Sustainable Steelmaking Follow Up** — Austrian Climate and Energy Fund, 게시일 미상. [원문](https://www.klimafonds.gv.at/projekt/sus-f/) · [[sources/SRC-20260725-34D63EEA|보관 원문·메타데이터]]
+[^src-20260725-973f138f]: **LIGHTBOW: Model-based control in metallurgical arc-plasma processes** — Austrian Research Promotion Agency (FFG), 게시일 미상. [원문](https://projekte.ffg.at/projekt/5122268) · [[sources/SRC-20260725-973F138F|보관 원문·메타데이터]]
 [^src-20260725-a0ac41d7]: **Project SuS-F: SuSteel follow-up** — K1-MET GmbH, 게시일 미상. [원문](https://www.k1-met.com/en/non_comet/sus_f) · [[sources/SRC-20260725-A0AC41D7|보관 원문·메타데이터]]
+[^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
+[^src-20260725-bc8de092]: **HYFOR Pilot Plant Under Operation** — Primetals Technologies, 2021-06-24. [원문](https://www.primetals.com/en/news/hyfor-pilot-plant-under-operation-the-next-step-for-carbon-free-hydrogen-based-direct-reduction-is-done/) · [[sources/SRC-20260725-BC8DE092|보관 원문·메타데이터]]
 [^src-20260725-e316d68f]: **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
+[^src-20260725-ee8a09ef]: **The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements** — Steel Research International / Wiley, 2024-05-15. DOI: [10.1002/srin.202400028](https://doi.org/10.1002/srin.202400028). [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/Pauna_et_al__2024__Optical_spectra_HPSR_StResInt.pdf) · [[sources/SRC-20260725-EE8A09EF|보관 원문·메타데이터]]
 [^src-20260725-f2f9bb6e]: **Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz** — voestalpine AG, 2026-06-04. [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) · [[sources/SRC-20260725-F2F9BB6E|보관 원문·메타데이터]]
 [^src-20260725-fe22defe]: **voestalpine researches hydrogen plasma steelmaking in SuSteel** — voestalpine, 2022-04-27. [원문](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/) · [[sources/SRC-20260725-FE22DEFE|보관 원문·메타데이터]]

@@ -4,17 +4,24 @@
 
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
+
+![해안 제철소의 대형 전기로에 스크랩과 환원철·용선이 투입되고 정련과 주조로 연결되는 개념 구성](../assets/media/SRC-20260725-61382798/MED-59A319A168AC.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+
+*대표 이미지 — Dunkirk 대형 EAF의 스크랩·HBI/DRI·용선 혼합, 배가스 처리와 후단 정련 경로 AI 재구성. 실제 Dunkirk 준공도가 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-61382798|SRC-20260725-61382798]] · [원문 페이지](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-confirms-the-construction-of-an-electric-arc-furnace-in-dunkirk-france-a-13-billion-investment-supporting-an-important-step-in-its-decarbonisation))*
+
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 5개 / 감시 기술 11개 |
-    | **실행 단계** | 중단·연기 신호 1건 · 계획·투자 2건 · 연구·실증 2건 |
-    | **직접 연결 근거** | 5건 |
+    | **연결 프로젝트** | 3개 |
+    | **실행 단계** | 중단·연기 신호 1건 · 계획·투자 2건 · 연구·실증 1건 · 건설·구축 1건 |
+    | **직접 연결 근거** | 8건 |
 
 !!! warning "주의해서 볼 항목"
 
     - **수소 직접환원철 (Hydrogen DRI):** Bremen·Eisenhüttenstadt DRI-EAF 계획은 2025-06-19 기준 진행 불가; 유럽에서는 EAF 우선의 단계적 접근 [^src-20260725-395d8a82]
+    - **저온 수계 전해제철 (Aqueous Iron Electrolysis):** Volteron 저온 직접 전해를 공식 설명 기준 TRL 6 R&D 설비까지 확대했으나 4만~8만 t/y 산업 1단계의 착공·가동은 미확인 [^src-20260725-fbe26310]
 
 ## 기술 포트폴리오
 
@@ -26,7 +33,7 @@
 | **[[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]]** | Boston Metal MOE에 $36m 전략 투자; 자체 상용 설비가 아닌 외부 기술 투자 단계 [^src-20260725-9d378e7f] | **계획·투자** |
 | **[[technologies/TEC-blast-furnace-ccus|고로 CCUS]]** | Ghent에서 EUR 200 million Steelanol CCU 설비를 2022년 개소해 제철 부생가스를 연 80 million L 에탄올로 전환하는 경로를 실증; 영구저장 CCS와는 구분 [^src-20260725-b6fb82e5] | **연구·실증** |
 | **[[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]]** | Dunkirk 2 Mtpa EAF 건설 확정, €1.3bn 투자, 2029 가동 목표; scrap·HBI/DRI·hot metal 혼합 투입 [^src-20260725-61382798] | **계획·투자** |
-| **[[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]]** | Volteron 저온 직접 전해 공정의 파일럿 철판 생산 확인 후 산업 규모 설비 개발 계획 단계 [^src-20260725-a6716adb] | **연구·실증** |
+| **[[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]]** | Volteron 저온 직접 전해를 공식 설명 기준 TRL 6 R&D 설비까지 확대했으나 4만~8만 t/y 산업 1단계의 착공·가동은 미확인 [^src-20260725-fbe26310] | **건설·구축** |
 
 ## 기술별 근거와 확인 과제
 
@@ -70,36 +77,155 @@
 
     **다음 확인:** 발표·MOU와 FID·착공·준공·램프업을 분리하고, 철광석 품위와 스크랩 추가성, 실제 수소 비율, 전력 탄소집약도, CO2 영구저장량, 제품별 Scope 1·2·상류 Scope 3 및 제3자 검증 출하량을 같은 기준으로 확인해야 합니다.
 
-??? info "저온 수계 전해제철 (Aqueous Iron Electrolysis) · 연구·실증"
+??? info "저온 수계 전해제철 (Aqueous Iron Electrolysis) · 건설·구축"
 
-    **확인된 사실:** Volteron 저온 직접 전해 공정의 파일럿 철판 생산 확인 후 산업 규모 설비 개발 계획 단계 [^src-20260725-a6716adb]
+    **확인된 사실:** Volteron 저온 직접 전해를 공식 설명 기준 TRL 6 R&D 설비까지 확대했으나 4만~8만 t/y 산업 1단계의 착공·가동은 미확인 [^src-20260725-fbe26310]
 
-    **판단 기준:** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
+    **판단 기준:** 설비 투자가 물리적 실행 단계에 들어갔습니다. 준공 일정, 공사비 변동과 시운전 결과가 다음 판단 기준입니다.
 
-    **확인 날짜:** 발표 2023-06-14 · 검증 2026-07-25
+    **확인 날짜:** 발표 미상 · 검증 2026-07-25
 
     **다음 확인:** 전력원단위·전류효율, 산·알칼리·공정수 회수율, 광종별 철 회수와 불순물 거동, 막·전극 수명, 스택 가동률, 전착 철판 자동 회수, 500 tpy 실제 월간 생산량과 EAF 장입 시험, 다음 규모 투자 결정을 확인해야 합니다.
+
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-ARCELORMITTAL-DUNKIRK-EAF|ArcelorMittal Dunkirk 대형 전기로]]** | 2026-02-10 200만 t/y 전기로 건설을 확정한 투자 실행 단계; 실제 착공·설비 설치·가동은 후속 확인 필요 [^src-20260725-61382798] | **기술 경로** 스크랩·HBI/DRI·용선을 혼합 투입하는 대형 EAF 제강 경로 [^src-20260725-61382798] · **위치** Dunkirk, France [^src-20260725-61382798] · **연간 생산능력** 연간 2,000,000톤 조강 [^src-20260725-61382798] · **투자비** EUR 1.3 billion [^src-20260725-61382798] · **지원·조달 금액** 프랑스 에너지절감인증서 지원이 EUR 1.3 billion 투자비의 50%를 담당할 예정 [^src-20260725-61382798] · **목표 시운전 시점** 2029년 가동 목표 [^src-20260725-61382798] |
+| **[[projects/PRJ-ARCELORMITTAL-VOLTERON|ArcelorMittal–John Cockerill Volteron]]** | 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 [^src-20260725-fbe26310] | **기술 경로** 철광석·물·수산화나트륨 전해질을 약 110°C에서 전해해 철판을 직접 생산한 뒤 EAF 제강으로 연결 [^src-20260725-fbe26310] · **연간 생산능력** 2023년 발표한 산업 1단계 목표 40,000~80,000 t/y [^src-20260725-a6716adb] · **목표 가동 시점** 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 [^src-20260725-a6716adb] |
+| **[[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]]** | 2022-12-08 CCU 플랜트 준공·개소가 확인됐으며, 고로계 탄소함유 부생가스를 바이오촉매로 에탄올화하는 산업 실증 설비 [^src-20260725-b6fb82e5] | **기술 경로** 제철 부생가스·폐바이오매스 가스 → 전처리 → LanzaTech 바이오촉매 발효 → advanced ethanol [^src-20260725-b6fb82e5] · **위치** ArcelorMittal Ghent, Belgium [^src-20260725-b6fb82e5] · **연간 제품 생산능력** 연 80 million litres advanced ethanol, full-capacity nameplate [^src-20260725-b6fb82e5] · **투자비** EUR 200 million [^src-20260725-b6fb82e5] · **상업 가동 시점** 2023-11-07 첫 산업 규모 에탄올 생산 [^src-20260725-624e124c] |
+
+## 프로젝트별 상세
+
+??? info "ArcelorMittal Dunkirk 대형 전기로"
+
+    **프로젝트 문서:** [[projects/PRJ-ARCELORMITTAL-DUNKIRK-EAF|ArcelorMittal Dunkirk 대형 전기로]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **기술 경로** | 스크랩·HBI/DRI·용선을 혼합 투입하는 대형 EAF 제강 경로 [^src-20260725-61382798] |
+    | **위치** | Dunkirk, France [^src-20260725-61382798] |
+    | **지원·조달 금액** | 프랑스 에너지절감인증서 지원이 EUR 1.3 billion 투자비의 50%를 담당할 예정 [^src-20260725-61382798] |
+    | **제품 단위 배출** | 회사 추정 0.6 tCO2/t-steel로 고로 비교 대비 약 3분의 1 [^src-20260725-61382798] |
+    | **목표 시운전 시점** | 2029년 가동 목표 [^src-20260725-61382798] |
+    | **일정·의사결정 변경** | 2025년 유럽 탈탄소 프로젝트 연기 국면의 조건부 투자 의향에서 2026년 EUR 1.3 billion 건설 확정으로 전환 [^src-20260725-3b0845ff] |
+    | **프로젝트 상태** | 2026-02-10 200만 t/y 전기로 건설을 확정한 투자 실행 단계; 실제 착공·설비 설치·가동은 후속 확인 필요 [^src-20260725-61382798] |
+    | **연간 생산능력** | 연간 2,000,000톤 조강 [^src-20260725-61382798] |
+    | **투자비** | EUR 1.3 billion [^src-20260725-61382798] |
+    | **투자 의향 발표 시점** | 2025-05-15 약 EUR 1.2 billion 투자 의향 발표 [^src-20260725-3b0845ff] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025 | 일정·의사결정 변화 | **일정·의사결정 변경**: 2025년 유럽 탈탄소 프로젝트 연기 국면의 조건부 투자 의향에서 2026년 EUR 1.3 billion 건설 확정으로 전환 [^src-20260725-3b0845ff] |
+    | 2025-05-15 | 발표·검증 | **일정·의사결정 변경**: 2025년 유럽 탈탄소 프로젝트 연기 국면의 조건부 투자 의향에서 2026년 EUR 1.3 billion 건설 확정으로 전환 · **투자 의향 발표 시점**: 2025-05-15 약 EUR 1.2 billion 투자 의향 발표 [^src-20260725-3b0845ff] |
+    | 2025-05-15 | 투자 의향 발표 | **투자 의향 발표 시점**: 2025-05-15 약 EUR 1.2 billion 투자 의향 발표 [^src-20260725-3b0845ff] |
+    | 2026-02-10 | 발표·검증 | **기술 경로**: 스크랩·HBI/DRI·용선을 혼합 투입하는 대형 EAF 제강 경로 · **위치**: Dunkirk, France · **지원·조달 금액**: 프랑스 에너지절감인증서 지원이 EUR 1.3 billion 투자비의 50%를 담당할 예정 · **제품 단위 배출**: 회사 추정 0.6 tCO2/t-steel로 고로 비교 대비 약 3분의 1 · **목표 시운전 시점**: 2029년 가동 목표 · **프로젝트 상태**: 2026-02-10 200만 t/y 전기로 건설을 확정한 투자 실행 단계; 실제 착공·설비 설치·가동은 후속 확인 필요 · **연간 생산능력**: 연간 2,000,000톤 조강 · **투자비**: EUR 1.3 billion [^src-20260725-61382798] |
+    | 2029 | 목표 일정 | **목표 시운전 시점**: 2029년 가동 목표 [^src-20260725-61382798] |
+
+??? info "ArcelorMittal–John Cockerill Volteron"
+
+    **프로젝트 문서:** [[projects/PRJ-ARCELORMITTAL-VOLTERON|ArcelorMittal–John Cockerill Volteron]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **확대 검증 계획** | 1단계 검증 후 연간 300,000~1,000,000톤으로 확대 의향 [^src-20260725-a6716adb] |
+    | **기술 경로** | 철광석·물·수산화나트륨 전해질을 약 110°C에서 전해해 철판을 직접 생산한 뒤 EAF 제강으로 연결 [^src-20260725-fbe26310] |
+    | **목표 가동 시점** | 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 [^src-20260725-a6716adb] |
+    | **제품 형태** | 약 1 m² 면적·5 mm 두께의 순철 판재를 R&D 설비에서 생산 [^src-20260725-fbe26310] |
+    | **운전 온도** | 최대 약 110°C [^src-20260725-fbe26310] |
+    | **기술성숙도** | ArcelorMittal 공식 설명 기준 TRL 1에서 TRL 6까지 진전 [^src-20260725-fbe26310] |
+    | **연간 생산능력** | 2023년 발표한 산업 1단계 목표 40,000~80,000 t/y [^src-20260725-a6716adb] |
+    | **참여 기관** | ArcelorMittal과 John Cockerill; 전신 SIDERWIN은 EU Horizon 2020 컨소시엄 [^src-20260725-a6716adb] |
+    | **공개 성과의 한계** | 전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족 [^src-20260725-fbe26310] |
+    | **설비 구성** | 저온 수계 전해 셀과 1 m² 철판 생산 규모 R&D 설비 [^src-20260725-fbe26310] |
+    | **프로젝트 상태** | 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 [^src-20260725-fbe26310] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2023 | 목표 일정 | **목표 가동 시점**: 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 [^src-20260725-a6716adb] |
+    | 2023-06-14 | 발표·검증 | **확대 검증 계획**: 1단계 검증 후 연간 300,000~1,000,000톤으로 확대 의향 · **목표 가동 시점**: 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 · **연간 생산능력**: 2023년 발표한 산업 1단계 목표 40,000~80,000 t/y · **참여 기관**: ArcelorMittal과 John Cockerill; 전신 SIDERWIN은 EU Horizon 2020 컨소시엄 [^src-20260725-a6716adb] |
+    | 2026-07-25 | 수집 확인 | **기술 경로**: 철광석·물·수산화나트륨 전해질을 약 110°C에서 전해해 철판을 직접 생산한 뒤 EAF 제강으로 연결 · **제품 형태**: 약 1 m² 면적·5 mm 두께의 순철 판재를 R&D 설비에서 생산 · **운전 온도**: 최대 약 110°C · **기술성숙도**: ArcelorMittal 공식 설명 기준 TRL 1에서 TRL 6까지 진전 · **공개 성과의 한계**: 전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족 · **설비 구성**: 저온 수계 전해 셀과 1 m² 철판 생산 규모 R&D 설비 · **프로젝트 상태**: 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 [^src-20260725-fbe26310] |
+
+??? info "ArcelorMittal Ghent Steelanol"
+
+    **프로젝트 문서:** [[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **참여 기관** | ArcelorMittal, LanzaTech, Primetals Technologies, E4tech [^src-20260725-b6fb82e5] |
+    | **기술 경로** | 제철 부생가스·폐바이오매스 가스 → 전처리 → LanzaTech 바이오촉매 발효 → advanced ethanol [^src-20260725-b6fb82e5] |
+    | **제품 단위 배출** | ArcelorMittal 주장 기준 full-capacity에서 Ghent 연간 배출 125,000톤 감축; 독립 전과정 검증값은 별도 확인 필요 [^src-20260725-b6fb82e5] |
+    | **프로젝트 상태** | 2022-12-08 CCU 플랜트 준공·개소가 확인됐으며, 고로계 탄소함유 부생가스를 바이오촉매로 에탄올화하는 산업 실증 설비 [^src-20260725-b6fb82e5] |
+    | **연간 제품 생산능력** | 연 80 million litres advanced ethanol, full-capacity nameplate [^src-20260725-b6fb82e5] |
+    | **프로젝트 착수 시점** | 2015년부터 공정 개념·온실가스 효과 평가 협력 [^src-20260725-b6fb82e5] |
+    | **가동·시운전 확인 시점** | 2022-12-08 [^src-20260725-b6fb82e5] |
+    | **위치** | ArcelorMittal Ghent, Belgium [^src-20260725-b6fb82e5] |
+    | **투자비** | EUR 200 million [^src-20260725-b6fb82e5] |
+    | **배출 경계** | CO2 영구저장이 아니라 탄소를 에탄올에 전환하는 CCU이므로 제품 사용·대체재·추가 에너지까지 포함한 전과정 회계가 필요 [^src-20260725-b6fb82e5] |
+    | **상업 가동 시점** | 2023-11-07 첫 산업 규모 에탄올 생산 [^src-20260725-624e124c] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2015 | 착수 | **프로젝트 착수 시점**: 2015년부터 공정 개념·온실가스 효과 평가 협력 [^src-20260725-b6fb82e5] |
+    | 2022-12-08 | 발표·검증 | **참여 기관**: ArcelorMittal, LanzaTech, Primetals Technologies, E4tech · **기술 경로**: 제철 부생가스·폐바이오매스 가스 → 전처리 → LanzaTech 바이오촉매 발효 → advanced ethanol · **제품 단위 배출**: ArcelorMittal 주장 기준 full-capacity에서 Ghent 연간 배출 125,000톤 감축; 독립 전과정 검증값은 별도 확인 필요 · **프로젝트 상태**: 2022-12-08 CCU 플랜트 준공·개소가 확인됐으며, 고로계 탄소함유 부생가스를 바이오촉매로 에탄올화하는 산업 실증 설비 · **연간 제품 생산능력**: 연 80 million litres advanced ethanol, full-capacity nameplate · **프로젝트 착수 시점**: 2015년부터 공정 개념·온실가스 효과 평가 협력 · **가동·시운전 확인 시점**: 2022-12-08 · **위치**: ArcelorMittal Ghent, Belgium · **투자비**: EUR 200 million · **배출 경계**: CO2 영구저장이 아니라 탄소를 에탄올에 전환하는 CCU이므로 제품 사용·대체재·추가 에너지까지 포함한 전과정 회계가 필요 [^src-20260725-b6fb82e5] |
+    | 2023-11-07 | 실행 일정 | **상업 가동 시점**: 2023-11-07 첫 산업 규모 에탄올 생산 [^src-20260725-624e124c] |
+    | 2023-11-16 | 발표·검증 | **상업 가동 시점**: 2023-11-07 첫 산업 규모 에탄올 생산 [^src-20260725-624e124c] |
 
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
 
     - 확인된 사실만으로 기술 경쟁력을 단일 순위로 평가하지 않았습니다. 실증 규모, 상용 운전, 원료·에너지 조건이 서로 다르기 때문입니다.
-    - 현재 자료의 실행 단계 분포는 중단·연기 신호 1건 · 계획·투자 2건 · 연구·실증 2건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
+    - 현재 자료의 실행 단계 분포는 중단·연기 신호 1건 · 계획·투자 2건 · 연구·실증 1건 · 건설·구축 1건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
     - 다음 갱신에서는 목표치보다 착공·준공·누적 생산량·가동률·제품 단위 배출량처럼 실행을 입증하는 지표를 우선 확인하는 것이 좋습니다.
+
+??? note "변경 이력"
+
+    - **aqueous iron electrolysis status · 후속 정보로 대체:** Volteron 저온 직접 전해 공정의 파일럿 철판 생산 확인 후 산업 규모 설비 개발 계획 단계 [^src-20260725-a6716adb]
+
+## 설비·공정 이미지
+
+![증류탑과 배관으로 구성된 ArcelorMittal Ghent Steelanol 설비](<https://europe.arcelormittal.com/repo/Europe/ArcelorMittal-announces-first-industrial-production-of-ethanol.png>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** ArcelorMittal Ghent Steelanol 산업용 에탄올 생산설비 공식 사진
+
+- 출처 [[sources/SRC-20260725-624E124C|SRC-20260725-624E124C]] · 권리 `link_only` · [원문 페이지](https://europe.arcelormittal.com/newsandmedia/pressreleases/6227/Steelanol-first-industrial-scale-production) · 작성·촬영 ArcelorMittal Europe
+- 권리 메모: ArcelorMittal Europe 공식 보도자료 원본 사진을 외부 링크로만 표시
+
+![철광석 슬러리 처리와 수용액 순환 탱크, 모듈식 전해 셀, 전착 철판 회수 장치의 개념 구성](../assets/media/SRC-20260725-FBE26310/MED-F0E1DDA6F73D.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** Volteron 저온 수계 전해의 광석 용해·불순물 분리·전해액 순환·철판 전착 경로 AI 재구성. 실제 R&D 설비의 준공도가 아님
+
+- 출처 [[sources/SRC-20260725-FBE26310|SRC-20260725-FBE26310]] · 권리 `ai_generated` · [원문 페이지](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: ArcelorMittal 공식 R&D 설명을 바탕으로 생성했으며 실제 장치 형상과 배치의 증거로 사용하지 않음
+
 
 ## 근거 자료
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
 | [[sources/SRC-20260725-395D8A82|ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans]] | ArcelorMittal · 2025-06-19 | [원문 보기](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-europe-urges-faster-implementation-of-steel-and-metals-action-plan) |
+| [[sources/SRC-20260725-3B0845FF|ArcelorMittal confirms intention to invest EUR 1.2 billion in Dunkirk]] | ArcelorMittal · 2025-05-15 | [원문 보기](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-confirms-its-intention-to-invest-12-billion-in-dunkirk-to-decarbonize) |
 | [[sources/SRC-20260725-61382798|ArcelorMittal confirms €1.3bn Dunkirk EAF construction]] | ArcelorMittal · 2026-02-10 | [원문 보기](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-confirms-the-construction-of-an-electric-arc-furnace-in-dunkirk-france-a-13-billion-investment-supporting-an-important-step-in-its-decarbonisation) |
+| [[sources/SRC-20260725-624E124C|ArcelorMittal announces first industrial production of ethanol at Steelanol]] | ArcelorMittal Europe · 2023-11-16 | [원문 보기](https://europe.arcelormittal.com/newsandmedia/pressreleases/6227/Steelanol-first-industrial-scale-production) |
 | [[sources/SRC-20260725-9D378E7F|ArcelorMittal invests $36 million in Boston Metal]] | ArcelorMittal · 2023-01-27 | [원문 보기](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-invests-36-million-in-steel-decarbonisation-disruptor-boston-metal) |
 | [[sources/SRC-20260725-A6716ADB|ArcelorMittal and John Cockerill develop Volteron low-temperature electrolysis]] | ArcelorMittal · 2023-06-14 | [원문 보기](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-and-john-cockerill-announce-plans-to-develop-world-s-first-industrial-scale-low-temperature-iron-electrolysis-plant) |
 | [[sources/SRC-20260725-B6FB82E5|ArcelorMittal inaugurates Steelanol CCU project at Ghent]] | ArcelorMittal · 2022-12-08 | [원문 보기](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-inaugurates-flagship-carbon-capture-and-utilisation-project-at-its-steel-plant-in-ghent-belgium) |
+| [[sources/SRC-20260725-FBE26310|ArcelorMittal Volteron research and scale-up status]] | ArcelorMittal · 게시일 미상 | [원문 보기](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations) |
 
 [^src-20260725-395d8a82]: **ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans** — ArcelorMittal, 2025-06-19. [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-europe-urges-faster-implementation-of-steel-and-metals-action-plan) · [[sources/SRC-20260725-395D8A82|보관 원문·메타데이터]]
+[^src-20260725-3b0845ff]: **ArcelorMittal confirms intention to invest EUR 1.2 billion in Dunkirk** — ArcelorMittal, 2025-05-15. [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-confirms-its-intention-to-invest-12-billion-in-dunkirk-to-decarbonize) · [[sources/SRC-20260725-3B0845FF|보관 원문·메타데이터]]
 [^src-20260725-61382798]: **ArcelorMittal confirms €1.3bn Dunkirk EAF construction** — ArcelorMittal, 2026-02-10. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-confirms-the-construction-of-an-electric-arc-furnace-in-dunkirk-france-a-13-billion-investment-supporting-an-important-step-in-its-decarbonisation) · [[sources/SRC-20260725-61382798|보관 원문·메타데이터]]
+[^src-20260725-624e124c]: **ArcelorMittal announces first industrial production of ethanol at Steelanol** — ArcelorMittal Europe, 2023-11-16. [원문](https://europe.arcelormittal.com/newsandmedia/pressreleases/6227/Steelanol-first-industrial-scale-production) · [[sources/SRC-20260725-624E124C|보관 원문·메타데이터]]
 [^src-20260725-9d378e7f]: **ArcelorMittal invests $36 million in Boston Metal** — ArcelorMittal, 2023-01-27. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-invests-36-million-in-steel-decarbonisation-disruptor-boston-metal) · [[sources/SRC-20260725-9D378E7F|보관 원문·메타데이터]]
 [^src-20260725-a6716adb]: **ArcelorMittal and John Cockerill develop Volteron low-temperature electrolysis** — ArcelorMittal, 2023-06-14. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-and-john-cockerill-announce-plans-to-develop-world-s-first-industrial-scale-low-temperature-iron-electrolysis-plant) · [[sources/SRC-20260725-A6716ADB|보관 원문·메타데이터]]
 [^src-20260725-b6fb82e5]: **ArcelorMittal inaugurates Steelanol CCU project at Ghent** — ArcelorMittal, 2022-12-08. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-inaugurates-flagship-carbon-capture-and-utilisation-project-at-its-steel-plant-in-ghent-belgium) · [[sources/SRC-20260725-B6FB82E5|보관 원문·메타데이터]]
+[^src-20260725-fbe26310]: **ArcelorMittal Volteron research and scale-up status** — ArcelorMittal, 게시일 미상. [원문](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations) · [[sources/SRC-20260725-FBE26310|보관 원문·메타데이터]]

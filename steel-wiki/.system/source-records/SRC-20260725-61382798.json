@@ -13,5 +13,21 @@
   "raw_sha256": "c0d62029940ebd2b7199f9e0bcf0aabadf1790c850845f9ea8a340039d48a5b3",
   "raw_path": ".system/raw/SRC-20260725-61382798.md",
   "previous_version": null,
-  "supporting_sources": []
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-59A319A168AC",
+      "kind": "ai_reconstruction",
+      "caption": "Dunkirk 대형 EAF의 스크랩·HBI/DRI·용선 혼합, 배가스 처리와 후단 정련 경로 AI 재구성. 실제 Dunkirk 준공도가 아님",
+      "alt_text": "해안 제철소의 대형 전기로에 스크랩과 환원철·용선이 투입되고 정련과 주조로 연결되는 개념 구성",
+      "creator": "OpenAI image generation / Codex",
+      "image_url": null,
+      "origin_url": "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-confirms-the-construction-of-an-electric-arc-furnace-in-dunkirk-france-a-13-billion-investment-supporting-an-important-step-in-its-decarbonisation",
+      "rights_status": "ai_generated",
+      "rights_note": "ArcelorMittal 공식 투자 발표의 공정 범위를 바탕으로 생성했으며 실제 설비 배치·형상·공사진척의 증거로 사용하지 않음",
+      "collected_at": "2026-07-25",
+      "content_sha256": "59a319a168ac4f0f3ca8b67d7502406c2ebc376d5e77b5fbd1360d9d73d2f48f",
+      "local_path": "assets/media/SRC-20260725-61382798/MED-59A319A168AC.png"
+    }
+  ]
 }
