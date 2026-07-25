@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-A0AC41D7",
+  "title": "Project SuS-F: SuSteel follow-up",
+  "url": "https://www.k1-met.com/en/non_comet/sus_f",
+  "canonical_url": "https://www.k1-met.com/en/non_comet/sus_f",
+  "publisher": "K1-MET GmbH",
+  "published_at": null,
+  "collected_at": "2026-07-25",
+  "source_type": "other",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "a0ac41d7313d6a4a8d68a97f9f8e26090a35a35d5919d7c1d1ed2f7103875916",
+  "raw_sha256": "a78a2c40f53eb7211e5afae73cabed4c2b2ee977d6d035ec32b95b0736bd17b1",
+  "raw_path": ".system/raw/SRC-20260725-A0AC41D7.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-B194AFC370D8",
+      "kind": "process_diagram",
+      "caption": "SuS-F 공식 HPSR 반응기 구성도: 중공 흑연전극을 통한 미분광·Ar·H2 공급, 직류 플라즈마 아크, 용융욕, 출강과 배가스 계통",
+      "alt_text": "중공 전극에서 아르곤·수소·미분광을 투입하고 플라즈마 아크로 환원·용융하는 HPSR 반응기 내부 구성도",
+      "creator": "K1-MET GmbH",
+      "image_url": "https://www.k1-met.com/fileadmin/_processed_/a/9/csm_220127_SuSteel_EN.jpg_9ed9be70f3.png",
+      "origin_url": "https://www.k1-met.com/en/non_comet/sus_f",
+      "rights_status": "link_only",
+      "rights_note": "K1-MET 공식 SuS-F 프로젝트 페이지에서 원본 도식과 HPSR process schematic 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

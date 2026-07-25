@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-592933339997",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "electrode_configuration",
+  "value": "아르곤·수소와 미분광을 중공 흑연 음극을 통해 아크 중심부에 공급",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-1F1EA152"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "학술 공개 반응기 설명",
+      "source_ids": [
+        "SRC-20260725-1F1EA152"
+      ]
+    }
+  ]
+}

@@ -787,14 +787,129 @@ TECHNOLOGY_DETAILS = {
         ),
     },
     "hydrogen plasma smelting reduction": {
-        "label": "수소 플라즈마 제련",
+        "label": "수소 플라즈마 용융환원 (HPSR)",
+        "category": "직류 아크·수소 플라즈마 기반 단일단계 용융환원",
         "description": (
-            "수소 플라즈마로 철광석의 환원과 용융을 한 반응기에서 수행해 조강에 "
-            "가까운 제품을 만드는 장기 제철 경로입니다."
+            "수소를 직류 아크에서 분자·원자·이온 상태로 활성화해 철광석 미분의 "
+            "환원과 용융을 하나의 밀폐 반응기에서 수행하는 장기 제철 경로입니다. "
+            "고체 DRI를 거치지 않고 저탄소 용강을 직접 만들 잠재력이 있지만, 현재 "
+            "공개 근거는 Donawitz 배치·파일럿과 연속화 연구 단계입니다."
+        ),
+        "scope_note": (
+            "여기서 HPSR은 일반 수소 DRI나 전기용융로와 구분합니다. 수소가 환원제인 "
+            "동시에 플라즈마 아크가 용융 열원을 제공하며, 용융욕과 플라즈마의 계면에서 "
+            "최종 환원이 일어납니다. ‘단일단계’는 보조 예열·사전환원·배가스 회수까지 "
+            "불필요하다는 뜻이 아니며, 확대 설계는 오히려 이 전단·후단 통합을 검토합니다."
+        ),
+        "process_mermaid": (
+            'flowchart TB\n'
+            '    A["미분광·잔사 — 품위·수분·입도·맥석 확인"] --> B["선택: 배가스 예열·FeO까지 사전환원"]\n'
+            '    C["Ar + H₂"] --> D["중공 흑연전극 — 가스·광석 연속 공급"]\n'
+            '    B --> D\n'
+            '    D --> E["직류 아크 플라즈마 — 흑연 음극 ↔ 용융욕 양극"]\n'
+            '    E --> F["플라즈마–용융산화물 계면"]\n'
+            '    F --> G["Fe₂O₃ → Fe₃O₄ → FeO → Fe"]\n'
+            '    G --> H["저탄소 용강·슬래그"]\n'
+            '    H --> I["반연속·연속 출강 목표"]\n'
+            '    F -. 생성 .-> J["H₂O(g) + 미반응 H₂ + Ar + 분진·전극기원 가스"]\n'
+            '    J --> K["집진·응축·가스 회수"]\n'
+            '    K -. 현열·H₂ 재이용 .-> B\n'
+            '    K -. 응축수 .-> L["전해수소 재생 개념"]\n'
+            '    M["OES·카메라·전압·전류·아크 길이"] --> N["모델 기반 아크·투입 제어"]\n'
+            '    N -. 출력·투입 명령 .-> D\n'
+            '    O["위험: 아크 불안정·전극/내화물 마모·Fe 증발·광학 차폐"] -. 운전창 .-> E\n'
+            '    classDef feed fill:#EAF0FB,stroke:#3F66C9,color:#20242C\n'
+            '    classDef plasma fill:#3F66C9,stroke:#3158B8,color:#FFFFFF\n'
+            '    classDef product fill:#E7F3EE,stroke:#24724A,color:#20242C\n'
+            '    classDef recycle fill:#F5F6F7,stroke:#6D7785,color:#20242C\n'
+            '    classDef control fill:#FFF2D9,stroke:#B97800,color:#20242C\n'
+            '    classDef risk fill:#FBE9E9,stroke:#B74848,color:#20242C\n'
+            '    class A,B,C,D feed\n'
+            '    class E,F,G plasma\n'
+            '    class H,I product\n'
+            '    class J,K,L recycle\n'
+            '    class M,N control\n'
+            '    class O risk'
+        ),
+        "process_legend": (
+            "**색상 범례 (AI 재구성):** 청색=원료·플라즈마 가스 공급 · 진한 청색=아크·"
+            "계면 환원 · 녹색=용강·슬래그 · 회색=배가스·열 회수 · 황색=계측·제어 · "
+            "적색=확대 운전 위험"
+        ),
+        "diagram_note": (
+            "위 도식은 K1-MET SuS-F 공식 반응기 구성도, FFG LIGHTBOW 제어 설명과 "
+            "공개 학술자료를 기능 단위로 재구성한 것입니다. 실제 Donawitz 설비의 "
+            "배관계장도·전극 치수·인터록 또는 향후 200 kg/h 설비의 준공도가 아닙니다."
+        ),
+        "analysis_points": (
+            "HPSR의 핵심 차이는 ‘수소를 뜨겁게 쓴다’가 아니라 플라즈마–용융욕 계면에서 "
+            "활성 수소종과 용융 산화철이 반응한다는 점입니다. 분자·원자·이온의 실제 "
+            "분포와 계면 도달종은 온도·아크·재결합에 따라 달라지므로 명목 가스 조성만으로 "
+            "환원력을 계산하면 안 됩니다.",
+            "환원과 용융을 한 반응기에 결합하면 DRI 냉각·저장·재가열 단계를 줄일 수 "
+            "있지만, 모든 산화철의 환원속도가 같은 것은 아닙니다. 2025년 in-situ 연구는 "
+            "최종 FeO→Fe가 말기에 속도결정 단계가 될 수 있음을 보여줍니다. 완전 금속화 "
+            "근처에서는 철 증발도 강해져 수율·집진·광학신호가 동시에 변합니다.",
+            "플라즈마는 열원과 환원제를 결합하지만 전기에너지와 수소의 기여를 분리해 "
+            "계측해야 합니다. 전력원단위만 낮추면 수소 과잉이나 미환원 산화물이 늘 수 "
+            "있고, 수소 투입만 늘리면 이용률과 배가스 회수 부담이 악화됩니다. 톤당 "
+            "전력·수소·Ar, 금속화율과 철 수율을 하나의 수지로 공개해야 합니다.",
+            "Ar은 아크 안정화에 유용하지만 환원에 기여하지 않고 가열·순환·분리 부하를 "
+            "만듭니다. 2025년 확대 시나리오의 25 vol.% Ar은 설계 가정이지 확정 상용 "
+            "조건이 아닙니다. 안정성을 유지하면서 Ar 비율을 낮추는 능력이 경제성과 "
+            "가스 회수계 크기를 좌우합니다.",
+            "중공 흑연전극은 가스와 미분광을 아크 중심으로 공급하지만 마모·산화·열충격을 "
+            "받고 탄소계 가스를 만들 수 있습니다. 전극 소비는 비용뿐 아니라 제품 탄소, "
+            "CO/CO₂ 배출 경계, 아크 길이와 투입 안정성에 영향을 줍니다. ‘탄소 무사용’과 "
+            "‘공정 직접 CO₂ 0’ 주장은 전극 경계를 포함해 다시 확인해야 합니다.",
+            "배치당 90 kg, 반응기 최대 90,000 g, 시험 중 100~200 g/min 투입, 목표 "
+            "200 kg/h는 서로 다른 지표입니다. 용융욕 보유량·순간 공급률·지속시간·"
+            "출강 주기·제품량을 혼용하지 않아야 하며, 200 kg/h 목표를 실제 연속 "
+            "생산 실적으로 표현하면 안 됩니다.",
+            "확대 설계가 사전환원을 다시 도입하는 것은 단일단계 개념의 실패라기보다 "
+            "수소·열 이용률 개선입니다. 배가스의 H₂와 현열로 광석을 FeO까지 만들면 "
+            "플라즈마 체류시간과 전극·내화물 부담을 줄일 수 있지만, 전단 반응기·분진·"
+            "응축수·가스조성 제어가 추가돼 전체 공정 복잡성은 커집니다.",
+            "LIGHTBOW가 지적한 연속 투입 중 아크 출력 제어는 생산성의 중심 과제입니다. "
+            "미분광이 아크와 용융욕을 교란하고, 아크 길이·전압·전류·용탕 높이가 서로 "
+            "영향을 주므로 단순 정전류 제어로는 부족할 수 있습니다. 모델은 실제 센서 "
+            "지연·분진·시야 차폐와 비정상 상태에서 검증되어야 합니다.",
+            "OES와 카메라는 H·Fe·O·FeO 방출종을 통해 반응 진행을 볼 수 있지만 수증기와 "
+            "분진이 광로를 흡수·차폐합니다. 광학 신호를 금속화율의 직접 측정으로 간주하지 "
+            "말고, 배가스 질량분석·전기신호·샘플 화학분석과 융합해야 폐루프 제어에 쓸 수 "
+            "있습니다.",
+            "저품위광·잔사 처리 가능성은 중요한 장점이지만 맥석이 자동으로 제거되는 것은 "
+            "아닙니다. 슬래그량·염기도·점도·P/S 분배, 철 손실, 내화물 반응과 출강 분리가 "
+            "제품 품질과 에너지에 직접 연결됩니다. 특정 합성광·소량 실험의 탈인 결과를 "
+            "상업 광종 전반으로 확장하면 안 됩니다.",
+        ),
+        "posco_implications": (
+            "POSCO에는 HyREX 유동층–ESF가 더 가까운 실행 경로이므로 HPSR은 대체안보다 "
+            "장기 옵션·특수 원료 처리 벤치마크로 보는 편이 현실적입니다. 비교 경계는 "
+            "미분광 전처리부터 용선·용강까지이며, HPSR의 Ar·전극·가스회수와 HyREX의 "
+            "유동층·고온이송·ESF 부담을 같은 기준으로 놓아야 합니다.",
+            "HPSR의 직접 용강 경로가 입증되면 저품위광, 제철 잔사, 미세 산화물의 고부가 "
+            "회수에 먼저 적용될 수 있습니다. POSCO는 대량 조강 경로만 보지 말고 더스트·"
+            "슬러지·산화스케일별 철 회수율, P/S/Zn 거동, 슬래그·분진 처리비를 기준으로 "
+            "소형 파일럿 가치도 평가할 수 있습니다.",
+            "Donawitz의 200 kg/h 연속화 목표는 POSCO 1 t/h ESF와 단순 용량 비교가 "
+            "불가능합니다. HPSR은 환원·용융·출강을 포함한 목표 처리량이고, POSCO 수치는 "
+            "용융 파일럿 처리량입니다. 운전시간·실제 광석량·제품량·금속화·가동률을 "
+            "정렬한 뒤 비교해야 합니다.",
+            "우선 모니터링 지표는 용융욕 질량과 실제품량, 연속 투입·출강 시간, 아크 "
+            "소호·재점호 횟수, 전압·전류·아크 길이 변동, H₂·Ar·전력 원단위와 가스 "
+            "회수율, 전극·내화물 소비, 금속화율·Fe 수율·철 증발, 슬래그량·P/S 분배, "
+            "OES 가용률, 분진·수증기 차폐와 제품 탄소입니다.",
+        ),
+        "related_projects": (
+            "PRJ-SUSTEEL-DONAWITZ",
+            "PRJ-LIGHTBOW-HPSR-CONTROL",
         ),
         "watch": (
-            "처리 규모, 플라즈마 안정성, 전력원단위, 내화물 수명, 광석 품위별 "
-            "반응성과 산업 규모 확대 일정을 확인해야 합니다."
+            "200 kg/h 연속화의 실제 달성 여부, 연속 투입·출강 시간과 가동률, 아크 "
+            "안정성·Ar 비율, H₂·전력 원단위, 배가스 회수, 전극·내화물 소비, Fe 증발·"
+            "철 수율, 광종별 슬래그·P/S 거동, 모델 기반 제어와 2026년 이후 후속 일정을 "
+            "확인해야 합니다."
         ),
     },
     "microwave biomass ironmaking": {
@@ -1044,6 +1159,36 @@ PREDICATE_LABELS = {
     "pilot_first_molten_iron_date": "파일럿 첫 용선 생산",
     "site_preparation_status_date": "부지 준비 확인 시점",
     "equipment_reference": "대표 설비 참고",
+    "plasma_species": "활성 수소종",
+    "arc_configuration": "플라즈마 아크 구성",
+    "electrode_configuration": "전극·원료 공급 구성",
+    "electrode_consumption": "전극 소비·탄소 유입",
+    "plasma_stabilizer": "플라즈마 안정화 가스",
+    "plasma_melt_interface": "플라즈마–용융욕 계면",
+    "reduction_sequence": "산화철 환원 순서",
+    "rate_limiting_stage": "속도결정 단계",
+    "feed_mode": "원료 공급 방식",
+    "tapping_mode": "출강 방식",
+    "melt_capacity": "용융욕·회분 용량",
+    "ore_feed_rate": "시험 원료 공급률",
+    "continuous_target_capacity": "연속화 목표 처리량",
+    "hydrogen_utilization": "수소 이용률",
+    "argon_penalty": "아르곤 안정화 부담",
+    "offgas_heat_recovery": "배가스 현열·수소 회수",
+    "water_vapor_recovery": "수증기 회수·재전해",
+    "optical_monitoring": "광학방출·영상 계측",
+    "optical_visibility_limit": "광학계측 시야 한계",
+    "iron_evaporation": "철 증발·수율 위험",
+    "refractory_exposure": "내화물 노출·마모",
+    "pre_reduction_integration": "사전환원 통합",
+    "original_target_completion_date": "기존 목표 종료 시점",
+    "current_project_completion_date": "현재 공식 종료 시점",
+    "pilot_operation_start_date": "파일럿 운전 개시",
+    "research_origin_date": "연구 기원",
+    "followup_start_date": "후속 프로젝트 착수",
+    "followup_phase_completion_date": "중간 후속단계 종료",
+    "project_volume_eur": "총 프로젝트 규모",
+    "target_trl": "목표 기술성숙도",
 }
 TECHNICAL_FEATURE_GROUPS = (
     (
@@ -1133,6 +1278,13 @@ TECHNICAL_FEATURE_GROUPS = (
             "sticking_mechanism",
             "sticking_controls",
             "integrated_process_train",
+            "plasma_species",
+            "arc_configuration",
+            "electrode_configuration",
+            "plasma_melt_interface",
+            "reduction_sequence",
+            "rate_limiting_stage",
+            "optical_monitoring",
         ),
     ),
     (
@@ -1170,6 +1322,20 @@ TECHNICAL_FEATURE_GROUPS = (
             "briquetting_requirement",
             "hot_dri_transport",
             "downstream_product_handling",
+            "feed_mode",
+            "tapping_mode",
+            "melt_capacity",
+            "ore_feed_rate",
+            "continuous_target_capacity",
+            "hydrogen_utilization",
+            "argon_penalty",
+            "electrode_consumption",
+            "iron_evaporation",
+            "refractory_exposure",
+            "pre_reduction_integration",
+            "offgas_heat_recovery",
+            "water_vapor_recovery",
+            "optical_visibility_limit",
         ),
     ),
     (
@@ -1258,6 +1424,12 @@ PROJECT_TIMELINE_PREDICATES = {
     "first_campaign_date": "실증 이력",
     "pilot_first_molten_iron_date": "실증 이력",
     "site_preparation_status_date": "실행 현황",
+    "original_target_completion_date": "기존 목표",
+    "current_project_completion_date": "현재 공식 일정",
+    "pilot_operation_start_date": "실증 이력",
+    "research_origin_date": "연구 이력",
+    "followup_start_date": "후속 단계",
+    "followup_phase_completion_date": "후속 단계",
 }
 PROJECT_DISPLAY_NAMES = {
     "PRJ-BIOIRON-WA-RD": "BioIron 연구개발 시설 (Western Australia)",
@@ -1265,6 +1437,8 @@ PROJECT_DISPLAY_NAMES = {
     "PRJ-HY4SMELT": "HY4Smelt 실증 프로젝트",
     "PRJ-HYFOR-DONAWITZ-PILOT": "HYFOR Donawitz 수소환원 파일럿",
     "PRJ-POSCO-HYREX-DEMO": "POSCO 포항 HyREX 통합 실증",
+    "PRJ-SUSTEEL-DONAWITZ": "voestalpine Donawitz SuSteel·SuS-F",
+    "PRJ-LIGHTBOW-HPSR-CONTROL": "LIGHTBOW HPSR 아크 제어 연구",
     "PRJ-BOSTON-METAL-MOE-WOBURN": "Boston Metal Woburn MOE 산업 셀",
     "PRJ-HYBRIT-LULEA-PILOT": "HYBRIT 룰레오 수소 DRI 파일럿",
     "PRJ-NEOSMELT-KWINANA": "NeoSmelt Kwinana DRI–ESF 파일럿",

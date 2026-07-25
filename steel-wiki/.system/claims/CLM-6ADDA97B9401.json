@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6ADDA97B9401",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "hydrogen_utilization",
+  "value": "2025 확대 시나리오는 액상 FeO-Fe 환원에서 HPSR 수소 이용률의 열역학적 상한을 약 40 vol.%로 가정",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-1F1EA152"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "논문 시나리오 가정",
+      "source_ids": [
+        "SRC-20260725-1F1EA152"
+      ]
+    }
+  ]
+}

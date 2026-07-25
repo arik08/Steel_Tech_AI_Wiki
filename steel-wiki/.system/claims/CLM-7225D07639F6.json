@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7225D07639F6",
+  "subject_id": "PRJ-LIGHTBOW-HPSR-CONTROL",
+  "predicate": "project_status",
+  "value": "HPSR 연속 투입 중 아크 출력의 모델 기반 제어를 개발하는 FFG 진행 프로젝트",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-973F138F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "FFG 공식 현재 상태",
+      "source_ids": [
+        "SRC-20260725-973F138F"
+      ]
+    }
+  ]
+}

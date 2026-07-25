@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-80C35AD4857D",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "reduction_sequence",
+  "value": "용융 상태에서 hematite-자철광-wustite-금속철 순으로 환원이 진행",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4333339B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2025 in-situ 관찰",
+      "source_ids": [
+        "SRC-20260725-4333339B"
+      ]
+    }
+  ]
+}

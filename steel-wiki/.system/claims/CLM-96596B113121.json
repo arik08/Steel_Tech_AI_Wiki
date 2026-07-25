@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-96596B113121",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "project_status",
+  "value": "Donawitz SuSteel 시험설비에서 수소 플라즈마 단일단계 조강 생산 시험을 수행 중; 연속화·수소공급·가스회수 연구 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F2F9BB6E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "voestalpine 2025/26 최신 공식 현황",
+      "source_ids": [
+        "SRC-20260725-F2F9BB6E"
+      ]
+    }
+  ]
+}

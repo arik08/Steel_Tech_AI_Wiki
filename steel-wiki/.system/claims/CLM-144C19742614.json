@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-144C19742614",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "project_volume_eur",
+  "value": "EUR 6,770,925",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-34D63EEA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "정부 공식 총 사업규모",
+      "source_ids": [
+        "SRC-20260725-34D63EEA"
+      ]
+    }
+  ]
+}

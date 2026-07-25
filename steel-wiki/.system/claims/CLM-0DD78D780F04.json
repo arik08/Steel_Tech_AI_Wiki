@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0DD78D780F04",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "arc_configuration",
+  "value": "중공 전극과 용융욕 사이에 직류 플라즈마 아크를 형성",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-973F138F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "FFG LIGHTBOW 공식 아크 구성",
+      "source_ids": [
+        "SRC-20260725-973F138F"
+      ]
+    }
+  ]
+}

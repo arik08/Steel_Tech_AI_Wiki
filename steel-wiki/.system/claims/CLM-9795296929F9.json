@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9795296929F9",
+  "subject_id": "PRJ-LIGHTBOW-HPSR-CONTROL",
+  "predicate": "result_limitations",
+  "value": "프로젝트 목표는 제어모델 개발이며 연속 제강 성능 달성의 증거가 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-973F138F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "정부 공식 연구범위 해석",
+      "source_ids": [
+        "SRC-20260725-973F138F"
+      ]
+    }
+  ]
+}

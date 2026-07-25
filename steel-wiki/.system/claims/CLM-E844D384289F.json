@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E844D384289F",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "feed_mode",
+  "value": "초기 SuSteel은 배치 운전; SuS-F는 미분광 연속 공급을 포함한 반연속·연속 공정 개발 목표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A0AC41D7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "K1-MET 공식 후속 목표",
+      "source_ids": [
+        "SRC-20260725-A0AC41D7"
+      ]
+    }
+  ]
+}

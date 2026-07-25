@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E555C9BE579F",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "offgas_heat_recovery",
+  "value": "배가스 미반응 수소와 현열을 사전환원·예열에 재이용하는 확대안",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-1F1EA152"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공개 학술 확대 설계",
+      "source_ids": [
+        "SRC-20260725-1F1EA152"
+      ]
+    }
+  ]
+}

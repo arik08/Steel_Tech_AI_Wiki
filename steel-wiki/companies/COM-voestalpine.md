@@ -4,13 +4,18 @@
 
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
+
+![중공 전극에서 아르곤·수소·미분광을 투입하고 플라즈마 아크로 환원·용융하는 HPSR 반응기 내부 구성도](<https://www.k1-met.com/fileadmin/_processed_/a/9/csm_220127_SuSteel_EN.jpg_9ed9be70f3.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+
+*대표 이미지 — SuS-F 공식 HPSR 반응기 구성도: 중공 흑연전극을 통한 미분광·Ar·H2 공급, 직류 플라즈마 아크, 용융욕, 출강과 배가스 계통 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-A0AC41D7|SRC-20260725-A0AC41D7]] · [원문 페이지](https://www.k1-met.com/en/non_comet/sus_f))*
+
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 2개 / 감시 기술 11개 |
     | **실행 단계** | 건설·구축 1건 · 연구·실증 1건 |
-    | **직접 연결 근거** | 2건 |
+    | **직접 연결 근거** | 4건 |
 
 ## 기술 포트폴리오
 
@@ -19,7 +24,7 @@
 | 기술 | 현재 확인 내용 | 단계 |
 | --- | --- | --- |
 | **[[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]]** | HYFOR와 Smelter를 결합한 Linz HY4SMELT 산업규모 실증설비 건설 중; 2027년 말 가동 목표 [^src-20260725-e316d68f] | **건설·구축** |
-| **[[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 제련]]** | Donawitz SuSteel 파일럿에서 직류 아크 수소 플라즈마로 철광석 환원·용융 단일공정 연구 단계 [^src-20260725-fe22defe] | **연구·실증** |
+| **[[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]]** | Donawitz SuSteel 파일럿에서 직류 아크 수소 플라즈마로 철광석 환원·용융 단일공정 연구 단계 [^src-20260725-fe22defe][^src-20260725-f2f9bb6e][^src-20260725-a0ac41d7] | **연구·실증** |
 
 ## 기술별 근거와 확인 과제
 
@@ -33,15 +38,15 @@
 
     **다음 확인:** 광종별 입도창·열적 파쇄, 반응기별 ΔP·고착·비산, 수소 이용률과 금속화율 분포, 분진 회수 후 철 수율, 고온 환원철 이송, ESF 통합 가동률, 장기 캠페인 정비 이력과 원료부터 용선까지의 에너지·배출 경계를 확인해야 합니다.
 
-??? info "수소 플라즈마 제련 · 연구·실증"
+??? info "수소 플라즈마 용융환원 (HPSR) · 연구·실증"
 
-    **확인된 사실:** Donawitz SuSteel 파일럿에서 직류 아크 수소 플라즈마로 철광석 환원·용융 단일공정 연구 단계 [^src-20260725-fe22defe]
+    **확인된 사실:** Donawitz SuSteel 파일럿에서 직류 아크 수소 플라즈마로 철광석 환원·용융 단일공정 연구 단계 [^src-20260725-fe22defe][^src-20260725-f2f9bb6e][^src-20260725-a0ac41d7]
 
     **판단 기준:** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
 
-    **확인 날짜:** 발표 2022-04-27 · 검증 2026-07-25
+    **확인 날짜:** 발표 2022-04-27, 2026-06-04 · 검증 2026-07-25
 
-    **다음 확인:** 처리 규모, 플라즈마 안정성, 전력원단위, 내화물 수명, 광석 품위별 반응성과 산업 규모 확대 일정을 확인해야 합니다.
+    **다음 확인:** 200 kg/h 연속화의 실제 달성 여부, 연속 투입·출강 시간과 가동률, 아크 안정성·Ar 비율, H₂·전력 원단위, 배가스 회수, 전극·내화물 소비, Fe 증발·철 수율, 광종별 슬래그·P/S 거동, 모델 기반 제어와 2026년 이후 후속 일정을 확인해야 합니다.
 
 ## AI 분석
 
@@ -55,8 +60,12 @@
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-A0AC41D7|Project SuS-F: SuSteel follow-up]] | K1-MET GmbH · 게시일 미상 | [원문 보기](https://www.k1-met.com/en/non_comet/sus_f) |
 | [[sources/SRC-20260725-E316D68F|Construction begins on HYFOR and Smelter demonstration plant]] | Primetals Technologies · 2025-09-25 | [원문 보기](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) |
+| [[sources/SRC-20260725-F2F9BB6E|Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz]] | voestalpine AG · 2026-06-04 | [원문 보기](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) |
 | [[sources/SRC-20260725-FE22DEFE|voestalpine researches hydrogen plasma steelmaking in SuSteel]] | voestalpine · 2022-04-27 | [원문 보기](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/) |
 
+[^src-20260725-a0ac41d7]: **Project SuS-F: SuSteel follow-up** — K1-MET GmbH, 게시일 미상. [원문](https://www.k1-met.com/en/non_comet/sus_f) · [[sources/SRC-20260725-A0AC41D7|보관 원문·메타데이터]]
 [^src-20260725-e316d68f]: **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
+[^src-20260725-f2f9bb6e]: **Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz** — voestalpine AG, 2026-06-04. [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) · [[sources/SRC-20260725-F2F9BB6E|보관 원문·메타데이터]]
 [^src-20260725-fe22defe]: **voestalpine researches hydrogen plasma steelmaking in SuSteel** — voestalpine, 2022-04-27. [원문](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/) · [[sources/SRC-20260725-FE22DEFE|보관 원문·메타데이터]]

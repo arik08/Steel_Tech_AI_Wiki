@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-13AA56103652",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "feedstock_scope",
+  "value": "철광석 미분과 저품위광, 일부 제철 잔사·산화물까지 연구 후보이나 광종별 성능은 별도 검증 필요",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4333339B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2025 공개 연구의 원료 범위",
+      "source_ids": [
+        "SRC-20260725-4333339B"
+      ]
+    }
+  ]
+}

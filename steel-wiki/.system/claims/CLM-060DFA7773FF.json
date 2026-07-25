@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-060DFA7773FF",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "iron_evaporation",
+  "value": "완전 금속화에 가까워질 때 계면 철 증발과 강한 발광이 증가해 철 수율·분진·계측에 영향을 줄 수 있음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4333339B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2025 in-situ 관찰",
+      "source_ids": [
+        "SRC-20260725-4333339B"
+      ]
+    }
+  ]
+}

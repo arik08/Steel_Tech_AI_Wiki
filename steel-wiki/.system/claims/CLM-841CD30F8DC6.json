@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-841CD30F8DC6",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "result_limitations",
+  "value": "시험설비 운전과 목표 처리량은 200 kg/h 장기 연속 생산·가동률·상용 경제성을 입증하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F2F9BB6E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "최신 공식 단계 해석 한계",
+      "source_ids": [
+        "SRC-20260725-F2F9BB6E"
+      ]
+    }
+  ]
+}

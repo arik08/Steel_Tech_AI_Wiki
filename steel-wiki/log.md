@@ -2979,3 +2979,339 @@ CLM-2F1209E95898: COM-Rio-Tinto / fine_ore_hydrogen_reduction_status = voestalpi
 ## [2026-07-25T20:05:14+09:00] audit
 
 0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T20:11:03+09:00] add-source
+
+SRC-20260725-2FA1B498: Project SuSteel: Sustainable steel production utilising hydrogen
+
+## [2026-07-25T20:11:03+09:00] add-source
+
+SRC-20260725-A0AC41D7: Project SuS-F: SuSteel follow-up
+
+## [2026-07-25T20:11:04+09:00] add-source
+
+SRC-20260725-34D63EEA: SUS-F Sustainable Steelmaking Follow Up
+
+## [2026-07-25T20:11:04+09:00] add-source
+
+SRC-20260725-973F138F: LIGHTBOW: Model-based control in metallurgical arc-plasma processes
+
+## [2026-07-25T20:11:05+09:00] add-source
+
+SRC-20260725-1F1EA152: Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction
+
+## [2026-07-25T20:11:06+09:00] add-source
+
+SRC-20260725-EE8A09EF: The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements
+
+## [2026-07-25T20:11:06+09:00] add-source
+
+SRC-20260725-DB8169D9: Impact of Iron Ore Pre-Reduction Degree on the Hydrogen Plasma Smelting Reduction Process
+
+## [2026-07-25T20:11:07+09:00] add-source
+
+SRC-20260725-4333339B: In Situ Observation of Sustainable Hematite-Magnetite-Wustite-Iron Hydrogen Plasma Reduction
+
+## [2026-07-25T20:11:07+09:00] add-source
+
+SRC-20260725-F2F9BB6E: Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz
+
+## [2026-07-25T20:11:19+09:00] add-image
+
+MED-B194AFC370D8: attached to SRC-20260725-A0AC41D7 (process_diagram, link_only)
+
+## [2026-07-25T20:13:41+09:00] add-claim
+
+CLM-86F5778F10E7: TEC-hydrogen-plasma-smelting-reduction / technical_definition = 수소를 직류 아크 플라즈마에서 활성화해 철광석 미분의 환원과 용융을 하나의 밀폐 반응기에서 수행하는 공정
+
+## [2026-07-25T20:13:41+09:00] add-claim
+
+CLM-52088EE11E90: TEC-hydrogen-plasma-smelting-reduction / process_principle = 수소는 철 산화물의 환원제로 작용하고 플라즈마 아크는 용융에 필요한 전기 열에너지를 공급
+
+## [2026-07-25T20:13:42+09:00] add-claim
+
+CLM-FD882CBCFD7B: TEC-hydrogen-plasma-smelting-reduction / reactor_configuration = 약한 과압의 기밀 직류 아크로에서 용융욕을 양극, 중공 흑연전극을 음극으로 사용
+
+## [2026-07-25T20:13:43+09:00] add-claim
+
+CLM-0DD78D780F04: TEC-hydrogen-plasma-smelting-reduction / arc_configuration = 중공 전극과 용융욕 사이에 직류 플라즈마 아크를 형성
+
+## [2026-07-25T20:13:43+09:00] add-claim
+
+CLM-592933339997: TEC-hydrogen-plasma-smelting-reduction / electrode_configuration = 아르곤·수소와 미분광을 중공 흑연 음극을 통해 아크 중심부에 공급
+
+## [2026-07-25T20:13:44+09:00] add-claim
+
+CLM-6CF013A8617C: TEC-hydrogen-plasma-smelting-reduction / plasma_species = 분자 수소뿐 아니라 원자·이온화 수소종이 환원에 관여하나 실제 계면 종 분포는 운전조건에 따라 달라짐
+
+## [2026-07-25T20:13:45+09:00] add-claim
+
+CLM-8C8651E28086: TEC-hydrogen-plasma-smelting-reduction / plasma_stabilizer = 아르곤을 플라즈마 안정화 가스로 사용
+
+## [2026-07-25T20:13:45+09:00] add-claim
+
+CLM-0D0D4C898A69: TEC-hydrogen-plasma-smelting-reduction / plasma_melt_interface = 활성 수소종과 용융 산화철의 환원반응은 플라즈마-용융욕 계면에서 진행
+
+## [2026-07-25T20:13:46+09:00] add-claim
+
+CLM-13AA56103652: TEC-hydrogen-plasma-smelting-reduction / feedstock_scope = 철광석 미분과 저품위광, 일부 제철 잔사·산화물까지 연구 후보이나 광종별 성능은 별도 검증 필요
+
+## [2026-07-25T20:13:46+09:00] add-claim
+
+CLM-E844D384289F: TEC-hydrogen-plasma-smelting-reduction / feed_mode = 초기 SuSteel은 배치 운전; SuS-F는 미분광 연속 공급을 포함한 반연속·연속 공정 개발 목표
+
+## [2026-07-25T20:13:47+09:00] add-claim
+
+CLM-C681D287579A: TEC-hydrogen-plasma-smelting-reduction / tapping_mode = SuS-F는 저탄소강의 반연속 출강을 개발 목표로 설정
+
+## [2026-07-25T20:13:48+09:00] add-claim
+
+CLM-38B5F4A3B356: TEC-hydrogen-plasma-smelting-reduction / product_form = 중간 선철 단계를 우회해 저탄소 용강 또는 조강을 직접 생산하는 연구 경로
+
+## [2026-07-25T20:13:48+09:00] add-claim
+
+CLM-50C1B5622CF0: TEC-hydrogen-plasma-smelting-reduction / byproduct = 이상적인 수소 환원 반응 부산물은 수증기이나 실제 배가스에는 미반응 H2·Ar·분진과 전극 기원 가스가 포함될 수 있음
+
+## [2026-07-25T20:13:49+09:00] add-claim
+
+CLM-80C35AD4857D: TEC-hydrogen-plasma-smelting-reduction / reduction_sequence = 용융 상태에서 hematite-자철광-wustite-금속철 순으로 환원이 진행
+
+## [2026-07-25T20:13:50+09:00] add-claim
+
+CLM-F483954496B7: TEC-hydrogen-plasma-smelting-reduction / rate_limiting_stage = 완전 금속화에 가까워질수록 최종 wustite(FeO)-금속철 환원이 속도결정 단계가 될 수 있음
+
+## [2026-07-25T20:13:50+09:00] add-claim
+
+CLM-9C4B4FA121D3: TEC-hydrogen-plasma-smelting-reduction / melt_capacity = SuSteel 개발은 약 100 g 실험실 용융 규모에서 약 90 kg 파일럿 용융 규모로 확대
+
+## [2026-07-25T20:13:51+09:00] add-claim
+
+CLM-1B4FF91F10E5: TEC-hydrogen-plasma-smelting-reduction / ore_feed_rate = 2024 광학계측 논문의 K1-MET 캠페인은 미분광을 100~200 g/min으로 연속 공급
+
+## [2026-07-25T20:13:52+09:00] add-claim
+
+CLM-0652E2792DCC: TEC-hydrogen-plasma-smelting-reduction / pilot_batch_size = 2025 검토 논문은 기존 실증 반응기의 광석 회분 용량을 200 kg/trial로 기술
+
+## [2026-07-25T20:13:52+09:00] add-claim
+
+CLM-8931CA83FF90: TEC-hydrogen-plasma-smelting-reduction / continuous_target_capacity = SuSteel follow-up 확대 목표는 철광석 200 kg/h의 완전 연속 환원
+
+## [2026-07-25T20:13:53+09:00] add-claim
+
+CLM-66D2AD7FD313: TEC-hydrogen-plasma-smelting-reduction / trl = 2025 Processes 논문 저자 평가 TRL 5; SuS-F 공식 목표는 TRL 7이며 달성 확인과 구분
+
+## [2026-07-25T20:13:54+09:00] add-claim
+
+CLM-6ADDA97B9401: TEC-hydrogen-plasma-smelting-reduction / hydrogen_utilization = 2025 확대 시나리오는 액상 FeO-Fe 환원에서 HPSR 수소 이용률의 열역학적 상한을 약 40 vol.%로 가정
+
+## [2026-07-25T20:13:54+09:00] add-claim
+
+CLM-0000DF000E6C: TEC-hydrogen-plasma-smelting-reduction / argon_penalty = 확대 시나리오는 아크 안정화를 위해 플라즈마 가스 중 약 25 vol.% Ar을 가정하며 Ar 가열은 에너지 부담
+
+## [2026-07-25T20:13:55+09:00] add-claim
+
+CLM-1F52E2B81A1B: TEC-hydrogen-plasma-smelting-reduction / pre_reduction_integration = HPSR 배가스로 광석을 FeO까지 예열·사전환원한 뒤 플라즈마에서 최종 환원하는 하이브리드 확대안
+
+## [2026-07-25T20:13:55+09:00] add-claim
+
+CLM-F08B842D83E4: TEC-hydrogen-plasma-smelting-reduction / offgas_heat_recovery = 고온 배가스의 미반응 수소와 현열을 전단 사전환원·예열에 이용하는 방안
+
+## [2026-07-25T20:13:56+09:00] add-claim
+
+CLM-26B55BDBB720: TEC-hydrogen-plasma-smelting-reduction / water_vapor_recovery = SuS-F는 배가스 수증기를 응축해 전기분해용 물로 재이용하는 개념을 목표에 포함
+
+## [2026-07-25T20:13:57+09:00] add-claim
+
+CLM-AA39D6917421: TEC-hydrogen-plasma-smelting-reduction / electrode_consumption = 흑연전극 마모는 비용·탄소계 배가스·아크 안정성에 영향을 주며 습윤광은 실험에서 전극 소비를 증가시킴
+
+## [2026-07-25T20:13:57+09:00] add-claim
+
+CLM-72312D7E212B: TEC-hydrogen-plasma-smelting-reduction / refractory_exposure = 플라즈마·용융욕·슬래그에 노출되는 내화물 영향과 수명이 SuSteel 핵심 연구항목
+
+## [2026-07-25T20:13:58+09:00] add-claim
+
+CLM-62FA1FDC7022: TEC-hydrogen-plasma-smelting-reduction / optical_monitoring = 광학방출분광과 영상으로 H·Fe·O 및 FeO 방출종의 시간 변화를 실험실·파일럿에서 관측
+
+## [2026-07-25T20:13:59+09:00] add-claim
+
+CLM-377243E38143: TEC-hydrogen-plasma-smelting-reduction / optical_visibility_limit = 수증기와 분진이 광 신호를 흡수·차폐해 OES 기반 폐루프 제어의 가용성을 제한할 수 있음
+
+## [2026-07-25T20:13:59+09:00] add-claim
+
+CLM-060DFA7773FF: TEC-hydrogen-plasma-smelting-reduction / iron_evaporation = 완전 금속화에 가까워질 때 계면 철 증발과 강한 발광이 증가해 철 수율·분진·계측에 영향을 줄 수 있음
+
+## [2026-07-25T20:14:00+09:00] add-claim
+
+CLM-26B93B4BC569: TEC-hydrogen-plasma-smelting-reduction / feed_power_control = 연속 수소·광석 투입 중 정밀 아크 출력 제어는 FFG LIGHTBOW가 명시한 미해결 과제
+
+## [2026-07-25T20:14:00+09:00] add-claim
+
+CLM-E888BD219534: TEC-hydrogen-plasma-smelting-reduction / development_stage = Donawitz 시험설비는 2021년부터 운전 중이며 200 kg/h 연속화·가스회수·제어는 연구개발 단계
+
+## [2026-07-25T20:14:01+09:00] add-claim
+
+CLM-9AB876F7A1FB: TEC-hydrogen-plasma-smelting-reduction / emissions_boundary = 반응 자체는 수증기를 주 부산물로 하나 전력·수소 생산, Ar, 흑연전극, 내화물, 광석·슬래그의 전과정 배출은 별도 계상 필요
+
+## [2026-07-25T20:14:02+09:00] add-claim
+
+CLM-C8A1C6A9B3CF: TEC-hydrogen-plasma-smelting-reduction / scale_up_requirement = 연속 광석 공급·출강, 아크 안정성, H2·Ar·배가스 수지, 전극·내화물 수명, 철 증발과 장기 가동률 검증이 상용 확대 조건
+
+## [2026-07-25T20:15:17+09:00] add-claim
+
+CLM-96596B113121: PRJ-SUSTEEL-DONAWITZ / project_status = Donawitz SuSteel 시험설비에서 수소 플라즈마 단일단계 조강 생산 시험을 수행 중; 연속화·수소공급·가스회수 연구 단계
+
+## [2026-07-25T20:15:17+09:00] add-claim
+
+CLM-12088211AC58: PRJ-SUSTEEL-DONAWITZ / location = voestalpine Stahl Donawitz, Austria
+
+## [2026-07-25T20:15:18+09:00] add-claim
+
+CLM-0CDC4BD1755A: PRJ-SUSTEEL-DONAWITZ / project_start_date = 2016-09-01
+
+## [2026-07-25T20:15:19+09:00] add-claim
+
+CLM-F24CEF36FF5D: PRJ-SUSTEEL-DONAWITZ / project_completion_date = 2020-02-29 최초 SuSteel 단계 종료
+
+## [2026-07-25T20:15:19+09:00] add-claim
+
+CLM-74E43E6396A6: PRJ-SUSTEEL-DONAWITZ / followup_phase_completion_date = 2023-06 초기 후속 연구 종료
+
+## [2026-07-25T20:15:20+09:00] add-claim
+
+CLM-1F773FFDA0C9: PRJ-SUSTEEL-DONAWITZ / pilot_operation_start_date = 2021
+
+## [2026-07-25T20:15:20+09:00] add-claim
+
+CLM-663C6D1DF188: PRJ-SUSTEEL-DONAWITZ / followup_start_date = 2022-10-01 SuS-F 착수
+
+## [2026-07-25T20:15:21+09:00] add-claim
+
+CLM-87AD0AFA5AB3: PRJ-SUSTEEL-DONAWITZ / original_target_completion_date = 2025-09-30 K1-MET 페이지의 기존 SuS-F 종료 일정
+
+## [2026-07-25T20:15:22+09:00] add-claim
+
+CLM-50AA69E337DA: PRJ-SUSTEEL-DONAWITZ / current_project_completion_date = 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정
+
+## [2026-07-25T20:15:22+09:00] add-claim
+
+CLM-F4B17CB52BC0: PRJ-SUSTEEL-DONAWITZ / funding_amount = EUR 3,946,740
+
+## [2026-07-25T20:15:24+09:00] add-claim
+
+CLM-144C19742614: PRJ-SUSTEEL-DONAWITZ / project_volume_eur = EUR 6,770,925
+
+## [2026-07-25T20:15:24+09:00] add-claim
+
+CLM-31F66BF9BFCE: PRJ-SUSTEEL-DONAWITZ / partners = voestalpine Stahl, voestalpine Stahl Donawitz, K1-MET, Montanuniversitaet Leoben, Pirhofer Automation, WIVA P&G
+
+## [2026-07-25T20:15:25+09:00] add-claim
+
+CLM-63E32F34DA38: PRJ-SUSTEEL-DONAWITZ / melt_capacity = 약 100 g 실험실 규모에서 약 90 kg 용융 파일럿으로 확대
+
+## [2026-07-25T20:15:26+09:00] add-claim
+
+CLM-55792CB2779B: PRJ-SUSTEEL-DONAWITZ / pilot_batch_size = 2025 논문이 기술한 기존 실증 설비 광석 용량 200 kg/trial
+
+## [2026-07-25T20:15:26+09:00] add-claim
+
+CLM-7ADBF8A025FE: PRJ-SUSTEEL-DONAWITZ / ore_feed_rate = 공개 2024 캠페인에서 미분광 100~200 g/min 연속 투입
+
+## [2026-07-25T20:15:27+09:00] add-claim
+
+CLM-6D42CA002893: PRJ-SUSTEEL-DONAWITZ / continuous_target_capacity = SuS-F 확대 목표 200 kg ore/h 완전 연속 운전
+
+## [2026-07-25T20:15:27+09:00] add-claim
+
+CLM-BD752DB68186: PRJ-SUSTEEL-DONAWITZ / process_mode = 초기 배치에서 미분광 연속공급·저탄소강 반연속 출강으로 전환 목표
+
+## [2026-07-25T20:15:28+09:00] add-claim
+
+CLM-4C111F9940DA: PRJ-SUSTEEL-DONAWITZ / target_trl = TRL 7 시스템 프로토타입 운전환경 실증 목표
+
+## [2026-07-25T20:15:29+09:00] add-claim
+
+CLM-DC2C2D3815CB: PRJ-SUSTEEL-DONAWITZ / trl = 2025 Processes 논문 저자 평가 TRL 5
+
+## [2026-07-25T20:15:29+09:00] add-claim
+
+CLM-E555C9BE579F: PRJ-SUSTEEL-DONAWITZ / offgas_heat_recovery = 배가스 미반응 수소와 현열을 사전환원·예열에 재이용하는 확대안
+
+## [2026-07-25T20:15:30+09:00] add-claim
+
+CLM-6E107341CE5B: PRJ-SUSTEEL-DONAWITZ / water_vapor_recovery = 배가스 수증기 응축수의 수전해 재이용 개념 개발 목표
+
+## [2026-07-25T20:15:31+09:00] add-claim
+
+CLM-A7854D8EC19F: PRJ-SUSTEEL-DONAWITZ / performance_metrics = 2025/26 중점 연구는 수소 공급 확보와 가스 회수 개선
+
+## [2026-07-25T20:15:31+09:00] add-claim
+
+CLM-AA28DE3631E0: PRJ-SUSTEEL-DONAWITZ / economic_assessment = SuSteel 관련 2025/26 R&D 비용 EUR 0.86 million; 전년 EUR 0.89 million
+
+## [2026-07-25T20:15:32+09:00] add-claim
+
+CLM-0B23B919443D: PRJ-SUSTEEL-DONAWITZ / equipment_reference = K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; 실제 배관계장도나 준공도는 아님
+
+## [2026-07-25T20:15:33+09:00] add-claim
+
+CLM-841CD30F8DC6: PRJ-SUSTEEL-DONAWITZ / result_limitations = 시험설비 운전과 목표 처리량은 200 kg/h 장기 연속 생산·가동률·상용 경제성을 입증하지 않음
+
+## [2026-07-25T20:15:33+09:00] add-claim
+
+CLM-7225D07639F6: PRJ-LIGHTBOW-HPSR-CONTROL / project_status = HPSR 연속 투입 중 아크 출력의 모델 기반 제어를 개발하는 FFG 진행 프로젝트
+
+## [2026-07-25T20:15:34+09:00] add-claim
+
+CLM-F9296973FA08: PRJ-LIGHTBOW-HPSR-CONTROL / project_start_date = 2024-07-01
+
+## [2026-07-25T20:15:35+09:00] add-claim
+
+CLM-84580A4A97BC: PRJ-LIGHTBOW-HPSR-CONTROL / target_completion_date = 2026-12-31
+
+## [2026-07-25T20:15:35+09:00] add-claim
+
+CLM-09914B7FC022: PRJ-LIGHTBOW-HPSR-CONTROL / partners = K1-MET, Universität Linz, Pirhofer Automation, voestalpine Stahl, voestalpine Stahl Donawitz
+
+## [2026-07-25T20:15:36+09:00] add-claim
+
+CLM-A53487A0CAB2: PRJ-LIGHTBOW-HPSR-CONTROL / arc_configuration = Ar-H2-미분광을 중공 전극으로 공급하고 전극-용융욕 사이 직류 아크를 형성
+
+## [2026-07-25T20:15:37+09:00] add-claim
+
+CLM-C110AC89184C: PRJ-LIGHTBOW-HPSR-CONTROL / feed_power_control = 연속 수소·광석 공급 중 정밀 아크 출력 제어가 미해결 과제
+
+## [2026-07-25T20:15:37+09:00] add-claim
+
+CLM-C33E6552920D: PRJ-LIGHTBOW-HPSR-CONTROL / model_layer = 실험과 수치 시뮬레이션으로 제어전략에 통합할 아크 모델 개발
+
+## [2026-07-25T20:15:38+09:00] add-claim
+
+CLM-6DEC62884FE1: PRJ-LIGHTBOW-HPSR-CONTROL / equipment_reference = K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; LIGHTBOW 전용 준공도는 아님
+
+## [2026-07-25T20:15:39+09:00] add-claim
+
+CLM-9795296929F9: PRJ-LIGHTBOW-HPSR-CONTROL / result_limitations = 프로젝트 목표는 제어모델 개발이며 연속 제강 성능 달성의 증거가 아님
+
+## [2026-07-25T20:15:56+09:00] add-claim
+
+CLM-0F7652F99299: COM-voestalpine / hydrogen_plasma_smelt_status = Donawitz SuSteel 파일럿에서 직류 아크 수소 플라즈마로 철광석 환원·용융 단일공정 연구 단계
+
+## [2026-07-25T20:15:57+09:00] verify-claim
+
+CLM-0F7652F99299: added evidence SRC-20260725-A0AC41D7
+
+## [2026-07-25T20:17:57+09:00] verify-claim
+
+CLM-BB6E64511585: added evidence SRC-20260725-F2F9BB6E
+
+## [2026-07-25T20:17:57+09:00] verify-claim
+
+CLM-BB6E64511585: added evidence SRC-20260725-A0AC41D7
+
+## [2026-07-25T20:18:03+09:00] sync-obsidian
+
+43 subjects and 97 sources projected.
+
+## [2026-07-25T20:18:39+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-377243E38143",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "optical_visibility_limit",
+  "value": "수증기와 분진이 광 신호를 흡수·차폐해 OES 기반 폐루프 제어의 가용성을 제한할 수 있음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-EE8A09EF"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2024 공개 계측 한계",
+      "source_ids": [
+        "SRC-20260725-EE8A09EF"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8931CA83FF90",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "continuous_target_capacity",
+  "value": "SuSteel follow-up 확대 목표는 철광석 200 kg/h의 완전 연속 환원",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-1F1EA152"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2025 학술 확대 목표",
+      "source_ids": [
+        "SRC-20260725-1F1EA152"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C8A1C6A9B3CF",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "scale_up_requirement",
+  "value": "연속 광석 공급·출강, 아크 안정성, H2·Ar·배가스 수지, 전극·내화물 수명, 철 증발과 장기 가동률 검증이 상용 확대 조건",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-973F138F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "정부가 확인한 제어 과제와 학술 위험에 근거한 AI 분석",
+      "source_ids": [
+        "SRC-20260725-973F138F"
+      ]
+    }
+  ]
+}

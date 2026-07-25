@@ -8,7 +8,9 @@
   "first_seen": "2022-04-27",
   "last_verified": "2026-07-25",
   "source_ids": [
-    "SRC-20260725-FE22DEFE"
+    "SRC-20260725-FE22DEFE",
+    "SRC-20260725-F2F9BB6E",
+    "SRC-20260725-A0AC41D7"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -27,6 +29,22 @@
       "reason": "2026-07-25 공식 원문 재검증",
       "source_ids": [
         "SRC-20260725-FE22DEFE"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "voestalpine 2025/26 연차보고서로 최신 시험설비 운전 상태 재검증",
+      "source_ids": [
+        "SRC-20260725-F2F9BB6E"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "K1-MET SuS-F 공식 연속 프로젝트 자료로 재검증",
+      "source_ids": [
+        "SRC-20260725-A0AC41D7"
       ]
     }
   ]

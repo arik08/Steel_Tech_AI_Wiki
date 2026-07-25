@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9C4B4FA121D3",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "melt_capacity",
+  "value": "SuSteel 개발은 약 100 g 실험실 용융 규모에서 약 90 kg 파일럿 용융 규모로 확대",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-2FA1B498"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "K1-MET 공식 규모 이력",
+      "source_ids": [
+        "SRC-20260725-2FA1B498"
+      ]
+    }
+  ]
+}

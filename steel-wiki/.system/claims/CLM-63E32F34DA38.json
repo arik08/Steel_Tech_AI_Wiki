@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-63E32F34DA38",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "melt_capacity",
+  "value": "약 100 g 실험실 규모에서 약 90 kg 용융 파일럿으로 확대",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-2FA1B498"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "K1-MET 공식 규모 이력",
+      "source_ids": [
+        "SRC-20260725-2FA1B498"
+      ]
+    }
+  ]
+}

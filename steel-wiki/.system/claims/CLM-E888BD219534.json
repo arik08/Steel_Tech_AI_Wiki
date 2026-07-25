@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E888BD219534",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "development_stage",
+  "value": "Donawitz 시험설비는 2021년부터 운전 중이며 200 kg/h 연속화·가스회수·제어는 연구개발 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F2F9BB6E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "voestalpine 최신 공식 현황",
+      "source_ids": [
+        "SRC-20260725-F2F9BB6E"
+      ]
+    }
+  ]
+}

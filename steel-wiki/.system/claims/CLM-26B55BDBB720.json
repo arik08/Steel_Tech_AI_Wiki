@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-26B55BDBB720",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "water_vapor_recovery",
+  "value": "SuS-F는 배가스 수증기를 응축해 전기분해용 물로 재이용하는 개념을 목표에 포함",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A0AC41D7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "K1-MET 공식 프로젝트 목표",
+      "source_ids": [
+        "SRC-20260725-A0AC41D7"
+      ]
+    }
+  ]
+}

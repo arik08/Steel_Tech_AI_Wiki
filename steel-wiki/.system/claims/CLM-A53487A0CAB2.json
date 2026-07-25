@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A53487A0CAB2",
+  "subject_id": "PRJ-LIGHTBOW-HPSR-CONTROL",
+  "predicate": "arc_configuration",
+  "value": "Ar-H2-미분광을 중공 전극으로 공급하고 전극-용융욕 사이 직류 아크를 형성",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-973F138F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "FFG 공식 공정 설명",
+      "source_ids": [
+        "SRC-20260725-973F138F"
+      ]
+    }
+  ]
+}

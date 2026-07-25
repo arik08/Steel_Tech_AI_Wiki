@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-87AD0AFA5AB3",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "original_target_completion_date",
+  "value": "2025-09-30 K1-MET 페이지의 기존 SuS-F 종료 일정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A0AC41D7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "K1-MET 기존 일정 보존",
+      "source_ids": [
+        "SRC-20260725-A0AC41D7"
+      ]
+    }
+  ]
+}

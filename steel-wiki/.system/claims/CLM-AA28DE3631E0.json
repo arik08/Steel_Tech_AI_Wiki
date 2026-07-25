@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-AA28DE3631E0",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "economic_assessment",
+  "value": "SuSteel 관련 2025/26 R&D 비용 EUR 0.86 million; 전년 EUR 0.89 million",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F2F9BB6E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "voestalpine 공식 연차보고 수치",
+      "source_ids": [
+        "SRC-20260725-F2F9BB6E"
+      ]
+    }
+  ]
+}

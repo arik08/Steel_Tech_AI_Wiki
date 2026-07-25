@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A7854D8EC19F",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "performance_metrics",
+  "value": "2025/26 중점 연구는 수소 공급 확보와 가스 회수 개선",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F2F9BB6E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "voestalpine 최신 공식 연구초점",
+      "source_ids": [
+        "SRC-20260725-F2F9BB6E"
+      ]
+    }
+  ]
+}

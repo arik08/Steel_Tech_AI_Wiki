@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C681D287579A",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "tapping_mode",
+  "value": "SuS-F는 저탄소강의 반연속 출강을 개발 목표로 설정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A0AC41D7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "K1-MET 공식 출강 목표",
+      "source_ids": [
+        "SRC-20260725-A0AC41D7"
+      ]
+    }
+  ]
+}

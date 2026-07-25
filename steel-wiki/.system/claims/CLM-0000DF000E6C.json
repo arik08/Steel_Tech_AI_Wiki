@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0000DF000E6C",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "argon_penalty",
+  "value": "확대 시나리오는 아크 안정화를 위해 플라즈마 가스 중 약 25 vol.% Ar을 가정하며 Ar 가열은 에너지 부담",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-1F1EA152"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "논문 시나리오 가정",
+      "source_ids": [
+        "SRC-20260725-1F1EA152"
+      ]
+    }
+  ]
+}

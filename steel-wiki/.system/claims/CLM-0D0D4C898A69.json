@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0D0D4C898A69",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "plasma_melt_interface",
+  "value": "활성 수소종과 용융 산화철의 환원반응은 플라즈마-용융욕 계면에서 진행",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4333339B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "in-situ 계면 연구",
+      "source_ids": [
+        "SRC-20260725-4333339B"
+      ]
+    }
+  ]
+}

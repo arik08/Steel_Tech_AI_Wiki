@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-26B93B4BC569",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "feed_power_control",
+  "value": "연속 수소·광석 투입 중 정밀 아크 출력 제어는 FFG LIGHTBOW가 명시한 미해결 과제",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-973F138F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "FFG 공식 연구과제",
+      "source_ids": [
+        "SRC-20260725-973F138F"
+      ]
+    }
+  ]
+}
