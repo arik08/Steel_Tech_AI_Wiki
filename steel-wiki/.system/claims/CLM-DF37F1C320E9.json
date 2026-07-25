@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-DF37F1C320E9",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "reaction_path",
+  "value": "XRD에서 hematite→magnetite→wustite→metallic iron의 단계적 고체환원 경로 확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-04-16",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D965F782"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-04-16",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    }
+  ]
+}

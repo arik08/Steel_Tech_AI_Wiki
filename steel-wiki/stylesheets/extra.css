@@ -127,15 +127,18 @@
 
   .md-typeset table[data-recent-updates-changes] th:nth-child(1),
   .md-typeset table[data-recent-updates-changes] td:nth-child(1) {
-    width: 12%;
+    width: 11%;
     min-width: 0;
+    padding-inline: 0.25rem;
+    font-size: 0.85em;
+    text-align: left;
     white-space: nowrap;
   }
 
   .md-typeset table[data-recent-updates-changes] th:nth-child(2),
   .md-typeset table[data-recent-updates-changes] td:nth-child(2) {
-    width: 26%;
-    overflow-wrap: anywhere;
+    width: 29%;
+    overflow-wrap: normal;
     word-break: keep-all;
   }
 
@@ -151,8 +154,10 @@
 
   .md-typeset table[data-recent-updates-changes] th:nth-child(6),
   .md-typeset table[data-recent-updates-changes] td:nth-child(6) {
-    width: 10%;
-    overflow-wrap: anywhere;
+    width: 9%;
+    padding-inline: 0.25rem;
+    font-size: 0.9em;
+    white-space: nowrap;
   }
 }
 

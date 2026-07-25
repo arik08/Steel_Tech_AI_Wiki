@@ -3315,3 +3315,647 @@ CLM-BB6E64511585: added evidence SRC-20260725-A0AC41D7
 ## [2026-07-25T20:18:39+09:00] audit
 
 0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T20:25:57+09:00] add-source
+
+SRC-20260725-4C776B11: Rio Tinto BioIron proves successful for low-carbon iron-making
+
+## [2026-07-25T20:25:58+09:00] add-source
+
+SRC-20260725-C925BF86: Rio Tinto pauses BioIron pilot construction
+
+## [2026-07-25T20:25:59+09:00] add-source
+
+SRC-20260725-E5CFE77A: BioIron Pilot Plant Works Approval W6964/2024/1 Decision Report
+
+## [2026-07-25T20:25:59+09:00] add-source
+
+SRC-20260725-D965F782: US11959153B2 Production of iron
+
+## [2026-07-25T20:26:00+09:00] add-source
+
+SRC-20260725-AEE7865A: Introduction to BioIron - Investor Seminar 2023
+
+## [2026-07-25T20:26:01+09:00] add-source
+
+SRC-20260725-84498FDF: Rio Tinto climate reporting: 2025 progress and 2026 action
+
+## [2026-07-25T20:26:17+09:00] add-image
+
+MED-7D0824C55537: attached to SRC-20260725-D965F782 (patent_figure, link_only)
+
+## [2026-07-25T20:26:18+09:00] add-image
+
+MED-FA0ECC96CB3C: attached to SRC-20260725-D965F782 (patent_figure, link_only)
+
+## [2026-07-25T20:33:59+09:00] add-claim
+
+CLM-D51F4D773225: TEC-microwave-biomass-ironmaking / technical_definition = 철광석 미분과 바이오매스를 브리켓 내부에 혼합하고 무산소 분위기에서 마이크로웨이브로 고체 환원철을 생산하는 공정
+
+## [2026-07-25T20:34:00+09:00] add-claim
+
+CLM-56E61743A8B8: TEC-microwave-biomass-ironmaking / process_principle = 철광석과 바이오매스가 마이크로웨이브를 흡수해 내부 발열하고 바이오매스 열분해 가스와 고정탄소가 산화철을 환원
+
+## [2026-07-25T20:34:00+09:00] add-claim
+
+CLM-74B193DF95A8: TEC-microwave-biomass-ironmaking / biomass_role = 바이오매스는 주 환원제이며 열분해 가스의 연소열도 예열·사전환원에 이용 가능
+
+## [2026-07-25T20:34:01+09:00] add-claim
+
+CLM-223B514F08AD: TEC-microwave-biomass-ironmaking / biomass_candidates = 밀짚·보리짚·카놀라 줄기·사탕수수 버개스·벼 줄기·톱밥 등 농업 부산물과 지속가능 에너지작물
+
+## [2026-07-25T20:34:01+09:00] add-claim
+
+CLM-F647E8197F44: TEC-microwave-biomass-ironmaking / feedstock_scope = Pilbara 철광석 미분, 바이오매스, 석회석·돌로마이트·마그네사이트계 플럭스와 소량 흑연 첨가제
+
+## [2026-07-25T20:34:02+09:00] add-claim
+
+CLM-98A3F3C6F4B9: TEC-microwave-biomass-ironmaking / agglomerate_form = 철광석-바이오매스 그린 브리켓을 성형·스크리닝하고 10~20% 예상 미분은 혼합기로 재순환
+
+## [2026-07-25T20:34:03+09:00] add-claim
+
+CLM-DAF2E62D7DA1: TEC-microwave-biomass-ironmaking / furnace_configuration = 예열·사전환원 구역과 마이크로웨이브 구역으로 나뉜 연속 선형 노상로 설계
+
+## [2026-07-25T20:34:04+09:00] add-claim
+
+CLM-DF7751B0FEF8: TEC-microwave-biomass-ironmaking / furnace_zones = 전단 재래식 가열 예열·사전환원부와 후단 마이크로웨이브 고금속화부의 2구역 구성
+
+## [2026-07-25T20:34:05+09:00] add-claim
+
+CLM-73BB6C8C15A8: TEC-microwave-biomass-ironmaking / linear_hearth_transport = 브리켓을 노상을 따라 연속 이송하고 구역 사이 모터 구동 컴팩터 롤로 층고를 고르게 유지
+
+## [2026-07-25T20:34:06+09:00] add-claim
+
+CLM-0F07E5699182: TEC-microwave-biomass-ironmaking / bed_depth_control = 컴팩터 롤이 팬 폭 방향 층 깊이를 균질화하고 마이크로웨이브부로의 가스·분진 유입 억제를 보조
+
+## [2026-07-25T20:34:06+09:00] add-claim
+
+CLM-CE740626FCE0: TEC-microwave-biomass-ironmaking / microwave_delivery = 마이크로웨이브 발생기-도파관-혼을 통해 이동층 폭에 전자장 에너지를 분배
+
+## [2026-07-25T20:34:07+09:00] add-claim
+
+CLM-24CA64134D0A: TEC-microwave-biomass-ironmaking / pilot_horn_count = 서호주 1 t/h 허가 설계는 컨베이어 폭 방향 균일 가열을 위해 최대 12개 마이크로웨이브 혼 배치
+
+## [2026-07-25T20:34:07+09:00] add-claim
+
+CLM-CEB6921E2E52: TEC-microwave-biomass-ironmaking / microwave_frequency = 특허 실험은 2450 MHz, 산업 고출력 설계 검토 주파수는 915 MHz
+
+## [2026-07-25T20:34:08+09:00] add-claim
+
+CLM-7C3058554D31: TEC-microwave-biomass-ironmaking / microwave_penetration = 특허 실험에서 500°C 초과·915 MHz 조건의 도출 침투깊이 약 5 cm; 5~10 cm 연속 부하 가열 가능성 제시
+
+## [2026-07-25T20:34:09+09:00] add-claim
+
+CLM-69371DBA31C2: TEC-microwave-biomass-ironmaking / inerting_and_sealing = 질소로 무산소 분위기를 유지하고 다중 차폐·밀봉으로 마이크로웨이브 누설과 가스·분진 유입을 억제
+
+## [2026-07-25T20:34:09+09:00] add-claim
+
+CLM-EB63D7F9A8EC: TEC-microwave-biomass-ironmaking / pyrolysis_gas_role = 바이오매스 열분해가스는 산화철 환원과 예열부 부분·완전 연소 열원으로 활용되며 공정가스 일부는 재순환
+
+## [2026-07-25T20:34:10+09:00] add-claim
+
+CLM-DF37F1C320E9: TEC-microwave-biomass-ironmaking / reaction_path = XRD에서 hematite→magnetite→wustite→metallic iron의 단계적 고체환원 경로 확인
+
+## [2026-07-25T20:34:11+09:00] add-claim
+
+CLM-5A089F8AEEDC: TEC-microwave-biomass-ironmaking / side_reaction = 실리카와 산화철의 fayalite 형성이 철 회수·금속화와 후단 슬래그 부하를 악화시킬 수 있음
+
+## [2026-07-25T20:34:11+09:00] add-claim
+
+CLM-8342467E5DAC: TEC-microwave-biomass-ironmaking / operating_temperature = 특허 청구 범위의 hematite 금속화 온도 800~950°C; 설명 실시형태는 최대 1100°C 범위를 제시
+
+## [2026-07-25T20:34:12+09:00] add-claim
+
+CLM-B37D009F8F61: TEC-microwave-biomass-ironmaking / product_form = 마이크로웨이브 구역에서 생산되는 고금속화 탄소함유 DRI; 후단 HBI 또는 용선·강으로 전환 필요
+
+## [2026-07-25T20:34:13+09:00] add-claim
+
+CLM-7B7DBD8F21BA: TEC-microwave-biomass-ironmaking / dri_cooling = 고온 DRI는 스크루 냉각기에서 냉각 후 저장 사일로로 이송
+
+## [2026-07-25T20:34:13+09:00] add-claim
+
+CLM-13AEA45EE440: TEC-microwave-biomass-ironmaking / dri_passivation = 냉각 DRI를 공기·질소 혼합가스로 60~72시간 패시베이션하는 허가 설계
+
+## [2026-07-25T20:34:14+09:00] add-claim
+
+CLM-62C1E9E9EC96: TEC-microwave-biomass-ironmaking / downstream_melting = DRI 미분을 유도로 또는 별도 용융로에서 녹여 금속과 슬래그를 분리한 뒤 BOF·EAF 정련
+
+## [2026-07-25T20:34:15+09:00] add-claim
+
+CLM-B998C18E24F1: TEC-microwave-biomass-ironmaking / byproduct = CO·미연탄화수소·타르 가능 성분·분진·슬래그 및 바이오매스 회분
+
+## [2026-07-25T20:34:15+09:00] add-claim
+
+CLM-8F56C7BE2A6C: TEC-microwave-biomass-ironmaking / offgas_treatment = 공정가스 내부 재이용 후 미연탄화수소 후연소, 분무냉각·희석공기, 백필터·배기팬·굴뚝 처리
+
+## [2026-07-25T20:34:16+09:00] add-claim
+
+CLM-246CD97046D6: TEC-microwave-biomass-ironmaking / laboratory_scale = 특허 실험은 540×425×425 mm 멀티모드 캐비티에서 약 27 g·4개 브리켓, 1~2 kW, 1~16분 처리
+
+## [2026-07-25T20:34:17+09:00] add-claim
+
+CLM-67AE9126AA7A: TEC-microwave-biomass-ironmaking / pilot_batch_size = 독일 소형 파일럿은 골프공 크기 철광석-바이오매스 브리켓 1,000개씩 회분 처리
+
+## [2026-07-25T20:34:18+09:00] add-claim
+
+CLM-DD2F6A6F3C8E: TEC-microwave-biomass-ironmaking / capacity_tph = 중단 전 서호주 준산업 파일럿 설계능력 약 1 tonne DRI/h
+
+## [2026-07-25T20:34:18+09:00] add-claim
+
+CLM-291EF6FE7153: TEC-microwave-biomass-ironmaking / pilot_operating_hours = 서호주 허가 설계의 연간 계획 운전시간 약 2,000 h
+
+## [2026-07-25T20:34:19+09:00] add-claim
+
+CLM-B5A7E77434AC: TEC-microwave-biomass-ironmaking / campaign_schedule = 8주 운전 캠페인 후 3주 설비 개조 정지를 반복하는 R&D 운전 계획
+
+## [2026-07-25T20:34:20+09:00] add-claim
+
+CLM-92EAF1129359: TEC-microwave-biomass-ironmaking / patent_energy_balance = 소형 비최적 실험의 열손실 보정 추정 1.6 GJ/t product, 무보정 환산 74 GJ/t product, 열손실 약 90%; 2 GJ/t는 산업 최적화 가능성
+
+## [2026-07-25T20:34:20+09:00] add-claim
+
+CLM-30984410745B: TEC-microwave-biomass-ironmaking / electricity_comparison_claim = Rio Tinto는 BioIron 전력소비가 재생수소 의존 제철 경로의 약 1/3이라고 주장; 실제 연속 플랜트 원단위 미공개
+
+## [2026-07-25T20:34:21+09:00] add-claim
+
+CLM-6718B8B5E040: TEC-microwave-biomass-ironmaking / emissions_reduction_claim = 재생전력·빠르게 성장하는 바이오매스의 탄소순환 조건에서 BF-BOF 대비 최대 95% 감축 가능하다는 회사 주장
+
+## [2026-07-25T20:34:22+09:00] add-claim
+
+CLM-6A54D28429BA: TEC-microwave-biomass-ironmaking / biomass_efficiency_claim = Rio Tinto 2024 자료는 다른 바이오차 경로 대비 원시 바이오매스 사용량 1/3~1/4을 주장
+
+## [2026-07-25T20:34:22+09:00] add-claim
+
+CLM-77346B34D52F: TEC-microwave-biomass-ironmaking / sustainability_boundary = 구목·고보전가치 산림 벌목을 지원하는 원료를 배제하고 농업 부산물·에너지작물 인증과 토지이용 변화를 검증해야 함
+
+## [2026-07-25T20:34:23+09:00] add-claim
+
+CLM-EF99699B07FD: TEC-microwave-biomass-ironmaking / radiation_safety = 마이크로웨이브 누설 차폐, 노 후드 공랭, 호주 전자파 안전기준과 방사선 규제기관 통보가 필요한 설비
+
+## [2026-07-25T20:34:24+09:00] add-claim
+
+CLM-B2F8967F5A87: TEC-microwave-biomass-ironmaking / dust_explosion_risk = 저밀도 바이오매스 분쇄·이송·저장 과정의 가연성 분진과 점화원 통제가 요구됨
+
+## [2026-07-25T20:34:24+09:00] add-claim
+
+CLM-F60619E952C7: TEC-microwave-biomass-ironmaking / waste_estimate = 허가 설계 추정 연간 슬래그 700 t, 바이오매스 분진 168 t, 노 배가스 분진 72 t, 규격외 DRI 675 t
+
+## [2026-07-25T20:34:25+09:00] add-claim
+
+CLM-B752F5DF8DF8: TEC-microwave-biomass-ironmaking / development_stage = 독일 소형 회분 파일럿 성공 후 서호주 1 t/h 연속 파일럿 건설을 추진했으나 2025년 노 설계 문제로 건설 중단; 기술 R&D 지속
+
+## [2026-07-25T20:34:26+09:00] add-claim
+
+CLM-D252B51788DC: TEC-microwave-biomass-ironmaking / furnace_design_risk = 현재 노 설계는 기술 위험 최소화와 성능 최적화를 위한 추가 개발이 필요하다는 Rio Tinto 공식 판단
+
+## [2026-07-25T20:34:26+09:00] add-claim
+
+CLM-419693E1D520: TEC-microwave-biomass-ironmaking / continued_rd_status = 파일럿 건설은 중단됐지만 University of Nottingham·Metso와 BioIron 기술개발은 계속
+
+## [2026-07-25T20:34:27+09:00] add-claim
+
+CLM-D66E1E44FB87: TEC-microwave-biomass-ironmaking / result_limitations = 1 t/h·연 2,000 h·12개 혼·폐기물 수치는 허가·설계값이며 실제 준산업 연속운전 실적이 아님
+
+## [2026-07-25T20:34:28+09:00] add-claim
+
+CLM-12F95EE1F2E2: TEC-microwave-biomass-ironmaking / scale_up_requirement = 새 노 설계, 이동층 전자장 균일도, 브리켓 붕괴·층고 제어, 금속화·철수율, 배가스·분진, 혼·차폐 내구성과 실제 에너지수지 검증 필요
+
+## [2026-07-25T20:34:28+09:00] add-claim
+
+CLM-82CC312921F6: TEC-microwave-biomass-ironmaking / equipment_reference = US11959153B2 Figure 8 실험장치 및 Figure 14 공정 블록도; 독일 파일럿·서호주 1 t/h 준공도는 아님
+
+## [2026-07-25T20:35:15+09:00] review-required
+
+REV-CLM-5741113DD842: conflicting values for PRJ-BIOIRON-WA-RD / project_status
+
+## [2026-07-25T20:35:16+09:00] add-claim
+
+CLM-7E8ABC2A0160: PRJ-BIOIRON-WA-RD / location = Western Australia Rockingham Strategic Industrial Area의 Kwinana·Rockingham 산업지대 예정 부지
+
+## [2026-07-25T20:35:17+09:00] add-claim
+
+CLM-2681064C99AF: PRJ-BIOIRON-WA-RD / partners = Rio Tinto, University of Nottingham Microwave Process Engineering Group, Metso, Sedgman Onyx
+
+## [2026-07-25T20:35:17+09:00] add-claim
+
+CLM-6C8B0CCEE918: PRJ-BIOIRON-WA-RD / technology_route = 철광석-바이오매스 브리켓의 선형 노상로 예열·마이크로웨이브 고체환원 후 DRI 냉각·패시베이션·용융
+
+## [2026-07-25T20:35:18+09:00] add-claim
+
+CLM-F209458D59CB: PRJ-BIOIRON-WA-RD / equipment_configuration = 원료 분쇄·저장-혼합·브리켓-예열·사전환원-컴팩터 롤-최대 12혼 마이크로웨이브-스크루 냉각-패시베이션-유도로-배가스 처리
+
+## [2026-07-25T20:35:19+09:00] add-claim
+
+CLM-59F1500E0581: PRJ-BIOIRON-WA-RD / capacity_tph = 약 1 tonne iron product/h 계획
+
+## [2026-07-25T20:35:19+09:00] add-claim
+
+CLM-23DFC58D2E2E: PRJ-BIOIRON-WA-RD / pilot_operating_hours = 연간 약 2,000시간 R&D 운전 계획
+
+## [2026-07-25T20:35:20+09:00] add-claim
+
+CLM-9AD94817E3B5: PRJ-BIOIRON-WA-RD / campaign_schedule = 8주 운전 캠페인과 3주 설비 개조 정지를 반복하는 계획
+
+## [2026-07-25T20:35:21+09:00] add-claim
+
+CLM-1BCE9276131D: PRJ-BIOIRON-WA-RD / pilot_horn_count = 이동층 폭 방향 균일 가열을 위한 최대 12개 마이크로웨이브 혼
+
+## [2026-07-25T20:35:21+09:00] add-claim
+
+CLM-A31C69D461A4: PRJ-BIOIRON-WA-RD / pilot_batch_size = 전신 독일 파일럿에서 골프공 크기 브리켓 1,000개 단위 회분 시험
+
+## [2026-07-25T20:35:22+09:00] add-claim
+
+CLM-B604C153AF91: PRJ-BIOIRON-WA-RD / small_pilot_result_date = 2022-11-23 독일 소형 파일럿 성공 발표
+
+## [2026-07-25T20:35:23+09:00] add-claim
+
+CLM-9A887BDCB156: PRJ-BIOIRON-WA-RD / investment_approval_date = 2024-06-04 서호주 R&D 시설 US$143 million 투자 발표
+
+## [2026-07-25T20:35:24+09:00] add-claim
+
+CLM-1C0CCE794D46: PRJ-BIOIRON-WA-RD / permit_decision_date = 2025-07-28 서호주 DWER Works Approval W6964/2024/1 결정 보고서
+
+## [2026-07-25T20:35:24+09:00] add-claim
+
+CLM-8BD6E21521A7: PRJ-BIOIRON-WA-RD / original_commissioning_target = 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음
+
+## [2026-07-25T20:35:25+09:00] add-claim
+
+CLM-11D80F25D328: PRJ-BIOIRON-WA-RD / construction_pause_date = 2025-11-17 BioIron 파일럿 건설 중단 공식 발표
+
+## [2026-07-25T20:35:25+09:00] add-claim
+
+CLM-216DD3D2ECF6: PRJ-BIOIRON-WA-RD / continued_rd_status = 2026년 조치는 기술 위험 최소화와 성능 최적화를 위한 BioIron 기술개발 지속
+
+## [2026-07-25T20:35:26+09:00] add-claim
+
+CLM-AB71641C9C40: PRJ-BIOIRON-WA-RD / furnace_design_risk = 현재 노 설계는 기술 위험 최소화와 성능 최적화를 위한 추가 개발이 필요
+
+## [2026-07-25T20:35:27+09:00] add-claim
+
+CLM-A8F62B2F33D5: PRJ-BIOIRON-WA-RD / offgas_treatment = 내부 공정가스 재활용·후연소기·분무냉각·희석공기·백필터·굴뚝
+
+## [2026-07-25T20:35:28+09:00] add-claim
+
+CLM-9D2DF8FA2B0D: PRJ-BIOIRON-WA-RD / dri_passivation = 스크루 냉각 후 사일로에서 공기·질소 혼합가스로 60~72시간 패시베이션 계획
+
+## [2026-07-25T20:35:28+09:00] add-claim
+
+CLM-56DFFD170924: PRJ-BIOIRON-WA-RD / downstream_melting = DRI 미분을 유도로에서 용융해 15.8 kg 주물 잉곳과 슬래그를 생산하는 파일럿 설계
+
+## [2026-07-25T20:35:29+09:00] add-claim
+
+CLM-6EB4773774BA: PRJ-BIOIRON-WA-RD / waste_estimate = 허가설계 연간 슬래그 700 t, 바이오매스 분진 168 t, 노 배가스 분진 72 t, 규격외 DRI 675 t
+
+## [2026-07-25T20:35:30+09:00] add-claim
+
+CLM-F218BFCB07C6: PRJ-BIOIRON-WA-RD / sustainability_boundary = 농업 부산물 중심의 지속가능 바이오매스 조달과 구목·고보전가치 산림 원료 배제
+
+## [2026-07-25T20:35:30+09:00] add-claim
+
+CLM-A39644D3DD70: PRJ-BIOIRON-WA-RD / result_limitations = 환경허가·설계 수치일 뿐 1 t/h 장기 연속 생산, 금속화율, 철수율, 에너지·배출 원단위의 달성 실적이 아님
+
+## [2026-07-25T20:35:31+09:00] add-claim
+
+CLM-1B85D63D6EFB: PRJ-BIOIRON-WA-RD / equipment_reference = US11959153B2 Figure 8 실험장치도와 Figure 14 공정 블록도; 서호주 파일럿 준공도는 아님
+
+## [2026-07-25T20:35:58+09:00] resolve-review
+
+REV-CLM-5741113DD842: supersede. 2025-11-17 Rio Tinto 공식 발표가 2024년 시설 구축 계획을 대체하며, 건설 중단과 기술 R&D 지속을 현재 상태로 구분
+
+## [2026-07-25T20:35:59+09:00] review-required
+
+REV-CLM-C0D0F3CEC2D1: conflicting values for COM-Rio-Tinto / microwave_biomass_ironmaking_status
+
+## [2026-07-25T20:36:06+09:00] resolve-review
+
+REV-CLM-C0D0F3CEC2D1: supersede. 2025-11-17 Rio Tinto 공식 발표가 2024년 파일럿 개발 상태를 대체하며, 건설 중단과 기술 R&D 지속을 현재 상태로 반영
+
+## [2026-07-25T20:36:18+09:00] add-claim
+
+CLM-D66FF927187A: PRJ-BIOIRON-WA-RD / patent_priority_date = 2016-10-24 BioIron 핵심 마이크로웨이브-바이오매스 환원 특허군 우선일
+
+## [2026-07-25T20:36:19+09:00] sync-obsidian
+
+44 subjects and 103 sources projected.
+
+## [2026-07-25T20:38:58+09:00] add-source
+
+SRC-20260725-32EA9484: Decarbonising the steel value chain 2024
+
+## [2026-07-25T20:39:14+09:00] verify-claim
+
+CLM-6A54D28429BA: added evidence SRC-20260725-32EA9484
+
+## [2026-07-25T20:39:15+09:00] verify-claim
+
+CLM-30984410745B: added evidence SRC-20260725-32EA9484
+
+## [2026-07-25T20:39:24+09:00] sync-obsidian
+
+44 subjects and 104 sources projected.
+
+## [2026-07-25T20:40:06+09:00] audit
+
+67 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T20:40:50+09:00] verify-claim
+
+CLM-0F07E5699182: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:40:51+09:00] verify-claim
+
+CLM-11D80F25D328: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:40:51+09:00] verify-claim
+
+CLM-12F95EE1F2E2: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:40:52+09:00] verify-claim
+
+CLM-13AEA45EE440: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:40:52+09:00] verify-claim
+
+CLM-1B85D63D6EFB: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:40:53+09:00] verify-claim
+
+CLM-1BCE9276131D: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:40:54+09:00] verify-claim
+
+CLM-1C0CCE794D46: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:40:55+09:00] verify-claim
+
+CLM-216DD3D2ECF6: added evidence SRC-20260725-84498FDF
+
+## [2026-07-25T20:40:55+09:00] verify-claim
+
+CLM-223B514F08AD: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:40:56+09:00] verify-claim
+
+CLM-23DFC58D2E2E: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:40:56+09:00] verify-claim
+
+CLM-246CD97046D6: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:40:57+09:00] verify-claim
+
+CLM-24CA64134D0A: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:40:58+09:00] verify-claim
+
+CLM-2681064C99AF: added evidence SRC-20260725-F1D3EDEA
+
+## [2026-07-25T20:40:59+09:00] verify-claim
+
+CLM-291EF6FE7153: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:40:59+09:00] verify-claim
+
+CLM-30984410745B: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:41:00+09:00] verify-claim
+
+CLM-419693E1D520: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:41:01+09:00] verify-claim
+
+CLM-48E44220650A: added evidence SRC-20260725-F1D3EDEA
+
+## [2026-07-25T20:41:01+09:00] verify-claim
+
+CLM-56DFFD170924: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:02+09:00] verify-claim
+
+CLM-56E61743A8B8: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:03+09:00] verify-claim
+
+CLM-59F1500E0581: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:03+09:00] verify-claim
+
+CLM-5A089F8AEEDC: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:04+09:00] verify-claim
+
+CLM-62C1E9E9EC96: added evidence SRC-20260725-AEE7865A
+
+## [2026-07-25T20:41:05+09:00] verify-claim
+
+CLM-6718B8B5E040: added evidence SRC-20260725-F1D3EDEA
+
+## [2026-07-25T20:41:05+09:00] verify-claim
+
+CLM-67AE9126AA7A: added evidence SRC-20260725-4C776B11
+
+## [2026-07-25T20:41:06+09:00] verify-claim
+
+CLM-69371DBA31C2: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:07+09:00] verify-claim
+
+CLM-6A54D28429BA: added evidence SRC-20260725-F1D3EDEA
+
+## [2026-07-25T20:41:07+09:00] verify-claim
+
+CLM-6C8B0CCEE918: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:08+09:00] verify-claim
+
+CLM-6EB4773774BA: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:08+09:00] verify-claim
+
+CLM-73BB6C8C15A8: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:09+09:00] verify-claim
+
+CLM-74B193DF95A8: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:10+09:00] verify-claim
+
+CLM-77346B34D52F: added evidence SRC-20260725-4C776B11
+
+## [2026-07-25T20:41:11+09:00] verify-claim
+
+CLM-7B7DBD8F21BA: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:11+09:00] verify-claim
+
+CLM-7C3058554D31: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:12+09:00] verify-claim
+
+CLM-7D06CCF43548: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:41:13+09:00] verify-claim
+
+CLM-7E8ABC2A0160: added evidence SRC-20260725-F1D3EDEA
+
+## [2026-07-25T20:41:13+09:00] verify-claim
+
+CLM-82CC312921F6: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:14+09:00] verify-claim
+
+CLM-8342467E5DAC: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:15+09:00] verify-claim
+
+CLM-8BD6E21521A7: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:41:15+09:00] verify-claim
+
+CLM-8F56C7BE2A6C: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:16+09:00] verify-claim
+
+CLM-92E2C0A599A5: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:41:17+09:00] verify-claim
+
+CLM-92EAF1129359: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:17+09:00] verify-claim
+
+CLM-98A3F3C6F4B9: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:18+09:00] verify-claim
+
+CLM-9A887BDCB156: added evidence SRC-20260725-F1D3EDEA
+
+## [2026-07-25T20:41:19+09:00] verify-claim
+
+CLM-9AD94817E3B5: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:19+09:00] verify-claim
+
+CLM-9D2DF8FA2B0D: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:20+09:00] verify-claim
+
+CLM-A31C69D461A4: added evidence SRC-20260725-4C776B11
+
+## [2026-07-25T20:41:21+09:00] verify-claim
+
+CLM-A39644D3DD70: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:22+09:00] verify-claim
+
+CLM-A8F62B2F33D5: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:23+09:00] verify-claim
+
+CLM-AB71641C9C40: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:41:23+09:00] verify-claim
+
+CLM-B2F8967F5A87: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:24+09:00] verify-claim
+
+CLM-B37D009F8F61: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:25+09:00] verify-claim
+
+CLM-B5A7E77434AC: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:26+09:00] verify-claim
+
+CLM-B604C153AF91: added evidence SRC-20260725-4C776B11
+
+## [2026-07-25T20:41:26+09:00] verify-claim
+
+CLM-B752F5DF8DF8: added evidence SRC-20260725-84498FDF
+
+## [2026-07-25T20:41:27+09:00] verify-claim
+
+CLM-B998C18E24F1: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:27+09:00] verify-claim
+
+CLM-CE740626FCE0: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:28+09:00] verify-claim
+
+CLM-CEB6921E2E52: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:29+09:00] verify-claim
+
+CLM-D252B51788DC: added evidence SRC-20260725-C925BF86
+
+## [2026-07-25T20:41:29+09:00] verify-claim
+
+CLM-D51F4D773225: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:30+09:00] verify-claim
+
+CLM-D66E1E44FB87: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:31+09:00] verify-claim
+
+CLM-D66FF927187A: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:31+09:00] verify-claim
+
+CLM-DAF2E62D7DA1: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:32+09:00] verify-claim
+
+CLM-DD2F6A6F3C8E: added evidence SRC-20260725-F1D3EDEA
+
+## [2026-07-25T20:41:33+09:00] verify-claim
+
+CLM-DF37F1C320E9: added evidence SRC-20260725-D965F782
+
+## [2026-07-25T20:41:34+09:00] verify-claim
+
+CLM-DF7751B0FEF8: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:34+09:00] verify-claim
+
+CLM-EB63D7F9A8EC: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:35+09:00] verify-claim
+
+CLM-EF99699B07FD: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:36+09:00] verify-claim
+
+CLM-F209458D59CB: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:36+09:00] verify-claim
+
+CLM-F218BFCB07C6: added evidence SRC-20260725-4C776B11
+
+## [2026-07-25T20:41:37+09:00] verify-claim
+
+CLM-F60619E952C7: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:38+09:00] verify-claim
+
+CLM-F647E8197F44: added evidence SRC-20260725-E5CFE77A
+
+## [2026-07-25T20:41:38+09:00] sync-obsidian
+
+44 subjects and 104 sources projected.
+
+## [2026-07-25T20:41:39+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md
+
+## [2026-07-25T20:44:46+09:00] sync-obsidian
+
+44 subjects and 104 sources projected.
+
+## [2026-07-25T20:44:46+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-07-25.md

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-7B7DBD8F21BA",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "dri_cooling",
+  "value": "고온 DRI는 스크루 냉각기에서 냉각 후 저장 사일로로 이송",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-07-28",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E5CFE77A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-07-28",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-E5CFE77A"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-E5CFE77A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-92EAF1129359",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "patent_energy_balance",
+  "value": "소형 비최적 실험의 열손실 보정 추정 1.6 GJ/t product, 무보정 환산 74 GJ/t product, 열손실 약 90%; 2 GJ/t는 산업 최적화 가능성",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-04-16",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D965F782"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-04-16",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    }
+  ]
+}

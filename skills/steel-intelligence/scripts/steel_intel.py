@@ -913,14 +913,125 @@ TECHNOLOGY_DETAILS = {
         ),
     },
     "microwave biomass ironmaking": {
-        "label": "마이크로웨이브·바이오매스 제철",
+        "label": "마이크로웨이브·바이오매스 환원제철 (BioIron)",
+        "category": "바이오매스 내장 브리켓의 마이크로웨이브 고체환원",
         "description": (
-            "철광석과 바이오매스를 혼합해 바이오매스를 환원제로, 마이크로웨이브를 "
-            "주요 열원으로 사용하는 저탄소 제철 경로입니다."
+            "철광석 미분과 바이오매스를 밀착 혼합·브리켓화하고, 무산소 분위기에서 "
+            "마이크로웨이브로 입자 내부를 가열해 바이오매스 열분해 가스와 고정탄소로 "
+            "고체 환원철을 만드는 경로입니다. 제품은 완성강이 아니라 탄소 함유 DRI이므로 "
+            "냉각·패시베이션과 후단 용융·슬래그 분리가 필요합니다."
         ),
+        "scope_note": (
+            "이 문서는 Rio Tinto BioIron의 공개 특허·독일 소형 파일럿과 건설이 중단된 "
+            "서호주 1 t/h 선형 노상로 설계를 중심으로 다룹니다. 바이오차를 기존 고로·"
+            "소결·EAF에 일부 대체 투입하는 일반 바이오매스 활용과, 마이크로웨이브 "
+            "용융로 자체는 별도 기술입니다."
+        ),
+        "process_mermaid": (
+            'flowchart TB\n'
+            '    A["Pilbara 미분광·플럭스·흑연 첨가제"] --> C["분쇄·계량·혼합"]\n'
+            '    B["밀짚·톱밥 등 지속가능 바이오매스"] --> C\n'
+            '    C --> D["그린 브리켓 성형·스크리닝"]\n'
+            '    D --> E["선형 노상로 예열·사전환원 구역"]\n'
+            '    G["천연가스 시동 + 공정가스 부분연소"] --> E\n'
+            '    E --> R["컴팩터 롤 — 층고 균질화·가스/분진 차단"]\n'
+            '    R --> F["마이크로웨이브 구역 — 최대 12개 혼·도파관"]\n'
+            '    P["재생전력"] --> M["마이크로웨이브 발생기·튜너"]\n'
+            '    M --> F\n'
+            '    N["질소 불활성화·누설 차폐"] --> F\n'
+            '    F --> Q["바이오매스 열분해·CO/고정탄소 환원"]\n'
+            '    Q --> X["Fe₂O₃ → Fe₃O₄ → FeO → Fe + 탄소함유 DRI"]\n'
+            '    X --> H["스크루 냉각기"] --> I["60–72 h 공기/N₂ 패시베이션"]\n'
+            '    I --> J["저장·HBI 또는 유도로/용융로"]\n'
+            '    J --> K["용선·슬래그 → BOF/EAF 정련"]\n'
+            '    Q --> O["CO·탄화수소·분진 배가스"]\n'
+            '    O --> E\n'
+            '    O --> T["후연소기 → 분무냉각 → 백필터 → 굴뚝"]\n'
+            '    V["위험: 전자장 불균일·침투깊이·열점·브리켓 붕괴·분진폭발"] -. 운전창 .-> F\n'
+            '    classDef feed fill:#EEF2E8,stroke:#5C7D3E,color:#20242C\n'
+            '    classDef process fill:#FFF0D9,stroke:#C77700,color:#20242C\n'
+            '    classDef microwave fill:#5667C9,stroke:#3F50AF,color:#FFFFFF\n'
+            '    classDef product fill:#7B4A2A,stroke:#5D321A,color:#FFFFFF\n'
+            '    classDef gas fill:#F3F4F6,stroke:#6D7785,color:#20242C\n'
+            '    classDef risk fill:#FBE9E9,stroke:#B74848,color:#20242C\n'
+            '    class A,B,C,D feed\n'
+            '    class E,R,Q process\n'
+            '    class F,P,M,N microwave\n'
+            '    class X,H,I,J,K product\n'
+            '    class G,O,T gas\n'
+            '    class V risk'
+        ),
+        "process_legend": (
+            "**색상 범례 (AI 재구성):** 녹색=원료·브리켓 · 주황=예열·열분해·환원 · "
+            "청색=마이크로웨이브·불활성화 · 갈색=DRI·용융 제품 · 회색=연료·배가스 · "
+            "적색=확대 운전 위험"
+        ),
+        "diagram_note": (
+            "위 흐름도는 서호주 DWER 허가 설계와 BioIron 특허 공정을 기능 단위로 "
+            "재구성한 것입니다. 실제 1 t/h 노의 배관계장도·전자장 해석·준공도가 "
+            "아닙니다."
+        ),
+        "analysis_points": (
+            "BioIron의 핵심은 바이오매스를 외부 가스화해 환원가스를 보내는 방식이 아니라, "
+            "광석 미분과 바이오매스를 브리켓 내부에 밀착시켜 열분해 가스·고정탄소의 "
+            "확산거리를 줄이는 것입니다. 브리켓 밀도·기공률·수분·바인더·압축강도는 "
+            "전자장 흡수와 가스 배출, 붕괴·분진을 동시에 좌우합니다.",
+            "마이크로웨이브는 노벽부터 전도하는 열이 아니라 유전손실을 통해 원료 내부에 "
+            "열을 만들 수 있지만, ‘균일 체적가열’이 자동으로 보장되지는 않습니다. "
+            "광석 상변화·수분 제거·바이오매스 열분해에 따라 유전특성이 계속 바뀌므로 "
+            "반사전력·정재파·열점과 냉점을 실시간으로 제어해야 합니다.",
+            "특허가 제시한 915 MHz에서 약 5 cm 침투깊이와 5–10 cm 연속 부하 가능성은 "
+            "실험에서 도출한 설계 근거입니다. 서호주 설계의 최대 12개 혼과 층고 균질화 "
+            "롤은 넓은 노상 전체에 에너지를 고르게 전달하려는 대응이며, 장기 연속 "
+            "균일도·혼 수명·오염에 대한 실적은 공개되지 않았습니다.",
+            "바이오매스는 100–500°C 구간에서 건조·열분해되어 수증기·타르·탄화수소·CO와 "
+            "고정탄소를 만듭니다. 환원 반응은 Fe₂O₃→Fe₃O₄→FeO→Fe로 진행하지만 "
+            "실리카와 산화철이 fayalite를 만들면 철 회수·금속화와 후단 슬래그 부하가 "
+            "악화될 수 있습니다.",
+            "서호주 허가 설계는 ‘마이크로웨이브만으로 가열’하는 단순 공정이 아닙니다. "
+            "천연가스 시동, 열분해가스의 부분·완전 연소, 공정가스 재순환, 후연소기와 "
+            "유도로가 포함됩니다. 전력·천연가스·바이오탄소·후단 용융을 모두 포함한 "
+            "톤당 에너지·배출 경계가 필요합니다.",
+            "특허의 1.6 GJ/t 열손실 보정치와 약 2 GJ/t 산업 최적화 가능치는 실증 "
+            "원단위가 아닙니다. 같은 실험의 무보정 환산치는 74 GJ/t product이고 "
+            "열손실이 약 90%였으므로, 숫자 하나만 떼어 상용 효율로 인용하면 안 됩니다.",
+            "2024년 회사의 ‘수소 기반 경로 대비 전력 약 1/3’과 ‘BF–BOF 대비 최대 95% "
+            "감축’은 조건부 비교 주장입니다. 재생전력, 빠르게 자라는 지속가능 바이오매스, "
+            "토지이용 변화, 운송·건조, 후단 용융, 바이오탄소 회계와 CCS 여부를 동일 "
+            "경계에서 검증해야 합니다.",
+            "제품은 고금속화 탄소함유 DRI이며 자연발화 위험 때문에 냉각·60–72시간 "
+            "패시베이션이 계획됐습니다. 냉간 저장은 조업 유연성을 주지만 현열을 잃고 "
+            "재산화 위험이 생기므로, HBI화·고온 직송·후단 용융 중 최적 물류를 별도로 "
+            "비교해야 합니다.",
+            "서호주 파일럿은 8주 캠페인 뒤 3주 개조정지, 연 2,000시간 운전 계획이었습니다. "
+            "이는 상업 플랜트 가동률이 아니라 반복 설계변경을 전제로 한 R&D 계획이며, "
+            "2025년 건설 중단은 바로 노 설계 확대 위험이 해소되지 않았음을 보여줍니다.",
+            "2025년 중단은 기술 폐기를 뜻하지 않지만 2026년 시운전 계획은 더 이상 "
+            "현재 일정이 아닙니다. 시설 건설과 기술 R&D를 분리해, 다음 판단 기준을 "
+            "새 노 설계 공개·연속 브리켓 이송·전자장 균일도·가스/분진 관리·실제 "
+            "금속화율과 철 수율로 두어야 합니다.",
+        ),
+        "posco_implications": (
+            "BioIron은 HyREX와 마찬가지로 Pilbara급 미분·중저품위 원료의 펠릿 의존도를 "
+            "낮추려는 경로지만, 환원제·열전달·제품 형태가 다릅니다. POSCO는 동일 광종으로 "
+            "전처리 에너지, 금속화율, 철 수율, 슬래그량, 후단 용융 전력을 비교해야 합니다.",
+            "브리켓 내부 환원은 FINEX·HyREX의 미분 유동층과 달리 원료 성형을 다시 "
+            "도입합니다. 기존 제철소의 브리켓·분진 재활용 경험을 활용할 수 있으나, "
+            "농업잔사 계절성·회분·알칼리·염소·수분과 장거리 물류는 별도 공급망 리스크입니다.",
+            "마이크로웨이브 발생기·도파관·혼·차폐·반사전력 계측은 기존 전기로 전력설비와 "
+            "다른 역량입니다. 시험한다면 작은 회분 실험보다 연속 이동층에서 층고·상변화에 "
+            "따른 전자장 분포와 브리켓 온도 편차를 계측하는 것이 우선입니다.",
+            "현재 단계에서는 BioIron을 HyREX 대체 상용안으로 보기보다, 저수소 지역의 "
+            "장기 선택지이자 바이오탄소·마이크로웨이브 결합 벤치마크로 관리하는 편이 "
+            "타당합니다. 재개 조건은 신규 노 설계, 지속 운전시간, 전력·바이오매스 "
+            "원단위, LCA, 후단 용융 제품 품질의 공개입니다.",
+        ),
+        "related_projects": ("PRJ-BIOIRON-WA-RD",),
         "watch": (
-            "지속가능한 바이오매스 조달, 브리켓 품질, 균일 가열, 전력소비, "
-            "배출가스 처리와 준산업 규모 연속운전 결과를 확인해야 합니다."
+            "중단된 1 t/h 설계의 재개 또는 대체 노형, 최대 12개 혼의 실제 전자장 균일도, "
+            "연속 브리켓 이송·붕괴율, 금속화율·철 수율·제품 탄소, 전력·천연가스·"
+            "바이오매스 원단위, 타르·분진·슬래그, 지속가능성 인증과 후단 용융 품질을 "
+            "확인해야 합니다."
         ),
     },
 }
@@ -1189,6 +1300,43 @@ PREDICATE_LABELS = {
     "followup_phase_completion_date": "중간 후속단계 종료",
     "project_volume_eur": "총 프로젝트 규모",
     "target_trl": "목표 기술성숙도",
+    "biomass_role": "바이오매스 역할",
+    "biomass_candidates": "바이오매스 후보",
+    "agglomerate_form": "원료 성형 형태",
+    "microwave_frequency": "마이크로웨이브 주파수",
+    "microwave_delivery": "마이크로웨이브 전달계",
+    "furnace_zones": "노 구역 구성",
+    "linear_hearth_transport": "선형 노상 이송",
+    "inerting_and_sealing": "불활성화·전자파 차폐",
+    "pyrolysis_gas_role": "열분해가스 역할",
+    "bed_depth_control": "층고·분포 제어",
+    "microwave_penetration": "마이크로웨이브 침투깊이",
+    "reaction_path": "산화철 환원 경로",
+    "side_reaction": "부반응·맥석 영향",
+    "dri_cooling": "DRI 냉각",
+    "dri_passivation": "DRI 패시베이션",
+    "downstream_melting": "후단 용융·정련",
+    "offgas_treatment": "배가스 처리",
+    "pilot_operating_hours": "연간 계획 운전시간",
+    "campaign_schedule": "파일럿 캠페인 일정",
+    "pilot_horn_count": "마이크로웨이브 혼 구성",
+    "laboratory_scale": "실험실 시험 규모",
+    "patent_energy_balance": "특허 에너지수지",
+    "electricity_comparison_claim": "전력수요 비교 주장",
+    "emissions_reduction_claim": "배출감축 주장",
+    "biomass_efficiency_claim": "바이오매스 효율 주장",
+    "sustainability_boundary": "바이오매스 지속가능성 경계",
+    "radiation_safety": "전자파 안전",
+    "dust_explosion_risk": "분진폭발 위험",
+    "waste_estimate": "허가 설계 폐기물 추정",
+    "furnace_design_risk": "노 설계 확대 위험",
+    "continued_rd_status": "건설 중단 후 R&D",
+    "patent_priority_date": "특허 우선일",
+    "small_pilot_result_date": "독일 소형 파일럿 발표",
+    "investment_approval_date": "서호주 투자 발표",
+    "permit_decision_date": "환경 허가 결정",
+    "construction_pause_date": "건설 중단 발표",
+    "original_commissioning_target": "기존 시운전 목표",
 }
 TECHNICAL_FEATURE_GROUPS = (
     (
@@ -1285,6 +1433,13 @@ TECHNICAL_FEATURE_GROUPS = (
             "reduction_sequence",
             "rate_limiting_stage",
             "optical_monitoring",
+            "furnace_zones",
+            "linear_hearth_transport",
+            "inerting_and_sealing",
+            "pyrolysis_gas_role",
+            "bed_depth_control",
+            "microwave_delivery",
+            "reaction_path",
         ),
     ),
     (
@@ -1336,6 +1491,17 @@ TECHNICAL_FEATURE_GROUPS = (
             "offgas_heat_recovery",
             "water_vapor_recovery",
             "optical_visibility_limit",
+            "biomass_role",
+            "biomass_candidates",
+            "agglomerate_form",
+            "microwave_frequency",
+            "microwave_penetration",
+            "side_reaction",
+            "dri_cooling",
+            "dri_passivation",
+            "downstream_melting",
+            "pilot_horn_count",
+            "laboratory_scale",
         ),
     ),
     (
@@ -1366,6 +1532,15 @@ TECHNICAL_FEATURE_GROUPS = (
             "cost_premium_range",
             "infrastructure_dependency",
             "progress_level_one_threshold",
+            "offgas_treatment",
+            "patent_energy_balance",
+            "electricity_comparison_claim",
+            "emissions_reduction_claim",
+            "biomass_efficiency_claim",
+            "sustainability_boundary",
+            "radiation_safety",
+            "dust_explosion_risk",
+            "waste_estimate",
         ),
     ),
     (
@@ -1397,6 +1572,10 @@ TECHNICAL_FEATURE_GROUPS = (
             "historical_demonstration",
             "pilot_batch_size",
             "pilot_campaign_plan",
+            "pilot_operating_hours",
+            "campaign_schedule",
+            "furnace_design_risk",
+            "continued_rd_status",
         ),
     ),
 )
@@ -1430,6 +1609,12 @@ PROJECT_TIMELINE_PREDICATES = {
     "research_origin_date": "연구 이력",
     "followup_start_date": "후속 단계",
     "followup_phase_completion_date": "후속 단계",
+    "patent_priority_date": "특허 이력",
+    "small_pilot_result_date": "실증 이력",
+    "investment_approval_date": "투자 발표",
+    "permit_decision_date": "허가 이력",
+    "construction_pause_date": "중단 발표",
+    "original_commissioning_target": "기존 목표",
 }
 PROJECT_DISPLAY_NAMES = {
     "PRJ-BIOIRON-WA-RD": "BioIron 연구개발 시설 (Western Australia)",
@@ -1506,6 +1691,15 @@ MEDIA_KIND_LABELS = {
     "other": "기술 이미지",
 }
 MEDIA_DISPLAY_OVERRIDES = {
+    # Google Patents serves these figures as tall, full patent-sheet images.
+    # Keep their patent identity, but prevent a single portrait page from
+    # dominating the article viewport.
+    "MED-7D0824C55537": {
+        "display_width": "compact",
+    },
+    "MED-FA0ECC96CB3C": {
+        "display_width": "compact",
+    },
     # The official page labels this asset as a NEDO COURSE50 image. Browser
     # inspection confirmed that it is the experimental-furnace photograph,
     # not the adjacent process flowsheet.
@@ -2487,8 +2681,14 @@ def media_for_display(media: dict[str, Any]) -> dict[str, Any]:
     return {**media, **override} if override else media
 
 
-def media_width_class(kind: str) -> str:
+def media_width_class(media: dict[str, Any]) -> str:
     """Keep ordinary photos compact; reserve wide display for readable diagrams."""
+    display_width = str(media.get("display_width") or "")
+    if display_width == "compact":
+        return ".steel-media-compact"
+    if display_width == "detail":
+        return ".steel-media-detail"
+    kind = str(media.get("kind") or "other")
     if kind in {
         "equipment_drawing",
         "patent_figure",
@@ -2527,7 +2727,7 @@ def media_gallery_lines(
         local_path = str(media.get("local_path") or "")
         image_url = str(media.get("image_url") or "")
         origin_url = str(media.get("origin_url") or "")
-        width_class = media_width_class(kind)
+        width_class = media_width_class(media)
         if local_path:
             lines.extend(
                 [
@@ -2622,7 +2822,7 @@ def representative_image_lines(
     kind = str(media.get("kind") or "other")
     rights_status = str(media.get("rights_status") or "-")
     origin_url = str(media.get("origin_url") or "")
-    width_class = media_width_class(kind)
+    width_class = media_width_class(media)
     image_target = f"../{local_path}" if local_path else f"<{image_url}>"
     metadata = [
         markdown_cell(MEDIA_KIND_LABELS.get(kind, "기술 이미지")),
@@ -4525,6 +4725,7 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
     change_rows: list[tuple[str, str]] = []
     for claim in claims:
         subject_id = str(claim.get("subject_id", ""))
+        claim_id = str(claim.get("claim_id", ""))
         subject_link = subject_links.get(subject_id, markdown_cell(subject_id))
         predicate = str(claim.get("predicate", ""))
         predicate_label = PREDICATE_LABELS.get(
@@ -4532,12 +4733,19 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
         )
         status = str(claim.get("status", ""))
         status_label = CLAIM_STATUS_LABELS.get(status, status)
-        claim_source_links = ", ".join(
+        if status == "active" and predicate.startswith("original_"):
+            status_label = "과거 계획 기록"
+        claim_source_ids = list(claim.get("source_ids", []))
+        claim_source_links = " · ".join(
             wikilink(
                 Path("sources") / f"{source_id}.md",
-                str(source_id),
+                (
+                    "근거 보기"
+                    if len(claim_source_ids) == 1
+                    else f"근거 {index}"
+                ),
             )
-            for source_id in claim.get("source_ids", [])
+            for index, source_id in enumerate(claim_source_ids, start=1)
         )
         for event in claim.get("history", []):
             source_links = claim_source_links
@@ -4555,12 +4763,16 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
                 action_label = f"{action_label}: {from_label} → {to_label}"
             event_sources = event.get("source_ids")
             if isinstance(event_sources, list) and event_sources:
-                source_links = ", ".join(
+                source_links = " · ".join(
                     wikilink(
                         Path("sources") / f"{source_id}.md",
-                        str(source_id),
+                        (
+                            "근거 보기"
+                            if len(event_sources) == 1
+                            else f"근거 {index}"
+                        ),
                     )
-                    for source_id in event_sources
+                    for index, source_id in enumerate(event_sources, start=1)
                 )
             date_value = str(event.get("date", ""))
             row = (
@@ -4574,7 +4786,7 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
             change_rows.append(
                 (
                     "\x1f".join(
-                        [date_value, subject_id, predicate, action, str(claim.get("claim_id", ""))]
+                        [date_value, subject_id, predicate, action, claim_id]
                     ),
                     row,
                 )

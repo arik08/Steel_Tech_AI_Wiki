@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-67AE9126AA7A",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "pilot_batch_size",
+  "value": "독일 소형 파일럿은 골프공 크기 철광석-바이오매스 브리켓 1,000개씩 회분 처리",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2022-11-23",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4C776B11"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2022-11-23",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-4C776B11"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-4C776B11"
+      ]
+    }
+  ]
+}

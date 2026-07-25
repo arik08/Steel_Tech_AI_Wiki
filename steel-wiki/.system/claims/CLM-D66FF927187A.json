@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-D66FF927187A",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "patent_priority_date",
+  "value": "2016-10-24 BioIron 핵심 마이크로웨이브-바이오매스 환원 특허군 우선일",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2016-10-24",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D965F782"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2016-10-24",
+      "action": "created",
+      "reason": "BioIron 공개 기술 이력의 최초 확정 날짜 등록",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    }
+  ]
+}

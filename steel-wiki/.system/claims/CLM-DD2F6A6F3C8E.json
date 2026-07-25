@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-DD2F6A6F3C8E",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "capacity_tph",
+  "value": "중단 전 서호주 준산업 파일럿 설계능력 약 1 tonne DRI/h",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-06-04",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F1D3EDEA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-06-04",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    }
+  ]
+}

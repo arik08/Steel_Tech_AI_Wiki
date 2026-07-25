@@ -401,8 +401,9 @@ class SteelIntelTests(unittest.TestCase):
             "table[data-recent-updates-changes]",
             styles,
         )
-        self.assertIn("width: 12%", styles)
-        self.assertIn("width: 26%", styles)
+        self.assertIn("width: 11%", styles)
+        self.assertIn("width: 29%", styles)
+        self.assertIn("width: 9%", styles)
         self.assertIn("white-space: nowrap", styles)
 
         page = type(
@@ -603,6 +604,8 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("## 변경된 지식", recent_updates)
         self.assertIn("신규 등록", recent_updates)
         self.assertIn(first_source_id, recent_updates)
+        self.assertIn("|근거 보기]]", recent_updates)
+        self.assertNotIn("현재 유효하지 않음 · 현재 유효", recent_updates)
         self.assertIn(
             "[[companies/COM-Example-Steel|Example Steel]]",
             index_page,

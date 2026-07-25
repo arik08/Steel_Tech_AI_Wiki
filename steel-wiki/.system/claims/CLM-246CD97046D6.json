@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-246CD97046D6",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "laboratory_scale",
+  "value": "특허 실험은 540×425×425 mm 멀티모드 캐비티에서 약 27 g·4개 브리켓, 1~2 kW, 1~16분 처리",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-04-16",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D965F782"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-04-16",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    }
+  ]
+}

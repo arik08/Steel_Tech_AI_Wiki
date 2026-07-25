@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-11D80F25D328",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "construction_pause_date",
+  "value": "2025-11-17 BioIron 파일럿 건설 중단 공식 발표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-11-17",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C925BF86"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-11-17",
+      "action": "created",
+      "reason": "BioIron 프로젝트 전체 일정·설비·운영 경계 검증",
+      "source_ids": [
+        "SRC-20260725-C925BF86"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-C925BF86"
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "subject_id": "PRJ-BIOIRON-WA-RD",
   "predicate": "project_status",
   "value": "research and development facility development",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2024-06-04",
   "last_verified": "2026-07-25",
@@ -28,6 +28,14 @@
       "source_ids": [
         "SRC-20260725-F1D3EDEA"
       ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "2025-11-17 Rio Tinto 공식 발표가 2024년 시설 구축 계획을 대체하며, 건설 중단과 기술 R&D 지속을 현재 상태로 구분"
     }
-  ]
+  ],
+  "superseded_by": "CLM-7D06CCF43548"
 }

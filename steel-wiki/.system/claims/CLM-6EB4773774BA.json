@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-6EB4773774BA",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "waste_estimate",
+  "value": "허가설계 연간 슬래그 700 t, 바이오매스 분진 168 t, 노 배가스 분진 72 t, 규격외 DRI 675 t",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-07-28",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E5CFE77A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-07-28",
+      "action": "created",
+      "reason": "BioIron 프로젝트 전체 일정·설비·운영 경계 검증",
+      "source_ids": [
+        "SRC-20260725-E5CFE77A"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-E5CFE77A"
+      ]
+    }
+  ]
+}

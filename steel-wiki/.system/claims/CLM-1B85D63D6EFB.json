@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-1B85D63D6EFB",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "equipment_reference",
+  "value": "US11959153B2 Figure 8 실험장치도와 Figure 14 공정 블록도; 서호주 파일럿 준공도는 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-04-16",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D965F782"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-04-16",
+      "action": "created",
+      "reason": "BioIron 프로젝트 전체 일정·설비·운영 경계 검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    }
+  ]
+}

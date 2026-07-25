@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-EF99699B07FD",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "radiation_safety",
+  "value": "마이크로웨이브 누설 차폐, 노 후드 공랭, 호주 전자파 안전기준과 방사선 규제기관 통보가 필요한 설비",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-07-28",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E5CFE77A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-07-28",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-E5CFE77A"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-E5CFE77A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-62C1E9E9EC96",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "downstream_melting",
+  "value": "DRI 미분을 유도로 또는 별도 용융로에서 녹여 금속과 슬래그를 분리한 뒤 BOF·EAF 정련",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2023-12-06",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-AEE7865A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2023-12-06",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-AEE7865A"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-AEE7865A"
+      ]
+    }
+  ]
+}

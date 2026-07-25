@@ -9,8 +9,12 @@
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 3개 / 감시 기술 11개 |
-    | **실행 단계** | 연구·실증 3건 |
-    | **직접 연결 근거** | 3건 |
+    | **실행 단계** | 연구·실증 2건 · 중단·연기 신호 1건 |
+    | **직접 연결 근거** | 5건 |
+
+!!! warning "주의해서 볼 항목"
+
+    - **마이크로웨이브·바이오매스 환원제철 (BioIron):** BioIron 1 t/h 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 장기 기술 R&D는 지속 [^src-20260725-c925bf86][^src-20260725-84498fdf]
 
 ## 기술 포트폴리오
 
@@ -20,7 +24,7 @@
 | --- | --- | --- |
 | **[[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]]** | NeoSmelt Kwinana DRI–ESF 파일럿의 동등 지분 참여사로, 2026년 final design 단계이며 FID는 미확정·2028년 하반기 시운전 목표 [^src-20260725-8a93e42f] | **연구·실증** |
 | **[[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]]** | voestalpine·Primetals 등과 HY4SMELT 실증에 참여해 저·중품위 미분광의 HYFOR-전기 Smelter 경로를 검증 중 [^src-20260725-e316d68f] | **연구·실증** |
-| **[[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 제철]]** | 서호주 BioIron R&D 시설 및 기존 대비 10배 규모 파일럿 개발 단계; 바이오매스 환원제와 마이크로웨이브 사용 [^src-20260725-f1d3edea] | **연구·실증** |
+| **[[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]** | BioIron 1 t/h 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 장기 기술 R&D는 지속 [^src-20260725-c925bf86][^src-20260725-84498fdf] | **중단·연기 신호** |
 
 ## 기술별 근거와 확인 과제
 
@@ -44,32 +48,40 @@
 
     **다음 확인:** 광종별 입도창·열적 파쇄, 반응기별 ΔP·고착·비산, 수소 이용률과 금속화율 분포, 분진 회수 후 철 수율, 고온 환원철 이송, ESF 통합 가동률, 장기 캠페인 정비 이력과 원료부터 용선까지의 에너지·배출 경계를 확인해야 합니다.
 
-??? info "마이크로웨이브·바이오매스 제철 · 연구·실증"
+??? info "마이크로웨이브·바이오매스 환원제철 (BioIron) · 중단·연기 신호"
 
-    **확인된 사실:** 서호주 BioIron R&D 시설 및 기존 대비 10배 규모 파일럿 개발 단계; 바이오매스 환원제와 마이크로웨이브 사용 [^src-20260725-f1d3edea]
+    **확인된 사실:** BioIron 1 t/h 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 장기 기술 R&D는 지속 [^src-20260725-c925bf86][^src-20260725-84498fdf]
 
-    **판단 기준:** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
+    **판단 기준:** 공식 발표에 실행 차질이 명시된 상태이므로 기존 목표 일정과 투자 지속 여부를 우선 재확인해야 합니다.
 
-    **확인 날짜:** 발표 2024-06-04 · 검증 2026-07-25
+    **확인 날짜:** 발표 2025-11-17 · 검증 2026-07-25
 
-    **다음 확인:** 지속가능한 바이오매스 조달, 브리켓 품질, 균일 가열, 전력소비, 배출가스 처리와 준산업 규모 연속운전 결과를 확인해야 합니다.
+    **다음 확인:** 중단된 1 t/h 설계의 재개 또는 대체 노형, 최대 12개 혼의 실제 전자장 균일도, 연속 브리켓 이송·붕괴율, 금속화율·철 수율·제품 탄소, 전력·천연가스·바이오매스 원단위, 타르·분진·슬래그, 지속가능성 인증과 후단 용융 품질을 확인해야 합니다.
 
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
 
     - 확인된 사실만으로 기술 경쟁력을 단일 순위로 평가하지 않았습니다. 실증 규모, 상용 운전, 원료·에너지 조건이 서로 다르기 때문입니다.
-    - 현재 자료의 실행 단계 분포는 연구·실증 3건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
+    - 현재 자료의 실행 단계 분포는 연구·실증 2건 · 중단·연기 신호 1건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
     - 다음 갱신에서는 목표치보다 착공·준공·누적 생산량·가동률·제품 단위 배출량처럼 실행을 입증하는 지표를 우선 확인하는 것이 좋습니다.
+
+??? note "변경 이력"
+
+    - **microwave biomass ironmaking status · 후속 정보로 대체:** 서호주 BioIron R&D 시설 및 기존 대비 10배 규모 파일럿 개발 단계; 바이오매스 환원제와 마이크로웨이브 사용 [^src-20260725-f1d3edea]
 
 ## 근거 자료
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-84498FDF|Rio Tinto climate reporting: 2025 progress and 2026 action]] | Rio Tinto · 게시일 미상 | [원문 보기](https://www.riotinto.com/en/invest/reports/climate-reporting) |
 | [[sources/SRC-20260725-8A93E42F|Value chain GHG emission reductions — DRI-ESF programme update]] | BHP · 게시일 미상 | [원문 보기](https://www.bhp.com/sustainability/climate-change/value-chain-ghg-emission-reductions) |
+| [[sources/SRC-20260725-C925BF86|Rio Tinto pauses BioIron pilot construction]] | Rio Tinto · 2025-11-17 | [원문 보기](https://www.riotinto.com/en/news/releases/2025/rio-tinto-partners-with-calix-to-test-low-emissions-steel-making-in-western-australia-pauses-bioiron) |
 | [[sources/SRC-20260725-E316D68F|Construction begins on HYFOR and Smelter demonstration plant]] | Primetals Technologies · 2025-09-25 | [원문 보기](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) |
 | [[sources/SRC-20260725-F1D3EDEA|Rio Tinto develops BioIron R&D facility in Western Australia]] | Rio Tinto · 2024-06-04 | [원문 보기](https://www.riotinto.com/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-low-carbon-steelmaking) |
 
+[^src-20260725-84498fdf]: **Rio Tinto climate reporting: 2025 progress and 2026 action** — Rio Tinto, 게시일 미상. [원문](https://www.riotinto.com/en/invest/reports/climate-reporting) · [[sources/SRC-20260725-84498FDF|보관 원문·메타데이터]]
 [^src-20260725-8a93e42f]: **Value chain GHG emission reductions — DRI-ESF programme update** — BHP, 게시일 미상. [원문](https://www.bhp.com/sustainability/climate-change/value-chain-ghg-emission-reductions) · [[sources/SRC-20260725-8A93E42F|보관 원문·메타데이터]]
+[^src-20260725-c925bf86]: **Rio Tinto pauses BioIron pilot construction** — Rio Tinto, 2025-11-17. [원문](https://www.riotinto.com/en/news/releases/2025/rio-tinto-partners-with-calix-to-test-low-emissions-steel-making-in-western-australia-pauses-bioiron) · [[sources/SRC-20260725-C925BF86|보관 원문·메타데이터]]
 [^src-20260725-e316d68f]: **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
 [^src-20260725-f1d3edea]: **Rio Tinto develops BioIron R&D facility in Western Australia** — Rio Tinto, 2024-06-04. [원문](https://www.riotinto.com/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-low-carbon-steelmaking) · [[sources/SRC-20260725-F1D3EDEA|보관 원문·메타데이터]]

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-F218BFCB07C6",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "sustainability_boundary",
+  "value": "농업 부산물 중심의 지속가능 바이오매스 조달과 구목·고보전가치 산림 원료 배제",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2022-11-23",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4C776B11"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2022-11-23",
+      "action": "created",
+      "reason": "BioIron 프로젝트 전체 일정·설비·운영 경계 검증",
+      "source_ids": [
+        "SRC-20260725-4C776B11"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-4C776B11"
+      ]
+    }
+  ]
+}

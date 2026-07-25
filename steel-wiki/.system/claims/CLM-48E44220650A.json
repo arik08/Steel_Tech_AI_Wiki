@@ -28,6 +28,14 @@
       "source_ids": [
         "SRC-20260725-F1D3EDEA"
       ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
     }
   ]
 }

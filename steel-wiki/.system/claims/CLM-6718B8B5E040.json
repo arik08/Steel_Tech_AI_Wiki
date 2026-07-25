@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-6718B8B5E040",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "emissions_reduction_claim",
+  "value": "재생전력·빠르게 성장하는 바이오매스의 탄소순환 조건에서 BF-BOF 대비 최대 95% 감축 가능하다는 회사 주장",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-06-04",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F1D3EDEA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-06-04",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    }
+  ]
+}

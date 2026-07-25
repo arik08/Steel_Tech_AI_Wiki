@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-9D2DF8FA2B0D",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "dri_passivation",
+  "value": "스크루 냉각 후 사일로에서 공기·질소 혼합가스로 60~72시간 패시베이션 계획",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-07-28",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E5CFE77A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-07-28",
+      "action": "created",
+      "reason": "BioIron 프로젝트 전체 일정·설비·운영 경계 검증",
+      "source_ids": [
+        "SRC-20260725-E5CFE77A"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-E5CFE77A"
+      ]
+    }
+  ]
+}

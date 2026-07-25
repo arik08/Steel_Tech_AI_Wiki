@@ -2,18 +2,57 @@
 
 # BioIron 연구개발 시설 (Western Australia)
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **2건** · 직접 연결 근거 **1건**
+> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **26건** · 직접 연결 근거 **6건**
+
+
+![마이크로웨이브 발생기와 도파관, 질소 공급, 반응 캐비티 내부 브리켓을 표시한 특허 실험장치도](<https://patentimages.storage.googleapis.com/94/09/e2/0ec72830c4b438/US11959153-20240416-D00005.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
+
+*대표 이미지 — US11959153B2 Figure 8: 2 kW 마이크로웨이브 발생기, 자동 튜너, 도파관, PC 제어, 질소 공급·배가스 배출, 내화물과 바이오매스-철광석 브리켓을 포함한 실험 처리장치 (특허 도면 · 권리 `link_only` · 출처 [[sources/SRC-20260725-D965F782|SRC-20260725-D965F782]] · [원문 페이지](https://patents.google.com/patent/US11959153B2/en))*
+
+
+## 설비·공정 이미지
+
+![브리켓 예열과 마이크로웨이브 환원 챔버, 질소 공급 및 고체 제품 배출을 보여주는 특허 공정도](<https://patentimages.storage.googleapis.com/71/27/c7/5b911d8f373789/US11959153-20240416-D00008.png>){ .steel-media-image .steel-media-compact }
+
+**특허 도면.** US11959153B2 Figure 14: 철광석-바이오매스 브리켓, 예열부, 마이크로웨이브·질소 공급 반응실, 배가스 및 고체 환원철 배출의 특허 공정 블록도
+
+- 출처 [[sources/SRC-20260725-D965F782|SRC-20260725-D965F782]] · 권리 `link_only` · [원문 페이지](https://patents.google.com/patent/US11959153B2/en) · 작성·촬영 Rio Tinto Services Limited / Michael Buckley
+- 권리 메모: 특허 원문의 Figure 14를 원격 링크로만 표시합니다. 서호주 파일럿의 실제 배관계장도 또는 준공도가 아닙니다.
 
 !!! abstract "현재 상태"
 
-    **연구개발 시설 구축 중** [^src-20260725-f1d3edea]
+    **서호주 1 t/h BioIron 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 기술 R&D는 지속** [^src-20260725-c925bf86]
 
 ## 확인된 핵심 정보
 
 | 항목 | 확인된 내용 |
 | --- | --- |
-| **프로젝트 상태** | 연구개발 시설 구축 중 [^src-20260725-f1d3edea] |
+| **프로젝트 상태** | 서호주 1 t/h BioIron 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 기술 R&D는 지속 [^src-20260725-c925bf86] |
+| **기술 경로** | 철광석-바이오매스 브리켓의 선형 노상로 예열·마이크로웨이브 고체환원 후 DRI 냉각·패시베이션·용융 [^src-20260725-e5cfe77a] |
+| **파일럿 캠페인 일정** | 8주 운전 캠페인과 3주 설비 개조 정지를 반복하는 계획 [^src-20260725-e5cfe77a] |
+| **시간당 처리능력** | 약 1 tonne iron product/h 계획 [^src-20260725-e5cfe77a] |
 | **투자비** | 1억 4,300만 달러 (USD 143 million) [^src-20260725-f1d3edea] |
+| **건설 중단 발표** | 2025-11-17 BioIron 파일럿 건설 중단 공식 발표 [^src-20260725-c925bf86] |
+| **건설 중단 후 R&D** | 2026년 조치는 기술 위험 최소화와 성능 최적화를 위한 BioIron 기술개발 지속 [^src-20260725-84498fdf] |
+| **후단 용융·정련** | DRI 미분을 유도로에서 용융해 15.8 kg 주물 잉곳과 슬래그를 생산하는 파일럿 설계 [^src-20260725-e5cfe77a] |
+| **DRI 패시베이션** | 스크루 냉각 후 사일로에서 공기·질소 혼합가스로 60~72시간 패시베이션 계획 [^src-20260725-e5cfe77a] |
+| **설비 구성** | 원료 분쇄·저장-혼합·브리켓-예열·사전환원-컴팩터 롤-최대 12혼 마이크로웨이브-스크루 냉각-패시베이션-유도로-배가스 처리 [^src-20260725-e5cfe77a] |
+| **대표 설비 참고** | US11959153B2 Figure 8 실험장치도와 Figure 14 공정 블록도; 서호주 파일럿 준공도는 아님 [^src-20260725-d965f782] |
+| **노 설계 확대 위험** | 현재 노 설계는 기술 위험 최소화와 성능 최적화를 위한 추가 개발이 필요 [^src-20260725-c925bf86] |
+| **서호주 투자 발표** | 2024-06-04 서호주 R&D 시설 US$143 million 투자 발표 [^src-20260725-f1d3edea] |
+| **위치** | Western Australia Rockingham Strategic Industrial Area의 Kwinana·Rockingham 산업지대 예정 부지 [^src-20260725-f1d3edea] |
+| **배가스 처리** | 내부 공정가스 재활용·후연소기·분무냉각·희석공기·백필터·굴뚝 [^src-20260725-e5cfe77a] |
+| **기존 시운전 목표** | 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 [^src-20260725-c925bf86] |
+| **참여 기관** | Rio Tinto, University of Nottingham Microwave Process Engineering Group, Metso, Sedgman Onyx [^src-20260725-f1d3edea] |
+| **특허 우선일** | 2016-10-24 BioIron 핵심 마이크로웨이브-바이오매스 환원 특허군 우선일 [^src-20260725-d965f782] |
+| **환경 허가 결정** | 2025-07-28 서호주 DWER Works Approval W6964/2024/1 결정 보고서 [^src-20260725-e5cfe77a] |
+| **파일럿 회분 투입량** | 전신 독일 파일럿에서 골프공 크기 브리켓 1,000개 단위 회분 시험 [^src-20260725-4c776b11] |
+| **마이크로웨이브 혼 구성** | 이동층 폭 방향 균일 가열을 위한 최대 12개 마이크로웨이브 혼 [^src-20260725-e5cfe77a] |
+| **연간 계획 운전시간** | 연간 약 2,000시간 R&D 운전 계획 [^src-20260725-e5cfe77a] |
+| **공개 성과의 한계** | 환경허가·설계 수치일 뿐 1 t/h 장기 연속 생산, 금속화율, 철수율, 에너지·배출 원단위의 달성 실적이 아님 [^src-20260725-e5cfe77a] |
+| **독일 소형 파일럿 발표** | 2022-11-23 독일 소형 파일럿 성공 발표 [^src-20260725-4c776b11] |
+| **바이오매스 지속가능성 경계** | 농업 부산물 중심의 지속가능 바이오매스 조달과 구목·고보전가치 산림 원료 배제 [^src-20260725-4c776b11] |
+| **허가 설계 폐기물 추정** | 허가설계 연간 슬래그 700 t, 바이오매스 분진 168 t, 노 배가스 분진 72 t, 규격외 DRI 675 t [^src-20260725-e5cfe77a] |
 
 ## 전체 확인 이력
 
@@ -21,10 +60,37 @@
 
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
-| 2024-06-04 | 발표·검증 | **투자비**: 1억 4,300만 달러 (USD 143 million) · **프로젝트 상태**: 연구개발 시설 구축 중 [^src-20260725-f1d3edea] |
+| 2016-10-24 | 특허 이력 | **특허 우선일**: 2016-10-24 BioIron 핵심 마이크로웨이브-바이오매스 환원 특허군 우선일 [^src-20260725-d965f782] |
+| 2022-11-23 | 발표·검증 | **파일럿 회분 투입량**: 전신 독일 파일럿에서 골프공 크기 브리켓 1,000개 단위 회분 시험 · **독일 소형 파일럿 발표**: 2022-11-23 독일 소형 파일럿 성공 발표 · **바이오매스 지속가능성 경계**: 농업 부산물 중심의 지속가능 바이오매스 조달과 구목·고보전가치 산림 원료 배제 [^src-20260725-4c776b11] |
+| 2022-11-23 | 실증 이력 | **독일 소형 파일럿 발표**: 2022-11-23 독일 소형 파일럿 성공 발표 [^src-20260725-4c776b11] |
+| 2024-04-16 | 발표·검증 | **대표 설비 참고**: US11959153B2 Figure 8 실험장치도와 Figure 14 공정 블록도; 서호주 파일럿 준공도는 아님 · **특허 우선일**: 2016-10-24 BioIron 핵심 마이크로웨이브-바이오매스 환원 특허군 우선일 [^src-20260725-d965f782] |
+| 2024-06-04 | 발표·검증 | **참여 기관**: Rio Tinto, University of Nottingham Microwave Process Engineering Group, Metso, Sedgman Onyx · **투자비**: 1억 4,300만 달러 (USD 143 million) · **위치**: Western Australia Rockingham Strategic Industrial Area의 Kwinana·Rockingham 산업지대 예정 부지 · **서호주 투자 발표**: 2024-06-04 서호주 R&D 시설 US$143 million 투자 발표 · **프로젝트 상태**: 연구개발 시설 구축 중 · 후속 정보로 대체 [^src-20260725-f1d3edea] |
+| 2024-06-04 | 투자 발표 | **서호주 투자 발표**: 2024-06-04 서호주 R&D 시설 US$143 million 투자 발표 [^src-20260725-f1d3edea] |
+| 2025-07-28 | 발표·검증 | **마이크로웨이브 혼 구성**: 이동층 폭 방향 균일 가열을 위한 최대 12개 마이크로웨이브 혼 · **환경 허가 결정**: 2025-07-28 서호주 DWER Works Approval W6964/2024/1 결정 보고서 · **연간 계획 운전시간**: 연간 약 2,000시간 R&D 운전 계획 · **후단 용융·정련**: DRI 미분을 유도로에서 용융해 15.8 kg 주물 잉곳과 슬래그를 생산하는 파일럿 설계 · **시간당 처리능력**: 약 1 tonne iron product/h 계획 · **기술 경로**: 철광석-바이오매스 브리켓의 선형 노상로 예열·마이크로웨이브 고체환원 후 DRI 냉각·패시베이션·용융 · **허가 설계 폐기물 추정**: 허가설계 연간 슬래그 700 t, 바이오매스 분진 168 t, 노 배가스 분진 72 t, 규격외 DRI 675 t · **파일럿 캠페인 일정**: 8주 운전 캠페인과 3주 설비 개조 정지를 반복하는 계획 · **DRI 패시베이션**: 스크루 냉각 후 사일로에서 공기·질소 혼합가스로 60~72시간 패시베이션 계획 · **공개 성과의 한계**: 환경허가·설계 수치일 뿐 1 t/h 장기 연속 생산, 금속화율, 철수율, 에너지·배출 원단위의 달성 실적이 아님 · **배가스 처리**: 내부 공정가스 재활용·후연소기·분무냉각·희석공기·백필터·굴뚝 · **설비 구성**: 원료 분쇄·저장-혼합·브리켓-예열·사전환원-컴팩터 롤-최대 12혼 마이크로웨이브-스크루 냉각-패시베이션-유도로-배가스 처리 [^src-20260725-e5cfe77a] |
+| 2025-07-28 | 허가 이력 | **환경 허가 결정**: 2025-07-28 서호주 DWER Works Approval W6964/2024/1 결정 보고서 [^src-20260725-e5cfe77a] |
+| 2025-11-17 | 발표·검증 | **건설 중단 발표**: 2025-11-17 BioIron 파일럿 건설 중단 공식 발표 · **프로젝트 상태**: 서호주 1 t/h BioIron 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 기술 R&D는 지속 · **기존 시운전 목표**: 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 · **노 설계 확대 위험**: 현재 노 설계는 기술 위험 최소화와 성능 최적화를 위한 추가 개발이 필요 [^src-20260725-c925bf86] |
+| 2025-11-17 | 중단 발표 | **건설 중단 발표**: 2025-11-17 BioIron 파일럿 건설 중단 공식 발표 [^src-20260725-c925bf86] |
+| 2026 | 기존 목표 | **기존 시운전 목표**: 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 [^src-20260725-c925bf86] |
+| 2026-07-25 | 수집 확인 | **건설 중단 후 R&D**: 2026년 조치는 기술 위험 최소화와 성능 최적화를 위한 BioIron 기술개발 지속 [^src-20260725-84498fdf] |
+
+## 변경 이력
+
+| 상태 | 항목 | 이전 내용 | 변경 사유 | 최근 검증 |
+| --- | --- | --- | --- | --- |
+| **후속 정보로 대체** | 프로젝트 상태 | 연구개발 시설 구축 중 [^src-20260725-f1d3edea] | 2025-11-17 Rio Tinto 공식 발표가 2024년 시설 구축 계획을 대체하며, 건설 중단과 기술 R&D 지속을 현재 상태로 구분 | 2026-07-25 |
 
 ## 근거 자료
 
+- **Rio Tinto BioIron proves successful for low-carbon iron-making** — Rio Tinto, 2022-11-23 · [원문 보기](https://www.riotinto.com/en/news/releases/2022/rio-tintos-bioiron-proves-successful-for-low-carbon-iron-making) · [[sources/SRC-20260725-4C776B11|보관 원문·메타데이터]]
+- **Rio Tinto climate reporting: 2025 progress and 2026 action** — Rio Tinto, 게시일 미상 · [원문 보기](https://www.riotinto.com/en/invest/reports/climate-reporting) · [[sources/SRC-20260725-84498FDF|보관 원문·메타데이터]]
+- **Rio Tinto pauses BioIron pilot construction** — Rio Tinto, 2025-11-17 · [원문 보기](https://www.riotinto.com/en/news/releases/2025/rio-tinto-partners-with-calix-to-test-low-emissions-steel-making-in-western-australia-pauses-bioiron) · [[sources/SRC-20260725-C925BF86|보관 원문·메타데이터]]
+- **US11959153B2 Production of iron** — United States Patent and Trademark Office / Google Patents, 2024-04-16 · [원문 보기](https://patents.google.com/patent/US11959153B2/en) · [[sources/SRC-20260725-D965F782|보관 원문·메타데이터]]
+- **BioIron Pilot Plant Works Approval W6964/2024/1 Decision Report** — Western Australia Department of Water and Environmental Regulation, 2025-07-28 · [원문 보기](https://www.der.wa.gov.au/images/documents/our-work/licences-and-works-approvals/Decisions_/W6964/W6964%2028-07-2025%20DR.pdf) · [[sources/SRC-20260725-E5CFE77A|보관 원문·메타데이터]]
 - **Rio Tinto develops BioIron R&D facility in Western Australia** — Rio Tinto, 2024-06-04 · [원문 보기](https://www.riotinto.com/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-low-carbon-steelmaking) · [[sources/SRC-20260725-F1D3EDEA|보관 원문·메타데이터]]
 
+[^src-20260725-4c776b11]: **Rio Tinto BioIron proves successful for low-carbon iron-making** — Rio Tinto, 2022-11-23. [원문](https://www.riotinto.com/en/news/releases/2022/rio-tintos-bioiron-proves-successful-for-low-carbon-iron-making) · [[sources/SRC-20260725-4C776B11|보관 원문·메타데이터]]
+[^src-20260725-84498fdf]: **Rio Tinto climate reporting: 2025 progress and 2026 action** — Rio Tinto, 게시일 미상. [원문](https://www.riotinto.com/en/invest/reports/climate-reporting) · [[sources/SRC-20260725-84498FDF|보관 원문·메타데이터]]
+[^src-20260725-c925bf86]: **Rio Tinto pauses BioIron pilot construction** — Rio Tinto, 2025-11-17. [원문](https://www.riotinto.com/en/news/releases/2025/rio-tinto-partners-with-calix-to-test-low-emissions-steel-making-in-western-australia-pauses-bioiron) · [[sources/SRC-20260725-C925BF86|보관 원문·메타데이터]]
+[^src-20260725-d965f782]: **US11959153B2 Production of iron** — United States Patent and Trademark Office / Google Patents, 2024-04-16. [원문](https://patents.google.com/patent/US11959153B2/en) · [[sources/SRC-20260725-D965F782|보관 원문·메타데이터]]
+[^src-20260725-e5cfe77a]: **BioIron Pilot Plant Works Approval W6964/2024/1 Decision Report** — Western Australia Department of Water and Environmental Regulation, 2025-07-28. [원문](https://www.der.wa.gov.au/images/documents/our-work/licences-and-works-approvals/Decisions_/W6964/W6964%2028-07-2025%20DR.pdf) · [[sources/SRC-20260725-E5CFE77A|보관 원문·메타데이터]]
 [^src-20260725-f1d3edea]: **Rio Tinto develops BioIron R&D facility in Western Australia** — Rio Tinto, 2024-06-04. [원문](https://www.riotinto.com/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-low-carbon-steelmaking) · [[sources/SRC-20260725-F1D3EDEA|보관 원문·메타데이터]]

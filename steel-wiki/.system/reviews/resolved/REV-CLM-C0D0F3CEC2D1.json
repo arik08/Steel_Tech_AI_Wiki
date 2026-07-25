@@ -1,0 +1,93 @@
+{
+  "review_id": "REV-CLM-C0D0F3CEC2D1",
+  "type": "claim_conflict",
+  "created_at": "2026-07-25T20:35:59+09:00",
+  "subject_id": "COM-Rio-Tinto",
+  "predicate": "microwave_biomass_ironmaking_status",
+  "existing_claims": [
+    {
+      "claim_id": "CLM-FBF6268D0655",
+      "subject_id": "COM-Rio-Tinto",
+      "predicate": "microwave_biomass_ironmaking_status",
+      "value": "서호주 BioIron R&D 시설 및 기존 대비 10배 규모 파일럿 개발 단계; 바이오매스 환원제와 마이크로웨이브 사용",
+      "status": "active",
+      "confidence": "high",
+      "first_seen": "2024-06-04",
+      "last_verified": "2026-07-25",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ],
+      "supersedes": [],
+      "coexists_with": [],
+      "history": [
+        {
+          "date": "2024-06-04",
+          "action": "created",
+          "reason": "Rio Tinto 공식 투자 발표",
+          "source_ids": [
+            "SRC-20260725-F1D3EDEA"
+          ]
+        },
+        {
+          "date": "2026-07-25",
+          "action": "verified",
+          "reason": "2026-07-25 공식 원문 재검증",
+          "source_ids": [
+            "SRC-20260725-F1D3EDEA"
+          ]
+        }
+      ]
+    }
+  ],
+  "proposed_claim": {
+    "claim_id": "CLM-92E2C0A599A5",
+    "subject_id": "COM-Rio-Tinto",
+    "predicate": "microwave_biomass_ironmaking_status",
+    "value": "BioIron 1 t/h 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 장기 기술 R&D는 지속",
+    "status": "active",
+    "confidence": "high",
+    "first_seen": "2025-11-17",
+    "last_verified": "2025-11-17",
+    "source_ids": [
+      "SRC-20260725-C925BF86",
+      "SRC-20260725-84498FDF"
+    ],
+    "supersedes": [
+      "CLM-FBF6268D0655"
+    ],
+    "coexists_with": [],
+    "history": [
+      {
+        "date": "2025-11-17",
+        "action": "created",
+        "reason": "Rio Tinto 2025 공식 중단 발표와 현재 기후보고로 상태 갱신",
+        "source_ids": [
+          "SRC-20260725-C925BF86",
+          "SRC-20260725-84498FDF"
+        ]
+      },
+      {
+        "date": "2026-07-25",
+        "action": "review_supersede",
+        "reason": "2025-11-17 Rio Tinto 공식 발표가 2024년 파일럿 개발 상태를 대체하며, 건설 중단과 기술 R&D 지속을 현재 상태로 반영"
+      }
+    ]
+  },
+  "allowed_decisions": [
+    "supersede",
+    "keep-existing",
+    "coexist",
+    "dispute",
+    "reject"
+  ],
+  "status": "resolved",
+  "resolution": {
+    "decided_at": "2026-07-25T20:36:06+09:00",
+    "decision": "supersede",
+    "rationale": "2025-11-17 Rio Tinto 공식 발표가 2024년 파일럿 개발 상태를 대체하며, 건설 중단과 기술 R&D 지속을 현재 상태로 반영",
+    "changed_claim_ids": [
+      "CLM-FBF6268D0655",
+      "CLM-92E2C0A599A5"
+    ]
+  }
+}

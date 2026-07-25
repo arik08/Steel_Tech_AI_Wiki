@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-D51F4D773225",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "technical_definition",
+  "value": "철광석 미분과 바이오매스를 브리켓 내부에 혼합하고 무산소 분위기에서 마이크로웨이브로 고체 환원철을 생산하는 공정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-04-16",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D965F782"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-04-16",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-D965F782"
+      ]
+    }
+  ]
+}

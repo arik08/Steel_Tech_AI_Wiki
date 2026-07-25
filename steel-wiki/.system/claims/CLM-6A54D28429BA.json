@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM-6A54D28429BA",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "biomass_efficiency_claim",
+  "value": "Rio Tinto 2024 자료는 다른 바이오차 경로 대비 원시 바이오매스 사용량 1/3~1/4을 주장",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-06-04",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F1D3EDEA",
+    "SRC-20260725-32EA9484"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-06-04",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    },
+    {
+      "date": "2024-12-31",
+      "action": "verified",
+      "reason": "Rio Tinto 2024 철강 가치사슬 탈탄소화 보고서의 BioIron 비교 수치 재검증",
+      "source_ids": [
+        "SRC-20260725-32EA9484"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source_id": "SRC-20260725-D965F782",
+  "title": "US11959153B2 Production of iron",
+  "url": "https://patents.google.com/patent/US11959153B2/en",
+  "canonical_url": "https://patents.google.com/patent/US11959153B2/en",
+  "publisher": "United States Patent and Trademark Office / Google Patents",
+  "published_at": "2024-04-16",
+  "collected_at": "2026-07-25",
+  "source_type": "patent",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "d965f782b033f784d0eac5fb00ee91c78d78b207df6c5f7ceca78ae82ccc9ffe",
+  "raw_sha256": "349a9842f05bf308f25e806abd0c5194a4fec6180f6e12227d2c3b8c5799cfa5",
+  "raw_path": ".system/raw/SRC-20260725-D965F782.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-7D0824C55537",
+      "kind": "patent_figure",
+      "caption": "US11959153B2 Figure 8: 2 kW 마이크로웨이브 발생기, 자동 튜너, 도파관, PC 제어, 질소 공급·배가스 배출, 내화물과 바이오매스-철광석 브리켓을 포함한 실험 처리장치",
+      "alt_text": "마이크로웨이브 발생기와 도파관, 질소 공급, 반응 캐비티 내부 브리켓을 표시한 특허 실험장치도",
+      "creator": "Rio Tinto Services Limited / Michael Buckley",
+      "image_url": "https://patentimages.storage.googleapis.com/94/09/e2/0ec72830c4b438/US11959153-20240416-D00005.png",
+      "origin_url": "https://patents.google.com/patent/US11959153B2/en",
+      "rights_status": "link_only",
+      "rights_note": "특허 원문의 Figure 8을 원격 링크로만 표시합니다. 독일 파일럿이나 서호주 1 t/h 선형 노상로의 준공도는 아닙니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    },
+    {
+      "media_id": "MED-FA0ECC96CB3C",
+      "kind": "patent_figure",
+      "caption": "US11959153B2 Figure 14: 철광석-바이오매스 브리켓, 예열부, 마이크로웨이브·질소 공급 반응실, 배가스 및 고체 환원철 배출의 특허 공정 블록도",
+      "alt_text": "브리켓 예열과 마이크로웨이브 환원 챔버, 질소 공급 및 고체 제품 배출을 보여주는 특허 공정도",
+      "creator": "Rio Tinto Services Limited / Michael Buckley",
+      "image_url": "https://patentimages.storage.googleapis.com/71/27/c7/5b911d8f373789/US11959153-20240416-D00008.png",
+      "origin_url": "https://patents.google.com/patent/US11959153B2/en",
+      "rights_status": "link_only",
+      "rights_note": "특허 원문의 Figure 14를 원격 링크로만 표시합니다. 서호주 파일럿의 실제 배관계장도 또는 준공도가 아닙니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

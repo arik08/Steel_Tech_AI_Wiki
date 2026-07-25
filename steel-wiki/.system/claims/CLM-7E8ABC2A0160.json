@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-7E8ABC2A0160",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "location",
+  "value": "Western Australia Rockingham Strategic Industrial Area의 Kwinana·Rockingham 산업지대 예정 부지",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-06-04",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F1D3EDEA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-06-04",
+      "action": "created",
+      "reason": "BioIron 프로젝트 전체 일정·설비·운영 경계 검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM-30984410745B",
+  "subject_id": "TEC-microwave-biomass-ironmaking",
+  "predicate": "electricity_comparison_claim",
+  "value": "Rio Tinto는 BioIron 전력소비가 재생수소 의존 제철 경로의 약 1/3이라고 주장; 실제 연속 플랜트 원단위 미공개",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-11-17",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C925BF86",
+    "SRC-20260725-32EA9484"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-11-17",
+      "action": "created",
+      "reason": "BioIron 공식 특허·기업·허가 자료 기반 심층 기술 검증",
+      "source_ids": [
+        "SRC-20260725-C925BF86"
+      ]
+    },
+    {
+      "date": "2024-12-31",
+      "action": "verified",
+      "reason": "Rio Tinto 2024 철강 가치사슬 탈탄소화 보고서의 조건부 전력 비교 수치 교차검증",
+      "source_ids": [
+        "SRC-20260725-32EA9484"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-C925BF86"
+      ]
+    }
+  ]
+}
