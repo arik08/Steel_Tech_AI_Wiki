@@ -1,5 +1,7 @@
 @echo off
 cd /d "%~dp0"
+set "WIKI_ROOT=%CD%"
+set "PROJECT_TOOLS=%CD%\tools\project"
 
 where python >nul 2>&1
 if errorlevel 1 (
@@ -18,7 +20,7 @@ if errorlevel 1 (
 )
 
 echo Installing packages required by the MkDocs wiki...
-python -m pip install -r requirements-docs.txt
+python -m pip install -r "%PROJECT_TOOLS%\requirements-docs.txt"
 if errorlevel 1 (
   echo.
   echo [ERROR] Package installation failed.
@@ -28,7 +30,7 @@ if errorlevel 1 (
 
 echo.
 echo Installing the project-local CodeGraph...
-call npm install --no-audit --no-fund
+call npm install --prefix "%PROJECT_TOOLS%" --no-audit --no-fund
 if errorlevel 1 (
   echo.
   echo [ERROR] CodeGraph installation failed.
@@ -36,17 +38,27 @@ if errorlevel 1 (
   exit /b 1
 )
 
-call "%CD%\node_modules\.bin\codegraph.cmd" telemetry off >nul 2>&1
+if exist ".git\" (
+  git config --local core.excludesFile "%PROJECT_TOOLS%\.gitignore" >nul 2>&1
+)
+
+copy /Y "%PROJECT_TOOLS%\codegraph.json" "%WIKI_ROOT%\codegraph.json" >nul
+attrib +h "%WIKI_ROOT%\codegraph.json" >nul 2>&1
+
+pushd "%PROJECT_TOOLS%"
+call "%PROJECT_TOOLS%\node_modules\.bin\codegraph.cmd" telemetry off >nul 2>&1
 
 echo.
-if exist ".codegraph\" (
+if exist "%WIKI_ROOT%\.codegraph\" (
   echo Updating the CodeGraph index...
-  call "%CD%\node_modules\.bin\codegraph.cmd" sync "."
+  call "%PROJECT_TOOLS%\node_modules\.bin\codegraph.cmd" sync "%WIKI_ROOT%"
 ) else (
   echo Initializing and indexing CodeGraph...
-  call "%CD%\node_modules\.bin\codegraph.cmd" init --index "."
+  call "%PROJECT_TOOLS%\node_modules\.bin\codegraph.cmd" init --index "%WIKI_ROOT%"
 )
-if errorlevel 1 (
+set "CODEGRAPH_EXIT=%ERRORLEVEL%"
+popd
+if not "%CODEGRAPH_EXIT%"=="0" (
   echo.
   echo [ERROR] CodeGraph indexing failed.
   pause

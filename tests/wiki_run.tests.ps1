@@ -1,6 +1,8 @@
 $ErrorActionPreference = "Stop"
 
-$launcherPath = Join-Path (Split-Path -Parent $PSScriptRoot) "wiki_run.ps1"
+$launcherPath = Join-Path (
+    Split-Path -Parent $PSScriptRoot
+) "tools\project\wiki_run.ps1"
 $tokens = $null
 $errors = $null
 [System.Management.Automation.Language.Parser]::ParseFile(

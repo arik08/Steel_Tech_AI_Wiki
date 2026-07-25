@@ -1,6 +1,6 @@
 site_name: 철강 기술 인텔리전스
 site_description: 해외 경쟁사 철강 신기술 근거 기반 LLM Wiki
-docs_dir: steel-wiki
+docs_dir: ../../steel-wiki
 site_dir: site
 use_directory_urls: true
 strict: true

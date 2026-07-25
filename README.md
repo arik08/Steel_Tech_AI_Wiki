@@ -18,7 +18,7 @@
 다음을 실행합니다.
 
 ```powershell
-python -m pip install -r requirements-docs.txt
+python -m pip install -r tools/project/requirements-docs.txt
 ```
 
 ## 가장 빠른 사용법
@@ -98,10 +98,14 @@ MkDocs는 기존 Markdown을 직접 읽으며, `[[위키링크]]`는 빌드할 �
 | `skills/steel-intelligence/` | Codex 스킬, 데이터 계약, 실행 스크립트 | 보통 수정하지 않음 |
 | `steel-wiki/` | 실제 조사 자료가 누적되는 지식 저장소 | 아래 기준에 따름 |
 | `tests/` | 저장·검토·검색·보고서 기능의 자동 테스트 | 개발할 때만 |
+| `tools/project/` | MkDocs·CodeGraph·PowerShell 실행 지원 파일 | 보통 열지 않음 |
 | `.examples/` | 참고용 외부 GitHub 저장소 | 배포본에서 제외 가능 |
 
 최상위 폴더 이름은 바꿔도 됩니다. `skills/steel-intelligence`와 `steel-wiki`의
 내부 이름은 문서와 명령에서 사용하므로 가급적 유지합니다.
+평소 루트에서 직접 볼 파일은 `AGENTS.md`, `installer.bat`, `README.md`,
+`wiki_run.bat`, `WIKI-SETTINGS.md` 다섯 개이며, 빌드·실행 지원 파일은
+`tools/project/`에 모아 둡니다.
 
 ## `steel-wiki` 폴더별 역할
 

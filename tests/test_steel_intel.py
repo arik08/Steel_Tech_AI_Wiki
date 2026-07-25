@@ -18,7 +18,8 @@ sys.path.insert(0, str(SCRIPT_DIR))
 import steel_intel  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(PROJECT_ROOT))
+PROJECT_TOOLS = PROJECT_ROOT / "tools" / "project"
+sys.path.insert(0, str(PROJECT_TOOLS))
 import mkdocs_hooks  # noqa: E402
 
 
@@ -291,7 +292,7 @@ class SteelIntelTests(unittest.TestCase):
         self.assertNotIn("audit-", repr(config["nav"]))
 
     def test_mermaid_contrast_fallback_is_loaded(self):
-        config = (PROJECT_ROOT / "mkdocs.yml").read_text(encoding="utf-8")
+        config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
         theme = (
             PROJECT_ROOT
             / "steel-wiki"
@@ -316,7 +317,7 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn('style.setProperty("fill"', fallback)
 
     def test_mermaid_fullscreen_viewer_is_loaded(self):
-        config = (PROJECT_ROOT / "mkdocs.yml").read_text(encoding="utf-8")
+        config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
         viewer = (
             PROJECT_ROOT
             / "steel-wiki"
@@ -347,7 +348,7 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("backdrop-filter: blur(4px)", styles)
 
     def test_footnote_source_preview_is_loaded(self):
-        config = (PROJECT_ROOT / "mkdocs.yml").read_text(encoding="utf-8")
+        config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
         tooltips = (
             PROJECT_ROOT
             / "steel-wiki"
@@ -368,9 +369,9 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn(":focus-visible::after", styles)
 
     def test_mkdocs_headings_are_numbered_per_page(self):
-        config = (PROJECT_ROOT / "mkdocs.yml").read_text(encoding="utf-8")
+        config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
         requirements = (
-            PROJECT_ROOT / "requirements-docs.txt"
+            PROJECT_TOOLS / "requirements-docs.txt"
         ).read_text(encoding="utf-8")
         styles = (
             PROJECT_ROOT
@@ -436,7 +437,7 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("word-break: keep-all", styles)
 
     def test_mkdocs_search_prioritizes_reader_pages(self):
-        config = (PROJECT_ROOT / "mkdocs.yml").read_text(encoding="utf-8")
+        config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
         wiki_root = PROJECT_ROOT / "steel-wiki"
 
         source_meta = (wiki_root / "sources" / ".meta.yml").read_text(

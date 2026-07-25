@@ -2,7 +2,9 @@
 param()
 
 $ErrorActionPreference = "Stop"
-$WikiRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ProjectTools = Split-Path -Parent $MyInvocation.MyCommand.Path
+$WikiRoot = (Resolve-Path (Join-Path $ProjectTools "..\..")).Path
+$MkDocsConfig = Join-Path $ProjectTools "mkdocs.yml"
 $WikiAddress = "0.0.0.0:8000"
 $LocalUrl = "http://127.0.0.1:8000/"
 
@@ -47,7 +49,10 @@ function Start-WikiServer {
     $python = (Get-Command python -ErrorAction Stop).Source
     $startInfo = [System.Diagnostics.ProcessStartInfo]::new()
     $startInfo.FileName = $python
-    $startInfo.Arguments = "-m mkdocs serve --quiet --dev-addr $WikiAddress"
+    $startInfo.Arguments = (
+        "-m mkdocs serve -f `"$MkDocsConfig`" " +
+        "--quiet --dev-addr $WikiAddress"
+    )
     $startInfo.WorkingDirectory = $WikiRoot
     $startInfo.UseShellExecute = $false
     $startInfo.RedirectStandardInput = $true

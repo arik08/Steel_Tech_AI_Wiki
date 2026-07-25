@@ -18,5 +18,5 @@ if errorlevel 1 (
 )
 
 set NO_MKDOCS_2_WARNING=true
-powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0wiki_run.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0tools\project\wiki_run.ps1"
 pause

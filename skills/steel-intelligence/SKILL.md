@@ -174,7 +174,7 @@ HTML의 콘텐츠 면과 카드는 순백색(`#FFFFFF`), 페이지 바깥과 보
 중립 회색(`#F4F6F8` 계열)으로 유지하고 베이지·크림 계열 배경은 사용하지 않는다.
 출처 목록은 데스크톱에서 2열 압축 목록, 모바일에서 1열로 표시해 출처가 늘어나도
 보고서가 불필요하게 길어지지 않게 한다. 인용 번호의 출처 이동·강조 동작은 유지한다.
-사람이 상시 열람하는 홈페이지는 최상위 `mkdocs.yml`의 Material for MkDocs 사이트다.
+사람이 상시 열람하는 홈페이지는 `tools/project/mkdocs.yml`의 Material for MkDocs 사이트다.
 `steel-wiki`의 Markdown과 Obsidian 위키링크를 원본으로 사용하며, MkDocs 빌드 훅이
 위키링크를 웹 링크로 변환한다. `.system/`과 설정 캐시는 사이트에 노출하지 않는다.
 최초 설치는 최상위 `installer.bat`, 이후 위키 실행은 `wiki_run.bat`을 사용한다.

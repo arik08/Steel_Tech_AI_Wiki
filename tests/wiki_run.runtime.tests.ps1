@@ -1,6 +1,8 @@
 $ErrorActionPreference = "Stop"
 
-. (Join-Path (Split-Path -Parent $PSScriptRoot) "wiki_run.ps1")
+. (Join-Path (
+    Split-Path -Parent $PSScriptRoot
+) "tools\project\wiki_run.ps1")
 $script:WikiAddress = "127.0.0.1:18081"
 
 function Wait-TestWikiReady {
