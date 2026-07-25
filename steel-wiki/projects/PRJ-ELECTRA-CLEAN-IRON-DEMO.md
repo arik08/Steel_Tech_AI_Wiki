@@ -4,11 +4,6 @@
 
 > 최근 검증 **2026-07-25** · 확인된 핵심 정보 **3건** · 직접 연결 근거 **1건**
 
-
-![POSCO·Electra 관계자 세 명이 협약서를 들고 서 있으며 양사 로고와 한미 국기가 보이는 장면](<https://newsroom.posco.com/kr/wp-content/uploads/2026/04/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC%E7%A4%BE%EC%99%80-%EA%B8%B0%EC%88%A0-%EA%B3%B5%EB%8F%99%EA%B0%9C%EB%B0%9C-1024x1024.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
-
-*대표 이미지 — 2026년 4월 POSCO·Electra 저탄소 철 생산 기술 공동개발 및 투자 협약 체결 장면 (기술 이미지 · 권리 `link_only` · 출처 [[sources/SRC-20260725-4C014458|SRC-20260725-4C014458]] · [원문 페이지](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC))*
-
 !!! abstract "현재 상태"
 
     **2026년 가동 목표로 시범공장 건설 중** [^src-20260725-4c014458]

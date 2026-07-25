@@ -1139,6 +1139,20 @@ class SteelIntelTests(unittest.TestCase):
             "FID 전환 비율",
         )
 
+    def test_aqueous_electrolysis_has_deep_analysis_and_hides_event_photo(self):
+        detail = steel_intel.TECHNOLOGY_DETAILS[
+            "low-temperature aqueous iron electrolysis"
+        ]
+
+        self.assertIn("2단 전해채취 스택", detail["process_mermaid"])
+        self.assertGreaterEqual(len(detail["analysis_points"]), 6)
+        self.assertGreaterEqual(len(detail["posco_implications"]), 3)
+        self.assertFalse(
+            steel_intel.MEDIA_DISPLAY_OVERRIDES[
+                "MED-098B84E432A7"
+            ]["display_eligible"]
+        )
+
     def test_markdown_settings_sync_and_drive_search_and_projection(self):
         settings_path = self.root.parent / "WIKI-SETTINGS.md"
         settings_path.write_text(

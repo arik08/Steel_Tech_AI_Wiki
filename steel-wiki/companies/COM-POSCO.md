@@ -4,11 +4,6 @@
 
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
-
-![POSCO·Electra 관계자 세 명이 협약서를 들고 서 있으며 양사 로고와 한미 국기가 보이는 장면](<https://newsroom.posco.com/kr/wp-content/uploads/2026/04/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC%E7%A4%BE%EC%99%80-%EA%B8%B0%EC%88%A0-%EA%B3%B5%EB%8F%99%EA%B0%9C%EB%B0%9C-1024x1024.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
-
-*대표 이미지 — 2026년 4월 POSCO·Electra 저탄소 철 생산 기술 공동개발 및 투자 협약 체결 장면 (기술 이미지 · 권리 `link_only` · 출처 [[sources/SRC-20260725-4C014458|SRC-20260725-4C014458]] · [원문 페이지](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC))*
-
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
@@ -108,7 +103,7 @@
 
     **확인 날짜:** 발표 2026-04-28 · 검증 2026-07-25
 
-    **다음 확인:** 전력원단위, 산·알칼리 회수율, 적용 가능한 광석 품위, 제품 순도, 모듈당 생산능력과 상업 설비 투자 결정을 확인해야 합니다.
+    **다음 확인:** 전력원단위·전류효율, 산·알칼리·공정수 회수율, 광종별 철 회수와 불순물 거동, 막·전극 수명, 스택 가동률, 전착 철판 자동 회수, 500 tpy 실제 월간 생산량과 EAF 장입 시험, 다음 규모 투자 결정을 확인해야 합니다.
 
 ??? info "무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction) · 연구·실증"
 
