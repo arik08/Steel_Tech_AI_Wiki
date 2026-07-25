@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-78FA86E4530C",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "capture_route",
+  "value": "대표 구성은 기존 연소가스에 MEA를 적용하는 후단 포집과, 산소송풍 고로에서 상부가스를 재순환하고 MDEA/Pz로 CO2를 제거하는 공정통합형 포집이다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-2EABD949"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "IEAGHG 2013 비교 사례의 두 포집 경로",
+      "source_ids": [
+        "SRC-20260725-2EABD949"
+      ]
+    }
+  ]
+}

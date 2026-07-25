@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A1E837D41E70",
+  "subject_id": "PRJ-SORTERA-SCRAP-DECOPPER",
+  "predicate": "existing_sorting_platform",
+  "value": "Sortera의 기존 자동차 금속용 AI 센서 선별 플랫폼은 오염물 제거·원료 고도화를 수행하지만 공개 공정도는 철스크랩 탈동 실증설비의 준공도가 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-3DA8B9C7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Sortera 공식 플랫폼과 DOE 모듈의 구분",
+      "source_ids": [
+        "SRC-20260725-3DA8B9C7"
+      ]
+    }
+  ]
+}

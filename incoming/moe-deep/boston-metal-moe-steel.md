@@ -1,0 +1,21 @@
+Source evidence excerpt collected 2026-07-25.
+
+Boston Metal describes its MOE Steel process as direct electrolysis of iron ore
+in a molten oxide electrolyte. An inert anode is immersed in the electrolyte and
+the cell is operated at 1600 degrees Celsius. Electricity separates iron oxide
+into oxygen gas and high-purity liquid metal, which is tapped from the bottom and
+can be sent directly to ladle metallurgy.
+
+The company states that this single-step route can replace coke production, ore
+sintering and pelletizing, blast-furnace reduction, and basic-oxygen-furnace
+refining. It claims compatibility with all iron ore grades and says the process
+does not require hydrogen infrastructure, carbon capture, or process water.
+
+The company describes modular cells about the size of a school bus. Capacity is
+scaled first by adding inert anodes within a cell and then by adding cells within
+a plant. Its business model is to license the MOE platform to steelmakers and
+sell the metallic inert anodes. The page states that a multi-inert-anode
+industrial cell produced tonnage steel in 2025, while a separate MOE Steel
+demonstration plant remains a future milestone.
+
+URL: https://www.bostonmetal.com/moe-steel/

@@ -1,0 +1,47 @@
+{
+  "source_id": "SRC-20260725-46A2055D",
+  "title": "Tata Steel commissions carbon capture plant for blast furnace gas at Jamshedpur",
+  "url": "https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur/",
+  "canonical_url": "https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur",
+  "publisher": "Tata Steel",
+  "published_at": "2021-09-14",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "46a2055d3824b5752116db730bba2a174304d0d382882c957dd6868843093194",
+  "raw_sha256": "3f83551e51cdfe437e93d3659665c0f23c9009c1795d18aa8a8d25b750ab7590",
+  "raw_path": ".system/raw/SRC-20260725-46A2055D.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-8A3CD9415F0C",
+      "kind": "facility_photo",
+      "caption": "Tata Steel Jamshedpur 5 TPD 고로가스 CO2 포집설비 공식 사진",
+      "alt_text": "배관과 흡수설비로 구성된 Tata Steel Jamshedpur 고로가스 탄소포집 설비",
+      "creator": "Tata Steel",
+      "image_url": "https://www.tatasteel.com/media/14387/facillity-pic_1-1.jpg",
+      "origin_url": "https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur",
+      "rights_status": "link_only",
+      "rights_note": "Tata Steel 공식 보도자료 원본 사진을 외부 링크로만 표시",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    },
+    {
+      "media_id": "MED-258FB0C03818",
+      "kind": "facility_photo",
+      "caption": "2021년 Tata Steel Jamshedpur CO2 포집설비 준공 행사 공식 사진",
+      "alt_text": "Tata Steel Jamshedpur 탄소포집 설비 준공 행사",
+      "creator": "Tata Steel",
+      "image_url": "https://www.tatasteel.com/media/14389/inauguration-pic_1.jpg",
+      "origin_url": "https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur",
+      "rights_status": "link_only",
+      "rights_note": "Tata Steel 공식 보도자료 원본 사진을 외부 링크로만 표시",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

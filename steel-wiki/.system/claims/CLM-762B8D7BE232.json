@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-762B8D7BE232",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "sticking_risk",
+  "value": "DRI 스티킹은 철 whisker, 새로 형성된 고표면에너지 금속철, 저융점 공정상 때문에 발생할 수 있으며 온도가 높을수록 위험이 커진다. 불활성 산화물 코팅은 물리적 장벽이지만 광석·도포 조건별 검증이 필요하다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-99B78C86"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2024년 공개 종설의 스티킹 메커니즘과 완화 원리를 등록",
+      "source_ids": [
+        "SRC-20260725-99B78C86"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM-B422EDE0322F",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "funding_announcement_date",
+  "value": "2024-12-17 주정부 A million 기여 발표; 2025-06-17 ARENA A.8 million FEED 지원 발표",
+  "status": "superseded",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-67CAA465",
+    "SRC-20260725-C37A3042"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 지원 발표 연혁을 하나의 일정 Claim으로 보존",
+      "source_ids": [
+        "SRC-20260725-67CAA465"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "ARENA 지원 발표일 근거 추가",
+      "source_ids": [
+        "SRC-20260725-C37A3042"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "기존 Claim은 PowerShell 통화 기호 변수 확장으로 숫자가 누락되었고, 신규 Claim이 공식 원문의 A million 및 A.8 million 금액을 정확히 보존함"
+    }
+  ],
+  "superseded_by": "CLM-8EAEF9200658"
+}

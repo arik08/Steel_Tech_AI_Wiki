@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-3DA8B9C7",
+  "title": "Sortera Technologies AI sensor sorting platform",
+  "url": "https://www.sorteratechnologies.com/technology",
+  "canonical_url": "https://www.sorteratechnologies.com/technology",
+  "publisher": "Sortera Technologies",
+  "published_at": null,
+  "collected_at": "2026-07-25",
+  "source_type": "equipment_supplier",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "3da8b9c70276c9325b4801c3fd6949c444c5557a56d281f433e782d7f48c9c27",
+  "raw_sha256": "29fe75966b19d615311b91a8fb809efdf61d1f45b1c76e471ff0c44383abed4d",
+  "raw_path": ".system/raw/SRC-20260725-3DA8B9C7.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-58D46DE81A98",
+      "kind": "process_diagram",
+      "caption": "Sortera의 자동차 금속 재활용용 AI 센서 선별 공정 개념도. 파쇄·혼합 스크랩을 AI 선별기에 통과시켜 규격별 원료로 나누는 범용 플랫폼 설명도이며, DOE 지원 철스크랩 열기계적 탈동 모듈의 준공도(as-built)는 아님",
+      "alt_text": "폐제품 파쇄부터 AI 선별기와 규격 스크랩 생산까지 보여주는 Sortera 공정도",
+      "creator": "Sortera Technologies",
+      "image_url": "https://sortera.wpengine.com/wp-content/uploads/2020/09/Screen-Shot-2020-09-10-at-8.55.13-AM.png",
+      "origin_url": "https://www.sorteratechnologies.com/technology",
+      "rights_status": "link_only",
+      "rights_note": "Sortera 공식 기술 페이지에서 원본과 맥락을 확인했습니다. 재사용 허가를 별도 확인하지 않아 원격 링크만 보존하며, 철스크랩 탈동 실증 설비의 실제 도면으로 해석하지 않습니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7C4ED816A2D6",
+  "subject_id": "PRJ-HYFOR-DONAWITZ-PILOT",
+  "predicate": "preheating_and_oxidation",
+  "value": "농축분을 약 900°C로 예열한 뒤 수소 환원",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BC8DE092"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 예열 조건",
+      "source_ids": [
+        "SRC-20260725-BC8DE092"
+      ]
+    }
+  ]
+}

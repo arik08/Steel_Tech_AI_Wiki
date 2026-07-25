@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CD0122098522",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "hot_dri_transport",
+  "value": "HyREX 포항 실증 공급범위에는 유동층에서 전기용융로까지 고온 DRI를 운반하는 설비가 포함",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BAB49577"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals HyREX 공식 설비 범위",
+      "source_ids": [
+        "SRC-20260725-BAB49577"
+      ]
+    }
+  ]
+}

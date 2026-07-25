@@ -1,0 +1,61 @@
+{
+  "claim_id": "CLM-B7B5A97DACA8",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "scale_status",
+  "value": "공개 근거는 장기 산업 운전 사례와 별개로 POSCO 1 t/h 파일럿 첫 용선, Metso 최대 1 t/h 시험 플랫폼, Baowu 500 kg 시험, NeoSmelt 30,000–40,000 tpy 설계 단계까지 혼재하며 동일 성숙도로 볼 수 없다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C9D824F2",
+    "SRC-20260725-A6759186",
+    "SRC-20260725-3FF9886C",
+    "SRC-20260725-67CAA465",
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "파일럿과 산업 운전 증거의 크기 차이를 명시",
+      "source_ids": [
+        "SRC-20260725-C9D824F2"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "ESF 규모 비교 Claim에 개별 파일럿·산업 운전 근거 추가",
+      "source_ids": [
+        "SRC-20260725-A6759186"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "ESF 규모 비교 Claim에 개별 파일럿·산업 운전 근거 추가",
+      "source_ids": [
+        "SRC-20260725-3FF9886C"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "ESF 규모 비교 Claim에 개별 파일럿·산업 운전 근거 추가",
+      "source_ids": [
+        "SRC-20260725-67CAA465"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "ESF 규모 비교 Claim에 개별 파일럿·산업 운전 근거 추가",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

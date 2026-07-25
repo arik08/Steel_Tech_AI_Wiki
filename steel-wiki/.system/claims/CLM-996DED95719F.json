@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-996DED95719F",
+  "subject_id": "PRJ-CARBON2CHEM-DUISBURG",
+  "predicate": "project_status",
+  "value": "2016년 착수 후 1·2단계를 거쳐, 2028년까지 제3단계 응용 검증·DR 가스 적용·메탄올·수소 연구를 수행 중",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-CD029AB1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "thyssenkrupp 공식 단계 업데이트",
+      "source_ids": [
+        "SRC-20260725-CD029AB1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6326805E2DB1",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "scale_up_requirement",
+  "value": "대형 EAF 확대에는 스크랩·DRI 용해시간, DRI 맥석·공극의 열전달 저하, 정련 교반, 생산성 및 제품별 불순물 제어를 함께 검증해야 함",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-9DCCDB31"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Nippon Steel 대형 EAF 확대 과제",
+      "source_ids": [
+        "SRC-20260725-9DCCDB31"
+      ]
+    }
+  ]
+}

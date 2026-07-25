@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-63223E997387",
+  "subject_id": "PRJ-ULCOS-TGR-BF",
+  "predicate": "operating_configuration",
+  "value": "선정 구성은 탈탄 상부가스를 가열해 노상 풍구와 샤프트 풍구 양쪽에 주입하는 방식",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E493B07B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "EU 최종보고서의 최적 산업 구성 결론",
+      "source_ids": [
+        "SRC-20260725-E493B07B"
+      ]
+    }
+  ]
+}

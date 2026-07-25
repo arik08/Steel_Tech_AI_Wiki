@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9471B2B9A03F",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "carbon_accounting",
+  "value": "CCU 제품의 포집량을 전량 영구 감축으로 계산할 수 없으며, 추가 수소·전력, 대체 화석제품, 제품 사용 중 재배출과 최종 처분을 포함한 전과정 순회피량으로 평가해야 한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-B6FB82E5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Steelanol 제품화 경로의 배출 경계를 기술적으로 구분",
+      "source_ids": [
+        "SRC-20260725-B6FB82E5"
+      ]
+    }
+  ]
+}

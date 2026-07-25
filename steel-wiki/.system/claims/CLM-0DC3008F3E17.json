@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-0DC3008F3E17",
+  "subject_id": "COM-ArcelorMittal",
+  "predicate": "aqueous_iron_electrolysis_status",
+  "value": "Volteron 저온 직접 전해 공정의 파일럿 철판 생산 확인 후 산업 규모 설비 개발 계획 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2023-06-14",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A6716ADB"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2023-06-14",
+      "action": "created",
+      "reason": "ArcelorMittal 공식 발표",
+      "source_ids": [
+        "SRC-20260725-A6716ADB"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-A6716ADB"
+      ]
+    }
+  ]
+}

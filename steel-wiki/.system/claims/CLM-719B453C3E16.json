@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-719B453C3E16",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "scale_up_requirement",
+  "value": "상업화에는 장기 압력강하 안정성, 고착·분진·사이클론 마모, 가스정제와 고온 DRI-ESF 통합 가동률 검증이 필요",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-043634EA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "학술 위험과 공식 공정구성에 근거한 AI 분석",
+      "source_ids": [
+        "SRC-20260725-043634EA"
+      ]
+    }
+  ]
+}

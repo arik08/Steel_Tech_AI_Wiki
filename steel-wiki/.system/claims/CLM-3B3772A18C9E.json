@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-3B3772A18C9E",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "project_status",
+  "value": "2026년 가동 목표로 시범공장 건설 중",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-28",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4C014458"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-28",
+      "action": "created",
+      "reason": "POSCO 공식 공동개발 발표",
+      "source_ids": [
+        "SRC-20260725-4C014458"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-4C014458"
+      ]
+    }
+  ]
+}

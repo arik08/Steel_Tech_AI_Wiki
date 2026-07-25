@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6D4651B1BF11",
+  "subject_id": "COM-JFE-Steel",
+  "predicate": "smart_steelworks_status",
+  "value": "전 고로 CPS 배치 완료, 일본 7개 소결설비에 CPS 전개 중; 센서·AI·물리모델 기반 실시간 예측",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-41586A75"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-41586A75"
+      ]
+    }
+  ]
+}

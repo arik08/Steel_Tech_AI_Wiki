@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-B0EB79A024E3",
+  "subject_id": "COM-China-Baowu",
+  "predicate": "low_carbon_ironmaking_status",
+  "value": "Zhanjiang 1 Mtpa near-zero-carbon 고급 후판 생산라인 전 공정 준공",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-7E8ABC86"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-7E8ABC86"
+      ]
+    }
+  ]
+}

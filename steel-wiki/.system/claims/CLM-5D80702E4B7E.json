@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5D80702E4B7E",
+  "subject_id": "PRJ-SORTERA-SCRAP-DECOPPER",
+  "predicate": "process_stages",
+  "value": "1단계 AI 영상인식 선별 후 2단계 선택적 구리 반응을 이용한 열기계적 분리",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-34FFE3B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "DOE 공정 설명",
+      "source_ids": [
+        "SRC-20260725-34FFE3B8"
+      ]
+    }
+  ]
+}

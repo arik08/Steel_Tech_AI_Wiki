@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7F8D522EEBDC",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "emissions_per_tonne",
+  "value": "2026년 리뷰가 인용한 모델의 DRI–ESF–BOF 직접배출은 약 0.33 tCO2/t-liquid steel, BF–BOF는 1.954 tCO2/t였으나 전력·상류 배출과 슬래그 편익을 제외한 Scope 1 시나리오다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "학술 리뷰의 수치와 시스템 경계 동시 기록",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

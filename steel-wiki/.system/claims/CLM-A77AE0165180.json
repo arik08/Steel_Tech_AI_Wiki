@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A77AE0165180",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "dilution_route",
+  "value": "고Cu 스크랩은 청정 스크랩이나 1차 철원과 혼합해 평균 Cu를 낮추는 방식이 현재 활용되지만 이는 Cu 제거가 아니라 희석",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-7DDD98E7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026년 논문의 현행 산업 운용 설명",
+      "source_ids": [
+        "SRC-20260725-7DDD98E7"
+      ]
+    }
+  ]
+}

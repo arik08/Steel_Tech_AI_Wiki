@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BCF8F26124DD",
+  "subject_id": "PRJ-CARBON2CHEM-DUISBURG",
+  "predicate": "pilot_output",
+  "value": "2018년부터 암모니아·메탄올·고급알코올 생산 확인, 2 MW 알칼라인 수전해기 운전",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-CD029AB1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 1단계 파일럿 결과",
+      "source_ids": [
+        "SRC-20260725-CD029AB1"
+      ]
+    }
+  ]
+}

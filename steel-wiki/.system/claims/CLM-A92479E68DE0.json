@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-A92479E68DE0",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "progress_level_one_threshold",
+  "value": "ResponsibleSteel Progress Level 1 예시에서 스크랩 20% 사업장은 2.34 tCO2e/t 이하, 스크랩 80% 사업장은 0.96 tCO2e/t 이하이며 Scope 1·2와 상류 Scope 3를 포함한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-09-23",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-9B4DDCDD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-09-23",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-9B4DDCDD"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-9B4DDCDD"
+      ]
+    }
+  ]
+}

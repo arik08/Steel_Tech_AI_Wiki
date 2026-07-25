@@ -1,0 +1,47 @@
+{
+  "source_id": "SRC-20260725-41586A75",
+  "title": "JFE Steel deploys CPS technology across sintering facilities",
+  "url": "https://www.jfe-steel.co.jp/en/release/2025/10/251007.html",
+  "canonical_url": "https://www.jfe-steel.co.jp/en/release/2025/10/251007.html",
+  "publisher": "JFE Steel Corporation",
+  "published_at": "2025-10-07",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "41586a753188fc3f3b99e72e283d816cef9622a2e4451f9933687c6d20e5e8ae",
+  "raw_sha256": "effc8f0ca16824e3d7d1ba06cbed04bc7afcbb147853b04a962526aaade95a91",
+  "raw_path": ".system/raw/SRC-20260725-41586A75.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-C33AA7D4CB6D",
+      "kind": "process_diagram",
+      "caption": "소결기 내부 연소·열 상태를 센서, 기계학습, 물리 시뮬레이션으로 예측하고 최적 조작으로 되먹임하는 JFE 소결 CPS 구성도",
+      "alt_text": "호퍼와 드럼, 소결대 내부, 센서 입력, 기계학습과 물리 시뮬레이션을 연결한 JFE 소결 CPS 도식",
+      "creator": "JFE Steel Corporation",
+      "image_url": "https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-1.png",
+      "origin_url": "https://www.jfe-steel.co.jp/en/release/2025/10/251007.html",
+      "rights_status": "link_only",
+      "rights_note": "JFE Steel 공식 발표의 Figure 1 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    },
+    {
+      "media_id": "MED-BFA1E2D56342",
+      "kind": "process_diagram",
+      "caption": "제철소 센서·운전데이터에서 사이버 모델·AI로 올라가 운전지침과 로봇 자동화로 되돌아오는 JFE 지능형 제철소 CPS 전체 구조",
+      "alt_text": "물리 제철소와 사이버 모델, AI, 운전지침, 로봇 자동화를 양방향으로 연결한 JFE 지능형 제철소 구조도",
+      "creator": "JFE Steel Corporation",
+      "image_url": "https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-2.png",
+      "origin_url": "https://www.jfe-steel.co.jp/en/release/2025/10/251007.html",
+      "rights_status": "link_only",
+      "rights_note": "JFE Steel 공식 발표의 Figure 2 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

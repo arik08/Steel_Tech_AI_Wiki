@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E96107036185",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "development_stage",
+  "value": "DRI 전기용융의 산업 운전 경험은 존재하지만 저배출 OSBF의 고로 대체 규모 운전은 아직 입증되지 않았으며, 1 t/h급과 3–4만 tpy급 파일럿·설계 프로젝트가 확대 검증 단계에 있다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "기존 산업 경험과 신규 저배출 경로의 성숙도를 분리",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

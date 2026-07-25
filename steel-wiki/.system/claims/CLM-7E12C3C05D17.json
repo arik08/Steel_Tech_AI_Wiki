@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7E12C3C05D17",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "scrap_quality_hierarchy",
+  "value": "자체발생·가공 스크랩처럼 이력이 분명한 청정 원료에서 노폐 파쇄스크랩으로 갈수록 성분 편차와 Cu·Sn 관리 부담이 커지며, 제품 등급별 허용치에 맞춘 분리 배합이 필요",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-9DCCDB31"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Nippon Steel의 스크랩 유형과 제품 허용농도 비교",
+      "source_ids": [
+        "SRC-20260725-9DCCDB31"
+      ]
+    }
+  ]
+}

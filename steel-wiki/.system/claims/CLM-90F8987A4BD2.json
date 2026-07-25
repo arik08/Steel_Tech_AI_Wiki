@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-90F8987A4BD2",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "refractory_and_heat_loss",
+  "value": "OSBF의 open·brush arc는 노정 복사열손실과 내화물 마모를 키울 수 있고, 슬래그 전기·열전도도와 아크 길이·노체 형상의 결합관계가 공개 데이터로 충분히 검증되지 않았다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "학술 리뷰가 지적한 핵심 스케일업 위험",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

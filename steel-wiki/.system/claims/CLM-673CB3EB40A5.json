@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-673CB3EB40A5",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "heat_balance",
+  "value": "CO가 없는 수소 환원에서는 최종 FeO→Fe 반응이 흡열이므로 환원가스 가열과 열수지 보완이 필요하다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-45CF187D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "MIDREX 기술 분석의 수소 환원 열수지 설명을 등록",
+      "source_ids": [
+        "SRC-20260725-45CF187D"
+      ]
+    }
+  ]
+}

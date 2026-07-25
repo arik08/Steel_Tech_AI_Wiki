@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-AC3996C9DF48",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "product_form",
+  "value": "HYFOR의 고온 미분 DRI는 약 600°C로 배출되며 HBI 압축 또는 용융설비 직결이 가능",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A23B5A64"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals 공식 제품 처리 설명",
+      "source_ids": [
+        "SRC-20260725-A23B5A64"
+      ]
+    }
+  ]
+}

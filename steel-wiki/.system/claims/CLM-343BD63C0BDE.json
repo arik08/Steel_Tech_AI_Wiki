@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-343BD63C0BDE",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "interoperability",
+  "value": "서로 다른 설비·모델·데이터 시스템 간 정의와 인터페이스를 맞추는 참조 아키텍처·개방형 표준이 확산의 전제",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-30A4249E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "NIST 상호운용성·표준화 요구 확인",
+      "source_ids": [
+        "SRC-20260725-30A4249E"
+      ]
+    }
+  ]
+}

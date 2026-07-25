@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-83594BA4A045",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "eaf_integration",
+  "value": "0%C 수소 DRI를 EAF에서 녹일 때는 FeO 환원, 용강 교반, 슬래그 포밍과 화학에너지를 위해 별도 탄소·산소·불활성가스 또는 조업·설비 변경이 필요할 수 있다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-45CF187D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "MIDREX의 Circored EAF 시험과 후단 분석을 등록",
+      "source_ids": [
+        "SRC-20260725-45CF187D"
+      ]
+    }
+  ]
+}

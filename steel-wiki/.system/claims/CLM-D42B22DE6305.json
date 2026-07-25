@@ -1,0 +1,34 @@
+{
+  "claim_id": "CLM-D42B22DE6305",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "project_status",
+  "value": "Kwinana 부지를 확정하고 pre-feasibility에서 final design 단계로 진전했으나, 2026-05-14 기준 FID와 주정부 자금집행은 미확정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-8A93E42F",
+    "SRC-20260725-FBF8EA9E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "BHP 최신 상태와 정부 조건부 결정을 구분",
+      "source_ids": [
+        "SRC-20260725-8A93E42F"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "FID와 자금 조건부 상태의 정부 근거 추가",
+      "source_ids": [
+        "SRC-20260725-FBF8EA9E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6FC6756D50F1",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "feedstock_scope",
+  "value": "HYFOR는 입자 크기 0.15 mm 미만의 철광석 농축분을 100% 사용할 수 있도록 설계됨",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A23B5A64"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals 공식 원료 범위",
+      "source_ids": [
+        "SRC-20260725-A23B5A64"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-624E124C",
+  "title": "ArcelorMittal announces first industrial production of ethanol at Steelanol",
+  "url": "https://europe.arcelormittal.com/newsandmedia/pressreleases/6227/Steelanol-first-industrial-scale-production",
+  "canonical_url": "https://europe.arcelormittal.com/newsandmedia/pressreleases/6227/Steelanol-first-industrial-scale-production",
+  "publisher": "ArcelorMittal Europe",
+  "published_at": "2023-11-16",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "624e124cddbe752b06710e60712832f09e33a1b90541bf2c958ca2737a660f13",
+  "raw_sha256": "24daf6572041c348b1e01ef8d3eb99dfeea55e8446cca96d632c83773134c573",
+  "raw_path": ".system/raw/SRC-20260725-624E124C.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-AE421DFC129E",
+      "kind": "facility_photo",
+      "caption": "ArcelorMittal Ghent Steelanol 산업용 에탄올 생산설비 공식 사진",
+      "alt_text": "증류탑과 배관으로 구성된 ArcelorMittal Ghent Steelanol 설비",
+      "creator": "ArcelorMittal Europe",
+      "image_url": "https://europe.arcelormittal.com/repo/Europe/ArcelorMittal-announces-first-industrial-production-of-ethanol.png",
+      "origin_url": "https://europe.arcelormittal.com/newsandmedia/pressreleases/6227/Steelanol-first-industrial-scale-production",
+      "rights_status": "link_only",
+      "rights_note": "ArcelorMittal Europe 공식 보도자료 원본 사진을 외부 링크로만 표시",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

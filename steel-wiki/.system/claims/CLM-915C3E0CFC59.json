@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-915C3E0CFC59",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "closed_loop_control",
+  "value": "광양 2전로 사례는 25개 수동 조작을 원터치 순서로 자동화했지만 운영자는 감시·관리 책임을 유지; 완전 무인 자율운전과 동일하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-285480DE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "POSCO 사례에서 자동화 범위와 사람 역할을 분리",
+      "source_ids": [
+        "SRC-20260725-285480DE"
+      ]
+    }
+  ]
+}

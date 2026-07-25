@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F0EEE97B4FEB",
+  "subject_id": "PRJ-HYFOR-DONAWITZ-PILOT",
+  "predicate": "location",
+  "value": "voestalpine Donawitz 제철소, 오스트리아",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BC8DE092"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 파일럿 위치",
+      "source_ids": [
+        "SRC-20260725-BC8DE092"
+      ]
+    }
+  ]
+}

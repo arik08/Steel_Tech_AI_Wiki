@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BE7250BD66A6",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "scale_status",
+  "value": "확인 규모는 Tata 5 t-CO2/day BF가스 포집, Steelanol 80 million L/year 에탄올 제품화, ULCOS 기술규모 TGR-BF 연구, JFE 150 m3 시험고로 계획까지이며 서로 다른 포집·활용 경로다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-46A2055D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공개 프로젝트 규모를 동일 성숙도처럼 오인하지 않도록 분리 요약",
+      "source_ids": [
+        "SRC-20260725-46A2055D"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-71F388DB470D",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "target_fid_date",
+  "value": "2026년 말",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-FBF8EA9E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "WA 정부가 밝힌 최종 결정 예상 시점",
+      "source_ids": [
+        "SRC-20260725-FBF8EA9E"
+      ]
+    }
+  ]
+}

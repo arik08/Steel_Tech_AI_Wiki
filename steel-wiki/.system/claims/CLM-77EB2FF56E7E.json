@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-77EB2FF56E7E",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "development_stage",
+  "value": "고로·전로·소결의 실제 생산현장 적용이 확인되지만 회사·공정별 자동제어 권한과 정량 검증 수준은 서로 다름",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-41586A75"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 현장 배치 근거로 기술 단계 정리",
+      "source_ids": [
+        "SRC-20260725-41586A75"
+      ]
+    }
+  ]
+}

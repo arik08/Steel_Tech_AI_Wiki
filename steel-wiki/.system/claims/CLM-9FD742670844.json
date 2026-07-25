@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-9FD742670844",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "product_purity",
+  "value": "Electra 주장 기준 99% 초과 순도의 철",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-03-27",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-3D62F9A6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-03-27",
+      "action": "created",
+      "reason": "회사 파일럿 발표에 명시된 제품 순도",
+      "source_ids": [
+        "SRC-20260725-3D62F9A6"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재확인",
+      "source_ids": [
+        "SRC-20260725-3D62F9A6"
+      ]
+    }
+  ]
+}

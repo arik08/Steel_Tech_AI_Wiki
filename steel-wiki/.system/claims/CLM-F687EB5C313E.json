@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F687EB5C313E",
+  "subject_id": "COM-thyssenkrupp-Steel",
+  "predicate": "hydrogen_dri_status",
+  "value": "Duisburg DR tower 2026-02 조립 시작, 2027 시운전 예정; 천연가스 ramp-up 후 수소 비중을 100%까지 단계 확대",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-8D0BD4B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-8D0BD4B8"
+      ]
+    }
+  ]
+}

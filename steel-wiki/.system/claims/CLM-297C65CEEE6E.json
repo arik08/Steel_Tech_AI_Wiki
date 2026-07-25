@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-297C65CEEE6E",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "pilot_output",
+  "value": "2024년 8월까지 수소환원철 5,000톤 이상",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-75A329BD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "SSAB 2024-08-27 HYBRIT 6년 파일럿 결과와 다음 단계 발표",
+      "source_ids": [
+        "SRC-20260725-75A329BD"
+      ]
+    }
+  ]
+}

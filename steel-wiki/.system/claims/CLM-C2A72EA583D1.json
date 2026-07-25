@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C2A72EA583D1",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "result_limitations",
+  "value": "Tata 소결 사례는 기준기간, 절대 배출량, 적용 라인 수, 결과 지속기간, 통계 불확도와 제어 권한을 공개하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-0CC8B82B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공개 정량 성과의 검증 한계 명시",
+      "source_ids": [
+        "SRC-20260725-0CC8B82B"
+      ]
+    }
+  ]
+}

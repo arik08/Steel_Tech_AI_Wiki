@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-75A329BD",
+  "title": "HYBRIT six-year pilot research results",
+  "url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+  "canonical_url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+  "publisher": "SSAB",
+  "published_at": "2024-08-27",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "75a329bd8dc2ed925586c4a590296f611074901a633d99526a8977a23e86eec7",
+  "raw_sha256": "073e142cb85dcec86d982424f1ae65b4cd84faea685884e2b20a3efb63dea4a9",
+  "raw_path": ".system/raw/SRC-20260725-75A329BD.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-7D760156C71A",
+      "kind": "facility_photo",
+      "caption": "스웨덴 룰레오 HYBRIT 수소 직접환원 파일럿 플랜트 전경",
+      "alt_text": "배관과 철골 구조물로 구성된 HYBRIT 수소 직접환원 파일럿 플랜트 전경",
+      "creator": "Helena Sundberg",
+      "image_url": "https://mb.cision.com/Public/980/4028804/ae0aeee220ed7cee_org.jpg",
+      "origin_url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+      "rights_status": "link_only",
+      "rights_note": "SSAB 공식 보도자료의 미디어 첨부 원본을 로컬에 복제하지 않고 원격 표시",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

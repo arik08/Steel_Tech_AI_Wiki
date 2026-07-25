@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-FCFC5CD8738B",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "process_principle",
+  "value": "밀폐한 환원성 노내에서 전극의 전류 경로와 아크·저항가열로 열을 공급하고, 잔류 FeO를 환원한 뒤 용선과 슬래그의 밀도차로 분리한다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-6EC0DF4D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "BHP 공식 공정 설명을 기술 원리 Claim으로 구조화",
+      "source_ids": [
+        "SRC-20260725-6EC0DF4D"
+      ]
+    }
+  ]
+}

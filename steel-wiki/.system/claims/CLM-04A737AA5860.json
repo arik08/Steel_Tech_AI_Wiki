@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-04A737AA5860",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "vacuum_distillation",
+  "value": "Cu의 높은 증기압을 이용한 진공증류는 열손실이 작은 반응기에서 가능성이 있으나 진공 아크 재용해는 저처리량 특수강용 추가 재용해 공정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4366E5B1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "진공 처리의 기술·산업 한계",
+      "source_ids": [
+        "SRC-20260725-4366E5B1"
+      ]
+    }
+  ]
+}

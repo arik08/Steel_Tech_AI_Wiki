@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F3D34A13924F",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "particle_morphology",
+  "value": "입자 크기뿐 아니라 형상·표면 구조와 환원 중 생성철의 형태가 고착 성향을 좌우함",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-043634EA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "입자 형태 영향 학술 검토",
+      "source_ids": [
+        "SRC-20260725-043634EA"
+      ]
+    }
+  ]
+}

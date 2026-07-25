@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1CF7540B30FA",
+  "subject_id": "COM-Nippon-Steel",
+  "predicate": "blast_furnace_ccus_status",
+  "value": "Kimitsu 시험고로에서 2024년 수소 활용 CO2 43% 감축 확인; 고로가스 CO2 분리·포집 및 CCUS 연구 병행",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-45A1D063"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-45A1D063"
+      ]
+    }
+  ]
+}

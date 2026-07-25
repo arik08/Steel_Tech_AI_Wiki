@@ -1,0 +1,51 @@
+{
+  "claim_id": "CLM-C1670AA42A9A",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "funding_amount",
+  "value": "Western Australia 정부 A million 기여와 ARENA A.8 million FEED 지원; 2026-05-14 기준 주정부 자금 집행 조건은 협상 중",
+  "status": "superseded",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-FBF8EA9E",
+    "SRC-20260725-67CAA465",
+    "SRC-20260725-C37A3042"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "주정부 의회 답변의 조건부 자금 상태",
+      "source_ids": [
+        "SRC-20260725-FBF8EA9E"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "주정부 기여 발표 근거 추가",
+      "source_ids": [
+        "SRC-20260725-67CAA465"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "ARENA 지원 발표 근거 추가",
+      "source_ids": [
+        "SRC-20260725-C37A3042"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "기존 Claim은 PowerShell 통화 기호 변수 확장으로 숫자가 누락되었고, 신규 Claim이 공식 원문의 A million 및 A.8 million 금액을 정확히 보존함"
+    }
+  ],
+  "superseded_by": "CLM-092088AD1544"
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-FB5F8EC7C5CC",
+  "subject_id": "PRJ-SSAB-LULEA-ELECTRIC-MILL",
+  "predicate": "target_start_date",
+  "value": "2029년 말 가동 목표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2029-12-31",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31601585"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2029-12-31",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 대표 프로젝트 전체 일정 등록",
+      "source_ids": [
+        "SRC-20260725-31601585"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-31601585"
+      ]
+    }
+  ]
+}

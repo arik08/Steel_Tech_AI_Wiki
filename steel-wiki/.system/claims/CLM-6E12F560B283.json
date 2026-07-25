@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6E12F560B283",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "pilot_campaign_plan",
+  "value": "HYFOR는 2021년부터 최소 2년간 여러 광종을 대상으로 시험 캠페인을 계획",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BC8DE092"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals 파일럿 공식 계획",
+      "source_ids": [
+        "SRC-20260725-BC8DE092"
+      ]
+    }
+  ]
+}

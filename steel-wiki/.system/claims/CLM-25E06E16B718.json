@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-25E06E16B718",
+  "subject_id": "PRJ-SORTERA-SCRAP-DECOPPER",
+  "predicate": "location",
+  "value": "Markle, Indiana, United States",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-34FFE3B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "DOE 프로젝트 위치",
+      "source_ids": [
+        "SRC-20260725-34FFE3B8"
+      ]
+    }
+  ]
+}

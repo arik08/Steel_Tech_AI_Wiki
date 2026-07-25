@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-31601585",
+  "title": "SSAB begins construction of new Luleå electric steel mill",
+  "url": "https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule",
+  "canonical_url": "https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule",
+  "publisher": "SSAB",
+  "published_at": "2025-09-17",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "3160158500d9201bd22ea97584244e70c1fc8c217e64fba5681089fd2020b1e5",
+  "raw_sha256": "063a35021823ce120fa469a7be64ba2ca6ab95a4738619841ecc929adeaaf51d",
+  "raw_path": ".system/raw/SRC-20260725-31601585.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-7E992390C50E",
+      "kind": "facility_photo",
+      "caption": "SSAB Luleå 신규 전기제철소 기공식 현장",
+      "alt_text": "SSAB Luleå 전기제철소 기공식",
+      "creator": "SSAB / official press image",
+      "image_url": "https://mb.cision.com/Public/980/4235985/a783e1cf18bc6171_org.jpg",
+      "origin_url": "https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule",
+      "rights_status": "link_only",
+      "rights_note": "SSAB 공식 보도자료의 기공식 사진입니다. 재사용 권한을 별도 확인하지 않아 원문 링크로만 표시합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

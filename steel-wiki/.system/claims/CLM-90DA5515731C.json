@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-90DA5515731C",
+  "subject_id": "COM-ArcelorMittal",
+  "predicate": "low_carbon_ironmaking_status",
+  "value": "Dunkirk 2 Mtpa EAF 건설 확정, €1.3bn 투자, 2029 가동 목표; scrap·HBI/DRI·hot metal 혼합 투입",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-61382798"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-61382798"
+      ]
+    }
+  ]
+}

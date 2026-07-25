@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-547DC6BF1265",
+  "subject_id": "PRJ-HY4SMELT",
+  "predicate": "project_status",
+  "value": "construction",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-09-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E316D68F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-09-25",
+      "action": "created",
+      "reason": "Primetals 공식 착공 발표",
+      "source_ids": [
+        "SRC-20260725-E316D68F"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-E316D68F"
+      ]
+    }
+  ]
+}

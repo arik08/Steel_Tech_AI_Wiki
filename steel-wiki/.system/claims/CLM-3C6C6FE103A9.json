@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3C6C6FE103A9",
+  "subject_id": "PRJ-TATA-JAMSHEDPUR-BF-CCU",
+  "predicate": "capture_capacity_tpd",
+  "value": "5 t-CO2/day",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-46A2055D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 공칭 포집능력",
+      "source_ids": [
+        "SRC-20260725-46A2055D"
+      ]
+    }
+  ]
+}

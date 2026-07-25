@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1F61B000D3B6",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "energy_intensity_estimate",
+  "value": "성숙 설비를 가정한 문헌 추정치는 2.89–4.45 kWh/kg-Fe이며, 별도 모델은 약 4.7–4.78 kWh/kg-Fe를 제시한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-1AD87D2B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "동료평가 논문의 에너지 소비 추정 범위와 모델 차이를 함께 등록",
+      "source_ids": [
+        "SRC-20260725-1AD87D2B"
+      ]
+    }
+  ]
+}

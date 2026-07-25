@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-25AD533BC80D",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "sticking_controls",
+  "value": "고착 완화 수단은 표면 코팅, 광석 혼합, 조립, 단계환원, 순환·원추형 유동층, 기계적 교반과 입자 구조 제어를 포함",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-043634EA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "학술 검토의 완화 수단 종합",
+      "source_ids": [
+        "SRC-20260725-043634EA"
+      ]
+    }
+  ]
+}

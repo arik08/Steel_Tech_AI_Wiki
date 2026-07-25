@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-16E6A648F994",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "capture_point",
+  "value": "우선 포집 대상은 연소 전의 고로 상부가스이며, 제철소 전체 감축을 위해서는 열풍로·코크스오븐·소결·발전 등 분산 배출원을 별도로 포함해야 한다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-46A2055D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Tata의 실제 비연소 고로가스 포집 지점과 IEAGHG 시스템 경계를 구분",
+      "source_ids": [
+        "SRC-20260725-46A2055D"
+      ]
+    }
+  ]
+}

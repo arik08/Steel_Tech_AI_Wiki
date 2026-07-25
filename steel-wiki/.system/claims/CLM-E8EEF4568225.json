@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E8EEF4568225",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "process_mode",
+  "value": "DRI와 플럭스를 연속 장입하고 공기 유입을 막은 환원 분위기를 유지하며, 운전을 멈추지 않고 용선과 슬래그를 주기적으로 출선·출재한다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-6EC0DF4D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "BHP 공식 기술 설명의 연속 운전 방식",
+      "source_ids": [
+        "SRC-20260725-6EC0DF4D"
+      ]
+    }
+  ]
+}

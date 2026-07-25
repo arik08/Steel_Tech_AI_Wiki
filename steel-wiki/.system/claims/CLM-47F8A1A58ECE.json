@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-47F8A1A58ECE",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "asset_reinvestment_window",
+  "value": "세계 철강 생산설비의 약 15%가 2035년 전후 재투자 결정을 맞으므로, 이번 투자주기에 전환 가능성과 좌초 위험을 함께 검토해야 한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-03-19",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BD336973"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-03-19",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-BD336973"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-BD336973"
+      ]
+    }
+  ]
+}

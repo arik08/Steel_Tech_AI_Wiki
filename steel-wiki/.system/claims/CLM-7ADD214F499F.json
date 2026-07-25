@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-7ADD214F499F",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "methodology_limit",
+  "value": "IEA가 검토한 기존 철강 배출량 산정·데이터 프레임워크 중 제안된 순제로 원칙을 모두 충족하는 단일 체계나 조합은 없었다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2023-04-04",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-238E8691"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2023-04-04",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-238E8691"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-238E8691"
+      ]
+    }
+  ]
+}

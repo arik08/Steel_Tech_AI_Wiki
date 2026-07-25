@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DCA53936099C",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "gas_recycle",
+  "value": "HYFOR는 반응 후 가스를 정제해 공정으로 재순환하는 폐회로 환원가스 계통을 사용",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A23B5A64"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals 공식 가스계통 설명",
+      "source_ids": [
+        "SRC-20260725-A23B5A64"
+      ]
+    }
+  ]
+}

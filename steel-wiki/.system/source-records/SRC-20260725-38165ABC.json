@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-38165ABC",
+  "title": "Iron and Steel Technology Roadmap",
+  "url": "https://www.iea.org/reports/iron-and-steel-technology-roadmap",
+  "canonical_url": "https://www.iea.org/reports/iron-and-steel-technology-roadmap",
+  "publisher": "International Energy Agency",
+  "published_at": "2020-10-08",
+  "collected_at": "2026-07-25",
+  "source_type": "government",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "38165abc0ccdc14cd24385ee2ea636359e4c21772462c36a097b9b6411a672b1",
+  "raw_sha256": "02015b0a7b6c5c6d2a603157b0e9fffd21287547fc48394c077cbf2087c53276",
+  "raw_path": ".system/raw/SRC-20260725-38165ABC.md",
+  "previous_version": "SRC-20260725-2B01239E",
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-047A0A6C134F",
+      "kind": "facility_photo",
+      "caption": "IEA 철강 기술 로드맵 대표 이미지: 철강 소재와 전환 경로를 다루는 공식 보고서 표지 사진",
+      "alt_text": "여러 겹으로 쌓인 철강 코일과 강재",
+      "creator": "International Energy Agency / source-page credited stock image",
+      "image_url": "https://iea.imgix.net/5009c499-0666-4626-9602-ce914398ed48/shutterstock_239544715.jpg?auto=compress%2Cformat&auto=format&fit=crop&fit=min&fm=jpg&h=353&q=70&q=80&rect=0%2C0%2C5184%2C3456&w=530",
+      "origin_url": "https://www.iea.org/reports/iron-and-steel-technology-roadmap",
+      "rights_status": "link_only",
+      "rights_note": "IEA 공식 보고서 페이지의 대표 이미지입니다. 재사용 권한을 별도 확인하지 않아 다운로드하지 않고 원문 링크로만 표시합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

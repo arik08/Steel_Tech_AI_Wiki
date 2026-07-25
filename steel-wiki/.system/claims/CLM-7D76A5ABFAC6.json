@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7D76A5ABFAC6",
+  "subject_id": "PRJ-MOLTEN-SULFIDE-ELECTROLYSIS",
+  "predicate": "funding_amount",
+  "value": "USD 5.6 million federal funding selection",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-34FFE3B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "미국 DOE 프로젝트 선정 자료",
+      "source_ids": [
+        "SRC-20260725-34FFE3B8"
+      ]
+    }
+  ]
+}

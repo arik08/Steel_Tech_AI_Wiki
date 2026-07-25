@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A19C43D7FF72",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "product_carbon",
+  "value": "공개 산업 운전 사례의 ESF 용선 탄소는 약 3.2–4%, 실험실 결과는 2.5–4.5% 범위로 보고됐다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026년 리뷰가 정리한 기존 운전·실험 범위",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

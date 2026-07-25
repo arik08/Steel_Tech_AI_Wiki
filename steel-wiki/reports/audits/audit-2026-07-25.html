@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steel Intelligence Audit 2026-07-25</title>
+  <style>
+:root {
+  --ink: #17202b;
+  --muted: #647181;
+  --line: #d9e0e6;
+  --paper: #ffffff;
+  --canvas: #f4f6f8;
+  --navy: #122232;
+  --navy-2: #1b3449;
+  --blue: #05507D;
+  --green: #2F7D68;
+  --amber: #b97717;
+  --red: #b33a3a;
+}
+* { box-sizing: border-box; }
+html { background: var(--canvas); color: var(--ink); scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Noto Sans KR", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+}
+.report-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 24px auto 48px;
+  background: var(--paper);
+  box-shadow: 0 12px 36px rgba(24, 39, 54, .12);
+}
+.report-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.report-nav a {
+  color: #d9edf8;
+  text-decoration: none;
+}
+.report-nav a:hover { text-decoration: underline; }
+.report-header {
+  padding: 38px 48px 34px;
+  color: #f8fbfd;
+  background: linear-gradient(135deg, var(--navy), var(--navy-2));
+  border-bottom: 5px solid var(--blue);
+}
+.eyebrow {
+  margin: 0 0 10px;
+  color: #9ecde7;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.report-header h1 {
+  margin: 0;
+  max-width: 850px;
+  color: #fff;
+  font-size: clamp(30px, 4.6vw, 48px);
+  line-height: 1.14;
+  letter-spacing: -.035em;
+}
+.metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+.meta-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,.22);
+  border-radius: 4px;
+  color: #eaf4fa;
+  background: rgba(255,255,255,.07);
+  font-size: 14px;
+}
+.report-body { padding: 38px 48px 48px; }
+.report-layout {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 34px;
+  align-items: start;
+}
+.wiki-side {
+  position: sticky;
+  top: 18px;
+}
+.report-toc, .company-nav {
+  padding: 14px 0;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.report-toc { margin-top: 18px; }
+.report-toc strong, .company-nav strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.report-toc a, .company-nav a {
+  display: block;
+  padding: 5px 0;
+  color: #536473;
+  font-size: 14px;
+  line-height: 1.35;
+  text-decoration: none;
+}
+.report-toc a.sub { padding-left: 10px; }
+.report-toc a:hover, .company-nav a:hover { color: #05507D; }
+.company-nav a.active {
+  color: #05507D;
+  font-weight: 700;
+}
+.report-content > h1:first-child { display: none; }
+h2 {
+  margin: 38px 0 14px;
+  padding-top: 10px;
+  border-top: 2px solid var(--ink);
+  color: var(--ink);
+  font-size: 23px;
+  line-height: 1.25;
+}
+h3 { margin: 26px 0 10px; color: #27394a; font-size: 18px; }
+h4 { margin: 22px 0 8px; color: #405466; font-size: 15px; }
+p { margin: 10px 0 16px; }
+ul, ol { margin: 10px 0 20px; padding-left: 24px; }
+li { margin: 5px 0; }
+a { color: #16658f; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+code {
+  padding: 2px 5px;
+  border: 1px solid #d9e1e7;
+  border-radius: 3px;
+  background: #f3f6f8;
+  font-family: Consolas, "Cascadia Mono", monospace;
+  font-size: 14px;
+}
+pre {
+  overflow-x: auto;
+  padding: 16px;
+  border-radius: 4px;
+  color: #ecf4f8;
+  background: #172633;
+}
+pre code { padding: 0; border: 0; color: inherit; background: transparent; }
+blockquote {
+  margin: 18px 0;
+  padding: 13px 16px;
+  border-left: 4px solid var(--blue);
+  color: #35495a;
+  background: #f3f7fa;
+}
+.table-wrap {
+  overflow-x: auto;
+  margin: 18px 0 26px;
+  border: 1px solid var(--line);
+}
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th {
+  padding: 10px 12px;
+  color: #f8fbfd;
+  background: #263b4d;
+  text-align: left;
+  vertical-align: bottom;
+}
+td {
+  padding: 10px 12px;
+  border-top: 1px solid var(--line);
+  vertical-align: top;
+}
+tbody tr:nth-child(even) { background: #f7f9fb; }
+.citation {
+  display: inline;
+  color: #14668f;
+  font-size: 14px;
+  font-weight: 650;
+}
+.sources-section {
+  margin-top: 46px;
+  padding-top: 8px;
+  border-top: 3px solid var(--ink);
+}
+.section-lead, .empty-note { color: var(--muted); }
+.sources-section .section-lead { margin-bottom: 12px; }
+.source-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.source-card {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr);
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--green);
+  background: #ffffff;
+  break-inside: avoid;
+}
+.source-card > div { min-width: 0; }
+.source-card.missing { border-left-color: var(--red); }
+.source-card:target {
+  border-color: var(--blue);
+  border-left-color: var(--blue);
+  background: #f0f7fb;
+  box-shadow: 0 0 0 3px rgba(5,80,125,.14);
+}
+.source-number {
+  color: var(--muted);
+  font-family: Consolas, monospace;
+  font-size: 14px;
+}
+.source-card h3 {
+  margin: 0 0 3px;
+  font-size: 15px;
+  line-height: 1.35;
+}
+.source-meta, .source-links {
+  margin: 2px 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.4;
+}
+.report-footer {
+  padding: 16px 48px;
+  color: #d6e1e8;
+  background: var(--navy);
+  font-size: 14px;
+}
+body.company-report {
+  --blue: #05507D;
+  --green: #2F7D68;
+  background: #f4f6f8;
+}
+body.company-report .report-shell {
+  border: 1px solid #d7dcdf;
+  box-shadow: none;
+}
+body.company-report .report-header {
+  padding: 20px 48px 22px;
+  color: var(--ink);
+  background: #fff;
+  border-top: 4px solid #05507D;
+  border-bottom: 1px solid #d7dcdf;
+}
+body.company-report .report-nav {
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e9eb;
+}
+body.company-report .report-nav a {
+  color: #05507D;
+  font-weight: 700;
+}
+body.company-report .eyebrow { color: #05507D; }
+body.company-report .report-header h1 {
+  color: var(--ink);
+  font-size: clamp(28px, 3.4vw, 38px);
+}
+body.company-report .meta-chip {
+  border-color: #cfd9dc;
+  color: #425461;
+  background: #f5f7f9;
+}
+body.company-report h2 { border-top-color: #8d969c; }
+body.company-report .citation { color: #05507D; }
+body.company-report .report-footer {
+  color: #5e6b74;
+  background: #f5f7f9;
+  border-top: 1px solid #d7dcdf;
+}
+@media (max-width: 720px) {
+  .report-shell { width: 100%; margin: 0; box-shadow: none; }
+  .report-header, .report-body { padding-left: 22px; padding-right: 22px; }
+  .report-header { padding-top: 28px; }
+  .report-layout { display: block; }
+  .wiki-side { position: static; margin-bottom: 24px; }
+  .source-list { grid-template-columns: 1fr; }
+  table { font-size: 14px; }
+}
+@media print {
+  @page { size: A4; margin: 13mm; }
+  html, body { background: #fff; }
+  body { font-size: 10.5pt; }
+  .report-shell { width: 100%; margin: 0; box-shadow: none; }
+  .report-header { padding: 22px 28px; background: #172b3d !important; }
+  .report-header h1 { font-size: 26pt; }
+  .report-body { padding: 22px 28px; }
+  .report-layout { display: block; }
+  .wiki-side { display: none; }
+  .report-footer { padding: 10px 28px; }
+  a { color: inherit; }
+  h2, h3, .source-card, table { break-inside: avoid; }
+}
+</style>
+</head>
+<body class="">
+  <main class="report-shell">
+    <header class="report-header">
+      
+      <p class="eyebrow">Steel Technology Intelligence</p>
+      <h1>Steel Intelligence Audit 2026-07-25</h1>
+      <div class="metadata"><span class="meta-chip">보고일 · 2026-07-25</span><span class="meta-chip">인용 출처 · 0개</span></div>
+    </header>
+    <div class="report-body">
+      <div class="report-layout">
+      
+      <div><article class="report-content">
+<h1 id="steel-intelligence-audit-2026-07-25">Steel Intelligence Audit - 2026-07-25</h1>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>source_integrity: 0</li>
+<li>source_schema: 0</li>
+<li>claim_schema: 0</li>
+<li>claim_evidence: 0</li>
+<li>stale_claims: 0</li>
+<li>active_conflicts: 0</li>
+<li>pending_reviews: 0</li>
+</ul>
+      </article>
+      <section class="sources-section"><h2>출처</h2><p class="empty-note">보고서에 연결된 출처가 없습니다.</p></section>
+      </div></div>
+    </div>
+    <footer class="report-footer">
+      Markdown 원본: audit-2026-07-25.md · 생성일: 2026-07-25
+    </footer>
+  </main>
+</body>
+</html>

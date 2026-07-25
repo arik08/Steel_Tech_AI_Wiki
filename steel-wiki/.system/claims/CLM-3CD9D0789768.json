@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3CD9D0789768",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "economic_assessment",
+  "value": "IEA 시나리오는 재생전력 가격이 20–30 USD/MWh인 지역에서 수소 DRI가 경쟁우위를 가질 수 있다고 분석했다. 플랜트 실측 손익분기 전력가격은 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-2B01239E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "IEA의 지역 경쟁력 조건과 모델 한계를 등록",
+      "source_ids": [
+        "SRC-20260725-2B01239E"
+      ]
+    }
+  ]
+}

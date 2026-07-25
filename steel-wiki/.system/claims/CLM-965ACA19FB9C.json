@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-965ACA19FB9C",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "target_storage_completion_date",
+  "value": "수소 저장 파일럿을 2026년까지 계속",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-75A329BD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "SSAB 2024-08-27 HYBRIT 6년 파일럿 결과와 다음 단계 발표",
+      "source_ids": [
+        "SRC-20260725-75A329BD"
+      ]
+    }
+  ]
+}

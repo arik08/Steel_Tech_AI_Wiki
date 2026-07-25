@@ -1,0 +1,47 @@
+{
+  "source_id": "SRC-20260725-A23B5A64",
+  "title": "HYFOR: Hydrogen-Based Fine-Ore Reduction",
+  "url": "https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/",
+  "canonical_url": "https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor",
+  "publisher": "Primetals Technologies",
+  "published_at": null,
+  "collected_at": "2026-07-25",
+  "source_type": "equipment_supplier",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "a23b5a643a0194b33db7661cedd2201f6e846e044f932dcf07d78822f85d971d",
+  "raw_sha256": "2b90bff356ff51a03838aebb87aa0fd9f7b8028e810d9cc7c97accf99e6a80a7",
+  "raw_path": ".system/raw/SRC-20260725-A23B5A64.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-3E9F132043D6",
+      "kind": "facility_photo",
+      "caption": "Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비",
+      "alt_text": "HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비",
+      "creator": "Primetals Technologies",
+      "image_url": "https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png",
+      "origin_url": "https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor",
+      "rights_status": "link_only",
+      "rights_note": "Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    },
+    {
+      "media_id": "MED-C2D1BCA808CA",
+      "kind": "facility_photo",
+      "caption": "Primetals Technologies HYFOR 파일럿 플랜트의 미분광 분배·공급 설비",
+      "alt_text": "HYFOR 파일럿 플랜트 내부의 미분광 분배 장치와 배관",
+      "creator": "Primetals Technologies",
+      "image_url": "https://dam.primetals.com/m/5cabf17404a68773/webimage-DSC_0098x.png",
+      "origin_url": "https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor",
+      "rights_status": "link_only",
+      "rights_note": "Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

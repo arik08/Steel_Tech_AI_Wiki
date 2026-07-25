@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1AEAB7FDDD7B",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "model_layer",
+  "value": "데이터 기반 통계·기계학습 모델과 열화학 물리 시뮬레이션을 함께 사용하는 하이브리드 모델",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-41586A75"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "JFE CPS 공식 모델 구성 확인",
+      "source_ids": [
+        "SRC-20260725-41586A75"
+      ]
+    }
+  ]
+}

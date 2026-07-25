@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F76A08CB6D30",
+  "subject_id": "PRJ-ULCOS-TGR-BF",
+  "predicate": "technology_route",
+  "value": "산소송풍 고로 → 상부가스 CO2 분리 → CO·H2 환원가스 재순환 → 포집 CO2 수송·저장 연계 개념",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A8C28387"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "ULCOS New Blast Furnace Process 목적과 후속 TGR-BF 경로",
+      "source_ids": [
+        "SRC-20260725-A8C28387"
+      ]
+    }
+  ]
+}

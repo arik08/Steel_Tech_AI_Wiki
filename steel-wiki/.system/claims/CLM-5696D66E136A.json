@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5696D66E136A",
+  "subject_id": "PRJ-ULCOS-TGR-BF",
+  "predicate": "capture_performance",
+  "value": "시험 중 상부가스의 최대 90%를 VPSA에서 처리·재순환했고, 일반 소결광·펠릿·코크스 사용 가능성을 확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E493B07B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "EU 공식 최종보고서 수치",
+      "source_ids": [
+        "SRC-20260725-E493B07B"
+      ]
+    }
+  ]
+}

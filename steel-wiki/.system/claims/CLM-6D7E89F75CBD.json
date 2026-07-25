@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-6D7E89F75CBD",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "data_quality_requirement",
+  "value": "일반 배출계수보다 사업장·제품별 감사 가능한 실측 데이터를 우선하고, 세분성·투명성·정기성을 갖춘 자료 수집이 필요하다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2023-04-04",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-238E8691"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2023-04-04",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-238E8691"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-238E8691"
+      ]
+    }
+  ]
+}

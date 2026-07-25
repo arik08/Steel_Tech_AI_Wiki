@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-18698A815EDE",
+  "subject_id": "PRJ-SORTERA-SCRAP-DECOPPER",
+  "predicate": "project_status",
+  "value": "미국 DOE가 개발·실증 대상으로 선정한 프로젝트이며 준공·상업운전·성능 결과는 공개 출처에서 확인되지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-34FFE3B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "DOE 선정 자료의 단계 판독",
+      "source_ids": [
+        "SRC-20260725-34FFE3B8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-371A1ABFA5FE",
+  "subject_id": "PRJ-JFE-SINTER-CPS-ROLLOUT",
+  "predicate": "project_status",
+  "value": "일본 내 7개 소결 생산설비에 CPS 전개 중이며 전 고로 공정의 CPS 배치는 완료됐다고 회사 발표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-41586A75"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "JFE 공식 발표에서 확산 상태 확인",
+      "source_ids": [
+        "SRC-20260725-41586A75"
+      ]
+    }
+  ]
+}

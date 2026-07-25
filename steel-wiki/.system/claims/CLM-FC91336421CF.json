@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-FC91336421CF",
+  "subject_id": "PRJ-TK-H2STEEL-DUISBURG",
+  "predicate": "hydrogen_network_date",
+  "value": "2027년 지역 수소망 연결 계획",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2027-12-31",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-8D0BD4B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2027-12-31",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 대표 프로젝트 전체 일정 등록",
+      "source_ids": [
+        "SRC-20260725-8D0BD4B8"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-8D0BD4B8"
+      ]
+    }
+  ]
+}

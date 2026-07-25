@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F0563702EBF0",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "oxygen_blast",
+  "value": "TGR-BF는 질소 희석을 줄이기 위해 산소송풍을 결합하며, 열풍 현열 감소와 환원반응 열수지를 보상할 산소공장·가스 가열·노내 열관리 설계가 필요하다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-2EABD949"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "IEAGHG oxygen-blown BF 통합 사례의 설비 경계",
+      "source_ids": [
+        "SRC-20260725-2EABD949"
+      ]
+    }
+  ]
+}

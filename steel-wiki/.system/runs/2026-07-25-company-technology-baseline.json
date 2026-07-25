@@ -1,0 +1,70 @@
+{
+  "run_id": "company-technology-baseline",
+  "started_at": "2026-07-25T13:20:00+09:00",
+  "completed_at": "2026-07-25T13:24:04+09:00",
+  "status": "success",
+  "baseline_date": "2026-07-25",
+  "search_overlap_days": 5,
+  "scope": {
+    "companies": [
+      "ArcelorMittal",
+      "China Baowu Steel Group",
+      "Nippon Steel",
+      "JFE Steel",
+      "Tata Steel",
+      "thyssenkrupp Steel",
+      "SSAB",
+      "Nucor"
+    ],
+    "technologies": [
+      "hydrogen direct reduced iron",
+      "electric smelting furnace",
+      "molten oxide electrolysis",
+      "blast furnace CCUS",
+      "low-carbon ironmaking",
+      "smart steelworks"
+    ],
+    "source_types": [
+      "company_release",
+      "government",
+      "academic"
+    ]
+  },
+  "queries": [
+    "company official hydrogen DRI electric smelting furnace",
+    "company official molten oxide electrolysis CCUS",
+    "company official low-carbon ironmaking smart steelworks",
+    "company project delay cancellation funding permit"
+  ],
+  "checked_urls": [
+    "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-confirms-the-construction-of-an-electric-arc-furnace-in-dunkirk-france-a-13-billion-investment-supporting-an-important-step-in-its-decarbonisation",
+    "https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-europe-urges-faster-implementation-of-steel-and-metals-action-plan",
+    "https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-invests-36-million-in-steel-decarbonisation-disruptor-boston-metal",
+    "https://en.sasac.gov.cn/2026/01/07/c_20292.htm",
+    "https://www.riotinto.com/news/releases/2026/china-baowu-and-rio-tinto-complete-pilbara-blend-iron-ore-pelletisation-and-direct-reduction-trials",
+    "https://www.nipponsteel.com/en/sustainability/quality/rd.html",
+    "https://www.jfe-steel.co.jp/en/release/2025/01/250106.html",
+    "https://www.jfe-steel.co.jp/en/release/2025/10/251007.html",
+    "https://www.jfe-steel.co.jp/en/research/report/028/pdf/028-02.pdf",
+    "https://www.tatasteel.com/sustainability/environment/climate-action/",
+    "https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/",
+    "https://www.tatasteel.com/media/newsroom/press-releases/india/2023/tata-steel-limited-signs-a-mou-with-germany-s-sms-group-to-collaborate-on-decarbonisation-technology/",
+    "https://transformation.thyssenkrupp-steel.com/startseite.html",
+    "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+    "https://www.ssab.com/en/news/2025/06/ssab-postpones-commissioning-of-new-steel-mill-in-lule-by-12-months",
+    "https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule",
+    "https://nucor.com/sustainability/",
+    "https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement"
+  ],
+  "failed_urls": [],
+  "counts": {
+    "new_or_existing_sources": 18,
+    "claims_processed": 29,
+    "companies_projected": 8
+  },
+  "limitations": [
+    "공식·정부·기술 파트너 출처 중심의 기준선 조사이며 전체 인터넷을 포괄하지 않음",
+    "공식 근거 미확인은 기술 부재를 뜻하지 않음",
+    "회사 발표의 목표와 실제 상용 운전은 구분함"
+  ]
+}

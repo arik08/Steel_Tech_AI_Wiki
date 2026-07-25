@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-217360E9B1B2",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "capacity_tpy",
+  "value": "연 300,000 tonnes",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-B859CA04"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "POSCO 공식 실증 용량",
+      "source_ids": [
+        "SRC-20260725-B859CA04"
+      ]
+    }
+  ]
+}

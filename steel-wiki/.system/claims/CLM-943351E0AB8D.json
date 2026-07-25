@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-943351E0AB8D",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "synchronization_requirement",
+  "value": "가상 모델은 물리 설비의 현재 상태와 지속 동기화되어야 하며, 단순 3D 화면이나 정적 시뮬레이션만으로 운전용 디지털 트윈이라 할 수 없음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-30A4249E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "NIST 디지털 트윈 신뢰성 요구에서 동기화 기준 확인",
+      "source_ids": [
+        "SRC-20260725-30A4249E"
+      ]
+    }
+  ]
+}

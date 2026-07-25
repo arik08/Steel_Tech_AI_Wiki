@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-4D18679667FD",
+  "subject_id": "COM-POSCO",
+  "predicate": "electric_smelting_furnace_status",
+  "value": "2024년 4월 1 t/h 파일럿 전기용융로에서 첫 용선 생산, DRI·HBI 용융 시험 계획 단계; 상업 규모 운전은 미확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-09-11",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A6759186"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-09-11",
+      "action": "created",
+      "reason": "2026-07-25 POSCO-경쟁사 비교 기준선 조사",
+      "source_ids": [
+        "SRC-20260725-A6759186"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-A6759186"
+      ]
+    }
+  ]
+}

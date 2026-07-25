@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-F6BCAE477883",
+  "subject_id": "COM-POSCO",
+  "predicate": "smart_steelworks_status",
+  "value": "포항 2고로 AI 예측·제어와 제철소 연속공정용 PosFrame 운용이 확인됨; 2020년 기준선이며 현재 전 설비 배치 범위는 미확인",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2020-01-20",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-28E5A30F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2020-01-20",
+      "action": "created",
+      "reason": "2026-07-25 POSCO-경쟁사 비교 기준선 조사",
+      "source_ids": [
+        "SRC-20260725-28E5A30F"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-28E5A30F"
+      ]
+    }
+  ]
+}

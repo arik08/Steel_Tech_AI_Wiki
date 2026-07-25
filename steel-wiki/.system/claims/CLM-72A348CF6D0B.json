@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-72A348CF6D0B",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "infrastructure_requirement",
+  "value": "2018년 MIDREX 추정에서 1.6 Mt/y·200 t/h급 설비는 약 130,000 Nm3/h의 수소와 약 650 MW 규모 수소 생산설비가 필요했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-AFA5C853"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "정부 공개 워크숍의 플랜트급 수소 인프라 설계값을 등록",
+      "source_ids": [
+        "SRC-20260725-AFA5C853"
+      ]
+    }
+  ]
+}

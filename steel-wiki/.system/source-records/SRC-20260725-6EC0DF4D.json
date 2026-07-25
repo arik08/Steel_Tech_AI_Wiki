@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-6EC0DF4D",
+  "title": "Pathways to decarbonisation: the electric smelting furnace",
+  "url": "https://www.bhp.com/news/bhp-insights/2023/06/pathways-to-decarbonisation-episode-seven-the-electric-smelting-furnace",
+  "canonical_url": "https://www.bhp.com/news/bhp-insights/2023/06/pathways-to-decarbonisation-episode-seven-the-electric-smelting-furnace",
+  "publisher": "BHP",
+  "published_at": "2023-06-16",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "6ec0df4d8d308464c582ec5c6108a84e94cb187889aacc4a9469a36b5318645a",
+  "raw_sha256": "830f345dcd68e937f010bbb9931ad20b543c45d0616d5f3ebcbdf6cc149e0ceb",
+  "raw_path": ".system/raw/SRC-20260725-6EC0DF4D.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-7F7CEDE54614",
+      "kind": "process_diagram",
+      "caption": "BHP가 공개한 4개 1차 제철 경로 비교도 — DRI–ESF 경로 포함",
+      "alt_text": "고로, DRI-EAF, DRI-ESF와 전해제철 경로를 비교한 BHP 공정 개념도",
+      "creator": "BHP",
+      "image_url": "https://www.bhp.com/-/media/project/bhp1ip/bhp-com-en/images/general/2023/230615_prospectsblog3.png",
+      "origin_url": "https://www.bhp.com/news/bhp-insights/2023/06/pathways-to-decarbonisation-episode-seven-the-electric-smelting-furnace",
+      "rights_status": "link_only",
+      "rights_note": "BHP 공식 기술 설명 페이지의 원본 그림을 외부 링크로만 표시하며 복제 권한은 별도 확인하지 않음",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

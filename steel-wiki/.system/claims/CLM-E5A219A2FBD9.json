@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E5A219A2FBD9",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "pilot_batch_size",
+  "value": "HYFOR 2021년 초기 시험은 시험 회당 약 800 kg의 광석을 사용",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BC8DE092"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals 파일럿 공식 투입량",
+      "source_ids": [
+        "SRC-20260725-BC8DE092"
+      ]
+    }
+  ]
+}

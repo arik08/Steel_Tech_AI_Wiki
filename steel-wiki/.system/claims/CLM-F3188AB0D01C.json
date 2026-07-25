@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F3188AB0D01C",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "process_mode",
+  "value": "기존 천연가스 DRI 플랫폼에서 수소 비율을 단계적으로 높이거나, 신규 설비를 최대 100% 수소 운전용으로 설계할 수 있다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D230993B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공급사의 전환·신설 운전 모드를 등록",
+      "source_ids": [
+        "SRC-20260725-D230993B"
+      ]
+    }
+  ]
+}

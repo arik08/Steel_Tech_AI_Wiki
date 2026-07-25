@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DC47F858FC3A",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "phosphorus_prediction_result",
+  "value": "실조업 데이터 기반 FA-MM-TabNet 연구는 종점 P 예측 MAE 0.0024, RMSE 0.0034, ±0.005% 범위 적중률 90.82%를 보고했으나 단일 데이터셋 결과",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D37C44F7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2025년 ISIJ International 연구 결과",
+      "source_ids": [
+        "SRC-20260725-D37C44F7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-96E6836ED31C",
+  "subject_id": "PRJ-SSAB-LULEA-ELECTRIC-MILL",
+  "predicate": "capex_eur",
+  "value": "EUR 4.5 billion",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-09-17",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31601585"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-09-17",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 대표 프로젝트 전체 일정 등록",
+      "source_ids": [
+        "SRC-20260725-31601585"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-31601585"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-ABB77E4DE17E",
+  "subject_id": "COM-POSCO",
+  "predicate": "aqueous_iron_electrolysis_status",
+  "value": "Electra와 저온 전기화학 철 생산 공동개발·투자; 연산 500톤 시범공장의 상업화 기술·경제성 공동 검증 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-28",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4C014458"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-28",
+      "action": "created",
+      "reason": "POSCO 공식 공동개발 발표",
+      "source_ids": [
+        "SRC-20260725-4C014458"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-4C014458"
+      ]
+    }
+  ]
+}

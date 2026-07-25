@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-476128129937",
+  "subject_id": "PRJ-HY4SMELT",
+  "predicate": "feedstock_scope",
+  "value": "응집하지 않은 저·중품위 철광석 미분을 중점 검증",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E316D68F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 원료 범위",
+      "source_ids": [
+        "SRC-20260725-E316D68F"
+      ]
+    }
+  ]
+}

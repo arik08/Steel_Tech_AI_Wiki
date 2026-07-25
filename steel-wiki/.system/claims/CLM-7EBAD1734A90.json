@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7EBAD1734A90",
+  "subject_id": "PRJ-ULCOS-TGR-BF",
+  "predicate": "partners",
+  "value": "thyssenkrupp Steel AG가 조정기관이며 유럽 철강·연구기관이 참여한 ULCOS 프로그램",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A8C28387"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "CORDIS 공식 조정기관 정보",
+      "source_ids": [
+        "SRC-20260725-A8C28387"
+      ]
+    }
+  ]
+}

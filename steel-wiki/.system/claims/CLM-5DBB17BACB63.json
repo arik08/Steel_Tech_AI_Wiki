@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5DBB17BACB63",
+  "subject_id": "COM-Tata-Steel",
+  "predicate": "hydrogen_dri_status",
+  "value": "Tata Steel Nederland DRP는 초기 천연가스, 경제성 확보 시 biomethane·수소를 단계 도입하는 조건부 계획",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-789AB58F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-789AB58F"
+      ]
+    }
+  ]
+}

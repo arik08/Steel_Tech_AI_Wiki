@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5CB9D5EAEC45",
+  "subject_id": "PRJ-ULCOS-TGR-BF",
+  "predicate": "funding_amount",
+  "value": "총사업비 EUR 8,551,812; EU 기여 EUR 5,131,088",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A8C28387"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "CORDIS 공식 프로젝트 재정 정보",
+      "source_ids": [
+        "SRC-20260725-A8C28387"
+      ]
+    }
+  ]
+}

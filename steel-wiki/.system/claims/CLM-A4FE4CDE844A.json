@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-A4FE4CDE844A",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "hydrogen_dri_competitiveness",
+  "value": "IEA 시나리오에서는 재생전력 가격이 USD 20~30/MWh인 지역이 수소 DRI 경쟁 우위를 가질 수 있으나, 실제성은 수소·전력·원료 조건에 좌우된다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2020-10-08",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-38165ABC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2020-10-08",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    }
+  ]
+}

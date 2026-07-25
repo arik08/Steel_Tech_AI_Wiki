@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-15A12FFB27D0",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "downstream_route",
+  "value": "ESF 용선은 기존 BOF 또는 EAF에서 탈탄·탈인·탈황·성분조정을 거쳐 용강이 되며, 기존 통합제철소의 제강·연주·압연 자산을 활용할 수 있다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-6EC0DF4D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "BHP 공식 설명의 후단 통합 경로",
+      "source_ids": [
+        "SRC-20260725-6EC0DF4D"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-3224D8D66EA8",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "independent_audit_requirement",
+  "value": "ResponsibleSteel 진척도 인증은 인정받은 독립 인증기관의 감사를 요구하므로 회사 자체 선언과 제3자 검증 제품 주장을 구분할 수 있다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-09-23",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-9B4DDCDD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-09-23",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-9B4DDCDD"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-9B4DDCDD"
+      ]
+    }
+  ]
+}

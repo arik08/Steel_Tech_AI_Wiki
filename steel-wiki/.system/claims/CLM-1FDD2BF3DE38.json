@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1FDD2BF3DE38",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "human_in_loop",
+  "value": "AI의 실시간 계산과 사람의 경험·인지·책임을 함께 의사결정 고리에 두며, 사람의 최종 승인·감독·개입 지점을 설계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-8BA7A1B3"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "NIST human-in-the-loop 핵심 원칙 확인",
+      "source_ids": [
+        "SRC-20260725-8BA7A1B3"
+      ]
+    }
+  ]
+}

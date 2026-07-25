@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-55DF14386F99",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "commercial_reference",
+  "value": "Al Reyadah는 철강부문 연 800,000톤 CO2 포집·EOR 주입의 상업 사슬이지만 Emirates Steel은 가스기반 DRI이므로 상업 고로 CCUS의 직접 근거로 사용할 수 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BBCC117E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "철강 CCS 선행사례와 고로 적용 근거를 명확히 분리",
+      "source_ids": [
+        "SRC-20260725-BBCC117E"
+      ]
+    }
+  ]
+}

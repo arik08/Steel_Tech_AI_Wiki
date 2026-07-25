@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CEBD3747FB01",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "pilot_output",
+  "value": "1 t/h 전기용융 파일럿을 가동해 첫 용선을 생산",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A6759186"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "POSCO 공식 파일럿 결과",
+      "source_ids": [
+        "SRC-20260725-A6759186"
+      ]
+    }
+  ]
+}

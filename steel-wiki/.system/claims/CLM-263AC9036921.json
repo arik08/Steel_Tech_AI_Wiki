@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-263AC9036921",
+  "subject_id": "PRJ-POSCO-GWANGYANG-EAF",
+  "predicate": "equipment_configuration",
+  "value": "Tenova 280t 출강 전기로, Consteel 연속 스크랩 장입·예열, Consteerrer 전자기 교반, 로봇 응용, Safe+ 수누출 감지",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C888600A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 설비 공급사 발표에서 광양 전기로 구성 재검증",
+      "source_ids": [
+        "SRC-20260725-C888600A"
+      ]
+    }
+  ]
+}

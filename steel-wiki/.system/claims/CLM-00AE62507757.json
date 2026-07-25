@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-00AE62507757",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "gas_condition",
+  "value": "고로가스는 CO2뿐 아니라 CO·H2·N2와 분진·황계 불순물을 포함하므로 포집 전 제진·냉각·불순물 제거와 가스 조성 안정화가 필요하다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-2EABD949"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "통합제철소 포집 전처리 공정의 공개 기술 검토",
+      "source_ids": [
+        "SRC-20260725-2EABD949"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-4D444233314A",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "pathway_definition",
+  "value": "저탄소 제철은 단일 반응기 교체가 아니라 수소, CCUS, 바이오에너지, 직접 전기화, 자원 효율, 재활용을 지역 여건에 맞춰 조합하는 전환 포트폴리오이다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2020-10-08",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-38165ABC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2020-10-08",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    }
+  ]
+}

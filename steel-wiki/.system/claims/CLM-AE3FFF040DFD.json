@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-AE3FFF040DFD",
+  "subject_id": "PRJ-HYFOR-DONAWITZ-PILOT",
+  "predicate": "pilot_batch_size",
+  "value": "시험 회당 약 800 kg 철광석",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BC8DE092"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 시험 투입량",
+      "source_ids": [
+        "SRC-20260725-BC8DE092"
+      ]
+    }
+  ]
+}

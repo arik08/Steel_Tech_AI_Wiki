@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2DF7D20BF2A0",
+  "subject_id": "PRJ-SORTERA-SCRAP-DECOPPER",
+  "predicate": "technology_route",
+  "value": "AI 영상 선별과 열기계적 분리를 결합한 파쇄 스크랩 탈동",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-34FFE3B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "미국 DOE 프로젝트 설명",
+      "source_ids": [
+        "SRC-20260725-34FFE3B8"
+      ]
+    }
+  ]
+}

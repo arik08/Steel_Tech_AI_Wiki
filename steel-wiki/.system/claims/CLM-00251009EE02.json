@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-00251009EE02",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "anode_material",
+  "value": "Cr 기반 합금 불활성 양극은 전도성 Cr(III)-Al 산화물 보호층을 형성해 제한된 소모로 산소를 발생시킬 수 있다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-147875E9"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Nature 논문의 불활성 양극 재료와 보호층 메커니즘을 등록",
+      "source_ids": [
+        "SRC-20260725-147875E9"
+      ]
+    }
+  ]
+}

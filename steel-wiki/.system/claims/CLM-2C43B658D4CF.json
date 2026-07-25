@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2C43B658D4CF",
+  "subject_id": "PRJ-STEELANOL-GHENT",
+  "predicate": "emissions_per_tonne",
+  "value": "ArcelorMittal 주장 기준 full-capacity에서 Ghent 연간 배출 125,000톤 감축; 독립 전과정 검증값은 별도 확인 필요",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-B6FB82E5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "회사 발표 감축 주장을 경계와 함께 기록",
+      "source_ids": [
+        "SRC-20260725-B6FB82E5"
+      ]
+    }
+  ]
+}

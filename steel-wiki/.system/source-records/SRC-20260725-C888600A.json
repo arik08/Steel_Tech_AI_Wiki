@@ -1,0 +1,61 @@
+{
+  "source_id": "SRC-20260725-C888600A",
+  "title": "Tenova for POSCO Gwangyang plant",
+  "url": "https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant",
+  "canonical_url": "https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant",
+  "publisher": "Tenova",
+  "published_at": "2023-06-07",
+  "collected_at": "2026-07-25",
+  "source_type": "equipment_supplier",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "c888600a2134b3eadd4de39c047cde1929c8865689a1e914426fc6bb0e90f5e0",
+  "raw_sha256": "977c3ccd6bf0f7ee66a5f537166205574539748f6f0f87d2bbbbef03433500e0",
+  "raw_path": ".system/raw/SRC-20260725-C888600A.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-D2D5EB4B3069",
+      "kind": "equipment_drawing",
+      "caption": "Tenova Consteerrer 전자기 교반 장치의 전기로 하부 내부 구성도. 광양 설비에 적용된 기술의 범용 공급사 도면이며 POSCO 광양 전기로의 준공도(as-built)는 아님",
+      "alt_text": "전기로 하부를 투명하게 표현한 Consteerrer 전자기 교반 장치 내부 구성도",
+      "creator": "Tenova",
+      "image_url": "https://tenova.com/sites/default/files/styles/original/public/images/paragraphs/2021/CONSTEERRER.jpg.webp",
+      "origin_url": "https://tenova.com/technologies/electric-arc-furnaces-eaf",
+      "rights_status": "link_only",
+      "rights_note": "Tenova 공식 기술 페이지에서 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시하며, 광양 프로젝트의 준공도는 아닙니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    },
+    {
+      "media_id": "MED-028228A5D2C0",
+      "kind": "equipment_drawing",
+      "caption": "Tenova 전기로 본체·전극 승강부·출강 용기 배치를 보여주는 범용 3D 장치 구성도. POSCO 광양 전기로의 준공도(as-built)는 아님",
+      "alt_text": "전기로 본체와 전극 승강부, 출강 용기를 표현한 3D 설비 구성도",
+      "creator": "Tenova",
+      "image_url": "https://tenova.com/sites/default/files/styles/original/public/images/paragraphs/2021/TECH_DATA_EAF.jpg.webp",
+      "origin_url": "https://tenova.com/technologies/electric-arc-furnaces-eaf",
+      "rights_status": "link_only",
+      "rights_note": "Tenova 공식 기술 페이지에서 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시하며, 광양 프로젝트의 준공도는 아닙니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    },
+    {
+      "media_id": "MED-EF872DB2DAAD",
+      "kind": "facility_photo",
+      "caption": "Tenova의 POSCO 광양 전기로 공급 발표에 실린 광양제철소 설비 전경",
+      "alt_text": "배관과 굴뚝, 생산동이 보이는 POSCO 광양제철소 설비 전경",
+      "creator": "Tenova",
+      "image_url": "https://tenova.com/sites/default/files/images/headers/2023/Gwangyang_plant.jpg",
+      "origin_url": "https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant",
+      "rights_status": "link_only",
+      "rights_note": "Tenova 공식 프로젝트 발표 페이지의 설비 전경입니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

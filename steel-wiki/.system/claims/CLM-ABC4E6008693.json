@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-ABC4E6008693",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "near_zero_capacity_2030",
+  "value": "2025년 IEA 집계에서 2030년 발표된 근제로배출 철 기반 철강 생산능력은 약 10 Mt로, 순제로 경로에서 필요한 양의 약 10%였다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-03-19",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BD336973"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-03-19",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-BD336973"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-BD336973"
+      ]
+    }
+  ]
+}

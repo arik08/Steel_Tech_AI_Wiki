@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1A315374AA15",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "partners",
+  "value": "BlueScope(프로젝트 관리), BHP, Rio Tinto, Woodside Energy, Mitsui Iron Ore Development의 5개 동등 지분 참여사",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C37A3042"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "ARENA가 확정한 2025년 JV 참여 구성",
+      "source_ids": [
+        "SRC-20260725-C37A3042"
+      ]
+    }
+  ]
+}

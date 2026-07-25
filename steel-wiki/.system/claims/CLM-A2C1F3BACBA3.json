@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A2C1F3BACBA3",
+  "subject_id": "COM-SSAB",
+  "predicate": "low_carbon_ironmaking_status",
+  "value": "Luleå 2.5 Mtpa 전기제철소 건설 착수; fossil-free sponge iron·scrap과 2기 EAF 구성",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31601585"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-31601585"
+      ]
+    }
+  ]
+}

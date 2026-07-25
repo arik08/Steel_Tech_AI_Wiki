@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-752FB58F692C",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "feedstock_scope",
+  "value": "Boston Metal은 모든 등급의 철광석을 직접 투입할 수 있고 소결·펠릿화 전처리를 생략할 수 있다고 설명한다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-26EA1CBD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "회사의 원료 적응성 주장을 회사 주장으로 한정해 등록",
+      "source_ids": [
+        "SRC-20260725-26EA1CBD"
+      ]
+    }
+  ]
+}

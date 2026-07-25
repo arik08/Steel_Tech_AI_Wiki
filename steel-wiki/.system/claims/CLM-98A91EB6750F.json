@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-98A91EB6750F",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "core_reaction",
+  "value": "총괄 반응은 Fe2O3 + 3H2 → 2Fe + 3H2O이며, 수소가 산화철의 산소를 수증기로 제거한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-AFA5C853"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "DOE 공개 발표의 수소 환원 물질수지에 근거해 총괄 반응 등록",
+      "source_ids": [
+        "SRC-20260725-AFA5C853"
+      ]
+    }
+  ]
+}

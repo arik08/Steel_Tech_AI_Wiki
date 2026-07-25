@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D9C552C9A78F",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "technical_definition",
+  "value": "산성 수용액에 철광석을 용해하고 공존 광물을 분리하면서 산을 재생한 뒤, 전기를 가해 금속판 위에 철을 전착하는 저온 전기화학·습식제련 경로",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D6930918"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Electra 공식 기술 페이지가 공정의 핵심 단계를 직접 설명함",
+      "source_ids": [
+        "SRC-20260725-D6930918"
+      ]
+    }
+  ]
+}

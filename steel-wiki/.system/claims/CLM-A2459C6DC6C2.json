@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A2459C6DC6C2",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "metallization",
+  "value": "BHP 공개 시나리오는 EAF용 고금속화 DRI와 달리 ESF가 약 80–85% 금속화 환원물을 받을 가능성을 제시하며, 이는 광종·잔류 FeO·탄소 조건별 실증이 필요한 목표 운전창이다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-6EC0DF4D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공급망 기술 시나리오를 측정 실적으로 오인하지 않도록 한정",
+      "source_ids": [
+        "SRC-20260725-6EC0DF4D"
+      ]
+    }
+  ]
+}

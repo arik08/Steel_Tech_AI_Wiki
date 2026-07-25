@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-B51D85549E26",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "utilization_route",
+  "value": "공개 활용 경로는 공정용 CO2, 폐수 pH 조정, 전로 저취가스 대체, 에탄올·메탄올·합성메탄 생산이며 각 경로의 규모와 탄소 체류기간이 다르다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-3176F88E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Tata 연차보고서의 실제 활용처와 주요 제품화 경로를 구분",
+      "source_ids": [
+        "SRC-20260725-3176F88E"
+      ]
+    }
+  ]
+}

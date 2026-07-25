@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-A86A3B25C77E",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "process_principle",
+  "value": "수요·재활용으로 1차 철 수요를 줄이고, 남은 1차 생산은 수소·전기화·CCUS 등 지역별 최적 경로로 전환하며, 동일한 배출 경계로 감축을 검증한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2020-10-08",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-38165ABC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2020-10-08",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    }
+  ]
+}

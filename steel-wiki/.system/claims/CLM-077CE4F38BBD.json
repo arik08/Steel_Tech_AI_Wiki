@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-077CE4F38BBD",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "scale_up_requirement",
+  "value": "공급사 기반 추정으로는 중형 고로 2.5–4 Mtpa를 대체하려면 직사각형 OSBF 2기 또는 원형 3기 정도가 필요할 수 있으나, 독립 검증된 상용 확대 자료는 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "리뷰의 공급사 추정과 독립 검증 한계를 함께 기록",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

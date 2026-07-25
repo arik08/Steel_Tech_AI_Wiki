@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A32ADF568697",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "furnace_configuration",
+  "value": "주요 형식은 전극이 장입물·슬래그에 잠기는 SAF와 슬래그 표면 가까이에서 brush arc를 형성하는 OSBF이며, 원형·직사각형, AC·DC, graphite·Söderberg 전극 조합이 가능하다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026년 공개 학술 리뷰의 노형 분류",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

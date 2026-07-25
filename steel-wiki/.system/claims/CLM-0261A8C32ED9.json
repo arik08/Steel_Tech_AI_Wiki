@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0261A8C32ED9",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "storage_flexibility",
+  "value": "HYBRIT는 저장 수소를 전력시장 조건에 맞춰 사용한 시험에서 수소 생산 변동비를 최대 40% 낮출 수 있었다고 발표했다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-75A329BD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "회사 파일럿 결과의 저장·운전 유연성 주장을 등록",
+      "source_ids": [
+        "SRC-20260725-75A329BD"
+      ]
+    }
+  ]
+}

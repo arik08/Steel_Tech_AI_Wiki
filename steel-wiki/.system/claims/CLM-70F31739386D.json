@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-70F31739386D",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "development_stage",
+  "value": "고급강 EAF는 Hirohata 등 특정 통제 원료·제품에서 상업 생산 사례가 있으나 광범위한 노폐스크랩을 정제해 모든 고급 판재에 적용하는 기술은 연구·실증이 병존",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-9DCCDB31"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "회사 상업 사례와 개발과제 구분",
+      "source_ids": [
+        "SRC-20260725-9DCCDB31"
+      ]
+    }
+  ]
+}

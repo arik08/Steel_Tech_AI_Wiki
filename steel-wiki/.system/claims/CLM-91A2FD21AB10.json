@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-91A2FD21AB10",
+  "subject_id": "PRJ-HYFOR-DONAWITZ-PILOT",
+  "predicate": "commissioning_date",
+  "value": "2021-04",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BC8DE092"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 시운전 시점",
+      "source_ids": [
+        "SRC-20260725-BC8DE092"
+      ]
+    }
+  ]
+}

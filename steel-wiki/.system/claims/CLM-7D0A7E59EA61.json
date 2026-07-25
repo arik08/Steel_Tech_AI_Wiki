@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7D0A7E59EA61",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "technical_definition",
+  "value": "물리 제조공정의 실시간 데이터와 목적 적합한 모델을 지속 동기화해 상태를 추정·예측하고, 검증된 결과를 사람 또는 제어계의 의사결정에 연결하는 운영 체계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-30A4249E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "NIST 디지털 트윈 프로그램의 정의·검증 요구를 제철 운영 범위로 구조화",
+      "source_ids": [
+        "SRC-20260725-30A4249E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-833E0ED8C219",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "operating_temperature",
+  "value": "Electra 파일럿 발표 기준 140°F(약 60°C)",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-03-27",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-3D62F9A6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-03-27",
+      "action": "created",
+      "reason": "회사 파일럿 가동 발표에 명시된 운전 온도",
+      "source_ids": [
+        "SRC-20260725-3D62F9A6"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재확인",
+      "source_ids": [
+        "SRC-20260725-3D62F9A6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BFE39641A7C3",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "economic_assessment",
+  "value": "UNIDO·Agora의 2050 시나리오는 MOE 생산비를 조강 톤당 582–766달러로 추정한다. 상업 실측 원가가 아닌 모델 값이다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4E9EE842"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "외부 시나리오의 원가 범위와 모델 한계를 등록",
+      "source_ids": [
+        "SRC-20260725-4E9EE842"
+      ]
+    }
+  ]
+}

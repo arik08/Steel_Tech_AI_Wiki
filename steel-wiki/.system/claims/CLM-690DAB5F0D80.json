@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-690DAB5F0D80",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "emissions_boundary",
+  "value": "HYBRIT의 0.0 t-CO2e/t-steel 표기는 Scope 1·2 반올림 값이며, 흑연 전극과 슬래그 조정재 때문에 실제 배출은 0.05 t-CO2e/t-steel 미만이라고 설명됐다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-75A329BD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 감축 주장과 반올림·경계 조건을 함께 등록",
+      "source_ids": [
+        "SRC-20260725-75A329BD"
+      ]
+    }
+  ]
+}

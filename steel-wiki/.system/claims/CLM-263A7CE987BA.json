@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-263A7CE987BA",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "economic_assessment",
+  "value": "저품위 원료의 ESF 경제성은 선광·펠릿화 절감과 고품위광 프리미엄뿐 아니라 추가 슬래그·플럭스·전력·복수 노체·BOF 정련·철 수율을 함께 계산해야 하며, 현재 공개자료만으로 보편 원가우위를 확정할 수 없다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "학술 리뷰 근거를 바탕으로 비용 경계 분석",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

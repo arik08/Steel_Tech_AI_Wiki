@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2D0060FCFB93",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "dust_recycle",
+  "value": "HYFOR 파일럿은 건식 집진으로 회수한 분진을 공정에 재투입하도록 구성",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BC8DE092"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "HYFOR 파일럿 공식 분진 회수 설명",
+      "source_ids": [
+        "SRC-20260725-BC8DE092"
+      ]
+    }
+  ]
+}

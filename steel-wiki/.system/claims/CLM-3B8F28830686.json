@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3B8F28830686",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "development_stage",
+  "value": "HYFOR는 파일럿 운전, HY4SMELT와 POSCO HyREX는 통합 실증 설비 건설·준비 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E316D68F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 프로젝트 단계 종합",
+      "source_ids": [
+        "SRC-20260725-E316D68F"
+      ]
+    }
+  ]
+}

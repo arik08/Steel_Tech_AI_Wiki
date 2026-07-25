@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1332B7F32661",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "energy_intensity_estimate",
+  "value": "저품위 냉간 DRI를 EAF에서 직접 처리한 비교 모델은 543–630 kg-slag/t-liquid steel과 약 651 kWh/t를, 스크랩 EAF는 약 413 kWh/t를 제시했다. 이는 ESF 소비전력 측정값이 아니라 ESF 분리단계가 필요한 이유를 보여주는 기준값이다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-31725163"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "비교 수치를 ESF 성능값으로 오인하지 않도록 명시",
+      "source_ids": [
+        "SRC-20260725-31725163"
+      ]
+    }
+  ]
+}

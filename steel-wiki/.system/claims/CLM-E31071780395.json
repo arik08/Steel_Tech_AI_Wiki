@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E31071780395",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "bulk_measurement_limit",
+  "value": "XRF·LIBS의 점측정은 취득시간·표면오염·조각별 편차와 질량정보 부족 때문에 고속 파쇄스크랩 전체의 벌크 Cu 농도를 곧바로 대표하기 어려움",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-7DDD98E7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026년 계측 한계 검토",
+      "source_ids": [
+        "SRC-20260725-7DDD98E7"
+      ]
+    }
+  ]
+}

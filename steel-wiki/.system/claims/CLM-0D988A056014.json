@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0D988A056014",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "process_principle",
+  "value": "불순물의 물성·열역학에 따라 공정 위치를 달리한다. Cu·Sn은 용해 전 분리·희석을 우선하고 P는 산화·염기성 슬래그, N은 공기 차단·CO 기포·진공으로 제어한다",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-4366E5B1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "학술 종합평가와 EAF 정련 근거의 통합 설명",
+      "source_ids": [
+        "SRC-20260725-4366E5B1"
+      ]
+    }
+  ]
+}

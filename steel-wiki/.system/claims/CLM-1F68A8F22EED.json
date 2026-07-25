@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1F68A8F22EED",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "sensor_sorting",
+  "value": "RGB 영상은 노출된 구리선·코일 같은 가시 물체를 분류하는 저비용 보조수단이며 XRF·LIBS는 개별 조각의 원소 분석과 등급 선별에 사용 가능",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-7DDD98E7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026년 영상분할 기반 스크랩 연구",
+      "source_ids": [
+        "SRC-20260725-7DDD98E7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6E128037F73A",
+  "subject_id": "PRJ-ULCOS-TGR-BF",
+  "predicate": "project_start_date",
+  "value": "2004-07-01",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-A8C28387"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "CORDIS 공식 착수일",
+      "source_ids": [
+        "SRC-20260725-A8C28387"
+      ]
+    }
+  ]
+}

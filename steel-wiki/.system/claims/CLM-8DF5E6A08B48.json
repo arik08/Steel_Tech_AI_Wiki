@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8DF5E6A08B48",
+  "subject_id": "PRJ-HY4SMELT",
+  "predicate": "result_limitations",
+  "value": "착공과 설계 처리량은 연속 실증 또는 상업 운전 완료의 증거가 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E316D68F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 단계의 해석 한계",
+      "source_ids": [
+        "SRC-20260725-E316D68F"
+      ]
+    }
+  ]
+}

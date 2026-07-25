@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-F331EAEEEE63",
+  "subject_id": "PRJ-POSCO-GWANGYANG-EAF",
+  "predicate": "capacity_tpy",
+  "value": "연간 2,500,000톤",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-22",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-B859CA04"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-22",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 대표 프로젝트 전체 일정 등록",
+      "source_ids": [
+        "SRC-20260725-B859CA04"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-B859CA04"
+      ]
+    }
+  ]
+}

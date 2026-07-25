@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-91A44F11BA78",
+  "subject_id": "COM-POSCO",
+  "predicate": "hydrogen_dri_status",
+  "value": "연 30만 톤 HyREX 실증설비 부지를 준비 중이며 2030년까지 상용화 기술 개발 완료 목표; 상용 운전 달성 근거는 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-22",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-B859CA04"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-22",
+      "action": "created",
+      "reason": "2026-07-25 POSCO-경쟁사 비교 기준선 조사",
+      "source_ids": [
+        "SRC-20260725-B859CA04"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-B859CA04"
+      ]
+    }
+  ]
+}

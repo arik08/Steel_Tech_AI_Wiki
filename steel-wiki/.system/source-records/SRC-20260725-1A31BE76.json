@@ -1,0 +1,47 @@
+{
+  "source_id": "SRC-20260725-1A31BE76",
+  "title": "Breakthrough technology development and CCUS for carbon-neutral steelmaking",
+  "url": "https://www.nipponsteel.com/en/sustainability/env/climate/future.html",
+  "canonical_url": "https://www.nipponsteel.com/en/sustainability/env/climate/future.html",
+  "publisher": "Nippon Steel Corporation",
+  "published_at": null,
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "1a31be76416f301a5108e3b3efd9233087fde67159e8850b7c536a3200bff5ed",
+  "raw_sha256": "e66977f999e17896efa126f25e11300faac0728034917eff60ffa851228c6d4a",
+  "raw_path": ".system/raw/SRC-20260725-1A31BE76.md",
+  "previous_version": "SRC-20260725-DAAEEC2B",
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-01444A20637B",
+      "kind": "process_diagram",
+      "caption": "Nippon Steel이 공개한 COURSE50·Super COURSE50 고로 수소환원 및 CO2 분리·포집 경로도",
+      "alt_text": "고로 수소 주입과 고로가스 CO2 분리 포집을 결합한 COURSE50 공정도",
+      "creator": "Nippon Steel Corporation / NEDO",
+      "image_url": "https://www.nipponsteel.com/en/sustainability/img/env_climate_future_im16.webp",
+      "origin_url": "https://www.nipponsteel.com/en/sustainability/env/climate/future.html",
+      "rights_status": "link_only",
+      "rights_note": "공식 기업 페이지의 원본 이미지를 외부 링크로만 표시하며 복제·재배포 권리는 확인되지 않음",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    },
+    {
+      "media_id": "MED-6D520E75C411",
+      "kind": "process_diagram",
+      "caption": "Nippon Steel ESCAP 화학흡수식 CO2 분리·회수 공정 흐름도",
+      "alt_text": "흡수탑과 재생탑으로 구성된 ESCAP 이산화탄소 회수 공정도",
+      "creator": "Nippon Steel Corporation",
+      "image_url": "https://www.nipponsteel.com/en/sustainability/img/env_climate_future_im06.webp",
+      "origin_url": "https://www.nipponsteel.com/en/sustainability/env/climate/future.html",
+      "rights_status": "link_only",
+      "rights_note": "공식 기업 페이지의 원본 이미지를 외부 링크로만 표시하며 복제·재배포 권리는 확인되지 않음",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

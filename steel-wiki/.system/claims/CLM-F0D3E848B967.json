@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-F0D3E848B967",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "technical_definition",
+  "value": "철광석·스크랩에서 조강까지의 물질·에너지·탄소 흐름을 대상으로, 기존 자산 개조와 신규 저배출 공정을 단계적으로 조합하는 제철소·공급망 전환 체계이다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2020-10-08",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-38165ABC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2020-10-08",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    }
+  ]
+}

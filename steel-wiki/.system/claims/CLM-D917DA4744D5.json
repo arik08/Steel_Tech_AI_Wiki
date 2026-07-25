@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D917DA4744D5",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "copper_hot_shortness",
+  "value": "가열 중 Fe가 선택 산화되면 강-스케일 계면에 액상 Cu 농축상이 생겨 오스테나이트 입계로 침투하고 열간가공 표면균열을 유발",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C79793B1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Cu 열간취성 학술 연구",
+      "source_ids": [
+        "SRC-20260725-C79793B1"
+      ]
+    }
+  ]
+}

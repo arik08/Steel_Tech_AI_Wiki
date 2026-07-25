@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-350487116C27",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "performance_metrics",
+  "value": "품질 안정, 수율·생산성, 코크스·에너지 사용, 온실가스, 설비가동률과 안전을 보되 기준기간·원료·설비 상태·수동 개입을 함께 보정해야 함",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-41586A75"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "JFE 공개 목표와 성과 항목을 비교 지표로 구조화",
+      "source_ids": [
+        "SRC-20260725-41586A75"
+      ]
+    }
+  ]
+}

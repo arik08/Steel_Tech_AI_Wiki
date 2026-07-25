@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-16AA625E5399",
+  "subject_id": "PRJ-SORTERA-SCRAP-DECOPPER",
+  "predicate": "funding_announcement_date",
+  "value": "FY2023–FY2024 DOE 고우선순위 프로젝트 선정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-34FFE3B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "DOE 페이지의 선정 회계연도",
+      "source_ids": [
+        "SRC-20260725-34FFE3B8"
+      ]
+    }
+  ]
+}

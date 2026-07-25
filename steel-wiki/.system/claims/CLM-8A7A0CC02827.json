@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8A7A0CC02827",
+  "subject_id": "PRJ-ULCOS-TGR-BF",
+  "predicate": "campaign_result",
+  "value": "LKAB 시험고로에서 3개 ULCOS-BF 캠페인을 수행하고 VPSA와 폐회로 운전을 검증",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E493B07B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "EU 공식 최종보고서의 실험 캠페인 결과",
+      "source_ids": [
+        "SRC-20260725-E493B07B"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-CFB87287C7BF",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "project_status",
+  "value": "research and development facility development",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2024-06-04",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F1D3EDEA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2024-06-04",
+      "action": "created",
+      "reason": "Rio Tinto 공식 투자 발표",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-F1D3EDEA"
+      ]
+    }
+  ]
+}

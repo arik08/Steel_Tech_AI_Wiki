@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F491D821A422",
+  "subject_id": "COM-JFE-Steel",
+  "predicate": "hydrogen_dri_status",
+  "value": "수소 직접환원 제철 개발 및 순차 실증 계획 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-EC77A362"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-EC77A362"
+      ]
+    }
+  ]
+}

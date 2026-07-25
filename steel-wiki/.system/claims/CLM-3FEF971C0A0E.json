@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3FEF971C0A0E",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "capacity_tpy",
+  "value": "연 30,000–40,000톤 용선 계획",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-67CAA465"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 파일럿 설계 생산능력",
+      "source_ids": [
+        "SRC-20260725-67CAA465"
+      ]
+    }
+  ]
+}

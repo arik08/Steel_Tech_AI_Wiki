@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-03A2914385AB",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "technical_definition",
+  "value": "철광석의 산화철을 용융 산화물 전해질에 녹이고, 전자를 환원제로 사용해 음극에서 액체 철을 만들며 불활성 양극에서 산소를 발생시키는 직접 전해 제철 경로",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-26EA1CBD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Boston Metal 기술 페이지의 공정 정의를 기술 범위 Claim으로 등록",
+      "source_ids": [
+        "SRC-20260725-26EA1CBD"
+      ]
+    }
+  ]
+}

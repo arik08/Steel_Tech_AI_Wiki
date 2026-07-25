@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C2B9C5E2BF04",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "dephosphorization",
+  "value": "EAF 탈인은 FeO에 의한 P 산화와 CaO계 슬래그의 인산염 고정으로 진행되며 CaO 활성도·산소퍼텐셜·온도·교반을 함께 제어해야 함",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-D37C44F7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "EAF 탈인 기구 논문",
+      "source_ids": [
+        "SRC-20260725-D37C44F7"
+      ]
+    }
+  ]
+}

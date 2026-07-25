@@ -1,0 +1,23 @@
+Source evidence excerpt collected 2026-07-25.
+
+The U.S. Department of Energy Industrial Efficiency and Decarbonization Office
+peer-review presentation describes a Boston Metal cooperative project conducted
+from 1 August 2018 through 31 January 2023. The project goal was pilot-scale
+stable production of iron and oxygen using an inert anode. DOE funding totaled
+USD 1,750,032 and project cost share totaled USD 2,295,752.
+
+The presentation defines MOE as electrolysis of commercial iron ore feedstock.
+At the cathode, ferric ions accept electrons and form iron; at the anode, oxide
+ions release electrons and form oxygen. It describes a single-step, continuous
+process with recurrent liquid-metal tapping and modular scaling by cell size and
+cell count.
+
+Laboratory work measured oxygen evolution, validated iron production, and
+demonstrated inert-anode stability. A second pilot campaign produced 10 kg of
+iron and measured oxygen. Later endurance campaigns targeted 100 kg during a
+week-long run, but the presentation states that the second campaign remained
+below both the iron-production and duration targets after operational problems
+in the first campaign. Future work included further anode optimization,
+semi-industrial validation, and demonstration-plant activity.
+
+URL: https://www1.eere.energy.gov/iedo/downloads/2023/peer_review/Boston%20Metal_Lambotte_IEDO_Iron-and-Steel_Carbon%20Free%20Iron%20for%20a%20Sustainable%20Future.pdf

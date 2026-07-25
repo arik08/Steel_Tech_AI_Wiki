@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-285480DE",
+  "title": "POSCO One-Touch Converter Operation Automation Technology",
+  "url": "https://newsroom.posco.com/en/tech-talk-part-8-poscos-game-changing-one-touch-converter-operation-automation-technology/",
+  "canonical_url": "https://newsroom.posco.com/en/tech-talk-part-8-poscos-game-changing-one-touch-converter-operation-automation-technology",
+  "publisher": "POSCO Group Newsroom",
+  "published_at": "2024-12-11",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "285480de8abb3b61d699db96e51642e0726f519bee554b6f776baae9e4107dbc",
+  "raw_sha256": "815b56d9aff52eef06096b087a55aad691868367de3607f45ecd047b5851666a",
+  "raw_path": ".system/raw/SRC-20260725-285480DE.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-4A916866945E",
+      "kind": "process_diagram",
+      "caption": "POSCO 광양 2전로의 실시간 물리 공정과 가상 전로를 동기화한 원터치 자동화 디지털 트윈 운전 화면",
+      "alt_text": "실제 전로 설비 영상과 가상 전로 모델을 함께 보여주는 POSCO 원터치 자동화 화면",
+      "creator": "POSCO Group Newsroom",
+      "image_url": "https://newsroom.posco.com/en/wp-content/uploads/2024/12/20241211_img_en1_04.jpg",
+      "origin_url": "https://newsroom.posco.com/en/tech-talk-part-8-poscos-game-changing-one-touch-converter-operation-automation-technology",
+      "rights_status": "link_only",
+      "rights_note": "POSCO 공식 기술 소개 페이지에서 원본과 맥락을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

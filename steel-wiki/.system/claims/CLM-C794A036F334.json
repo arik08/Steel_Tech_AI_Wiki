@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C794A036F334",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "laboratory_variant_temperature",
+  "value": "서울대의 B2O3-Na2O 저온 MOE 실험은 1173 K(900°C)에서 수행됐다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-1486633E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026년 Scientific Reports 실험 온도를 등록",
+      "source_ids": [
+        "SRC-20260725-1486633E"
+      ]
+    }
+  ]
+}

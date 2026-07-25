@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-752C0E81E917",
+  "subject_id": "PRJ-CARBON2CHEM-DUISBURG",
+  "predicate": "funding_announcement_date",
+  "value": "2016년 1단계 EUR 60 million 초과; 2020-10-29 2단계 EUR 75 million; 제3단계 EUR 50 million 지원",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-CD029AB1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 단계별 연방 연구지원 발표",
+      "source_ids": [
+        "SRC-20260725-CD029AB1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-FED4B2D7",
+  "title": "Carbon2Chem technical center in Duisburg",
+  "url": "https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html",
+  "canonical_url": "https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html",
+  "publisher": "Fraunhofer UMSICHT",
+  "published_at": null,
+  "collected_at": "2026-07-25",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "fed4b2d7dff87faf5d5b2f55a98445776eaf6a7f1caa80ba6f8f22b0aebcc05c",
+  "raw_sha256": "3be984c99301fdb55ac89b0258c1a76b0baa58fa044c20306422748d86e26bf4",
+  "raw_path": ".system/raw/SRC-20260725-FED4B2D7.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-30EDE0A984C8",
+      "kind": "facility_photo",
+      "caption": "Fraunhofer UMSICHT Carbon2Chem 기술센터의 파일럿 설비 공식 사진",
+      "alt_text": "Duisburg Carbon2Chem 기술센터의 다층 파일럿 설비와 배관",
+      "creator": "Fraunhofer UMSICHT",
+      "image_url": "https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center/jcr:content/socialMediaImage.img.4col.large.jpg/1716804695522/carbon2chem-kohlenstoffkreislauf-teaser.jpg",
+      "origin_url": "https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html",
+      "rights_status": "link_only",
+      "rights_note": "Fraunhofer UMSICHT 공식 페이지 원본 사진을 외부 링크로만 표시",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

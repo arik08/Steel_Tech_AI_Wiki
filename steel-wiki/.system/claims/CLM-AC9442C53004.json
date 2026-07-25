@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-AC9442C53004",
+  "subject_id": "COM-Nucor",
+  "predicate": "blast_furnace_ccus_status",
+  "value": "고로 CCUS 근거는 미확인; 별도로 Convent 천연가스 DRI 설비에서 연 0.8 Mt CO2 CCS 계약이 공시됨",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BF5036AE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-BF5036AE"
+      ]
+    }
+  ]
+}

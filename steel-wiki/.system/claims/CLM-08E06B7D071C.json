@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-08E06B7D071C",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "infrastructure_dependency",
+  "value": "저배출 수소, 발전·송배전망, CO2 운송·저장 인프라는 제철소 외부 조건이지만 저탄소 경로의 가동률·배출량·원가를 결정하는 필수 구성요소이다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-03-19",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BD336973"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-03-19",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-BD336973"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-BD336973"
+      ]
+    }
+  ]
+}

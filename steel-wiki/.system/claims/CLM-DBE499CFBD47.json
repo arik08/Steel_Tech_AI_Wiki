@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DBE499CFBD47",
+  "subject_id": "PRJ-POSCO-GWANGYANG-ONE-TOUCH-CONVERTER",
+  "predicate": "automation_scope",
+  "value": "기존 25개 수동 조작을 하나의 원터치 운전 순서로 통합",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-285480DE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 자동화 범위 수치 등록",
+      "source_ids": [
+        "SRC-20260725-285480DE"
+      ]
+    }
+  ]
+}

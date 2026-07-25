@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260725-30A4249E",
+  "title": "Digital Twins for Advanced Manufacturing",
+  "url": "https://www.nist.gov/programs-projects/digital-twins-advanced-manufacturing",
+  "canonical_url": "https://www.nist.gov/programs-projects/digital-twins-advanced-manufacturing",
+  "publisher": "National Institute of Standards and Technology",
+  "published_at": "2026-07-20",
+  "collected_at": "2026-07-25",
+  "source_type": "government",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "30a4249ef712017865702b2a7a3e2e47e4c00155a81f8d18e7acff88333c35db",
+  "raw_sha256": "b86c9acd3c54be988a04bd2345ff5258711d5024568712b715b316463cb9f04b",
+  "raw_path": ".system/raw/SRC-20260725-30A4249E.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-43A8A8AE6425",
+      "kind": "academic_figure",
+      "caption": "NIST가 개발한 밀링머신·좌표측정기·로봇팔의 실제 설비와 디지털 트윈 대응 예시",
+      "alt_text": "실제 제조 장비와 각각의 디지털 모델을 나란히 보여주는 NIST 디지털 트윈 사례",
+      "creator": "National Institute of Standards and Technology",
+      "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2026/06/11/Example%20Manufacturing%20Digital%20Twins%20Developed.png?itok=ji7gIcq2",
+      "origin_url": "https://www.nist.gov/programs-projects/digital-twins-advanced-manufacturing",
+      "rights_status": "link_only",
+      "rights_note": "NIST 공식 프로그램 페이지의 원본을 확인했습니다. 철강 전용 도면이 아닌 제조 디지털 트윈의 일반 예시이며 원격 링크로 표시합니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null
+    }
+  ]
+}

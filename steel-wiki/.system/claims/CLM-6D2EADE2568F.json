@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-6D2EADE2568F",
+  "subject_id": "TEC-low-carbon-ironmaking",
+  "predicate": "hydrogen_dri_deployment_pace",
+  "value": "IEA 지속가능발전 시나리오는 시장 도입 뒤 전 세계적으로 수소 DRI 플랜트를 월 1기꼴로 배치해야 하는 속도를 제시했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2020-10-08",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-38165ABC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2020-10-08",
+      "action": "created",
+      "reason": "2026-07-25 저탄소 제철 종합 경로 심층 분석",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
+      "source_ids": [
+        "SRC-20260725-38165ABC"
+      ]
+    }
+  ]
+}

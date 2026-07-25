@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9AAE5F4E11AF",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "infrastructure_requirement",
+  "value": "2 Mtpa급 수소 DRI와 전기로를 함께 운전하는 BHP 시나리오는 수소 제조를 포함해 약 1 GW 규모의 firmed 재생전력 수요를 제시한다. ESF 단독 전력값이 아니며 계통·수소 인프라 통합 규모를 뜻한다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-6EC0DF4D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "BHP 시스템 시나리오의 경계 명시",
+      "source_ids": [
+        "SRC-20260725-6EC0DF4D"
+      ]
+    }
+  ]
+}

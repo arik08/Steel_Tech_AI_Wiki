@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2B5E3428E627",
+  "subject_id": "COM-Rio-Tinto",
+  "predicate": "electric_smelting_furnace_status",
+  "value": "NeoSmelt Kwinana DRI–ESF 파일럿의 동등 지분 참여사로, 2026년 final design 단계이며 FID는 미확정·2028년 하반기 시운전 목표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-8A93E42F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "BHP 최신 공동 프로젝트 상태에서 Rio Tinto 참여와 단계 확인",
+      "source_ids": [
+        "SRC-20260725-8A93E42F"
+      ]
+    }
+  ]
+}

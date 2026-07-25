@@ -1,0 +1,66 @@
+{
+  "run_id": "posco-comparison-baseline",
+  "started_at": "2026-07-25T14:10:00+09:00",
+  "completed_at": "2026-07-25T14:24:00+09:00",
+  "status": "success",
+  "baseline_date": "2026-07-25",
+  "search_overlap_days": 5,
+  "scope": {
+    "companies": [
+      "POSCO"
+    ],
+    "comparison_companies": [
+      "ArcelorMittal",
+      "China Baowu Steel Group",
+      "Nippon Steel",
+      "JFE Steel",
+      "Tata Steel",
+      "thyssenkrupp Steel",
+      "SSAB",
+      "Nucor"
+    ],
+    "technologies": [
+      "hydrogen direct reduced iron",
+      "electric smelting furnace",
+      "molten oxide electrolysis",
+      "blast furnace CCUS",
+      "low-carbon ironmaking",
+      "smart steelworks"
+    ],
+    "source_types": [
+      "company_release",
+      "government"
+    ]
+  },
+  "queries": [
+    "site:newsroom.posco.com HyREX hydrogen reduction ironmaking demonstration 2025 POSCO",
+    "site:posco-inc.com HyREX hydrogen reduction ironmaking POSCO 2025",
+    "site:newsroom.posco.com POSCO smart factory steelworks AI digital twin 2025",
+    "site:newsroom.posco.com POSCO CCUS blast furnace carbon capture 2024 2025",
+    "site:newsroom.posco.com/en 2025 HyREX POSCO demonstration plant 300,000 tons",
+    "site:motie.go.kr POSCO HyREX 300000 2027 hydrogen reduction ironmaking",
+    "site:newsroom.posco.com/en POSCO electric melting furnace HyREX 1 ton per hour 2024",
+    "site:newsroom.posco.com/en POSCO carbon neutral roadmap electric arc furnace Gwangyang 2025"
+  ],
+  "checked_urls": [
+    "https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/",
+    "https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/",
+    "https://newsroom.posco.com/en/world-climate-industry-expo-2024-checking-posco-groups-carbon-reduction-capabilities/",
+    "https://newsroom.posco.com/en/meet-the-ai-blast-furnace-of-pohang-works/",
+    "https://newsroom.posco.com/en/posco-takes-a-significant-step-towards-realizing-the-dream-of-hydrogen-reduction-steelmaking-with-the-inauguration-of-its-development-center/",
+    "https://newsroom.posco.com/en/posco-starts-to-design-the-hyrex-demonstration-plant/"
+  ],
+  "failed_urls": [],
+  "counts": {
+    "new_sources": 4,
+    "claims_created": 5,
+    "companies_projected": 9
+  },
+  "limitations": [
+    "POSCO 공식 발표 중심의 첫 비교 기준선이며 독립 검증 자료는 후속 조사 대상",
+    "공식 근거 미확인은 기술 부재를 뜻하지 않음",
+    "2020년 스마트 제철소 자료는 현재 전 설비 배치 범위를 입증하지 않음",
+    "회사 목표와 실제 준공·실증·상용 운전을 구분함",
+    "molten oxide electrolysis에 대한 POSCO 공식 근거는 이번 범위에서 확인하지 못함"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-085C491B30F2",
+  "subject_id": "PRJ-HYFOR-DONAWITZ-PILOT",
+  "predicate": "reducing_gas_composition",
+  "value": "초기 캠페인에 100% 수소 사용",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BC8DE092"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 환원가스 조건",
+      "source_ids": [
+        "SRC-20260725-BC8DE092"
+      ]
+    }
+  ]
+}

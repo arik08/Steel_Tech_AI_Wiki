@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-232955961EFE",
+  "subject_id": "COM-POSCO",
+  "predicate": "blast_furnace_ccus_status",
+  "value": "2024년 1월 포항 코크스오븐 중순도 CO2 주입·전환 실증 및 제철소 설비별 단계적 CCS 검토; 전 고로 CCS 상용 배치 근거는 미확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-10-29",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-FF076FE4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-10-29",
+      "action": "created",
+      "reason": "2026-07-25 POSCO-경쟁사 비교 기준선 조사",
+      "source_ids": [
+        "SRC-20260725-FF076FE4"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "verified",
+      "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-FF076FE4"
+      ]
+    }
+  ]
+}

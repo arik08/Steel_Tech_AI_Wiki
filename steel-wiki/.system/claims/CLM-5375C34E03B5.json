@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5375C34E03B5",
+  "subject_id": "PRJ-TATA-JAMSHEDPUR-BF-CCU",
+  "predicate": "emissions_boundary",
+  "value": "소규모 CCU 활용 실증이며 지중 영구저장이나 Jamshedpur 제철소 전체 순회피량은 공표되지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-3176F88E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 공개 범위의 한계를 명시",
+      "source_ids": [
+        "SRC-20260725-3176F88E"
+      ]
+    }
+  ]
+}

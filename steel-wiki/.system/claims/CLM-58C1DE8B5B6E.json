@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-58C1DE8B5B6E",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "commercial_model",
+  "value": "Boston Metal은 철강사에 MOE 기술을 라이선스하고 핵심 금속 불활성 양극을 공급하는 사업 모델을 제시한다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-26EA1CBD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "회사 기술 페이지의 상업화 모델을 등록",
+      "source_ids": [
+        "SRC-20260725-26EA1CBD"
+      ]
+    }
+  ]
+}

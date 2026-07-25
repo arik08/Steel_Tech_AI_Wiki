@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A1760A6390AB",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "development_stage",
+  "value": "소규모 고로가스 포집과 CCU 제품화 설비는 가동 사례가 있으나, 상업 규모 고로 상부가스 포집과 대규모 영구 저장을 결합한 일관 BF–CCS 사슬은 공개 근거상 아직 확대 실증이 필요하다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-2EABD949"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "실제 CCU 사례와 IEAGHG·ULCOS의 대규모 실증 필요 결론을 구분",
+      "source_ids": [
+        "SRC-20260725-2EABD949"
+      ]
+    }
+  ]
+}

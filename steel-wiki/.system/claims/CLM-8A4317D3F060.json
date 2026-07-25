@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8A4317D3F060",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "hydrogen_consumption",
+  "value": "2018년 MIDREX H2 설계 추정치는 약 650 Nm3-H2/t-DRI, 질량 기준 약 54 kg-H2/t-DRI다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-AFA5C853"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "정부 공개 발표의 수소 원단위 설계값을 등록",
+      "source_ids": [
+        "SRC-20260725-AFA5C853"
+      ]
+    }
+  ]
+}

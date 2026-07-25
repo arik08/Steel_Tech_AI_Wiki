@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D96397EFE8BC",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "anode_durability",
+  "value": "Ir 양극 소모는 고-CaO 염기성 전해질에서 고-SiO2 산성 전해질보다 약 20배 높게 측정되어, 전해질 조성이 양극 수명을 크게 좌우한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-1A6AFBF8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "ECS 논문의 전해질 염기도별 Ir 소모 차이를 등록",
+      "source_ids": [
+        "SRC-20260725-1A6AFBF8"
+      ]
+    }
+  ]
+}

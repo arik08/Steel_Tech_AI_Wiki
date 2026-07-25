@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-189228D21E1F",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "technology_route",
+  "value": "철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-75A329BD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "SSAB 2024-08-27 HYBRIT 6년 파일럿 결과와 다음 단계 발표",
+      "source_ids": [
+        "SRC-20260725-75A329BD"
+      ]
+    }
+  ]
+}

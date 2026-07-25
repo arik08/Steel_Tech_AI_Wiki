@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "companies": [
+    "POSCO",
+    "ArcelorMittal",
+    "China Baowu Steel Group",
+    "Nippon Steel",
+    "JFE Steel",
+    "Tata Steel",
+    "thyssenkrupp Steel",
+    "SSAB",
+    "Nucor",
+    "voestalpine",
+    "Rio Tinto"
+  ],
+  "technologies": [
+    "hydrogen direct reduced iron",
+    "electric smelting furnace",
+    "molten oxide electrolysis",
+    "blast furnace CCUS",
+    "low-carbon ironmaking",
+    "smart steelworks",
+    "low-temperature aqueous iron electrolysis",
+    "high-grade EAF and scrap impurity removal",
+    "hydrogen-based fine-ore reduction",
+    "hydrogen plasma smelting reduction",
+    "microwave biomass ironmaking"
+  ],
+  "projects": [],
+  "countries": [],
+  "source_priority": [
+    "company_release",
+    "company_ir",
+    "government",
+    "permit",
+    "patent",
+    "academic",
+    "equipment_supplier",
+    "specialist_media"
+  ],
+  "negative_signals": [
+    "delay",
+    "postpone",
+    "suspend",
+    "cancel",
+    "cost overrun",
+    "permit denied",
+    "funding withdrawn"
+  ],
+  "search_overlap_days": 5,
+  "claim_stale_days": 180,
+  "focus": [
+    "기술 센싱",
+    "경쟁사 프로젝트",
+    "POSCO-경쟁사 비교",
+    "리스크 감시"
+  ],
+  "priority_predicates": [
+    "project_status",
+    "target_start_date",
+    "capacity_tpy",
+    "capex_eur",
+    "trl",
+    "technology_route",
+    "funding_amount"
+  ],
+  "report_sections": [
+    "신규 기술과 실증",
+    "POSCO와 경쟁사 기술·프로젝트 비교",
+    "일정·투자비·생산능력 변경",
+    "인허가·정부지원",
+    "연기·중단·취소 위험",
+    "추가 검증 필요 항목"
+  ]
+}

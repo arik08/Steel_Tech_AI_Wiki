@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-4CB251814821",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "feedstock_scope",
+  "value": "HYBRIT 파일럿은 철광석 펠릿을 수소로 환원했으며, 샤프트로 경로는 펠릿의 강도·환원성·통기성 관리가 전제된다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-75A329BD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "HYBRIT 파일럿의 원료 형태와 샤프트로 적용 범위를 등록",
+      "source_ids": [
+        "SRC-20260725-75A329BD"
+      ]
+    }
+  ]
+}

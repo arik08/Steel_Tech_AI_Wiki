@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BD8631B72E02",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "supplier_announcement_date",
+  "value": "2024-09-19",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BAB49577"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals 공식 발표일",
+      "source_ids": [
+        "SRC-20260725-BAB49577"
+      ]
+    }
+  ]
+}

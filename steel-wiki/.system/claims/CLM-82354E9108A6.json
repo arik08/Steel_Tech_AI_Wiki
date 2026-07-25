@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-82354E9108A6",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "tin_synergy",
+  "value": "Sn은 Cu에 의한 표면 열간취성을 가속하므로 Cu 단독 수치만으로 판재 균열 위험을 판정하면 불충분",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C79793B1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Cu-Sn 복합 영향 연구",
+      "source_ids": [
+        "SRC-20260725-C79793B1"
+      ]
+    }
+  ]
+}

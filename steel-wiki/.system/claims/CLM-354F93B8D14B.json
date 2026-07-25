@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-354F93B8D14B",
+  "subject_id": "COM-China-Baowu",
+  "predicate": "hydrogen_dri_status",
+  "value": "Zhanjiang 1 Mtpa 수소 기반 shaft furnace 가동 및 2026년 중품위 Pilbara Blend 산업 규모 DRI 시험 완료",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-7E8ABC86",
+    "SRC-20260725-3FF9886C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-7E8ABC86",
+        "SRC-20260725-3FF9886C"
+      ]
+    }
+  ]
+}

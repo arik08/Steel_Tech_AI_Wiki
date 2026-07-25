@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-592C4043751C",
+  "subject_id": "PRJ-STEELANOL-GHENT",
+  "predicate": "project_start_date",
+  "value": "2015년부터 공정 개념·온실가스 효과 평가 협력",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-B6FB82E5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 발표가 명시한 컨소시엄 협력 시점",
+      "source_ids": [
+        "SRC-20260725-B6FB82E5"
+      ]
+    }
+  ]
+}

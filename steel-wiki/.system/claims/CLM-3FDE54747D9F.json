@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3FDE54747D9F",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "mou_date",
+  "value": "2022",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BAB49577"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Primetals 공식 선행 MOU 이력",
+      "source_ids": [
+        "SRC-20260725-BAB49577"
+      ]
+    }
+  ]
+}

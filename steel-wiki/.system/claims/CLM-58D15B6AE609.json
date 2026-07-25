@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-58D15B6AE609",
+  "subject_id": "COM-China-Baowu",
+  "predicate": "electric_smelting_furnace_status",
+  "value": "Zhanjiang 근제로 라인에 전기용융 경로 적용; 2026년 500 kg ESF로 중품위광 DRI 용융 시험",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-7E8ABC86",
+    "SRC-20260725-3FF9886C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 기업별 설정 기술 현황 조사",
+      "source_ids": [
+        "SRC-20260725-7E8ABC86",
+        "SRC-20260725-3FF9886C"
+      ]
+    }
+  ]
+}
