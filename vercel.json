@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "python -m pip install --disable-pip-version-check -r tools/project/requirements-docs.txt && python -m mkdocs build --strict -f tools/project/mkdocs.yml",
+  "buildCommand": "uv run --with-requirements tools/project/requirements-docs.txt -- mkdocs build --strict -f tools/project/mkdocs.yml",
   "outputDirectory": "tools/project/site",
   "cleanUrls": true,
   "trailingSlash": false
