@@ -544,8 +544,36 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("javascripts/footnote-tooltips.js", config)
         self.assertIn('a.footnote-ref[href^=\'#fn\']', tooltips)
         self.assertIn('reference.setAttribute("aria-label"', tooltips)
+        self.assertIn("function originalSourceLink", tooltips)
+        self.assertIn('reference.setAttribute("href", originalLink.href)', tooltips)
+        self.assertIn('reference.setAttribute("target", "_blank")', tooltips)
+        self.assertIn('reference.setAttribute("rel", "noopener noreferrer")', tooltips)
+        self.assertIn("footnote-source-tooltip", tooltips)
         self.assertIn("data-footnote-tooltip", styles)
-        self.assertIn(":focus-visible::after", styles)
+        self.assertIn(".footnote-source-tooltip", styles)
+        self.assertNotIn(
+            ".md-typeset table a.footnote-ref[data-footnote-tooltip]",
+            styles,
+        )
+
+    def test_vercel_redirects_cover_reader_facing_short_urls(self):
+        config = json.loads(
+            (PROJECT_ROOT / "vercel.json").read_text(encoding="utf-8")
+        )
+        redirects = {
+            item["source"]: item["destination"]
+            for item in config["redirects"]
+        }
+
+        self.assertEqual(
+            redirects["/academic-landscape-2026"],
+            "/reports/academic-landscape-2026",
+        )
+        self.assertEqual(
+            redirects["/brief-:slug"],
+            "/reports/briefs/brief-:slug",
+        )
+        self.assertEqual(redirects["/TEC-:slug"], "/technologies/TEC-:slug")
 
     def test_mkdocs_headings_are_numbered_per_page(self):
         config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")

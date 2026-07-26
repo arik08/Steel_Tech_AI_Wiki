@@ -6,6 +6,16 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/academic-landscape-2026",
+      "destination": "/reports/academic-landscape-2026",
+      "permanent": true
+    },
+    {
+      "source": "/brief-:slug",
+      "destination": "/reports/briefs/brief-:slug",
+      "permanent": true
+    },
+    {
       "source": "/TEC-:slug",
       "destination": "/technologies/TEC-:slug",
       "permanent": true
