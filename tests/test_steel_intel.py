@@ -573,6 +573,10 @@ class SteelIntelTests(unittest.TestCase):
             redirects["/brief-:slug"],
             "/reports/briefs/brief-:slug",
         )
+        self.assertEqual(
+            redirects["/briefs/brief-:slug"],
+            "/reports/briefs/brief-:slug",
+        )
         self.assertEqual(redirects["/TEC-:slug"], "/technologies/TEC-:slug")
 
     def test_mkdocs_headings_are_numbered_per_page(self):

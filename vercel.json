@@ -16,6 +16,11 @@
       "permanent": true
     },
     {
+      "source": "/briefs/brief-:slug",
+      "destination": "/reports/briefs/brief-:slug",
+      "permanent": true
+    },
+    {
       "source": "/TEC-:slug",
       "destination": "/technologies/TEC-:slug",
       "permanent": true
