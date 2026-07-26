@@ -14,5 +14,23 @@
   "raw_path": ".system/raw/SRC-20260725-973F138F.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [
+    {
+      "media_id": "MED-FC50247D9359",
+      "kind": "ai_reconstruction",
+      "caption": "LIGHTBOW 수소 플라즈마 용융환원 반응기·계측제어 연구 구성의 출처 기반 AI 재구성; 실제 연구장치 사진이 아님",
+      "alt_text": "중공 흑연전극과 플라즈마 아크, 가스 공급, 센서 제어반을 갖춘 LIGHTBOW 연구장치 개념 재구성",
+      "creator": "OpenAI image generation; Codex research reconstruction",
+      "image_url": null,
+      "origin_url": "https://www.k1-met.com/en/lightbow",
+      "rights_status": "ai_generated",
+      "rights_note": "LIGHTBOW 공식 연구 설명과 Wiki의 검증된 제어·계측 Claim을 바탕으로 생성한 설명용 재구성입니다. 실제 실험장치 사진이나 제작도면이 아닙니다.",
+      "collected_at": "2026-07-25",
+      "content_sha256": "fc50247d9359506269412a1b2eb3373d84dc2f16ae3f8ffbcab9c360c154aed4",
+      "local_path": "assets/media/SRC-20260725-973F138F/MED-FC50247D9359.png",
+      "subject_ids": [
+        "PRJ-LIGHTBOW-HPSR-CONTROL"
+      ]
+    }
+  ]
 }

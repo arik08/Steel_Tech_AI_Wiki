@@ -5,9 +5,9 @@
 > 최근 검증 **2026-07-25** · 확인된 핵심 정보 **9건** · 직접 연결 근거 **2건**
 
 
-![중공 전극에서 아르곤·수소·미분광을 투입하고 플라즈마 아크로 환원·용융하는 HPSR 반응기 내부 구성도](<https://www.k1-met.com/fileadmin/_processed_/a/9/csm_220127_SuSteel_EN.jpg_9ed9be70f3.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![중공 흑연전극과 플라즈마 아크, 가스 공급, 센서 제어반을 갖춘 LIGHTBOW 연구장치 개념 재구성](../assets/media/SRC-20260725-973F138F/MED-FC50247D9359.png){ .steel-media-image .steel-hero-image .steel-media-compact }
 
-*대표 이미지 — SuS-F 공식 HPSR 반응기 구성도: 중공 흑연전극을 통한 미분광·Ar·H2 공급, 직류 플라즈마 아크, 용융욕, 출강과 배가스 계통 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-A0AC41D7|SRC-20260725-A0AC41D7]] · [원문 페이지](https://www.k1-met.com/en/non_comet/sus_f))*
+*대표 이미지 — LIGHTBOW 수소 플라즈마 용융환원 반응기·계측제어 연구 구성의 출처 기반 AI 재구성; 실제 연구장치 사진이 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-973F138F|SRC-20260725-973F138F]] · [원문 페이지](https://www.k1-met.com/en/lightbow))*
 
 !!! abstract "현재 상태"
 

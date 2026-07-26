@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E6D50B6DFC19",
+  "subject_id": "PRJ-NIPPON-HASAKI-H2-DRI",
+  "predicate": "commissioning_date",
+  "value": "2026-03 시험 환원로 운전 개시",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-F396D188"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Hasaki 실제 운전 개시 등록",
+      "source_ids": [
+        "SRC-20260725-F396D188"
+      ]
+    }
+  ]
+}

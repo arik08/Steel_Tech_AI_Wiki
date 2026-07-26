@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-238E5A53B3D5",
+  "subject_id": "PRJ-TATA-IJMUIDEN-DRP-EAF",
+  "predicate": "scrap_share_target",
+  "value": "2019년 17%에서 2030년 30%로 재활용 철원 비중 확대 목표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E71081D1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-E71081D1"
+      ]
+    }
+  ]
+}

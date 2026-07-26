@@ -1,0 +1,39 @@
+{
+  "run_id": "hero-image-deduplication",
+  "started_at": "2026-07-25T23:02:00+09:00",
+  "completed_at": "2026-07-25T23:18:00+09:00",
+  "status": "success",
+  "baseline_date": "2026-07-25",
+  "scope": {
+    "purpose": "다른 기술·프로젝트의 설비 사진이 대표 이미지와 갤러리에 반복 승격되는 문제 수정",
+    "affected_media_families": [
+      "HYFOR 파일럿 실제 설비 사진",
+      "SuS-F HPSR 반응기 구성도",
+      "Tenova Consteerrer·EAF 범용 도면"
+    ],
+    "projects_given_dedicated_reconstructions": [
+      "PRJ-HY4SMELT",
+      "PRJ-POSCO-HYREX-DEMO",
+      "PRJ-LIGHTBOW-HPSR-CONTROL"
+    ]
+  },
+  "source_ids": [
+    "SRC-20260725-E316D68F",
+    "SRC-20260725-BAB49577",
+    "SRC-20260725-973F138F"
+  ],
+  "reused_source_ids": [
+    "SRC-20260725-A23B5A64",
+    "SRC-20260725-A0AC41D7",
+    "SRC-20260725-C888600A"
+  ],
+  "counts": {
+    "media_added": 3,
+    "media_families_scoped": 3,
+    "projects_with_new_dedicated_hero": 3
+  },
+  "limitations": [
+    "신규 3개 이미지는 공식 실물 사진이나 준공도가 아니라 검증된 출처 내용을 바탕으로 한 AI 재구성임",
+    "동일 회사 페이지와 그 회사의 대표 프로젝트 페이지 사이의 정당한 이미지 재사용은 일부 남아 있음"
+  ]
+}

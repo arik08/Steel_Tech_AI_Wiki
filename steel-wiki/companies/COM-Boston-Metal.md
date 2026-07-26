@@ -14,8 +14,9 @@
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 1개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 1개 |
     | **실행 단계** | 가동·현장 적용 1건 |
-    | **직접 연결 근거** | 1건 |
+    | **직접 연결 근거** | 2건 |
 
 ## 기술 포트폴리오
 
@@ -37,6 +38,43 @@
 
     **다음 확인:** 투자·제휴 발표와 자체 설비 운영을 구분하고, 셀 규모, 연속 운전시간, 제품 품질과 상용 설비 착공 여부를 확인해야 합니다.
 
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-BOSTON-METAL-MOE-WOBURN|Boston Metal Woburn MOE 산업 셀]]** | 다중 불활성 양극 산업 셀 가동과 톤 단위 철 출선이 확인됐으며, 별도 제철 실증 플랜트는 향후 단계다. [^src-20260725-3c2197ef] | **기술 경로** 상용 철광석을 용융 산화물 전해질에서 불활성 양극으로 전해해 음극의 액체 철과 양극의 산소를 생산 [^src-20260725-cedc4521] · **위치** Woburn, Massachusetts, USA [^src-20260725-3c2197ef] · **지원·조달 금액** DOE 지원 USD 1,750,032와 프로젝트 비용분담 USD 2,295,752 [^src-20260725-cedc4521] |
+
+## 프로젝트별 상세
+
+??? info "Boston Metal Woburn MOE 산업 셀"
+
+    **프로젝트 문서:** [[projects/PRJ-BOSTON-METAL-MOE-WOBURN|Boston Metal Woburn MOE 산업 셀]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **기술 경로** | 상용 철광석을 용융 산화물 전해질에서 불활성 양극으로 전해해 음극의 액체 철과 양극의 산소를 생산 [^src-20260725-cedc4521] |
+    | **위치** | Woburn, Massachusetts, USA [^src-20260725-3c2197ef] |
+    | **연속운전 결과** | DOE 실증에서 10 kg 철 생산과 산소 발생을 확인했으나 후속 100 kg·1주 내구 캠페인은 당시 목표에 미달 [^src-20260725-cedc4521] |
+    | **설비 구성** | 자체발열형 MOE 셀, 다중 불활성 양극, 액체 금속 반복 출선과 셀·양극 수 증가에 의한 모듈 확대 [^src-20260725-cedc4521] |
+    | **가동·시운전 확인 시점** | 2025-03-12 발표 기준 산업 셀 가동 확인 [^src-20260725-3c2197ef] |
+    | **단계 완료 시점** | DOE 협력 프로젝트 기간은 2023-01-31 종료 [^src-20260725-cedc4521] |
+    | **프로젝트 착수 시점** | 2018-08-01 DOE 협력 프로젝트 착수 [^src-20260725-cedc4521] |
+    | **공개 성과의 한계** | 2025년 산업 셀의 톤 단위 출선 발표에도 연속 캠페인 시간·전류효율·양극 마모율·연산 환산능력은 공개되지 않음 [^src-20260725-3c2197ef] |
+    | **프로젝트 상태** | 다중 불활성 양극 산업 셀 가동과 톤 단위 철 출선이 확인됐으며, 별도 제철 실증 플랜트는 향후 단계다. [^src-20260725-3c2197ef] |
+    | **지원·조달 금액** | DOE 지원 USD 1,750,032와 프로젝트 비용분담 USD 2,295,752 [^src-20260725-cedc4521] |
+    | **상용화 모델** | Boston Metal은 셀과 불활성 양극 기술을 제철사에 라이선스하는 모델을 제시하며 자체 상업 제철소 운영과는 구분 [^src-20260725-cedc4521] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2018-08-01 | 착수 | **프로젝트 착수 시점**: 2018-08-01 DOE 협력 프로젝트 착수 [^src-20260725-cedc4521] |
+    | 2023-01-31 | 단계 완료 | **단계 완료 시점**: DOE 협력 프로젝트 기간은 2023-01-31 종료 [^src-20260725-cedc4521] |
+    | 2025-03-12 | 발표·검증 | **위치**: Woburn, Massachusetts, USA · **가동·시운전 확인 시점**: 2025-03-12 발표 기준 산업 셀 가동 확인 · **공개 성과의 한계**: 2025년 산업 셀의 톤 단위 출선 발표에도 연속 캠페인 시간·전류효율·양극 마모율·연산 환산능력은 공개되지 않음 · **프로젝트 상태**: 다중 불활성 양극 산업 셀 가동과 톤 단위 철 출선이 확인됐으며, 별도 제철 실증 플랜트는 향후 단계다. [^src-20260725-3c2197ef] |
+    | 2026-07-25 | 수집 확인 | **기술 경로**: 상용 철광석을 용융 산화물 전해질에서 불활성 양극으로 전해해 음극의 액체 철과 양극의 산소를 생산 · **연속운전 결과**: DOE 실증에서 10 kg 철 생산과 산소 발생을 확인했으나 후속 100 kg·1주 내구 캠페인은 당시 목표에 미달 · **설비 구성**: 자체발열형 MOE 셀, 다중 불활성 양극, 액체 금속 반복 출선과 셀·양극 수 증가에 의한 모듈 확대 · **단계 완료 시점**: DOE 협력 프로젝트 기간은 2023-01-31 종료 · **프로젝트 착수 시점**: 2018-08-01 DOE 협력 프로젝트 착수 · **지원·조달 금액**: DOE 지원 USD 1,750,032와 프로젝트 비용분담 USD 2,295,752 · **상용화 모델**: Boston Metal은 셀과 불활성 양극 기술을 제철사에 라이선스하는 모델을 제시하며 자체 상업 제철소 운영과는 구분 [^src-20260725-cedc4521] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
@@ -50,5 +88,7 @@
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
 | [[sources/SRC-20260725-3C2197EF|Boston Metal Celebrates Historic Commissioning Run of MOE Green Steel Cell]] | Boston Metal · 2025-03-12 | [원문 보기](https://www.bostonmetal.com/news/boston-metal-celebrates-historic-commissioning-run-of-moe-green-steel-cell/) |
+| [[sources/SRC-20260725-CEDC4521|Carbon-free Iron for a Sustainable Future: Boston Metal IEDO Peer Review]] | U.S. Department of Energy IEDO / Boston Metal · 게시일 미상 | [원문 보기](https://www1.eere.energy.gov/iedo/downloads/2023/peer_review/Boston%20Metal_Lambotte_IEDO_Iron-and-Steel_Carbon%20Free%20Iron%20for%20a%20Sustainable%20Future.pdf) |
 
 [^src-20260725-3c2197ef]: **Boston Metal Celebrates Historic Commissioning Run of MOE Green Steel Cell** — Boston Metal, 2025-03-12. [원문](https://www.bostonmetal.com/news/boston-metal-celebrates-historic-commissioning-run-of-moe-green-steel-cell/) · [[sources/SRC-20260725-3C2197EF|보관 원문·메타데이터]]
+[^src-20260725-cedc4521]: **Carbon-free Iron for a Sustainable Future: Boston Metal IEDO Peer Review** — U.S. Department of Energy IEDO / Boston Metal, 게시일 미상. [원문](https://www1.eere.energy.gov/iedo/downloads/2023/peer_review/Boston%20Metal_Lambotte_IEDO_Iron-and-Steel_Carbon%20Free%20Iron%20for%20a%20Sustainable%20Future.pdf) · [[sources/SRC-20260725-CEDC4521|보관 원문·메타데이터]]

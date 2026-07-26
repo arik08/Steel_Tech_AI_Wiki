@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0E3E861D9FB6",
+  "subject_id": "PRJ-NIPPON-HASAKI-H2-DRI",
+  "predicate": "technology_route",
+  "value": "저품위 철광석을 100% 수소로 직접환원하고 환원-냉각-성형 전 공정을 상용 유사 구성으로 평가",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-280A7FAC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Hasaki 시험로 기술 경로 등록",
+      "source_ids": [
+        "SRC-20260725-280A7FAC"
+      ]
+    }
+  ]
+}

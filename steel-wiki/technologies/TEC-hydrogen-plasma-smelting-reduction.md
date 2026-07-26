@@ -2,7 +2,7 @@
 
 # 수소 플라즈마 용융환원 (HPSR)
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-26** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 환원·용융 경로"
 
@@ -46,7 +46,7 @@
 여기서 HPSR은 일반 수소 DRI나 전기용융로와 구분합니다. 수소가 환원제인 동시에 플라즈마 아크가 용융 열원을 제공하며, 용융욕과 플라즈마의 계면에서 최종 환원이 일어납니다. ‘단일단계’는 보조 예열·사전환원·배가스 회수까지 불필요하다는 뜻이 아니며, 확대 설계는 오히려 이 전단·후단 통합을 검토합니다.
 
 - **근거 확인 기업:** 1개
-- **직접 연결 근거:** 10건
+- **직접 연결 근거:** 11건
 
 ## 작동 원리
 
@@ -99,42 +99,42 @@ flowchart TB
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **작동 원리** | 수소는 철 산화물의 환원제로 작용하고 플라즈마 아크는 용융에 필요한 전기 열에너지를 공급 [^src-20260725-a0ac41d7] | 기타 |
-| **반응기 구성** | 약한 과압의 기밀 직류 아크로에서 용융욕을 양극, 중공 흑연전극을 음극으로 사용 [^src-20260725-1f1ea152] | 학술 연구 |
-| **활성 수소종** | 분자 수소뿐 아니라 원자·이온화 수소종이 환원에 관여하나 실제 계면 종 분포는 운전조건에 따라 달라짐 [^src-20260725-4333339b] | 학술 연구 |
+| **반응기 구성** | 약한 과압의 기밀 직류 아크로에서 용융욕을 양극, 중공 흑연전극을 음극으로 사용 [^src-20260725-1f1ea152] | 학술지 논문 |
+| **활성 수소종** | 분자 수소뿐 아니라 원자·이온화 수소종이 환원에 관여하나 실제 계면 종 분포는 운전조건에 따라 달라짐 [^src-20260725-4333339b] | 학술지 논문 |
 | **플라즈마 아크 구성** | 중공 전극과 용융욕 사이에 직류 플라즈마 아크를 형성 [^src-20260725-973f138f] | 정부·공공자료 |
-| **전극·원료 공급 구성** | 아르곤·수소와 미분광을 중공 흑연 음극을 통해 아크 중심부에 공급 [^src-20260725-1f1ea152] | 학술 연구 |
-| **플라즈마–용융욕 계면** | 활성 수소종과 용융 산화철의 환원반응은 플라즈마-용융욕 계면에서 진행 [^src-20260725-4333339b] | 학술 연구 |
-| **산화철 환원 순서** | 용융 상태에서 hematite-자철광-wustite-금속철 순으로 환원이 진행 [^src-20260725-4333339b] | 학술 연구 |
-| **속도결정 단계** | 완전 금속화에 가까워질수록 최종 wustite(FeO)-금속철 환원이 속도결정 단계가 될 수 있음 [^src-20260725-4333339b] | 학술 연구 |
-| **광학방출·영상 계측** | 광학방출분광과 영상으로 H·Fe·O 및 FeO 방출종의 시간 변화를 실험실·파일럿에서 관측 [^src-20260725-ee8a09ef] | 학술 연구 |
+| **전극·원료 공급 구성** | 아르곤·수소와 미분광을 중공 흑연 음극을 통해 아크 중심부에 공급 [^src-20260725-1f1ea152] | 학술지 논문 |
+| **플라즈마–용융욕 계면** | 활성 수소종과 용융 산화철의 환원반응은 플라즈마-용융욕 계면에서 진행 [^src-20260725-4333339b] | 학술지 논문 |
+| **산화철 환원 순서** | 용융 상태에서 hematite-자철광-wustite-금속철 순으로 환원이 진행 [^src-20260725-4333339b] | 학술지 논문 |
+| **속도결정 단계** | 완전 금속화에 가까워질수록 최종 wustite(FeO)-금속철 환원이 속도결정 단계가 될 수 있음 [^src-20260725-4333339b] | 학술지 논문 |
+| **광학방출·영상 계측** | 광학방출분광과 영상으로 H·Fe·O 및 FeO 방출종의 시간 변화를 실험실·파일럿에서 관측 [^src-20260725-ee8a09ef] | 학술지 논문 |
 
 ### 원료·운전·제품
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **적용 원료** | 철광석 미분과 저품위광, 일부 제철 잔사·산화물까지 연구 후보이나 광종별 성능은 별도 검증 필요 [^src-20260725-4333339b] | 학술 연구 |
+| **적용 원료** | 철광석 미분과 저품위광, 일부 제철 잔사·산화물까지 연구 후보이나 광종별 성능은 별도 검증 필요 [^src-20260725-4333339b] | 학술지 논문 |
 | **제품 형태** | 중간 선철 단계를 우회해 저탄소 용강 또는 조강을 직접 생산하는 연구 경로 [^src-20260725-f2f9bb6e] | 회사 IR |
-| **부산물** | 이상적인 수소 환원 반응 부산물은 수증기이나 실제 배가스에는 미반응 H2·Ar·분진과 전극 기원 가스가 포함될 수 있음 [^src-20260725-1f1ea152] | 학술 연구 |
+| **부산물** | 이상적인 수소 환원 반응 부산물은 수증기이나 실제 배가스에는 미반응 H2·Ar·분진과 전극 기원 가스가 포함될 수 있음 [^src-20260725-1f1ea152] | 학술지 논문 |
 | **원료 공급 방식** | 초기 SuSteel은 배치 운전; SuS-F는 미분광 연속 공급을 포함한 반연속·연속 공정 개발 목표 [^src-20260725-a0ac41d7] | 기타 |
 | **출강 방식** | SuS-F는 저탄소강의 반연속 출강을 개발 목표로 설정 [^src-20260725-a0ac41d7] | 기타 |
 | **용융욕·회분 용량** | SuSteel 개발은 약 100 g 실험실 용융 규모에서 약 90 kg 파일럿 용융 규모로 확대 [^src-20260725-2fa1b498] | 기타 |
-| **시험 원료 공급률** | 2024 광학계측 논문의 K1-MET 캠페인은 미분광을 100~200 g/min으로 연속 공급 [^src-20260725-ee8a09ef] | 학술 연구 |
-| **연속화 목표 처리량** | SuSteel follow-up 확대 목표는 철광석 200 kg/h의 완전 연속 환원 [^src-20260725-1f1ea152] | 학술 연구 |
-| **수소 이용률** | 2025 확대 시나리오는 액상 FeO-Fe 환원에서 HPSR 수소 이용률의 열역학적 상한을 약 40 vol.%로 가정 [^src-20260725-1f1ea152] | 학술 연구 |
-| **아르곤 안정화 부담** | 확대 시나리오는 아크 안정화를 위해 플라즈마 가스 중 약 25 vol.% Ar을 가정하며 Ar 가열은 에너지 부담 [^src-20260725-1f1ea152] | 학술 연구 |
-| **전극 소비·탄소 유입** | 흑연전극 마모는 비용·탄소계 배가스·아크 안정성에 영향을 주며 습윤광은 실험에서 전극 소비를 증가시킴 [^src-20260725-db8169d9] | 학술 연구 |
-| **철 증발·수율 위험** | 완전 금속화에 가까워질 때 계면 철 증발과 강한 발광이 증가해 철 수율·분진·계측에 영향을 줄 수 있음 [^src-20260725-4333339b] | 학술 연구 |
+| **시험 원료 공급률** | 2024 광학계측 논문의 K1-MET 캠페인은 미분광을 100~200 g/min으로 연속 공급 [^src-20260725-ee8a09ef] | 학술지 논문 |
+| **연속화 목표 처리량** | SuSteel follow-up 확대 목표는 철광석 200 kg/h의 완전 연속 환원 [^src-20260725-1f1ea152] | 학술지 논문 |
+| **수소 이용률** | 2025 확대 시나리오는 액상 FeO-Fe 환원에서 HPSR 수소 이용률의 열역학적 상한을 약 40 vol.%로 가정 [^src-20260725-1f1ea152] | 학술지 논문 |
+| **아르곤 안정화 부담** | 확대 시나리오는 아크 안정화를 위해 플라즈마 가스 중 약 25 vol.% Ar을 가정하며 Ar 가열은 에너지 부담 [^src-20260725-1f1ea152] | 학술지 논문 |
+| **전극 소비·탄소 유입** | 흑연전극 마모는 비용·탄소계 배가스·아크 안정성에 영향을 주며 습윤광은 실험에서 전극 소비를 증가시킴 [^src-20260725-db8169d9] | 학술지 논문 |
+| **철 증발·수율 위험** | 완전 금속화에 가까워질 때 계면 철 증발과 강한 발광이 증가해 철 수율·분진·계측에 영향을 줄 수 있음 [^src-20260725-4333339b] | 학술지 논문 |
 | **내화물 노출·마모** | 플라즈마·용융욕·슬래그에 노출되는 내화물 영향과 수명이 SuSteel 핵심 연구항목 [^src-20260725-2fa1b498] | 기타 |
-| **사전환원 통합** | HPSR 배가스로 광석을 FeO까지 예열·사전환원한 뒤 플라즈마에서 최종 환원하는 하이브리드 확대안 [^src-20260725-1f1ea152] | 학술 연구 |
-| **배가스 현열·수소 회수** | 고온 배가스의 미반응 수소와 현열을 전단 사전환원·예열에 이용하는 방안 [^src-20260725-1f1ea152] | 학술 연구 |
+| **사전환원 통합** | HPSR 배가스로 광석을 FeO까지 예열·사전환원한 뒤 플라즈마에서 최종 환원하는 하이브리드 확대안 [^src-20260725-1f1ea152] | 학술지 논문 |
+| **배가스 현열·수소 회수** | 고온 배가스의 미반응 수소와 현열을 전단 사전환원·예열에 이용하는 방안 [^src-20260725-1f1ea152] | 학술지 논문 |
 | **수증기 회수·재전해** | SuS-F는 배가스 수증기를 응축해 전기분해용 물로 재이용하는 개념을 목표에 포함 [^src-20260725-a0ac41d7] | 기타 |
-| **광학계측 시야 한계** | 수증기와 분진이 광 신호를 흡수·차폐해 OES 기반 폐루프 제어의 가용성을 제한할 수 있음 [^src-20260725-ee8a09ef] | 학술 연구 |
+| **광학계측 시야 한계** | 수증기와 분진이 광 신호를 흡수·차폐해 OES 기반 폐루프 제어의 가용성을 제한할 수 있음 [^src-20260725-ee8a09ef] | 학술지 논문 |
 
 ### 에너지·환경·경제
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **배출 경계** | 반응 자체는 수증기를 주 부산물로 하나 전력·수소 생산, Ar, 흑연전극, 내화물, 광석·슬래그의 전과정 배출은 별도 계상 필요 [^src-20260725-1f1ea152] | 학술 연구 |
+| **배출 경계** | 반응 자체는 수증기를 주 부산물로 하나 전력·수소 생산, Ar, 흑연전극, 내화물, 광석·슬래그의 전과정 배출은 별도 계상 필요 [^src-20260725-1f1ea152] | 학술지 논문 |
 | **장입·전력 제어** | 연속 수소·광석 투입 중 정밀 아크 출력 제어는 FFG LIGHTBOW가 명시한 미해결 과제 [^src-20260725-973f138f] | 정부·공공자료 |
 
 ### 실증·산업화
@@ -142,8 +142,11 @@ flowchart TB
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **공개 개발 단계** | Donawitz 시험설비는 2021년부터 운전 중이며 200 kg/h 연속화·가스회수·제어는 연구개발 단계 [^src-20260725-f2f9bb6e] | 회사 IR |
+| **학회 저자 단계 평가** | AISTech 2025 논문 저자들은 HPSR을 TRL 5로 평가했으며 공식 프로젝트 인증과 구분 필요 [^src-20260726-443630de] | 학회 논문 |
+| **공개 스케일업 근거 공백** | AISTech 2025 논문은 산업 규모 HPSR의 예비 techno-economic·commercial feasibility 공개 연구가 부족하다고 명시 [^src-20260726-443630de] | 학회 논문 |
+| **스케일업 검토 방법** | AISTech 2025 논문은 산업 최종 요구조건을 소규모 시험 설계에 반복 반영하는 scenario-based requirements engineering을 제안 [^src-20260726-443630de] | 학회 논문 |
 | **상용 규모 확대 조건** | 연속 광석 공급·출강, 아크 안정성, H2·Ar·배가스 수지, 전극·내화물 수명, 철 증발과 장기 가동률 검증이 상용 확대 조건 [^src-20260725-973f138f] | 정부·공공자료 |
-| **파일럿 회분 투입량** | 2025 검토 논문은 기존 실증 반응기의 광석 회분 용량을 200 kg/trial로 기술 [^src-20260725-1f1ea152] | 학술 연구 |
+| **파일럿 회분 투입량** | 2025 검토 논문은 기존 실증 반응기의 광석 회분 용량을 200 kg/trial로 기술 [^src-20260725-1f1ea152] | 학술지 논문 |
 
 
 ## 공개 개발 연혁
@@ -154,6 +157,7 @@ flowchart TB
 | 2023-03-10 | Impact of Iron Ore Pre-Reduction Degree on the Hydrogen Plasma Smelting Reduction Process [^src-20260725-db8169d9] |
 | 2024-05-15 | The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements [^src-20260725-ee8a09ef] |
 | 2025-02-05 | Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction [^src-20260725-1f1ea152] |
+| 2025-05-05 | Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach [^src-20260726-443630de] |
 | 2025-06-02 | In Situ Observation of Sustainable Hematite-Magnetite-Wustite-Iron Hydrogen Plasma Reduction [^src-20260725-4333339b] |
 | 2026-06-04 | Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz [^src-20260725-f2f9bb6e] |
 
@@ -218,13 +222,15 @@ flowchart TB
 - [[sources/SRC-20260725-EE8A09EF|The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements]] — Steel Research International / Wiley, 2024-05-15 · [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/Pauna_et_al__2024__Optical_spectra_HPSR_StResInt.pdf)
 - [[sources/SRC-20260725-F2F9BB6E|Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz]] — voestalpine AG, 2026-06-04 · [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html)
 - [[sources/SRC-20260725-FE22DEFE|voestalpine researches hydrogen plasma steelmaking in SuSteel]] — voestalpine, 2022-04-27 · [원문](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/)
+- [[sources/SRC-20260726-443630DE|Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach]] — Association for Iron & Steel Technology, 2025-05-05 · [원문](https://imis.aist.org/AISTPapers/Abstracts_Only_PDF/PR-389-235.pdf)
 
-[^src-20260725-1f1ea152]: **Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction** — Processes / MDPI, 2025-02-05. [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Adami_2025_-_Strategic_selection_of_a_pre-reduction_reactor_for_increased_hydrogen_utilization_in_hydrogen_plasma_smelting_reduction.pdf) · [[sources/SRC-20260725-1F1EA152|보관 원문·메타데이터]]
+[^src-20260725-1f1ea152]: **Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction** — Processes / MDPI, 2025-02-05. DOI: [10.3390/pr13020420](https://doi.org/10.3390/pr13020420). [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Adami_2025_-_Strategic_selection_of_a_pre-reduction_reactor_for_increased_hydrogen_utilization_in_hydrogen_plasma_smelting_reduction.pdf) · [[sources/SRC-20260725-1F1EA152|보관 원문·메타데이터]]
 [^src-20260725-2fa1b498]: **Project SuSteel: Sustainable steel production utilising hydrogen** — K1-MET GmbH, 게시일 미상. [원문](https://www.k1-met.com/en/non_comet/susteel) · [[sources/SRC-20260725-2FA1B498|보관 원문·메타데이터]]
-[^src-20260725-4333339b]: **In Situ Observation of Sustainable Hematite-Magnetite-Wustite-Iron Hydrogen Plasma Reduction** — Metallurgical and Materials Transactions B / Springer, 2025-06-02. [원문](https://link.springer.com/article/10.1007/s11663-025-03610-y) · [[sources/SRC-20260725-4333339B|보관 원문·메타데이터]]
+[^src-20260725-4333339b]: **In Situ Observation of Sustainable Hematite-Magnetite-Wustite-Iron Hydrogen Plasma Reduction** — Metallurgical and Materials Transactions B / Springer, 2025-06-02. DOI: [10.1007/s11663-025-03610-y](https://doi.org/10.1007/s11663-025-03610-y). [원문](https://link.springer.com/article/10.1007/s11663-025-03610-y) · [[sources/SRC-20260725-4333339B|보관 원문·메타데이터]]
 [^src-20260725-973f138f]: **LIGHTBOW: Model-based control in metallurgical arc-plasma processes** — Austrian Research Promotion Agency (FFG), 게시일 미상. [원문](https://projekte.ffg.at/projekt/5122268) · [[sources/SRC-20260725-973F138F|보관 원문·메타데이터]]
 [^src-20260725-a0ac41d7]: **Project SuS-F: SuSteel follow-up** — K1-MET GmbH, 게시일 미상. [원문](https://www.k1-met.com/en/non_comet/sus_f) · [[sources/SRC-20260725-A0AC41D7|보관 원문·메타데이터]]
-[^src-20260725-db8169d9]: **Impact of Iron Ore Pre-Reduction Degree on the Hydrogen Plasma Smelting Reduction Process** — Metals / MDPI, 2023-03-10. [원문](https://pure.unileoben.ac.at/en/publications/impact-of-iron-ore-pre-reduction-degree-on-the-hydrogen-plasma-sm/) · [[sources/SRC-20260725-DB8169D9|보관 원문·메타데이터]]
-[^src-20260725-ee8a09ef]: **The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements** — Steel Research International / Wiley, 2024-05-15. [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/Pauna_et_al__2024__Optical_spectra_HPSR_StResInt.pdf) · [[sources/SRC-20260725-EE8A09EF|보관 원문·메타데이터]]
+[^src-20260725-db8169d9]: **Impact of Iron Ore Pre-Reduction Degree on the Hydrogen Plasma Smelting Reduction Process** — Metals / MDPI, 2023-03-10. DOI: [10.3390/met13030558](https://doi.org/10.3390/met13030558). [원문](https://pure.unileoben.ac.at/en/publications/impact-of-iron-ore-pre-reduction-degree-on-the-hydrogen-plasma-sm/) · [[sources/SRC-20260725-DB8169D9|보관 원문·메타데이터]]
+[^src-20260725-ee8a09ef]: **The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements** — Steel Research International / Wiley, 2024-05-15. DOI: [10.1002/srin.202400028](https://doi.org/10.1002/srin.202400028). [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/Pauna_et_al__2024__Optical_spectra_HPSR_StResInt.pdf) · [[sources/SRC-20260725-EE8A09EF|보관 원문·메타데이터]]
 [^src-20260725-f2f9bb6e]: **Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz** — voestalpine AG, 2026-06-04. [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) · [[sources/SRC-20260725-F2F9BB6E|보관 원문·메타데이터]]
 [^src-20260725-fe22defe]: **voestalpine researches hydrogen plasma steelmaking in SuSteel** — voestalpine, 2022-04-27. [원문](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/) · [[sources/SRC-20260725-FE22DEFE|보관 원문·메타데이터]]
+[^src-20260726-443630de]: **Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach** — Association for Iron & Steel Technology, 2025-05-05. DOI: [10.33313/389/243](https://doi.org/10.33313/389/243). [원문](https://imis.aist.org/AISTPapers/Abstracts_Only_PDF/PR-389-235.pdf) · [[sources/SRC-20260726-443630DE|보관 원문·메타데이터]]

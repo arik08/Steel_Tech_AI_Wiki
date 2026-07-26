@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BA8AD6F9BD07",
+  "subject_id": "PRJ-ARCELORMITTAL-VOLTERON",
+  "predicate": "performance_disclosure_limit",
+  "value": "전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-FBE26310"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-FBE26310"
+      ]
+    }
+  ]
+}

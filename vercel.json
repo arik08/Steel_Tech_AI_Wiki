@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "uv run --with-requirements tools/project/requirements-docs.txt -- mkdocs build --strict -f tools/project/mkdocs.yml",
+  "outputDirectory": "tools/project/site",
+  "cleanUrls": true,
+  "trailingSlash": false
+}

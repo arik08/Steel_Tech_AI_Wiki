@@ -27,7 +27,12 @@
       "rights_note": "Tata Steel 공식 보도자료 원본 사진을 외부 링크로만 표시",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "COM-Tata-Steel",
+        "TEC-blast-furnace-ccus",
+        "PRJ-TATA-JAMSHEDPUR-BF-CCU"
+      ]
     },
     {
       "media_id": "MED-258FB0C03818",
@@ -41,7 +46,10 @@
       "rights_note": "Tata Steel 공식 보도자료 원본 사진을 외부 링크로만 표시",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "PRJ-TATA-JAMSHEDPUR-BF-CCU"
+      ]
     }
   ]
 }

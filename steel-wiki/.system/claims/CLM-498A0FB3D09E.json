@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-498A0FB3D09E",
+  "subject_id": "COM-POSCO",
+  "predicate": "hyrex_process_configuration",
+  "value": "POSCO 공식 HyREX 공정도는 분철광석을 4단 유동층 환원로에서 순차 환원해 DRI로 만들고, 전기용융로에서 용선화한 뒤 전로와 연속주조로 연결하는 구성을 제시한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-013F0FA1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "POSCO 회사 페이지의 HyREX 대표 이미지와 실제 공식 공정 구성을 연결",
+      "source_ids": [
+        "SRC-20260725-013F0FA1"
+      ]
+    }
+  ]
+}

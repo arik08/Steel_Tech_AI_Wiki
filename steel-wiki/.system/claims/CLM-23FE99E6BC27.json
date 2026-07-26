@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-23FE99E6BC27",
+  "subject_id": "PRJ-TATA-JAMSHEDPUR-EASYMELT",
+  "predicate": "technology_route",
+  "value": "고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 토치 가열을 결합한 electrically-assisted syngas smelter",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-6B30EDDE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-6B30EDDE"
+      ]
+    }
+  ]
+}

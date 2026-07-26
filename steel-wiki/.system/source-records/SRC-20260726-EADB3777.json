@@ -1,0 +1,32 @@
+{
+  "source_id": "SRC-20260726-EADB3777",
+  "title": "Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction",
+  "url": "https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf",
+  "canonical_url": "https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf",
+  "publisher": "Association for Iron & Steel Technology",
+  "published_at": "2026-03-11",
+  "collected_at": "2026-07-26",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "eadb377750fd5a202fafd71c972acd964bfb463a696de5da8221c72d9f6c1645",
+  "academic": {
+    "kind": "conference_presentation",
+    "authors": [
+      "Seongkyu Cho",
+      "Seong-Jin Kim",
+      "Leonardo Tomas da Rocha",
+      "Sung-Mo Jung"
+    ],
+    "venue": "Scrap Supplements and Alternative Ironmaking 10 Conference Materials",
+    "conference_name": "Scrap Supplements and Alternative Ironmaking 10",
+    "conference_date": "2026-03-11",
+    "conference_location": "Orlando, Florida, USA",
+    "peer_review_status": "not_peer_reviewed"
+  },
+  "raw_sha256": "8d56b7cec1c90e1e3a356d67fce4dee57a87d964e0cdeb7ee21f123ace87659b",
+  "raw_path": ".system/raw/SRC-20260726-EADB3777.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

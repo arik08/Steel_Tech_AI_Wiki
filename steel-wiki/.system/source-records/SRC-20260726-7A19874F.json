@@ -1,0 +1,27 @@
+{
+  "source_id": "SRC-20260726-7A19874F",
+  "title": "Rio Tinto Steel Decarbonisation and Biomass Ironmaking",
+  "url": "https://www.aist.org/AIST/aist/AIST/Conferences_Exhibitions/Training_Seminars/Scrap%20Files/18-Leigh-and-Buckley.pdf",
+  "canonical_url": "https://www.aist.org/AIST/aist/AIST/Conferences_Exhibitions/Training_Seminars/Scrap%20Files/18-Leigh-and-Buckley.pdf",
+  "publisher": "Rio Tinto / Association for Iron & Steel Technology",
+  "published_at": "2023-03-08",
+  "collected_at": "2026-07-26",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "7a19874fce73df8c7be6f7027d01b4087f7e9a8e433ad58825f23d15bae90334",
+  "academic": {
+    "kind": "conference_presentation",
+    "authors": [
+      "Michael Buckley"
+    ],
+    "conference_name": "AIST Scrap Supplements and Alternative Ironmaking",
+    "conference_date": "2023-03-08",
+    "peer_review_status": "not_peer_reviewed"
+  },
+  "raw_sha256": "c2e31b7ae60083126cce5f4174c9757ac14112ed1a2dacc89b29ddb1af0752ff",
+  "raw_path": ".system/raw/SRC-20260726-7A19874F.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

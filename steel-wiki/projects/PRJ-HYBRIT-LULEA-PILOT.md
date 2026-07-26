@@ -2,7 +2,7 @@
 
 # HYBRIT 룰레오 수소 DRI 파일럿
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **7건** · 직접 연결 근거 **1건**
+> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **10건** · 직접 연결 근거 **2건**
 
 
 ![배관과 철골 구조물로 구성된 HYBRIT 수소 직접환원 파일럿 플랜트 전경](<https://mb.cision.com/Public/980/4028804/ae0aeee220ed7cee_org.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
@@ -19,7 +19,10 @@
 | --- | --- |
 | **프로젝트 상태** | 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. [^src-20260725-75a329bd] |
 | **기술 경로** | 철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬 [^src-20260725-75a329bd] |
+| **전해조 장기운전 결과** | 알칼라인 수전해 설비의 장기운전과 수소 저장, 수소 DRI의 EAF 용해 조업법 개발을 정부 분석이 확인 [^src-20260725-c4a8eda3] |
+| **정부 독립 검증** | Swedish Energy Agency 2024 전환 분석이 2018~2024 파일럿 완료와 수소 생산·저장 및 DRI-EAF 통합 조업 성과를 독립 요약 [^src-20260725-c4a8eda3] |
 | **위치** | Luleå, Sweden [^src-20260725-75a329bd] |
+| **공개 성과의 한계** | 정부 요약에도 설비 가동률·캠페인별 생산량·제품별 품질 통계·감사된 생산원가는 공개되지 않음 [^src-20260725-c4a8eda3] |
 | **파일럿 생산량** | 2024년 8월까지 수소환원철 5,000톤 이상 [^src-20260725-75a329bd] |
 | **단계 완료 시점** | 2024년 [^src-20260725-75a329bd] |
 | **프로젝트 착수 시점** | 2018년 [^src-20260725-75a329bd] |
@@ -34,10 +37,13 @@
 | 2018 | 착수 | **프로젝트 착수 시점**: 2018년 [^src-20260725-75a329bd] |
 | 2024 | 단계 완료 | **단계 완료 시점**: 2024년 [^src-20260725-75a329bd] |
 | 2024-08-27 | 발표·검증 | **프로젝트 상태**: 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. · **기술 경로**: 철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬 · **파일럿 생산량**: 2024년 8월까지 수소환원철 5,000톤 이상 · **위치**: Luleå, Sweden · **수소 저장 시험 종료 목표**: 수소 저장 파일럿을 2026년까지 계속 · **단계 완료 시점**: 2024년 · **프로젝트 착수 시점**: 2018년 [^src-20260725-75a329bd] |
+| 2024-12-01 | 발표·검증 | **공개 성과의 한계**: 정부 요약에도 설비 가동률·캠페인별 생산량·제품별 품질 통계·감사된 생산원가는 공개되지 않음 · **정부 독립 검증**: Swedish Energy Agency 2024 전환 분석이 2018~2024 파일럿 완료와 수소 생산·저장 및 DRI-EAF 통합 조업 성과를 독립 요약 · **전해조 장기운전 결과**: 알칼라인 수전해 설비의 장기운전과 수소 저장, 수소 DRI의 EAF 용해 조업법 개발을 정부 분석이 확인 [^src-20260725-c4a8eda3] |
 | 2026 | 목표 일정 | **수소 저장 시험 종료 목표**: 수소 저장 파일럿을 2026년까지 계속 [^src-20260725-75a329bd] |
 
 ## 근거 자료
 
 - **HYBRIT six-year pilot research results** — SSAB, 2024-08-27 · [원문 보기](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial) · [[sources/SRC-20260725-75A329BD|보관 원문·메타데이터]]
+- **Swedish Energy Agency review of HYBRIT pilot phase** — Swedish Energy Agency, 2024-12-01 · [원문 보기](https://www.energimyndigheten.se/4ab557/globalassets/forskning--innovation/industri/nulagesanalys-av-industrins-omstallning-2024_webb.pdf) · [[sources/SRC-20260725-C4A8EDA3|보관 원문·메타데이터]]
 
 [^src-20260725-75a329bd]: **HYBRIT six-year pilot research results** — SSAB, 2024-08-27. [원문](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial) · [[sources/SRC-20260725-75A329BD|보관 원문·메타데이터]]
+[^src-20260725-c4a8eda3]: **Swedish Energy Agency review of HYBRIT pilot phase** — Swedish Energy Agency, 2024-12-01. [원문](https://www.energimyndigheten.se/4ab557/globalassets/forskning--innovation/industri/nulagesanalys-av-industrins-omstallning-2024_webb.pdf) · [[sources/SRC-20260725-C4A8EDA3|보관 원문·메타데이터]]

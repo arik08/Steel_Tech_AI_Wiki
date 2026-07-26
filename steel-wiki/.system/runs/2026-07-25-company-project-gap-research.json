@@ -1,0 +1,181 @@
+{
+  "run_id": "company-project-gap-research",
+  "started_at": "2026-07-25T21:43:00+09:00",
+  "completed_at": "2026-07-25T22:07:30+09:00",
+  "status": "success",
+  "baseline_date": "2026-07-25",
+  "scope": {
+    "companies": [
+      "China Baowu Steel Group",
+      "Nippon Steel",
+      "Nucor"
+    ],
+    "purpose": "회사별 상세 문서에서 프로젝트 정보가 비어 있던 3개 기업의 공식 프로젝트 근거 보강",
+    "queries": [
+      "China Baowu Zhanjiang hydrogen shaft furnace 1 million tonne",
+      "China Baowu Zhanjiang near-zero-carbon EAF line",
+      "Nippon Steel Kimitsu COURSE50 FY2026 status",
+      "Nippon Steel Yawata Hirohata Shunan EAF investment capacity",
+      "Nippon Steel Hasaki hydrogen DRI test furnace",
+      "Nucor Convent DRI carbon capture status",
+      "Nucor Gallatin EAF carbon capture pilot DOE"
+    ],
+    "source_types": [
+      "company_release",
+      "company_ir",
+      "government"
+    ]
+  },
+  "source_ids": [
+    "SRC-20260725-7E8ABC86",
+    "SRC-20260725-7D498404",
+    "SRC-20260725-F396D188",
+    "SRC-20260725-E5BC335B",
+    "SRC-20260725-E3271B0A",
+    "SRC-20260725-0A7903EA",
+    "SRC-20260725-46C2DBC8",
+    "SRC-20260725-280A7FAC",
+    "SRC-20260725-FE353D3A",
+    "SRC-20260725-6D04090A",
+    "SRC-20260725-BF5036AE"
+  ],
+  "claim_ids": [
+    "CLM-40BF66D49600",
+    "CLM-5756840282D9",
+    "CLM-C00669F5CA7C",
+    "CLM-6E344136531F",
+    "CLM-9D161A541173",
+    "CLM-4CBE0A4D473B",
+    "CLM-0F7B0EB02890",
+    "CLM-FC5CA9A6929A",
+    "CLM-FEA1EC210BA8",
+    "CLM-1CC2942C1E08",
+    "CLM-E6D50B6DFC19",
+    "CLM-69FD64FE257D",
+    "CLM-BE1D6327EABA",
+    "CLM-6B72BAE0DE00",
+    "CLM-9E687C199BAD",
+    "CLM-123433B7CBD4",
+    "CLM-DBF41AE322B3",
+    "CLM-0E3E861D9FB6",
+    "CLM-69F33C9E9268",
+    "CLM-63177B23E820",
+    "CLM-984E83C844EF",
+    "CLM-E515D8FF262D",
+    "CLM-48348CB82467",
+    "CLM-2646550D3EEF",
+    "CLM-E99F24F5F034",
+    "CLM-0B1224BF36AE",
+    "CLM-9875D6008F6B",
+    "CLM-AA5B0C53292E",
+    "CLM-824EB15B329D",
+    "CLM-A5E52936EB76",
+    "CLM-A72861C4DD70",
+    "CLM-68C24D4675C9",
+    "CLM-9F836E3BFC4F",
+    "CLM-8CA84FAFEB23",
+    "CLM-89D5C9A5141B",
+    "CLM-3F90022AEDD0",
+    "CLM-A1FCE4AE688F",
+    "CLM-5D85BF3C7A00",
+    "CLM-DC5A565BBCB4",
+    "CLM-4B6B10397585",
+    "CLM-F78AA9076129",
+    "CLM-279D5ECCDFF9",
+    "CLM-B2DBEBF08828",
+    "CLM-2E765986FC23",
+    "CLM-065338B851D7",
+    "CLM-4D7E22ED7AA7",
+    "CLM-392A3A8D565E",
+    "CLM-55582A89B8F1",
+    "CLM-0464FB5C0929",
+    "CLM-0B81F458174E"
+  ],
+  "access_attempts": [
+    {
+      "url": "https://en.sasac.gov.cn/2026/01/07/c_20292.htm",
+      "method": "http",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://res.baowugroup.com/attach/2025/08/18/a284678855c94f6ab74f2d394d80042f.pdf",
+      "method": "document",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf",
+      "method": "document",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://www.nipponsteel.com/en/newsroom/news/2025/__icsFiles/afieldfile/2025/09/26/20250530_200.pdf",
+      "method": "document",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html",
+      "method": "http",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://www.nipponsteel.com/en/news/20230209_100.html",
+      "method": "http",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://www.nipponsteel.com/newsroom/stories/technology/20260529_100.html",
+      "method": "http",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://www.nipponsteel.com/en/ir/library/pdf/20250313_100.pdf",
+      "method": "document",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://nucor.com/news/?article=nucor-and-the-university-of-kentucky-receive-federal-grant-for-carbon-capture-r%26d-at-gallatin-mill-122742",
+      "method": "http",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    },
+    {
+      "url": "https://www.energy.gov/hgeo/project-selections-foa-2614-carbon-management-round-5",
+      "method": "http",
+      "outcome": "success",
+      "http_status": 200,
+      "final": true
+    }
+  ],
+  "failed_urls": [],
+  "counts": {
+    "new_sources": 9,
+    "reused_sources": 2,
+    "claims_created": 50,
+    "projects_created": 6,
+    "media_added": 6,
+    "pending_reviews": 0
+  },
+  "limitations": [
+    "Baowu의 near-zero-carbon 표현과 50~80% 감축치는 정부·회사 발표 예상치이며 제품별 실측 탄소집약도는 미공개",
+    "Nippon Steel Kimitsu 45% 감축은 12 m3급 시험고로 결과이며 4,500 m3 제2고로 실증 완료 결과가 아님",
+    "Nucor Convent는 연 80만 톤 CCS 계약 용량이며 실제 2026 시운전 완료를 확인하지 못함",
+    "Nucor Gallatin은 engineering-scale 포집 연구로 상업 포집량과 영구저장량이 공개되지 않음"
+  ]
+}

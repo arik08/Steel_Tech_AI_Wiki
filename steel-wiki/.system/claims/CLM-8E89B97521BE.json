@@ -10,7 +10,9 @@
   "source_ids": [
     "SRC-20260725-B859CA04"
   ],
-  "supersedes": [],
+  "supersedes": [
+    "CLM-91A44F11BA78"
+  ],
   "coexists_with": [],
   "history": [
     {

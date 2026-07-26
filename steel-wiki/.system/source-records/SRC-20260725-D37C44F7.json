@@ -14,5 +14,22 @@
   "raw_path": ".system/raw/SRC-20260725-D37C44F7.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Hongbin Lu",
+      "Hongchun Zhu",
+      "Zhouhua Jiang",
+      "Huabing Li",
+      "Ce Yang",
+      "Zhonghao Wang",
+      "Teng Li",
+      "Hao Feng",
+      "Shucai Zhang"
+    ],
+    "venue": "ISIJ International",
+    "doi": "10.2355/isijinternational.isijint-2024-326",
+    "peer_review_status": "peer_reviewed"
+  }
 }

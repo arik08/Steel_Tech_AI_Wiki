@@ -14,5 +14,17 @@
   "raw_path": ".system/raw/SRC-20260725-99B78C86.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Rou Wang",
+      "Suneeti Purohit",
+      "Khadijeh Paymooni",
+      "Tom Honeyands"
+    ],
+    "venue": "Metallurgical and Materials Transactions B",
+    "doi": "10.1007/s11663-024-03188-x",
+    "peer_review_status": "peer_reviewed"
+  }
 }

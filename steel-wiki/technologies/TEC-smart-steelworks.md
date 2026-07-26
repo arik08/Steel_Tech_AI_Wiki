@@ -44,7 +44,7 @@
 이 문서는 단순 대시보드나 데이터 수집을 스마트 제철소로 간주하지 않습니다. 물리 공정과 모델의 동기화, 예측의 검증, 운전 권한, DCS·PLC로의 되먹임, 사람의 승인과 안전·보안 경계를 분리해 실제 자동화 수준을 판독합니다.
 
 - **근거 확인 기업:** 4개
-- **직접 연결 근거:** 9건
+- **직접 연결 근거:** 10건
 
 ## 작동 원리
 
@@ -99,7 +99,7 @@ flowchart TB
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **시스템 계층** | 물리 공간, 사이버 공간, 인간 공간을 연결하고 AI 계산과 사람의 인지·승인 역할을 명시하는 3영역 구조 [^src-20260725-8ba7a1b3] | 학술 연구 |
+| **시스템 계층** | 물리 공간, 사이버 공간, 인간 공간을 연결하고 AI 계산과 사람의 인지·승인 역할을 명시하는 3영역 구조 [^src-20260725-8ba7a1b3] | 학회 논문 |
 | **센서·계측 계층** | 온도·압력·조성 등 공정 센서뿐 아니라 IoT 카메라·영상계측·운전 이벤트를 물리 상태 입력으로 사용 [^src-20260725-285480de] | 회사 발표 |
 | **데이터 문맥화** | 연속 제철 공정의 데이터를 공정·설비·품질 이력과 연결해 추적성, 진단과 운전 데이터 표준화를 지원 [^src-20260725-28e5a30f] | 회사 발표 |
 | **모델 계층** | 데이터 기반 통계·기계학습 모델과 열화학 물리 시뮬레이션을 함께 사용하는 하이브리드 모델 [^src-20260725-41586a75] | 회사 발표 |
@@ -112,8 +112,8 @@ flowchart TB
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **의사결정·제어 권한** | 예측·권고, 운전자 승인 뒤 실행, 허용범위 내 자율 폐루프는 서로 다른 권한 단계이며 공개 자료에서 명시적으로 구분해야 함 [^src-20260725-8ba7a1b3] | 학술 연구 |
-| **사람 개입 구조** | AI의 실시간 계산과 사람의 경험·인지·책임을 함께 의사결정 고리에 두며, 사람의 최종 승인·감독·개입 지점을 설계 [^src-20260725-8ba7a1b3] | 학술 연구 |
+| **의사결정·제어 권한** | 예측·권고, 운전자 승인 뒤 실행, 허용범위 내 자율 폐루프는 서로 다른 권한 단계이며 공개 자료에서 명시적으로 구분해야 함 [^src-20260725-8ba7a1b3] | 학회 논문 |
+| **사람 개입 구조** | AI의 실시간 계산과 사람의 경험·인지·책임을 함께 의사결정 고리에 두며, 사람의 최종 승인·감독·개입 지점을 설계 [^src-20260725-8ba7a1b3] | 학회 논문 |
 | **폐루프 자동제어** | 광양 2전로 사례는 25개 수동 조작을 원터치 순서로 자동화했지만 운영자는 감시·관리 책임을 유지; 완전 무인 자율운전과 동일하지 않음 [^src-20260725-285480de] | 회사 발표 |
 | **실시간성·지연** | 소결 CPS는 센서 입력과 하이브리드 모델을 사용해 실시간 예측을 수행; 제어 적용에는 공정 시간상수보다 짧은 지연과 결측 대응이 필요 [^src-20260725-41586a75] | 회사 발표 |
 | **안전정지·수동 전환** | AI·트윈 결과가 물리 제어에 연결될 때 인터록, 안전정지, 수동 전환, 변경 롤백과 사고 대응을 포함해야 함 [^src-20260725-017c8bae] | 정부·공공자료 |
@@ -126,6 +126,7 @@ flowchart TB
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **작동 원리** | 센서 입력을 통계·기계학습 모델과 열화학·물리 모델에 결합해 공정 상태를 실시간 예측하고, 예측값에 근거한 최적 조작을 물리 공정에 되먹임 [^src-20260725-41586a75] | 회사 발표 |
+| **공정 구성** | 학회 발표 사례는 스크랩 입고 영상·계측을 화학성분 및 MES/ERP와 연결하는 cloud/edge 기반 운영 구성을 제시했다. [^src-20260726-def03677] | 학회 발표 |
 
 ### 실증·산업화
 
@@ -146,19 +147,13 @@ flowchart TB
 | 2020-01-20 | POSCO AI blast furnace and smart steelworks baseline [^src-20260725-28e5a30f] |
 | 2022-01-11 | Tata Steel first-in-world digital twin in sinter making [^src-20260725-0cc8b82b] |
 | 2023-09-28 | NIST SP 800-82 Rev. 3 Guide to Operational Technology Security [^src-20260725-017c8bae] |
-| 2023-11-02 | Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing [^src-20260725-8ba7a1b3] |
+| 2023-10-29 | Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing [^src-20260725-8ba7a1b3] |
 | 2024-12-11 | POSCO One-Touch Converter Operation Automation Technology [^src-20260725-285480de] |
 | 2025-10-07 | JFE Steel deploys CPS technology across sintering facilities [^src-20260725-41586a75] |
+| 2026-03-09 | Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management [^src-20260726-def03677] |
 | 2026-07-20 | Digital Twins for Advanced Manufacturing [^src-20260725-30a4249e] |
 
 ## 설비·공정 이미지
-
-![실제 전로 설비 영상과 가상 전로 모델을 함께 보여주는 POSCO 원터치 자동화 화면](<https://newsroom.posco.com/en/wp-content/uploads/2024/12/20241211_img_en1_04.jpg>){ .steel-media-image .steel-media-detail }
-
-**공정 개념도.** POSCO 광양 2전로의 실시간 물리 공정과 가상 전로를 동기화한 원터치 자동화 디지털 트윈 운전 화면
-
-- 출처 [[sources/SRC-20260725-285480DE|SRC-20260725-285480DE]] · 권리 `link_only` · [원문 페이지](https://newsroom.posco.com/en/tech-talk-part-8-poscos-game-changing-one-touch-converter-operation-automation-technology) · 작성·촬영 POSCO Group Newsroom
-- 권리 메모: POSCO 공식 기술 소개 페이지에서 원본과 맥락을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.
 
 ![실제 제조 장비와 각각의 디지털 모델을 나란히 보여주는 NIST 디지털 트윈 사례](<https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2026/06/11/Example%20Manufacturing%20Digital%20Twins%20Developed.png?itok=ji7gIcq2>){ .steel-media-image .steel-media-detail }
 
@@ -256,7 +251,8 @@ flowchart TB
 - [[sources/SRC-20260725-41586A75|JFE Steel deploys CPS technology across sintering facilities]] — JFE Steel Corporation, 2025-10-07 · [원문](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html)
 - [[sources/SRC-20260725-45A1D063|Nippon Steel research and development for carbon-neutral steelmaking]] — Nippon Steel Corporation, 게시일 미상 · [원문](https://www.nipponsteel.com/en/sustainability/quality/rd.html)
 - [[sources/SRC-20260725-6C80084B|Tata Steel climate action technology roadmap]] — Tata Steel, 게시일 미상 · [원문](https://www.tatasteel.com/sustainability/environment/climate-action/)
-- [[sources/SRC-20260725-8BA7A1B3|Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing]] — National Institute of Standards and Technology, 2023-11-02 · [원문](https://www.nist.gov/publications/conceptual-architecture-digital-twins-human-loop-based-smart-manufacturing)
+- [[sources/SRC-20260725-8BA7A1B3|Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing]] — National Institute of Standards and Technology, 2023-10-29 · [원문](https://www.nist.gov/publications/conceptual-architecture-digital-twins-human-loop-based-smart-manufacturing)
+- [[sources/SRC-20260726-DEF03677|Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/e771fab2-8303-4f35-b945-bcac8028c804/Evolving-Scrapyard-Intergrating-New-Solutions-Advanced.pdf)
 
 [^src-20260725-017c8bae]: **NIST SP 800-82 Rev. 3 Guide to Operational Technology Security** — National Institute of Standards and Technology, 2023-09-28. [원문](https://csrc.nist.gov/pubs/sp/800/82/r3/final) · [[sources/SRC-20260725-017C8BAE|보관 원문·메타데이터]]
 [^src-20260725-0cc8b82b]: **Tata Steel first-in-world digital twin in sinter making** — Tata Steel, 2022-01-11. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2022/tata-steel-declared-as-one-of-the-joint-winners-as-top-innovative-company-large-in-manufacturing-category-at-cii-industrial-innovation-awards-2021/) · [[sources/SRC-20260725-0CC8B82B|보관 원문·메타데이터]]
@@ -266,4 +262,5 @@ flowchart TB
 [^src-20260725-41586a75]: **JFE Steel deploys CPS technology across sintering facilities** — JFE Steel Corporation, 2025-10-07. [원문](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html) · [[sources/SRC-20260725-41586A75|보관 원문·메타데이터]]
 [^src-20260725-45a1d063]: **Nippon Steel research and development for carbon-neutral steelmaking** — Nippon Steel Corporation, 게시일 미상. [원문](https://www.nipponsteel.com/en/sustainability/quality/rd.html) · [[sources/SRC-20260725-45A1D063|보관 원문·메타데이터]]
 [^src-20260725-6c80084b]: **Tata Steel climate action technology roadmap** — Tata Steel, 게시일 미상. [원문](https://www.tatasteel.com/sustainability/environment/climate-action/) · [[sources/SRC-20260725-6C80084B|보관 원문·메타데이터]]
-[^src-20260725-8ba7a1b3]: **Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing** — National Institute of Standards and Technology, 2023-11-02. [원문](https://www.nist.gov/publications/conceptual-architecture-digital-twins-human-loop-based-smart-manufacturing) · [[sources/SRC-20260725-8BA7A1B3|보관 원문·메타데이터]]
+[^src-20260725-8ba7a1b3]: **Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing** — National Institute of Standards and Technology, 2023-10-29. DOI: [10.1115/imece2023-112791](https://doi.org/10.1115/imece2023-112791). [원문](https://www.nist.gov/publications/conceptual-architecture-digital-twins-human-loop-based-smart-manufacturing) · [[sources/SRC-20260725-8BA7A1B3|보관 원문·메타데이터]]
+[^src-20260726-def03677]: **Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/e771fab2-8303-4f35-b945-bcac8028c804/Evolving-Scrapyard-Intergrating-New-Solutions-Advanced.pdf) · [[sources/SRC-20260726-DEF03677|보관 원문·메타데이터]]

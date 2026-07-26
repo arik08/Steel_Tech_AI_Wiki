@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-23F73F49DC0A",
+  "subject_id": "PRJ-TATA-IJMUIDEN-DRP-EAF",
+  "predicate": "site_scope",
+  "value": "Green Steel Project Phase 1: IJmuiden 고로 7호·코크스가스공장 2호 폐쇄와 DRP-EAF 신설",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E71081D1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-E71081D1"
+      ]
+    }
+  ]
+}

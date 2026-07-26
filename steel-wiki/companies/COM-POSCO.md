@@ -4,18 +4,23 @@
 
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
+
+![분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도](<https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
+
+*대표 이미지 — POSCO 공식 HyREX 공정도: 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-013F0FA1|SRC-20260725-013F0FA1]] · [원문 페이지](https://www.posco.com/homepage/docs/eng7/jsp/hyrex))*
+
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 8개 / 감시 기술 11개 |
-    | **실행 단계** | 연구·실증 5건 · 준공·가동 준비 1건 · 공식 현황 확인 1건 · 계획·투자 1건 |
-    | **직접 연결 근거** | 6건 |
+    | **확인된 기술** | 7개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 4개 |
+    | **실행 단계** | 연구·실증 3건 · 준공·가동 준비 1건 · 공식 현황 확인 1건 · 계획·투자 1건 · 가동·현장 적용 1건 |
+    | **직접 연결 근거** | 12건 |
 
 !!! warning "주의해서 볼 항목"
 
     - **전기용융로 (Electric Smelting Furnace):** 2024년 4월 1 t/h 파일럿 전기용융로에서 첫 용선 생산, DRI·HBI 용융 시험 계획 단계; 상업 규모 운전은 미확인 [^src-20260725-a6759186]
-    - **고로 CCUS:** 2024년 1월 포항 코크스오븐 중순도 CO2 주입·전환 실증 및 제철소 설비별 단계적 CCS 검토; 전 고로 CCS 상용 배치 근거는 미확인 [^src-20260725-ff076fe4]
     - **스마트 제철소 (Smart Steelworks):** 포항 2고로 AI 예측·제어와 제철소 연속공정용 PosFrame 운용이 확인됨; 2020년 기준선이며 현재 전 설비 배치 범위는 미확인 [^src-20260725-28e5a30f]
 
 ## 기술 포트폴리오
@@ -24,26 +29,15 @@
 
 | 기술 | 현재 확인 내용 | 단계 |
 | --- | --- | --- |
-| **[[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]]** | 연 30만 톤 HyREX 실증설비 부지를 준비 중이며 2030년까지 상용화 기술 개발 완료 목표; 상용 운전 달성 근거는 아님 [^src-20260725-b859ca04] | **연구·실증** |
 | **[[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]]** | 2024년 4월 1 t/h 파일럿 전기용융로에서 첫 용선 생산, DRI·HBI 용융 시험 계획 단계; 상업 규모 운전은 미확인 [^src-20260725-a6759186] | **연구·실증** |
 | **[[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]]** | POSCO 프로젝트 2022Z001이 서울대의 900°C 저온 MOE 학술 연구를 지원했다. 이 출처만으로 POSCO 자체 MOE 파일럿 설비 운전은 확인되지 않는다. [^src-20260725-1486633e] | **연구·실증** |
-| **[[technologies/TEC-blast-furnace-ccus|고로 CCUS]]** | 2024년 1월 포항 코크스오븐 중순도 CO2 주입·전환 실증 및 제철소 설비별 단계적 CCS 검토; 전 고로 CCS 상용 배치 근거는 미확인 [^src-20260725-ff076fe4] | **연구·실증** |
 | **[[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]]** | 광양 2.5 Mtpa 전기로를 2026년 6월 준공해 저탄소강 생산 착수; 약 KRW 600bn 투자, 고급강용 합탕·스크랩·성분제어 기술 개발 중 [^src-20260725-b859ca04] | **준공·가동 준비** |
 | **[[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]** | 포항 2고로 AI 예측·제어와 제철소 연속공정용 PosFrame 운용이 확인됨; 2020년 기준선이며 현재 전 설비 배치 범위는 미확인 [^src-20260725-28e5a30f] | **공식 현황 확인** |
 | **[[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]]** | Electra와 저온 전기화학 철 생산 공동개발·투자; 연산 500톤 시범공장의 상업화 기술·경제성 공동 검증 단계 [^src-20260725-4c014458] | **계획·투자** |
+| **[[technologies/TEC-high-grade-eaf-and-scrap-impurity-removal|고급강 EAF·스크랩 불순물 제거]]** | 광양제철소 연 250만 톤 대형 전기로(EAF)를 2026년 6월 17일 준공해 저탄소강 생산을 개시했으며 약 6,000억 원을 투자했다. 고로 용선 혼합, 스크랩 선별·성분 제어 기술을 개발해 2030년 자동차강판·전기강판 등 고급강 양산을 목표로 한다. [^src-20260725-b859ca04] | **가동·현장 적용** |
 | **[[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]]** | 포항제철소에서 연 30만 톤 HyREX 통합 실증설비를 공동설계하고 부지를 준비 중; 2030년 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] | **연구·실증** |
 
 ## 기술별 근거와 확인 과제
-
-??? info "수소 직접환원철 (Hydrogen DRI) · 연구·실증"
-
-    **확인된 사실:** 연 30만 톤 HyREX 실증설비 부지를 준비 중이며 2030년까지 상용화 기술 개발 완료 목표; 상용 운전 달성 근거는 아님 [^src-20260725-b859ca04]
-
-    **판단 기준:** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
-
-    **확인 날짜:** 발표 2026-06-22 · 검증 2026-07-25
-
-    **다음 확인:** 실제 수소 사용 비율, 연간 DRI 생산량, 천연가스에서 수소로 전환하는 시점, 수소·가열 전력 원단위, 금속화율·제품 탄소와 상용 연속운전 실적을 확인해야 합니다.
 
 ??? info "전기용융로 (Electric Smelting Furnace) · 연구·실증"
 
@@ -64,16 +58,6 @@
     **확인 날짜:** 발표 2026-07-07 · 검증 2026-07-25
 
     **다음 확인:** 투자·제휴 발표와 자체 설비 운영을 구분하고, 셀 규모, 연속 운전시간, 제품 품질과 상용 설비 착공 여부를 확인해야 합니다.
-
-??? info "고로 CCUS · 연구·실증"
-
-    **확인된 사실:** 2024년 1월 포항 코크스오븐 중순도 CO2 주입·전환 실증 및 제철소 설비별 단계적 CCS 검토; 전 고로 CCS 상용 배치 근거는 미확인 [^src-20260725-ff076fe4]
-
-    **판단 기준:** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
-
-    **확인 날짜:** 발표 2025-10-29 · 검증 2026-07-25
-
-    **다음 확인:** 고로 배출가스가 실제 포집 대상인지, CCU와 영구저장 CCS 중 어느 경로인지, 포집량과 최종 저장처가 확정됐는지, 재생열·압축·수송을 포함한 순회피량과 톤당 비용이 공개됐는지 확인해야 합니다.
 
 ??? info "저탄소 제철 종합 경로 (Low-carbon Ironmaking) · 준공·가동 준비"
 
@@ -105,6 +89,16 @@
 
     **다음 확인:** 전력원단위·전류효율, 산·알칼리·공정수 회수율, 광종별 철 회수와 불순물 거동, 막·전극 수명, 스택 가동률, 전착 철판 자동 회수, 500 tpy 실제 월간 생산량과 EAF 장입 시험, 다음 규모 투자 결정을 확인해야 합니다.
 
+??? info "고급강 EAF·스크랩 불순물 제거 · 가동·현장 적용"
+
+    **확인된 사실:** 광양제철소 연 250만 톤 대형 전기로(EAF)를 2026년 6월 17일 준공해 저탄소강 생산을 개시했으며 약 6,000억 원을 투자했다. 고로 용선 혼합, 스크랩 선별·성분 제어 기술을 개발해 2030년 자동차강판·전기강판 등 고급강 양산을 목표로 한다. [^src-20260725-b859ca04]
+
+    **판단 기준:** 설비 준공을 넘어 생산 개시 또는 상용 운전이 확인됩니다. 이용률과 제품 단위 성과는 후속 운전 데이터로 계속 검증해야 합니다.
+
+    **확인 날짜:** 발표 2026-06-22 · 검증 2026-07-25
+
+    **다음 확인:** 스크랩 종류·해방도·센서 판정의 대표성, Cu·Sn 실제 제거율과 철 손실, DRI/HBI·용선 희석 의존도, 탭 N·P·S, 처리량·가동률, 제품별 합격률과 대형 EAF 장기 생산 실적을 확인해야 합니다.
+
 ??? info "무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction) · 연구·실증"
 
     **확인된 사실:** 포항제철소에서 연 30만 톤 HyREX 통합 실증설비를 공동설계하고 부지를 준비 중; 2030년 상용화 기술개발 완료 목표 [^src-20260725-b859ca04]
@@ -115,28 +109,194 @@
 
     **다음 확인:** 광종별 입도창·열적 파쇄, 반응기별 ΔP·고착·비산, 수소 이용률과 금속화율 분포, 분진 회수 후 철 수율, 고온 환원철 이송, ESF 통합 가동률, 장기 캠페인 정비 이력과 원료부터 용선까지의 에너지·배출 경계를 확인해야 합니다.
 
+## 사업화·프로젝트 지표
+
+| 항목 | 현재 확인 내용 |
+| --- | --- |
+| **HyREX 공식 공정 구성** | POSCO 공식 HyREX 공정도는 분철광석을 4단 유동층 환원로에서 순차 환원해 DRI로 만들고, 전기용융로에서 용선화한 뒤 전로와 연속주조로 연결하는 구성을 제시한다. [^src-20260725-013f0fa1] |
+| **제철소 CCUS 상태** | 2024년 1월 포항 코크스오븐에서 중순도 포집 CO2 주입·전환을 실증했고 코크스오븐·소결·열풍로·발전설비별 단계적 CCS를 검토 중; 고로 자체 CCUS 실증 또는 전 고로 CCS 상용 배치 근거는 미확인 [^src-20260725-ff076fe4] |
+
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] | **기술 경로** 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 [^src-20260725-d6930918] · **연간 생산능력** 연간 500톤 (500 tpy) [^src-20260725-4c014458] · **목표 가동 시점** 2026년 [^src-20260725-4c014458] |
+| **[[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]** | 2026-06-17 준공 후 저탄소강 생산 개시 [^src-20260725-b859ca04] | **기술 경로** 스크랩 전기로 + 고로 용선 혼합 합탕 + 스크랩 선별·성분 제어 [^src-20260725-b859ca04] · **위치** 대한민국 전라남도 광양제철소 [^src-20260725-b859ca04] · **연간 생산능력** 연간 2,500,000톤 [^src-20260725-b859ca04] · **목표 시운전 시점** 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
+| **[[projects/PRJ-POSCO-GWANGYANG-ONE-TOUCH-CONVERTER|POSCO 광양 2전로 원터치 자동화]]** | 광양제철소 제2전로에서 원터치 자동운전과 원격 기동·조업 시연이 확인된 생산현장 적용 사례 [^src-20260725-285480de] | **위치** 대한민국 광양제철소 제2전로 [^src-20260725-285480de] |
+| **[[projects/PRJ-POSCO-HYREX-DEMO|POSCO 포항 HyREX 통합 실증]]** | 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 [^src-20260725-b859ca04] | **기술 경로** FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] · **위치** POSCO 포항제철소 [^src-20260725-bab49577] · **연간 생산능력** 연 300,000 tonnes [^src-20260725-b859ca04] |
+
+## 프로젝트별 상세
+
+??? info "Electra 청정철 시범공장"
+
+    **프로젝트 문서:** [[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **프로젝트 상태** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] |
+    | **목표 가동 시점** | 2026년 [^src-20260725-4c014458] |
+    | **기술 경로** | 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 [^src-20260725-d6930918] |
+    | **공개 성과의 한계** | 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음 [^src-20260725-4c014458] |
+    | **설비 구성** | 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성 [^src-20260725-d6930918] |
+    | **적용 원료** | 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명 [^src-20260725-d6930918] |
+    | **후단 활용** | 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용 [^src-20260725-d6930918] |
+    | **운전 온도** | 회사 기술 설명 기준 약 60°C 저온 운전 [^src-20260725-d6930918] |
+    | **제품 순도** | 회사 주장 기준 99% 초과 순도 철 [^src-20260725-d6930918] |
+    | **연간 생산능력** | 연간 500톤 (500 tpy) [^src-20260725-4c014458] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2026 | 목표 일정 | **목표 가동 시점**: 2026년 [^src-20260725-4c014458] |
+    | 2026-04-28 | 발표·검증 | **프로젝트 상태**: 2026년 가동 목표로 시범공장 건설 중 · **목표 가동 시점**: 2026년 · **공개 성과의 한계**: 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음 · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260725-4c014458] |
+    | 2026-07-25 | 수집 확인 | **기술 경로**: 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 · **설비 구성**: 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성 · **적용 원료**: 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명 · **후단 활용**: 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용 · **운전 온도**: 회사 기술 설명 기준 약 60°C 저온 운전 · **제품 순도**: 회사 주장 기준 99% 초과 순도 철 [^src-20260725-d6930918] |
+
+??? info "POSCO 광양 250만 톤 전기로"
+
+    **프로젝트 문서:** [[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **프로젝트 상태** | 2026-06-17 준공 후 저탄소강 생산 개시 [^src-20260725-b859ca04] |
+    | **목표 제품 양산 시점** | 2030년 자동차강판·전기강판 등 프리미엄강 양산 목표 [^src-20260725-b859ca04] |
+    | **설비 구성** | Tenova 280t 출강 전기로, Consteel 연속 스크랩 장입·예열, Consteerrer 전자기 교반, 로봇 응용, Safe+ 수누출 감지 [^src-20260725-c888600a] |
+    | **가동·시운전 확인 시점** | 2026-06-17 준공식 및 생산 개시 확인 [^src-20260725-b859ca04] |
+    | **제품 단위 배출** | 2017~2019 고로 기준 대비 Scope 1·2 최대 약 75% 감축 가능; 스크랩 공급과 발전원에 따라 변동 [^src-20260725-b859ca04] |
+    | **기술 경로** | 스크랩 전기로 + 고로 용선 혼합 합탕 + 스크랩 선별·성분 제어 [^src-20260725-b859ca04] |
+    | **투자비** | 약 6,000억원 [^src-20260725-b859ca04] |
+    | **목표 시운전 시점** | 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
+    | **착공 시점** | 2024-02 [^src-20260725-b859ca04] |
+    | **위치** | 대한민국 전라남도 광양제철소 [^src-20260725-b859ca04] |
+    | **연간 생산능력** | 연간 2,500,000톤 [^src-20260725-b859ca04] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2023-06-07 | 발표·검증 | **설비 구성**: Tenova 280t 출강 전기로, Consteel 연속 스크랩 장입·예열, Consteerrer 전자기 교반, 로봇 응용, Safe+ 수누출 감지 · **목표 시운전 시점**: 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
+    | 2024-02 | 실행 일정 | **착공 시점**: 2024-02 [^src-20260725-b859ca04] |
+    | 2025 | 목표 일정 | **목표 시운전 시점**: 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
+    | 2026-06-17 | 실행 일정 | **가동·시운전 확인 시점**: 2026-06-17 준공식 및 생산 개시 확인 [^src-20260725-b859ca04] |
+    | 2026-06-22 | 발표·검증 | **프로젝트 상태**: 2026-06-17 준공 후 저탄소강 생산 개시 · **목표 제품 양산 시점**: 2030년 자동차강판·전기강판 등 프리미엄강 양산 목표 · **가동·시운전 확인 시점**: 2026-06-17 준공식 및 생산 개시 확인 · **제품 단위 배출**: 2017~2019 고로 기준 대비 Scope 1·2 최대 약 75% 감축 가능; 스크랩 공급과 발전원에 따라 변동 · **기술 경로**: 스크랩 전기로 + 고로 용선 혼합 합탕 + 스크랩 선별·성분 제어 · **투자비**: 약 6,000억원 · **착공 시점**: 2024-02 · **위치**: 대한민국 전라남도 광양제철소 · **연간 생산능력**: 연간 2,500,000톤 [^src-20260725-b859ca04] |
+    | 2030 | 목표 일정 | **목표 제품 양산 시점**: 2030년 자동차강판·전기강판 등 프리미엄강 양산 목표 [^src-20260725-b859ca04] |
+
+??? info "POSCO 광양 2전로 원터치 자동화"
+
+    **프로젝트 문서:** [[projects/PRJ-POSCO-GWANGYANG-ONE-TOUCH-CONVERTER|POSCO 광양 2전로 원터치 자동화]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **모델 예측 정확도** | 용강 온도·성분 예측 정확도 94%에서 97%로 향상(회사 발표; 지표 정의·표본수 미공개) [^src-20260725-285480de] |
+    | **의사결정·제어 권한** | 시스템이 운전을 자동화하지만 운전자는 공정 감시와 관리 책임을 유지 [^src-20260725-285480de] |
+    | **프로젝트 상태** | 광양제철소 제2전로에서 원터치 자동운전과 원격 기동·조업 시연이 확인된 생산현장 적용 사례 [^src-20260725-285480de] |
+    | **프로젝트 착수 시점** | 2018년 기술 개발 착수 [^src-20260725-285480de] |
+    | **다른 설비 확산 조건** | 포항제철소와 인도네시아 확대 로드맵 발표; 해당 사업장 배치 완료는 이 출처로 확인되지 않음 [^src-20260725-285480de] |
+    | **공개 시연 시점** | 2024-10-24 서울에서 광양 2전로를 원격 기동해 최고급 자동차강 생산 시연 [^src-20260725-285480de] |
+    | **위치** | 대한민국 광양제철소 제2전로 [^src-20260725-285480de] |
+    | **예상 경제 효과** | 연간 약 338억원 경제 효과 추정(회사 추정치; 산식·기준기간 미공개) [^src-20260725-285480de] |
+    | **설비 구성** | IoT 카메라·영상계측, 출강·슬래그 분리·코팅 자동화, 3년 조업데이터 예측모델, 물리 전로와 동기화된 가상 전로 [^src-20260725-285480de] |
+    | **자동화 범위** | 기존 25개 수동 조작을 하나의 원터치 운전 순서로 통합 [^src-20260725-285480de] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2018 | 착수 | **프로젝트 착수 시점**: 2018년 기술 개발 착수 [^src-20260725-285480de] |
+    | 2024-10-24 | 실행 일정 | **공개 시연 시점**: 2024-10-24 서울에서 광양 2전로를 원격 기동해 최고급 자동차강 생산 시연 [^src-20260725-285480de] |
+    | 2024-12-11 | 발표·검증 | **모델 예측 정확도**: 용강 온도·성분 예측 정확도 94%에서 97%로 향상(회사 발표; 지표 정의·표본수 미공개) · **의사결정·제어 권한**: 시스템이 운전을 자동화하지만 운전자는 공정 감시와 관리 책임을 유지 · **프로젝트 상태**: 광양제철소 제2전로에서 원터치 자동운전과 원격 기동·조업 시연이 확인된 생산현장 적용 사례 · **프로젝트 착수 시점**: 2018년 기술 개발 착수 · **다른 설비 확산 조건**: 포항제철소와 인도네시아 확대 로드맵 발표; 해당 사업장 배치 완료는 이 출처로 확인되지 않음 · **공개 시연 시점**: 2024-10-24 서울에서 광양 2전로를 원격 기동해 최고급 자동차강 생산 시연 · **위치**: 대한민국 광양제철소 제2전로 · **예상 경제 효과**: 연간 약 338억원 경제 효과 추정(회사 추정치; 산식·기준기간 미공개) · **설비 구성**: IoT 카메라·영상계측, 출강·슬래그 분리·코팅 자동화, 3년 조업데이터 예측모델, 물리 전로와 동기화된 가상 전로 · **자동화 범위**: 기존 25개 수동 조작을 하나의 원터치 운전 순서로 통합 [^src-20260725-285480de] |
+
+??? info "POSCO 포항 HyREX 통합 실증"
+
+    **프로젝트 문서:** [[projects/PRJ-POSCO-HYREX-DEMO|POSCO 포항 HyREX 통합 실증]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **파일럿 첫 용선 생산** | 2024-04 [^src-20260725-a6759186] |
+    | **통합 설비 구성** | 광석 건조기, 다단 유동층, 고온 DRI 이송, 전기용융로, 집진, 출선, 슬래그 조립 계통 [^src-20260725-bab49577] |
+    | **연간 생산능력** | 연 300,000 tonnes [^src-20260725-b859ca04] |
+    | **업무협약 시점** | 2022 [^src-20260725-bab49577] |
+    | **공정 구성** | POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
+    | **적용 원료** | 소결용 철광석 미분을 직접 유동층 환원에 사용 [^src-20260725-bab49577] |
+    | **위치** | POSCO 포항제철소 [^src-20260725-bab49577] |
+    | **협력계약 체결 시점** | 2024-07-22 [^src-20260725-bab49577] |
+    | **목표 준공 시점** | 2030년까지 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] |
+    | **공개 성과의 한계** | 1 t/h ESF의 첫 용선은 용융 단위조작 근거이며 30만 t/y 통합설비의 연속운전을 입증하지 않음 [^src-20260725-a6759186] |
+    | **공급사 발표 시점** | 2024-09-19 [^src-20260725-bab49577] |
+    | **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
+    | **프로젝트 상태** | 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 [^src-20260725-b859ca04] |
+    | **파일럿 생산량** | 1 t/h 전기용융 파일럿을 가동해 첫 용선을 생산 [^src-20260725-a6759186] |
+    | **기술 경로** | FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] |
+    | **부지 준비 확인 시점** | 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2022 | 협력 이력 | **업무협약 시점**: 2022 [^src-20260725-bab49577] |
+    | 2024-04 | 실증 이력 | **파일럿 첫 용선 생산**: 2024-04 [^src-20260725-a6759186] |
+    | 2024-07-22 | 협력 이력 | **협력계약 체결 시점**: 2024-07-22 [^src-20260725-bab49577] |
+    | 2024-09-11 | 발표·검증 | **파일럿 첫 용선 생산**: 2024-04 · **공개 성과의 한계**: 1 t/h ESF의 첫 용선은 용융 단위조작 근거이며 30만 t/y 통합설비의 연속운전을 입증하지 않음 · **파일럿 생산량**: 1 t/h 전기용융 파일럿을 가동해 첫 용선을 생산 [^src-20260725-a6759186] |
+    | 2024-09-19 | 공식 발표 | **공급사 발표 시점**: 2024-09-19 [^src-20260725-bab49577] |
+    | 2024-09-19 | 발표·검증 | **통합 설비 구성**: 광석 건조기, 다단 유동층, 고온 DRI 이송, 전기용융로, 집진, 출선, 슬래그 조립 계통 · **업무협약 시점**: 2022 · **적용 원료**: 소결용 철광석 미분을 직접 유동층 환원에 사용 · **위치**: POSCO 포항제철소 · **협력계약 체결 시점**: 2024-07-22 · **공급사 발표 시점**: 2024-09-19 [^src-20260725-bab49577] |
+    | 2025-10-29 | 발표·검증 | **기술 경로**: FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] |
+    | 2026-06-22 | 발표·검증 | **연간 생산능력**: 연 300,000 tonnes · **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 · **프로젝트 상태**: 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 · **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
+    | 2026-06-22 | 실행 현황 | **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
+    | 2026-07-25 | 수집 확인 | **공정 구성**: POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
+    | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
+    | 2030 | 목표 일정 | **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
 
     - 확인된 사실만으로 기술 경쟁력을 단일 순위로 평가하지 않았습니다. 실증 규모, 상용 운전, 원료·에너지 조건이 서로 다르기 때문입니다.
-    - 현재 자료의 실행 단계 분포는 연구·실증 5건 · 준공·가동 준비 1건 · 공식 현황 확인 1건 · 계획·투자 1건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
+    - 현재 자료의 실행 단계 분포는 연구·실증 3건 · 준공·가동 준비 1건 · 공식 현황 확인 1건 · 계획·투자 1건 · 가동·현장 적용 1건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
     - 다음 갱신에서는 목표치보다 착공·준공·누적 생산량·가동률·제품 단위 배출량처럼 실행을 입증하는 지표를 우선 확인하는 것이 좋습니다.
+
+??? note "변경 이력"
+
+    - **blast furnace ccus status · 후속 정보로 대체:** 2024년 1월 포항 코크스오븐 중순도 CO2 주입·전환 실증 및 제철소 설비별 단계적 CCS 검토; 전 고로 CCS 상용 배치 근거는 미확인 [^src-20260725-ff076fe4]
+    - **hydrogen dri status · 후속 정보로 대체:** 연 30만 톤 HyREX 실증설비 부지를 준비 중이며 2030년까지 상용화 기술 개발 완료 목표; 상용 운전 달성 근거는 아님 [^src-20260725-b859ca04]
+
+## 설비·공정 이미지
+
+![실제 전로 설비 영상과 가상 전로 모델을 함께 보여주는 POSCO 원터치 자동화 화면](<https://newsroom.posco.com/en/wp-content/uploads/2024/12/20241211_img_en1_04.jpg>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** POSCO 광양 2전로의 실시간 물리 공정과 가상 전로를 동기화한 원터치 자동화 디지털 트윈 운전 화면
+
+- 출처 [[sources/SRC-20260725-285480DE|SRC-20260725-285480DE]] · 권리 `link_only` · [원문 페이지](https://newsroom.posco.com/en/tech-talk-part-8-poscos-game-changing-one-touch-converter-operation-automation-technology) · 작성·촬영 POSCO Group Newsroom
+- 권리 메모: POSCO 공식 기술 소개 페이지에서 원본과 맥락을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.
+
 
 ## 근거 자료
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-013F0FA1|HyREX Hydrogen Reduction Ironmaking]] | POSCO · 게시일 미상 | [원문 보기](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/) |
 | [[sources/SRC-20260725-1486633E|Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K]] | Scientific Reports · 2026-07-07 | [원문 보기](https://www.nature.com/articles/s41598-026-58521-y) |
+| [[sources/SRC-20260725-285480DE|POSCO One-Touch Converter Operation Automation Technology]] | POSCO Group Newsroom · 2024-12-11 | [원문 보기](https://newsroom.posco.com/en/tech-talk-part-8-poscos-game-changing-one-touch-converter-operation-automation-technology/) |
 | [[sources/SRC-20260725-28E5A30F|POSCO AI blast furnace and smart steelworks baseline]] | POSCO Group Newsroom · 2020-01-20 | [원문 보기](https://newsroom.posco.com/en/meet-the-ai-blast-furnace-of-pohang-works/) |
 | [[sources/SRC-20260725-4C014458|POSCO and Electra partner on low-temperature clean iron]] | POSCO Group Newsroom · 2026-04-28 | [원문 보기](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC/) |
+| [[sources/SRC-20260725-A23B5A64|HYFOR: Hydrogen-Based Fine-Ore Reduction]] | Primetals Technologies · 게시일 미상 | [원문 보기](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) |
 | [[sources/SRC-20260725-A6759186|POSCO HyREX electric smelting furnace pilot status]] | POSCO Group Newsroom · 2024-09-11 | [원문 보기](https://newsroom.posco.com/en/world-climate-industry-expo-2024-checking-posco-groups-carbon-reduction-capabilities/) |
 | [[sources/SRC-20260725-B859CA04|POSCO completes Gwangyang EAF and advances HyREX]] | POSCO Group Newsroom · 2026-06-22 | [원문 보기](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) |
+| [[sources/SRC-20260725-BAB49577|Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant]] | Primetals Technologies · 2024-09-19 | [원문 보기](https://www.primetals.com/en/news/primetals-technologies-and-posco-sign-cooperation-agreement-for-hyrex-direct-reduction-plant/) |
+| [[sources/SRC-20260725-C888600A|Tenova for POSCO Gwangyang plant]] | Tenova · 2023-06-07 | [원문 보기](https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant) |
+| [[sources/SRC-20260725-D6930918|Electra Technology: How the low-temperature iron process works]] | Electra · 게시일 미상 | [원문 보기](https://www.electra.earth/our-technology/) |
 | [[sources/SRC-20260725-FF076FE4|POSCO decarbonization strategies from CCUS to HyREX]] | POSCO Group Newsroom · 2025-10-29 | [원문 보기](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) |
 
-[^src-20260725-1486633e]: **Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K** — Scientific Reports, 2026-07-07. [원문](https://www.nature.com/articles/s41598-026-58521-y) · [[sources/SRC-20260725-1486633E|보관 원문·메타데이터]]
+[^src-20260725-013f0fa1]: **HyREX Hydrogen Reduction Ironmaking** — POSCO, 게시일 미상. [원문](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/) · [[sources/SRC-20260725-013F0FA1|보관 원문·메타데이터]]
+[^src-20260725-1486633e]: **Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K** — Scientific Reports, 2026-07-07. DOI: [10.1038/s41598-026-58521-y](https://doi.org/10.1038/s41598-026-58521-y). [원문](https://www.nature.com/articles/s41598-026-58521-y) · [[sources/SRC-20260725-1486633E|보관 원문·메타데이터]]
+[^src-20260725-285480de]: **POSCO One-Touch Converter Operation Automation Technology** — POSCO Group Newsroom, 2024-12-11. [원문](https://newsroom.posco.com/en/tech-talk-part-8-poscos-game-changing-one-touch-converter-operation-automation-technology/) · [[sources/SRC-20260725-285480DE|보관 원문·메타데이터]]
 [^src-20260725-28e5a30f]: **POSCO AI blast furnace and smart steelworks baseline** — POSCO Group Newsroom, 2020-01-20. [원문](https://newsroom.posco.com/en/meet-the-ai-blast-furnace-of-pohang-works/) · [[sources/SRC-20260725-28E5A30F|보관 원문·메타데이터]]
 [^src-20260725-4c014458]: **POSCO and Electra partner on low-temperature clean iron** — POSCO Group Newsroom, 2026-04-28. [원문](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC/) · [[sources/SRC-20260725-4C014458|보관 원문·메타데이터]]
+[^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 [^src-20260725-a6759186]: **POSCO HyREX electric smelting furnace pilot status** — POSCO Group Newsroom, 2024-09-11. [원문](https://newsroom.posco.com/en/world-climate-industry-expo-2024-checking-posco-groups-carbon-reduction-capabilities/) · [[sources/SRC-20260725-A6759186|보관 원문·메타데이터]]
 [^src-20260725-b859ca04]: **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
+[^src-20260725-bab49577]: **Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant** — Primetals Technologies, 2024-09-19. [원문](https://www.primetals.com/en/news/primetals-technologies-and-posco-sign-cooperation-agreement-for-hyrex-direct-reduction-plant/) · [[sources/SRC-20260725-BAB49577|보관 원문·메타데이터]]
+[^src-20260725-c888600a]: **Tenova for POSCO Gwangyang plant** — Tenova, 2023-06-07. [원문](https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant) · [[sources/SRC-20260725-C888600A|보관 원문·메타데이터]]
+[^src-20260725-d6930918]: **Electra Technology: How the low-temperature iron process works** — Electra, 게시일 미상. [원문](https://www.electra.earth/our-technology/) · [[sources/SRC-20260725-D6930918|보관 원문·메타데이터]]
 [^src-20260725-ff076fe4]: **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29. [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]

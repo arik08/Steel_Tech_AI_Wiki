@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CABC86766682",
+  "subject_id": "PRJ-BOSTON-METAL-MOE-WOBURN",
+  "predicate": "result_limitations",
+  "value": "2025년 산업 셀의 톤 단위 출선 발표에도 연속 캠페인 시간·전류효율·양극 마모율·연산 환산능력은 공개되지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-3C2197EF"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 내용 부실 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-3C2197EF"
+      ]
+    }
+  ]
+}

@@ -83,6 +83,8 @@ python skills/steel-intelligence/scripts/steel_intel.py --help
 
 - `scaffold`: 지식 저장소 생성
 - `add-source`: 해시·URL·유사도 검사 후 원문 등록
+- `set-academic-metadata`: 기존 학술 Source의 저자·게재지·DOI·학회 정보를
+  원문 확인 후 보강
 - `add-image`: 필요한 설비 사진·공정도·특허 도면을 기존 source에 선택적으로 연결
 - `add-claim`: 주장 생성, 재검증 또는 충돌 검토 생성
 - `resolve-review`: 사람의 결정으로 주장 충돌 처리
@@ -103,6 +105,12 @@ python skills/steel-intelligence/scripts/steel_intel.py --help
   기준으로 검색 범위를 명시한다.
 - 마지막 성공 실행일 이후의 기간을 우선 검색하되, 검색 누락을 줄이기 위해 며칠 겹쳐 검색한다.
 - 공식 뉴스룸·IR, 정부 인허가·지원, 특허, 학술자료, 설비 공급사, 전문매체 순으로 탐색한다.
+- 학술자료는 `WIKI-SETTINGS.md`의 `학술 탐색 범위`에 따라 학술지 논문·학회 논문·
+  학회 발표·프리프린트를 구분해 찾는다. DOI 랜딩 페이지, 출판사 원문, 공식 학회
+  프로그램을 확인하고 저자·게재지·DOI·학회명·일자·장소·동료심사 상태를 확인되는
+  범위에서 Source 메타데이터로 남긴다.
+- 학회 프로그램의 발표 제목만 확인된 경우 발표 사실만 근거로 삼는다. 초록·논문·
+  발표자료 본문을 확인하지 못한 상태에서 기술 성능이나 운전 결과 Claim을 만들지 않는다.
 - 기업명·프로젝트 별칭·현지어·기술 동의어를 함께 사용한다.
 - 성공 사례뿐 아니라 `delay`, `cancel`, `suspend`, `cost overrun`, `permit`, `funding withdrawn` 등 반대 신호도 검색한다.
 - 본문 접근 실패는 먼저 원인을 `network`, `rate_limited`, `blocked`, `javascript_required`,

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-98BA41978AED",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "furnace_selection_by_feed_grade",
+  "value": "AISTech 2024 논문 초록은 고품위 DRI·낮은 slag량에는 EAF, 저품위 DRI·높은 gangue에는 별도 smelter가 필요하다고 구분",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-26",
+  "last_verified": "2026-07-26",
+  "source_ids": [
+    "SRC-20260726-E01E47B8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-26",
+      "action": "created",
+      "reason": "AISTech 공식 초록",
+      "source_ids": [
+        "SRC-20260726-E01E47B8"
+      ]
+    }
+  ]
+}

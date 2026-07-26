@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A72861C4DD70",
+  "subject_id": "PRJ-NIPPON-KIMITSU-COURSE50",
+  "predicate": "partners",
+  "value": "NEDO Green Innovation Fund 수소제철 컨소시엄: Nippon Steel, JFE Steel, Kobe Steel, Japan Research and Development Center for Metals",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-0A7903EA"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 참여기관 등록",
+      "source_ids": [
+        "SRC-20260725-0A7903EA"
+      ]
+    }
+  ]
+}

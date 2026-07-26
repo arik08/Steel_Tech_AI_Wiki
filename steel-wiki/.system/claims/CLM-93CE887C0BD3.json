@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-93CE887C0BD3",
+  "subject_id": "PRJ-NUCOR-CONVENT-DRI-CCS",
+  "predicate": "agreement_confirmation",
+  "value": "Nucor도 ExxonMobil과의 Convent DRI CO2 포집·수송·영구저장 계약과 최대 80만 t/y 설계를 별도 공식 확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-11668643"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "단일 출처 핵심 프로젝트 독립 근거 보강",
+      "source_ids": [
+        "SRC-20260725-11668643"
+      ]
+    }
+  ]
+}

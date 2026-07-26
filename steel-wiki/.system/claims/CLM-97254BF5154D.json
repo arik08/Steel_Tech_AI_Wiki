@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-97254BF5154D",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "electrolyzer_long_term_result",
+  "value": "알칼라인 수전해 설비의 장기운전과 수소 저장, 수소 DRI의 EAF 용해 조업법 개발을 정부 분석이 확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-C4A8EDA3"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "단일 출처 핵심 프로젝트 독립 근거 보강",
+      "source_ids": [
+        "SRC-20260725-C4A8EDA3"
+      ]
+    }
+  ]
+}

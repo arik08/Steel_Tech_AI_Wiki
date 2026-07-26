@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A1FCE4AE688F",
+  "subject_id": "PRJ-NUCOR-CONVENT-DRI-CCS",
+  "predicate": "emissions_boundary",
+  "value": "고로가 아닌 천연가스 DRI 설비 CCS이며, DRI 환원제를 수소로 전환했다는 근거는 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BF5036AE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "기술 경계 오해 방지",
+      "source_ids": [
+        "SRC-20260725-BF5036AE"
+      ]
+    }
+  ]
+}

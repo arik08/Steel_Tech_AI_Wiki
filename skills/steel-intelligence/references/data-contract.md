@@ -58,12 +58,22 @@ project/
   "title": "Project update",
   "url": "https://example.com/update",
   "canonical_url": "https://example.com/update",
-  "publisher": "Example Steel",
+  "publisher": "AIST",
   "published_at": "2026-07-21",
   "collected_at": "2026-07-25",
-  "source_type": "company_release",
+  "source_type": "academic",
   "language": "en",
   "reliability": "primary",
+  "academic": {
+    "kind": "conference_paper",
+    "authors": ["A. Researcher", "B. Engineer"],
+    "venue": "AISTech 2026 Proceedings",
+    "doi": "10.1234/example.2026.001",
+    "conference_name": "AISTech 2026",
+    "conference_date": "2026-05-04",
+    "conference_location": "Pittsburgh, USA",
+    "peer_review_status": "peer_reviewed"
+  },
   "content_sha256": "...",
   "raw_path": ".system/raw/SRC-20260725-A1B2C3D4.md",
   "previous_version": null,
@@ -81,7 +91,8 @@ project/
       "rights_note": "공식 미디어 자료 사용 조건 확인",
       "collected_at": "2026-07-25",
       "content_sha256": "...",
-      "local_path": "assets/media/SRC-20260725-A1B2C3D4/MED-1234ABCDEF56.jpg"
+      "local_path": "assets/media/SRC-20260725-A1B2C3D4/MED-1234ABCDEF56.jpg",
+      "subject_ids": ["COM-EXAMPLE-STEEL", "PRJ-HAMBURG-DRI"]
     }
   ]
 }
@@ -90,6 +101,17 @@ project/
 필수 필드는 `source_id`, `title`, `collected_at`, `source_type`, `language`,
 `reliability`, `content_sha256`, `raw_path`다. 게시일을 알 수 없으면
 `published_at`을 `null`로 둔다. 수집일을 게시일처럼 쓰지 않는다.
+
+`source_type=academic`은 `academic.kind`가 필요하다. 허용 값은
+`journal_article`, `conference_paper`, `conference_presentation`, `preprint`,
+`thesis`, `research_report`다. 저자·게재지 또는 프로시딩·DOI·학회명·학회 일자·
+장소·동료심사 상태는 확인되는 값만 선택적으로 기록한다. 학회 프로그램의 발표
+제목만 확인되고 본문이나 초록을 확인하지 못했다면, 프로그램 자체가 입증하는
+발표 사실을 넘어 기술 성능 Claim을 만들지 않는다.
+
+기존 레코드의 학술 메타데이터를 보강할 때는 `set-academic-metadata`를 사용하며,
+보관 원문의 `raw_sha256`과 `raw_path`는 유지한다. 게시일 정정은 출판사·DOI·공식
+학회 자료에서 날짜를 확인한 경우에만 수행한다.
 
 허용 `source_type`:
 
@@ -125,6 +147,10 @@ project/
 
 모든 이미지에는 `caption`, `alt_text`, `origin_url`, `rights_note`가 필요하다.
 이미지는 기술적 사실의 독립 근거가 아니며 연결된 Source와 Claim의 보조 시각 자료다.
+`subject_ids`는 해당 이미지가 표시될 수 있는 회사·기술·프로젝트 주체의 명시적
+허용 목록이다. 협력·투자·컨소시엄 관계만으로 파트너의 설비 이미지를 회사 페이지에
+표시하지 않는다. 특히 회사 페이지는 회사 직접 Source 또는 `subject_ids`에 해당
+`COM-` ID가 명시된 이미지로 제한한다.
 
 ## 3. 주장
 

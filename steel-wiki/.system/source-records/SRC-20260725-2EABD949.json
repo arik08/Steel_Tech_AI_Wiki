@@ -14,5 +14,13 @@
   "raw_path": ".system/raw/SRC-20260725-2EABD949.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "research_report",
+    "authors": [
+      "IEAGHG"
+    ],
+    "venue": "IEAGHG Technical Report 2013/04",
+    "peer_review_status": "unknown"
+  }
 }

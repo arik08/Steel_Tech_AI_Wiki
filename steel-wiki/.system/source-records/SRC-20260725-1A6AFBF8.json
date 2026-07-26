@@ -14,5 +14,17 @@
   "raw_path": ".system/raw/SRC-20260725-1A6AFBF8.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Hojong Kim",
+      "James Paramore",
+      "Antoine Allanore",
+      "Donald R. Sadoway"
+    ],
+    "venue": "Journal of The Electrochemical Society",
+    "doi": "10.1149/1.3623446",
+    "peer_review_status": "peer_reviewed"
+  }
 }

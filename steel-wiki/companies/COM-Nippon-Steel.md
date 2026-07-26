@@ -4,13 +4,19 @@
 
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
+
+![12입방미터 시험고로에서 4500입방미터 Kimitsu 제2고로 수소취입 실증으로 확대하는 COURSE50 공식 개념도](<https://www.nipponsteel.com/common/secure/en/news/20230209_100.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
+
+*대표 이미지 — Nippon Steel 공식 COURSE50 개발·Kimitsu 제2고로 확대 실증 개념도; 실제 배관계장도나 준공도가 아님 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-0A7903EA|SRC-20260725-0A7903EA]] · [원문 페이지](https://www.nipponsteel.com/en/news/20230209_100.html))*
+
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 5개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 3개 |
     | **실행 단계** | 연구·실증 5건 |
-    | **직접 연결 근거** | 2건 |
+    | **직접 연결 근거** | 8건 |
 
 !!! warning "주의해서 볼 항목"
 
@@ -80,6 +86,89 @@
 
     **다음 확인:** 스크랩 종류·해방도·센서 판정의 대표성, Cu·Sn 실제 제거율과 철 손실, DRI/HBI·용선 희석 의존도, 탭 N·P·S, 처리량·가동률, 제품별 합격률과 대형 EAF 장기 생산 실적을 확인해야 합니다.
 
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-NIPPON-HASAKI-H2-DRI|Nippon Steel Hasaki 수소 DRI 시험로]]** | Nippon Steel이 저품위 철광석 수소환원 시험로를 건설하고 2026년 3월 운전을 개시한 연구개발 프로젝트 [^src-20260725-f396d188] | **기술 경로** 저품위 철광석을 100% 수소로 직접환원하고 환원-냉각-성형 전 공정을 상용 유사 구성으로 평가 [^src-20260725-280a7fac] · **위치** Nippon Steel Hasaki R&D Center, Kamisu, Ibaraki, Japan [^src-20260725-280a7fac] · **시간당 처리능력** 시험로 설계 처리량 약 1 tonne/hour [^src-20260725-280a7fac] |
+| **[[projects/PRJ-NIPPON-JAPAN-EAF-CONVERSION|Nippon Steel 일본 3개 거점 전기로 전환]]** | 3개 거점 전기로 신설·증설·재가동 투자 확정; Yawata는 2026-04-15 착공, Hirohata·Shunan은 공개 목표 일정에 따른 추진 단계 [^src-20260725-e5bc335b][^src-20260725-e3271b0a] | **기술 경로** 고로 상공정을 대형 전기로로 전환하고 고급강 제조·물류·전력공급·후단 에너지 설비를 함께 구축 [^src-20260725-e5bc335b] · **위치** Kyushu Works Yawata, Setouchi Works Hirohata, Yamaguchi Works Shunan, Japan [^src-20260725-e5bc335b] · **연간 생산능력** 3개 거점 합계 약 2,900,000톤/년: Yawata 2.0 Mt/y, Hirohata 0.5 Mt/y, Shunan 0.4 Mt/y [^src-20260725-e5bc335b] · **지원·조달 금액** GX Promotion Act 정부지원 최대 JPY 251.4 billion: Yawata 179.9bn, Hirohata 42.8bn, Shunan 28.7bn [^src-20260725-e5bc335b] · **목표 가동 시점** Shunan FY2028 하반기, Yawata·Hirohata FY2029 하반기 생산 개시 목표 [^src-20260725-e5bc335b] |
+| **[[projects/PRJ-NIPPON-KIMITSU-COURSE50|Nippon Steel Kimitsu COURSE50 실증]]** | 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 [^src-20260725-46c2dbc8] | **기술 경로** Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 [^src-20260725-46c2dbc8] · **위치** East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan [^src-20260725-0a7903ea] |
+
+## 프로젝트별 상세
+
+??? info "Nippon Steel Hasaki 수소 DRI 시험로"
+
+    **프로젝트 문서:** [[projects/PRJ-NIPPON-HASAKI-H2-DRI|Nippon Steel Hasaki 수소 DRI 시험로]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **기술 경로** | 저품위 철광석을 100% 수소로 직접환원하고 환원-냉각-성형 전 공정을 상용 유사 구성으로 평가 [^src-20260725-280a7fac] |
+    | **반응기 높이** | 시험 샤프트로 높이 약 60 m; 상용 설비 참고 높이 100~150 m [^src-20260725-280a7fac] |
+    | **시간당 처리능력** | 시험로 설계 처리량 약 1 tonne/hour [^src-20260725-280a7fac] |
+    | **설비 부지 규모** | 시험 부지 약 80 m × 200 m [^src-20260725-280a7fac] |
+    | **공개 성과의 한계** | 시험로 운전 개시는 확인됐으나 금속화율·수소원단위·가동률·제품 품질과 상용 연속운전 실적은 공개 근거에서 확인되지 않음 [^src-20260725-f396d188][^src-20260725-280a7fac] |
+    | **프로젝트 상태** | Nippon Steel이 저품위 철광석 수소환원 시험로를 건설하고 2026년 3월 운전을 개시한 연구개발 프로젝트 [^src-20260725-f396d188] |
+    | **위치** | Nippon Steel Hasaki R&D Center, Kamisu, Ibaraki, Japan [^src-20260725-280a7fac] |
+    | **확대 검증 계획** | FY2027부터 추가 대형 검증 검토, 2040년경 실용화 기술 확립 목표 [^src-20260725-280a7fac] |
+    | **가동·시운전 확인 시점** | 2026-03 시험 환원로 운전 개시 [^src-20260725-f396d188] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2026-03 | 실행 일정 | **가동·시운전 확인 시점**: 2026-03 시험 환원로 운전 개시 [^src-20260725-f396d188] |
+    | 2026-06-02 | 발표·검증 | **공개 성과의 한계**: 시험로 운전 개시는 확인됐으나 금속화율·수소원단위·가동률·제품 품질과 상용 연속운전 실적은 공개 근거에서 확인되지 않음 · **프로젝트 상태**: Nippon Steel이 저품위 철광석 수소환원 시험로를 건설하고 2026년 3월 운전을 개시한 연구개발 프로젝트 · **가동·시운전 확인 시점**: 2026-03 시험 환원로 운전 개시 [^src-20260725-f396d188] |
+    | 2026-07-25 | 수집 확인 | **기술 경로**: 저품위 철광석을 100% 수소로 직접환원하고 환원-냉각-성형 전 공정을 상용 유사 구성으로 평가 · **반응기 높이**: 시험 샤프트로 높이 약 60 m; 상용 설비 참고 높이 100~150 m · **시간당 처리능력**: 시험로 설계 처리량 약 1 tonne/hour · **설비 부지 규모**: 시험 부지 약 80 m × 200 m · **공개 성과의 한계**: 시험로 운전 개시는 확인됐으나 금속화율·수소원단위·가동률·제품 품질과 상용 연속운전 실적은 공개 근거에서 확인되지 않음 · **위치**: Nippon Steel Hasaki R&D Center, Kamisu, Ibaraki, Japan · **확대 검증 계획**: FY2027부터 추가 대형 검증 검토, 2040년경 실용화 기술 확립 목표 [^src-20260725-280a7fac] |
+
+??? info "Nippon Steel 일본 3개 거점 전기로 전환"
+
+    **프로젝트 문서:** [[projects/PRJ-NIPPON-JAPAN-EAF-CONVERSION|Nippon Steel 일본 3개 거점 전기로 전환]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **목표 가동 시점** | Shunan FY2028 하반기, Yawata·Hirohata FY2029 하반기 생산 개시 목표 [^src-20260725-e5bc335b] |
+    | **프로젝트 상태** | 3개 거점 전기로 신설·증설·재가동 투자 확정; Yawata는 2026-04-15 착공, Hirohata·Shunan은 공개 목표 일정에 따른 추진 단계 [^src-20260725-e5bc335b][^src-20260725-e3271b0a] |
+    | **위치** | Kyushu Works Yawata, Setouchi Works Hirohata, Yamaguchi Works Shunan, Japan [^src-20260725-e5bc335b] |
+    | **투자비** | 총 JPY 868.7 billion: Yawata 630.2bn, Hirohata 140.0bn, Shunan 98.5bn [^src-20260725-e5bc335b] |
+    | **연간 생산능력** | 3개 거점 합계 약 2,900,000톤/년: Yawata 2.0 Mt/y, Hirohata 0.5 Mt/y, Shunan 0.4 Mt/y [^src-20260725-e5bc335b] |
+    | **착공 시점** | 2026-04-15 Yawata 대형 전기로 전환공사 착공; 다른 두 거점의 동시 착공 근거는 아님 [^src-20260725-e3271b0a] |
+    | **기술 경로** | 고로 상공정을 대형 전기로로 전환하고 고급강 제조·물류·전력공급·후단 에너지 설비를 함께 구축 [^src-20260725-e5bc335b] |
+    | **지원·조달 금액** | GX Promotion Act 정부지원 최대 JPY 251.4 billion: Yawata 179.9bn, Hirohata 42.8bn, Shunan 28.7bn [^src-20260725-e5bc335b] |
+    | **거점별 설비 범위** | Yawata 신규 전기로 1기, Hirohata 전기로 1기 증설, Shunan 전기로 1기 개조·재가동 [^src-20260725-e5bc335b] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-05-30 | 발표·검증 | **목표 가동 시점**: Shunan FY2028 하반기, Yawata·Hirohata FY2029 하반기 생산 개시 목표 · **프로젝트 상태**: 3개 거점 전기로 신설·증설·재가동 투자 확정; Yawata는 2026-04-15 착공, Hirohata·Shunan은 공개 목표 일정에 따른 추진 단계 · **위치**: Kyushu Works Yawata, Setouchi Works Hirohata, Yamaguchi Works Shunan, Japan · **투자비**: 총 JPY 868.7 billion: Yawata 630.2bn, Hirohata 140.0bn, Shunan 98.5bn · **연간 생산능력**: 3개 거점 합계 약 2,900,000톤/년: Yawata 2.0 Mt/y, Hirohata 0.5 Mt/y, Shunan 0.4 Mt/y · **기술 경로**: 고로 상공정을 대형 전기로로 전환하고 고급강 제조·물류·전력공급·후단 에너지 설비를 함께 구축 · **지원·조달 금액**: GX Promotion Act 정부지원 최대 JPY 251.4 billion: Yawata 179.9bn, Hirohata 42.8bn, Shunan 28.7bn · **거점별 설비 범위**: Yawata 신규 전기로 1기, Hirohata 전기로 1기 증설, Shunan 전기로 1기 개조·재가동 [^src-20260725-e5bc335b] |
+    | 2026-04-15 | 발표·검증 | **프로젝트 상태**: 3개 거점 전기로 신설·증설·재가동 투자 확정; Yawata는 2026-04-15 착공, Hirohata·Shunan은 공개 목표 일정에 따른 추진 단계 · **착공 시점**: 2026-04-15 Yawata 대형 전기로 전환공사 착공; 다른 두 거점의 동시 착공 근거는 아님 [^src-20260725-e3271b0a] |
+    | 2028 | 목표 일정 | **목표 가동 시점**: Shunan FY2028 하반기, Yawata·Hirohata FY2029 하반기 생산 개시 목표 [^src-20260725-e5bc335b] |
+
+??? info "Nippon Steel Kimitsu COURSE50 실증"
+
+    **프로젝트 문서:** [[projects/PRJ-NIPPON-KIMITSU-COURSE50|Nippon Steel Kimitsu COURSE50 실증]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **공개 성과의 한계** | 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음 [^src-20260725-f396d188][^src-20260725-46c2dbc8] |
+    | **위치** | East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan [^src-20260725-0a7903ea] |
+    | **시험 결과** | Kimitsu 소형 시험고로에서 2026년 2~3월 CO2 배출 45% 감축을 회사가 보고; 4,500 m3 고로 실증 결과는 아님 [^src-20260725-f396d188] |
+    | **기술 경로** | Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 [^src-20260725-46c2dbc8] |
+    | **프로젝트 상태** | 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 [^src-20260725-46c2dbc8] |
+    | **기존 실증 개시 목표** | 2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명 [^src-20260725-0a7903ea][^src-20260725-46c2dbc8] |
+    | **참여 기관** | NEDO Green Innovation Fund 수소제철 컨소시엄: Nippon Steel, JFE Steel, Kobe Steel, Japan Research and Development Center for Metals [^src-20260725-0a7903ea] |
+    | **노 용적** | 실증 대상 상용 고로 4,500 m3; 기존 시험고로 12 m3 대비 약 400배 [^src-20260725-0a7903ea] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2023-02-09 | 발표·검증 | **위치**: East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan · **기존 실증 개시 목표**: 2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명 · **참여 기관**: NEDO Green Innovation Fund 수소제철 컨소시엄: Nippon Steel, JFE Steel, Kobe Steel, Japan Research and Development Center for Metals · **노 용적**: 실증 대상 상용 고로 4,500 m3; 기존 시험고로 12 m3 대비 약 400배 [^src-20260725-0a7903ea] |
+    | 2026-05-29 | 발표·검증 | **공개 성과의 한계**: 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음 · **기술 경로**: Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 · **프로젝트 상태**: 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 · **기존 실증 개시 목표**: 2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명 [^src-20260725-46c2dbc8] |
+    | 2026-06-02 | 발표·검증 | **공개 성과의 한계**: 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음 · **시험 결과**: Kimitsu 소형 시험고로에서 2026년 2~3월 CO2 배출 45% 감축을 회사가 보고; 4,500 m3 고로 실증 결과는 아님 [^src-20260725-f396d188] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
@@ -88,12 +177,41 @@
     - 현재 자료의 실행 단계 분포는 연구·실증 5건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
     - 다음 갱신에서는 목표치보다 착공·준공·누적 생산량·가동률·제품 단위 배출량처럼 실행을 입증하는 지표를 우선 확인하는 것이 좋습니다.
 
+## 설비·공정 이미지
+
+![Hasaki 연구개발센터의 시험 샤프트로 운전동과 높이 약 60미터 시험 샤프트로](<https://www.nipponsteel.com/en/carbon-neutral/img/zerocarbon_im20.webp>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Hasaki R&D Center 시험 샤프트로 운전동(앞)과 시험 샤프트로(뒤)의 Nippon Steel 공식 사진
+
+- 출처 [[sources/SRC-20260725-280A7FAC|SRC-20260725-280A7FAC]] · 권리 `link_only` · [원문 페이지](https://www.nipponsteel.com/en/carbon-neutral/zerocarbon.html) · 작성·촬영 Nippon Steel Corporation
+- 권리 메모: Nippon Steel 공식 Carbon Neutral Vision 페이지의 원격 이미지를 복제하지 않고 직접 표시
+
+![Yawata 대형 전기로 전환 프로젝트의 공식 건설 예정지 이미지](<https://www.nipponsteel.com/newsroom/news/2026/__icsFiles/artimage/2026/04/15/cj4_n2026/0415_03_2.png>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Nippon Steel 공식 원문의 Yawata 전기로 전환 건설 예정지 자료; 실제 완공 설비 사진이 아님
+
+- 출처 [[sources/SRC-20260725-E3271B0A|SRC-20260725-E3271B0A]] · 권리 `link_only` · [원문 페이지](https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html) · 작성·촬영 Nippon Steel Corporation
+- 권리 메모: Nippon Steel 공식 발표 페이지의 원격 이미지를 복제하지 않고 직접 표시
+
+
 ## 근거 자료
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-0A7903EA|Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration]] | Nippon Steel Corporation · 2023-02-09 | [원문 보기](https://www.nipponsteel.com/en/news/20230209_100.html) |
+| [[sources/SRC-20260725-280A7FAC|Nippon Steel GX briefing: Hasaki hydrogen DRI test furnace]] | Nippon Steel Corporation · 게시일 미상 | [원문 보기](https://www.nipponsteel.com/en/ir/library/pdf/20250313_100.pdf) |
 | [[sources/SRC-20260725-45A1D063|Nippon Steel research and development for carbon-neutral steelmaking]] | Nippon Steel Corporation · 게시일 미상 | [원문 보기](https://www.nipponsteel.com/en/sustainability/quality/rd.html) |
+| [[sources/SRC-20260725-46C2DBC8|Nippon Steel Kimitsu COURSE50 large-BF preparation status]] | Nippon Steel Corporation · 2026-05-29 | [원문 보기](https://www.nipponsteel.com/newsroom/stories/technology/20260529_100.html) |
 | [[sources/SRC-20260725-DAAEEC2B|Nippon Steel develops high-grade steel production in large EAFs]] | Nippon Steel · 게시일 미상 | [원문 보기](https://www.nipponsteel.com/en/sustainability/env/climate/future.html) |
+| [[sources/SRC-20260725-E3271B0A|Nippon Steel starts Yawata large-EAF conversion construction]] | Nippon Steel Corporation · 2026-04-15 | [원문 보기](https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html) |
+| [[sources/SRC-20260725-E5BC335B|Nippon Steel investment decision for three-site EAF conversion]] | Nippon Steel Corporation · 2025-05-30 | [원문 보기](https://www.nipponsteel.com/en/newsroom/news/2025/__icsFiles/afieldfile/2025/09/26/20250530_200.pdf) |
+| [[sources/SRC-20260725-F396D188|Nippon Steel FY2025 results: carbon-neutral technology progress]] | Nippon Steel Corporation · 2026-06-02 | [원문 보기](https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf) |
 
+[^src-20260725-0a7903ea]: **Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration** — Nippon Steel Corporation, 2023-02-09. [원문](https://www.nipponsteel.com/en/news/20230209_100.html) · [[sources/SRC-20260725-0A7903EA|보관 원문·메타데이터]]
+[^src-20260725-280a7fac]: **Nippon Steel GX briefing: Hasaki hydrogen DRI test furnace** — Nippon Steel Corporation, 게시일 미상. [원문](https://www.nipponsteel.com/en/ir/library/pdf/20250313_100.pdf) · [[sources/SRC-20260725-280A7FAC|보관 원문·메타데이터]]
 [^src-20260725-45a1d063]: **Nippon Steel research and development for carbon-neutral steelmaking** — Nippon Steel Corporation, 게시일 미상. [원문](https://www.nipponsteel.com/en/sustainability/quality/rd.html) · [[sources/SRC-20260725-45A1D063|보관 원문·메타데이터]]
+[^src-20260725-46c2dbc8]: **Nippon Steel Kimitsu COURSE50 large-BF preparation status** — Nippon Steel Corporation, 2026-05-29. [원문](https://www.nipponsteel.com/newsroom/stories/technology/20260529_100.html) · [[sources/SRC-20260725-46C2DBC8|보관 원문·메타데이터]]
 [^src-20260725-daaeec2b]: **Nippon Steel develops high-grade steel production in large EAFs** — Nippon Steel, 게시일 미상. [원문](https://www.nipponsteel.com/en/sustainability/env/climate/future.html) · [[sources/SRC-20260725-DAAEEC2B|보관 원문·메타데이터]]
+[^src-20260725-e3271b0a]: **Nippon Steel starts Yawata large-EAF conversion construction** — Nippon Steel Corporation, 2026-04-15. [원문](https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html) · [[sources/SRC-20260725-E3271B0A|보관 원문·메타데이터]]
+[^src-20260725-e5bc335b]: **Nippon Steel investment decision for three-site EAF conversion** — Nippon Steel Corporation, 2025-05-30. [원문](https://www.nipponsteel.com/en/newsroom/news/2025/__icsFiles/afieldfile/2025/09/26/20250530_200.pdf) · [[sources/SRC-20260725-E5BC335B|보관 원문·메타데이터]]
+[^src-20260725-f396d188]: **Nippon Steel FY2025 results: carbon-neutral technology progress** — Nippon Steel Corporation, 2026-06-02. [원문](https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf) · [[sources/SRC-20260725-F396D188|보관 원문·메타데이터]]

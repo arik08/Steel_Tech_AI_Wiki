@@ -90,8 +90,8 @@ flowchart TB
 | --- | --- | --- |
 | **총괄 반응** | Fe2O3를 전기분해해 2Fe와 3/2 O2로 분리하며, 음극에서 Fe3+가 전자를 받아 철이 되고 양극에서 산화물 이온이 산소를 방출한다. [^src-20260725-cedc4521] | 정부·공공자료 |
 | **전해 셀 구성** | 용융 산화물 전해질에 불활성 양극을 담그고 셀 바닥의 액체 철 풀을 음극이자 제품 수집부로 사용하는 전해 셀이다. [^src-20260725-26ea1cbd] | 회사 발표 |
-| **양극 재료** | Cr 기반 합금 불활성 양극은 전도성 Cr(III)-Al 산화물 보호층을 형성해 제한된 소모로 산소를 발생시킬 수 있다. [^src-20260725-147875e9] | 학술 연구 |
-| **양극 내구성** | Ir 양극 소모는 고-CaO 염기성 전해질에서 고-SiO2 산성 전해질보다 약 20배 높게 측정되어, 전해질 조성이 양극 수명을 크게 좌우한다. [^src-20260725-1a6afbf8] | 학술 연구 |
+| **양극 재료** | Cr 기반 합금 불활성 양극은 전도성 Cr(III)-Al 산화물 보호층을 형성해 제한된 소모로 산소를 발생시킬 수 있다. [^src-20260725-147875e9] | 학술지 논문 |
+| **양극 내구성** | Ir 양극 소모는 고-CaO 염기성 전해질에서 고-SiO2 산성 전해질보다 약 20배 높게 측정되어, 전해질 조성이 양극 수명을 크게 좌우한다. [^src-20260725-1a6afbf8] | 학술지 논문 |
 | **운전 방식** | 연속 운전 중 액체 철을 반복 출선하며, 셀 안의 양극 수와 플랜트의 셀 수를 늘리는 모듈식 증설 구조다. [^src-20260725-cedc4521] | 정부·공공자료 |
 
 ### 원료·운전·제품
@@ -99,7 +99,7 @@ flowchart TB
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **운전 온도** | Boston Metal의 고온 MOE Steel 경로는 약 1,600°C에서 운전한다. [^src-20260725-26ea1cbd] | 회사 발표 |
-| **저온 학술 변형 온도** | 서울대의 B2O3-Na2O 저온 MOE 실험은 1173 K(900°C)에서 수행됐다. [^src-20260725-1486633e] | 학술 연구 |
+| **저온 학술 변형 온도** | 서울대의 B2O3-Na2O 저온 MOE 실험은 1173 K(900°C)에서 수행됐다. [^src-20260725-1486633e] | 학술지 논문 |
 | **적용 원료** | Boston Metal은 모든 등급의 철광석을 직접 투입할 수 있고 소결·펠릿화 전처리를 생략할 수 있다고 설명한다. [^src-20260725-26ea1cbd] | 회사 발표 |
 | **제품 형태** | 고순도 액체 철을 직접 생산한다. [^src-20260725-26ea1cbd] | 회사 발표 |
 | **부산물** | 불활성 양극에서 산소 가스가 발생한다. [^src-20260725-cedc4521] | 정부·공공자료 |
@@ -109,8 +109,8 @@ flowchart TB
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **전류효율** | 1.6 V 저온 MOE 실험에서 시약 산화철의 전류 효율은 공기 중 65.50–68.72%, Ar 중 67.49–78.56%였고, 철광석 시료는 공기 중 64.14–67.58%였다. [^src-20260725-1486633e] | 학술 연구 |
-| **전력원단위 추정** | 성숙 설비를 가정한 문헌 추정치는 2.89–4.45 kWh/kg-Fe이며, 별도 모델은 약 4.7–4.78 kWh/kg-Fe를 제시한다. [^src-20260725-1ad87d2b] | 학술 연구 |
+| **전류효율** | 1.6 V 저온 MOE 실험에서 시약 산화철의 전류 효율은 공기 중 65.50–68.72%, Ar 중 67.49–78.56%였고, 철광석 시료는 공기 중 64.14–67.58%였다. [^src-20260725-1486633e] | 학술지 논문 |
+| **전력원단위 추정** | 성숙 설비를 가정한 문헌 추정치는 2.89–4.45 kWh/kg-Fe이며, 별도 모델은 약 4.7–4.78 kWh/kg-Fe를 제시한다. [^src-20260725-1ad87d2b] | 학술지 논문 |
 | **배출 경계** | Boston Metal은 재생전력을 사용할 경우 탄소 환원제 없이 공정에서 직접 CO2를 발생시키지 않는다고 설명한다. 전력 공급망 배출은 이 주장과 별도로 평가해야 한다. [^src-20260725-26ea1cbd] | 회사 발표 |
 | **필요 인프라** | UNIDO·Agora 시나리오는 MOE 조강 1톤당 12.4–14.8 GJ의 전력을 가정하며, 대규모 저탄소 전력 공급과 저장·계통 인프라가 필요할 수 있다. [^src-20260725-4e9ee842] | 정부·공공자료 |
 | **경제성 평가** | UNIDO·Agora의 2050 시나리오는 MOE 생산비를 조강 톤당 582–766달러로 추정한다. 상업 실측 원가가 아닌 모델 값이다. [^src-20260725-4e9ee842] | 정부·공공자료 |
@@ -203,10 +203,10 @@ flowchart TB
 - [[sources/SRC-20260725-9D378E7F|ArcelorMittal invests $36 million in Boston Metal]] — ArcelorMittal, 2023-01-27 · [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-invests-36-million-in-steel-decarbonisation-disruptor-boston-metal)
 - [[sources/SRC-20260725-CEDC4521|Carbon-free Iron for a Sustainable Future: Boston Metal IEDO Peer Review]] — U.S. Department of Energy IEDO / Boston Metal, 게시일 미상 · [원문](https://www1.eere.energy.gov/iedo/downloads/2023/peer_review/Boston%20Metal_Lambotte_IEDO_Iron-and-Steel_Carbon%20Free%20Iron%20for%20a%20Sustainable%20Future.pdf)
 
-[^src-20260725-147875e9]: **A new anode material for oxygen evolution in molten oxide electrolysis** — Nature, 2013-05-08. [원문](https://www.nature.com/articles/nature12134) · [[sources/SRC-20260725-147875E9|보관 원문·메타데이터]]
-[^src-20260725-1486633e]: **Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K** — Scientific Reports, 2026-07-07. [원문](https://www.nature.com/articles/s41598-026-58521-y) · [[sources/SRC-20260725-1486633E|보관 원문·메타데이터]]
-[^src-20260725-1a6afbf8]: **Electrolysis of Molten Iron Oxide with an Iridium Anode: The Role of Electrolyte Basicity** — Journal of The Electrochemical Society, 2011-08-05. [원문](https://web.mit.edu/dsadoway/www/137.pdf) · [[sources/SRC-20260725-1A6AFBF8|보관 원문·메타데이터]]
-[^src-20260725-1ad87d2b]: **Economics of Electrowinning Iron from Ore for Green Steel Production** — Journal of Sustainable Metallurgy, 2024-08-05. [원문](https://link.springer.com/article/10.1007/s40831-024-00878-3) · [[sources/SRC-20260725-1AD87D2B|보관 원문·메타데이터]]
+[^src-20260725-147875e9]: **A new anode material for oxygen evolution in molten oxide electrolysis** — Nature, 2013-05-08. DOI: [10.1038/nature12134](https://doi.org/10.1038/nature12134). [원문](https://www.nature.com/articles/nature12134) · [[sources/SRC-20260725-147875E9|보관 원문·메타데이터]]
+[^src-20260725-1486633e]: **Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K** — Scientific Reports, 2026-07-07. DOI: [10.1038/s41598-026-58521-y](https://doi.org/10.1038/s41598-026-58521-y). [원문](https://www.nature.com/articles/s41598-026-58521-y) · [[sources/SRC-20260725-1486633E|보관 원문·메타데이터]]
+[^src-20260725-1a6afbf8]: **Electrolysis of Molten Iron Oxide with an Iridium Anode: The Role of Electrolyte Basicity** — Journal of The Electrochemical Society, 2011-08-05. DOI: [10.1149/1.3623446](https://doi.org/10.1149/1.3623446). [원문](https://web.mit.edu/dsadoway/www/137.pdf) · [[sources/SRC-20260725-1A6AFBF8|보관 원문·메타데이터]]
+[^src-20260725-1ad87d2b]: **Economics of Electrowinning Iron from Ore for Green Steel Production** — Journal of Sustainable Metallurgy, 2024-08-05. DOI: [10.1007/s40831-024-00878-3](https://doi.org/10.1007/s40831-024-00878-3). [원문](https://link.springer.com/article/10.1007/s40831-024-00878-3) · [[sources/SRC-20260725-1AD87D2B|보관 원문·메타데이터]]
 [^src-20260725-26ea1cbd]: **MOE Steel: process, scale-up model, and current deployment status** — Boston Metal, 게시일 미상. [원문](https://www.bostonmetal.com/moe-steel/) · [[sources/SRC-20260725-26EA1CBD|보관 원문·메타데이터]]
 [^src-20260725-3c2197ef]: **Boston Metal Celebrates Historic Commissioning Run of MOE Green Steel Cell** — Boston Metal, 2025-03-12. [원문](https://www.bostonmetal.com/news/boston-metal-celebrates-historic-commissioning-run-of-moe-green-steel-cell/) · [[sources/SRC-20260725-3C2197EF|보관 원문·메타데이터]]
 [^src-20260725-4e9ee842]: **Low-carbon technologies for the global steel transformation: Molten oxide electrolysis** — UNIDO / Agora Industry, 게시일 미상. [원문](https://decarbonization.unido.org/wp-content/uploads/2025/08/a-ind_324_low-carbon-technologies_web.pdf) · [[sources/SRC-20260725-4E9EE842|보관 원문·메타데이터]]

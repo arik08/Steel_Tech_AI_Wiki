@@ -2,7 +2,7 @@
 
 # 저온 수계 전해제철 (Aqueous Iron Electrolysis)
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-26** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 전해 기반 경로"
 
@@ -47,7 +47,7 @@
 이 문서에서 다루는 경로는 고온 용융염 전기분해가 아니라, 광석을 수용액에서 용해·분리한 뒤 철을 전착하는 저온 경로입니다.
 
 - **근거 확인 기업:** 2개
-- **직접 연결 근거:** 5건
+- **직접 연결 근거:** 10건
 
 ## 작동 원리
 
@@ -106,17 +106,30 @@ flowchart TB
 | --- | --- | --- |
 | **운전 온도** | Electra 파일럿 발표 기준 140°F(약 60°C) [^src-20260725-3d62f9a6] | 회사 발표 |
 | **적용 원료** | 이미 채굴됐으나 고불순물 때문에 상업적으로 활용되지 못한 광석을 포함한 폭넓은 철광석 [^src-20260725-3d62f9a6] | 회사 발표 |
+| **학술 검증 원료 범위** | 2023 학술 연구에서 혼합 hematite-magnetite 알칼리 현탁액의 저온 전해채취를 연구 규모로 검증 [^src-20260726-b9accb8f] | 학술지 논문 |
+| **학술 검토 기술 범위** | RawMat 2021 학회 논문은 SIDERWIN의 저온 알칼리 철 전해채취 경로와 bauxite residue 적용 연구를 공개 [^src-20260726-7bceed6f] | 학회 논문 |
+| **학술 실험 조건** | 2015 전도성 콜로이드 전극 실험: 45 wt% NaOH, 110 °C, 1.7 V, 5시간 전해 [^src-20260726-3f53ac8c] | 학술지 논문 |
 | **제품 순도** | Electra 주장 기준 99% 초과 순도의 철 [^src-20260725-3d62f9a6] | 회사 발표 |
 | **전력 운전 유연성** | 저온 공정 특성을 이용해 간헐성 재생전력의 가용 시간에 맞춰 생산을 동기화할 수 있다는 회사 주장 [^src-20260725-d6930918] | 회사 발표 |
 | **후단 활용** | 생산 철은 전기로(EAF) 제강 원료 또는 철 기반 배터리 소재로 사용 가능 [^src-20260725-d6930918] | 회사 발표 |
+
+### 실증·산업화
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **확대 검증 계획** | Volteron 개발사 발표는 1 m² 파일럿 성숙도와 규제 여건을 전제로 2026년 40–80 kt/y step-up plant 계약 로드맵을 제시했다. 이는 계획이며 가동 실적이 아니다. [^src-20260726-9f56db69] | 학회 발표 |
 
 
 ## 공개 개발 연혁
 
 | 날짜 | 공개 사건 |
 | --- | --- |
+| 2015-01-07 | Low temperature electrolysis for iron production via conductive colloidal electrode [^src-20260726-3f53ac8c] |
+| 2021-09-05 | ΣIDERWIN—A New Route for Iron Production [^src-20260726-7bceed6f] |
+| 2023-05-01 | Low-Temperature Electrowinning of Iron from Mixed Hematite-Magnetite Alkaline Suspensions [^src-20260726-b9accb8f] |
 | 2023-06-14 | ArcelorMittal and John Cockerill develop Volteron low-temperature electrolysis [^src-20260725-a6716adb] |
 | 2024-03-27 | Electra Launches Pilot Plant to Advance Commercialization of Sustainable Clean Iron Production [^src-20260725-3d62f9a6] |
+| 2026-03-09 | Volteron — Scalable Electrochemical Ironmaking for Green Steel Production [^src-20260726-9f56db69] |
 | 2026-04-28 | POSCO and Electra partner on low-temperature clean iron [^src-20260725-4c014458] |
 
 ## 설비·공정 이미지
@@ -127,6 +140,13 @@ flowchart TB
 
 - 출처 [[sources/SRC-20260725-3D62F9A6|SRC-20260725-3D62F9A6]] · 권리 `link_only` · [원문 페이지](https://www.businesswire.com/news/home/20240327121089/en/Electra-Launches-Pilot-Plant-to-Advance-Commercialization-of-Sustainable-Clean-Iron-Production) · 작성·촬영 Electra / Business Wire
 - 권리 메모: 공식 보도자료 이미지이나 재사용 권리가 명확하지 않아 원문 링크만 보존
+
+![철광석 슬러리 처리와 수용액 순환 탱크, 모듈식 전해 셀, 전착 철판 회수 장치의 개념 구성](../assets/media/SRC-20260725-FBE26310/MED-F0E1DDA6F73D.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** Volteron 저온 수계 전해의 광석 용해·불순물 분리·전해액 순환·철판 전착 경로 AI 재구성. 실제 R&D 설비의 준공도가 아님
+
+- 출처 [[sources/SRC-20260725-FBE26310|SRC-20260725-FBE26310]] · 권리 `ai_generated` · [원문 페이지](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: ArcelorMittal 공식 R&D 설명을 바탕으로 생성했으며 실제 장치 형상과 배치의 증거로 사용하지 않음
 
 
 ## 기업별 상세 현황
@@ -141,11 +161,11 @@ flowchart TB
 
 ### [[companies/COM-ArcelorMittal|ArcelorMittal]]
 
-**확인된 현황.** Volteron 저온 직접 전해 공정의 파일럿 철판 생산 확인 후 산업 규모 설비 개발 계획 단계 [^src-20260725-a6716adb]
+**확인된 현황.** Volteron 저온 직접 전해를 공식 설명 기준 TRL 6 R&D 설비까지 확대했으나 4만~8만 t/y 산업 1단계의 착공·가동은 미확인 [^src-20260725-fbe26310]
 
-**단계 판단: 연구·실증.** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
+**단계 판단: 건설·구축.** 설비 투자가 물리적 실행 단계에 들어갔습니다. 준공 일정, 공사비 변동과 시운전 결과가 다음 판단 기준입니다.
 
-- **날짜:** 발표 2023-06-14 · 수집 2026-07-25 · 검증 2026-07-25
+- **날짜:** 발표 미상 · 수집 2026-07-25 · 검증 2026-07-25
 
 ## 관련 프로젝트
 
@@ -154,6 +174,7 @@ flowchart TB
 | 프로젝트 | 현재 확인 상태 | 일정·규모 |
 | --- | --- | --- |
 | **[[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] | **연간 생산능력** 연간 500톤 (500 tpy) [^src-20260725-4c014458] · **목표 가동 시점** 2026년 [^src-20260725-4c014458] |
+| **[[projects/PRJ-ARCELORMITTAL-VOLTERON|ArcelorMittal–John Cockerill Volteron]]** | 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 [^src-20260725-fbe26310] | **연간 생산능력** 2023년 발표한 산업 1단계 목표 40,000~80,000 t/y [^src-20260725-a6716adb] · **목표 가동 시점** 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 [^src-20260725-a6716adb] |
 
 ## 기술적 쟁점과 미공개 데이터
 
@@ -189,9 +210,19 @@ flowchart TB
 - [[sources/SRC-20260725-4C014458|POSCO and Electra partner on low-temperature clean iron]] — POSCO Group Newsroom, 2026-04-28 · [원문](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC/)
 - [[sources/SRC-20260725-A6716ADB|ArcelorMittal and John Cockerill develop Volteron low-temperature electrolysis]] — ArcelorMittal, 2023-06-14 · [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-and-john-cockerill-announce-plans-to-develop-world-s-first-industrial-scale-low-temperature-iron-electrolysis-plant)
 - [[sources/SRC-20260725-D6930918|Electra Technology: How the low-temperature iron process works]] — Electra, 게시일 미상 · [원문](https://www.electra.earth/our-technology/)
+- [[sources/SRC-20260725-FBE26310|ArcelorMittal Volteron research and scale-up status]] — ArcelorMittal, 게시일 미상 · [원문](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations)
+- [[sources/SRC-20260726-3F53AC8C|Low temperature electrolysis for iron production via conductive colloidal electrode]] — RSC Advances / Royal Society of Chemistry, 2015-01-07 · [원문](https://pubs.rsc.org/en/content/articlehtml/2015/ra/c4ra14576c)
+- [[sources/SRC-20260726-7BCEED6F|ΣIDERWIN—A New Route for Iron Production]] — Materials Proceedings / MDPI, 2021-09-05 · [원문](https://doi.org/10.3390/materproc2021005058)
+- [[sources/SRC-20260726-9F56DB69|Volteron — Scalable Electrochemical Ironmaking for Green Steel Production]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/b2126be4-4ee8-47eb-a536-56cacf43d492/Scalable-Electrochemical-Ironmaking-or-Green-Steel-Production.pdf)
+- [[sources/SRC-20260726-B9ACCB8F|Low-Temperature Electrowinning of Iron from Mixed Hematite-Magnetite Alkaline Suspensions]] — Journal of The Electrochemical Society, 2023-05-01 · [원문](https://doi.org/10.1149/1945-7111/acd085)
 
 [^src-20260725-133d1c12]: **ROSIE Project Descriptions: Electra Low-Temperature Green Ironmaking** — U.S. Department of Energy ARPA-E, 게시일 미상. [원문](https://arpa-e.energy.gov/sites/default/files/2025-04/ARPA-E%20Project%20Descriptions_ROSIE_R25.1.pdf) · [[sources/SRC-20260725-133D1C12|보관 원문·메타데이터]]
 [^src-20260725-3d62f9a6]: **Electra Launches Pilot Plant to Advance Commercialization of Sustainable Clean Iron Production** — Electra / Business Wire, 2024-03-27. [원문](https://www.businesswire.com/news/home/20240327121089/en/Electra-Launches-Pilot-Plant-to-Advance-Commercialization-of-Sustainable-Clean-Iron-Production) · [[sources/SRC-20260725-3D62F9A6|보관 원문·메타데이터]]
 [^src-20260725-4c014458]: **POSCO and Electra partner on low-temperature clean iron** — POSCO Group Newsroom, 2026-04-28. [원문](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC/) · [[sources/SRC-20260725-4C014458|보관 원문·메타데이터]]
 [^src-20260725-a6716adb]: **ArcelorMittal and John Cockerill develop Volteron low-temperature electrolysis** — ArcelorMittal, 2023-06-14. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-and-john-cockerill-announce-plans-to-develop-world-s-first-industrial-scale-low-temperature-iron-electrolysis-plant) · [[sources/SRC-20260725-A6716ADB|보관 원문·메타데이터]]
 [^src-20260725-d6930918]: **Electra Technology: How the low-temperature iron process works** — Electra, 게시일 미상. [원문](https://www.electra.earth/our-technology/) · [[sources/SRC-20260725-D6930918|보관 원문·메타데이터]]
+[^src-20260725-fbe26310]: **ArcelorMittal Volteron research and scale-up status** — ArcelorMittal, 게시일 미상. [원문](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations) · [[sources/SRC-20260725-FBE26310|보관 원문·메타데이터]]
+[^src-20260726-3f53ac8c]: **Low temperature electrolysis for iron production via conductive colloidal electrode** — RSC Advances / Royal Society of Chemistry, 2015-01-07. DOI: [10.1039/C4RA14576C](https://doi.org/10.1039/C4RA14576C). [원문](https://pubs.rsc.org/en/content/articlehtml/2015/ra/c4ra14576c) · [[sources/SRC-20260726-3F53AC8C|보관 원문·메타데이터]]
+[^src-20260726-7bceed6f]: **ΣIDERWIN—A New Route for Iron Production** — Materials Proceedings / MDPI, 2021-09-05. DOI: [10.3390/materproc2021005058](https://doi.org/10.3390/materproc2021005058). [원문](https://doi.org/10.3390/materproc2021005058) · [[sources/SRC-20260726-7BCEED6F|보관 원문·메타데이터]]
+[^src-20260726-9f56db69]: **Volteron — Scalable Electrochemical Ironmaking for Green Steel Production** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/b2126be4-4ee8-47eb-a536-56cacf43d492/Scalable-Electrochemical-Ironmaking-or-Green-Steel-Production.pdf) · [[sources/SRC-20260726-9F56DB69|보관 원문·메타데이터]]
+[^src-20260726-b9accb8f]: **Low-Temperature Electrowinning of Iron from Mixed Hematite-Magnetite Alkaline Suspensions** — Journal of The Electrochemical Society, 2023-05-01. DOI: [10.1149/1945-7111/acd085](https://doi.org/10.1149/1945-7111/acd085). [원문](https://doi.org/10.1149/1945-7111/acd085) · [[sources/SRC-20260726-B9ACCB8F|보관 원문·메타데이터]]

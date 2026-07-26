@@ -4,13 +4,19 @@
 
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
+
+![천연가스 직접환원 샤프트로와 CO2 분리·압축설비, 파이프라인 및 지중저장 단면 공정 재구성](../assets/media/SRC-20260725-BF5036AE/MED-B53ECCA94FC1.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+
+*대표 이미지 — Convent 천연가스 DRI-CO2 포집·압축-수송-지중저장 계획의 출처 기반 AI 재구성; 실제 준공도나 가동 사진이 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-BF5036AE|SRC-20260725-BF5036AE]] · [원문 페이지](https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement))*
+
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 1개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 2개 |
     | **실행 단계** | 공식 현황 확인 1건 |
-    | **직접 연결 근거** | 2건 |
+    | **직접 연결 근거** | 5건 |
 
 ## 기술 포트폴리오
 
@@ -32,6 +38,63 @@
 
     **다음 확인:** 발표·MOU와 FID·착공·준공·램프업을 분리하고, 철광석 품위와 스크랩 추가성, 실제 수소 비율, 전력 탄소집약도, CO2 영구저장량, 제품별 Scope 1·2·상류 Scope 3 및 제3자 검증 출하량을 같은 기준으로 확인해야 합니다.
 
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-NUCOR-CONVENT-DRI-CCS|Nucor Convent DRI–CCS]]** | Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음 [^src-20260725-bf5036ae] | **기술 경로** Convent 천연가스 DRI 설비 배출 CO2 포집 → ExxonMobil 수송 → Louisiana 내 ExxonMobil 저장시설 영구저장 계획 [^src-20260725-bf5036ae] · **위치** Nucor DRI plant, Convent, Louisiana, United States [^src-20260725-bf5036ae] · **연간 CO2 포집능력** 연간 최대 800,000 metric tonnes CO2 포집·수송·저장 계약 [^src-20260725-bf5036ae] · **목표 가동 시점** 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] |
+| **[[projects/PRJ-NUCOR-GALLATIN-EAF-CCUS|Nucor Gallatin EAF 탄소포집 파일럿]]** | 기존 열통합 아민 포집 파일럿의 구축·시험 후, DOE 선정 과제로 수소생산 결합 polishing loop를 기존 포집장치에 통합 설계·건설·시험하는 연구개발 단계 [^src-20260725-fe353d3a][^src-20260725-6d04090a] | **기술 경로** EAF 저농도 배가스 → 기존 수계 아민 포집 → 수소생산 결합 이중 polishing loop → 용매 열화물·대기오염물질 측정 [^src-20260725-6d04090a] · **위치** Nucor Steel Gallatin, Ghent, Kentucky, United States [^src-20260725-fe353d3a] · **지원·조달 금액** DOE USD 3,000,000 + 비연방 USD 750,001 = 총 USD 3,750,001 [^src-20260725-6d04090a] |
+
+## 프로젝트별 상세
+
+??? info "Nucor Convent DRI–CCS"
+
+    **프로젝트 문서:** [[projects/PRJ-NUCOR-CONVENT-DRI-CCS|Nucor Convent DRI–CCS]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **기술 경로** | Convent 천연가스 DRI 설비 배출 CO2 포집 → ExxonMobil 수송 → Louisiana 내 ExxonMobil 저장시설 영구저장 계획 [^src-20260725-bf5036ae] |
+    | **연간 CO2 포집능력** | 연간 최대 800,000 metric tonnes CO2 포집·수송·저장 계약 [^src-20260725-bf5036ae] |
+    | **프로젝트 상태** | Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음 [^src-20260725-bf5036ae] |
+    | **위치** | Nucor DRI plant, Convent, Louisiana, United States [^src-20260725-bf5036ae] |
+    | **계약 교차확인** | Nucor도 ExxonMobil과의 Convent DRI CO2 포집·수송·영구저장 계약과 최대 80만 t/y 설계를 별도 공식 확인 [^src-20260725-11668643] |
+    | **배출 경계** | 고로가 아닌 천연가스 DRI 설비 CCS이며, DRI 환원제를 수소로 전환했다는 근거는 아님 [^src-20260725-bf5036ae] |
+    | **공개 성과의 한계** | 계약과 설계용량은 양사에서 확인되지만 시운전·연간 실제 포집량·포집률·수송 개시·영구 주입 실적은 미확인 [^src-20260725-11668643] |
+    | **참여 기관** | Nucor Corporation 및 ExxonMobil [^src-20260725-bf5036ae] |
+    | **목표 가동 시점** | 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2023 | 목표 일정 | **목표 가동 시점**: 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] |
+    | 2023-06-01 | 발표·검증 | **계약 교차확인**: Nucor도 ExxonMobil과의 Convent DRI CO2 포집·수송·영구저장 계약과 최대 80만 t/y 설계를 별도 공식 확인 · **공개 성과의 한계**: 계약과 설계용량은 양사에서 확인되지만 시운전·연간 실제 포집량·포집률·수송 개시·영구 주입 실적은 미확인 [^src-20260725-11668643] |
+    | 2023-06-01 | 발표·검증 | **기술 경로**: Convent 천연가스 DRI 설비 배출 CO2 포집 → ExxonMobil 수송 → Louisiana 내 ExxonMobil 저장시설 영구저장 계획 · **연간 CO2 포집능력**: 연간 최대 800,000 metric tonnes CO2 포집·수송·저장 계약 · **프로젝트 상태**: Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음 · **위치**: Nucor DRI plant, Convent, Louisiana, United States · **배출 경계**: 고로가 아닌 천연가스 DRI 설비 CCS이며, DRI 환원제를 수소로 전환했다는 근거는 아님 · **참여 기관**: Nucor Corporation 및 ExxonMobil · **목표 가동 시점**: 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] |
+
+??? info "Nucor Gallatin EAF 탄소포집 파일럿"
+
+    **프로젝트 문서:** [[projects/PRJ-NUCOR-GALLATIN-EAF-CCUS|Nucor Gallatin EAF 탄소포집 파일럿]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **프로젝트 상태** | 기존 열통합 아민 포집 파일럿의 구축·시험 후, DOE 선정 과제로 수소생산 결합 polishing loop를 기존 포집장치에 통합 설계·건설·시험하는 연구개발 단계 [^src-20260725-fe353d3a][^src-20260725-6d04090a] |
+    | **지원·조달 금액** | DOE USD 3,000,000 + 비연방 USD 750,001 = 총 USD 3,750,001 [^src-20260725-6d04090a] |
+    | **기술 경로** | EAF 저농도 배가스 → 기존 수계 아민 포집 → 수소생산 결합 이중 polishing loop → 용매 열화물·대기오염물질 측정 [^src-20260725-6d04090a] |
+    | **배출 측정 범위** | 통합 포집계통 시험에서 용매·용매열화물 배출과 criteria pollutants를 측정하는 범위 [^src-20260725-6d04090a] |
+    | **후단 CO2 농도 목표** | 이중 polishing 처리 후 CO2 100 ppm 미만 배가스 대상 기술개발 목표; 달성 실적은 미확인 [^src-20260725-6d04090a] |
+    | **위치** | Nucor Steel Gallatin, Ghent, Kentucky, United States [^src-20260725-fe353d3a] |
+    | **참여 기관** | Nucor Corporation, University of Kentucky Research Foundation, U.S. DOE/NETL; 2022 발표 기준 산학 전문가 50명 초과 참여 [^src-20260725-fe353d3a] |
+    | **공개 개발 단계** | engineering-scale 포집 성능·비용·재현성 평가; 상업 포집량·영구저장량은 미공개 [^src-20260725-fe353d3a][^src-20260725-6d04090a] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2022-04-22 | 발표·검증 | **프로젝트 상태**: 기존 열통합 아민 포집 파일럿의 구축·시험 후, DOE 선정 과제로 수소생산 결합 polishing loop를 기존 포집장치에 통합 설계·건설·시험하는 연구개발 단계 · **위치**: Nucor Steel Gallatin, Ghent, Kentucky, United States · **참여 기관**: Nucor Corporation, University of Kentucky Research Foundation, U.S. DOE/NETL; 2022 발표 기준 산학 전문가 50명 초과 참여 · **공개 개발 단계**: engineering-scale 포집 성능·비용·재현성 평가; 상업 포집량·영구저장량은 미공개 [^src-20260725-fe353d3a] |
+    | 2026-07-25 | 수집 확인 | **프로젝트 상태**: 기존 열통합 아민 포집 파일럿의 구축·시험 후, DOE 선정 과제로 수소생산 결합 polishing loop를 기존 포집장치에 통합 설계·건설·시험하는 연구개발 단계 · **지원·조달 금액**: DOE USD 3,000,000 + 비연방 USD 750,001 = 총 USD 3,750,001 · **기술 경로**: EAF 저농도 배가스 → 기존 수계 아민 포집 → 수소생산 결합 이중 polishing loop → 용매 열화물·대기오염물질 측정 · **배출 측정 범위**: 통합 포집계통 시험에서 용매·용매열화물 배출과 criteria pollutants를 측정하는 범위 · **후단 CO2 농도 목표**: 이중 polishing 처리 후 CO2 100 ppm 미만 배가스 대상 기술개발 목표; 달성 실적은 미확인 · **공개 개발 단계**: engineering-scale 포집 성능·비용·재현성 평가; 상업 포집량·영구저장량은 미공개 [^src-20260725-6d04090a] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
@@ -40,11 +103,28 @@
     - 현재 자료의 실행 단계 분포는 공식 현황 확인 1건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
     - 다음 갱신에서는 목표치보다 착공·준공·누적 생산량·가동률·제품 단위 배출량처럼 실행을 입증하는 지표를 우선 확인하는 것이 좋습니다.
 
+## 설비·공정 이미지
+
+![전기로 배가스가 열교환기와 아민 흡수탑, polishing skid 및 분석 계통을 통과하는 공정 재구성](../assets/media/SRC-20260725-FE353D3A/MED-5E56BC5A8C58.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** Nucor Gallatin EAF 저농도 배가스-아민 포집-polishing loop·측정 계통의 출처 기반 AI 재구성; 실제 설치 사진이 아님
+
+- 출처 [[sources/SRC-20260725-FE353D3A|SRC-20260725-FE353D3A]] · 권리 `ai_generated` · [원문 페이지](https://nucor.com/news?article=nucor-and-the-university-of-kentucky-receive-federal-grant-for-carbon-capture-r%26d-at-gallatin-mill-122742) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: Nucor와 DOE 공개 설명을 바탕으로 생성한 AI 재구성. 실제 Gallatin 장치 배치나 규모의 증거로 사용하지 않음
+
+
 ## 근거 자료
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-11668643|Nucor Convent DRI carbon capture and storage agreement]] | Nucor Corporation · 2023-06-01 | [원문 보기](https://investors.nucor.com/news/news-details/2023/Nucor-Enters-Into-Carbon-Capture-Storage-Agreement-with-ExxonMobil-06-01-2023/default.aspx) |
+| [[sources/SRC-20260725-6D04090A|DOE Round 5 selection: UK IDEA dual-loop capture at Nucor Steel Gallatin]] | U.S. Department of Energy · 게시일 미상 | [원문 보기](https://www.energy.gov/hgeo/project-selections-foa-2614-carbon-management-round-5) |
 | [[sources/SRC-20260725-AA686449|Nucor sustainability and EAF steelmaking profile]] | Nucor Corporation · 게시일 미상 | [원문 보기](https://nucor.com/sustainability/) |
 | [[sources/SRC-20260725-BF5036AE|ExxonMobil and Nucor carbon capture agreement for Convent DRI plant]] | ExxonMobil · 2023-06-01 | [원문 보기](https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement) |
+| [[sources/SRC-20260725-FE353D3A|Nucor and University of Kentucky carbon-capture pilot at Gallatin]] | Nucor Corporation · 2022-04-22 | [원문 보기](https://nucor.com/news-release/nucor-and-the-university-of-kentucky-receive-federal-grant-for-carbon-capture-r%26d-at-gallatin-mill-122742) |
 
+[^src-20260725-11668643]: **Nucor Convent DRI carbon capture and storage agreement** — Nucor Corporation, 2023-06-01. [원문](https://investors.nucor.com/news/news-details/2023/Nucor-Enters-Into-Carbon-Capture-Storage-Agreement-with-ExxonMobil-06-01-2023/default.aspx) · [[sources/SRC-20260725-11668643|보관 원문·메타데이터]]
+[^src-20260725-6d04090a]: **DOE Round 5 selection: UK IDEA dual-loop capture at Nucor Steel Gallatin** — U.S. Department of Energy, 게시일 미상. [원문](https://www.energy.gov/hgeo/project-selections-foa-2614-carbon-management-round-5) · [[sources/SRC-20260725-6D04090A|보관 원문·메타데이터]]
 [^src-20260725-aa686449]: **Nucor sustainability and EAF steelmaking profile** — Nucor Corporation, 게시일 미상. [원문](https://nucor.com/sustainability/) · [[sources/SRC-20260725-AA686449|보관 원문·메타데이터]]
+[^src-20260725-bf5036ae]: **ExxonMobil and Nucor carbon capture agreement for Convent DRI plant** — ExxonMobil, 2023-06-01. [원문](https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement) · [[sources/SRC-20260725-BF5036AE|보관 원문·메타데이터]]
+[^src-20260725-fe353d3a]: **Nucor and University of Kentucky carbon-capture pilot at Gallatin** — Nucor Corporation, 2022-04-22. [원문](https://nucor.com/news-release/nucor-and-the-university-of-kentucky-receive-federal-grant-for-carbon-capture-r%26d-at-gallatin-mill-122742) · [[sources/SRC-20260725-FE353D3A|보관 원문·메타데이터]]

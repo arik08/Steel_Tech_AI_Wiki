@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F78AA9076129",
+  "subject_id": "PRJ-NUCOR-CONVENT-DRI-CCS",
+  "predicate": "target_start_date",
+  "value": "2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-BF5036AE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "계획 일정과 달성 구분",
+      "source_ids": [
+        "SRC-20260725-BF5036AE"
+      ]
+    }
+  ]
+}

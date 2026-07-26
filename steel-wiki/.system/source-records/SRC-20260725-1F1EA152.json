@@ -14,5 +14,17 @@
   "raw_path": ".system/raw/SRC-20260725-1F1EA152.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Bernhard Adami",
+      "Felix Hoffelner",
+      "Michael Andreas Zarl",
+      "Johannes Schenk"
+    ],
+    "venue": "Processes",
+    "doi": "10.3390/pr13020420",
+    "peer_review_status": "peer_reviewed"
+  }
 }

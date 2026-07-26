@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-36750B48F252",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "ore_quality_requirement",
+  "value": "다단 수소환원 발표는 맥석 증가가 최종 환원도 저하 및 fayalite 같은 난환원상 형성과 연결될 수 있다고 결론냈다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-03-11",
+  "last_verified": "2026-03-11",
+  "source_ids": [
+    "SRC-20260726-EADB3777"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-11",
+      "action": "created",
+      "reason": "광석 품위·맥석이 수소환원 거동에 미치는 학회 실험 근거",
+      "source_ids": [
+        "SRC-20260726-EADB3777"
+      ]
+    }
+  ]
+}

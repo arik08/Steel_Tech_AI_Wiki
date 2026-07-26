@@ -6,9 +6,9 @@
 
 !!! info "현재 감시 범위"
 
-    **11개 기업** · **11개 기술** · **104개 Source** · **561개 Claim**
+    **11개 기업** · **11개 기술** · **138개 Source** · **726개 Claim**
 
-    [[REVIEW|사람 검토 대기]] **0건** · 근거가 연결된 주체 **44개**
+    [[REVIEW|사람 검토 대기]] **0건** · 근거가 연결된 주체 **55개**
 
 ## 기술 포트폴리오 지도
 
@@ -51,23 +51,27 @@ flowchart LR
 
 ## 기술별 기업 현황
 
-기술을 행, 기업을 열로 비교합니다. **확인**을 선택하면 해당 기업의 근거 상세로 이동합니다.
+기술을 행, 기업을 열로 비교합니다. **단계명**을 선택하면 해당 기업의 근거 상세로 이동합니다.
 
 | 기술 | [[companies/COM-POSCO|POSCO]] | [[companies/COM-ArcelorMittal|ArcelorMittal]] | [[companies/COM-China-Baowu|China Baowu Steel Group]] | [[companies/COM-Nippon-Steel|Nippon Steel]] | [[companies/COM-JFE-Steel|JFE Steel]] | [[companies/COM-Tata-Steel|Tata Steel]] | [[companies/COM-thyssenkrupp-Steel|thyssenkrupp Steel]] | [[companies/COM-SSAB|SSAB]] | [[companies/COM-Nucor|Nucor]] | [[companies/COM-voestalpine|voestalpine]] | [[companies/COM-Rio-Tinto|Rio Tinto]] | [[companies/COM-Boston-Metal|Boston Metal]] |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] | [[companies/COM-POSCO|● 확인]] | [[companies/COM-ArcelorMittal|● 확인]] | [[companies/COM-China-Baowu|● 확인]] | [[companies/COM-Nippon-Steel|● 확인]] | [[companies/COM-JFE-Steel|● 확인]] | [[companies/COM-Tata-Steel|● 확인]] | [[companies/COM-thyssenkrupp-Steel|● 확인]] | [[companies/COM-SSAB|● 확인]] |  |  |  |  |
-| [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | [[companies/COM-POSCO|● 확인]] |  | [[companies/COM-China-Baowu|● 확인]] |  |  | [[companies/COM-Tata-Steel|● 확인]] | [[companies/COM-thyssenkrupp-Steel|● 확인]] |  |  |  | [[companies/COM-Rio-Tinto|● 확인]] |  |
-| [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | [[companies/COM-POSCO|● 확인]] | [[companies/COM-ArcelorMittal|● 확인]] |  |  |  |  |  |  |  |  |  | [[companies/COM-Boston-Metal|● 확인]] |
-| [[technologies/TEC-blast-furnace-ccus|고로 CCUS]] | [[companies/COM-POSCO|● 확인]] | [[companies/COM-ArcelorMittal|● 확인]] |  | [[companies/COM-Nippon-Steel|● 확인]] | [[companies/COM-JFE-Steel|● 확인]] | [[companies/COM-Tata-Steel|● 확인]] | [[companies/COM-thyssenkrupp-Steel|● 확인]] |  |  |  |  |  |
-| [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | [[companies/COM-POSCO|● 확인]] | [[companies/COM-ArcelorMittal|● 확인]] | [[companies/COM-China-Baowu|● 확인]] | [[companies/COM-Nippon-Steel|● 확인]] | [[companies/COM-JFE-Steel|● 확인]] | [[companies/COM-Tata-Steel|● 확인]] | [[companies/COM-thyssenkrupp-Steel|● 확인]] | [[companies/COM-SSAB|● 확인]] | [[companies/COM-Nucor|● 확인]] |  |  |  |
-| [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | [[companies/COM-POSCO|● 확인]] |  |  | [[companies/COM-Nippon-Steel|● 확인]] | [[companies/COM-JFE-Steel|● 확인]] | [[companies/COM-Tata-Steel|● 확인]] |  |  |  |  |  |  |
-| [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | [[companies/COM-POSCO|● 확인]] | [[companies/COM-ArcelorMittal|● 확인]] |  |  |  |  |  |  |  |  |  |  |
-| [[technologies/TEC-high-grade-eaf-and-scrap-impurity-removal|고급강 EAF·스크랩 불순물 제거]] |  |  |  | [[companies/COM-Nippon-Steel|● 확인]] |  |  |  |  |  |  |  |  |
-| [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | [[companies/COM-POSCO|● 확인]] |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|● 확인]] | [[companies/COM-Rio-Tinto|● 확인]] |  |
-| [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] |  |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|● 확인]] |  |  |
-| [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]] |  |  |  |  |  |  |  |  |  |  | [[companies/COM-Rio-Tinto|● 확인]] |  |
+| [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] |  | [[companies/COM-ArcelorMittal|일부 프로젝트 중단]] | [[companies/COM-China-Baowu|가동·적용]] | [[companies/COM-Nippon-Steel|실증]] | [[companies/COM-JFE-Steel|계획·투자]] | [[companies/COM-Tata-Steel|조건부 계획]] | [[companies/COM-thyssenkrupp-Steel|건설·수소전환 조건]] | [[companies/COM-SSAB|실증]] |  |  |  |  |
+| [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | [[companies/COM-POSCO|파일럿]] |  | [[companies/COM-China-Baowu|소규모 시험]] |  |  |  | [[companies/COM-thyssenkrupp-Steel|건설·구축]] |  |  |  | [[companies/COM-Rio-Tinto|계획·투자]] |  |
+| [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | [[companies/COM-POSCO|외부 연구 지원]] | [[companies/COM-ArcelorMittal|외부 전략투자]] |  |  |  |  |  |  |  |  |  | [[companies/COM-Boston-Metal|가동·적용]] |
+| [[technologies/TEC-blast-furnace-ccus|고로 CCUS]] |  | [[companies/COM-ArcelorMittal|실증]] |  | [[companies/COM-Nippon-Steel|연구]] | [[companies/COM-JFE-Steel|연구]] | [[companies/COM-Tata-Steel|가동·적용]] | [[companies/COM-thyssenkrupp-Steel|실증]] |  |  |  |  |  |
+| [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | [[companies/COM-POSCO|경로·프로젝트 확인]] | [[companies/COM-ArcelorMittal|경로·프로젝트 확인]] | [[companies/COM-China-Baowu|경로·프로젝트 확인]] | [[companies/COM-Nippon-Steel|경로·프로젝트 확인]] | [[companies/COM-JFE-Steel|경로·프로젝트 확인]] | [[companies/COM-Tata-Steel|경로·프로젝트 확인]] | [[companies/COM-thyssenkrupp-Steel|경로·프로젝트 확인]] | [[companies/COM-SSAB|경로·프로젝트 확인]] | [[companies/COM-Nucor|경로·프로젝트 확인]] |  |  |  |
+| [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | [[companies/COM-POSCO|가동·적용]] |  |  | [[companies/COM-Nippon-Steel|연구]] | [[companies/COM-JFE-Steel|가동·적용]] | [[companies/COM-Tata-Steel|가동·적용]] |  |  |  |  |  |  |
+| [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | [[companies/COM-POSCO|연구]] | [[companies/COM-ArcelorMittal|연구]] |  |  |  |  |  |  |  |  |  |  |
+| [[technologies/TEC-high-grade-eaf-and-scrap-impurity-removal|고급강 EAF·스크랩 불순물 제거]] | [[companies/COM-POSCO|EAF 가동·고급강 개발]] |  |  | [[companies/COM-Nippon-Steel|상용]] | [[companies/COM-JFE-Steel|계획·투자]] |  |  |  |  |  |  |  |
+| [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | [[companies/COM-POSCO|건설·구축]] |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|건설·구축]] | [[companies/COM-Rio-Tinto|실증]] |  |
+| [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] |  |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|파일럿]] |  |  |
+| [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]] |  |  |  |  |  |  |  |  |  |  | [[companies/COM-Rio-Tinto|일부 프로젝트 중단]] |  |
 
-> **표 읽는 법:** `● 확인`은 현재 저장소에 직접 근거가 연결된 조합이며, 빈 칸은 현재 화면에 표시할 직접 근거가 없다는 뜻입니다.
+> **단계 흐름:** 연구 → 소규모 시험·파일럿 → 실증 → 건설·구축 → 준공·시운전 → 가동·적용 → 상용
+>
+> **표 읽는 법:** 단계는 현재 저장소에 직접 연결된 Claim의 공개 표현을 보수적으로 분류한 것입니다. `계획·투자`, `조건부 계획`, `일부 프로젝트 중단`, `외부 전략투자`, `외부 연구 지원`은 성숙도 단계가 아닌 별도 실행 신호이며, `단계 미상`은 근거는 있으나 공개 정보만으로 단계를 구분하기 어렵다는 뜻입니다. 빈 칸은 현재 화면에 표시할 직접 근거가 없다는 뜻입니다.
+>
+> `저탄소 제철 종합 경로`는 단일 기술이 아니므로 기업 간 성숙도를 비교하지 않고 `경로·프로젝트 확인`으로만 표시합니다. 각 회사의 실제 설비·프로젝트 단계는 개별 기술 행과 연결된 상세 근거에서 확인합니다.
 
 ## 현재 관심사
 
@@ -114,6 +118,9 @@ flowchart LR
 
 ## 프로젝트
 
+- [[projects/PRJ-ARCELORMITTAL-DUNKIRK-EAF|ArcelorMittal Dunkirk 대형 전기로]]
+- [[projects/PRJ-ARCELORMITTAL-VOLTERON|ArcelorMittal–John Cockerill Volteron]]
+- [[projects/PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF|China Baowu Zhanjiang 수소 샤프트로–전기로 라인]]
 - [[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]]
 - [[projects/PRJ-BOSTON-METAL-MOE-WOBURN|Boston Metal Woburn MOE 산업 셀]]
 - [[projects/PRJ-CARBON2CHEM-DUISBURG|thyssenkrupp Duisburg Carbon2Chem]]
@@ -121,10 +128,16 @@ flowchart LR
 - [[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]
 - [[projects/PRJ-HYBRIT-LULEA-PILOT|HYBRIT 룰레오 수소 DRI 파일럿]]
 - [[projects/PRJ-HYFOR-DONAWITZ-PILOT|HYFOR Donawitz 수소환원 파일럿]]
+- [[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]
 - [[projects/PRJ-JFE-SINTER-CPS-ROLLOUT|JFE 일본 7개 소결설비 CPS 전개]]
 - [[projects/PRJ-LIGHTBOW-HPSR-CONTROL|LIGHTBOW HPSR 아크 제어 연구]]
 - [[projects/PRJ-MOLTEN-SULFIDE-ELECTROLYSIS|용융 황화물 전해 프로젝트]]
 - [[projects/PRJ-NEOSMELT-KWINANA|NeoSmelt Kwinana DRI–ESF 파일럿]]
+- [[projects/PRJ-NIPPON-HASAKI-H2-DRI|Nippon Steel Hasaki 수소 DRI 시험로]]
+- [[projects/PRJ-NIPPON-JAPAN-EAF-CONVERSION|Nippon Steel 일본 3개 거점 전기로 전환]]
+- [[projects/PRJ-NIPPON-KIMITSU-COURSE50|Nippon Steel Kimitsu COURSE50 실증]]
+- [[projects/PRJ-NUCOR-CONVENT-DRI-CCS|Nucor Convent DRI–CCS]]
+- [[projects/PRJ-NUCOR-GALLATIN-EAF-CCUS|Nucor Gallatin EAF 탄소포집 파일럿]]
 - [[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]
 - [[projects/PRJ-POSCO-GWANGYANG-ONE-TOUCH-CONVERTER|POSCO 광양 2전로 원터치 자동화]]
 - [[projects/PRJ-POSCO-HYREX-DEMO|POSCO 포항 HyREX 통합 실증]]
@@ -132,7 +145,9 @@ flowchart LR
 - [[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]
 - [[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]]
 - [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]]
+- [[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]
 - [[projects/PRJ-TATA-JAMSHEDPUR-BF-CCU|Tata Jamshedpur 고로가스 CCU]]
+- [[projects/PRJ-TATA-JAMSHEDPUR-EASYMELT|Tata Jamshedpur EASyMelt 산업 실증]]
 - [[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]]
 - [[projects/PRJ-ULCOS-TGR-BF|ULCOS 상부가스 재순환 고로]]
 
@@ -147,18 +162,21 @@ flowchart LR
 - 2027-12-31 · PRJ-TK-H2STEEL-DUISBURG · `target_commissioning_date` · created
 - 2027-12-31 · PRJ-TK-H2STEEL-DUISBURG · `hydrogen_network_date` · created
 - 2026-12-31 · PRJ-BIOIRON-WA-RD · `original_commissioning_target` · created
-- 2026-07-25 · TEC-smart-steelworks · `vvuq` · created
-- 2026-07-25 · TEC-smart-steelworks · `traceability` · created
-- 2026-07-25 · TEC-smart-steelworks · `technical_definition` · created
-- 2026-07-25 · TEC-smart-steelworks · `synchronization_requirement` · created
-- 2026-07-25 · TEC-smart-steelworks · `sensing_layer` · created
+- 2026-07-26 · TEC-microwave-biomass-ironmaking · `ore_feed_scope` · created
+- 2026-07-26 · TEC-microwave-biomass-ironmaking · `conference_process_configuration` · created
+- 2026-07-26 · TEC-low-temperature-aqueous-iron-electrolysis · `ore_feed_scope` · created
+- 2026-07-26 · TEC-low-temperature-aqueous-iron-electrolysis · `laboratory_electrolysis_condition` · created
+- 2026-07-26 · TEC-low-temperature-aqueous-iron-electrolysis · `academic_route_scope` · created
 
 ## 출처
 
+- [[sources/SRC-20260725-013F0FA1|HyREX Hydrogen Reduction Ironmaking]]
 - [[sources/SRC-20260725-017C8BAE|NIST SP 800-82 Rev. 3 Guide to Operational Technology Security]]
 - [[sources/SRC-20260725-043634EA|A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore]]
 - [[sources/SRC-20260725-054778AA|JFE Steel carbon-neutral strategy — carbon-recycling blast furnace]]
+- [[sources/SRC-20260725-0A7903EA|Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration]]
 - [[sources/SRC-20260725-0CC8B82B|Tata Steel first-in-world digital twin in sinter making]]
+- [[sources/SRC-20260725-11668643|Nucor Convent DRI carbon capture and storage agreement]]
 - [[sources/SRC-20260725-133D1C12|ROSIE Project Descriptions: Electra Low-Temperature Green Ironmaking]]
 - [[sources/SRC-20260725-147875E9|A new anode material for oxygen evolution in molten oxide electrolysis]]
 - [[sources/SRC-20260725-1486633E|Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K]]
@@ -168,8 +186,10 @@ flowchart LR
 - [[sources/SRC-20260725-1F1EA152|Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction]]
 - [[sources/SRC-20260725-238E8691|Emissions Measurement and Data Collection for a Net Zero Steel Industry]]
 - [[sources/SRC-20260725-26EA1CBD|MOE Steel: process, scale-up model, and current deployment status]]
+- [[sources/SRC-20260725-280A7FAC|Nippon Steel GX briefing: Hasaki hydrogen DRI test furnace]]
 - [[sources/SRC-20260725-285480DE|POSCO One-Touch Converter Operation Automation Technology]]
 - [[sources/SRC-20260725-28E5A30F|POSCO AI blast furnace and smart steelworks baseline]]
+- [[sources/SRC-20260725-29802D50|Tata Steel proceeds with phased EASyMelt industrial demonstration]]
 - [[sources/SRC-20260725-2B01239E|Iron and Steel Technology Roadmap]]
 - [[sources/SRC-20260725-2EABD949|Iron and Steel CCS Study — Techno-Economics Integrated Steel Mill]]
 - [[sources/SRC-20260725-2FA1B498|Project SuSteel: Sustainable steel production utilising hydrogen]]
@@ -181,7 +201,9 @@ flowchart LR
 - [[sources/SRC-20260725-34D63EEA|SUS-F Sustainable Steelmaking Follow Up]]
 - [[sources/SRC-20260725-34FFE3B8|DOE selects steel scrap copper-removal and molten sulfide electrolysis projects]]
 - [[sources/SRC-20260725-38165ABC|Iron and Steel Technology Roadmap]]
+- [[sources/SRC-20260725-38762376|JFE Steel to introduce advanced large-scale EAF at Kurashiki]]
 - [[sources/SRC-20260725-395D8A82|ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans]]
+- [[sources/SRC-20260725-3B0845FF|ArcelorMittal confirms intention to invest EUR 1.2 billion in Dunkirk]]
 - [[sources/SRC-20260725-3C2197EF|Boston Metal Celebrates Historic Commissioning Run of MOE Green Steel Cell]]
 - [[sources/SRC-20260725-3D62F9A6|Electra Launches Pilot Plant to Advance Commercialization of Sustainable Clean Iron Production]]
 - [[sources/SRC-20260725-3DA8B9C7|Sortera Technologies AI sensor sorting platform]]
@@ -192,6 +214,7 @@ flowchart LR
 - [[sources/SRC-20260725-45A1D063|Nippon Steel research and development for carbon-neutral steelmaking]]
 - [[sources/SRC-20260725-45CF187D|Impact of Hydrogen DRI on EAF Steelmaking]]
 - [[sources/SRC-20260725-46A2055D|Tata Steel commissions carbon capture plant for blast furnace gas at Jamshedpur]]
+- [[sources/SRC-20260725-46C2DBC8|Nippon Steel Kimitsu COURSE50 large-BF preparation status]]
 - [[sources/SRC-20260725-4C014458|POSCO and Electra partner on low-temperature clean iron]]
 - [[sources/SRC-20260725-4C776B11|Rio Tinto BioIron proves successful for low-carbon iron-making]]
 - [[sources/SRC-20260725-4E9EE842|Low-carbon technologies for the global steel transformation: Molten oxide electrolysis]]
@@ -200,11 +223,13 @@ flowchart LR
 - [[sources/SRC-20260725-67CAA465|BlueScope, BHP and Rio Tinto select WA for Australia’s largest ironmaking electric smelting furnace]]
 - [[sources/SRC-20260725-6B30EDDE|Tata Steel and SMS group plan EASyMelt industrial demonstration]]
 - [[sources/SRC-20260725-6C80084B|Tata Steel climate action technology roadmap]]
+- [[sources/SRC-20260725-6D04090A|DOE Round 5 selection: UK IDEA dual-loop capture at Nucor Steel Gallatin]]
 - [[sources/SRC-20260725-6EC0DF4D|Pathways to decarbonisation: the electric smelting furnace]]
 - [[sources/SRC-20260725-6F7C35D8|Circored Fine Ore Direct Reduction]]
 - [[sources/SRC-20260725-75A329BD|HYBRIT six-year pilot research results]]
 - [[sources/SRC-20260725-789AB58F|Tata Steel Nederland integrated decarbonisation project letter of intent]]
 - [[sources/SRC-20260725-79D4B2ED|Energy Technology Perspectives 2026 executive summary]]
+- [[sources/SRC-20260725-7D498404|China Baowu green development report: Zhanjiang hydrogen shaft furnace]]
 - [[sources/SRC-20260725-7DDD98E7|Image-Segmentation-Guided Fragmentized Steel Scrap Tramp Material Characterization]]
 - [[sources/SRC-20260725-7E6DFD33|JFE technical report on carbon-recycling blast furnace]]
 - [[sources/SRC-20260725-7E8ABC86|China launches first million-tonne near-zero-carbon steel line at Baowu]]
@@ -214,6 +239,7 @@ flowchart LR
 - [[sources/SRC-20260725-8D0BD4B8|thyssenkrupp Steel direct-reduction transformation project status]]
 - [[sources/SRC-20260725-973F138F|LIGHTBOW: Model-based control in metallurgical arc-plasma processes]]
 - [[sources/SRC-20260725-99B78C86|Sticking in Shaft Furnace and Fluidized Bed Ironmaking Processes: A Comprehensive Review Focusing on the Effect of Coating Materials]]
+- [[sources/SRC-20260725-9A98E2AF|European Commission approves German aid for thyssenkrupp Steel Duisburg transition]]
 - [[sources/SRC-20260725-9B4DDCDD|The Decarbonisation Progress Levels]]
 - [[sources/SRC-20260725-9D378E7F|ArcelorMittal invests $36 million in Boston Metal]]
 - [[sources/SRC-20260725-9DCCDB31|Nippon Steel Carbon Neutral Vision 2050]]
@@ -234,6 +260,7 @@ flowchart LR
 - [[sources/SRC-20260725-BD336973|Demand and Supply Measures for the Steel and Cement Transition]]
 - [[sources/SRC-20260725-BF5036AE|ExxonMobil and Nucor carbon capture agreement for Convent DRI plant]]
 - [[sources/SRC-20260725-C37A3042|Industry giants collaborating to seek to decarbonise steel]]
+- [[sources/SRC-20260725-C4A8EDA3|Swedish Energy Agency review of HYBRIT pilot phase]]
 - [[sources/SRC-20260725-C79793B1|Suppression of Surface Hot Shortness due to Cu in Recycled Steels]]
 - [[sources/SRC-20260725-C888600A|Tenova for POSCO Gwangyang plant]]
 - [[sources/SRC-20260725-C925BF86|Rio Tinto pauses BioIron pilot construction]]
@@ -242,24 +269,55 @@ flowchart LR
 - [[sources/SRC-20260725-CEDC4521|Carbon-free Iron for a Sustainable Future: Boston Metal IEDO Peer Review]]
 - [[sources/SRC-20260725-D230993B|MIDREX H2 current process configuration]]
 - [[sources/SRC-20260725-D37C44F7|Integrating Metallurgical Mechanisms and Explainable Deep Learning Methods to Predict Phosphorus Content in Electric Arc Furnace Steelmaking for Enhanced Efficiency]]
+- [[sources/SRC-20260725-D3C50354|DOE NEPA review for Iron Production by Molten Sulfide Electrolysis]]
 - [[sources/SRC-20260725-D6930918|Electra Technology: How the low-temperature iron process works]]
 - [[sources/SRC-20260725-D965F782|US11959153B2 Production of iron]]
 - [[sources/SRC-20260725-DAAEEC2B|Nippon Steel develops high-grade steel production in large EAFs]]
 - [[sources/SRC-20260725-DB8169D9|Impact of Iron Ore Pre-Reduction Degree on the Hydrogen Plasma Smelting Reduction Process]]
+- [[sources/SRC-20260725-DED07902|METI Green Steel for GX: Kurashiki EAF]]
 - [[sources/SRC-20260725-E316D68F|Construction begins on HYFOR and Smelter demonstration plant]]
+- [[sources/SRC-20260725-E3271B0A|Nippon Steel starts Yawata large-EAF conversion construction]]
 - [[sources/SRC-20260725-E493B07B|ULCOS top gas recycling blast furnace process — final report]]
+- [[sources/SRC-20260725-E5BC335B|Nippon Steel investment decision for three-site EAF conversion]]
 - [[sources/SRC-20260725-E5CFE77A|BioIron Pilot Plant Works Approval W6964/2024/1 Decision Report]]
+- [[sources/SRC-20260725-E71081D1|Tata Steel Nederland 2025-2026 Green Steel Project status]]
 - [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]]
 - [[sources/SRC-20260725-EE8A09EF|The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements]]
 - [[sources/SRC-20260725-F13F33CD|Properties evaluation of DRI smelting slag for molten iron production: viscosity and sulfide capacity]]
 - [[sources/SRC-20260725-F1D3EDEA|Rio Tinto develops BioIron R&D facility in Western Australia]]
 - [[sources/SRC-20260725-F2F9BB6E|Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz]]
+- [[sources/SRC-20260725-F396D188|Nippon Steel FY2025 results: carbon-neutral technology progress]]
 - [[sources/SRC-20260725-FAB12DBF|SSAB postpones Luleå mill commissioning to end-2029]]
+- [[sources/SRC-20260725-FBE26310|ArcelorMittal Volteron research and scale-up status]]
 - [[sources/SRC-20260725-FBF8EA9E|NeoSmelt pilot project — Legislative Council answer]]
 - [[sources/SRC-20260725-FE22DEFE|voestalpine researches hydrogen plasma steelmaking in SuSteel]]
+- [[sources/SRC-20260725-FE353D3A|Nucor and University of Kentucky carbon-capture pilot at Gallatin]]
 - [[sources/SRC-20260725-FED4B2D7|Carbon2Chem technical center in Duisburg]]
 - [[sources/SRC-20260725-FF076FE4|POSCO decarbonization strategies from CCUS to HyREX]]
+- [[sources/SRC-20260726-10602BC9|Chemical and electrochemical pathways to low-carbon iron and steel]]
+- [[sources/SRC-20260726-3F53AC8C|Low temperature electrolysis for iron production via conductive colloidal electrode]]
+- [[sources/SRC-20260726-443630DE|Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach]]
+- [[sources/SRC-20260726-6AADACF1|Routes to reducing emissions from steel production]]
+- [[sources/SRC-20260726-6CC774DD|Electric Smelting Furnace-Based Flowsheets]]
+- [[sources/SRC-20260726-7A19874F|Rio Tinto Steel Decarbonisation and Biomass Ironmaking]]
+- [[sources/SRC-20260726-7BCEED6F|ΣIDERWIN—A New Route for Iron Production]]
+- [[sources/SRC-20260726-9F56DB69|Volteron — Scalable Electrochemical Ironmaking for Green Steel Production]]
+- [[sources/SRC-20260726-B392BD57|Profitable Decarbonization of the Blast Furnace Through Electrified Top-Gas Recycling]]
+- [[sources/SRC-20260726-B9ACCB8F|Low-Temperature Electrowinning of Iron from Mixed Hematite-Magnetite Alkaline Suspensions]]
+- [[sources/SRC-20260726-CEDF7736|Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation]]
+- [[sources/SRC-20260726-DEF03677|Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management]]
+- [[sources/SRC-20260726-E01E47B8|Smelter — Green Steelmaking Using Low-Grade DRI]]
+- [[sources/SRC-20260726-EADB3777|Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction]]
 
 ## 최근 동향 보고서
 
-- 아직 발행된 동향 보고서가 없습니다. [동향 보고서 안내](reports/index.md)
+- [2026년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2026-h1.md)
+- [2024년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2024-h1.md)
+- [2025년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2025-h2.md)
+- [2025년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2025-h1.md)
+- [2024년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2024-h2.md)
+- [2023년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2023-h2.md)
+- [2023년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2023-h1.md)
+- [2022년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2022-h2.md)
+- [2022년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2022-h1.md)
+- [2021년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2021-h2.md)

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-70B9EF9408A9",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "process_configuration",
+  "value": "AIST 2026 발표의 디지털 스크랩 입고 범위는 자동 분류, 트럭 용적·중량·밀도, 성분, MES/ERP 연계, 위험물 탐지와 특성화를 포함한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260726-DEF03677"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "공급사 발표에서 명시한 시스템 기능 범위",
+      "source_ids": [
+        "SRC-20260726-DEF03677"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E515D8FF262D",
+  "subject_id": "PRJ-NIPPON-JAPAN-EAF-CONVERSION",
+  "predicate": "funding_amount",
+  "value": "GX Promotion Act 정부지원 최대 JPY 251.4 billion: Yawata 179.9bn, Hirohata 42.8bn, Shunan 28.7bn",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E5BC335B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "공식 정부지원 상한 등록",
+      "source_ids": [
+        "SRC-20260725-E5BC335B"
+      ]
+    }
+  ]
+}

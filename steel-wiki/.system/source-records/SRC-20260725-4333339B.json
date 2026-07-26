@@ -14,5 +14,21 @@
   "raw_path": ".system/raw/SRC-20260725-4333339B.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Henri Pauna",
+      "Isnaldi R. Souza Filho",
+      "Michael Kulse",
+      "Matic Jovičević-Klug",
+      "Hauke Springer",
+      "Marko Huttula",
+      "Timo Fabritius",
+      "Dierk Raabe"
+    ],
+    "venue": "Metallurgical and Materials Transactions B",
+    "doi": "10.1007/s11663-025-03610-y",
+    "peer_review_status": "peer_reviewed"
+  }
 }

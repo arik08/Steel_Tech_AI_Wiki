@@ -78,11 +78,21 @@ function Get-WikiLanIPv4Address {
     }
 }
 
+function Get-WikiBrowserUrl {
+    param($LanAddress)
+
+    if ($null -ne $LanAddress) {
+        return "http://${LanAddress}:8000/"
+    }
+    return $LocalUrl
+}
+
 function Start-WikiLauncher {
     Set-Location $WikiRoot
     Stop-ExistingWikiServers
 
     $lanAddress = Get-WikiLanIPv4Address
+    $browserUrl = Get-WikiBrowserUrl -LanAddress $lanAddress
     Write-Host "Starting the Steel Technology Intelligence wiki..."
     Write-Host "Local URL: $LocalUrl"
     if ($null -ne $lanAddress) {
@@ -99,7 +109,7 @@ function Start-WikiLauncher {
         while ($true) {
             $server = Start-WikiServer
             if ($openBrowser) {
-                Start-Process $LocalUrl
+                Start-Process $browserUrl
                 $openBrowser = $false
             }
 

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-69FD64FE257D",
+  "subject_id": "PRJ-NIPPON-HASAKI-H2-DRI",
+  "predicate": "facility_footprint",
+  "value": "시험 부지 약 80 m × 200 m",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-280A7FAC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Hasaki 설비 규모 등록",
+      "source_ids": [
+        "SRC-20260725-280A7FAC"
+      ]
+    }
+  ]
+}

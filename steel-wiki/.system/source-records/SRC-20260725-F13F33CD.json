@@ -4,7 +4,7 @@
   "url": "https://doi.org/10.1007/s42243-025-01583-5",
   "canonical_url": "https://doi.org/10.1007/s42243-025-01583-5",
   "publisher": "Journal of Iron and Steel Research International",
-  "published_at": null,
+  "published_at": "2025-08-16",
   "collected_at": "2026-07-25",
   "source_type": "academic",
   "language": "en",
@@ -14,5 +14,17 @@
   "raw_path": ".system/raw/SRC-20260725-F13F33CD.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Wen-guo Liu",
+      "Zhuo-gang Pang",
+      "Jian-lu Zheng",
+      "Hai-bin Zuo"
+    ],
+    "venue": "Journal of Iron and Steel Research International",
+    "doi": "10.1007/s42243-025-01583-5",
+    "peer_review_status": "peer_reviewed"
+  }
 }

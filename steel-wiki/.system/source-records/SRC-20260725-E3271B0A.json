@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-20260725-E3271B0A",
+  "title": "Nippon Steel starts Yawata large-EAF conversion construction",
+  "url": "https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html",
+  "canonical_url": "https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html",
+  "publisher": "Nippon Steel Corporation",
+  "published_at": "2026-04-15",
+  "collected_at": "2026-07-25",
+  "source_type": "company_release",
+  "language": "ja",
+  "reliability": "primary",
+  "content_sha256": "e3271b0ad9ad2c1b665607c51ff09132ee150584637eb3d9dafa2e1c303dc8f1",
+  "raw_sha256": "503de64eba8f789e00c67d5fe0242abec812594f69b3b223683ab3abb233ccb9",
+  "raw_path": ".system/raw/SRC-20260725-E3271B0A.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-A34A6CFFDDAC",
+      "kind": "facility_photo",
+      "caption": "Nippon Steel 공식 원문의 Yawata 전기로 전환 건설 예정지 자료; 실제 완공 설비 사진이 아님",
+      "alt_text": "Yawata 대형 전기로 전환 프로젝트의 공식 건설 예정지 이미지",
+      "creator": "Nippon Steel Corporation",
+      "image_url": "https://www.nipponsteel.com/newsroom/news/2026/__icsFiles/artimage/2026/04/15/cj4_n2026/0415_03_2.png",
+      "origin_url": "https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html",
+      "rights_status": "link_only",
+      "rights_note": "Nippon Steel 공식 발표 페이지의 원격 이미지를 복제하지 않고 직접 표시",
+      "collected_at": "2026-07-25",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "COM-Nippon-Steel",
+        "PRJ-NIPPON-JAPAN-EAF-CONVERSION"
+      ]
+    }
+  ]
+}

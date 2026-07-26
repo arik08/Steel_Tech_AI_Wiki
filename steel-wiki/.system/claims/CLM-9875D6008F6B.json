@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9875D6008F6B",
+  "subject_id": "PRJ-NIPPON-JAPAN-EAF-CONVERSION",
+  "predicate": "technology_route",
+  "value": "고로 상공정을 대형 전기로로 전환하고 고급강 제조·물류·전력공급·후단 에너지 설비를 함께 구축",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-E5BC335B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "Nippon Steel 전기로 전환 경로 등록",
+      "source_ids": [
+        "SRC-20260725-E5BC335B"
+      ]
+    }
+  ]
+}

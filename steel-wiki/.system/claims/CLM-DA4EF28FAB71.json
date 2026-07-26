@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DA4EF28FAB71",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "process_configuration",
+  "value": "학회 발표 사례는 스크랩 입고 영상·계측을 화학성분 및 MES/ERP와 연결하는 cloud/edge 기반 운영 구성을 제시했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260726-DEF03677"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "스마트 제철소 운영 시스템의 실제 발표 범위",
+      "source_ids": [
+        "SRC-20260726-DEF03677"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "claim_id": "CLM-717B360D107E",
+  "subject_id": "COM-Tata-Steel",
+  "predicate": "electric_smelting_furnace_status",
+  "value": "2026-04-21 Jamshedpur 649 m3 E고로의 EASyMelt 단계적 산업 실증을 위한 확정 계약 체결; 시운전일과 실제 감축 실적은 미공개",
+  "status": "superseded",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-29802D50"
+  ],
+  "supersedes": [
+    "CLM-0A96204A7D45"
+  ],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2023 MoU 이후 확정 계약으로 상태 갱신",
+      "source_ids": [
+        "SRC-20260725-29802D50"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "review_supersede",
+      "reason": "2026-04-21 확정 계약은 2023 MoU 단계보다 최신이고 실행 의사 수준이 상향되어 기존 상태를 대체함"
+    },
+    {
+      "date": "2026-07-25",
+      "action": "taxonomy_correction",
+      "reason": "교차검증 결과 EASyMelt는 DRI 전기용융로(ESF)가 아니라 기존 고로의 전기보조 합성가스 재순환 개조 기술로 확인되어 easymelt_status로 재분류",
+      "replacement_claim_id": "CLM-39E60F4CBED8"
+    }
+  ]
+}

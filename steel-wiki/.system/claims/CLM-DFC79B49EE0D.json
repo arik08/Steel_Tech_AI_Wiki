@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DFC79B49EE0D",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "scale_up_plan",
+  "value": "Volteron 개발사 발표는 1 m² 파일럿 성숙도와 규제 여건을 전제로 2026년 40–80 kt/y step-up plant 계약 로드맵을 제시했다. 이는 계획이며 가동 실적이 아니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260726-9F56DB69"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "AIST 공식 학회자료의 로드맵과 조건부 주석을 함께 반영",
+      "source_ids": [
+        "SRC-20260726-9F56DB69"
+      ]
+    }
+  ]
+}

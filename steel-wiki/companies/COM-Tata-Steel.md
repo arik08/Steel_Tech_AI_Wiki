@@ -4,18 +4,23 @@
 
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
+
+![고로 상부가스를 세정·개질하고 플라즈마로 가열해 열풍구로 재주입하는 폐회로 개념 구성](../assets/media/SRC-20260725-29802D50/MED-4B6744FBED5B.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+
+*대표 이미지 — EASyMelt의 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 가열·열풍구 주입 경로 AI 재구성. Jamshedpur E고로의 준공도가 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-29802D50|SRC-20260725-29802D50]] · [원문 페이지](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology))*
+
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 5개 / 감시 기술 11개 |
-    | **실행 단계** | 계획·투자 1건 · 연구·실증 1건 · 가동·현장 적용 1건 · 공식 현황 확인 2건 |
-    | **직접 연결 근거** | 3건 |
+    | **확인된 기술** | 4개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 3개 |
+    | **실행 단계** | 계획·투자 1건 · 가동·현장 적용 1건 · 공식 현황 확인 2건 |
+    | **직접 연결 근거** | 7건 |
 
 !!! warning "주의해서 볼 항목"
 
     - **수소 직접환원철 (Hydrogen DRI):** Tata Steel Nederland DRP는 초기 천연가스, 경제성 확보 시 biomethane·수소를 단계 도입하는 조건부 계획 [^src-20260725-789ab58f]
-    - **전기용융로 (Electric Smelting Furnace):** EASyMelt electric-assisted syngas smelter 공동 산업 실증을 위한 MoU 단계; 완료 실증은 미확인 [^src-20260725-6b30edde]
 
 ## 기술 포트폴리오
 
@@ -24,7 +29,6 @@
 | 기술 | 현재 확인 내용 | 단계 |
 | --- | --- | --- |
 | **[[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]]** | Tata Steel Nederland DRP는 초기 천연가스, 경제성 확보 시 biomethane·수소를 단계 도입하는 조건부 계획 [^src-20260725-789ab58f] | **계획·투자** |
-| **[[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]]** | EASyMelt electric-assisted syngas smelter 공동 산업 실증을 위한 MoU 단계; 완료 실증은 미확인 [^src-20260725-6b30edde] | **연구·실증** |
 | **[[technologies/TEC-blast-furnace-ccus|고로 CCUS]]** | Jamshedpur 고로가스 5 t/day CCU 파일럿 운영; Nederland DRP에 후속 CCS 추가 계획 [^src-20260725-6c80084b][^src-20260725-789ab58f] | **가동·현장 적용** |
 | **[[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]]** | scrap EAF 확대, Nederland DRI-EAF, 인도 수소·CCU scale-up의 복수 경로 [^src-20260725-6c80084b][^src-20260725-789ab58f] | **공식 현황 확인** |
 | **[[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]** | 소결 Digital Twin과 Jamshedpur·Kalinganagar·IJmuiden WEF Global Lighthouse 확인 [^src-20260725-6c80084b] | **공식 현황 확인** |
@@ -40,16 +44,6 @@
     **확인 날짜:** 발표 2025-09-29 · 검증 2026-07-25
 
     **다음 확인:** 실제 수소 사용 비율, 연간 DRI 생산량, 천연가스에서 수소로 전환하는 시점, 수소·가열 전력 원단위, 금속화율·제품 탄소와 상용 연속운전 실적을 확인해야 합니다.
-
-??? info "전기용융로 (Electric Smelting Furnace) · 연구·실증"
-
-    **확인된 사실:** EASyMelt electric-assisted syngas smelter 공동 산업 실증을 위한 MoU 단계; 완료 실증은 미확인 [^src-20260725-6b30edde]
-
-    **판단 기준:** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
-
-    **확인 날짜:** 발표 2023-06-14 · 검증 2026-07-25
-
-    **다음 확인:** 시험 규모와 상업 설비의 차이, 투입 원료 품위·금속화율, 탄소·전력원단위, 철 회수율, 슬래그량·조성, 전극·내화물 수명과 후단 BOF·EAF 통합 여부를 확인해야 합니다.
 
 ??? info "고로 CCUS · 가동·현장 적용"
 
@@ -81,22 +75,141 @@
 
     **다음 확인:** 적용 공정·설비 수·운전기간, 모델 입력과 검증 기준, 조언·사람 승인·폐루프 중 실제 권한, 수동 전환·인터록·OT 보안, 기준선이 공개된 정량 성과와 다른 공장으로의 재현 여부를 확인해야 합니다.
 
+## 사업화·프로젝트 지표
+
+| 항목 | 현재 확인 내용 |
+| --- | --- |
+| **EASyMelt 고로 개조 상태** | 2026-04-21 Jamshedpur 649 m3 E고로를 전기보조 합성가스 재순환 방식으로 단계 개조하는 EASyMelt 산업 실증 확정 계약 체결; DRI 전기용융로(ESF)와는 다른 고로 개조 기술이며 시운전일과 실제 감축 실적은 미공개 [^src-20260725-29802d50] |
+
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]** | Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음 [^src-20260725-e71081d1] | **기술 경로** 초기 천연가스 사용이 가능한 직접환원로와 EAF를 도입하고 향후 바이오메탄·수소 비율을 높이는 전환 경로 [^src-20260725-6c80084b] · **위치** IJmuiden, Netherlands [^src-20260725-e71081d1] |
+| **[[projects/PRJ-TATA-JAMSHEDPUR-BF-CCU|Tata Jamshedpur 고로가스 CCU]]** | 5 t-CO2/day 아민 포집설비가 FY2023-24 기준 1년 이상 24/7 운전됐고, 포집 CO2를 공정 내 활용하며 추가 설비 확대를 검토 중 [^src-20260725-3176f88e] | **기술 경로** 비연소 고로가스 → 아민 흡수식 CO2 포집 → CO2 제거 가스는 제철소 가스망 환류 → 포집 CO2 현장 활용 [^src-20260725-46a2055d] · **위치** Jamshedpur Works, India [^src-20260725-46a2055d] · **일일 CO2 포집능력** 5 t-CO2/day [^src-20260725-46a2055d] |
+| **[[projects/PRJ-TATA-JAMSHEDPUR-EASYMELT|Tata Jamshedpur EASyMelt 산업 실증]]** | 2023년 MoU와 front-end loading 검토를 거쳐 2026-04-21 확정 계약 후 단계적 산업 실증 추진 단계 [^src-20260725-29802d50] | **기술 경로** 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 토치 가열을 결합한 electrically-assisted syngas smelter [^src-20260725-6b30edde] · **위치** Jamshedpur Works E blast furnace, India [^src-20260725-29802d50] |
+
+## 프로젝트별 상세
+
+??? info "Tata Steel IJmuiden DRP–EAF 전환"
+
+    **프로젝트 문서:** [[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **목표 준공 시점** | 2030년 전환 목표를 유지하지만 확정 시운전 일정은 미공개 [^src-20260725-e71081d1] |
+    | **스크랩 사용 목표** | 2019년 17%에서 2030년 30%로 재활용 철원 비중 확대 목표 [^src-20260725-e71081d1] |
+    | **거점별 설비 범위** | Green Steel Project Phase 1: IJmuiden 고로 7호·코크스가스공장 2호 폐쇄와 DRP-EAF 신설 [^src-20260725-e71081d1] |
+    | **공개 성과의 한계** | DRP·EAF 설계용량, 수소 전환 일정, 투자비, FID와 착공일은 현재 공개 자료에서 확정되지 않음 [^src-20260725-e71081d1] |
+    | **위치** | IJmuiden, Netherlands [^src-20260725-e71081d1] |
+    | **설비 구성** | Blast Furnace 7과 Coke and Gas Plant 2를 DRP와 EAF로 대체하는 1단계 범위 [^src-20260725-e71081d1] |
+    | **프로젝트 상태** | Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음 [^src-20260725-e71081d1] |
+    | **기술 경로** | 초기 천연가스 사용이 가능한 직접환원로와 EAF를 도입하고 향후 바이오메탄·수소 비율을 높이는 전환 경로 [^src-20260725-6c80084b] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2026-05-01 | 발표·검증 | **목표 준공 시점**: 2030년 전환 목표를 유지하지만 확정 시운전 일정은 미공개 · **스크랩 사용 목표**: 2019년 17%에서 2030년 30%로 재활용 철원 비중 확대 목표 · **거점별 설비 범위**: Green Steel Project Phase 1: IJmuiden 고로 7호·코크스가스공장 2호 폐쇄와 DRP-EAF 신설 · **공개 성과의 한계**: DRP·EAF 설계용량, 수소 전환 일정, 투자비, FID와 착공일은 현재 공개 자료에서 확정되지 않음 · **위치**: IJmuiden, Netherlands · **설비 구성**: Blast Furnace 7과 Coke and Gas Plant 2를 DRP와 EAF로 대체하는 1단계 범위 · **프로젝트 상태**: Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음 [^src-20260725-e71081d1] |
+    | 2026-07-25 | 수집 확인 | **기술 경로**: 초기 천연가스 사용이 가능한 직접환원로와 EAF를 도입하고 향후 바이오메탄·수소 비율을 높이는 전환 경로 [^src-20260725-6c80084b] |
+    | 2030 | 목표 일정 | **목표 준공 시점**: 2030년 전환 목표를 유지하지만 확정 시운전 일정은 미공개 [^src-20260725-e71081d1] |
+
+??? info "Tata Jamshedpur 고로가스 CCU"
+
+    **프로젝트 문서:** [[projects/PRJ-TATA-JAMSHEDPUR-BF-CCU|Tata Jamshedpur 고로가스 CCU]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **위치** | Jamshedpur Works, India [^src-20260725-46a2055d] |
+    | **일일 CO2 포집능력** | 5 t-CO2/day [^src-20260725-46a2055d] |
+    | **가동·시운전 확인 시점** | 2021-09-14 [^src-20260725-46a2055d] |
+    | **배출 경계** | 소규모 CCU 활용 실증이며 지중 영구저장이나 Jamshedpur 제철소 전체 순회피량은 공표되지 않음 [^src-20260725-3176f88e] |
+    | **활용 경로** | 폐수 pH 저감 및 LD 전로 저취에서 질소·아르곤 일부 대체 [^src-20260725-3176f88e] |
+    | **공급사 구성** | Tata Steel 운영, Carbon Clean 포집기술 지원 [^src-20260725-46a2055d] |
+    | **프로젝트 상태** | 5 t-CO2/day 아민 포집설비가 FY2023-24 기준 1년 이상 24/7 운전됐고, 포집 CO2를 공정 내 활용하며 추가 설비 확대를 검토 중 [^src-20260725-3176f88e] |
+    | **제품 순도** | 포집 CO2 97% 순도, wet basis [^src-20260725-3176f88e] |
+    | **기술 경로** | 비연소 고로가스 → 아민 흡수식 CO2 포집 → CO2 제거 가스는 제철소 가스망 환류 → 포집 CO2 현장 활용 [^src-20260725-46a2055d] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2021-09-14 | 발표·검증 | **위치**: Jamshedpur Works, India · **일일 CO2 포집능력**: 5 t-CO2/day · **가동·시운전 확인 시점**: 2021-09-14 · **공급사 구성**: Tata Steel 운영, Carbon Clean 포집기술 지원 · **기술 경로**: 비연소 고로가스 → 아민 흡수식 CO2 포집 → CO2 제거 가스는 제철소 가스망 환류 → 포집 CO2 현장 활용 [^src-20260725-46a2055d] |
+    | 2024-06-12 | 발표·검증 | **배출 경계**: 소규모 CCU 활용 실증이며 지중 영구저장이나 Jamshedpur 제철소 전체 순회피량은 공표되지 않음 · **활용 경로**: 폐수 pH 저감 및 LD 전로 저취에서 질소·아르곤 일부 대체 · **프로젝트 상태**: 5 t-CO2/day 아민 포집설비가 FY2023-24 기준 1년 이상 24/7 운전됐고, 포집 CO2를 공정 내 활용하며 추가 설비 확대를 검토 중 · **제품 순도**: 포집 CO2 97% 순도, wet basis [^src-20260725-3176f88e] |
+
+??? info "Tata Jamshedpur EASyMelt 산업 실증"
+
+    **프로젝트 문서:** [[projects/PRJ-TATA-JAMSHEDPUR-EASYMELT|Tata Jamshedpur EASyMelt 산업 실증]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **위치** | Jamshedpur Works E blast furnace, India [^src-20260725-29802d50] |
+    | **기술 경로** | 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 토치 가열을 결합한 electrically-assisted syngas smelter [^src-20260725-6b30edde] |
+    | **공개 성과의 한계** | 시운전 목표일·투자비·실제 감축 실적·연속운전 조건은 공개되지 않음 [^src-20260725-29802d50] |
+    | **업무협약 시점** | 2023-06 Tata Steel과 SMS group MoU [^src-20260725-6b30edde] |
+    | **서호주 투자 발표** | 2026-04-21 확정 계약과 단계적 추진 결정 발표 [^src-20260725-29802d50] |
+    | **예상 CO2 감축** | 기준 고로 운전 대비 CO2 50% 초과 감축 목표 [^src-20260725-29802d50] |
+    | **참여 기관** | Tata Steel, Paul Wurth S.A.와 SMS group [^src-20260725-29802d50] |
+    | **프로젝트 상태** | 2023년 MoU와 front-end loading 검토를 거쳐 2026-04-21 확정 계약 후 단계적 산업 실증 추진 단계 [^src-20260725-29802d50] |
+    | **노 용적** | 649 m³ E 고로 [^src-20260725-29802d50] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2023-06 | 협력 이력 | **업무협약 시점**: 2023-06 Tata Steel과 SMS group MoU [^src-20260725-6b30edde] |
+    | 2023-06-14 | 발표·검증 | **기술 경로**: 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 토치 가열을 결합한 electrically-assisted syngas smelter · **업무협약 시점**: 2023-06 Tata Steel과 SMS group MoU [^src-20260725-6b30edde] |
+    | 2026-04-21 | 발표·검증 | **위치**: Jamshedpur Works E blast furnace, India · **공개 성과의 한계**: 시운전 목표일·투자비·실제 감축 실적·연속운전 조건은 공개되지 않음 · **서호주 투자 발표**: 2026-04-21 확정 계약과 단계적 추진 결정 발표 · **예상 CO2 감축**: 기준 고로 운전 대비 CO2 50% 초과 감축 목표 · **참여 기관**: Tata Steel, Paul Wurth S.A.와 SMS group · **프로젝트 상태**: 2023년 MoU와 front-end loading 검토를 거쳐 2026-04-21 확정 계약 후 단계적 산업 실증 추진 단계 · **노 용적**: 649 m³ E 고로 [^src-20260725-29802d50] |
+    | 2026-04-21 | 투자 발표 | **서호주 투자 발표**: 2026-04-21 확정 계약과 단계적 추진 결정 발표 [^src-20260725-29802d50] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
 
     - 확인된 사실만으로 기술 경쟁력을 단일 순위로 평가하지 않았습니다. 실증 규모, 상용 운전, 원료·에너지 조건이 서로 다르기 때문입니다.
-    - 현재 자료의 실행 단계 분포는 계획·투자 1건 · 연구·실증 1건 · 가동·현장 적용 1건 · 공식 현황 확인 2건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
+    - 현재 자료의 실행 단계 분포는 계획·투자 1건 · 가동·현장 적용 1건 · 공식 현황 확인 2건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
     - 다음 갱신에서는 목표치보다 착공·준공·누적 생산량·가동률·제품 단위 배출량처럼 실행을 입증하는 지표를 우선 확인하는 것이 좋습니다.
+
+??? note "변경 이력"
+
+    - **electric smelting furnace status · 후속 정보로 대체:** EASyMelt electric-assisted syngas smelter 공동 산업 실증을 위한 MoU 단계; 완료 실증은 미확인 [^src-20260725-6b30edde]
+    - **electric smelting furnace status · 후속 정보로 대체:** 2026-04-21 Jamshedpur 649 m3 E고로의 EASyMelt 단계적 산업 실증을 위한 확정 계약 체결; 시운전일과 실제 감축 실적은 미공개 [^src-20260725-29802d50]
+
+## 설비·공정 이미지
+
+![배관과 흡수설비로 구성된 Tata Steel Jamshedpur 고로가스 탄소포집 설비](<https://www.tatasteel.com/media/14387/facillity-pic_1-1.jpg>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Tata Steel Jamshedpur 5 TPD 고로가스 CO2 포집설비 공식 사진
+
+- 출처 [[sources/SRC-20260725-46A2055D|SRC-20260725-46A2055D]] · 권리 `link_only` · [원문 페이지](https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur) · 작성·촬영 Tata Steel
+- 권리 메모: Tata Steel 공식 보도자료 원본 사진을 외부 링크로만 표시
+
+![해안 제철소에서 샤프트 직접환원로의 DRI와 스크랩이 대형 전기로로 연결되고 기존 고로가 배경에 남아 있는 전환 개념도](../assets/media/SRC-20260725-E71081D1/MED-9911B32AD15F.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** IJmuiden Green Steel 1단계의 DRP–EAF·스크랩 통합 전환 경로 AI 재구성. 최종 설계나 착공 완료 상태를 나타내지 않음
+
+- 출처 [[sources/SRC-20260725-E71081D1|SRC-20260725-E71081D1]] · 권리 `ai_generated` · [원문 페이지](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: Tata Steel Nederland 연차보고서의 계획 범위를 바탕으로 생성했으며 FID·준공도·실제 공사진척의 증거가 아님
+
 
 ## 근거 자료
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-29802D50|Tata Steel proceeds with phased EASyMelt industrial demonstration]] | Tata Steel · 2026-04-21 | [원문 보기](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology/) |
+| [[sources/SRC-20260725-3176F88E|Tata Steel FY2023-24 Jamshedpur CCU operating update]] | Tata Steel · 2024-06-12 | [원문 보기](https://www.tatasteel.com/investors/integrated-report-2023-24/shaping-a-cleaner-tomorrow.html) |
+| [[sources/SRC-20260725-46A2055D|Tata Steel commissions carbon capture plant for blast furnace gas at Jamshedpur]] | Tata Steel · 2021-09-14 | [원문 보기](https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur/) |
 | [[sources/SRC-20260725-6B30EDDE|Tata Steel and SMS group plan EASyMelt industrial demonstration]] | Tata Steel · 2023-06-14 | [원문 보기](https://www.tatasteel.com/media/newsroom/press-releases/india/2023/tata-steel-limited-signs-a-mou-with-germany-s-sms-group-to-collaborate-on-decarbonisation-technology/) |
 | [[sources/SRC-20260725-6C80084B|Tata Steel climate action technology roadmap]] | Tata Steel · 게시일 미상 | [원문 보기](https://www.tatasteel.com/sustainability/environment/climate-action/) |
 | [[sources/SRC-20260725-789AB58F|Tata Steel Nederland integrated decarbonisation project letter of intent]] | Tata Steel · 2025-09-29 | [원문 보기](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/) |
+| [[sources/SRC-20260725-E71081D1|Tata Steel Nederland 2025-2026 Green Steel Project status]] | Tata Steel Nederland · 2026-05-01 | [원문 보기](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) |
 
+[^src-20260725-29802d50]: **Tata Steel proceeds with phased EASyMelt industrial demonstration** — Tata Steel, 2026-04-21. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology/) · [[sources/SRC-20260725-29802D50|보관 원문·메타데이터]]
+[^src-20260725-3176f88e]: **Tata Steel FY2023-24 Jamshedpur CCU operating update** — Tata Steel, 2024-06-12. [원문](https://www.tatasteel.com/investors/integrated-report-2023-24/shaping-a-cleaner-tomorrow.html) · [[sources/SRC-20260725-3176F88E|보관 원문·메타데이터]]
+[^src-20260725-46a2055d]: **Tata Steel commissions carbon capture plant for blast furnace gas at Jamshedpur** — Tata Steel, 2021-09-14. [원문](https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur/) · [[sources/SRC-20260725-46A2055D|보관 원문·메타데이터]]
 [^src-20260725-6b30edde]: **Tata Steel and SMS group plan EASyMelt industrial demonstration** — Tata Steel, 2023-06-14. [원문](https://www.tatasteel.com/media/newsroom/press-releases/india/2023/tata-steel-limited-signs-a-mou-with-germany-s-sms-group-to-collaborate-on-decarbonisation-technology/) · [[sources/SRC-20260725-6B30EDDE|보관 원문·메타데이터]]
 [^src-20260725-6c80084b]: **Tata Steel climate action technology roadmap** — Tata Steel, 게시일 미상. [원문](https://www.tatasteel.com/sustainability/environment/climate-action/) · [[sources/SRC-20260725-6C80084B|보관 원문·메타데이터]]
 [^src-20260725-789ab58f]: **Tata Steel Nederland integrated decarbonisation project letter of intent** — Tata Steel, 2025-09-29. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/) · [[sources/SRC-20260725-789AB58F|보관 원문·메타데이터]]
+[^src-20260725-e71081d1]: **Tata Steel Nederland 2025-2026 Green Steel Project status** — Tata Steel Nederland, 2026-05-01. [원문](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) · [[sources/SRC-20260725-E71081D1|보관 원문·메타데이터]]

@@ -44,4 +44,15 @@ if ($source -notmatch 'RedirectStandardInput = \$true') {
     throw "MkDocs must not consume the launcher control key."
 }
 
+$intranetUrl = Get-WikiBrowserUrl `
+    -LanAddress ([System.Net.IPAddress]::Parse("10.20.30.40"))
+if ($intranetUrl -ne "http://10.20.30.40:8000/") {
+    throw "The browser must use the detected intranet URL by default."
+}
+
+$fallbackUrl = Get-WikiBrowserUrl -LanAddress $null
+if ($fallbackUrl -ne $LocalUrl) {
+    throw "The browser must fall back to the local URL without a LAN address."
+}
+
 Write-Host "wiki_run.ps1 tests passed."

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-FC5CA9A6929A",
+  "subject_id": "PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF",
+  "predicate": "reducing_gas_composition",
+  "value": "수소 70%의 고수소 환원 조건을 검증했다고 회사 보고; 완전 수소 운전의 장기 실적은 미확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-7D498404"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "회사 발표 범위와 한계 보존",
+      "source_ids": [
+        "SRC-20260725-7D498404"
+      ]
+    }
+  ]
+}

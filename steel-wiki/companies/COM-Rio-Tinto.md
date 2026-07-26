@@ -2,15 +2,21 @@
 
 # Rio Tinto 기술 현황
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-26** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+
+
+![마이크로웨이브 발생기와 도파관, 질소 공급, 반응 캐비티 내부 브리켓을 표시한 특허 실험장치도](<https://patentimages.storage.googleapis.com/94/09/e2/0ec72830c4b438/US11959153-20240416-D00005.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
+
+*대표 이미지 — US11959153B2 Figure 8: 2 kW 마이크로웨이브 발생기, 자동 튜너, 도파관, PC 제어, 질소 공급·배가스 배출, 내화물과 바이오매스-철광석 브리켓을 포함한 실험 처리장치 (특허 도면 · 권리 `link_only` · 출처 [[sources/SRC-20260725-D965F782|SRC-20260725-D965F782]] · [원문 페이지](https://patents.google.com/patent/US11959153B2/en))*
 
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 3개 / 감시 기술 11개 |
+    | **연결 프로젝트** | 4개 |
     | **실행 단계** | 연구·실증 2건 · 중단·연기 신호 1건 |
-    | **직접 연결 근거** | 5건 |
+    | **직접 연결 근거** | 15건 |
 
 !!! warning "주의해서 볼 항목"
 
@@ -58,6 +64,156 @@
 
     **다음 확인:** 중단된 1 t/h 설계의 재개 또는 대체 노형, 최대 12개 혼의 실제 전자장 균일도, 연속 브리켓 이송·붕괴율, 금속화율·철 수율·제품 탄소, 전력·천연가스·바이오매스 원단위, 타르·분진·슬래그, 지속가능성 인증과 후단 용융 품질을 확인해야 합니다.
 
+## 주요 프로젝트
+
+회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
+
+| 프로젝트 | 현재 상태 | 핵심 일정·규모 |
+| --- | --- | --- |
+| **[[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]]** | 서호주 1 t/h BioIron 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 기술 R&D는 지속 [^src-20260725-c925bf86] | **기술 경로** 철광석-바이오매스 브리켓의 선형 노상로 예열·마이크로웨이브 고체환원 후 DRI 냉각·패시베이션·용융 [^src-20260725-e5cfe77a] · **위치** Western Australia Rockingham Strategic Industrial Area의 Kwinana·Rockingham 산업지대 예정 부지 [^src-20260725-f1d3edea] · **시간당 처리능력** 약 1 tonne iron product/h 계획 [^src-20260725-e5cfe77a] · **투자비** 1억 4,300만 달러 (USD 143 million) [^src-20260725-f1d3edea] |
+| **[[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]** | 건설 중 [^src-20260725-e316d68f] | **위치** Linz, Austria [^src-20260725-e316d68f] · **시간당 처리능력** 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] · **목표 가동 시점** 2027년 말 [^src-20260725-e316d68f] |
+| **[[projects/PRJ-MOLTEN-SULFIDE-ELECTROLYSIS|용융 황화물 전해 프로젝트]]** | DOE 지원 아래 MIT가 황화·전해 설비의 설계·개발·제작·현장시험을 추진하는 연구개발 단계이며 통합 파일럿 완료 운전은 확인되지 않음 [^src-20260725-d3c50354] | **기술 경로** 광석·고Cu 스크랩을 선택적으로 황화한 뒤 용융 황화물 전해로 철을 용융 금속으로 회수하고 Cu 불순물 분리를 병행하는 경로 [^src-20260725-34ffe3b8] · **위치** MIT Building 5, Cambridge, Massachusetts, USA [^src-20260725-d3c50354] · **지원·조달 금액** 미 연방정부 지원 대상 선정 · 560만 달러 [^src-20260725-34ffe3b8] |
+| **[[projects/PRJ-NEOSMELT-KWINANA|NeoSmelt Kwinana DRI–ESF 파일럿]]** | Kwinana 부지를 확정하고 pre-feasibility에서 final design 단계로 진전했으나, 2026-05-14 기준 FID와 주정부 자금집행은 미확정 [^src-20260725-8a93e42f][^src-20260725-fbf8ea9e] | **기술 경로** Pilbara 철광석 → 천연가스·향후 저배출 수소 DRI → ESF 용선 → 기존 BOF 정련 [^src-20260725-67caa465] · **위치** Kwinana Industrial Area, Western Australia [^src-20260725-67caa465] · **연간 생산능력** 연 30,000–40,000톤 용선 계획 [^src-20260725-67caa465] · **지원·조달 금액** Western Australia 정부 A$75 million 기여와 ARENA A$19.8 million FEED 지원; 2026-05-14 기준 주정부 자금 집행 조건은 협상 중 [^src-20260725-fbf8ea9e][^src-20260725-67caa465][^src-20260725-c37a3042] · **최종투자결정 목표** 2026년 말 [^src-20260725-fbf8ea9e] · **목표 시운전 시점** 2028년 하반기 [^src-20260725-8a93e42f] |
+
+## 프로젝트별 상세
+
+??? info "BioIron 연구개발 시설 (Western Australia)"
+
+    **프로젝트 문서:** [[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **학회 발표 당시 파일럿 계획** | 2023-03-08 AIST 발표 당시 1 t/h 연속 파일럿 상세설계 진행 계획 [^src-20260726-7a19874f] |
+    | **건설 중단 발표** | 2025-11-17 BioIron 파일럿 건설 중단 공식 발표 [^src-20260725-c925bf86] |
+    | **대표 설비 참고** | US11959153B2 Figure 8 실험장치도와 Figure 14 공정 블록도; 서호주 파일럿 준공도는 아님 [^src-20260725-d965f782] |
+    | **마이크로웨이브 혼 구성** | 이동층 폭 방향 균일 가열을 위한 최대 12개 마이크로웨이브 혼 [^src-20260725-e5cfe77a] |
+    | **환경 허가 결정** | 2025-07-28 서호주 DWER Works Approval W6964/2024/1 결정 보고서 [^src-20260725-e5cfe77a] |
+    | **건설 중단 후 R&D** | 2026년 조치는 기술 위험 최소화와 성능 최적화를 위한 BioIron 기술개발 지속 [^src-20260725-84498fdf] |
+    | **연간 계획 운전시간** | 연간 약 2,000시간 R&D 운전 계획 [^src-20260725-e5cfe77a] |
+    | **참여 기관** | Rio Tinto, University of Nottingham Microwave Process Engineering Group, Metso, Sedgman Onyx [^src-20260725-f1d3edea] |
+    | **투자비** | 1억 4,300만 달러 (USD 143 million) [^src-20260725-f1d3edea] |
+    | **후단 용융·정련** | DRI 미분을 유도로에서 용융해 15.8 kg 주물 잉곳과 슬래그를 생산하는 파일럿 설계 [^src-20260725-e5cfe77a] |
+    | **시간당 처리능력** | 약 1 tonne iron product/h 계획 [^src-20260725-e5cfe77a] |
+    | **기술 경로** | 철광석-바이오매스 브리켓의 선형 노상로 예열·마이크로웨이브 고체환원 후 DRI 냉각·패시베이션·용융 [^src-20260725-e5cfe77a] |
+    | **허가 설계 폐기물 추정** | 허가설계 연간 슬래그 700 t, 바이오매스 분진 168 t, 노 배가스 분진 72 t, 규격외 DRI 675 t [^src-20260725-e5cfe77a] |
+    | **프로젝트 상태** | 서호주 1 t/h BioIron 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 기술 R&D는 지속 [^src-20260725-c925bf86] |
+    | **위치** | Western Australia Rockingham Strategic Industrial Area의 Kwinana·Rockingham 산업지대 예정 부지 [^src-20260725-f1d3edea] |
+    | **기존 시운전 목표** | 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 [^src-20260725-c925bf86] |
+    | **서호주 투자 발표** | 2024-06-04 서호주 R&D 시설 US$143 million 투자 발표 [^src-20260725-f1d3edea] |
+    | **파일럿 캠페인 일정** | 8주 운전 캠페인과 3주 설비 개조 정지를 반복하는 계획 [^src-20260725-e5cfe77a] |
+    | **DRI 패시베이션** | 스크루 냉각 후 사일로에서 공기·질소 혼합가스로 60~72시간 패시베이션 계획 [^src-20260725-e5cfe77a] |
+    | **파일럿 회분 투입량** | 전신 독일 파일럿에서 골프공 크기 브리켓 1,000개 단위 회분 시험 [^src-20260725-4c776b11] |
+    | **공개 성과의 한계** | 환경허가·설계 수치일 뿐 1 t/h 장기 연속 생산, 금속화율, 철수율, 에너지·배출 원단위의 달성 실적이 아님 [^src-20260725-e5cfe77a] |
+    | **배가스 처리** | 내부 공정가스 재활용·후연소기·분무냉각·희석공기·백필터·굴뚝 [^src-20260725-e5cfe77a] |
+    | **노 설계 확대 위험** | 현재 노 설계는 기술 위험 최소화와 성능 최적화를 위한 추가 개발이 필요 [^src-20260725-c925bf86] |
+    | **독일 소형 파일럿 발표** | 2022-11-23 독일 소형 파일럿 성공 발표 [^src-20260725-4c776b11] |
+    | **특허 우선일** | 2016-10-24 BioIron 핵심 마이크로웨이브-바이오매스 환원 특허군 우선일 [^src-20260725-d965f782] |
+    | **설비 구성** | 원료 분쇄·저장-혼합·브리켓-예열·사전환원-컴팩터 롤-최대 12혼 마이크로웨이브-스크루 냉각-패시베이션-유도로-배가스 처리 [^src-20260725-e5cfe77a] |
+    | **바이오매스 지속가능성 경계** | 농업 부산물 중심의 지속가능 바이오매스 조달과 구목·고보전가치 산림 원료 배제 [^src-20260725-4c776b11] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2016-10-24 | 특허 이력 | **특허 우선일**: 2016-10-24 BioIron 핵심 마이크로웨이브-바이오매스 환원 특허군 우선일 [^src-20260725-d965f782] |
+    | 2022-11-23 | 발표·검증 | **파일럿 회분 투입량**: 전신 독일 파일럿에서 골프공 크기 브리켓 1,000개 단위 회분 시험 · **독일 소형 파일럿 발표**: 2022-11-23 독일 소형 파일럿 성공 발표 · **바이오매스 지속가능성 경계**: 농업 부산물 중심의 지속가능 바이오매스 조달과 구목·고보전가치 산림 원료 배제 [^src-20260725-4c776b11] |
+    | 2022-11-23 | 실증 이력 | **독일 소형 파일럿 발표**: 2022-11-23 독일 소형 파일럿 성공 발표 [^src-20260725-4c776b11] |
+    | 2023-03-08 | 발표·검증 | **학회 발표 당시 파일럿 계획**: 2023-03-08 AIST 발표 당시 1 t/h 연속 파일럿 상세설계 진행 계획 [^src-20260726-7a19874f] |
+    | 2024-04-16 | 발표·검증 | **대표 설비 참고**: US11959153B2 Figure 8 실험장치도와 Figure 14 공정 블록도; 서호주 파일럿 준공도는 아님 · **특허 우선일**: 2016-10-24 BioIron 핵심 마이크로웨이브-바이오매스 환원 특허군 우선일 [^src-20260725-d965f782] |
+    | 2024-06-04 | 발표·검증 | **참여 기관**: Rio Tinto, University of Nottingham Microwave Process Engineering Group, Metso, Sedgman Onyx · **투자비**: 1억 4,300만 달러 (USD 143 million) · **위치**: Western Australia Rockingham Strategic Industrial Area의 Kwinana·Rockingham 산업지대 예정 부지 · **서호주 투자 발표**: 2024-06-04 서호주 R&D 시설 US$143 million 투자 발표 · **프로젝트 상태**: 연구개발 시설 구축 중 · 후속 정보로 대체 [^src-20260725-f1d3edea] |
+    | 2024-06-04 | 투자 발표 | **서호주 투자 발표**: 2024-06-04 서호주 R&D 시설 US$143 million 투자 발표 [^src-20260725-f1d3edea] |
+    | 2025-07-28 | 발표·검증 | **마이크로웨이브 혼 구성**: 이동층 폭 방향 균일 가열을 위한 최대 12개 마이크로웨이브 혼 · **환경 허가 결정**: 2025-07-28 서호주 DWER Works Approval W6964/2024/1 결정 보고서 · **연간 계획 운전시간**: 연간 약 2,000시간 R&D 운전 계획 · **후단 용융·정련**: DRI 미분을 유도로에서 용융해 15.8 kg 주물 잉곳과 슬래그를 생산하는 파일럿 설계 · **시간당 처리능력**: 약 1 tonne iron product/h 계획 · **기술 경로**: 철광석-바이오매스 브리켓의 선형 노상로 예열·마이크로웨이브 고체환원 후 DRI 냉각·패시베이션·용융 · **허가 설계 폐기물 추정**: 허가설계 연간 슬래그 700 t, 바이오매스 분진 168 t, 노 배가스 분진 72 t, 규격외 DRI 675 t · **파일럿 캠페인 일정**: 8주 운전 캠페인과 3주 설비 개조 정지를 반복하는 계획 · **DRI 패시베이션**: 스크루 냉각 후 사일로에서 공기·질소 혼합가스로 60~72시간 패시베이션 계획 · **공개 성과의 한계**: 환경허가·설계 수치일 뿐 1 t/h 장기 연속 생산, 금속화율, 철수율, 에너지·배출 원단위의 달성 실적이 아님 · **배가스 처리**: 내부 공정가스 재활용·후연소기·분무냉각·희석공기·백필터·굴뚝 · **설비 구성**: 원료 분쇄·저장-혼합·브리켓-예열·사전환원-컴팩터 롤-최대 12혼 마이크로웨이브-스크루 냉각-패시베이션-유도로-배가스 처리 [^src-20260725-e5cfe77a] |
+    | 2025-07-28 | 허가 이력 | **환경 허가 결정**: 2025-07-28 서호주 DWER Works Approval W6964/2024/1 결정 보고서 [^src-20260725-e5cfe77a] |
+    | 2025-11-17 | 발표·검증 | **건설 중단 발표**: 2025-11-17 BioIron 파일럿 건설 중단 공식 발표 · **프로젝트 상태**: 서호주 1 t/h BioIron 파일럿 건설은 노 설계의 기술·설계 과제로 중단; University of Nottingham·Metso와 기술 R&D는 지속 · **기존 시운전 목표**: 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 · **노 설계 확대 위험**: 현재 노 설계는 기술 위험 최소화와 성능 최적화를 위한 추가 개발이 필요 [^src-20260725-c925bf86] |
+    | 2025-11-17 | 중단 발표 | **건설 중단 발표**: 2025-11-17 BioIron 파일럿 건설 중단 공식 발표 [^src-20260725-c925bf86] |
+    | 2026 | 기존 목표 | **기존 시운전 목표**: 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 [^src-20260725-c925bf86] |
+    | 2026-07-25 | 수집 확인 | **건설 중단 후 R&D**: 2026년 조치는 기술 위험 최소화와 성능 최적화를 위한 BioIron 기술개발 지속 [^src-20260725-84498fdf] |
+
+    **변경·중단 이력**
+
+    - **프로젝트 상태 · 후속 정보로 대체:** 연구개발 시설 구축 중 [^src-20260725-f1d3edea]
+
+??? info "HY4Smelt 실증 프로젝트"
+
+    **프로젝트 문서:** [[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **위치** | Linz, Austria [^src-20260725-e316d68f] |
+    | **적용 원료** | 응집하지 않은 저·중품위 철광석 미분을 중점 검증 [^src-20260725-e316d68f] |
+    | **프로젝트 상태** | 건설 중 [^src-20260725-e316d68f] |
+    | **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고 [^src-20260725-a23b5a64] |
+    | **공개 성과의 한계** | 착공과 설계 처리량은 연속 실증 또는 상업 운전 완료의 증거가 아님 [^src-20260725-e316d68f] |
+    | **목표 가동 시점** | 2027년 말 [^src-20260725-e316d68f] |
+    | **시간당 처리능력** | 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] |
+    | **제품 형태** | 미분 DRI를 전기 Smelter에서 용융해 용융 철 제품을 생산하는 경로 [^src-20260725-e316d68f] |
+    | **참여 기관** | voestalpine, Primetals Technologies, Rio Tinto 및 기타 프로젝트 파트너 [^src-20260725-e316d68f] |
+    | **통합 설비 구성** | HYFOR 수소 미분광 직접환원과 전기 Smelter를 결합한 통합 실증설비 [^src-20260725-e316d68f] |
+    | **착공 시점** | 2025-09-25 [^src-20260725-e316d68f] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-09-25 | 발표·검증 | **위치**: Linz, Austria · **적용 원료**: 응집하지 않은 저·중품위 철광석 미분을 중점 검증 · **프로젝트 상태**: 건설 중 · **공개 성과의 한계**: 착공과 설계 처리량은 연속 실증 또는 상업 운전 완료의 증거가 아님 · **목표 가동 시점**: 2027년 말 · **시간당 처리능력**: 시간당 3톤 (3 tonnes per hour) · **제품 형태**: 미분 DRI를 전기 Smelter에서 용융해 용융 철 제품을 생산하는 경로 · **참여 기관**: voestalpine, Primetals Technologies, Rio Tinto 및 기타 프로젝트 파트너 · **통합 설비 구성**: HYFOR 수소 미분광 직접환원과 전기 Smelter를 결합한 통합 실증설비 · **착공 시점**: 2025-09-25 [^src-20260725-e316d68f] |
+    | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고 [^src-20260725-a23b5a64] |
+    | 2027 | 목표 일정 | **목표 가동 시점**: 2027년 말 [^src-20260725-e316d68f] |
+
+??? info "용융 황화물 전해 프로젝트"
+
+    **프로젝트 문서:** [[projects/PRJ-MOLTEN-SULFIDE-ELECTROLYSIS|용융 황화물 전해 프로젝트]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **위치** | MIT Building 5, Cambridge, Massachusetts, USA [^src-20260725-d3c50354] |
+    | **참여 기관** | Massachusetts Institute of Technology와 Rio Tinto [^src-20260725-34ffe3b8] |
+    | **프로젝트 상태** | DOE 지원 아래 MIT가 황화·전해 설비의 설계·개발·제작·현장시험을 추진하는 연구개발 단계이며 통합 파일럿 완료 운전은 확인되지 않음 [^src-20260725-d3c50354] |
+    | **기술 경로** | 광석·고Cu 스크랩을 선택적으로 황화한 뒤 용융 황화물 전해로 철을 용융 금속으로 회수하고 Cu 불순물 분리를 병행하는 경로 [^src-20260725-34ffe3b8] |
+    | **지원·조달 금액** | 미 연방정부 지원 대상 선정 · 560만 달러 [^src-20260725-34ffe3b8] |
+    | **설비 구성** | 선택 황화 장치와 용융 황화물 전해 장치의 설계·제작·현장시험 범위 [^src-20260725-d3c50354] |
+    | **환경 허가 결정** | 2024-10-15 DOE NEPA categorical exclusion 게시 [^src-20260725-d3c50354] |
+    | **공정 안전·환경 위험** | CO·CO2·SO2·황·H2S 계열 가스의 포집·세정·배출 관리가 필요한 연구 설비 [^src-20260725-d3c50354] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2024-10-15 | 발표·검증 | **위치**: MIT Building 5, Cambridge, Massachusetts, USA · **프로젝트 상태**: DOE 지원 아래 MIT가 황화·전해 설비의 설계·개발·제작·현장시험을 추진하는 연구개발 단계이며 통합 파일럿 완료 운전은 확인되지 않음 · **설비 구성**: 선택 황화 장치와 용융 황화물 전해 장치의 설계·제작·현장시험 범위 · **환경 허가 결정**: 2024-10-15 DOE NEPA categorical exclusion 게시 · **공정 안전·환경 위험**: CO·CO2·SO2·황·H2S 계열 가스의 포집·세정·배출 관리가 필요한 연구 설비 [^src-20260725-d3c50354] |
+    | 2024-10-15 | 허가 이력 | **환경 허가 결정**: 2024-10-15 DOE NEPA categorical exclusion 게시 [^src-20260725-d3c50354] |
+    | 2026-07-25 | 수집 확인 | **참여 기관**: Massachusetts Institute of Technology와 Rio Tinto · **기술 경로**: 광석·고Cu 스크랩을 선택적으로 황화한 뒤 용융 황화물 전해로 철을 용융 금속으로 회수하고 Cu 불순물 분리를 병행하는 경로 · **지원·조달 금액**: 미 연방정부 지원 대상 선정 · 560만 달러 [^src-20260725-34ffe3b8] |
+
+??? info "NeoSmelt Kwinana DRI–ESF 파일럿"
+
+    **프로젝트 문서:** [[projects/PRJ-NEOSMELT-KWINANA|NeoSmelt Kwinana DRI–ESF 파일럿]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **목표 시운전 시점** | 2028년 하반기 [^src-20260725-8a93e42f] |
+    | **지원·조달 금액** | Western Australia 정부 A$75 million 기여와 ARENA A$19.8 million FEED 지원; 2026-05-14 기준 주정부 자금 집행 조건은 협상 중 [^src-20260725-fbf8ea9e][^src-20260725-67caa465][^src-20260725-c37a3042] |
+    | **타당성·FEED 착수 시점** | 2025-06-17 FEED·타당성 단계 진입 확인 [^src-20260725-c37a3042] |
+    | **참여 기관** | BlueScope(프로젝트 관리), BHP, Rio Tinto, Woodside Energy, Mitsui Iron Ore Development의 5개 동등 지분 참여사 [^src-20260725-c37a3042] |
+    | **부지 선정 시점** | 2024-12-17 [^src-20260725-67caa465] |
+    | **연간 생산능력** | 연 30,000–40,000톤 용선 계획 [^src-20260725-67caa465] |
+    | **최종투자결정 목표** | 2026년 말 [^src-20260725-fbf8ea9e] |
+    | **위치** | Kwinana Industrial Area, Western Australia [^src-20260725-67caa465] |
+    | **지원 발표 시점** | 2024-12-17 주정부 A$75 million 기여 발표; 2025-06-17 ARENA A$19.8 million FEED 지원 발표 [^src-20260725-67caa465][^src-20260725-c37a3042] |
+    | **배출 경계** | 최대 80% 배출집약도 감축 주장은 재생전력·무배출 수소를 가정한 BF–BOF 대비 시나리오이며, 용선 탄소에서 남는 배출은 포함한다. [^src-20260725-67caa465] |
+    | **프로젝트 착수 시점** | 2024-02 [^src-20260725-67caa465] |
+    | **프로젝트 상태** | Kwinana 부지를 확정하고 pre-feasibility에서 final design 단계로 진전했으나, 2026-05-14 기준 FID와 주정부 자금집행은 미확정 [^src-20260725-8a93e42f][^src-20260725-fbf8ea9e] |
+    | **기술 경로** | Pilbara 철광석 → 천연가스·향후 저배출 수소 DRI → ESF 용선 → 기존 BOF 정련 [^src-20260725-67caa465] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2024-02 | 착수 | **프로젝트 착수 시점**: 2024-02 [^src-20260725-67caa465] |
+    | 2024-12-17 | 발표·검증 | **지원·조달 금액**: Western Australia 정부 A$75 million 기여와 ARENA A$19.8 million FEED 지원; 2026-05-14 기준 주정부 자금 집행 조건은 협상 중 · **부지 선정 시점**: 2024-12-17 · **연간 생산능력**: 연 30,000–40,000톤 용선 계획 · **위치**: Kwinana Industrial Area, Western Australia · **지원 발표 시점**: 2024-12-17 주정부 A$75 million 기여 발표; 2025-06-17 ARENA A$19.8 million FEED 지원 발표 · **배출 경계**: 최대 80% 배출집약도 감축 주장은 재생전력·무배출 수소를 가정한 BF–BOF 대비 시나리오이며, 용선 탄소에서 남는 배출은 포함한다. · **프로젝트 착수 시점**: 2024-02 · **기술 경로**: Pilbara 철광석 → 천연가스·향후 저배출 수소 DRI → ESF 용선 → 기존 BOF 정련 [^src-20260725-67caa465] |
+    | 2025-06-17 | 발표·검증 | **지원·조달 금액**: Western Australia 정부 A$75 million 기여와 ARENA A$19.8 million FEED 지원; 2026-05-14 기준 주정부 자금 집행 조건은 협상 중 · **타당성·FEED 착수 시점**: 2025-06-17 FEED·타당성 단계 진입 확인 · **참여 기관**: BlueScope(프로젝트 관리), BHP, Rio Tinto, Woodside Energy, Mitsui Iron Ore Development의 5개 동등 지분 참여사 · **지원 발표 시점**: 2024-12-17 주정부 A$75 million 기여 발표; 2025-06-17 ARENA A$19.8 million FEED 지원 발표 [^src-20260725-c37a3042] |
+    | 2026 | 목표 일정 | **최종투자결정 목표**: 2026년 말 [^src-20260725-fbf8ea9e] |
+    | 2026-05-14 | 발표·검증 | **지원·조달 금액**: Western Australia 정부 A$75 million 기여와 ARENA A$19.8 million FEED 지원; 2026-05-14 기준 주정부 자금 집행 조건은 협상 중 · **최종투자결정 목표**: 2026년 말 · **프로젝트 상태**: Kwinana 부지를 확정하고 pre-feasibility에서 final design 단계로 진전했으나, 2026-05-14 기준 FID와 주정부 자금집행은 미확정 [^src-20260725-fbf8ea9e] |
+    | 2026-07-25 | 수집 확인 | **목표 시운전 시점**: 2028년 하반기 · **프로젝트 상태**: Kwinana 부지를 확정하고 pre-feasibility에서 final design 단계로 진전했으나, 2026-05-14 기준 FID와 주정부 자금집행은 미확정 [^src-20260725-8a93e42f] |
+    | 2028 | 목표 일정 | **목표 시운전 시점**: 2028년 하반기 [^src-20260725-8a93e42f] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
@@ -70,18 +226,48 @@
 
     - **microwave biomass ironmaking status · 후속 정보로 대체:** 서호주 BioIron R&D 시설 및 기존 대비 10배 규모 파일럿 개발 단계; 바이오매스 환원제와 마이크로웨이브 사용 [^src-20260725-f1d3edea]
 
+## 설비·공정 이미지
+
+![브리켓 예열과 마이크로웨이브 환원 챔버, 질소 공급 및 고체 제품 배출을 보여주는 특허 공정도](<https://patentimages.storage.googleapis.com/71/27/c7/5b911d8f373789/US11959153-20240416-D00008.png>){ .steel-media-image .steel-media-compact }
+
+**특허 도면.** US11959153B2 Figure 14: 철광석-바이오매스 브리켓, 예열부, 마이크로웨이브·질소 공급 반응실, 배가스 및 고체 환원철 배출의 특허 공정 블록도
+
+- 출처 [[sources/SRC-20260725-D965F782|SRC-20260725-D965F782]] · 권리 `link_only` · [원문 페이지](https://patents.google.com/patent/US11959153B2/en) · 작성·촬영 Rio Tinto Services Limited / Michael Buckley
+- 권리 메모: 특허 원문의 Figure 14를 원격 링크로만 표시합니다. 서호주 파일럿의 실제 배관계장도 또는 준공도가 아닙니다.
+
+
 ## 근거 자료
 
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
+| [[sources/SRC-20260725-34FFE3B8|DOE selects steel scrap copper-removal and molten sulfide electrolysis projects]] | U.S. Department of Energy · 게시일 미상 | [원문 보기](https://www.energy.gov/cmei/ito/ito-fy23-fy24-high-priority-selections) |
+| [[sources/SRC-20260725-4C776B11|Rio Tinto BioIron proves successful for low-carbon iron-making]] | Rio Tinto · 2022-11-23 | [원문 보기](https://www.riotinto.com/en/news/releases/2022/rio-tintos-bioiron-proves-successful-for-low-carbon-iron-making) |
+| [[sources/SRC-20260725-67CAA465|BlueScope, BHP and Rio Tinto select WA for Australia’s largest ironmaking electric smelting furnace]] | BHP · 2024-12-17 | [원문 보기](https://www.bhp.com/news/media-centre/releases/2024/12/bluescope-bhp-and-rio-tinto-select-wa-for-australias-largest-ironmaking-electric-smelting-furnace) |
 | [[sources/SRC-20260725-84498FDF|Rio Tinto climate reporting: 2025 progress and 2026 action]] | Rio Tinto · 게시일 미상 | [원문 보기](https://www.riotinto.com/en/invest/reports/climate-reporting) |
 | [[sources/SRC-20260725-8A93E42F|Value chain GHG emission reductions — DRI-ESF programme update]] | BHP · 게시일 미상 | [원문 보기](https://www.bhp.com/sustainability/climate-change/value-chain-ghg-emission-reductions) |
+| [[sources/SRC-20260725-A23B5A64|HYFOR: Hydrogen-Based Fine-Ore Reduction]] | Primetals Technologies · 게시일 미상 | [원문 보기](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) |
+| [[sources/SRC-20260725-C37A3042|Industry giants collaborating to seek to decarbonise steel]] | Australian Renewable Energy Agency · 2025-06-17 | [원문 보기](https://arena.gov.au/assets/2025/06/ARENA-Media-Release_NeoSmelt_17062025_FINAL.pdf) |
 | [[sources/SRC-20260725-C925BF86|Rio Tinto pauses BioIron pilot construction]] | Rio Tinto · 2025-11-17 | [원문 보기](https://www.riotinto.com/en/news/releases/2025/rio-tinto-partners-with-calix-to-test-low-emissions-steel-making-in-western-australia-pauses-bioiron) |
+| [[sources/SRC-20260725-D3C50354|DOE NEPA review for Iron Production by Molten Sulfide Electrolysis]] | U.S. Department of Energy · 2024-10-15 | [원문 보기](https://www.energy.gov/nepa/articles/cx-032248-iron-production-molten-sulfide-electrolysis) |
+| [[sources/SRC-20260725-D965F782|US11959153B2 Production of iron]] | United States Patent and Trademark Office / Google Patents · 2024-04-16 | [원문 보기](https://patents.google.com/patent/US11959153B2/en) |
 | [[sources/SRC-20260725-E316D68F|Construction begins on HYFOR and Smelter demonstration plant]] | Primetals Technologies · 2025-09-25 | [원문 보기](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) |
+| [[sources/SRC-20260725-E5CFE77A|BioIron Pilot Plant Works Approval W6964/2024/1 Decision Report]] | Western Australia Department of Water and Environmental Regulation · 2025-07-28 | [원문 보기](https://www.der.wa.gov.au/images/documents/our-work/licences-and-works-approvals/Decisions_/W6964/W6964%2028-07-2025%20DR.pdf) |
 | [[sources/SRC-20260725-F1D3EDEA|Rio Tinto develops BioIron R&D facility in Western Australia]] | Rio Tinto · 2024-06-04 | [원문 보기](https://www.riotinto.com/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-low-carbon-steelmaking) |
+| [[sources/SRC-20260725-FBF8EA9E|NeoSmelt pilot project — Legislative Council answer]] | Parliament of Western Australia · 2026-05-14 | [원문 보기](https://www.parliament.wa.gov.au/hansard/daily/uh/2026-05-14/25?sid=73938f1f931d45e090&talkerIndex=0) |
+| [[sources/SRC-20260726-7A19874F|Rio Tinto Steel Decarbonisation and Biomass Ironmaking]] | Rio Tinto / Association for Iron & Steel Technology · 2023-03-08 | [원문 보기](https://www.aist.org/AIST/aist/AIST/Conferences_Exhibitions/Training_Seminars/Scrap%20Files/18-Leigh-and-Buckley.pdf) |
 
+[^src-20260725-34ffe3b8]: **DOE selects steel scrap copper-removal and molten sulfide electrolysis projects** — U.S. Department of Energy, 게시일 미상. [원문](https://www.energy.gov/cmei/ito/ito-fy23-fy24-high-priority-selections) · [[sources/SRC-20260725-34FFE3B8|보관 원문·메타데이터]]
+[^src-20260725-4c776b11]: **Rio Tinto BioIron proves successful for low-carbon iron-making** — Rio Tinto, 2022-11-23. [원문](https://www.riotinto.com/en/news/releases/2022/rio-tintos-bioiron-proves-successful-for-low-carbon-iron-making) · [[sources/SRC-20260725-4C776B11|보관 원문·메타데이터]]
+[^src-20260725-67caa465]: **BlueScope, BHP and Rio Tinto select WA for Australia’s largest ironmaking electric smelting furnace** — BHP, 2024-12-17. [원문](https://www.bhp.com/news/media-centre/releases/2024/12/bluescope-bhp-and-rio-tinto-select-wa-for-australias-largest-ironmaking-electric-smelting-furnace) · [[sources/SRC-20260725-67CAA465|보관 원문·메타데이터]]
 [^src-20260725-84498fdf]: **Rio Tinto climate reporting: 2025 progress and 2026 action** — Rio Tinto, 게시일 미상. [원문](https://www.riotinto.com/en/invest/reports/climate-reporting) · [[sources/SRC-20260725-84498FDF|보관 원문·메타데이터]]
 [^src-20260725-8a93e42f]: **Value chain GHG emission reductions — DRI-ESF programme update** — BHP, 게시일 미상. [원문](https://www.bhp.com/sustainability/climate-change/value-chain-ghg-emission-reductions) · [[sources/SRC-20260725-8A93E42F|보관 원문·메타데이터]]
+[^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
+[^src-20260725-c37a3042]: **Industry giants collaborating to seek to decarbonise steel** — Australian Renewable Energy Agency, 2025-06-17. [원문](https://arena.gov.au/assets/2025/06/ARENA-Media-Release_NeoSmelt_17062025_FINAL.pdf) · [[sources/SRC-20260725-C37A3042|보관 원문·메타데이터]]
 [^src-20260725-c925bf86]: **Rio Tinto pauses BioIron pilot construction** — Rio Tinto, 2025-11-17. [원문](https://www.riotinto.com/en/news/releases/2025/rio-tinto-partners-with-calix-to-test-low-emissions-steel-making-in-western-australia-pauses-bioiron) · [[sources/SRC-20260725-C925BF86|보관 원문·메타데이터]]
+[^src-20260725-d3c50354]: **DOE NEPA review for Iron Production by Molten Sulfide Electrolysis** — U.S. Department of Energy, 2024-10-15. [원문](https://www.energy.gov/nepa/articles/cx-032248-iron-production-molten-sulfide-electrolysis) · [[sources/SRC-20260725-D3C50354|보관 원문·메타데이터]]
+[^src-20260725-d965f782]: **US11959153B2 Production of iron** — United States Patent and Trademark Office / Google Patents, 2024-04-16. [원문](https://patents.google.com/patent/US11959153B2/en) · [[sources/SRC-20260725-D965F782|보관 원문·메타데이터]]
 [^src-20260725-e316d68f]: **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
+[^src-20260725-e5cfe77a]: **BioIron Pilot Plant Works Approval W6964/2024/1 Decision Report** — Western Australia Department of Water and Environmental Regulation, 2025-07-28. [원문](https://www.der.wa.gov.au/images/documents/our-work/licences-and-works-approvals/Decisions_/W6964/W6964%2028-07-2025%20DR.pdf) · [[sources/SRC-20260725-E5CFE77A|보관 원문·메타데이터]]
 [^src-20260725-f1d3edea]: **Rio Tinto develops BioIron R&D facility in Western Australia** — Rio Tinto, 2024-06-04. [원문](https://www.riotinto.com/news/releases/2024/rio-tinto-to-develop-bioiron-rd-facility-in-western-australia-to-test-low-carbon-steelmaking) · [[sources/SRC-20260725-F1D3EDEA|보관 원문·메타데이터]]
+[^src-20260725-fbf8ea9e]: **NeoSmelt pilot project — Legislative Council answer** — Parliament of Western Australia, 2026-05-14. [원문](https://www.parliament.wa.gov.au/hansard/daily/uh/2026-05-14/25?sid=73938f1f931d45e090&talkerIndex=0) · [[sources/SRC-20260725-FBF8EA9E|보관 원문·메타데이터]]
+[^src-20260726-7a19874f]: **Rio Tinto Steel Decarbonisation and Biomass Ironmaking** — Rio Tinto / Association for Iron & Steel Technology, 2023-03-08. [원문](https://www.aist.org/AIST/aist/AIST/Conferences_Exhibitions/Training_Seminars/Scrap%20Files/18-Leigh-and-Buckley.pdf) · [[sources/SRC-20260726-7A19874F|보관 원문·메타데이터]]

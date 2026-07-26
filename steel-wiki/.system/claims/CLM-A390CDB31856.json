@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-A390CDB31856",
+  "subject_id": "COM-ArcelorMittal",
+  "predicate": "aqueous_iron_electrolysis_status",
+  "value": "Volteron 저온 직접 전해를 공식 설명 기준 TRL 6 R&D 설비까지 확대했으나 4만~8만 t/y 산업 1단계의 착공·가동은 미확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-FBE26310"
+  ],
+  "supersedes": [
+    "CLM-0DC3008F3E17"
+  ],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2023 산업화 계획을 최신 공개 R&D 상태로 갱신",
+      "source_ids": [
+        "SRC-20260725-FBE26310"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "action": "review_supersede",
+      "reason": "최신 공식 R&D 설명의 TRL 6과 산업 1단계 미착공 상태가 2023 계획보다 현재 상태를 더 정확히 나타냄"
+    }
+  ]
+}

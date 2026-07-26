@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-FC1C8B9D2E2E",
+  "subject_id": "PRJ-TATA-JAMSHEDPUR-EASYMELT",
+  "predicate": "furnace_volume",
+  "value": "649 m³ E 고로",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-29802D50"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-29802D50"
+      ]
+    }
+  ]
+}

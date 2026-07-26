@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-20260726-9F56DB69",
+  "title": "Volteron — Scalable Electrochemical Ironmaking for Green Steel Production",
+  "url": "https://www.aist.org/getmedia/b2126be4-4ee8-47eb-a536-56cacf43d492/Scalable-Electrochemical-Ironmaking-or-Green-Steel-Production.pdf",
+  "canonical_url": "https://www.aist.org/getmedia/b2126be4-4ee8-47eb-a536-56cacf43d492/Scalable-Electrochemical-Ironmaking-or-Green-Steel-Production.pdf",
+  "publisher": "Association for Iron & Steel Technology",
+  "published_at": "2026-03-09",
+  "collected_at": "2026-07-26",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "9f56db6978114af9a7b2a9448a86c822177e32d20d103a6a3e181fb7f2d44fe9",
+  "academic": {
+    "kind": "conference_presentation",
+    "authors": [
+      "John Cockerill"
+    ],
+    "venue": "Scrap Supplements and Alternative Ironmaking 10 Conference Materials",
+    "conference_name": "Scrap Supplements and Alternative Ironmaking 10",
+    "conference_date": "2026-03-09",
+    "conference_location": "Orlando, Florida, USA",
+    "peer_review_status": "not_peer_reviewed"
+  },
+  "raw_sha256": "f740f14d8817e326d2d10f1b4345eb88fabeff5bb1fb82358e8c3c6af1079811",
+  "raw_path": ".system/raw/SRC-20260726-9F56DB69.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

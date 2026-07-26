@@ -5,19 +5,9 @@
 > 최근 검증 **2026-07-25** · 확인된 핵심 정보 **11건** · 직접 연결 근거 **2건**
 
 
-![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![유동층 수소환원 반응기에서 전기용융로로 환원철 미분이 이송되는 HY4Smelt 개념 재구성](../assets/media/SRC-20260725-E316D68F/MED-F0531463286B.png){ .steel-media-image .steel-hero-image .steel-media-compact }
 
-*대표 이미지 — Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor))*
-
-
-## 설비·공정 이미지
-
-![HYFOR 파일럿 플랜트 내부의 미분광 분배 장치와 배관](<https://dam.primetals.com/m/5cabf17404a68773/webimage-DSC_0098x.png>){ .steel-media-image .steel-media-compact }
-
-**실제 설비 사진.** Primetals Technologies HYFOR 파일럿 플랜트의 미분광 분배·공급 설비
-
-- 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · 권리 `link_only` · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor) · 작성·촬영 Primetals Technologies
-- 권리 메모: Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
+*대표 이미지 — HY4Smelt 미분광 수소환원-전기용융 연계 공정의 출처 기반 AI 재구성; 실제 준공도나 설비 사진이 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-E316D68F|SRC-20260725-E316D68F]] · [원문 페이지](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf))*
 
 !!! abstract "현재 상태"
 

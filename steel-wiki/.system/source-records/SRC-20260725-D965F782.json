@@ -27,7 +27,12 @@
       "rights_note": "특허 원문의 Figure 8을 원격 링크로만 표시합니다. 독일 파일럿이나 서호주 1 t/h 선형 노상로의 준공도는 아닙니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "COM-Rio-Tinto",
+        "TEC-microwave-biomass-ironmaking",
+        "PRJ-BIOIRON-WA-RD"
+      ]
     },
     {
       "media_id": "MED-FA0ECC96CB3C",
@@ -41,7 +46,12 @@
       "rights_note": "특허 원문의 Figure 14를 원격 링크로만 표시합니다. 서호주 파일럿의 실제 배관계장도 또는 준공도가 아닙니다.",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "COM-Rio-Tinto",
+        "TEC-microwave-biomass-ironmaking",
+        "PRJ-BIOIRON-WA-RD"
+      ]
     }
   ]
 }

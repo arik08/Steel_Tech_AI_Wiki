@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-63259114435B",
+  "subject_id": "PRJ-JFE-KURASHIKI-LARGE-EAF",
+  "predicate": "government_support_confirmation",
+  "value": "일본 METI GX 자료가 Kurashiki 약 200만 t/y 대형 EAF와 FY2028 상업생산 목표를 정부 지원 전환사업으로 확인",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-DED07902"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "회사 발표의 프로젝트 범위와 일정을 정부 자료로 교차검증",
+      "source_ids": [
+        "SRC-20260725-DED07902"
+      ]
+    }
+  ]
+}

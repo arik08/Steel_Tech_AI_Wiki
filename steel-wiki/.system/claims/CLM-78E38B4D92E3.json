@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-78E38B4D92E3",
+  "subject_id": "PRJ-ARCELORMITTAL-DUNKIRK-EAF",
+  "predicate": "schedule_change",
+  "value": "2025년 유럽 탈탄소 프로젝트 연기 국면의 조건부 투자 의향에서 2026년 EUR 1.3 billion 건설 확정으로 전환",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-25",
+  "last_verified": "2026-07-25",
+  "source_ids": [
+    "SRC-20260725-3B0845FF"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-25",
+      "action": "created",
+      "reason": "2026-07-25 회사별 누락 프로젝트 보강 조사",
+      "source_ids": [
+        "SRC-20260725-3B0845FF"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-20260725-7D498404",
+  "title": "China Baowu green development report: Zhanjiang hydrogen shaft furnace",
+  "url": "https://res.baowugroup.com/attach/2025/08/18/a284678855c94f6ab74f2d394d80042f.pdf",
+  "canonical_url": "https://res.baowugroup.com/attach/2025/08/18/a284678855c94f6ab74f2d394d80042f.pdf",
+  "publisher": "China Baowu Steel Group Corporation Limited",
+  "published_at": "2025-08-18",
+  "collected_at": "2026-07-25",
+  "source_type": "company_ir",
+  "language": "zh/en",
+  "reliability": "primary",
+  "content_sha256": "7d498404fb536177b2251002e8219886cb072bd39c6f0dbdaa99ea0dbde94d2a",
+  "raw_sha256": "fc3c2938234c808bb71ce2205c53af2a077be3cf775ff901783b115e94ad9e6d",
+  "raw_path": ".system/raw/SRC-20260725-7D498404.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-CDAE0740FBCA",
+      "kind": "ai_reconstruction",
+      "caption": "Zhanjiang 수소 기반 샤프트로-DRI·스크랩-전기로-슬래브 압연 경로의 출처 기반 AI 재구성; 실제 준공도나 설비 사진이 아님",
+      "alt_text": "수소 샤프트로에서 생산된 DRI와 철스크랩이 전기로에 장입되어 슬래브로 압연되는 공정 재구성",
+      "creator": "OpenAI image generation / Codex",
+      "image_url": null,
+      "origin_url": "https://res.baowugroup.com/attach/2025/08/18/a284678855c94f6ab74f2d394d80042f.pdf",
+      "rights_status": "ai_generated",
+      "rights_note": "China Baowu 공식 보고서와 SASAC 공정 설명을 바탕으로 생성한 AI 재구성. 실제 Zhanjiang 설비 형상 증거로 사용하지 않음",
+      "collected_at": "2026-07-25",
+      "content_sha256": "cdae0740fbca0b4586b673042863ffdaaa61939575e4ec56a1638938b83b4634",
+      "local_path": "assets/media/SRC-20260725-7D498404/MED-CDAE0740FBCA.png",
+      "subject_ids": [
+        "COM-China-Baowu",
+        "PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF"
+      ]
+    }
+  ]
+}

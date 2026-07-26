@@ -13,5 +13,13 @@
   "raw_sha256": "f6828f391b8b89a007d2f596879eebf18902178c8f90f70fffd25b312293fc60",
   "raw_path": ".system/raw/SRC-20260725-7E6DFD33.md",
   "previous_version": null,
-  "supporting_sources": []
+  "supporting_sources": [],
+  "academic": {
+    "kind": "research_report",
+    "authors": [
+      "JFE Steel Corporation"
+    ],
+    "venue": "JFE Technical Report No. 28",
+    "peer_review_status": "unknown"
+  }
 }

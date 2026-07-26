@@ -14,5 +14,16 @@
   "raw_path": ".system/raw/SRC-20260725-1486633E.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [],
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Joongseok Kim",
+      "Jungshin Kang",
+      "Kyung-Woo Yi"
+    ],
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-026-58521-y",
+    "peer_review_status": "peer_reviewed"
+  }
 }
