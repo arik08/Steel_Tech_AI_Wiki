@@ -566,16 +566,24 @@ class SteelIntelTests(unittest.TestCase):
         }
 
         self.assertEqual(
-            redirects["/academic-landscape-2026"],
-            "/reports/academic-landscape-2026",
+            redirects["/academic-landscape-:slug"],
+            "/reports/academic-landscape-:slug",
         )
         self.assertEqual(
             redirects["/brief-:slug"],
             "/reports/briefs/brief-:slug",
         )
         self.assertEqual(
-            redirects["/briefs/brief-:slug"],
-            "/reports/briefs/brief-:slug",
+            redirects["/briefs/:path*"],
+            "/reports/briefs/:path*",
+        )
+        self.assertEqual(
+            redirects["/audit-:slug"],
+            "/reports/audits/audit-:slug",
+        )
+        self.assertEqual(
+            redirects["/audits/:path*"],
+            "/reports/audits/:path*",
         )
         self.assertEqual(redirects["/TEC-:slug"], "/technologies/TEC-:slug")
 

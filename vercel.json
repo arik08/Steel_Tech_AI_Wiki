@@ -6,8 +6,8 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/academic-landscape-2026",
-      "destination": "/reports/academic-landscape-2026",
+      "source": "/academic-landscape-:slug",
+      "destination": "/reports/academic-landscape-:slug",
       "permanent": true
     },
     {
@@ -16,8 +16,18 @@
       "permanent": true
     },
     {
-      "source": "/briefs/brief-:slug",
-      "destination": "/reports/briefs/brief-:slug",
+      "source": "/briefs/:path*",
+      "destination": "/reports/briefs/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/audit-:slug",
+      "destination": "/reports/audits/audit-:slug",
+      "permanent": true
+    },
+    {
+      "source": "/audits/:path*",
+      "destination": "/reports/audits/:path*",
       "permanent": true
     },
     {
