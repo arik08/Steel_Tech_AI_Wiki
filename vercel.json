@@ -21,6 +21,11 @@
       "permanent": true
     },
     {
+      "source": "/reports/brief-:slug",
+      "destination": "/reports/briefs/brief-:slug",
+      "permanent": true
+    },
+    {
       "source": "/audit-:slug",
       "destination": "/reports/audits/audit-:slug",
       "permanent": true

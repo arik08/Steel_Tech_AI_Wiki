@@ -578,6 +578,10 @@ class SteelIntelTests(unittest.TestCase):
             "/reports/briefs/:path*",
         )
         self.assertEqual(
+            redirects["/reports/brief-:slug"],
+            "/reports/briefs/brief-:slug",
+        )
+        self.assertEqual(
             redirects["/audit-:slug"],
             "/reports/audits/audit-:slug",
         )
