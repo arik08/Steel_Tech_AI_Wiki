@@ -313,3 +313,24 @@
     padding-left: 10px;
   }
 }
+
+.md-typeset .linked-context-target {
+  scroll-margin-block: 6rem;
+  outline: 2px solid rgba(5, 80, 125, 0.62);
+  outline-offset: 4px;
+  border-radius: 0.2rem;
+  background-color: rgba(5, 80, 125, 0.08);
+  transition:
+    outline-color 700ms ease,
+    background-color 700ms ease;
+}
+
+.md-typeset tr.linked-context-target > * {
+  background-color: #eaf3f8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .linked-context-target {
+    transition: none;
+  }
+}
