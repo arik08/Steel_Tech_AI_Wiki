@@ -6,7 +6,7 @@
 
 !!! info "현재 감시 범위"
 
-    **12개 기업** · **13개 기술** · **160개 Source** · **859개 Claim**
+    **12개 기업** · **13개 기술** · **161개 Source** · **861개 Claim**
 
     [[REVIEW|사람 검토 대기]] **4건** · 근거가 연결된 주체 **65개**
 
@@ -178,11 +178,11 @@ flowchart LR
 - 2027-12-31 · PRJ-TK-H2STEEL-DUISBURG · `target_commissioning_date` · created
 - 2027-12-31 · PRJ-TK-H2STEEL-DUISBURG · `hydrogen_network_date` · created
 - 2026-12-31 · PRJ-BIOIRON-WA-RD · `original_commissioning_target` · created
+- 2026-07-28 · TEC-hydrogen-based-fine-ore-reduction · `dust_recycle` · superseded
+- 2026-07-28 · TEC-hydrogen-based-fine-ore-reduction · `dust_recycle` · review_coexist
+- 2026-07-28 · TEC-hydrogen-based-fine-ore-reduction · `dust_recycle` · coexistence_confirmed
 - 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `theoretical_hydrogen_minimum` · created
 - 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `technical_definition` · created
-- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `scale_up_method` · created
-- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `process_principle` · created
-- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `pilot_wall_temperature_range` · created
 
 ## 출처
 
@@ -328,6 +328,7 @@ flowchart LR
 - [[sources/SRC-20260727-275A6495|MHI and D-CRBN connect steelmaking CO2 capture and plasma conversion units]]
 - [[sources/SRC-20260727-3D412017|Low Temperature Direct Electrochemical Reduction for Zero Emissions Iron Project - Core Research Final Report]]
 - [[sources/SRC-20260727-44DC8B30|Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes]]
+- [[sources/SRC-20260727-481A04FD|US6585798B2 — Fluidized bed reactor for preventing the fine iron ore from sticking therein and method thereof]]
 - [[sources/SRC-20260727-48351ABD|PURESCRAP — CORDIS project fact sheet 101092168]]
 - [[sources/SRC-20260727-56D0B35D|Stegra announces closing of EUR 1.4 billion financing round]]
 - [[sources/SRC-20260727-71A7FA21|Low temperature electrolysis of iron ore in an aqueous alkaline solution - Volteron]]

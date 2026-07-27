@@ -30,7 +30,7 @@
 | 마이크로웨이브 바이오매스 제철 | `SRC-20260725-D965F782` / `MED-1D4B045DD76D` | 1920×1080 | `REPLACED` | 원본은 무라벨 feed silo·배관·계측이 과밀하고 독점 설비 흐름도처럼 보였다. | `MED-7220FCC31DD9` / `qc-fixed-microwave-biomass-ironmaking.png` `PASS` |
 | 스마트 제철소 | `SRC-20260725-41586A75` / `MED-52C2D1320144` | 1920×1080 | `REPLACED` | 아이콘·점선이 과밀하고 데이터·승인·안전 override 방향이 읽히지 않았다. | `MED-9A1572EA2DFF` / `qc-fixed-smart-steelworks-v3.png` `PASS_WITH_CAPTION` |
 | 수소 샤프트 DRI | `SRC-20260725-75A329BD` / `MED-EC43E3167DA9` | 1672×941 | `REPLACED` | fresh H₂ 보충 유입이 없고 `DRI → HOT DRI → HBI`가 직렬 변환처럼 보였다. | `MED-B7C2DC785571` / `qc-fixed-hydrogen-dri.png` `PASS_WITH_CAPTION` |
-| 수소 미분광 유동층 환원 | `SRC-20260725-A23B5A64` / `MED-49CEB753F6E6` | 1672×941 | `REJECT` | H₂O 제거 뒤 cyclone을 배치해 일반적인 분진 선제거 순서와 어긋났고 fresh H₂ 보충도 없었다. | `MED-A3F73A83EE4F` / `qc-fixed-fine-ore-fluidized-bed-v2.png` `PASS` |
+| 수소 미분광 유동층 환원 | `SRC-20260725-A23B5A64` / `MED-49CEB753F6E6` | 1672×941 | `REPLACED_AGAIN` | 1차 교정본 `MED-A3F73A83EE4F`도 4개 층을 한 압력용기에 수직 적층하고 단계간 개방 낙하를 그려 공개 HyREX·FINEX 캐스케이드와 압력 경계를 반영하지 못했다. | `SRC-20260725-013F0FA1` / `MED-1DFBEB84CEB5` / `hyrex-fluidized-bed-cascade-ai-reconstruction-2026-07-27.png` `PASS_WITH_CAPTION` |
 | 전기용융로(ESF) | `SRC-20260725-6EC0DF4D` / `MED-667CEDEE9C8F` | 1672×941 | `REPLACED` | 노출 free arc가 강조돼 submerged/resistance ESF보다 EAF처럼 보였고, 1차 교정본은 slag와 hot metal을 같은 refining bracket에 묶었다. | `MED-7AC974D2873D` / `qc-fixed-electric-smelting-furnace-v2.png` `PASS` |
 | 수소 플라즈마 용융환원(HPSR) | `SRC-20260725-A0AC41D7` / `MED-8C16D5A1B89E` | 1672×941 | `REPLACED` | 원본은 ore가 preheat 측과 hollow cathode 측에 중복 투입되는 것처럼 보였다. | `MED-DE2C759D0EE0` / `qc-fixed-hpsr.png` `PASS_WITH_CAPTION` |
 | ZESTY 수소 플래시 환원 | `SRC-20260727-C43117BC` / 연구 원본 | 1536×1024 | `REPLACED` | cyclone 회수 미분을 상부 feed로 확정 재순환하는 화살표가 공개 근거보다 강했다. | `MED-6786347D8BBA` / `qc-fixed-zesty.png` `PASS` |
@@ -118,11 +118,17 @@
 ### 9. 수소 미분광 유동층 환원
 
 - 원본은 H₂O 제거가 cyclone보다 앞이고 fines graphic도 pellet처럼 보여 비권고다.
-- 등록 v2는 다단 유동층의 solids downflow와 H₂-rich gas upflow를 분리했다.
-- wet offgas는 cyclone/dust recovery를 먼저 통과한 뒤 H₂O removal, compress/reheat,
-  recycle로 이어진다.
-- 회수 미분은 `RECOVERED FINES HANDLING`으로 분리했으며 자동 feed return을 만들지 않았다.
-- hot DRI fines는 sealed transfer로 ESF에 연결돼 분진·산화 위험을 설명하는 데 유효하다.
+- 1차 등록 v2 역시 네 유동층을 하나의 수직 압력용기 안에 적층하고 고체가 단계 사이를
+  개방 낙하하는 것처럼 보여 제외했다. 공개 HyREX·FINEX 설명은 별도 반응기가 계단식
+  캐스케이드로 배치되는 구성이다.
+- 2차 교정본은 4개 독립 FBR, 고체의 상단→하단 이동, H₂-rich gas의 하단→상단 향류를
+  분리했다. 각 단계 cyclone은 배출가스의 비산 미분을 분리해 같은 반응기 하부로
+  환류시키고, 정제된 가스만 앞 단계의 분산판 하부로 보낸다.
+- 단계간 벌크 고체 이송에는 압력 경계를 유지하는 밀폐 이송 개념을 표시했다. 다만
+  공개자료가 밝히지 않은 실제 HyREX seal leg·밸브·압력제어 형상을 확정하지 않도록
+  `CONCEPTUAL — NOT AS-BUILT / NOT P&ID`를 이미지와 캡션에 유지한다.
+- 고온 DRI는 마지막 FBR에서 별도 밀폐 배출되는 것으로 끝내고, 공개 POSCO 공정도에서
+  후단 ESF 연계를 실제 참고 이미지로 함께 보여준다.
 
 ### 10. ESF
 

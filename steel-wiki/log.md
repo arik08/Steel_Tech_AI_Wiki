@@ -5935,3 +5935,69 @@ MED-05F45466A6A4: attached to SRC-20260727-AAE02C9E (facility_photo, link_only)
 ## [2026-07-27T23:51:47+09:00] sync-obsidian
 
 65 subjects and 160 sources projected.
+
+## [2026-07-28T00:22:04+09:00] add-image
+
+MED-1DFBEB84CEB5: attached to SRC-20260725-013F0FA1 (ai_reconstruction, ai_generated)
+
+## [2026-07-28T00:22:40+09:00] sync-obsidian
+
+65 subjects and 160 sources projected.
+
+## [2026-07-28T00:24:32+09:00] add-source
+
+SRC-20260727-481A04FD: US6585798B2 — Fluidized bed reactor for preventing the fine iron ore from sticking therein and method thereof
+
+## [2026-07-28T00:24:40+09:00] review-required
+
+REV-CLM-A133476F6F6E: conflicting values for TEC-hydrogen-based-fine-ore-reduction / dust_recycle
+
+## [2026-07-28T00:25:10+09:00] resolve-review
+
+REV-CLM-A133476F6F6E: coexist. 사용자 기술 검토와 원문 대조 결과 두 주장은 적용 기술과 회수 위치가 다릅니다. 기존 주장은 HYFOR 파일럿의 건식 집진 분진 재투입이고, 신규 주장은 POSCO·RIST FINEX 계열 선행 특허의 반응기별 cyclone 미분 환류이므로 상호 대체하지 않고 병존시킵니다.
+
+## [2026-07-28T00:25:16+09:00] sync-obsidian
+
+65 subjects and 161 sources projected.
+
+## [2026-07-28T00:25:54+09:00] add-claim
+
+CLM-06D61D63B060: TEC-hydrogen-based-fine-ore-reduction / stage_cyclone_function = POSCO·RIST의 FINEX 계열 선행 특허는 각 유동층 반응기 상부 배출가스에서 cyclone으로 비산 미분을 분리해 동일 반응기 하부로 환류하고, 미분이 제거된 가스는 다음 반응기로 보내는 구성을 공개한다. 이는 현재 HyREX 실증설비의 준공도나 상세 압력실링 구성을 뜻하지 않는다.
+
+## [2026-07-28T00:25:59+09:00] sync-obsidian
+
+65 subjects and 161 sources projected.
+
+## [2026-07-28T00:26:51+09:00] audit
+
+19 findings. Report: reports/audits/audit-2026-07-28.md
+
+## [2026-07-28T00:29:34+09:00] sync-obsidian
+
+65 subjects and 161 sources projected.
+
+## [2026-07-28T00:29:58+09:00] sync-obsidian
+
+65 subjects and 161 sources projected.
+
+## [2026-07-28T00:31:00+09:00] sync-obsidian
+
+65 subjects and 161 sources projected.
+
+## [2026-07-28T00:31:00+09:00] audit
+
+17 findings. Report: reports/audits/audit-2026-07-28.md
+
+## [2026-07-28T00:32:19+09:00] claim-reclassified
+
+CLM-11F7F8142612의 `dust_recycle` 분류를 이력으로 보존하고, 시스템 집진과
+단계별 cyclone 환류를 구분하기 위해 CLM-06D61D63B060
+(`stage_cyclone_function`)으로 대체했습니다.
+
+## [2026-07-28T00:32:59+09:00] sync-obsidian
+
+65 subjects and 161 sources projected.
+
+## [2026-07-28T00:33:00+09:00] audit
+
+17 findings. Report: reports/audits/audit-2026-07-28.md

@@ -33,6 +33,9 @@
 | 2027-12-31 | [[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]] | 목표 시운전 시점 | 신규 등록 | 2027년 시운전 개시 목표 · 현재 유효 | [[sources/SRC-20260725-8D0BD4B8|근거 보기]] |
 | 2027-12-31 | [[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]] | 수소망 연결 목표 | 신규 등록 | 2027년 지역 수소망 연결 계획 · 현재 유효 | [[sources/SRC-20260725-8D0BD4B8|근거 보기]] |
 | 2026-12-31 | [[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]] | 기존 시운전 목표 | 신규 등록 | 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 · 과거 계획 기록 | [[sources/SRC-20260725-C925BF86|근거 보기]] |
+| 2026-07-28 | [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | 분진 회수·재순환 | superseded | POSCO·RIST의 FINEX 계열 선행 특허는 각 유동층 반응기 상부 배출가스에서 cyclone으로 비산 미분을 분리해 동일 반응기 하부로 환류하고, 미분이 제거된 가스는 다음 반응기로 보내는 구성을 공개한다. 이는 현재 HyREX 실증설비의 준공도나 상세 압력실링 구성을 뜻하지 않는다. · 후속 정보로 대체 | [[sources/SRC-20260727-481A04FD|근거 보기]] |
+| 2026-07-28 | [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | 분진 회수·재순환 | 검토 후 공존 | POSCO·RIST의 FINEX 계열 선행 특허는 각 유동층 반응기 상부 배출가스에서 cyclone으로 비산 미분을 분리해 동일 반응기 하부로 환류하고, 미분이 제거된 가스는 다음 반응기로 보내는 구성을 공개한다. 이는 현재 HyREX 실증설비의 준공도나 상세 압력실링 구성을 뜻하지 않는다. · 후속 정보로 대체 | [[sources/SRC-20260727-481A04FD|근거 보기]] |
+| 2026-07-28 | [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | 분진 회수·재순환 | 공존 확인 | HYFOR 파일럿은 건식 집진으로 회수한 분진을 공정에 재투입하도록 구성 · 현재 유효 | [[sources/SRC-20260725-BC8DE092|근거 보기]] |
 | 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 이론적 최소 수소량 | 신규 등록 | hematite 기준 54 kg H2/t-iron 이론 최소치에 접근을 목표; 실측 원단위가 아님 · 현재 유효 | [[sources/SRC-20260727-C43117BC|근거 보기]] |
 | 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 기술 정의 | 신규 등록 | 간접 가열 수직 관형 반응기에서 미분 철광석을 중력 하강시키고, 하부에서 공급한 수소와 향류 접촉해 고체 DRI를 만드는 flash hydrogen reduction 공정 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
 | 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 제안 scale-up 방식 | 신규 등록 | 단일 파일럿 관에서 full-scale 관과 병렬 다관 모듈로 확대하고 전후단 예열·열회수를 통합하는 경로를 제안 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
@@ -43,6 +46,7 @@
 | 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 파일럿 금속화 결과 | 신규 등록 | 조사한 조건에서 최대 95% metallisation; 연속 실증플랜트 성능이 아닌 파일럿 조건부 최고값 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
 | 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 핵심 scale-up 위험 | 신규 등록 | 입도·체류시간·수소 화학양론·열 및 물질전달, 고온 sticking, 미분 회수와 수소 recycle, DRI/HBI 후처리의 연속운전 검증 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
 | 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 적용 원료 | 신규 등록 | 일반적으로 500 µm 미만 철광석 미분을 직접 투입하며 펠릿화 생략 가능성을 지향 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | 단계별 cyclone 기능 | 신규 등록 | POSCO·RIST의 FINEX 계열 선행 특허는 각 유동층 반응기 상부 배출가스에서 cyclone으로 비산 미분을 분리해 동일 반응기 하부로 환류하고, 미분이 제거된 가스는 다음 반응기로 보내는 구성을 공개한다. 이는 현재 HyREX 실증설비의 준공도나 상세 압력실링 구성을 뜻하지 않는다. · 현재 유효 | [[sources/SRC-20260727-481A04FD|근거 보기]] |
 | 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | 기술 정의 | 신규 등록 | Cyclone Converter Furnace(CCF)와 HIsmelt계 Smelting Reduction Vessel(SRV)을 결합해 미분광을 예환원·용융한 뒤 슬래그층에서 석탄으로 최종 환원하는 용융환원 공정 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
 | 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | scale-up 위험 | 신규 등록 | 후연소 혼합·체류시간, 산소 포트와 유량, 벽 열손실, 내화물 침식·부착물, 급랭·집진 및 조성변동을 파일럿 데이터로 검증해야 함 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
 | 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | 내화물 검사 결과 | 신규 등록 | 2020 inspection에서 고온 oxygen-lance 인근 reflux chamber 내화물 평균 두께 32–38 mm, fresh 49.5 mm 대비 감소 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
@@ -74,10 +78,6 @@
 | 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 자금 사용 목적 | 신규 등록 | Boden 통합 그린스틸 플랜트의 건설·시운전 완료를 위한 자금 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
 | 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 자금조달 종결일 | 신규 등록 | 2026-06-24 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
 | 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 종결 자금조달액 | 신규 등록 | EUR 1,400,000,000 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
-| 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 건설 활동 상태 | 신규 등록 | 자금조달 활동 중 수개월간 공사 활동이 더 느리게 진행됐다고 회사가 설명 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
-| 2026-07-27 | [[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]] | 제품 출하 이정표 | 신규 등록 | 에탄올 생산량이 바지선 운송을 지원할 수준에 도달해 LanzaTech가 첫 선적분 소유권을 인수; 정제 후 향료·생활용품 고객 판매 예정 · 현재 유효 | [[sources/SRC-20260727-96F6D922|근거 보기]] |
-| 2026-07-27 | [[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]] | 첫 바지선 출하 시점 | 신규 등록 | 2024-12 초, 정확한 일자는 미공개 · 현재 유효 | [[sources/SRC-20260727-96F6D922|근거 보기]] |
-| 2026-07-27 | [[projects/PRJ-PURESCRAP-EU-SCRAP-PURITY|EU PURESCRAP 스크랩 순도 검증]] | 검증 범위 | 신규 등록 | heavy cut scrap와 shredded scrap 두 처리사슬에 센서·AI 분석을 통합하고 R260 및 42CrMo4를 예시 강종으로 반산업·산업 규모 제강 검증 · 현재 유효 | [[sources/SRC-20260727-48351ABD|근거 보기]] |
 
 !!! note "표를 읽는 법"
 

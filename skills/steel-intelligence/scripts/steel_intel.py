@@ -1887,6 +1887,7 @@ PREDICATE_LABELS = {
     "reduction_degree": "단계별 환원도",
     "gas_recycle": "환원가스 재순환",
     "dust_recycle": "분진 회수·재순환",
+    "stage_cyclone_function": "단계별 cyclone 기능",
     "elutriation_risk": "비산·입자 손실 위험",
     "sticking_mechanism": "고착 발생 메커니즘",
     "sticking_controls": "고착 억제 수단",
@@ -2191,6 +2192,7 @@ TECHNICAL_FEATURE_GROUPS = (
             "reactor_cascade",
             "gas_recycle",
             "dust_recycle",
+            "stage_cyclone_function",
             "sticking_mechanism",
             "sticking_controls",
             "integrated_process_train",
@@ -2619,6 +2621,14 @@ MEDIA_DISPLAY_OVERRIDES = {
         "hero_eligible": False,
     },
     "MED-49CEB753F6E6": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    # This AI redraw incorrectly stacked four beds inside one pressure shell
+    # and showed open gravity transfer against the counter-current reducing
+    # gas. Public HyREX/FINEX material instead shows separate reactors in a
+    # cascade, with stage cyclones and pressure-aware solids transfer.
+    "MED-A3F73A83EE4F": {
         "display_eligible": False,
         "hero_eligible": False,
     },

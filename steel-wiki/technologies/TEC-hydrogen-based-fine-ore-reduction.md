@@ -2,7 +2,7 @@
 
 # 무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-27** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 환원·용융 경로"
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![철광석 미분 예열, 4단 유동층 수소 환원, cyclone 회수 미분, 수소 재순환, 고온 DRI 미분 밀폐 이송과 ESF 연결을 나타낸 AI 개념도](../assets/media/SRC-20260725-A23B5A64/MED-A3F73A83EE4F.png){ .steel-media-image .steel-hero-image .steel-media-detail }
+![4개 독립 유동층 반응기가 계단식으로 배치되고 각 단계 cyclone이 비산 미분을 같은 반응기로 되돌리며 수소계 가스는 FBR-4에서 FBR-1로 역방향 흐르는 HyREX 공개 개념 기반 AI 재구성](../assets/media/SRC-20260725-013F0FA1/MED-1DFBEB84CEB5.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — AI 재구성 — 철광석 미분을 예열해 4단 유동층에 순차 공급하고, 하부 H2-rich gas의 상향 흐름과 고체 하향 이동으로 환원한 뒤 고온 DRI 미분을 밀폐 이송해 ESF에 투입하는 대표 구성. 습윤 배가스의 cyclone/dust recovery, 수분 제거, 압축·재가열, 보충 수소 합류와 회수 미분 처리 경계를 분리했으며 실제 HYFOR·HyREX 설비의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · [원문 페이지](https://www.primetals.com/portfolio/ironmaking/hyfor))*
+*대표 이미지 — AI 재구성 — POSCO 공개 HyREX 개념도를 바탕으로 4개 독립 유동층 반응기의 계단식 캐스케이드, 단계별 cyclone의 비산 미분 회수·동일 반응기 환류, 환원가스의 FBR-4→FBR-1 향류, 압력 경계를 고려한 단계간 고체 이송과 고온 DRI 밀폐 배출을 재구성했다. 반응기 단수와 이송·밀봉 상세는 공개 개념 범위이며 실제 실증설비의 준공도·PFD·P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-013F0FA1|SRC-20260725-013F0FA1]] · [원문 페이지](https://www.posco.com/homepage/docs/eng7/jsp/hyrex))*
 
 !!! abstract "한눈에 보기"
 
@@ -46,7 +46,7 @@
 ‘무펠릿’은 모든 조립을 금지한다는 뜻이 아닙니다. Circored는 통상적인 DR 펠릿을 생략하지만 50 μm 이하 초미분을 바인더와 함께 미세 조립할 수 있습니다. 또한 HYFOR·HyREX의 다단 유동층과 Circored의 순환·기포 유동층은 반응기 구성과 운전창이 다르므로 동일 공정으로 합산하지 않습니다.
 
 - **근거 확인 기업:** 3개
-- **직접 연결 근거:** 12건
+- **직접 연결 근거:** 13건
 
 ## 작동 원리
 
@@ -103,6 +103,7 @@ flowchart TB
 | **유동층 단계 구성** | HYFOR는 가스 정제·가열 계통과 연결된 일련의 유동층 반응기에서 단계적으로 환원 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **환원가스 재순환** | HYFOR는 반응 후 가스를 정제해 공정으로 재순환하는 폐회로 환원가스 계통을 사용 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **분진 회수·재순환** | HYFOR 파일럿은 건식 집진으로 회수한 분진을 공정에 재투입하도록 구성 [^src-20260725-bc8de092] | 설비 공급사 |
+| **단계별 cyclone 기능** | POSCO·RIST의 FINEX 계열 선행 특허는 각 유동층 반응기 상부 배출가스에서 cyclone으로 비산 미분을 분리해 동일 반응기 하부로 환류하고, 미분이 제거된 가스는 다음 반응기로 보내는 구성을 공개한다. 이는 현재 HyREX 실증설비의 준공도나 상세 압력실링 구성을 뜻하지 않는다. [^src-20260727-481a04fd] | 특허 |
 | **고착 발생 메커니즘** | 환원 중 생성된 금속철 표면과 철 whisker가 입자 사이 결합을 만들어 유동층 탈유동화를 일으킬 수 있음 [^src-20260725-043634ea] | 학술지 논문 |
 | **고착 억제 수단** | 고착 완화 수단은 표면 코팅, 광석 혼합, 조립, 단계환원, 순환·원추형 유동층, 기계적 교반과 입자 구조 제어를 포함 [^src-20260725-043634ea] | 학술지 논문 |
 
@@ -141,6 +142,7 @@ flowchart TB
 
 | 날짜 | 공개 사건 |
 | --- | --- |
+| 2003-07-01 | US6585798B2 — Fluidized bed reactor for preventing the fine iron ore from sticking therein and method thereof [^src-20260727-481a04fd] |
 | 2020-01-15 | A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore [^src-20260725-043634ea] |
 | 2021-06-24 | HYFOR Pilot Plant Under Operation [^src-20260725-bc8de092] |
 | 2024-09-11 | POSCO HyREX electric smelting furnace pilot status [^src-20260725-a6759186] |
@@ -151,6 +153,13 @@ flowchart TB
 | 2026-06-22 | POSCO completes Gwangyang EAF and advances HyREX [^src-20260725-b859ca04] |
 
 ## 설비·공정 이미지
+
+![분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도](<https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** POSCO 공식 HyREX 공정도: 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계
+
+- 출처 [[sources/SRC-20260725-013F0FA1|SRC-20260725-013F0FA1]] · 권리 `link_only` · [원문 페이지](https://www.posco.com/homepage/docs/eng7/jsp/hyrex) · 작성·촬영 POSCO
+- 권리 메모: POSCO 공식 HyREX 페이지에서 원본 이미지와 공정 설명을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원격 링크로만 표시합니다.
 
 ![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-media-compact }
 
@@ -268,6 +277,7 @@ flowchart TB
 - [[sources/SRC-20260725-E316D68F|Construction begins on HYFOR and Smelter demonstration plant]] — Primetals Technologies, 2025-09-25 · [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf)
 - [[sources/SRC-20260725-FF076FE4|POSCO decarbonization strategies from CCUS to HyREX]] — POSCO Group Newsroom, 2025-10-29 · [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/)
 - [[sources/SRC-20260726-EADB3777|Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction]] — Association for Iron & Steel Technology, 2026-03-11 · [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf)
+- [[sources/SRC-20260727-481A04FD|US6585798B2 — Fluidized bed reactor for preventing the fine iron ore from sticking therein and method thereof]] — POSCO Holdings Inc. / RIST, 2003-07-01 · [원문](https://patents.google.com/patent/US6585798)
 - [[sources/SRC-20260727-A39F1D70|POSCO Climate Change - HyREX demonstration plan and current schedule]] — POSCO ESG, 게시일 미상 · [원문](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953)
 
 [^src-20260725-043634ea]: **A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore** — The Iron and Steel Institute of Japan, 2020-01-15. DOI: [10.2355/isijinternational.isijint-2019-392](https://doi.org/10.2355/isijinternational.isijint-2019-392). [원문](https://www.jstage.jst.go.jp/article/isijinternational/60/1/60_ISIJINT-2019-392/_html/-char/en) · [[sources/SRC-20260725-043634EA|보관 원문·메타데이터]]
@@ -280,3 +290,4 @@ flowchart TB
 [^src-20260725-e316d68f]: **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
 [^src-20260725-ff076fe4]: **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29. [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
 [^src-20260726-eadb3777]: **Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction** — Association for Iron & Steel Technology, 2026-03-11. [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf) · [[sources/SRC-20260726-EADB3777|보관 원문·메타데이터]]
+[^src-20260727-481a04fd]: **US6585798B2 — Fluidized bed reactor for preventing the fine iron ore from sticking therein and method thereof** — POSCO Holdings Inc. / RIST, 2003-07-01. [원문](https://patents.google.com/patent/US6585798) · [[sources/SRC-20260727-481A04FD|보관 원문·메타데이터]]
