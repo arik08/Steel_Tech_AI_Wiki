@@ -1,8 +1,8 @@
 {
   "run_id": "overnight-three-thread-crosscheck-2026-07-28",
   "started_at": "2026-07-28T02:24:00+09:00",
-  "completed_at": null,
-  "status": "in_progress",
+  "completed_at": "2026-07-28T06:03:14+09:00",
+  "status": "completed",
   "baseline_date": "2026-07-23",
   "scope": {
     "purpose": "3개 Codex 작업으로 우선 기술·기업·프로젝트의 최신 상태, 반대 신호, Cross-Check와 대표 이미지를 중복 없이 보완",
@@ -410,7 +410,8 @@
     "tests": "passed: pytest 41 tests and 13 subtests",
     "mkdocs_strict_build": "passed",
     "ui_qa": "passed in Codex in-app browser: desktop and mobile, broken images 0, horizontal/table overflow 0, console warning/error 0",
-    "github_push_after_06": "pending",
-    "vercel_deployment_after_06": "pending"
+    "github_push_after_06": "passed: ed18b27cf1940af8cff2fcdd820a03e871b8320a pushed to origin/agent/contextual-link-navigation",
+    "vercel_deployment_after_06": "passed: production dpl_E2uid9eu1Z9LezTwjFegAVuLXF4L READY and aliased to https://steel-tech-ai-wiki.vercel.app",
+    "production_ui_qa": "passed in Codex in-app browser: home plus Nucor West Virginia, NeoSmelt, Boston Metal MOE and PURESCRAP; broken images 0, horizontal overflow 0, new console warning/error 0"
   }
 }
