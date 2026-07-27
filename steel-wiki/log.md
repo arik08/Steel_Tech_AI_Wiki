@@ -5931,3 +5931,7 @@ MED-05F45466A6A4: attached to SRC-20260727-AAE02C9E (facility_photo, link_only)
 ## [2026-07-27T20:59:33+09:00] audit
 
 17 findings. Report: reports/audits/audit-2026-07-27.md
+
+## [2026-07-27T23:51:47+09:00] sync-obsidian
+
+65 subjects and 160 sources projected.

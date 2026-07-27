@@ -5,8 +5,8 @@
   "status": "success",
   "baseline_date": "2026-07-27",
   "scope": {
-    "purpose": "POSCO홀딩스 미래기술연구원 박사급 검토를 위한 미래철강 기술 원리·실증현황·전략 센싱·이미지 근거 고도화",
-    "audience": "미래철강TD 기술 센싱 및 전략 수립 담당자와 미래기술연구원 연구진",
+    "purpose": "미래철강 13개 기술의 원리·실증 현황·전략 센싱·이미지 근거 고도화",
+    "audience": "미래철강 기술 센싱 및 전략 수립 담당자",
     "technologies_monitored": [
       "TEC-low-carbon-ironmaking",
       "TEC-hydrogen-direct-reduced-iron",
