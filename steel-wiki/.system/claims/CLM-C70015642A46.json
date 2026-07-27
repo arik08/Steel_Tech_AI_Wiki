@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C70015642A46",
+  "subject_id": "PRJ-HY4SMELT",
+  "predicate": "target_interior_fitout_completion",
+  "value": "2026년 말",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-1BF41B90"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "voestalpine이 공개한 내부공사 목표 일정이며 완료 실적은 아님",
+      "source_ids": [
+        "SRC-20260728-1BF41B90"
+      ]
+    }
+  ]
+}

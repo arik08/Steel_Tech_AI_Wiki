@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM-A2373123F043",
+  "subject_id": "PRJ-SSAB-LULEA-ELECTRIC-MILL",
+  "predicate": "construction_safety_pause_status",
+  "value": "2026-06-29 낮은 농도의 시안화수소 감지로 해당·인접 토공 구역 작업을 재중단; 적용 노출한계 미만이라는 SSAB 발표와 구분",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-29",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-4F6EAEA2",
+    "SRC-20260728-3C88A721"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-29",
+      "action": "created",
+      "reason": "SSAB 공식 안전 중단 발표",
+      "source_ids": [
+        "SRC-20260728-4F6EAEA2"
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "action": "verified",
+      "reason": "SVT 후속 보도로 중단 사실 교차검증",
+      "source_ids": [
+        "SRC-20260728-3C88A721"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-3C88A721"
+      ]
+    }
+  ]
+}

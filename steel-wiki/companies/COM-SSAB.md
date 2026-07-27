@@ -2,7 +2,7 @@
 
 # SSAB 기술 현황
 
-> 조사 기준일: **2026-07-27** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-28** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 
 ![SSAB Luleå 전기제철소 기공식](<https://mb.cision.com/Public/980/4235985/a783e1cf18bc6171_org.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
@@ -16,7 +16,7 @@
     | **확인된 기술** | 2개 / 감시 기술 13개 |
     | **연결 프로젝트** | 3개 |
     | **실행 단계** | 연구·실증 1건 · 공식 현황 확인 1건 |
-    | **직접 연결 근거** | 6건 |
+    | **직접 연결 근거** | 16건 |
 
 ## 기술 포트폴리오
 
@@ -64,8 +64,8 @@
 | 프로젝트 | 현재 상태 | 핵심 일정·규모 |
 | --- | --- | --- |
 | **[[projects/PRJ-HYBRIT-LULEA-PILOT|HYBRIT 룰레오 수소 DRI 파일럿]]** | 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. [^src-20260725-75a329bd] | **기술 경로** 철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬 [^src-20260725-75a329bd] · **위치** Luleå, Sweden [^src-20260725-75a329bd] |
-| **[[projects/PRJ-PURESCRAP-EU-SCRAP-PURITY|EU PURESCRAP 스크랩 순도 검증]]** | 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 [^src-20260727-7defb3ce] | - |
-| **[[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] | **기술 경로** 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 [^src-20260725-31601585] · **위치** Luleå, Sweden [^src-20260725-31601585] · **연간 생산능력** 연간 2,500,000톤 [^src-20260725-31601585] · **투자비** EUR 4.5 billion [^src-20260725-31601585] · **목표 가동 시점** 2029년 말 가동 목표 [^src-20260725-31601585] |
+| **[[projects/PRJ-PURESCRAP-EU-SCRAP-PURITY|EU PURESCRAP 스크랩 순도 검증]]** | 2026-07-23 최신 공식 뉴스레터 기준 중량 스크랩 센서 스테이션은 Swerim Luleå 시험 후 2026년 4월 Stena Recycling Hallstahammar 생산 현장으로 이전됐으며, 완전 산업가동·정량 KPI 달성은 아직 확인되지 않음 [^src-20260728-44eb4aeb] | - |
+| **[[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] | **기술 경로** 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 [^src-20260725-31601585] · **위치** Luleå, Sweden [^src-20260725-31601585] · **연간 생산능력** 연간 2,500,000톤 [^src-20260725-31601585] · **투자비** EUR 4.5 billion [^src-20260725-31601585] · **목표 가동 시점** 2029년 말 가동 목표 [^src-20260725-31601585][^src-20260728-2bb4fea7] |
 
 ## 프로젝트별 상세
 
@@ -76,15 +76,23 @@
     | 항목 | 확인된 내용 |
     | --- | --- |
     | **공개 성과의 한계** | 정부 요약에도 설비 가동률·캠페인별 생산량·제품별 품질 통계·감사된 생산원가는 공개되지 않음 [^src-20260725-c4a8eda3] |
+    | **Storage pilot campaign status** | 수소저장 파일럿은 2022년부터 3~6주 단위 캠페인으로 간헐 운전; 2031년까지 연속운전 실적을 뜻하지 않음 [^src-20260728-830bd90f] |
     | **프로젝트 상태** | 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. [^src-20260725-75a329bd] |
     | **기술 경로** | 철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬 [^src-20260725-75a329bd] |
     | **파일럿 생산량** | 2024년 8월까지 수소환원철 5,000톤 이상 [^src-20260725-75a329bd] |
     | **위치** | Luleå, Sweden [^src-20260725-75a329bd] |
+    | **Direct reduction pilot capacity** | INCITE 기술 프로필은 Luleå 직접환원 파일럿을 0.8~1.4 t DRI/h로 제시하며, 4~8주 시험기간 동안 24/7 연속운전했다고 설명한다. 연간 상업능력이나 2020년 이후 무중단 운전을 뜻하지 않는다. [^src-20260728-d30ab70a] |
+    | **Storage pilot permit expiry** | 2026-02-24 공식 발표 기준 임시 건축허가가 연장되어 Svartoberget 수소저장 파일럿을 2031년까지 운전할 수 있음; 연속운전·상업화 일정 의미는 아님 [^src-20260728-830bd90f] |
     | **정부 독립 검증** | Swedish Energy Agency 2024 전환 분석이 2018~2024 파일럿 완료와 수소 생산·저장 및 DRI-EAF 통합 조업 성과를 독립 요약 [^src-20260725-c4a8eda3] |
+    | **Eaf melting test configuration** | HYBRIT DRI/HBI는 Swerim 10 t EAF에서 용해 시험됐고 biocarbon·산소·foaming slag, 연속·회분 장입과 서로 다른 탄소·금속화율 조건이 평가됐다. [^src-20260728-d30ab70a] |
     | **수소 저장 시험 종료 목표** | 수소 저장 파일럿을 2026년까지 계속 [^src-20260725-75a329bd] |
     | **전해조 장기운전 결과** | 알칼라인 수전해 설비의 장기운전과 수소 저장, 수소 DRI의 EAF 용해 조업법 개발을 정부 분석이 확인 [^src-20260725-c4a8eda3] |
+    | **Incite maturity classification** | EC INCITE 구조화 필드는 Operational·Achieved TRL 7로 표시하지만 본문은 relevant environment에서 up to TRL 6/7로 설명한다. 이 분류는 Gällivare 상업 규모 운전 검증이 아니다. [^src-20260728-d30ab70a] |
     | **단계 완료 시점** | 2024년 [^src-20260725-75a329bd] |
+    | **Hydrogen storage model evidence limit** | 해당 연구는 현장 측정과 해석해 비교했다고 밝힌 SSRN 사전논문이지만 공개 검색 기록만으로 측정계열·잔차를 검증할 수 없고 동료심사도 완료되지 않아, 샤프트 배관의 수소취성 위험을 실제 손상이나 운영사 확인 고장으로 해석할 수 없다. [^src-20260728-4c948f2f] |
+    | **Reduction gas heating test scope** | 파일럿은 천연가스·바이오가스·수소 연소 가열과 여러 전기가열 설치, 산소 주입 조합을 평가했고 환원가스 550~1,090°C를 시험했다. 이는 최적 운전창이나 보증 범위가 아니다. [^src-20260728-d30ab70a] |
     | **프로젝트 착수 시점** | 2018년 [^src-20260725-75a329bd] |
+    | **Hydrogen storage thermal risk model** | 2026년 비동료심사 모델은 HYBRIT Luleå 암반공동-샤프트 저장계에서 압력은 거의 균일·선형으로 변하지만 온도장은 비선형·불균일하며, 주입·인출 유동과 열충격 때문에 샤프트-공동 접합부가 핵심 구조 취약 구역이 될 수 있다고 제시했다. [^src-20260728-4c948f2f] |
 
     **전체 공개 연혁**
 
@@ -95,6 +103,9 @@
     | 2024-08-27 | 발표·검증 | **프로젝트 상태**: 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. · **기술 경로**: 철광석 펠릿·재생수소 샤프트 환원·수소 저장·EAF 용해를 연결한 통합 가치사슬 · **파일럿 생산량**: 2024년 8월까지 수소환원철 5,000톤 이상 · **위치**: Luleå, Sweden · **수소 저장 시험 종료 목표**: 수소 저장 파일럿을 2026년까지 계속 · **단계 완료 시점**: 2024년 · **프로젝트 착수 시점**: 2018년 [^src-20260725-75a329bd] |
     | 2024-12-01 | 발표·검증 | **공개 성과의 한계**: 정부 요약에도 설비 가동률·캠페인별 생산량·제품별 품질 통계·감사된 생산원가는 공개되지 않음 · **정부 독립 검증**: Swedish Energy Agency 2024 전환 분석이 2018~2024 파일럿 완료와 수소 생산·저장 및 DRI-EAF 통합 조업 성과를 독립 요약 · **전해조 장기운전 결과**: 알칼라인 수전해 설비의 장기운전과 수소 저장, 수소 DRI의 EAF 용해 조업법 개발을 정부 분석이 확인 [^src-20260725-c4a8eda3] |
     | 2026 | 목표 일정 | **수소 저장 시험 종료 목표**: 수소 저장 파일럿을 2026년까지 계속 [^src-20260725-75a329bd] |
+    | 2026-01-01 | 발표·검증 | **Hydrogen storage model evidence limit**: 해당 연구는 현장 측정과 해석해 비교했다고 밝힌 SSRN 사전논문이지만 공개 검색 기록만으로 측정계열·잔차를 검증할 수 없고 동료심사도 완료되지 않아, 샤프트 배관의 수소취성 위험을 실제 손상이나 운영사 확인 고장으로 해석할 수 없다. · **Hydrogen storage thermal risk model**: 2026년 비동료심사 모델은 HYBRIT Luleå 암반공동-샤프트 저장계에서 압력은 거의 균일·선형으로 변하지만 온도장은 비선형·불균일하며, 주입·인출 유동과 열충격 때문에 샤프트-공동 접합부가 핵심 구조 취약 구역이 될 수 있다고 제시했다. [^src-20260728-4c948f2f] |
+    | 2026-02-24 | 발표·검증 | **Storage pilot campaign status**: 수소저장 파일럿은 2022년부터 3~6주 단위 캠페인으로 간헐 운전; 2031년까지 연속운전 실적을 뜻하지 않음 · **Storage pilot permit expiry**: 2026-02-24 공식 발표 기준 임시 건축허가가 연장되어 Svartoberget 수소저장 파일럿을 2031년까지 운전할 수 있음; 연속운전·상업화 일정 의미는 아님 [^src-20260728-830bd90f] |
+    | 2026-07-28 | 수집 확인 | **Direct reduction pilot capacity**: INCITE 기술 프로필은 Luleå 직접환원 파일럿을 0.8~1.4 t DRI/h로 제시하며, 4~8주 시험기간 동안 24/7 연속운전했다고 설명한다. 연간 상업능력이나 2020년 이후 무중단 운전을 뜻하지 않는다. · **Eaf melting test configuration**: HYBRIT DRI/HBI는 Swerim 10 t EAF에서 용해 시험됐고 biocarbon·산소·foaming slag, 연속·회분 장입과 서로 다른 탄소·금속화율 조건이 평가됐다. · **Incite maturity classification**: EC INCITE 구조화 필드는 Operational·Achieved TRL 7로 표시하지만 본문은 relevant environment에서 up to TRL 6/7로 설명한다. 이 분류는 Gällivare 상업 규모 운전 검증이 아니다. · **Reduction gas heating test scope**: 파일럿은 천연가스·바이오가스·수소 연소 가열과 여러 전기가열 설치, 산소 주입 조합을 평가했고 환원가스 550~1,090°C를 시험했다. 이는 최적 운전창이나 보증 범위가 아니다. [^src-20260728-d30ab70a] |
 
 ??? info "EU PURESCRAP 스크랩 순도 검증"
 
@@ -103,11 +114,14 @@
     | 항목 | 확인된 내용 |
     | --- | --- |
     | **총사업비** | EUR 6,181,056.25 [^src-20260727-48351abd] |
+    | **Experiment status** | 2026년 첫 운영위원회 시점에 최근 시험 캠페인 결과를 평가 중이었고 다음 실험 단계를 준비 중 [^src-20260728-71f1636f] |
     | **저품질 스크랩 투입 확대 목표** | 특정 강종의 총 스크랩 투입에서 저품질 post-consumer scrap 비중을 통상 관행 대비 최소 40% 높이는 목표; 달성 실적 아님 [^src-20260727-48351abd] |
-    | **목표 종료일** | 2027-03-31 [^src-20260727-48351abd] |
+    | **목표 종료일** | 2027-03-31 [^src-20260727-48351abd][^src-20260728-e41e2371] |
     | **EU 지원액** | EUR 4,997,059.75 [^src-20260727-48351abd] |
     | **검증 범위** | heavy cut scrap와 shredded scrap 두 처리사슬에 센서·AI 분석을 통합하고 R260 및 42CrMo4를 예시 강종으로 반산업·산업 규모 제강 검증 [^src-20260727-48351abd] |
-    | **프로젝트 상태** | 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 [^src-20260727-7defb3ce] |
+    | **프로젝트 상태** | 2026-07-23 최신 공식 뉴스레터 기준 중량 스크랩 센서 스테이션은 Swerim Luleå 시험 후 2026년 4월 Stena Recycling Hallstahammar 생산 현장으로 이전됐으며, 완전 산업가동·정량 KPI 달성은 아직 확인되지 않음 [^src-20260728-44eb4aeb] |
+    | **Heavy scrap station deployment progress** | 2026년 4월 Swerim Luleå 시험을 거친 중량 스크랩 센서 스테이션을 Stena Recycling Hallstahammar 생산 현장으로 이전; 컨소시엄이 산업 운전 접근 단계로 표현했으나 완전 산업가동·정량 KPI 달성은 미확인 [^src-20260728-44eb4aeb] |
+    | **Public deliverables status** | 2026-05-03 CORDIS results page lists 12 reports, 2 demonstrator/prototype records and ongoing intermediate KPI and EAF-melting validation outputs; final KPI achievement remains unconfirmed [^src-20260728-e41e2371] |
     | **프로젝트 착수 시점** | 2023-01-01 [^src-20260727-48351abd] |
 
     **전체 공개 연혁**
@@ -115,9 +129,16 @@
     | 날짜 | 구분 | 확인된 사건 |
     | --- | --- | --- |
     | 2023-01-01 | 착수 | **프로젝트 착수 시점**: 2023-01-01 [^src-20260727-48351abd] |
-    | 2026-06-29 | 발표·검증 | **프로젝트 상태**: 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 [^src-20260727-7defb3ce] |
+    | 2026-02-25 | 발표·검증 | **Experiment status**: 2026년 첫 운영위원회 시점에 최근 시험 캠페인 결과를 평가 중이었고 다음 실험 단계를 준비 중 [^src-20260728-71f1636f] |
+    | 2026-05-03 | 발표·검증 | **목표 종료일**: 2027-03-31 · **Public deliverables status**: 2026-05-03 CORDIS results page lists 12 reports, 2 demonstrator/prototype records and ongoing intermediate KPI and EAF-melting validation outputs; final KPI achievement remains unconfirmed [^src-20260728-e41e2371] |
+    | 2026-06-29 | 발표·검증 | **프로젝트 상태**: 2026-07-23 최신 공식 뉴스레터 기준 중량 스크랩 센서 스테이션은 Swerim Luleå 시험 후 2026년 4월 Stena Recycling Hallstahammar 생산 현장으로 이전됐으며, 완전 산업가동·정량 KPI 달성은 아직 확인되지 않음 · **Heavy scrap station deployment progress**: 2026년 4월 Swerim Luleå 시험을 거친 중량 스크랩 센서 스테이션을 Stena Recycling Hallstahammar 생산 현장으로 이전; 컨소시엄이 산업 운전 접근 단계로 표현했으나 완전 산업가동·정량 KPI 달성은 미확인 [^src-20260728-44eb4aeb] |
+    | 2026-06-29 | 발표·검증 | **프로젝트 상태**: 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 · 후속 정보로 대체 [^src-20260727-7defb3ce] |
     | 2026-07-27 | 수집 확인 | **총사업비**: EUR 6,181,056.25 · **저품질 스크랩 투입 확대 목표**: 특정 강종의 총 스크랩 투입에서 저품질 post-consumer scrap 비중을 통상 관행 대비 최소 40% 높이는 목표; 달성 실적 아님 · **목표 종료일**: 2027-03-31 · **EU 지원액**: EUR 4,997,059.75 · **검증 범위**: heavy cut scrap와 shredded scrap 두 처리사슬에 센서·AI 분석을 통합하고 R260 및 42CrMo4를 예시 강종으로 반산업·산업 규모 제강 검증 · **프로젝트 착수 시점**: 2023-01-01 [^src-20260727-48351abd] |
-    | 2027-03-31 | 목표 일정 | **목표 종료일**: 2027-03-31 [^src-20260727-48351abd] |
+    | 2027-03-31 | 목표 일정 | **목표 종료일**: 2027-03-31 [^src-20260727-48351abd][^src-20260728-e41e2371] |
+
+    **변경·중단 이력**
+
+    - **프로젝트 상태 · 후속 정보로 대체:** 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 [^src-20260727-7defb3ce]
 
 ??? info "SSAB Luleå 신규 전기제철소"
 
@@ -125,21 +146,34 @@
 
     | 항목 | 확인된 내용 |
     | --- | --- |
+    | **Q2 groundwork status** | 2026-07-22 SSAB Q2 공시 기준 예방적 안전 중단 후 기초공사 재개; 기존 Lulea 철강 생산은 정상 운영 중이며 신규 전기로 설치 완료·시운전·생산개시 근거는 아님 [^src-20260728-2bb4fea7] |
+    | **Casting rolling configuration** | QSP-DUE 직접주조압연 계통은 110~140 mm 슬래브용 DySenCaster, 유도·저항가열을 결합한 100% 전기 터널로와 인라인 slab scarfer를 포함한다. [^src-20260728-eac4fdb6] |
     | **연간 생산능력** | 연간 2,500,000톤 [^src-20260725-31601585] |
     | **착공 시점** | 2025-09-17 기공식 [^src-20260725-31601585] |
+    | **Secondary metallurgy configuration** | 계약 공급 범위에는 twin-ladle 정련 station 2계열과 twin-tank 진공 탈가스기 2계열이 포함된다. [^src-20260728-eac4fdb6] |
+    | **Supplier design evidence boundary** | Danieli의 설비 구성·연 2.5 Mt 제품 범위는 계약상 설계·공급 목표이며 설치 완료, 시운전 또는 실제 생산·품질 실적이 아니다. [^src-20260728-eac4fdb6] |
     | **위치** | Luleå, Sweden [^src-20260725-31601585] |
+    | **Representative process reference** | AI 재구성은 스크랩·무화석 스폰지철의 병렬 2기 EAF 투입, 2차정련, 연속주조, 열간압연과 코일 생산 흐름을 설명; 실제 준공도·배치도·P&ID가 아님 [^src-20260725-31601585] |
+    | **Construction restart status** | 2026-07-13 발표 기준 추가 측정 뒤 일부 공사를 7월 14일부터 단계적으로 재개; 완공·시운전·생산개시가 아님 [^src-20260728-3c88a721][^src-20260728-4f6eaea2] |
     | **연간 CO2 감축·회피량** | 기존 고로 경로 대체 후 연간 약 3 Mt CO2 감축 추정 [^src-20260725-31601585] |
     | **투자비** | EUR 4.5 billion [^src-20260725-31601585] |
+    | **Construction safety pause status** | 2026-06-29 낮은 농도의 시안화수소 감지로 해당·인접 토공 구역 작업을 재중단; 적용 노출한계 미만이라는 SSAB 발표와 구분 [^src-20260728-4f6eaea2][^src-20260728-3c88a721] |
+    | **Meltshop equipment configuration** | Danieli 계약 공급 범위는 210 t Digimelter 2기, 지역난방 열회수를 포함한 Q-One 전원, ECS 연속 스크랩 장입, MeltModel 동적 용해 제어로 구성된다. [^src-20260728-eac4fdb6] |
     | **기술 경로** | 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 [^src-20260725-31601585] |
+    | **Schedule budget impact assessment** | 안전 관련 작업 중단은 전체 프로젝트 일정·예산에 중대한 영향을 주지 않는다는 SSAB 자체 평가; 독립 확정값 아님 [^src-20260728-4f6eaea2][^src-20260728-2bb4fea7] |
     | **프로젝트 상태** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] |
-    | **목표 가동 시점** | 2029년 말 가동 목표 [^src-20260725-31601585] |
+    | **목표 가동 시점** | 2029년 말 가동 목표 [^src-20260725-31601585][^src-20260728-2bb4fea7] |
 
     **전체 공개 연혁**
 
     | 날짜 | 구분 | 확인된 사건 |
     | --- | --- | --- |
-    | 2025-09-17 | 발표·검증 | **연간 생산능력**: 연간 2,500,000톤 · **착공 시점**: 2025-09-17 기공식 · **위치**: Luleå, Sweden · **연간 CO2 감축·회피량**: 기존 고로 경로 대체 후 연간 약 3 Mt CO2 감축 추정 · **투자비**: EUR 4.5 billion · **기술 경로**: 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 · **프로젝트 상태**: 2025-09-17 기공 후 신규 전기제철소 건설 중 · **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585] |
-    | 2029 | 목표 일정 | **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585] |
+    | 2025-06-10 | 발표·검증 | **Casting rolling configuration**: QSP-DUE 직접주조압연 계통은 110~140 mm 슬래브용 DySenCaster, 유도·저항가열을 결합한 100% 전기 터널로와 인라인 slab scarfer를 포함한다. · **Secondary metallurgy configuration**: 계약 공급 범위에는 twin-ladle 정련 station 2계열과 twin-tank 진공 탈가스기 2계열이 포함된다. · **Supplier design evidence boundary**: Danieli의 설비 구성·연 2.5 Mt 제품 범위는 계약상 설계·공급 목표이며 설치 완료, 시운전 또는 실제 생산·품질 실적이 아니다. · **Meltshop equipment configuration**: Danieli 계약 공급 범위는 210 t Digimelter 2기, 지역난방 열회수를 포함한 Q-One 전원, ECS 연속 스크랩 장입, MeltModel 동적 용해 제어로 구성된다. [^src-20260728-eac4fdb6] |
+    | 2025-09-17 | 발표·검증 | **연간 생산능력**: 연간 2,500,000톤 · **착공 시점**: 2025-09-17 기공식 · **위치**: Luleå, Sweden · **Representative process reference**: AI 재구성은 스크랩·무화석 스폰지철의 병렬 2기 EAF 투입, 2차정련, 연속주조, 열간압연과 코일 생산 흐름을 설명; 실제 준공도·배치도·P&ID가 아님 · **연간 CO2 감축·회피량**: 기존 고로 경로 대체 후 연간 약 3 Mt CO2 감축 추정 · **투자비**: EUR 4.5 billion · **기술 경로**: 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 · **프로젝트 상태**: 2025-09-17 기공 후 신규 전기제철소 건설 중 · **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585] |
+    | 2026-06-29 | 발표·검증 | **Construction restart status**: 2026-07-13 발표 기준 추가 측정 뒤 일부 공사를 7월 14일부터 단계적으로 재개; 완공·시운전·생산개시가 아님 · **Construction safety pause status**: 2026-06-29 낮은 농도의 시안화수소 감지로 해당·인접 토공 구역 작업을 재중단; 적용 노출한계 미만이라는 SSAB 발표와 구분 · **Schedule budget impact assessment**: 안전 관련 작업 중단은 전체 프로젝트 일정·예산에 중대한 영향을 주지 않는다는 SSAB 자체 평가; 독립 확정값 아님 [^src-20260728-4f6eaea2] |
+    | 2026-07-13 | 발표·검증 | **Construction restart status**: 2026-07-13 발표 기준 추가 측정 뒤 일부 공사를 7월 14일부터 단계적으로 재개; 완공·시운전·생산개시가 아님 · **Construction safety pause status**: 2026-06-29 낮은 농도의 시안화수소 감지로 해당·인접 토공 구역 작업을 재중단; 적용 노출한계 미만이라는 SSAB 발표와 구분 [^src-20260728-3c88a721] |
+    | 2026-07-22 | 발표·검증 | **Q2 groundwork status**: 2026-07-22 SSAB Q2 공시 기준 예방적 안전 중단 후 기초공사 재개; 기존 Lulea 철강 생산은 정상 운영 중이며 신규 전기로 설치 완료·시운전·생산개시 근거는 아님 · **Schedule budget impact assessment**: 안전 관련 작업 중단은 전체 프로젝트 일정·예산에 중대한 영향을 주지 않는다는 SSAB 자체 평가; 독립 확정값 아님 · **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260728-2bb4fea7] |
+    | 2029 | 목표 일정 | **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585][^src-20260728-2bb4fea7] |
 
 ## AI 분석
 
@@ -169,6 +203,16 @@
 | [[sources/SRC-20260725-FAB12DBF|SSAB postpones Luleå mill commissioning to end-2029]] | SSAB · 2025-06-19 | [원문 보기](https://www.ssab.com/en/news/2025/06/ssab-postpones-commissioning-of-new-steel-mill-in-lule-by-12-months) |
 | [[sources/SRC-20260727-48351ABD|PURESCRAP — CORDIS project fact sheet 101092168]] | European Commission CORDIS · 게시일 미상 | [원문 보기](https://cordis.europa.eu/project/id/101092168) |
 | [[sources/SRC-20260727-7DEFB3CE|PURESCRAP project status and sensor-station installation]] | PURESCRAP consortium · 2026-06-29 | [원문 보기](https://purescrap.eu/) |
+| [[sources/SRC-20260728-2BB4FEA7|SSAB Report for Q2 2026 - Lulea project schedule update]] | SSAB · 2026-07-22 | [원문 보기](https://www.ssab.com/en/news/2026/07/report-for-q2-2026) |
+| [[sources/SRC-20260728-3C88A721|After cyanide alarm, SSAB resumes steel mill construction]] | SVT Nyheter Norrbotten · 2026-07-13 | [원문 보기](https://www.svt.se/nyheter/lokalt/norrbotten/efter-cyanidlarm-ssab-aterupptar-stalverksbygge) |
+| [[sources/SRC-20260728-44EB4AEB|PURESCRAP Newsletter No. 7]] | PURESCRAP consortium · 2026-06-29 | [원문 보기](https://purescrap.eu/wp-content/uploads/2026/07/PURESCRAP-Newsletter-No7.pdf) |
+| [[sources/SRC-20260728-4C948F2F|Operational thermodynamics and hydrogen embrittlement risk in lined rock cavern–shaft systems: Numerical insights from Sweden’s first LRC hydrogen storage pilot]] | SSRN · 2026-01-01 | [원문 보기](https://doi.org/10.2139/ssrn.6882937) |
+| [[sources/SRC-20260728-4F6EAEA2|SSAB pauses work at construction site in Lulea]] | SSAB · 2026-06-29 | [원문 보기](https://www.ssab.com/en/news/2026/06/ssab-pauses-work-at-construction-site-in-lule) |
+| [[sources/SRC-20260728-71F1636F|12th Steering Committee Meeting]] | PURESCRAP consortium · 2026-02-25 | [원문 보기](https://purescrap.eu/?p=1062) |
+| [[sources/SRC-20260728-830BD90F|Decision on extended operation of HYBRIT's pilot facility for fossil-free hydrogen storage in Lulea]] | HYBRIT Development AB · 2026-02-24 | [원문 보기](https://www.hybritdevelopment.se/en/vattenfall-decision-on-extended-operation-of-hybrits-pilot-facility-for-fossil-free-hydrogen-storage-in-lulea/) |
+| [[sources/SRC-20260728-D30AB70A|Hydrogen Breakthrough Ironmaking Technology (HYBRIT)]] | European Commission Joint Research Centre - INCITE · 게시일 미상 | [원문 보기](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/hydrogen-breakthrough-ironmaking-technology-hybrit) |
+| [[sources/SRC-20260728-E41E2371|PURESCRAP results and amended schedule]] | European Commission CORDIS · 2026-05-03 | [원문 보기](https://cordis.europa.eu/project/id/101092168/results) |
+| [[sources/SRC-20260728-EAC4FDB6|Fossil-free steel mini-mill to produce specialty hot-rolled strip in Luleå, Sweden]] | Danieli · 2025-06-10 | [원문 보기](https://www.danieli-usa.com/en/news/fossil-free-steel-mini-mill-produce-specialty-hot-rolled-strip-lulea-sweden_13_972.htm) |
 
 [^src-20260725-31601585]: **SSAB begins construction of new Luleå electric steel mill** — SSAB, 2025-09-17. [원문](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule) · [[sources/SRC-20260725-31601585|보관 원문·메타데이터]]
 [^src-20260725-75a329bd]: **HYBRIT six-year pilot research results** — SSAB, 2024-08-27. [원문](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial) · [[sources/SRC-20260725-75A329BD|보관 원문·메타데이터]]
@@ -176,3 +220,13 @@
 [^src-20260725-fab12dbf]: **SSAB postpones Luleå mill commissioning to end-2029** — SSAB, 2025-06-19. [원문](https://www.ssab.com/en/news/2025/06/ssab-postpones-commissioning-of-new-steel-mill-in-lule-by-12-months) · [[sources/SRC-20260725-FAB12DBF|보관 원문·메타데이터]]
 [^src-20260727-48351abd]: **PURESCRAP — CORDIS project fact sheet 101092168** — European Commission CORDIS, 게시일 미상. [원문](https://cordis.europa.eu/project/id/101092168) · [[sources/SRC-20260727-48351ABD|보관 원문·메타데이터]]
 [^src-20260727-7defb3ce]: **PURESCRAP project status and sensor-station installation** — PURESCRAP consortium, 2026-06-29. [원문](https://purescrap.eu/) · [[sources/SRC-20260727-7DEFB3CE|보관 원문·메타데이터]]
+[^src-20260728-2bb4fea7]: **SSAB Report for Q2 2026 - Lulea project schedule update** — SSAB, 2026-07-22. [원문](https://www.ssab.com/en/news/2026/07/report-for-q2-2026) · [[sources/SRC-20260728-2BB4FEA7|보관 원문·메타데이터]]
+[^src-20260728-3c88a721]: **After cyanide alarm, SSAB resumes steel mill construction** — SVT Nyheter Norrbotten, 2026-07-13. [원문](https://www.svt.se/nyheter/lokalt/norrbotten/efter-cyanidlarm-ssab-aterupptar-stalverksbygge) · [[sources/SRC-20260728-3C88A721|보관 원문·메타데이터]]
+[^src-20260728-44eb4aeb]: **PURESCRAP Newsletter No. 7** — PURESCRAP consortium, 2026-06-29. [원문](https://purescrap.eu/wp-content/uploads/2026/07/PURESCRAP-Newsletter-No7.pdf) · [[sources/SRC-20260728-44EB4AEB|보관 원문·메타데이터]]
+[^src-20260728-4c948f2f]: **Operational thermodynamics and hydrogen embrittlement risk in lined rock cavern–shaft systems: Numerical insights from Sweden’s first LRC hydrogen storage pilot** — SSRN, 2026-01-01. DOI: [10.2139/ssrn.6882937](https://doi.org/10.2139/ssrn.6882937). [원문](https://doi.org/10.2139/ssrn.6882937) · [[sources/SRC-20260728-4C948F2F|보관 원문·메타데이터]]
+[^src-20260728-4f6eaea2]: **SSAB pauses work at construction site in Lulea** — SSAB, 2026-06-29. [원문](https://www.ssab.com/en/news/2026/06/ssab-pauses-work-at-construction-site-in-lule) · [[sources/SRC-20260728-4F6EAEA2|보관 원문·메타데이터]]
+[^src-20260728-71f1636f]: **12th Steering Committee Meeting** — PURESCRAP consortium, 2026-02-25. [원문](https://purescrap.eu/?p=1062) · [[sources/SRC-20260728-71F1636F|보관 원문·메타데이터]]
+[^src-20260728-830bd90f]: **Decision on extended operation of HYBRIT's pilot facility for fossil-free hydrogen storage in Lulea** — HYBRIT Development AB, 2026-02-24. [원문](https://www.hybritdevelopment.se/en/vattenfall-decision-on-extended-operation-of-hybrits-pilot-facility-for-fossil-free-hydrogen-storage-in-lulea/) · [[sources/SRC-20260728-830BD90F|보관 원문·메타데이터]]
+[^src-20260728-d30ab70a]: **Hydrogen Breakthrough Ironmaking Technology (HYBRIT)** — European Commission Joint Research Centre - INCITE, 게시일 미상. [원문](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/hydrogen-breakthrough-ironmaking-technology-hybrit) · [[sources/SRC-20260728-D30AB70A|보관 원문·메타데이터]]
+[^src-20260728-e41e2371]: **PURESCRAP results and amended schedule** — European Commission CORDIS, 2026-05-03. [원문](https://cordis.europa.eu/project/id/101092168/results) · [[sources/SRC-20260728-E41E2371|보관 원문·메타데이터]]
+[^src-20260728-eac4fdb6]: **Fossil-free steel mini-mill to produce specialty hot-rolled strip in Luleå, Sweden** — Danieli, 2025-06-10. [원문](https://www.danieli-usa.com/en/news/fossil-free-steel-mini-mill-produce-specialty-hot-rolled-strip-lulea-sweden_13_972.htm) · [[sources/SRC-20260728-EAC4FDB6|보관 원문·메타데이터]]

@@ -2,7 +2,7 @@
 
 # voestalpine Donawitz SuSteel·SuS-F
 
-> 최근 검증 **2026-07-27** · 확인된 핵심 정보 **33건** · 직접 연결 근거 **7건**
+> 최근 검증 **2026-07-27** · 확인된 핵심 정보 **34건** · 직접 연결 근거 **7건**
 
 
 ![중공 전극에서 아르곤·수소·미분광을 투입하고 플라즈마 아크로 환원·용융하는 HPSR 반응기 내부 구성도](<https://www.k1-met.com/fileadmin/_processed_/a/9/csm_220127_SuSteel_EN.jpg_9ed9be70f3.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
@@ -35,6 +35,7 @@
 | **참여 기관** | voestalpine Stahl, voestalpine Stahl Donawitz, K1-MET, Montanuniversitaet Leoben, Pirhofer Automation, WIVA P&G [^src-20260725-34d63eea] |
 | **성과 측정 지표** | 2025/26 중점 연구는 수소 공급 확보와 가스 회수 개선 [^src-20260725-f2f9bb6e] |
 | **파일럿 회분 투입량** | 2025 논문이 기술한 기존 실증 설비 광석 용량 200 kg/trial [^src-20260725-1f1ea152] |
+| **파일럿 회분 투입량** | 2026 논문이 기술한 설비·시험 규모 약 100 kg iron ore/trial [^src-20260727-9bc68665] |
 | **파일럿 운전 개시** | 2021 [^src-20260725-f2f9bb6e] |
 | **운전 방식** | 초기 배치에서 미분광 연속공급·저탄소강 반연속 출강으로 전환 목표 [^src-20260725-a0ac41d7] |
 | **단계 완료 시점** | 2020-02-29 최초 SuSteel 단계 종료 [^src-20260725-2fa1b498] |
@@ -69,7 +70,7 @@
 | 2026-07-25 | 수집 확인 | **대표 설비 참고**: K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; 실제 배관계장도나 준공도는 아님 · **위치**: voestalpine Stahl Donawitz, Austria · **목표 기술성숙도**: TRL 7 시스템 프로토타입 운전환경 실증 목표 · **수증기 회수·재전해**: 배가스 수증기 응축수의 수전해 재이용 개념 개발 목표 · **기존 목표 종료 시점**: 2025-09-30 K1-MET 페이지의 기존 SuS-F 종료 일정 · **운전 방식**: 초기 배치에서 미분광 연속공급·저탄소강 반연속 출강으로 전환 목표 [^src-20260725-a0ac41d7] |
 | 2026-07-25 | 수집 확인 | **총 프로젝트 규모**: EUR 6,770,925 · **참여 기관**: voestalpine Stahl, voestalpine Stahl Donawitz, K1-MET, Montanuniversitaet Leoben, Pirhofer Automation, WIVA P&G · **현재 공식 종료 시점**: 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정 · **후속 프로젝트 착수**: 2022-10-01 SuS-F 착수 · **지원·조달 금액**: EUR 3,946,740 [^src-20260725-34d63eea] |
 | 2026-07-25 | 수집 확인 | **프로젝트 착수 시점**: 2016-09-01 · **용융욕·회분 용량**: 약 100 g 실험실 규모에서 약 90 kg 용융 파일럿으로 확대 · **중간 후속단계 종료**: 2023-06 초기 후속 연구 종료 · **단계 완료 시점**: 2020-02-29 최초 SuSteel 단계 종료 [^src-20260725-2fa1b498] |
-| 2026-07-27 | 수집 확인 | **논문 시험 종료 조건**: 약 90분 뒤 반응속도 비교를 위해 의도적으로 semi-reduced 상태에서 종료 · **내화물 비교 결과**: phosphate-bonded magnesia lining이 비교한 magnesia-alumina spinel lining보다 마모가 적었음 · **논문 시험 장입 방식**: batch charged · **맥석 조성 영향**: 시험 광석의 gangue 조성이 환원거동에 유의한 영향을 줌 · **논문 보고 시험 횟수**: 5 trials · **단열 적용 상분리 결과**: 비교 시험에서 내부 단열이 slag-metal phase separation을 개선 · **단열 적용 에너지 결과**: 비교 시험에서 내부 단열 적용 시 에너지 사용이 낮아짐; 상용 kWh/t로 환산할 수 없음 · **논문 시험 출탕 방식**: 해당 5회 시험에는 melt tapping이 없었고 냉각 뒤 slag·metal 상을 기계적으로 회수 [^src-20260727-9bc68665] |
+| 2026-07-27 | 수집 확인 | **논문 시험 종료 조건**: 약 90분 뒤 반응속도 비교를 위해 의도적으로 semi-reduced 상태에서 종료 · **내화물 비교 결과**: phosphate-bonded magnesia lining이 비교한 magnesia-alumina spinel lining보다 마모가 적었음 · **논문 시험 장입 방식**: batch charged · **맥석 조성 영향**: 시험 광석의 gangue 조성이 환원거동에 유의한 영향을 줌 · **논문 보고 시험 횟수**: 5 trials · **단열 적용 상분리 결과**: 비교 시험에서 내부 단열이 slag-metal phase separation을 개선 · **단열 적용 에너지 결과**: 비교 시험에서 내부 단열 적용 시 에너지 사용이 낮아짐; 상용 kWh/t로 환산할 수 없음 · **파일럿 회분 투입량**: 2026 논문이 기술한 설비·시험 규모 약 100 kg iron ore/trial · **논문 시험 출탕 방식**: 해당 5회 시험에는 melt tapping이 없었고 냉각 뒤 slag·metal 상을 기계적으로 회수 [^src-20260727-9bc68665] |
 | 2026-09-30 | 현재 공식 일정 | **현재 공식 종료 시점**: 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정 [^src-20260725-34d63eea] |
 
 ## 근거 자료

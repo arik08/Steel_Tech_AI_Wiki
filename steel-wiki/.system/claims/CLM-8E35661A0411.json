@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8E35661A0411",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "government_rd_call_scope",
+  "value": "산업통상부 2026년 신규지원 공고의 사업 목적은 연산 30만 톤급 한국형 수소환원제철 핵심 실증기술 확보이며, 분광수소 유동환원로-전기용융로 연속공정과 수소환원철·냉선의 전기로 활용 실증을 지원 범위로 둔다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-A93B9BD0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "정부 공고 원문이 사업 목적과 지원대상 분야를 직접 명시함",
+      "source_ids": [
+        "SRC-20260728-A93B9BD0"
+      ]
+    }
+  ]
+}

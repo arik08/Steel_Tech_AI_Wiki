@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CBBFEFCEF5D3",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "high_chloride_fe3_electrodeposition_result",
+  "value": "2026년 CC BY 동료심사 연구는 상온 Fe3+ 수계 전착에서 7 M 초과 LiCl이 Fe3+ 안정화·물 활성 저하·점도 증가로 Fe2+ out-diffusion과 수소발생을 억제해 200 mA/cm2 초과 전류밀도에서 75% 초과 Coulombic efficiency를 보였다고 보고했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-C820F901"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "ECS/IOP 출판사 원문 페이지와 CC BY 논문 본문의 DOI·온라인 게시일·실험 결과를 교차 확인",
+      "source_ids": [
+        "SRC-20260728-C820F901"
+      ]
+    }
+  ]
+}

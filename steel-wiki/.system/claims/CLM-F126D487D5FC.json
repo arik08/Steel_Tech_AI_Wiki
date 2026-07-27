@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-F126D487D5FC",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "process_pressure_tradeoff",
+  "value": "동일 모델에서 공정가스 압력 증가는 금속화율을 높이고 압력강하를 낮췄지만 메탄 전환율을 낮춰, 전환기 혼합가스 운전의 압력 최적점은 다목적 절충 문제다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-03",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-8D2313B9"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-03",
+      "action": "created",
+      "reason": "압력 효과의 장단점을 정량 모델 근거로 분리 기록",
+      "source_ids": [
+        "SRC-20260728-8D2313B9"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-8D2313B9"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-519E55F12589",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "environmental_part_iv_assessment_status",
+  "value": "2026-07-20 WA EPA는 Rockingham Industrial Zone Patterson Road의 Project NeoSmelt 제안에 대해 EP Act Part IV 정식 환경영향평가를 실시하지 않기로 결정했다. 예상 환경영향은 다른 법정 의사결정 절차로 관리할 수 있다고 판단했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-DC2DCCF5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "WA EPA 공식 결정과 보도자료 원문 재확인",
+      "source_ids": [
+        "SRC-20260728-DC2DCCF5"
+      ]
+    }
+  ]
+}

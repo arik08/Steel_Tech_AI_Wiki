@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-E6686D6E36B1",
+  "subject_id": "PRJ-ARCELORMITTAL-VOLTERON",
+  "predicate": "industrial_engineering_status",
+  "value": "John Cockerill이 full-scale industrial plant 엔지니어링 설계를 완료했고 ArcelorMittal은 이를 1:1 파일럿 성공 운전과 함께 기술경제적 타당성 입증으로 설명했다. 공개 보고에는 산업 플랜트의 FID·부지·EPC 착수 정보가 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-12-31",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-53EDAF62"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-12-31",
+      "action": "created",
+      "reason": "파일럿 운전 성과와 산업 프로젝트 실행 단계 사이의 차이를 명시",
+      "source_ids": [
+        "SRC-20260728-53EDAF62"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 수집한 ArcelorMittal 2025 Form 20-F에서 full-scale 엔지니어링 완료와 산업 플랜트 미착수 경계를 재확인",
+      "source_ids": [
+        "SRC-20260728-53EDAF62"
+      ]
+    }
+  ]
+}

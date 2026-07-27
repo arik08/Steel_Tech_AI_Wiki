@@ -40,9 +40,11 @@
       "content_sha256": null,
       "local_path": null,
       "subject_ids": [
-        "TEC-hisarna-cyclone-smelting-reduction"
+        "TEC-hisarna-cyclone-smelting-reduction",
+        "PRJ-HISARNA-JAMSHEDPUR-DEMO"
       ],
-      "display_width": "detail"
+      "display_width": "detail",
+      "hero_priority": -600
     }
   ]
 }

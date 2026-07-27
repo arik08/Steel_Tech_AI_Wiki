@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-FC40250C11CF",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "evidence_boundary",
+  "value": "문헌의 이론 에너지·탈탄소 잠재력 비교는 산업 규모 연속운전 효율, 설비수명 또는 상업 경제성 실증을 뜻하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-C00B1E0B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "리뷰의 이론·경로 비교와 상업 실증 성과를 분리하기 위한 해석 경계",
+      "source_ids": [
+        "SRC-20260728-C00B1E0B"
+      ]
+    }
+  ]
+}

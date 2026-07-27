@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-048DA6D1A12B",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "storage_pilot_campaign_status",
+  "value": "수소저장 파일럿은 2022년부터 3~6주 단위 캠페인으로 간헐 운전; 2031년까지 연속운전 실적을 뜻하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-02-24",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-830BD90F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-02-24",
+      "action": "created",
+      "reason": "HYBRIT 공식 운전 이력과 범위 제한",
+      "source_ids": [
+        "SRC-20260728-830BD90F"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-830BD90F"
+      ]
+    }
+  ]
+}

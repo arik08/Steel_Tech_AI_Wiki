@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-40F2F33064E5",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "hourly_matching_tradeoff",
+  "value": "중품위광 H2DRI-ESF-BOF 모델에서 수소 전력의 시간별 매칭은 전해조 이용률·재생에너지 과잉설비·저장·배출·철강원가를 크게 바꾸며, 연간 평균 전력만으로 실제 배출과 비용을 대표하기 어렵다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-01",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-75962E74"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-01",
+      "action": "created",
+      "reason": "수소 조달의 시간해상도 제약을 최신 학술 모델로 보강",
+      "source_ids": [
+        "SRC-20260728-75962E74"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-75962E74"
+      ]
+    }
+  ]
+}

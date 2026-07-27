@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-B0C176E3C71E",
+  "subject_id": "PRJ-JFE-CHIBA-NO4-EAF",
+  "predicate": "location",
+  "value": "JFE Steel East Japan Works, Chiba Area, Japan",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-29",
+  "last_verified": "2026-04-29",
+  "source_ids": [
+    "SRC-20260728-BC8B3047"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-29",
+      "action": "created",
+      "reason": "Official site identification",
+      "source_ids": [
+        "SRC-20260728-BC8B3047"
+      ]
+    }
+  ]
+}

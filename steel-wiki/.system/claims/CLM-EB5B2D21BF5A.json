@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-EB5B2D21BF5A",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "apparent_voltage_boundary",
+  "value": "해당 실험의 정상상태 셀 전압은 분극·옴 저항·부반응을 합친 겉보기 운전전압이며, 이를 이용한 에너지 기술자는 플랜트 에너지 원단위 실증이 아니다. 연속 고형물 처리·전착물 회수·불순물·전극수명·후단 용융도 범위 밖이다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-3D63EF37"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "실험실 전기화학 측정과 연속 산업 성능을 분리하는 논문 자체의 해석 경계",
+      "source_ids": [
+        "SRC-20260728-3D63EF37"
+      ]
+    }
+  ]
+}

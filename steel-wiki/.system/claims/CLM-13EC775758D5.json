@@ -1,0 +1,34 @@
+{
+  "claim_id": "CLM-13EC775758D5",
+  "subject_id": "COM-Nippon-Steel",
+  "predicate": "big_river_dri_status",
+  "value": "Nippon Steel subsidiary U. S. Steel approved a USD 1.9 billion, 2.5 Mt/y MIDREX Flex HDRI/HBI plant at Big River Steel Works; supplier selection complete and first production targeted for 2029",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-15",
+  "last_verified": "2026-06-15",
+  "source_ids": [
+    "SRC-20260728-15D8C4A6",
+    "SRC-20260728-233C5C7D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-15",
+      "action": "created",
+      "reason": "Register overseas DRI-EAF investment under Nippon Steel",
+      "source_ids": [
+        "SRC-20260728-15D8C4A6"
+      ]
+    },
+    {
+      "date": "2026-06-15",
+      "action": "verified",
+      "reason": "Equipment-supplier capacity and schedule cross-check",
+      "source_ids": [
+        "SRC-20260728-233C5C7D"
+      ]
+    }
+  ]
+}

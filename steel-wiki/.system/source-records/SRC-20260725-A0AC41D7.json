@@ -28,10 +28,13 @@
       "collected_at": "2026-07-25",
       "content_sha256": null,
       "local_path": null,
+      "display_width": "detail",
+      "hero_priority": -600,
       "subject_ids": [
         "TEC-hydrogen-plasma-smelting-reduction",
         "COM-voestalpine",
-        "PRJ-SUSTEEL-DONAWITZ"
+        "PRJ-SUSTEEL-DONAWITZ",
+        "PRJ-H2PLASMARED-EU"
       ]
     },
     {

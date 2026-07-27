@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-08DE25B15036",
+  "subject_id": "PRJ-BOSTON-METAL-MOE-WOBURN",
+  "predicate": "disclosure_limit",
+  "value": "현재 회사 페이지는 2025년 톤 단위 출선 이정표를 반복하지만 연속 캠페인 시간·연산 환산능력·전류효율·양극 수명·전력원단위·고객 품질승인을 공개하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-422A2AB7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "Separates a commissioning milestone from industrial operating evidence",
+      "source_ids": [
+        "SRC-20260728-422A2AB7"
+      ]
+    }
+  ]
+}

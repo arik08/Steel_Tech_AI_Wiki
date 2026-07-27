@@ -3,7 +3,7 @@
   "subject_id": "PRJ-NEOSMELT-KWINANA",
   "predicate": "capacity_tpy",
   "value": "연 30,000–40,000톤 용선 계획",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2026-07-25",
   "last_verified": "2026-07-25",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260725-67CAA465"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "2024 BHP 발표의 30,000~40,000 t/y는 당시 계획 범위이고, 2026-07-20 WA EPA가 인용한 BlueScope 현행 제안은 연간 최대 49,000 t iron으로 갱신됐다. 동일 프로젝트·동일 capacity predicate의 후속 공식 제안 최대치이므로 신규 Claim이 기존 계획치를 supersede한다. 두 수치 모두 설계/제안치이며 실제 생산실적은 아니다."
     }
-  ]
+  ],
+  "superseded_by": "CLM-4D9262C901B6"
 }

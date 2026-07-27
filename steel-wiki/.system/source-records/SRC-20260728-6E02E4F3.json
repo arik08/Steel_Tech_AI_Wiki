@@ -1,0 +1,54 @@
+{
+  "source_id": "SRC-20260728-6E02E4F3",
+  "title": "Elucidating key reducing species beyond ions in hydrogen plasma smelting reduction of iron ore",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0009250926010924",
+  "canonical_url": "https://www.sciencedirect.com/science/article/pii/S0009250926010924",
+  "publisher": "Elsevier / Chemical Engineering Science",
+  "published_at": null,
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "6e02e4f35f26eccb2bb327f984881373f5a82c4f6733d1524be33f24d8df8037",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Hariswaran Sitaraman",
+      "Sai Vishnu Korsipati",
+      "Ram Krushna Mohanta",
+      "Noemi Leick",
+      "Yuri Korobeinikov",
+      "Anjana Kannan",
+      "Laxminarayan Raja",
+      "Seetharaman Sridhar"
+    ],
+    "venue": "Chemical Engineering Science",
+    "doi": "10.1016/j.ces.2026.124377",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "13edb091d06625db2b03de067506f9b509010f3b0c357602bc23661575e211f6",
+  "raw_path": ".system/raw/SRC-20260728-6E02E4F3.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-26E2B4060031",
+      "kind": "academic_figure",
+      "caption": "Sitaraman 등(2026)의 HPSR 벤치 실험 구성 Figure 2. 텅스텐 음극, 양극성 적철광 시료, 광학방출분광 경로와 수냉 도가니를 나타내며 산업 반응기 준공도가 아니다.",
+      "alt_text": "텅스텐 음극과 양극성 적철광, 수냉 도가니 및 광학방출분광 경로를 갖춘 HPSR 벤치 실험 구성도",
+      "creator": "Sitaraman et al.",
+      "image_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0009250926010924-gr2_lrg.jpg",
+      "origin_url": "https://www.sciencedirect.com/science/article/pii/S0009250926010924",
+      "rights_status": "link_only",
+      "rights_note": "Elsevier 원문은 open access로 표시되지만 그림별 라이선스 세부조건을 별도 확인하지 않아 원문 서버 URL만 표시하고 로컬 복제하지 않는다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "TEC-hydrogen-plasma-smelting-reduction"
+      ],
+      "display_width": "detail",
+      "hero_priority": -300
+    }
+  ]
+}

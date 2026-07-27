@@ -1,0 +1,83 @@
+{
+  "review_id": "REV-CLM-C9015193D1BD",
+  "type": "claim_conflict",
+  "created_at": "2026-07-28T05:11:14+09:00",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "capacity_tpy",
+  "existing_claims": [
+    {
+      "claim_id": "CLM-3FEF971C0A0E",
+      "subject_id": "PRJ-NEOSMELT-KWINANA",
+      "predicate": "capacity_tpy",
+      "value": "연 30,000–40,000톤 용선 계획",
+      "status": "active",
+      "confidence": "high",
+      "first_seen": "2026-07-25",
+      "last_verified": "2026-07-25",
+      "source_ids": [
+        "SRC-20260725-67CAA465"
+      ],
+      "supersedes": [],
+      "coexists_with": [],
+      "history": [
+        {
+          "date": "2026-07-25",
+          "action": "created",
+          "reason": "공식 파일럿 설계 생산능력",
+          "source_ids": [
+            "SRC-20260725-67CAA465"
+          ]
+        }
+      ]
+    }
+  ],
+  "proposed_claim": {
+    "claim_id": "CLM-4D9262C901B6",
+    "subject_id": "PRJ-NEOSMELT-KWINANA",
+    "predicate": "capacity_tpy",
+    "value": "연간 최대 49,000 tonnes of iron; 2026-07-20 WA EPA가 인용한 BlueScope의 현행 제안 설명이며 실제 생산실적이 아니다.",
+    "status": "active",
+    "confidence": "high",
+    "first_seen": "2026-07-28",
+    "last_verified": "2026-07-28",
+    "source_ids": [
+      "SRC-20260728-DC2DCCF5"
+    ],
+    "supersedes": [
+      "CLM-3FEF971C0A0E"
+    ],
+    "coexists_with": [],
+    "history": [
+      {
+        "date": "2026-07-28",
+        "action": "created",
+        "reason": "WA EPA 공식 제안 설명으로 기존 30,000~40,000 t/y 계획치 갱신 여부 검토",
+        "source_ids": [
+          "SRC-20260728-DC2DCCF5"
+        ]
+      },
+      {
+        "date": "2026-07-28",
+        "action": "review_supersede",
+        "reason": "2024 BHP 발표의 30,000~40,000 t/y는 당시 계획 범위이고, 2026-07-20 WA EPA가 인용한 BlueScope 현행 제안은 연간 최대 49,000 t iron으로 갱신됐다. 동일 프로젝트·동일 capacity predicate의 후속 공식 제안 최대치이므로 신규 Claim이 기존 계획치를 supersede한다. 두 수치 모두 설계/제안치이며 실제 생산실적은 아니다."
+      }
+    ]
+  },
+  "allowed_decisions": [
+    "supersede",
+    "keep-existing",
+    "coexist",
+    "dispute",
+    "reject"
+  ],
+  "status": "resolved",
+  "resolution": {
+    "decided_at": "2026-07-28T05:11:41+09:00",
+    "decision": "supersede",
+    "rationale": "2024 BHP 발표의 30,000~40,000 t/y는 당시 계획 범위이고, 2026-07-20 WA EPA가 인용한 BlueScope 현행 제안은 연간 최대 49,000 t iron으로 갱신됐다. 동일 프로젝트·동일 capacity predicate의 후속 공식 제안 최대치이므로 신규 Claim이 기존 계획치를 supersede한다. 두 수치 모두 설계/제안치이며 실제 생산실적은 아니다.",
+    "changed_claim_ids": [
+      "CLM-3FEF971C0A0E",
+      "CLM-4D9262C901B6"
+    ]
+  }
+}

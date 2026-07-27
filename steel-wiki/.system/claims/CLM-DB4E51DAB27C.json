@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DB4E51DAB27C",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "alkaline_deposit_growth_result",
+  "value": "2026년 동료심사 연구는 28 wt% NaOH의 Fe2O3 현탁액에서 100 mA/cm2로 최대 9시간 전착해 0.5 kg/m2/h 초과 선택적 철 성장률을 유지했고, 400 cm2 다중 음극 stack에서도 다공성 철막의 효율 경향을 확인했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-E7D8D580"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "ECS DOI·권호, 저자 공개 초록과 JST 서지정보를 교차 확인",
+      "source_ids": [
+        "SRC-20260728-E7D8D580"
+      ]
+    }
+  ]
+}

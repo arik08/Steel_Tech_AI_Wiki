@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-73953112AF77",
+  "subject_id": "PRJ-STEELANOL-GHENT",
+  "predicate": "conditional_closure_review",
+  "value": "2025-06-18 회사는 약 1년 안에 폐쇄 여부를 결정하겠다고 밝혔으나, 이는 조건부 검토이며 폐쇄 확정이 아님",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2025-06-18",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-87554B83"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-06-18",
+      "action": "created",
+      "reason": "Belga가 ArcelorMittal Belgium CEO의 조건부 폐쇄 검토 발언과 시간 범위를 직접 보도했다.",
+      "source_ids": [
+        "SRC-20260728-87554B83"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 Belga 원문에서 2025-06-18 약 1년 내 폐쇄 여부 결정 검토가 조건부이며 폐쇄 확정이 아니라는 의미 전체를 재확인",
+      "source_ids": [
+        "SRC-20260728-87554B83"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-622348B57DDC",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "acidic_deposit_control_boundary",
+  "value": "온도·음극 샌드블라스트·전류 인가 방식 조절로 기포 탈리와 전착 형상을 개선할 수 있으나, 이는 연속 광석 침출·전해액 정제·산업적 박리·전극수명·제품 인증·플랜트 경제성 실증이 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-71D36A10"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "실험실 형상 제어와 통합 상업공정 성숙도를 분리",
+      "source_ids": [
+        "SRC-20260728-71D36A10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-16B1A4FEC8D2",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "electrolyzer_module_installation_milestone",
+  "value": "Stegra는 2026-04-02 Boden 수소 플랜트의 마지막 electrolyzer module 설치를 발표했다. 회사도 추가 공사가 남았다고 명시했으므로 BOP 완공·시운전·수소 생산 또는 DRI 통합운전으로 해석하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-8147C73E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "수소 플랜트의 구체적 설치 이정표와 달성 한계를 기록",
+      "source_ids": [
+        "SRC-20260728-8147C73E"
+      ]
+    }
+  ]
+}

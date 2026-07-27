@@ -1,0 +1,22 @@
+# ArcelorMittal–AWS industrial AI collaboration
+
+- 발행자: ArcelorMittal
+- 발행일: 2026-06-22
+- 원문: https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-strategic-collaboration-with-aws-to-drive-industrial-automation-and-lower-carbon-construction-globally
+
+## 확인된 내용
+
+- ArcelorMittal과 AWS는 클라우드·AI·edge 기술을 제조공정에 확대하는 전략적
+  협력을 발표했다.
+- 일부 OT와 IT를 AWS 인프라에서 수렴하고 industrial IoT, 실시간 센서 데이터,
+  machine learning을 생산 현장에 적용하는 방향을 제시했다.
+- 제시된 use case는 예지보전, 컴퓨터비전 품질관리, 공정 최적화, 설비·생산라인
+  digital twin이다.
+
+## 해석 경계
+
+- 발표는 협력·배치 방향을 설명하지만 대상 제철소, 완료 설비 수, 모델 정확도,
+  에너지 절감률, 예지정비 효과를 공개하지 않았다.
+- 14개국 제강 거점에 관한 AWS 임원 발언은 회사의 사업 범위 설명이지 모든
+  거점에서 동일 use case가 이미 가동됐다는 증거가 아니다.
+- 같은 발표에 포함된 XCarb 구조용 강재 공급계약은 산업 AI 성능과 별도다.

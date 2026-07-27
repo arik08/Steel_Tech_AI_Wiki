@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C1A14AD230F5",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "independent_pilot_scale_crosscheck",
+  "value": "Ramboll은 Boulder 파일럿이 약 2 m²·60 kg cathode sheet와 약 60°C·99% 철을 보였다고 정리하지만, 이는 500 t/y demonstration facility의 연속운전·원가·가동률 검증과 구분",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-60D60F81"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "엔지니어링 백서가 pilot 성과를 비교했으나 프로젝트별 수치는 공개 회사자료에 의존하므로 독립 실측으로 보지 않는다.",
+      "source_ids": [
+        "SRC-20260728-60D60F81"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "source_id": "SRC-20260728-71D36A10",
+  "title": "Hydrogen evolution behavior and morphology regulation of electrowinning of iron in acidic sulfate system",
+  "url": "https://doi.org/10.1016/j.jclepro.2026.147910",
+  "canonical_url": "https://doi.org/10.1016/j.jclepro.2026.147910",
+  "publisher": "Elsevier",
+  "published_at": "2026-03-15",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "71d36a10ccc14c6df3dd40fb91a86ba1322d5c72b49a6b9ce29429e8a5e9d72c",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Ruijie Yu",
+      "Jiaxin Cheng",
+      "Xin Wang",
+      "Haitao Yang",
+      "Qingping Chai",
+      "Xiaoyun Chen",
+      "Xiaogang Lin",
+      "Tongtong Zhang"
+    ],
+    "venue": "Journal of Cleaner Production",
+    "doi": "10.1016/j.jclepro.2026.147910",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "21022031d8ce47c36ccab857fdba209fc4f09b2e68ca991d702f099a64894cc1",
+  "raw_path": ".system/raw/SRC-20260728-71D36A10.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

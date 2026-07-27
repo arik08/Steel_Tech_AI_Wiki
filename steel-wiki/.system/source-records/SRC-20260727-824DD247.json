@@ -40,9 +40,11 @@
       "content_sha256": null,
       "local_path": null,
       "subject_ids": [
-        "TEC-zesty-hydrogen-flash-reduction"
+        "TEC-zesty-hydrogen-flash-reduction",
+        "PRJ-ZESTY-ROCKINGHAM-DEMO"
       ],
-      "display_width": "detail"
+      "display_width": "detail",
+      "hero_priority": -600
     }
   ]
 }

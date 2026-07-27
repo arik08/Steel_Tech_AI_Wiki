@@ -1,0 +1,17 @@
+# POSCO ESG HyREX deployment-status notes
+
+- Page: Climate Change / HyREX
+- Publisher: POSCO
+- Collected: 2026-07-28
+- URL: https://sustainability.posco.co.kr/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953
+- Evidence type: official company ESG web page; page has no clear publication date and may be updated in place.
+- Current page statements:
+  - the 1.35 million m2 hydrogen-reduction steelmaking site at Pohang Works received final Ministry of Land, Infrastructure and Transport approval in March 2026;
+  - the 300,000 t/y demonstration plant was scheduled to break ground in April 2026 and target completion in 2028;
+  - phased trial operation through 2030 is intended to establish operating conditions and raise maturity toward commercial facilities;
+  - a 50 kg/batch hydrogen fluidized-reduction test furnace was introduced in 2023;
+  - a 1 t/h ESF test facility completed its first hot-metal tapping in April 2024.
+- Cross-check boundary:
+  - POSCO Holdings' March 2026 SEC exhibit says construction had begun and repeats 2028 operation / 2030 commercial-scale targets.
+  - POSCO's June 2026 site report gives the more concrete current field scope as approval and reclamation/ground preparation, so the April “groundbreaking” schedule should not be inflated into evidence that core reactor or ESF equipment installation is underway.
+  - The page is a company statement, not independent verification of operating performance.

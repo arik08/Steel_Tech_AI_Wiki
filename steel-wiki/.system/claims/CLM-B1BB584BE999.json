@@ -6,12 +6,14 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2025-09-25",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
     "SRC-20260725-E316D68F"
   ],
   "supersedes": [],
-  "coexists_with": [],
+  "coexists_with": [
+    "CLM-5465DB5AC38D"
+  ],
   "history": [
     {
       "date": "2025-09-25",
@@ -25,6 +27,20 @@
       "date": "2026-07-25",
       "action": "verified",
       "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-E316D68F"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "coexistence_confirmed",
+      "with": "CLM-5465DB5AC38D",
+      "reason": "두 수치는 모두 실측 처리량이 아니라 설계·공개 기준이다. 2025 Primetals 보도자료는 통합 실증플랜트를 반올림한 단일 3 t/h capacity로 표현하고, 2026 EMECR 행사 초록은 공정단별 최대 설계출력을 HYFOR 2.6 t/h DRI와 Smelter 2.4 t/h green hot metal로 구분한다. 같은 EMECR 첨부 논문은 다시 각 단계 up to 3 t/h로 서술하여 공개 버전 간 차이도 남는다. 따라서 3 t/h를 폐기하거나 2.6/2.4로 덮어쓰지 않고, 통합·반올림 설계치와 단계별 상세 설계 공개치로 병존시키며 연속 운전 실적과는 구분한다."
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
       "source_ids": [
         "SRC-20260725-E316D68F"
       ]

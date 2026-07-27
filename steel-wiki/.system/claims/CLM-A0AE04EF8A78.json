@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A0AE04EF8A78",
+  "subject_id": "PRJ-JFE-CHIBA-CARBON-RECYCLING-BF",
+  "predicate": "project_status",
+  "value": "150 m³ 시험고로가 2025년 5월 송풍·운전을 시작했으며 FY2026까지 실증 예정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-1AB6BC47"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "JFE 공식 정책 페이지와 Sustainability/Group Report 2025에서 일관되게 확인",
+      "source_ids": [
+        "SRC-20260728-1AB6BC47"
+      ]
+    }
+  ]
+}

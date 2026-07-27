@@ -1,0 +1,23 @@
+# BioIron DWER 현행 Works Approval 색인 확인 메모
+
+- 원문: https://www.der.wa.gov.au/component/k2/item/22705-w6964-2024-1
+- 승인번호: W6964/2024/1
+- 현재 확인일: 2026-07-28
+- 문서 성격: 서호주 수자원환경규제부(DWER) 현행 허가 색인
+
+## 확인한 범위
+
+- 승인 대상은 Hamersley Iron Pty Limited의 BioIron Pilot Plant Project다.
+- 소재지는 60 Office Road, East Rockingham이며 Category 44 금속 제련·정련
+  시설로 분류된다.
+- Works Approval은 2025-07-28 발급·개시, 2028-07-27 만료로 표시된다.
+- 연결된 승인서는 설계 처리능력을 연 8,736 t로 표시하며, 이는 약 1 t/h와
+  연 2,000시간의 철 제품 계획을 포함한 설계·허가 범위다.
+
+## 교차확인 및 해석 경계
+
+- 기존 DWER Decision Report 원문은 동일한 승인번호·부지·설계 범위를 확인한다.
+- Rio Tinto의 후속 공시와 ABC 보도는 2025-11 BioIron 파일럿 건설 중단 및
+  기술 R&D 지속을 별도로 확인한다.
+- 따라서 2028년까지 표시된 허가 유효기간은 법적 승인창이 남아 있다는 뜻이지,
+  건설 재개·가동·연 8,736 t 생산 달성 또는 상업화를 뜻하지 않는다.

@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM-1BA478FF2712",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "academic_scale_limit",
+  "value": "2025~2026 비등온 연구는 3개 또는 단일 펠릿 실험과 CFD 유도 조건으로, 장입층 응력·군집·고착·입도분포·상용로 가동률을 직접 입증하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-13",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-19665AC7",
+    "SRC-20260728-4A07DD3E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-13",
+      "action": "created",
+      "reason": "학술 결과를 프로젝트 성능으로 오인하지 않도록 범위 제한",
+      "source_ids": [
+        "SRC-20260728-19665AC7"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "action": "verified",
+      "reason": "독립 소형로 연구의 실험규모로 범위 제한 교차검증",
+      "source_ids": [
+        "SRC-20260728-4A07DD3E"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-4A07DD3E"
+      ]
+    }
+  ]
+}

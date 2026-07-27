@@ -2,21 +2,31 @@
 
 # Tata Steel Jamshedpur HIsarna 약 100만 t/y 실증 계획
 
-> 최근 검증 **2026-07-27** · 확인된 핵심 정보 **5건** · 직접 연결 근거 **1건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **10건** · 직접 연결 근거 **4건**
+
+
+![HIsarna 파일럿 CCF SRV 배가스 계통 학술 개략도](<https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11663-022-02620-4/MediaObjects/11663_2022_2620_Fig1_HTML.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+
+*대표 이미지 — HIsarna IJmuiden 파일럿의 CCF·SRV·배가스 계통 개략도. 논문 Figure 1이며 Jamshedpur 실증설비 준공도가 아니다. (학술 자료 그림 · 권리 `link_only` · 출처 [[sources/SRC-20260727-C280FAED|SRC-20260727-C280FAED]] · [원문 페이지](https://link.springer.com/article/10.1007/s11663-022-02620-4/figures/1))*
 
 !!! abstract "현재 상태"
 
-    **2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음** [^src-20260727-fd3eba92]
+    **2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음** [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf]
 
 ## 확인된 핵심 정보
 
 | 항목 | 확인된 내용 |
 | --- | --- |
-| **프로젝트 상태** | 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 [^src-20260727-fd3eba92] |
-| **연간 생산능력** | 약 1,000,000 t/y demonstration design target [^src-20260727-fd3eba92] |
+| **프로젝트 상태** | 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] |
+| **목표 가동 시점** | 2030년까지 약 1 Mt/y 시설 구축 계획(주정부 LoI/MoU 발표상의 목표이며 확정 가동일 아님) [^src-20260728-433e5cf1] |
+| **연간 생산능력** | 약 1,000,000 t/y demonstration design target [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] |
 | **기술 경로** | HIsarna cyclone smelting reduction demonstration [^src-20260727-fd3eba92] |
-| **적용 원료** | 회사는 저품위 철광석과 steel slag 사용 가능성을 설명했으나 Jamshedpur 실증의 구체 광석 조성·배합은 미공개 [^src-20260727-fd3eba92] |
+| **Company capex clarification** | 2026-03-05 Tata Steel의 NSE 공시는 HIsarna·EASyMelt 관련 추가 프로젝트를 계속 평가 중이라고 명시; 이 문구는 엔지니어링·인허가 착수 승인과 병존하지만 FID·확정 총사업비를 뜻하지 않음 [^src-20260728-735f3bf8] |
+| **적용 원료** | 회사는 저품위 철광석과 steel slag 사용 가능성을 설명했으나 Jamshedpur 실증의 구체 광석 조성·배합은 미공개 [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] |
+| **Funding disclosure boundary** | LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 [^src-20260728-433e5cf1][^src-20260728-1bfbfbdf][^src-20260728-735f3bf8] |
+| **Investment boundary** | ₹11,000 crore 보도액은 Tinplate·Combi Mill 등 여러 승인·검토 프로젝트를 포함한 자본배분 맥락이며 HIsarna 단독 신규 투자액으로 확정되지 않음 [^src-20260728-735f3bf8] |
 | **위치** | Jamshedpur, India [^src-20260727-fd3eba92] |
+| **Proposed investment package** | HIsarna·EASyMelt를 포함한 구성분 estimated ₹7,000 crore; 전체 green-steel 패키지는 제목 ₹11,100 crore·본문 over ₹11,000 crore [^src-20260728-433e5cf1] |
 
 ## 전체 확인 이력
 
@@ -25,9 +35,26 @@
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
 | 2025-12-10 | 발표·검증 | **적용 원료**: 회사는 저품위 철광석과 steel slag 사용 가능성을 설명했으나 Jamshedpur 실증의 구체 광석 조성·배합은 미공개 · **연간 생산능력**: 약 1,000,000 t/y demonstration design target · **프로젝트 상태**: 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 · **기술 경로**: HIsarna cyclone smelting reduction demonstration · **위치**: Jamshedpur, India [^src-20260727-fd3eba92] |
+| 2026-01-20 | 발표·검증 | **목표 가동 시점**: 2030년까지 약 1 Mt/y 시설 구축 계획(주정부 LoI/MoU 발표상의 목표이며 확정 가동일 아님) · **Funding disclosure boundary**: LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 · **Proposed investment package**: HIsarna·EASyMelt를 포함한 구성분 estimated ₹7,000 crore; 전체 green-steel 패키지는 제목 ₹11,100 crore·본문 over ₹11,000 crore [^src-20260728-433e5cf1] |
+| 2026-03-05 | 발표·검증 | **Investment boundary**: LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 · 후속 정보로 대체 · **Company capex clarification**: 2026-03-05 Tata Steel의 NSE 공시는 HIsarna·EASyMelt 관련 추가 프로젝트를 계속 평가 중이라고 명시; 이 문구는 엔지니어링·인허가 착수 승인과 병존하지만 FID·확정 총사업비를 뜻하지 않음 · **Company capex clarification**: 2026-03-05 Tata Steel의 NSE 공시는 보도된 ₹11,000 crore를 Jharkhand 여러 기존·검토 프로젝트의 자본배분 맥락으로 설명하고 HIsarna·EASyMelt는 추가 평가 중이라고 명시; HIsarna 단독 확정 CAPEX·FID가 아님 · 후속 정보로 대체 · **Investment boundary**: ₹11,000 crore 보도액은 Tinplate·Combi Mill 등 여러 승인·검토 프로젝트를 포함한 자본배분 맥락이며 HIsarna 단독 신규 투자액으로 확정되지 않음 · **Funding disclosure boundary**: LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 [^src-20260728-735f3bf8] |
+| 2026-06-04 | 발표·검증 | **적용 원료**: 회사는 저품위 철광석과 steel slag 사용 가능성을 설명했으나 Jamshedpur 실증의 구체 광석 조성·배합은 미공개 · **연간 생산능력**: 약 1,000,000 t/y demonstration design target · **프로젝트 상태**: 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 · **Funding disclosure boundary**: LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 [^src-20260728-1bfbfbdf] |
+| 2030 | 목표 일정 | **목표 가동 시점**: 2030년까지 약 1 Mt/y 시설 구축 계획(주정부 LoI/MoU 발표상의 목표이며 확정 가동일 아님) [^src-20260728-433e5cf1] |
+
+## 변경 이력
+
+| 상태 | 항목 | 이전 내용 | 변경 사유 | 최근 검증 |
+| --- | --- | --- | --- | --- |
+| **후속 정보로 대체** | Company capex clarification | 2026-03-05 Tata Steel의 NSE 공시는 보도된 ₹11,000 crore를 Jharkhand 여러 기존·검토 프로젝트의 자본배분 맥락으로 설명하고 HIsarna·EASyMelt는 추가 평가 중이라고 명시; HIsarna 단독 확정 CAPEX·FID가 아님 [^src-20260728-735f3bf8] | 다중 프로젝트 투자범위는 investment_boundary에 보존하고, company_capex_clarification은 HIsarna·EASyMelt의 회사 공시상 평가 상태와 FID 한계에 집중한다. | 2026-03-05 |
+| **후속 정보로 대체** | Investment boundary | LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 [^src-20260728-735f3bf8] | 초기 investment_boundary Claim이 funding_disclosure_boundary와 문구가 중복되어, Tata Steel NSE 공시가 직접 설명한 다중 프로젝트 범위로 정정한다. | 2026-03-05 |
 
 ## 근거 자료
 
 - **Tata Steel Board affirms the long-term strategy for growth in India** — Tata Steel, 2025-12-10 · [원문 보기](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india/) · [[sources/SRC-20260727-FD3EBA92|보관 원문·메타데이터]]
+- **Integrated Report & Annual Accounts 2025-26 (119th Year): HIsarna Jamshedpur status** — Tata Steel Limited, 2026-06-04 · [원문 보기](https://www.tatasteel.com/media/25904/tatasteel-iar-2025-26.pdf) · [[sources/SRC-20260728-1BFBFBDF|보관 원문·메타데이터]]
+- **Green Steel Technology to Drive India's Sustainable Industrial Transition (Press Release 41/2026)** — Chief Minister's Secretariat, Government of Jharkhand, 2026-01-20 · [원문 보기](https://cm.jharkhand.gov.in/sites/default/files/press-release/2026-01/Press_Release-1-20-01-2026%28English%29.pdf) · [[sources/SRC-20260728-433E5CF1|보관 원문·메타데이터]]
+- **News Clarification (Ref. SEC/2018/2025-26)** — Tata Steel Limited / National Stock Exchange of India, 2026-03-05 · [원문 보기](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_05032026095816_NSE-Clarification_signed.pdf) · [[sources/SRC-20260728-735F3BF8|보관 원문·메타데이터]]
 
 [^src-20260727-fd3eba92]: **Tata Steel Board affirms the long-term strategy for growth in India** — Tata Steel, 2025-12-10. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india/) · [[sources/SRC-20260727-FD3EBA92|보관 원문·메타데이터]]
+[^src-20260728-1bfbfbdf]: **Integrated Report & Annual Accounts 2025-26 (119th Year): HIsarna Jamshedpur status** — Tata Steel Limited, 2026-06-04. [원문](https://www.tatasteel.com/media/25904/tatasteel-iar-2025-26.pdf) · [[sources/SRC-20260728-1BFBFBDF|보관 원문·메타데이터]]
+[^src-20260728-433e5cf1]: **Green Steel Technology to Drive India's Sustainable Industrial Transition (Press Release 41/2026)** — Chief Minister's Secretariat, Government of Jharkhand, 2026-01-20. [원문](https://cm.jharkhand.gov.in/sites/default/files/press-release/2026-01/Press_Release-1-20-01-2026%28English%29.pdf) · [[sources/SRC-20260728-433E5CF1|보관 원문·메타데이터]]
+[^src-20260728-735f3bf8]: **News Clarification (Ref. SEC/2018/2025-26)** — Tata Steel Limited / National Stock Exchange of India, 2026-03-05. [원문](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_05032026095816_NSE-Clarification_signed.pdf) · [[sources/SRC-20260728-735F3BF8|보관 원문·메타데이터]]

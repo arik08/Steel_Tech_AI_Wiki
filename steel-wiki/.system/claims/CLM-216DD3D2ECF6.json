@@ -6,7 +6,7 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-25",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
     "SRC-20260725-84498FDF"
   ],
@@ -25,6 +25,14 @@
       "date": "2026-07-25",
       "action": "verified",
       "reason": "2026-07-25 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260725-84498FDF"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Rio Tinto 현행 Climate reporting 페이지가 2025 건설 중단과 2026 기술개발 지속을 재확인",
       "source_ids": [
         "SRC-20260725-84498FDF"
       ]

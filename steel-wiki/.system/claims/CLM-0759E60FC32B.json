@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-0759E60FC32B",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "independent_fid_status",
+  "value": "Svenska kraftnät는 2025년 10월 당시 입수 정보 기준 LKAB가 계획된 전력집약 산업설비 실현에 필요한 투자결정을 아직 내리지 않았다고 명시했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-10-30",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-3049F33D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-10-30",
+      "action": "created",
+      "reason": "LKAB 일정·허가 발표와 독립기관의 FID 상태를 교차검증",
+      "source_ids": [
+        "SRC-20260728-3049F33D"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-3049F33D"
+      ]
+    }
+  ]
+}

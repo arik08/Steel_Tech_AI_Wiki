@@ -1,0 +1,41 @@
+{
+  "claim_id": "CLM-5BD39C606E5C",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "modeled_fluidization_window",
+  "value": "A peer-reviewed DEM-CFD study modeled 30,000 iron-ore particles (75–150 µm) under H2, CO, and 70% H2–30% CH4 at 1.0–2.5 m/s and 873.15–1073.15 K.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-01-01",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-73FAEBA5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-01-01",
+      "action": "created",
+      "reason": "Direct model scope reported by the journal article.",
+      "source_ids": [
+        "SRC-20260728-73FAEBA5"
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "action": "verified",
+      "reason": "Publisher record confirms the volume publication date and model scope.",
+      "source_ids": [
+        "SRC-20260728-73FAEBA5"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-73FAEBA5"
+      ]
+    }
+  ]
+}

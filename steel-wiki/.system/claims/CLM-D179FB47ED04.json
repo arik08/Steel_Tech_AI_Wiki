@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-D179FB47ED04",
+  "subject_id": "COM-ArcelorMittal",
+  "predicate": "smart_steelworks_status",
+  "value": "2025년 6개 공장 ADII 디지털 가속, 주요 공장 예지보전 플랫폼, EAF 산업시험 AI 적용, 19개 공장 23기 재가열로 최적화 모델 배치를 공시",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-12-31",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-BEC180E2"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-12-31",
+      "action": "created",
+      "reason": "기업별 스마트제철 배치 현황 최신화",
+      "source_ids": [
+        "SRC-20260728-BEC180E2"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 수집한 ArcelorMittal 2025 Form 20-F에서 회사 차원의 스마트제철 배치 범위를 재확인",
+      "source_ids": [
+        "SRC-20260728-BEC180E2"
+      ]
+    }
+  ]
+}

@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-27",
-  "last_verified": "2026-07-27",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260727-7863B18F"
+    "SRC-20260727-7863B18F",
+    "SRC-20260728-9D74D878"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,22 @@
       "reason": "공급사·파트너 공동발표의 실제 운전 개시",
       "source_ids": [
         "SRC-20260727-7863B18F"
+      ]
+    },
+    {
+      "date": "2024-05-21",
+      "action": "verified",
+      "reason": "MHI 발표를 자금·기술지원 참여자인 BHP의 공식 발표로 교차 확인",
+      "source_ids": [
+        "SRC-20260728-9D74D878"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 BHP 공식 참여자 발표로 운전 개시를 재검증",
+      "source_ids": [
+        "SRC-20260728-9D74D878"
       ]
     }
   ]

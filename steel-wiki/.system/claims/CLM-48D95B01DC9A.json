@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-48D95B01DC9A",
+  "subject_id": "PRJ-METSO-PORI-DRI-SMELTING-PILOT",
+  "predicate": "first_customer_pilot_status",
+  "value": "2025-12-11 현재 Metso는 Pori 파일럿에서 두 내부 시험 캠페인을 완료했으나 첫 고객 파일럿은 준비 중이라고 밝혔다. 완료된 두 캠페인을 고객 캠페인으로 해석하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-351FFC36"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "내부 개발 캠페인과 고객 검증 캠페인을 구분",
+      "source_ids": [
+        "SRC-20260728-351FFC36"
+      ]
+    }
+  ]
+}

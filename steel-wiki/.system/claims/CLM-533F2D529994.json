@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-533F2D529994",
+  "subject_id": "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT",
+  "predicate": "dcrbn_eic_project_status",
+  "value": "CORDIS는 D-CRBN EIC 프로젝트(101161563, 2024-07-01~2026-06-30)를 행정상 closed로 표시하며 총사업비 €3,607,500·EU 기여 €2,499,999를 기록한다. 이는 자금지원 기간 종료 상태이지 Gent 통합실증의 정량 성능 달성이나 상용화 완료 증거는 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-50A784E1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "Current CORDIS fact sheet confirms administrative closure and funding amounts; wording explicitly separates grant closure from technical or commercial completion",
+      "source_ids": [
+        "SRC-20260728-50A784E1"
+      ]
+    }
+  ]
+}

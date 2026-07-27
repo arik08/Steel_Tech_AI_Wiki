@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3457441EA888",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "in_flight_result_boundary",
+  "value": "71~76%, 42%, 26.8 g-iron/kWh는 저자들이 공정성능 시험용으로 설계되지 않았다고 명시한 실험실 in-flight 장치의 특정 원료 결과다. 연속 산업 처리량, 전체 플랜트 전력원단위, 철 회수율·제품규격 또는 H2PlasmaRed·SuSteel 프로젝트 KPI가 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-FECCAF8C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "논문이 명시한 장치 목적과 측정 범위를 산업 성과로 과대해석하지 않도록 경계 분리",
+      "source_ids": [
+        "SRC-20260728-FECCAF8C"
+      ]
+    }
+  ]
+}

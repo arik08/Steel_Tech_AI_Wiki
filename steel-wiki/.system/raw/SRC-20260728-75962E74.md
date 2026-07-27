@@ -1,0 +1,26 @@
+# Stolte et al. 2026 medium-grade H2-DRI-ESF energy-system notes
+
+- Title: Energy-system optimization for hydrogen-based green steel production from medium-grade iron ore
+- Authors: Marcel Stolte; Ali Bourig; Francesco Demetrio Minuto; Andrea Lanzini
+- Venue: Applied Energy 410 (2026), 127563
+- Published: 2026-05-01
+- DOI: 10.1016/j.apenergy.2026.127563
+- Evidence type: peer-reviewed, open-access techno-economic and energy-system model.
+- Modeled route and scale:
+  - medium-grade Pilbara ore;
+  - hydrogen DRI followed by electric smelting furnace and BOF;
+  - fixed 2 Mt/y liquid-steel output;
+  - genetic-algorithm sizing plus hourly MILP dispatch for renewables, grid power, hydrogen, and storage.
+- Selected results:
+  - current modeled cost gap is more than USD 400/t liquid steel versus BF-BOF;
+  - under the study assumptions, projected learning plus an EU-ETS-like carbon price closes the remaining gap before 2045;
+  - modeled short-term support need is about USD 125/t in 2030, declining to USD 38/t in 2040;
+  - hourly temporal matching materially changes electrolyzer use, renewable overbuild, storage, emissions, and cost;
+  - a modeled hydrogen-emissions threshold near 3 kg CO2/kg H2 captures most attainable abatement while avoiding the steep cost escalation of very low grid withdrawal.
+- Verification boundary:
+  - all dollar values and thresholds are scenario/model outputs for the selected Western Australia assumptions;
+  - they are not actual HyREX, HYFOR, HY4Smelt, Pori, Stegra, or HYBRIT project costs;
+  - the paper itself identifies refractory durability and dynamic plant operation as unresolved technical priorities.
+- Article: https://www.sciencedirect.com/science/article/pii/S0306261926002151
+- DOI: https://doi.org/10.1016/j.apenergy.2026.127563
+- Open author copy: https://iris.polito.it/retrieve/bcb15303-8577-43eb-bf95-59000b6c6418/1-s2.0-S0306261926002151-main.pdf

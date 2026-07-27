@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![CCF 미분광 산소 투입, SRV 미분탄 환원, 용선과 슬래그 출탕, 오프가스 정제와 선택적 CCUS를 나타낸 HIsarna AI 개념도](../assets/media/SRC-20260727-FD3EBA92/MED-4B9CC0789A73.png){ .steel-media-image .steel-hero-image .steel-media-detail }
+![HIsarna 파일럿 CCF SRV 배가스 계통 학술 개략도](<https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11663-022-02620-4/MediaObjects/11663_2022_2620_Fig1_HTML.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — AI 재구성 — 상부 CCF에서 미분광과 산소를 투입해 용융·부분환원하고, 하부 SRV에서 미분탄 환원과 상부 공간 산소 후연소로 열을 공급해 용선과 슬래그를 분리 배출하는 HIsarna 개념도. 오프가스 급냉·정제와 선택적 CCUS 경계를 함께 표시했으며 실제 설비의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260727-FD3EBA92|SRC-20260727-FD3EBA92]] · [원문 페이지](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india))*
+*대표 이미지 — HIsarna IJmuiden 파일럿의 CCF·SRV·배가스 계통 개략도. 논문 Figure 1이며 Jamshedpur 실증설비 준공도가 아니다. (학술 자료 그림 · 권리 `link_only` · 출처 [[sources/SRC-20260727-C280FAED|SRC-20260727-C280FAED]] · [원문 페이지](https://link.springer.com/article/10.1007/s11663-022-02620-4/figures/1))*
 
 !!! abstract "한눈에 보기"
 
@@ -43,7 +43,7 @@ Cyclone Converter Furnace(CCF)와 HIsmelt계 Smelting Reduction Vessel(SRV)을 �
 이 문서는 Tata Steel의 CCF와 HIsmelt계 bath smelting을 결합한 HIsarna를 다룹니다. 코크스 충전층을 유지하는 BF-CCUS와 달리 일체형 사이클론-용융욕 반응기이며, 수소 고체환원 뒤 ESF에서 녹이는 DRI–ESF 경로와도 구분합니다.
 
 - **근거 확인 기업:** 0개
-- **직접 연결 근거:** 3건
+- **직접 연결 근거:** 6건
 
 ## 작동 원리
 
@@ -125,16 +125,19 @@ flowchart TB
 | --- | --- |
 | 2022-09-02 | Off-Gas System Scale-Up of HIsarna Iron-Making Process: A CFD-Based Approach [^src-20260727-c280faed] |
 | 2025-12-10 | Tata Steel Board affirms the long-term strategy for growth in India [^src-20260727-fd3eba92] |
+| 2026-01-20 | Green Steel Technology to Drive India's Sustainable Industrial Transition (Press Release 41/2026) [^src-20260728-433e5cf1] |
+| 2026-03-05 | News Clarification (Ref. SEC/2018/2025-26) [^src-20260728-735f3bf8] |
 | 2026-03-09 | Recent HIsarna operational developments at the IJmuiden pilot plant [^src-20260727-786d57d4] |
+| 2026-06-04 | Integrated Report & Annual Accounts 2025-26 (119th Year): HIsarna Jamshedpur status [^src-20260728-1bfbfbdf] |
 
 ## 설비·공정 이미지
 
-![HIsarna 파일럿 CCF SRV 배가스 계통 학술 개략도](<https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11663-022-02620-4/MediaObjects/11663_2022_2620_Fig1_HTML.png>){ .steel-media-image .steel-media-detail }
+![CCF 미분광 산소 투입, SRV 미분탄 환원, 용선과 슬래그 출탕, 오프가스 정제와 선택적 CCUS를 나타낸 HIsarna AI 개념도](../assets/media/SRC-20260727-FD3EBA92/MED-4B9CC0789A73.png){ .steel-media-image .steel-media-detail }
 
-**학술 자료 그림.** HIsarna IJmuiden 파일럿의 CCF·SRV·배가스 계통 개략도. 논문 Figure 1이며 Jamshedpur 실증설비 준공도가 아니다.
+**AI 재구성.** AI 재구성 — 상부 CCF에서 미분광과 산소를 투입해 용융·부분환원하고, 하부 SRV에서 미분탄 환원과 상부 공간 산소 후연소로 열을 공급해 용선과 슬래그를 분리 배출하는 HIsarna 개념도. 오프가스 급냉·정제와 선택적 CCUS 경계를 함께 표시했으며 실제 설비의 준공도나 P&ID가 아니다.
 
-- 출처 [[sources/SRC-20260727-C280FAED|SRC-20260727-C280FAED]] · 권리 `link_only` · [원문 페이지](https://link.springer.com/article/10.1007/s11663-022-02620-4/figures/1) · 작성·촬영 Hosseini et al.
-- 권리 메모: Springer Nature 원문 서버 직접 표시. 로컬 복제하지 않았으며 재사용 조건은 원문 라이선스를 따른다.
+- 출처 [[sources/SRC-20260727-FD3EBA92|SRC-20260727-FD3EBA92]] · 권리 `ai_generated` · [원문 페이지](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india) · 작성·촬영 OpenAI ImageGen / Codex
+- 권리 메모: Tata Steel의 HIsarna 공개 설명과 Hosseini et al. 2022 오프가스 스케일업 논문을 근거로 2026-07-27 생성한 기술 설명용 AI 재구성이다. 장치 형상과 배관은 개념 표현이며 특정 설비의 as-built 또는 P&ID가 아니다.
 
 ![Tata Steel IJmuiden HIsarna 파일럿 설비 공식 사진](<https://www.tatasteel.com/investors/annual-report-2011-12/html/templates/images/principle2_2.jpg>){ .steel-media-image .steel-media-compact }
 
@@ -152,7 +155,7 @@ flowchart TB
 
 | 프로젝트 | 현재 확인 상태 | 일정·규모 |
 | --- | --- | --- |
-| **[[projects/PRJ-HISARNA-JAMSHEDPUR-DEMO|Tata Steel Jamshedpur HIsarna 약 100만 t/y 실증 계획]]** | 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 [^src-20260727-fd3eba92] | **연간 생산능력** 약 1,000,000 t/y demonstration design target [^src-20260727-fd3eba92] |
+| **[[projects/PRJ-HISARNA-JAMSHEDPUR-DEMO|Tata Steel Jamshedpur HIsarna 약 100만 t/y 실증 계획]]** | 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] | **연간 생산능력** 약 1,000,000 t/y demonstration design target [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] · **목표 가동 시점** 2030년까지 약 1 Mt/y 시설 구축 계획(주정부 LoI/MoU 발표상의 목표이며 확정 가동일 아님) [^src-20260728-433e5cf1] |
 
 ## 기술적 쟁점과 미공개 데이터
 
@@ -209,7 +212,13 @@ flowchart TB
 - [[sources/SRC-20260727-786D57D4|Recent HIsarna operational developments at the IJmuiden pilot plant]] — Tata Steel / Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/b77607bd-4387-43ca-8bfd-3dea9630032a/Recent-HIsarna-Operational-Developments-IJmuiden-Pilot-Plant.pdf)
 - [[sources/SRC-20260727-C280FAED|Off-Gas System Scale-Up of HIsarna Iron-Making Process: A CFD-Based Approach]] — Springer Nature, 2022-09-02 · [원문](https://link.springer.com/article/10.1007/s11663-022-02620-4)
 - [[sources/SRC-20260727-FD3EBA92|Tata Steel Board affirms the long-term strategy for growth in India]] — Tata Steel, 2025-12-10 · [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india/)
+- [[sources/SRC-20260728-1BFBFBDF|Integrated Report & Annual Accounts 2025-26 (119th Year): HIsarna Jamshedpur status]] — Tata Steel Limited, 2026-06-04 · [원문](https://www.tatasteel.com/media/25904/tatasteel-iar-2025-26.pdf)
+- [[sources/SRC-20260728-433E5CF1|Green Steel Technology to Drive India's Sustainable Industrial Transition (Press Release 41/2026)]] — Chief Minister's Secretariat, Government of Jharkhand, 2026-01-20 · [원문](https://cm.jharkhand.gov.in/sites/default/files/press-release/2026-01/Press_Release-1-20-01-2026%28English%29.pdf)
+- [[sources/SRC-20260728-735F3BF8|News Clarification (Ref. SEC/2018/2025-26)]] — Tata Steel Limited / National Stock Exchange of India, 2026-03-05 · [원문](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_05032026095816_NSE-Clarification_signed.pdf)
 
 [^src-20260727-786d57d4]: **Recent HIsarna operational developments at the IJmuiden pilot plant** — Tata Steel / Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/b77607bd-4387-43ca-8bfd-3dea9630032a/Recent-HIsarna-Operational-Developments-IJmuiden-Pilot-Plant.pdf) · [[sources/SRC-20260727-786D57D4|보관 원문·메타데이터]]
 [^src-20260727-c280faed]: **Off-Gas System Scale-Up of HIsarna Iron-Making Process: A CFD-Based Approach** — Springer Nature, 2022-09-02. DOI: [10.1007/s11663-022-02620-4](https://doi.org/10.1007/s11663-022-02620-4). [원문](https://link.springer.com/article/10.1007/s11663-022-02620-4) · [[sources/SRC-20260727-C280FAED|보관 원문·메타데이터]]
 [^src-20260727-fd3eba92]: **Tata Steel Board affirms the long-term strategy for growth in India** — Tata Steel, 2025-12-10. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india/) · [[sources/SRC-20260727-FD3EBA92|보관 원문·메타데이터]]
+[^src-20260728-1bfbfbdf]: **Integrated Report & Annual Accounts 2025-26 (119th Year): HIsarna Jamshedpur status** — Tata Steel Limited, 2026-06-04. [원문](https://www.tatasteel.com/media/25904/tatasteel-iar-2025-26.pdf) · [[sources/SRC-20260728-1BFBFBDF|보관 원문·메타데이터]]
+[^src-20260728-433e5cf1]: **Green Steel Technology to Drive India's Sustainable Industrial Transition (Press Release 41/2026)** — Chief Minister's Secretariat, Government of Jharkhand, 2026-01-20. [원문](https://cm.jharkhand.gov.in/sites/default/files/press-release/2026-01/Press_Release-1-20-01-2026%28English%29.pdf) · [[sources/SRC-20260728-433E5CF1|보관 원문·메타데이터]]
+[^src-20260728-735f3bf8]: **News Clarification (Ref. SEC/2018/2025-26)** — Tata Steel Limited / National Stock Exchange of India, 2026-03-05. [원문](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_05032026095816_NSE-Clarification_signed.pdf) · [[sources/SRC-20260728-735F3BF8|보관 원문·메타데이터]]

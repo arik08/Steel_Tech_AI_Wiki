@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM-7DF844622156",
+  "subject_id": "PRJ-SSAB-LULEA-ELECTRIC-MILL",
+  "predicate": "construction_restart_status",
+  "value": "2026-07-13 발표 기준 추가 측정 뒤 일부 공사를 7월 14일부터 단계적으로 재개; 완공·시운전·생산개시가 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-13",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-3C88A721",
+    "SRC-20260728-4F6EAEA2"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-13",
+      "action": "created",
+      "reason": "SVT 독립 보도로 단계적 재개 확인",
+      "source_ids": [
+        "SRC-20260728-3C88A721"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "action": "verified",
+      "reason": "SSAB 공식 상황판으로 단계적 재개 교차검증",
+      "source_ids": [
+        "SRC-20260728-4F6EAEA2"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-4F6EAEA2"
+      ]
+    }
+  ]
+}

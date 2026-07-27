@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-26C47730B23E",
+  "subject_id": "COM-JFE-Steel",
+  "predicate": "physical_ai_rnd_status",
+  "value": "Noetra 멀티모달 기반모델 개발에 출자·참여하고 제철소 운영·보전·연구개발 적용을 검토; 아직 연구개발 단계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-16",
+  "last_verified": "2026-07-16",
+  "source_ids": [
+    "SRC-20260728-FA021A32"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "action": "created",
+      "reason": "투자와 실배포를 구분",
+      "source_ids": [
+        "SRC-20260728-FA021A32"
+      ]
+    }
+  ]
+}

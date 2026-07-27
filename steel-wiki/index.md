@@ -6,9 +6,9 @@
 
 !!! info "현재 감시 범위"
 
-    **12개 기업** · **13개 기술** · **161개 Source** · **861개 Claim**
+    **12개 기업** · **13개 기술** · **314개 Source** · **1184개 Claim**
 
-    [[REVIEW|사람 검토 대기]] **4건** · 근거가 연결된 주체 **65개**
+    [[REVIEW|사람 검토 대기]] **0건** · 근거가 연결된 주체 **70개**
 
 ## 기술 포트폴리오 지도
 
@@ -62,9 +62,9 @@ flowchart LR
 | [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] |  | [[companies/COM-ArcelorMittal|일부 프로젝트 중단]] | [[companies/COM-China-Baowu|가동·적용]] | [[companies/COM-Nippon-Steel|실증]] | [[companies/COM-JFE-Steel|계획·투자]] | [[companies/COM-Tata-Steel|조건부 계획]] | [[companies/COM-thyssenkrupp-Steel|건설·수소전환 조건]] | [[companies/COM-SSAB|실증]] |  |  |  |  |
 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | [[companies/COM-POSCO|파일럿]] |  | [[companies/COM-China-Baowu|소규모 시험]] |  |  |  | [[companies/COM-thyssenkrupp-Steel|건설·구축]] |  |  |  | [[companies/COM-Rio-Tinto|계획·투자]] |  |
 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | [[companies/COM-POSCO|외부 연구 지원]] | [[companies/COM-ArcelorMittal|외부 전략투자]] |  |  |  |  |  |  |  |  |  | [[companies/COM-Boston-Metal|가동·적용]] |
-| [[technologies/TEC-blast-furnace-ccus|고로 CCUS]] |  | [[companies/COM-ArcelorMittal|실증]] |  | [[companies/COM-Nippon-Steel|연구]] | [[companies/COM-JFE-Steel|연구]] | [[companies/COM-Tata-Steel|가동·적용]] | [[companies/COM-thyssenkrupp-Steel|실증]] |  |  |  |  |  |
+| [[technologies/TEC-blast-furnace-ccus|고로 CCUS]] |  | [[companies/COM-ArcelorMittal|실증]] |  | [[companies/COM-Nippon-Steel|실증]] | [[companies/COM-JFE-Steel|연구]] | [[companies/COM-Tata-Steel|가동·적용]] | [[companies/COM-thyssenkrupp-Steel|실증]] |  |  |  |  |  |
 | [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | [[companies/COM-POSCO|경로·프로젝트 확인]] | [[companies/COM-ArcelorMittal|경로·프로젝트 확인]] | [[companies/COM-China-Baowu|경로·프로젝트 확인]] | [[companies/COM-Nippon-Steel|경로·프로젝트 확인]] | [[companies/COM-JFE-Steel|경로·프로젝트 확인]] | [[companies/COM-Tata-Steel|경로·프로젝트 확인]] | [[companies/COM-thyssenkrupp-Steel|경로·프로젝트 확인]] | [[companies/COM-SSAB|경로·프로젝트 확인]] | [[companies/COM-Nucor|경로·프로젝트 확인]] |  |  |  |
-| [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | [[companies/COM-POSCO|가동·적용]] |  |  | [[companies/COM-Nippon-Steel|연구]] | [[companies/COM-JFE-Steel|가동·적용]] | [[companies/COM-Tata-Steel|가동·적용]] |  |  |  |  |  |  |
+| [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | [[companies/COM-POSCO|가동·적용]] | [[companies/COM-ArcelorMittal|단계 미상]] |  | [[companies/COM-Nippon-Steel|연구]] | [[companies/COM-JFE-Steel|가동·적용]] | [[companies/COM-Tata-Steel|가동·적용]] |  |  |  |  |  |  |
 | [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | [[companies/COM-POSCO|연구]] | [[companies/COM-ArcelorMittal|연구]] |  |  |  |  |  |  |  |  |  |  |
 | [[technologies/TEC-high-grade-eaf-and-scrap-impurity-removal|고급강 EAF·스크랩 불순물 제거]] | [[companies/COM-POSCO|EAF 가동·고급강 개발]] |  |  | [[companies/COM-Nippon-Steel|상용]] | [[companies/COM-JFE-Steel|계획·투자]] |  |  |  |  |  |  |  |
 | [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | [[companies/COM-POSCO|건설·구축]] |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|건설·구축]] | [[companies/COM-Rio-Tinto|실증]] |  |
@@ -90,7 +90,7 @@ flowchart LR
 
 - **기업:** POSCO, ArcelorMittal, China Baowu Steel Group, Nippon Steel, JFE Steel, Tata Steel, thyssenkrupp Steel, SSAB, Nucor, voestalpine, Rio Tinto, Calix Ltd
 - **기술:** hydrogen direct reduced iron, electric smelting furnace, molten oxide electrolysis, blast furnace CCUS, low-carbon ironmaking, smart steelworks, low-temperature aqueous iron electrolysis, high-grade EAF and scrap impurity removal, hydrogen-based fine-ore reduction, hydrogen plasma smelting reduction, microwave biomass ironmaking, zesty hydrogen flash reduction, hisarna cyclone smelting reduction
-- **프로젝트:** Calix ZESTY Rockingham Green Iron Demonstration Plant, Tata Steel HIsarna Jamshedpur Demonstration Plant, HYBRIT Gällivare Industrial Demonstration Plant, Stegra Boden Green Steel Plant, EU H2PlasmaRed, Metso Pori DRI Smelting Furnace Pilot, EU PURESCRAP, ArcelorMittal Gent MHI Carbon Capture and D-CRBN Pilot
+- **프로젝트:** Calix ZESTY Kwinana Green Iron Demonstration Plant, Tata Steel HIsarna Jamshedpur Demonstration Plant, HYBRIT Gällivare Industrial Demonstration Plant, Stegra Boden Green Steel Plant, EU H2PlasmaRed, Metso Pori DRI Smelting Furnace Pilot, EU PURESCRAP, ArcelorMittal Gent MHI Carbon Capture and D-CRBN Pilot
 - **국가:** None
 
 ## 회사
@@ -140,6 +140,8 @@ flowchart LR
 - [[projects/PRJ-HYBRIT-GALLIVARE-DEMO|HYBRIT Gällivare 무화석 스펀지철 산업 실증]]
 - [[projects/PRJ-HYBRIT-LULEA-PILOT|HYBRIT 룰레오 수소 DRI 파일럿]]
 - [[projects/PRJ-HYFOR-DONAWITZ-PILOT|HYFOR Donawitz 수소환원 파일럿]]
+- [[projects/PRJ-JFE-CHIBA-CARBON-RECYCLING-BF|JFE Chiba 150 m³ 탄소순환 시험고로]]
+- [[projects/PRJ-JFE-CHIBA-NO4-EAF|JFE 치바 제4제강 전기로]]
 - [[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]
 - [[projects/PRJ-JFE-SINTER-CPS-ROLLOUT|JFE 일본 7개 소결설비 CPS 전개]]
 - [[projects/PRJ-LIGHTBOW-HPSR-CONTROL|LIGHTBOW HPSR 아크 제어 연구]]
@@ -149,11 +151,14 @@ flowchart LR
 - [[projects/PRJ-NIPPON-HASAKI-H2-DRI|Nippon Steel Hasaki 수소 DRI 시험로]]
 - [[projects/PRJ-NIPPON-JAPAN-EAF-CONVERSION|Nippon Steel 일본 3개 거점 전기로 전환]]
 - [[projects/PRJ-NIPPON-KIMITSU-COURSE50|Nippon Steel Kimitsu COURSE50 실증]]
+- [[projects/PRJ-NIPPON-USS-BIG-RIVER-DRI|Nippon Steel·U. S. Steel Big River DRI]]
 - [[projects/PRJ-NUCOR-CONVENT-DRI-CCS|Nucor Convent DRI–CCS]]
 - [[projects/PRJ-NUCOR-GALLATIN-EAF-CCUS|Nucor Gallatin EAF 탄소포집 파일럿]]
+- [[projects/PRJ-NUCOR-WEST-VIRGINIA-SHEET-MILL|Nucor West Virginia 첨단 판재 공장]]
 - [[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]
 - [[projects/PRJ-POSCO-GWANGYANG-ONE-TOUCH-CONVERTER|POSCO 광양 2전로 원터치 자동화]]
 - [[projects/PRJ-POSCO-HYREX-DEMO|POSCO 포항 HyREX 통합 실증]]
+- [[projects/PRJ-POSCO-HYREX-POHANG-DEMO|PRJ-POSCO-HYREX-POHANG-DEMO]]
 - [[projects/PRJ-PURESCRAP-EU-SCRAP-PURITY|EU PURESCRAP 스크랩 순도 검증]]
 - [[projects/PRJ-SORTERA-SCRAP-DECOPPER|Sortera 스크랩 구리 제거 프로젝트]]
 - [[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]
@@ -178,11 +183,11 @@ flowchart LR
 - 2027-12-31 · PRJ-TK-H2STEEL-DUISBURG · `target_commissioning_date` · created
 - 2027-12-31 · PRJ-TK-H2STEEL-DUISBURG · `hydrogen_network_date` · created
 - 2026-12-31 · PRJ-BIOIRON-WA-RD · `original_commissioning_target` · created
-- 2026-07-28 · TEC-hydrogen-based-fine-ore-reduction · `dust_recycle` · superseded
-- 2026-07-28 · TEC-hydrogen-based-fine-ore-reduction · `dust_recycle` · review_coexist
-- 2026-07-28 · TEC-hydrogen-based-fine-ore-reduction · `dust_recycle` · coexistence_confirmed
-- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `theoretical_hydrogen_minimum` · created
-- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `technical_definition` · created
+- 2026-07-28 · TEC-smart-steelworks · `reheating_furnace_model_deployment` · verified
+- 2026-07-28 · TEC-smart-steelworks · `jfe_bf_guidance_result` · status_changed
+- 2026-07-28 · TEC-smart-steelworks · `jfe_bf_guidance_result` · review_supersede
+- 2026-07-28 · TEC-smart-steelworks · `jfe_bf_guidance_result` · created
+- 2026-07-28 · TEC-smart-steelworks · `jfe_bf_guidance_result` · created
 
 ## 출처
 
@@ -347,6 +352,159 @@ flowchart LR
 - [[sources/SRC-20260727-C43117BC|Calix - ZESTY Green Iron Demonstration Plant]]
 - [[sources/SRC-20260727-F628E684|Hydrogen Plasma Reduction for Steelmaking and Circular Economy - H2PlasmaRed periodic report]]
 - [[sources/SRC-20260727-FD3EBA92|Tata Steel Board affirms the long-term strategy for growth in India]]
+- [[sources/SRC-20260728-00A0FA40|Rio Tinto scraps $215m research centre and BioIron product after decade of development]]
+- [[sources/SRC-20260728-01342E8C|Boston Metal Raises $75 Million to Scale Critical Metals Business]]
+- [[sources/SRC-20260728-02AD30CD|Thermodynamic-kinetic modeling of hematite reduction in a laboratory-scale hydrogen plasma smelting reduction furnace]]
+- [[sources/SRC-20260728-0356ABDC|Infrastruktur- och bostadsminister Andreas Carlson inviger järnvägen till Boden Industrial Park]]
+- [[sources/SRC-20260728-0356E66A|Electra hosts Toyota Tsusho at demonstration facility to show Clean Iron technology in action]]
+- [[sources/SRC-20260728-05FA3DD1|Validation of slag freeze lining thickness model for online monitoring purposes in pyrometallurgical furnaces]]
+- [[sources/SRC-20260728-06DEF489|Hydrogen based ultra fine ore reduction combined with a continuous powered electric smelting furnace for liquid iron production (HYFOR / HY4SMELT)]]
+- [[sources/SRC-20260728-0CB6166D|Achieving Sustainable Green Steel - HYFOR flowsheet]]
+- [[sources/SRC-20260728-10B44FBE|Application of Electric Smelting Furnace to Ironmaking]]
+- [[sources/SRC-20260728-11747E83|ZEROSTEEL CORDIS Results page and listed COM 2026 proceeding]]
+- [[sources/SRC-20260728-13A7A69D|Forging the Future of Iron: Energy, Economics, and Emissions]]
+- [[sources/SRC-20260728-1444F21D|Noetra Launches Full-Scale R&D for Japan-Developed Multimodal Foundation Model]]
+- [[sources/SRC-20260728-15D8C4A6|Nippon Steel confirms Big River DRI investment]]
+- [[sources/SRC-20260728-188FD401|Experimental Study on Multistage Hydrogen Reduction of Iron Ore by Fluidized Bed Reactor]]
+- [[sources/SRC-20260728-18CEA56E|MIDREX H2: Ultimate Low CO2 Ironmaking and its place in the new Hydrogen Economy]]
+- [[sources/SRC-20260728-18D65A80|Commissioning Underway at New Nucor Mill]]
+- [[sources/SRC-20260728-19397FAD|Advancing Climate Solutions 2026 - Nucor Convent CCS status]]
+- [[sources/SRC-20260728-19665AC7|Non-isothermal Hydrogen Reduction and Kinetic Behavior of Iron Ore Pellets Under Simulated Shaft Furnace Conditions]]
+- [[sources/SRC-20260728-1AB6BC47|Policy Engagement - Carbon-Recycling Blast Furnaces]]
+- [[sources/SRC-20260728-1BE1EDAF|Electra Secures $30M in New Capital to Accelerate Commercial Production]]
+- [[sources/SRC-20260728-1BF41B90|HY4SMELT AUF DEM WEG ZUR UMSETZUNG]]
+- [[sources/SRC-20260728-1BFBFBDF|Integrated Report & Annual Accounts 2025-26 (119th Year): HIsarna Jamshedpur status]]
+- [[sources/SRC-20260728-1E16B6C3|Steel Sheet Products: American-Made EAF Steel]]
+- [[sources/SRC-20260728-1F248414|Rio Tinto Annual Report on Form 20-F 2025: BioIron pilot pause]]
+- [[sources/SRC-20260728-203CCD00|Healey-Driscoll Administration Awards $4.45 Million to Expand Advanced Manufacturing, Create Jobs Across Massachusetts]]
+- [[sources/SRC-20260728-233C5C7D|Midrex selected for Big River DRI plant]]
+- [[sources/SRC-20260728-253AB0A9|Stegra announces closing of EUR 1.4 billion financing round]]
+- [[sources/SRC-20260728-2B2AEFFD|Electrical and Spectroscopic Diagnostics as Real-Time Metallization Indicators During Hydrogen Plasma Smelting Reduction]]
+- [[sources/SRC-20260728-2B829977|Hydrogen Plasma Smelting Reduction Technology: One Example of Clean Steel Partnership Success Stories]]
+- [[sources/SRC-20260728-2BB4FEA7|SSAB Report for Q2 2026 - Lulea project schedule update]]
+- [[sources/SRC-20260728-2C8BD70B|Geluidshinder door testen bij Steelanol]]
+- [[sources/SRC-20260728-3049F33D|Rapport: Utvidga transmissionsnätet i norra Norrbottens län]]
+- [[sources/SRC-20260728-351FFC36|Green steel smelting production successfully piloted in Metso Research Center]]
+- [[sources/SRC-20260728-3BAB455E|Control Guidance Technology for Blast Furnace Hot Metal Temperature]]
+- [[sources/SRC-20260728-3C88A721|After cyanide alarm, SSAB resumes steel mill construction]]
+- [[sources/SRC-20260728-3D63EF37|Production of Iron from Iron Oxide Powder by Suspension Electrolysis in Alkaline Electrolyte]]
+- [[sources/SRC-20260728-3DA8271F|Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain]]
+- [[sources/SRC-20260728-3F39F82D|ArcelorMittal announces strategic collaboration with AWS to drive industrial automation and lower-carbon construction globally]]
+- [[sources/SRC-20260728-4039F069|Towards green steel from hydrogen-based direct reduction of low-grade iron ores: Techno-economic and greenhouse gas emissions assessment]]
+- [[sources/SRC-20260728-40534940|Production of green steel from low-grade ores: An end-to-end techno-economic assessment]]
+- [[sources/SRC-20260728-4075282F|Mechanism of H2 plasma-enabled reduction of hematite thin films]]
+- [[sources/SRC-20260728-422A2AB7|MOE Steel current roadmap and critical-metals sequencing]]
+- [[sources/SRC-20260728-433E5CF1|Green Steel Technology to Drive India's Sustainable Industrial Transition (Press Release 41/2026)]]
+- [[sources/SRC-20260728-44EB4AEB|PURESCRAP Newsletter No. 7]]
+- [[sources/SRC-20260728-4A07DD3E|Effect of Heating Rate on the Non-Isothermal Hydrogen Reduction of Hematite Pellets]]
+- [[sources/SRC-20260728-4B823CFA|EAFs increasingly able to fill blast furnace gap: Electra]]
+- [[sources/SRC-20260728-4C948F2F|Operational thermodynamics and hydrogen embrittlement risk in lined rock cavern–shaft systems: Numerical insights from Sweden’s first LRC hydrogen storage pilot]]
+- [[sources/SRC-20260728-4F6EAEA2|SSAB pauses work at construction site in Lulea]]
+- [[sources/SRC-20260728-50A784E1|D-CRBN EIC project fact sheet and administrative closure status]]
+- [[sources/SRC-20260728-521FD424|Advancing Electric Smelting for Sustainable Iron Production: Pilot-Scale Validation of Controlled Open-Arc DC Technology]]
+- [[sources/SRC-20260728-53EDAF62|ArcelorMittal 2025 Form 20-F: Volteron pilot and industrial engineering]]
+- [[sources/SRC-20260728-5607C101|ArcelorMittal considers closing Steelanol facility in Ghent]]
+- [[sources/SRC-20260728-5DB16A4E|산업부문 온실가스 감축 정책 평가]]
+- [[sources/SRC-20260728-5F743371|ZEROSTEEL CORDIS 현행 팩트시트]]
+- [[sources/SRC-20260728-600ABF35|Low temperature electrolysis of iron ore in an aqueous alkaline solution - Volteron]]
+- [[sources/SRC-20260728-60D60F81|Forging a cleaner future: Advances and business models in electrochemical iron production]]
+- [[sources/SRC-20260728-664277C6|A generalized Grain-Scale model for the Non-Plasma and Plasma-Assisted hydrogen direct reduction of iron ore]]
+- [[sources/SRC-20260728-698EFDF6|JFE AI scrap automatic inspection enters operation]]
+- [[sources/SRC-20260728-6CAF8AD1|Computational Fluid Dynamics Simulation of Iron Ore Reduction in Industrial-Scale Fluidized Beds]]
+- [[sources/SRC-20260728-6E02E4F3|Elucidating key reducing species beyond ions in hydrogen plasma smelting reduction of iron ore]]
+- [[sources/SRC-20260728-71D36A10|Hydrogen evolution behavior and morphology regulation of electrowinning of iron in acidic sulfate system]]
+- [[sources/SRC-20260728-71F1636F|12th Steering Committee Meeting]]
+- [[sources/SRC-20260728-735F3BF8|News Clarification (Ref. SEC/2018/2025-26)]]
+- [[sources/SRC-20260728-73732712|ZESTY Green Iron Demonstration Project - Kick-off Report]]
+- [[sources/SRC-20260728-73FAEBA5|Effect of process parameters on fluidization and agglomeration behavior of iron ore fines]]
+- [[sources/SRC-20260728-740711D5|H2PlasmaRed public results and lab-scale deliverables]]
+- [[sources/SRC-20260728-75962E74|Energy-system optimization for hydrogen-based green steel production from medium-grade iron ore]]
+- [[sources/SRC-20260728-7765BF98|Stegra ramps up in Boden but remains far from full pace]]
+- [[sources/SRC-20260728-7C490C85|Hy4Smelt official project page - overall approach and Smelter inside schematic]]
+- [[sources/SRC-20260728-7CCF544F|Stable, Efficient Iron Electrodeposition via Anion-Directed Control of Fe(II) Coordination]]
+- [[sources/SRC-20260728-7D3D8F38|Hy4Smelt – Industrial Demonstration Project to Proof Potential Net-Zero Ironmaking by Combining Breakthrough HYFOR and Smelter Technologies]]
+- [[sources/SRC-20260728-7EF29AFA|Climate Change - HyREX deployment status]]
+- [[sources/SRC-20260728-7FC0DF46|Direct reduction of low-grade taconite ore by atmospheric-pressure, microwave-powered hydrogen plasma]]
+- [[sources/SRC-20260728-8147C73E|Final electrolyzer module installed at Stegra green hydrogen plant]]
+- [[sources/SRC-20260728-830BD90F|Decision on extended operation of HYBRIT's pilot facility for fossil-free hydrogen storage in Lulea]]
+- [[sources/SRC-20260728-839E48B6|ROSIE Project Descriptions: Microwave-Powered Hydrogen Plasma Rotary Kiln]]
+- [[sources/SRC-20260728-85A65391|Erosion resistance evaluation of ceramic crucible in oxide-fluoride slags: Application to high-temperature molten oxide electrolysis]]
+- [[sources/SRC-20260728-87554B83|Europe puts flagship green project in jeopardy: ArcelorMittal considers shutting down the Steelanol plant in Ghent]]
+- [[sources/SRC-20260728-87ECD6CE|Systematic research on DRI furnace technology - Pori 3-in-line pilot schematic]]
+- [[sources/SRC-20260728-88C8008A|Layoffs hit Boston Metal as company plans Woburn shutdown]]
+- [[sources/SRC-20260728-8A38B43F|Start of construction for hydrogen-based iron production plant in Linz - HYFOR pilot update]]
+- [[sources/SRC-20260728-8B5F092E|Calix completes first ARENA grant milestone for Zesty, triggering $2m cash payment]]
+- [[sources/SRC-20260728-8C2998FE|ZEROSTEEL 공식 프로젝트 소개]]
+- [[sources/SRC-20260728-8C43A9D2|Nucor Q1 2026 earnings presentation: West Virginia sheet mill]]
+- [[sources/SRC-20260728-8D2313B9|System analysis of direct reduced iron production with elevated levels of hydrogen in the shaft furnace]]
+- [[sources/SRC-20260728-8E7E10C4|Transforming the Electric Grid with Scrap Recovery Technology]]
+- [[sources/SRC-20260728-90668131|EP4724635A1 — Process and system for electrolytically producing an iron-bearing product from iron ore particles]]
+- [[sources/SRC-20260728-995B25FB|Crane and Mobile Mechanical Maintenance - Nucor Steel West Virginia]]
+- [[sources/SRC-20260728-9C00A766|CO2-free alkaline electrolysis of magnetite suspensions: impact of mineralogical source and particle size]]
+- [[sources/SRC-20260728-9D74D878|Trial carbon capture unit begins operating on Blast Furnace at ArcelorMittal Gent, Belgium]]
+- [[sources/SRC-20260728-9EA9EFD0|Spatiotemporal Dynamics of Hydrogen Plasma Smelting Reduction of iron ore: A Multi-Species Diagnostic Approach]]
+- [[sources/SRC-20260728-A0536CA5|Hematite Leach Residue as a Material for Hydrogen Plasma Smelting Reduction: A Laboratory-Scale Study on Chemical Composition and Optical Emissions]]
+- [[sources/SRC-20260728-A423AD07|Nucor Steel West Virginia project page and construction gallery]]
+- [[sources/SRC-20260728-A93B9BD0|2026년도 한국형수소환원제철실증기술개발사업 신규지원 대상과제 공고]]
+- [[sources/SRC-20260728-A94B5406|Priority Projects]]
+- [[sources/SRC-20260728-A9BA86B5|보스턴 메탈, 친환경 철강 생산의 새 이정표 찍다]]
+- [[sources/SRC-20260728-A9F63B06|JFE Steel and AWS Sign an Agreement Toward the Realization of a Sustainable Society]]
+- [[sources/SRC-20260728-AADE96F1|U. S. Steel Big River DRI investment and site integration]]
+- [[sources/SRC-20260728-ABFA913A|Optimization of Scrap Blending by Estimation Model for Hot Metal Cu Concentration in Electric Arc Furnace]]
+- [[sources/SRC-20260728-AD1561EC|Fluxing Options and Slag Operating Window for Metso’s Sustainable DRI Smelting Furnace]]
+- [[sources/SRC-20260728-AD321DEC|Numerical analysis of hydrogen-based iron ore reduction in a fluidized bed reactor: influence of distributor plate on reaction kinetics]]
+- [[sources/SRC-20260728-B0280688|Smelting Issue 1/2025: Pori DRI pilot commissioned and tested]]
+- [[sources/SRC-20260728-B069E634|Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K]]
+- [[sources/SRC-20260728-B14401AF|EUR 1.4 billion - Stegra rescue package completed]]
+- [[sources/SRC-20260728-BAB40223|BioIron Pilot Plant Works Approval W6964/2024/1 현행 색인]]
+- [[sources/SRC-20260728-BC8B3047|JFE Chiba No. 4 Steelmaking Shop EAF start-up]]
+- [[sources/SRC-20260728-BDB79FE9|Volteron low-temperature iron electrowinning product page]]
+- [[sources/SRC-20260728-BE2CCB14|Ore dissolution and iron conversion system (US11753732B2)]]
+- [[sources/SRC-20260728-BEC180E2|ArcelorMittal 2025 Form 20-F: digital and AI deployment]]
+- [[sources/SRC-20260728-BFA997FF|Metso Annual Report 2025: Pori DRI Smelting Furnace hot commissioning]]
+- [[sources/SRC-20260728-C00B1E0B|High-temperature electrolytic ironmaking driven by green electricity toward decarbonization: Evaluating molten salt electrolysis and molten oxide electrolysis routes]]
+- [[sources/SRC-20260728-C1D1D6AD|ExxonMobil raises its 2030 Plan - conditional Nucor CCS start-up target]]
+- [[sources/SRC-20260728-C2858286|Systems and methods for molten oxide electrolysis (US11591703B2)]]
+- [[sources/SRC-20260728-C30EAE04|MHI FY2024 transition-bond report on Gent CO2 capture and D-CRBN demonstration]]
+- [[sources/SRC-20260728-C4258413|Nucor selects West Virginia for new sheet mill]]
+- [[sources/SRC-20260728-C7D9F0C3|Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K]]
+- [[sources/SRC-20260728-C820F901|Editors Choice—Understanding the Role of Multivalency in Chloride-Based Electrolytes for Efficient Iron Electrosynthesis]]
+- [[sources/SRC-20260728-CBA8AC84|Rio Tinto Annual Report on Form 20-F 2025 - Hy4Smelt disclosure]]
+- [[sources/SRC-20260728-CE51E854|Expecting Layoffs Saturday, 71 Boston Metal Workers Get Reprieve - For Now]]
+- [[sources/SRC-20260728-CEB5A3B1|High efficiency iron electrowinning (WO2025199035A1)]]
+- [[sources/SRC-20260728-CEF2D62E|H2 Green Steel Story - the Quest for Earth's Sustainable Future]]
+- [[sources/SRC-20260728-CFBEE0AE|Zesty patents, pilots and progress towards commercial demonstration]]
+- [[sources/SRC-20260728-D16CF64F|Evaluation of Hydrogen Reduction Characteristics of Different Iron Ore Types under HyREX Reduction Conditions]]
+- [[sources/SRC-20260728-D30AB70A|Hydrogen Breakthrough Ironmaking Technology (HYBRIT)]]
+- [[sources/SRC-20260728-D4ADAE82|Spatiotemporal Dynamics of Hydrogen Plasma Smelting Reduction of iron ore]]
+- [[sources/SRC-20260728-D4BCB579|U. S. Steel targets 2029 start for Big River DRI plant]]
+- [[sources/SRC-20260728-D5828B6F|voestalpine Annual Report 2025/26 - Hy4Smelt demonstration plant]]
+- [[sources/SRC-20260728-D887E861|Consolidated Financial Results for the Fiscal Year Ended March 31, 2026: DX and steelworks logistics]]
+- [[sources/SRC-20260728-D8C7D596|Hydrogen fluidised-bed reduction of Australian hematite-goethite iron ores]]
+- [[sources/SRC-20260728-DC2DCCF5|Proposed low-emissions iron pilot not to be formally assessed by EPA]]
+- [[sources/SRC-20260728-DC34166F|HYBRIT Demonstration - official fossil-free steel value chain]]
+- [[sources/SRC-20260728-DF4ED6D1|Malmberget permit appealed by regulator and LKAB]]
+- [[sources/SRC-20260728-E14C2E6C|Malmberget environmental permit judgment M 1413-23]]
+- [[sources/SRC-20260728-E41E2371|PURESCRAP results and amended schedule]]
+- [[sources/SRC-20260728-E6F2E802|Effective Equilibrium Reaction Zone Modeling of Hydrogen Plasma Smelting Reduction: A Scenario Analysis]]
+- [[sources/SRC-20260728-E7D8D580|Microstructure and Faradaic Efficiency of Electrodeposited Iron in NaOH(aq)]]
+- [[sources/SRC-20260728-E89C0798|Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain]]
+- [[sources/SRC-20260728-E8CB361F|Decarbonizing ironmaking through green-electricity-driven low-temperature electrodeposition]]
+- [[sources/SRC-20260728-E90D8967|POSCO accelerates decarbonized production system - HyREX groundwork update]]
+- [[sources/SRC-20260728-EAC4FDB6|Fossil-free steel mini-mill to produce specialty hot-rolled strip in Luleå, Sweden]]
+- [[sources/SRC-20260728-EC5093B5|Swedish Energy Agency grants SEK 390 million in support to Stegra]]
+- [[sources/SRC-20260728-EEB8C7F8|Station Degerträsk driftsatt]]
+- [[sources/SRC-20260728-EEBA9605|Fortescue low-temperature DER project and Core Research public status]]
+- [[sources/SRC-20260728-F7DA1903|ArcelorMittal announces strategic collaboration with AWS to drive industrial automation and lower-carbon construction globally]]
+- [[sources/SRC-20260728-F9066CB4|Electra demonstration-facility electrowinning baths installed]]
+- [[sources/SRC-20260728-F9F9F2CD|POSCO Holdings FY2025 ESG Management Update - HyREX construction status]]
+- [[sources/SRC-20260728-FA021A32|Investment in Noetra Corporation, which promotes the development of a Japan-made AI foundation model]]
+- [[sources/SRC-20260728-FA603C67|Introduction to HyREX by POSCO - 2026 Emerging Fluidization Applications Workshop]]
+- [[sources/SRC-20260728-FB3E03F1|Answer on recycled carbon fuel methodology and Steelanol]]
+- [[sources/SRC-20260728-FB94E7B7|UK IDEA Dual Loop CO2 Capture at Nucor Steel Gallatin - Categorical Exclusion]]
+- [[sources/SRC-20260728-FECCAF8C|In-flight reduction of iron oxides from various sources by hydrogen plasma]]
+- [[sources/SRC-20260728-FF44A697|국가연구개발사업 예비타당성조사 2025 연차보고서 - 한국형 수소환원제철 실증기술개발사업]]
+- [[sources/SRC-20260728-FF583C8E|Pathways to Electrochemical Ironmaking at Scale Via the Direct Reduction of Fe2O3]]
 
 ## 최근 동향 보고서
 

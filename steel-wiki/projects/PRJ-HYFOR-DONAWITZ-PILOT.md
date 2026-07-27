@@ -2,15 +2,22 @@
 
 # HYFOR Donawitz 수소환원 파일럿
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **13건** · 직접 연결 근거 **2건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **17건** · 직접 연결 근거 **4건**
 
 
-![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![미분광 예열 산화와 수소 유동층 환원에서 HDRI HBI Smelter EAF로 이어지는 HYFOR 공식 공정도](<https://dam.primetals.com/m/3e6cdaf6908228a7/webimage-HYFOR-FlowChart-Three-Phases.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor))*
+*대표 이미지 — Primetals Technologies 공식 HYFOR 개념 흐름도: 미분광 예열·산화, 수소 유동층 환원, 약 600°C HDRI와 HBI·Smelter·EAF 후단 경로. Donawitz 파일럿 준공도는 아니다. (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260728-0CB6166D|SRC-20260728-0CB6166D]] · [원문 페이지](https://www.primetals.com/en/metals-magazine/achieving-green-steel))*
 
 
 ## 설비·공정 이미지
+
+![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비
+
+- 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · 권리 `link_only` · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor) · 작성·촬영 Primetals Technologies
+- 권리 메모: Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
 
 ![HYFOR 파일럿 플랜트 내부의 미분광 분배 장치와 배관](<https://dam.primetals.com/m/5cabf17404a68773/webimage-DSC_0098x.png>){ .steel-media-image .steel-media-compact }
 
@@ -39,7 +46,11 @@
 | **건조·예열·산화** | 농축분을 약 900°C로 예열한 뒤 수소 환원 [^src-20260725-bc8de092] |
 | **제품 형태** | 약 600°C의 고온 DRI 미분 [^src-20260725-bc8de092] |
 | **환원가스 조성** | 초기 캠페인에 100% 수소 사용 [^src-20260725-bc8de092] |
+| **Representative process reference** | Primetals 공식 HYFOR 개념도는 미분광 예열·산화, 수소 유동층 환원, 약 600°C HDRI와 HBI·Smelter·EAF 후단 경로를 함께 표시; Donawitz 파일럿 준공도는 아님 [^src-20260728-0cb6166d] |
 | **공개 성과의 한계** | 초기 회분 시험은 광종별 장기 금속화율·수소원단위·고착·가동률을 입증하지 않음 [^src-20260725-bc8de092] |
+| **Supplier reported successful runs min** | 2025-09-25 공급사 발표 기준 2021년 이후 50회 초과 성공 시험 운전; 원료별 조건·지속시간·가동률·환원율·금속화율·원단위 미공개이며 연속 장기운전 실적 아님 [^src-20260728-8a38b43f] |
+| **Supplier target commercial availability** | HYFOR와 Smelter 기술을 2028년부터 상업적으로 제공한다는 공급사 목표; 상용플랜트 가동 실적 아님 [^src-20260728-8a38b43f] |
+| **Tested ore scope supplier claim** | Primetals는 사실상 모든 주요 철광석 종류를 시험했다고 주장; 광종별 목록과 정량 결과는 미공개 [^src-20260728-8a38b43f] |
 
 ## 전체 확인 이력
 
@@ -50,12 +61,18 @@
 | 2021-04 | 실증 이력 | **최초 시험 캠페인**: 2021-04~2021-05 [^src-20260725-bc8de092] |
 | 2021-04 | 실행 일정 | **가동·시운전 확인 시점**: 2021-04 [^src-20260725-bc8de092] |
 | 2021-06-24 | 발표·검증 | **환원가스 조성**: 초기 캠페인에 100% 수소 사용 · **프로젝트 상태**: 2021년 4월 시운전 후 초기 시험 캠페인을 수행한 HYFOR 수소 미분광 환원 파일럿 · **통합 설비 구성**: 예열·산화 장치, 수소 환원 장치, 건식 가스처리, 분진 재순환 계통 · **파일럿 캠페인 계획**: 적철광·자철광 등 여러 농축분으로 최소 2년간 캠페인 계획 · **제품 형태**: 약 600°C의 고온 DRI 미분 · **건조·예열·산화**: 농축분을 약 900°C로 예열한 뒤 수소 환원 · **가동·시운전 확인 시점**: 2021-04 · **파일럿 회분 투입량**: 시험 회당 약 800 kg 철광석 · **후단 제품 처리**: 고온 브리켓 시험과 EAF 고온 DRI 이송 또는 HBI 생산을 후단 선택지로 제시 · **공개 성과의 한계**: 초기 회분 시험은 광종별 장기 금속화율·수소원단위·고착·가동률을 입증하지 않음 · **최초 시험 캠페인**: 2021-04~2021-05 · **위치**: voestalpine Donawitz 제철소, 오스트리아 [^src-20260725-bc8de092] |
+| 2023-06-12 | 발표·검증 | **Representative process reference**: Primetals 공식 HYFOR 개념도는 미분광 예열·산화, 수소 유동층 환원, 약 600°C HDRI와 HBI·Smelter·EAF 후단 경로를 함께 표시; Donawitz 파일럿 준공도는 아님 [^src-20260728-0cb6166d] |
+| 2025-09-25 | 발표·검증 | **Supplier target commercial availability**: HYFOR와 Smelter 기술을 2028년부터 상업적으로 제공한다는 공급사 목표; 상용플랜트 가동 실적 아님 · **Tested ore scope supplier claim**: Primetals는 사실상 모든 주요 철광석 종류를 시험했다고 주장; 광종별 목록과 정량 결과는 미공개 · **Supplier reported successful runs min**: 2025-09-25 공급사 발표 기준 2021년 이후 50회 초과 성공 시험 운전; 원료별 조건·지속시간·가동률·환원율·금속화율·원단위 미공개이며 연속 장기운전 실적 아님 [^src-20260728-8a38b43f] |
 | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; 공식 기술 페이지의 현재 설비 참고 [^src-20260725-a23b5a64] |
 
 ## 근거 자료
 
 - **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상 · [원문 보기](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 - **HYFOR Pilot Plant Under Operation** — Primetals Technologies, 2021-06-24 · [원문 보기](https://www.primetals.com/en/news/hyfor-pilot-plant-under-operation-the-next-step-for-carbon-free-hydrogen-based-direct-reduction-is-done/) · [[sources/SRC-20260725-BC8DE092|보관 원문·메타데이터]]
+- **Achieving Sustainable Green Steel - HYFOR flowsheet** — Primetals Technologies, 2023-06-12 · [원문 보기](https://www.primetals.com/en/metals-magazine/achieving-green-steel/) · [[sources/SRC-20260728-0CB6166D|보관 원문·메타데이터]]
+- **Start of construction for hydrogen-based iron production plant in Linz - HYFOR pilot update** — Primetals Technologies, 2025-09-25 · [원문 보기](https://dam.primetals.com/m/a1a1b19c94313a0/original/PR2025083472de.pdf) · [[sources/SRC-20260728-8A38B43F|보관 원문·메타데이터]]
 
 [^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 [^src-20260725-bc8de092]: **HYFOR Pilot Plant Under Operation** — Primetals Technologies, 2021-06-24. [원문](https://www.primetals.com/en/news/hyfor-pilot-plant-under-operation-the-next-step-for-carbon-free-hydrogen-based-direct-reduction-is-done/) · [[sources/SRC-20260725-BC8DE092|보관 원문·메타데이터]]
+[^src-20260728-0cb6166d]: **Achieving Sustainable Green Steel - HYFOR flowsheet** — Primetals Technologies, 2023-06-12. [원문](https://www.primetals.com/en/metals-magazine/achieving-green-steel/) · [[sources/SRC-20260728-0CB6166D|보관 원문·메타데이터]]
+[^src-20260728-8a38b43f]: **Start of construction for hydrogen-based iron production plant in Linz - HYFOR pilot update** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/a1a1b19c94313a0/original/PR2025083472de.pdf) · [[sources/SRC-20260728-8A38B43F|보관 원문·메타데이터]]

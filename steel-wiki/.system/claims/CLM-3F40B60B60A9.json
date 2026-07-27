@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3F40B60B60A9",
+  "subject_id": "PRJ-BOSTON-METAL-MOE-WOBURN",
+  "predicate": "workforce_financing_risk",
+  "value": "2026-02 회사는 Brazil 설비 사고와 연계된 financing milestone 미달 뒤 Woburn 3개 시설 71명 감원·폐쇄 계획을 주정부에 통지",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-02-24",
+  "last_verified": "2026-02-24",
+  "source_ids": [
+    "SRC-20260728-88C8008A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-02-24",
+      "action": "created",
+      "reason": "독립 지역매체가 회사 WARN 통지와 회사 설명을 확인",
+      "source_ids": [
+        "SRC-20260728-88C8008A"
+      ]
+    }
+  ]
+}

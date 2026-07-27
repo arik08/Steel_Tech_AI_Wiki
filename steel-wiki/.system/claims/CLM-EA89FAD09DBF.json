@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-EA89FAD09DBF",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "industrialization_evidence_limit",
+  "value": "저온 수계 철 전해는 약 100°C 운전 잠재력이 있으나 전류효율, 치밀한 제품 형성, 실제 광석 불순물, 전극·반응기 설계와 변동성 재생전력 연계가 미해결 과제이며, 개별 파일럿 결과를 상업 성능으로 일반화할 수 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-E8CB361F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "Academic review explicitly identifies unresolved industrialization challenges",
+      "source_ids": [
+        "SRC-20260728-E8CB361F"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "claim_id": "CLM-0C433261D5E0",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "model_evidence_limit",
+  "value": "2025~2026 저품위광 ESF 경제성 결과는 광석조성·수소·전력·탄소가격·금속화율·철 회수 가정에 따른 모델이며 공급사 보증치나 HyREX·HY4Smelt·Pori 실제 성능이 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-20",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-4039F069",
+    "SRC-20260728-40534940",
+    "SRC-20260728-10B44FBE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-20",
+      "action": "created",
+      "reason": "모델 결과의 프로젝트 오인 방지",
+      "source_ids": [
+        "SRC-20260728-4039F069"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "action": "verified",
+      "reason": "독립 전과정 모델로 적용 한계 교차검증",
+      "source_ids": [
+        "SRC-20260728-40534940"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "action": "verified",
+      "reason": "2026 동료심사 기술리뷰로 모델과 상업규모 근거 경계를 추가 교차검증",
+      "source_ids": [
+        "SRC-20260728-10B44FBE"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-10B44FBE"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,12 @@
 
 # Calix ZESTY Rockingham 3만 t/y 실증 계획
 
-> 최근 검증 **2026-07-27** · 확인된 핵심 정보 **6건** · 직접 연결 근거 **1건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **19건** · 직접 연결 근거 **5건**
+
+
+![ZESTY 파일럿 관형 반응기와 제안된 30 kt/y 공정 흐름 학술 그림](<https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11663-025-03465-3/MediaObjects/11663_2025_3465_Fig1_HTML.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+
+*대표 이미지 — ZESTY 단일 관형 파일럿 반응기와 30 kt/y 제안 공정 흐름. 논문 Figure 1이며 30 kt/y 설비의 준공도가 아니다. (학술 자료 그림 · 권리 `link_only` · 출처 [[sources/SRC-20260727-824DD247|SRC-20260727-824DD247]] · [원문 페이지](https://link.springer.com/article/10.1007/s11663-025-03465-3/figures/1))*
 
 !!! abstract "현재 상태"
 
@@ -15,7 +20,20 @@
 | **프로젝트 상태** | 파일럿 시험 이후 30,000 t/y 플랜트의 건설·시운전·운전과 상용 Pre-FEED/FEED를 수행하는 프로젝트; 2026-03-30 공개자료에는 준공·가동 실적 없음 [^src-20260727-c43117bc] |
 | **연간 생산능력** | 30,000 t/y HDRI 설계목표 [^src-20260727-c43117bc] |
 | **기술 경로** | Calix ZESTY 기반 HDRI/HBI 실증 플랜트 [^src-20260727-c43117bc] |
+| **Conditional funding balance** | 첫 지급 뒤 ARENA A$42.9 million과 Rio Tinto 현금·현물 A$32 million 초과분은 matched funding 및 후속 프로젝트 마일스톤 조건부로 남아 있었으며, 확보 완료된 무조건부 건설재원으로 볼 수 없다. [^src-20260728-8b5f092e] |
+| **Current funding and fid status** | 2026-07 Calix는 ARENA 첫 지급 A$2 million과 Rio Tinto 첫 현금기여 A$3 million을 수령했다고 밝혔지만, 30,000 t/y 실증 프로젝트는 여전히 FID를 향해 진행 중이다. 전체 ARENA up to A$44.9 million과 Rio Tinto over A$35 million 현금·현물 지원은 매칭자금·마일스톤 조건부이며 FID·EPC·건설·시운전 완료 증거가 아니다. [^src-20260728-cfbee0ae] |
+| **Demonstration emissions boundary** | 실증 운전에는 계통 전력 등이 사용될 수 있어 생산물 전량이 자동으로 zero-emissions iron인 것은 아니며 실제 전력·수소 공급원을 확인해야 함 [^src-20260728-00a0fa40] |
+| **Funding milestone** | Calix는 2026-03-16 첫 ARENA 계약 마일스톤 완료로 A$2 million 지급이 발생했다고 공시했다. 2025-12에는 Rio Tinto A$3 million을 수령했다. [^src-20260728-8b5f092e] |
+| **Hydrogen supply status** | Kwinana의 재생수소 비용·접근성이 제약이며 실증용으로 재생수소와 천연가스 기반 수소를 함께 검토 중 [^src-20260728-73732712] |
+| **Independent infrastructure assessment** | 독립 전문가 평가는 필바라·서호주 확대에 추가 재생에너지·용수·숙련인력 인프라가 필요하다고 지적 [^src-20260728-00a0fa40] |
+| **위치** | Kwinana, Western Australia (기존 BioIron 예정부지 전환) [^src-20260728-73732712] |
+| **Milestone evidence boundary** | 첫 보조금 마일스톤 지급은 초기 계약상 기술·상업 진척의 근거이나 FID·전체 금융조달·EPC 발주·착공·시운전·생산 달성의 근거가 아니다. [^src-20260728-8b5f092e] |
+| **Pilot campaign boundary** | 반연속 운전·더 큰 DRI 시료·수율 개선·대체 환원제는 제3차 캠페인의 계획 목표다. 완료된 연속운전, 처리량, 수율, 고객 제품시험 결과, 수소/가스 원단위 또는 상업 성능 KPI가 아니다. [^src-20260728-cfbee0ae] |
+| **Pilot campaign status** | Calix는 2026년 후반 Bacchus Marsh에서 제3차 Zesty 파일럿 캠페인을 시작할 계획이며, 반연속 운전·ultrafines 처리 개선·천연가스/개질가스 대체 환원제 시험을 위한 설비 업그레이드를 준비 중이라고 2026-07-17 밝혔다. [^src-20260728-cfbee0ae] |
+| **Project phase** | 2026-05-29 기준 Pre-FID task 단계이며 FID 전 상세설계·works permit 확정·공개 의견수렴·유틸리티 및 신뢰 가능한 수소 공급 확보가 필요 [^src-20260728-73732712] |
 | **프로젝트 착수 시점** | 2025-07-01 [^src-20260727-c43117bc] |
+| **Regulatory status** | BioIron 예정부지의 기존 works approval를 ZESTY 요구에 맞게 변경해야 하며 DWER 초기 협의 후 공개 의견수렴 절차가 남아 있음 [^src-20260728-73732712] |
+| **Schedule risk** | 서호주 EPC·인력·유틸리티·대규모 전력망 접속·인허가 조정으로 후기 마일스톤이 변경될 수 있음 [^src-20260728-73732712] |
 | **목표 준공 시점** | 2031-03-31 [^src-20260727-c43117bc] |
 | **검증 범위** | 다양한 광종·품위를 toll processing하고 HDRI/HBI를 복수 철강사의 BF-BOF 부분대체 및 ESF/EAF 경로에서 시험하는 목표 [^src-20260727-c43117bc] |
 
@@ -26,11 +44,23 @@
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
 | 2025-07-01 | 착수 | **프로젝트 착수 시점**: 2025-07-01 [^src-20260727-c43117bc] |
+| 2025-11-17 | 발표·검증 | **Demonstration emissions boundary**: 실증 운전에는 계통 전력 등이 사용될 수 있어 생산물 전량이 자동으로 zero-emissions iron인 것은 아니며 실제 전력·수소 공급원을 확인해야 함 · **Independent infrastructure assessment**: 독립 전문가 평가는 필바라·서호주 확대에 추가 재생에너지·용수·숙련인력 인프라가 필요하다고 지적 [^src-20260728-00a0fa40] |
+| 2026-03-16 | 발표·검증 | **Milestone evidence boundary**: 첫 보조금 마일스톤 지급은 초기 계약상 기술·상업 진척의 근거이나 FID·전체 금융조달·EPC 발주·착공·시운전·생산 달성의 근거가 아니다. · **Conditional funding balance**: 첫 지급 뒤 ARENA A$42.9 million과 Rio Tinto 현금·현물 A$32 million 초과분은 matched funding 및 후속 프로젝트 마일스톤 조건부로 남아 있었으며, 확보 완료된 무조건부 건설재원으로 볼 수 없다. · **Funding milestone**: Calix는 2026-03-16 첫 ARENA 계약 마일스톤 완료로 A$2 million 지급이 발생했다고 공시했다. 2025-12에는 Rio Tinto A$3 million을 수령했다. [^src-20260728-8b5f092e] |
 | 2026-03-30 | 발표·검증 | **프로젝트 상태**: 파일럿 시험 이후 30,000 t/y 플랜트의 건설·시운전·운전과 상용 Pre-FEED/FEED를 수행하는 프로젝트; 2026-03-30 공개자료에는 준공·가동 실적 없음 · **프로젝트 착수 시점**: 2025-07-01 · **목표 준공 시점**: 2031-03-31 · **연간 생산능력**: 30,000 t/y HDRI 설계목표 · **검증 범위**: 다양한 광종·품위를 toll processing하고 HDRI/HBI를 복수 철강사의 BF-BOF 부분대체 및 ESF/EAF 경로에서 시험하는 목표 · **기술 경로**: Calix ZESTY 기반 HDRI/HBI 실증 플랜트 [^src-20260727-c43117bc] |
+| 2026-05-29 | 발표·검증 | **Hydrogen supply status**: Kwinana의 재생수소 비용·접근성이 제약이며 실증용으로 재생수소와 천연가스 기반 수소를 함께 검토 중 · **Regulatory status**: BioIron 예정부지의 기존 works approval를 ZESTY 요구에 맞게 변경해야 하며 DWER 초기 협의 후 공개 의견수렴 절차가 남아 있음 · **위치**: Kwinana, Western Australia (기존 BioIron 예정부지 전환) · **Schedule risk**: 서호주 EPC·인력·유틸리티·대규모 전력망 접속·인허가 조정으로 후기 마일스톤이 변경될 수 있음 · **Project phase**: 2026-05-29 기준 Pre-FID task 단계이며 FID 전 상세설계·works permit 확정·공개 의견수렴·유틸리티 및 신뢰 가능한 수소 공급 확보가 필요 [^src-20260728-73732712] |
+| 2026-07-17 | 발표·검증 | **Pilot campaign status**: Calix는 2026년 후반 Bacchus Marsh에서 제3차 Zesty 파일럿 캠페인을 시작할 계획이며, 반연속 운전·ultrafines 처리 개선·천연가스/개질가스 대체 환원제 시험을 위한 설비 업그레이드를 준비 중이라고 2026-07-17 밝혔다. · **Pilot campaign boundary**: 반연속 운전·더 큰 DRI 시료·수율 개선·대체 환원제는 제3차 캠페인의 계획 목표다. 완료된 연속운전, 처리량, 수율, 고객 제품시험 결과, 수소/가스 원단위 또는 상업 성능 KPI가 아니다. · **Current funding and fid status**: 2026-07 Calix는 ARENA 첫 지급 A$2 million과 Rio Tinto 첫 현금기여 A$3 million을 수령했다고 밝혔지만, 30,000 t/y 실증 프로젝트는 여전히 FID를 향해 진행 중이다. 전체 ARENA up to A$44.9 million과 Rio Tinto over A$35 million 현금·현물 지원은 매칭자금·마일스톤 조건부이며 FID·EPC·건설·시운전 완료 증거가 아니다. [^src-20260728-cfbee0ae] |
 | 2031-03-31 | 목표 일정 | **목표 준공 시점**: 2031-03-31 [^src-20260727-c43117bc] |
 
 ## 근거 자료
 
 - **Calix - ZESTY Green Iron Demonstration Plant** — Australian Renewable Energy Agency, 2026-03-30 · [원문 보기](https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant/) · [[sources/SRC-20260727-C43117BC|보관 원문·메타데이터]]
+- **Rio Tinto scraps $215m research centre and BioIron product after decade of development** — ABC News Australia, 2025-11-17 · [원문 보기](https://www.abc.net.au/news/2025-11-17/rio-tinto-scraps-wa-green-steel-bioiron-product/106019692) · [[sources/SRC-20260728-00A0FA40|보관 원문·메타데이터]]
+- **ZESTY Green Iron Demonstration Project - Kick-off Report** — Australian Renewable Energy Agency / Calix Ltd, 2026-05-29 · [원문 보기](https://arena.gov.au/assets/2026/03/Calix-ZESTY-Green-Iron-Demonstration-Plant-Project-Kick-off-Report.pdf) · [[sources/SRC-20260728-73732712|보관 원문·메타데이터]]
+- **Calix completes first ARENA grant milestone for Zesty, triggering $2m cash payment** — Calix Limited / ASX, 2026-03-16 · [원문 보기](https://investorpa.com/announcement-pdf/20260316/269605.pdf) · [[sources/SRC-20260728-8B5F092E|보관 원문·메타데이터]]
+- **Zesty patents, pilots and progress towards commercial demonstration** — Calix Limited, 2026-07-17 · [원문 보기](https://calix.global/news/zesty-patents-pilots-and-progress-towards-commercial-demonstration/) · [[sources/SRC-20260728-CFBEE0AE|보관 원문·메타데이터]]
 
 [^src-20260727-c43117bc]: **Calix - ZESTY Green Iron Demonstration Plant** — Australian Renewable Energy Agency, 2026-03-30. [원문](https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant/) · [[sources/SRC-20260727-C43117BC|보관 원문·메타데이터]]
+[^src-20260728-00a0fa40]: **Rio Tinto scraps $215m research centre and BioIron product after decade of development** — ABC News Australia, 2025-11-17. [원문](https://www.abc.net.au/news/2025-11-17/rio-tinto-scraps-wa-green-steel-bioiron-product/106019692) · [[sources/SRC-20260728-00A0FA40|보관 원문·메타데이터]]
+[^src-20260728-73732712]: **ZESTY Green Iron Demonstration Project - Kick-off Report** — Australian Renewable Energy Agency / Calix Ltd, 2026-05-29. [원문](https://arena.gov.au/assets/2026/03/Calix-ZESTY-Green-Iron-Demonstration-Plant-Project-Kick-off-Report.pdf) · [[sources/SRC-20260728-73732712|보관 원문·메타데이터]]
+[^src-20260728-8b5f092e]: **Calix completes first ARENA grant milestone for Zesty, triggering $2m cash payment** — Calix Limited / ASX, 2026-03-16. [원문](https://investorpa.com/announcement-pdf/20260316/269605.pdf) · [[sources/SRC-20260728-8B5F092E|보관 원문·메타데이터]]
+[^src-20260728-cfbee0ae]: **Zesty patents, pilots and progress towards commercial demonstration** — Calix Limited, 2026-07-17. [원문](https://calix.global/news/zesty-patents-pilots-and-progress-towards-commercial-demonstration/) · [[sources/SRC-20260728-CFBEE0AE|보관 원문·메타데이터]]

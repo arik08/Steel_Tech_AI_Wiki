@@ -1,0 +1,34 @@
+{
+  "claim_id": "CLM-67C436CDB31F",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "environmental_permit_appeal_status",
+  "value": "2026-07-07 현재 스웨덴 해양수자원청과 LKAB가 Malmberget 환경허가 판결에 항소했다. 규제기관은 수환경 보호가 불충분하다고 밝혔으며, 항소는 일정 리스크 신호이나 허가 정지·취소 또는 FID 완료를 뜻하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-DF4ED6D1",
+    "SRC-20260728-E14C2E6C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "허가 후 발생한 최신 법적 리스크 신호를 독립 공영방송 보도로 반영",
+      "source_ids": [
+        "SRC-20260728-DF4ED6D1"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "법원 판결의 항소 가능·집행명령 범위를 결합해 해석 경계를 교차확인",
+      "source_ids": [
+        "SRC-20260728-E14C2E6C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-6EA2B5782544",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "national_rnd_government_budget_krw",
+  "value": "KRW 308.84 billion",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-07-29",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-5DB16A4E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-07-29",
+      "action": "created",
+      "reason": "국회예산정책처가 확인한 예타 결과의 정부 부담분",
+      "source_ids": [
+        "SRC-20260728-5DB16A4E"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-5DB16A4E"
+      ]
+    }
+  ]
+}

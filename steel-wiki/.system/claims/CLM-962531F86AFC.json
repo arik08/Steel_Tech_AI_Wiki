@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-962531F86AFC",
+  "subject_id": "PRJ-HYFOR-DONAWITZ-PILOT",
+  "predicate": "supplier_reported_successful_runs_min",
+  "value": "2025-09-25 공급사 발표 기준 2021년 이후 50회 초과 성공 시험 운전; 원료별 조건·지속시간·가동률·환원율·금속화율·원단위 미공개이며 연속 장기운전 실적 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-09-25",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-8A38B43F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-09-25",
+      "action": "created",
+      "reason": "공급사 집계와 공개되지 않은 성능 경계를 함께 기록",
+      "source_ids": [
+        "SRC-20260728-8A38B43F"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-8A38B43F"
+      ]
+    }
+  ]
+}

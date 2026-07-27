@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-84BF2B5A64EF",
+  "subject_id": "PRJ-H2PLASMARED-EU",
+  "predicate": "conference_update",
+  "value": "2026-05-06 AISTech 2026에서 H2PlasmaRed 진행·목표 발표; 공개 갤러리는 운전 캠페인 수치나 TRL 7 달성 증거를 제공하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-06",
+  "last_verified": "2026-05-06",
+  "source_ids": [
+    "SRC-20260728-2B829977"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-06",
+      "action": "created",
+      "reason": "AIST 공식 프로그램과 공개 초록 확인",
+      "source_ids": [
+        "SRC-20260728-2B829977"
+      ]
+    }
+  ]
+}

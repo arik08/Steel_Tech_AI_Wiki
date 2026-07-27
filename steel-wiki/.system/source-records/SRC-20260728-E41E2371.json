@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-20260728-E41E2371",
+  "title": "PURESCRAP results and amended schedule",
+  "url": "https://cordis.europa.eu/project/id/101092168/results",
+  "canonical_url": "https://cordis.europa.eu/project/id/101092168/results",
+  "publisher": "European Commission CORDIS",
+  "published_at": "2026-05-03",
+  "collected_at": "2026-07-28",
+  "source_type": "government",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "e41e237118238bded0309714c4d74bede22a94bd51ad649cc99802f94a1ef2d2",
+  "raw_sha256": "2e5b5afc863ffe8329f281fcd76ccc46d79869c0f665393b9ef2b33432eaa942",
+  "raw_path": ".system/raw/SRC-20260728-E41E2371.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-D438EA8426B1",
+      "kind": "ai_reconstruction",
+      "caption": "AI 기능 재구성 — PURESCRAP 공개 결과가 설명한 중량 스크랩 시험라인의 진동 피더·컨베이어·RGB-D/LiDAR·로봇 LIBS 분석·분류 용기 구성을 재구성했다. 실제 설치 설비의 준공도나 성능 검증 그림이 아니다.",
+      "alt_text": "진동 피더, 컨베이어, RGB-D LiDAR 센서, 로봇 LIBS 분석기와 분류 용기로 구성된 PURESCRAP 중량 스크랩 시험라인 AI 재구성",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://cordis.europa.eu/project/id/101092168/results",
+      "rights_status": "ai_generated",
+      "rights_note": "2026-07-28 생성. CORDIS 공개 결과와 D2.2 공개 설명의 기능 구성만 반영했으며 제한된 공식 도면을 복제하지 않았다. 실제 설치 치수·배치·성능을 확정하지 않는다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": "d438ea8426b14b61dfcd634f62b4a097be1cffc534bf697d82ea5471910284a2",
+      "local_path": "assets/media/SRC-20260728-E41E2371/MED-D438EA8426B1.png",
+      "subject_ids": [
+        "PRJ-PURESCRAP-EU-SCRAP-PURITY"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200
+    }
+  ]
+}

@@ -2,21 +2,29 @@
 
 # EU PURESCRAP 스크랩 순도 검증
 
-> 최근 검증 **2026-07-27** · 확인된 핵심 정보 **7건** · 직접 연결 근거 **2건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **10건** · 직접 연결 근거 **5건**
+
+
+![진동 피더, 컨베이어, RGB-D LiDAR 센서, 로봇 LIBS 분석기와 분류 용기로 구성된 PURESCRAP 중량 스크랩 시험라인 AI 재구성](../assets/media/SRC-20260728-E41E2371/MED-D438EA8426B1.png){ .steel-media-image .steel-hero-image .steel-media-detail }
+
+*대표 이미지 — AI 기능 재구성 — PURESCRAP 공개 결과가 설명한 중량 스크랩 시험라인의 진동 피더·컨베이어·RGB-D/LiDAR·로봇 LIBS 분석·분류 용기 구성을 재구성했다. 실제 설치 설비의 준공도나 성능 검증 그림이 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260728-E41E2371|SRC-20260728-E41E2371]] · [원문 페이지](https://cordis.europa.eu/project/id/101092168/results))*
 
 !!! abstract "현재 상태"
 
-    **2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정** [^src-20260727-7defb3ce]
+    **2026-07-23 최신 공식 뉴스레터 기준 중량 스크랩 센서 스테이션은 Swerim Luleå 시험 후 2026년 4월 Stena Recycling Hallstahammar 생산 현장으로 이전됐으며, 완전 산업가동·정량 KPI 달성은 아직 확인되지 않음** [^src-20260728-44eb4aeb]
 
 ## 확인된 핵심 정보
 
 | 항목 | 확인된 내용 |
 | --- | --- |
-| **프로젝트 상태** | 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 [^src-20260727-7defb3ce] |
+| **프로젝트 상태** | 2026-07-23 최신 공식 뉴스레터 기준 중량 스크랩 센서 스테이션은 Swerim Luleå 시험 후 2026년 4월 Stena Recycling Hallstahammar 생산 현장으로 이전됐으며, 완전 산업가동·정량 KPI 달성은 아직 확인되지 않음 [^src-20260728-44eb4aeb] |
 | **EU 지원액** | EUR 4,997,059.75 [^src-20260727-48351abd] |
+| **Experiment status** | 2026년 첫 운영위원회 시점에 최근 시험 캠페인 결과를 평가 중이었고 다음 실험 단계를 준비 중 [^src-20260728-71f1636f] |
+| **Heavy scrap station deployment progress** | 2026년 4월 Swerim Luleå 시험을 거친 중량 스크랩 센서 스테이션을 Stena Recycling Hallstahammar 생산 현장으로 이전; 컨소시엄이 산업 운전 접근 단계로 표현했으나 완전 산업가동·정량 KPI 달성은 미확인 [^src-20260728-44eb4aeb] |
 | **저품질 스크랩 투입 확대 목표** | 특정 강종의 총 스크랩 투입에서 저품질 post-consumer scrap 비중을 통상 관행 대비 최소 40% 높이는 목표; 달성 실적 아님 [^src-20260727-48351abd] |
 | **프로젝트 착수 시점** | 2023-01-01 [^src-20260727-48351abd] |
-| **목표 종료일** | 2027-03-31 [^src-20260727-48351abd] |
+| **Public deliverables status** | 2026-05-03 CORDIS results page lists 12 reports, 2 demonstrator/prototype records and ongoing intermediate KPI and EAF-melting validation outputs; final KPI achievement remains unconfirmed [^src-20260728-e41e2371] |
+| **목표 종료일** | 2027-03-31 [^src-20260727-48351abd][^src-20260728-e41e2371] |
 | **총사업비** | EUR 6,181,056.25 [^src-20260727-48351abd] |
 | **검증 범위** | heavy cut scrap와 shredded scrap 두 처리사슬에 센서·AI 분석을 통합하고 R260 및 42CrMo4를 예시 강종으로 반산업·산업 규모 제강 검증 [^src-20260727-48351abd] |
 
@@ -27,14 +35,29 @@
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
 | 2023-01-01 | 착수 | **프로젝트 착수 시점**: 2023-01-01 [^src-20260727-48351abd] |
-| 2026-06-29 | 발표·검증 | **프로젝트 상태**: 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 [^src-20260727-7defb3ce] |
+| 2026-02-25 | 발표·검증 | **Experiment status**: 2026년 첫 운영위원회 시점에 최근 시험 캠페인 결과를 평가 중이었고 다음 실험 단계를 준비 중 [^src-20260728-71f1636f] |
+| 2026-05-03 | 발표·검증 | **목표 종료일**: 2027-03-31 · **Public deliverables status**: 2026-05-03 CORDIS results page lists 12 reports, 2 demonstrator/prototype records and ongoing intermediate KPI and EAF-melting validation outputs; final KPI achievement remains unconfirmed [^src-20260728-e41e2371] |
+| 2026-06-29 | 발표·검증 | **프로젝트 상태**: 2026-07-23 최신 공식 뉴스레터 기준 중량 스크랩 센서 스테이션은 Swerim Luleå 시험 후 2026년 4월 Stena Recycling Hallstahammar 생산 현장으로 이전됐으며, 완전 산업가동·정량 KPI 달성은 아직 확인되지 않음 · **Heavy scrap station deployment progress**: 2026년 4월 Swerim Luleå 시험을 거친 중량 스크랩 센서 스테이션을 Stena Recycling Hallstahammar 생산 현장으로 이전; 컨소시엄이 산업 운전 접근 단계로 표현했으나 완전 산업가동·정량 KPI 달성은 미확인 [^src-20260728-44eb4aeb] |
+| 2026-06-29 | 발표·검증 | **프로젝트 상태**: 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 · 후속 정보로 대체 [^src-20260727-7defb3ce] |
 | 2026-07-27 | 수집 확인 | **총사업비**: EUR 6,181,056.25 · **저품질 스크랩 투입 확대 목표**: 특정 강종의 총 스크랩 투입에서 저품질 post-consumer scrap 비중을 통상 관행 대비 최소 40% 높이는 목표; 달성 실적 아님 · **목표 종료일**: 2027-03-31 · **EU 지원액**: EUR 4,997,059.75 · **검증 범위**: heavy cut scrap와 shredded scrap 두 처리사슬에 센서·AI 분석을 통합하고 R260 및 42CrMo4를 예시 강종으로 반산업·산업 규모 제강 검증 · **프로젝트 착수 시점**: 2023-01-01 [^src-20260727-48351abd] |
-| 2027-03-31 | 목표 일정 | **목표 종료일**: 2027-03-31 [^src-20260727-48351abd] |
+| 2027-03-31 | 목표 일정 | **목표 종료일**: 2027-03-31 [^src-20260727-48351abd][^src-20260728-e41e2371] |
+
+## 변경 이력
+
+| 상태 | 항목 | 이전 내용 | 변경 사유 | 최근 검증 |
+| --- | --- | --- | --- | --- |
+| **후속 정보로 대체** | 프로젝트 상태 | 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 [^src-20260727-7defb3ce] | 2026-07-23 최신 공식 뉴스레터가 2026년 4월 중량 스크랩 스테이션의 Hallstahammar 생산 현장 이전을 확인하므로, Swerim Luleå 설치 문구는 이전 단계의 역사적 상태로 보존하고 최신 project_status로 대체한다. | 2026-07-27 |
 
 ## 근거 자료
 
 - **PURESCRAP — CORDIS project fact sheet 101092168** — European Commission CORDIS, 게시일 미상 · [원문 보기](https://cordis.europa.eu/project/id/101092168) · [[sources/SRC-20260727-48351ABD|보관 원문·메타데이터]]
 - **PURESCRAP project status and sensor-station installation** — PURESCRAP consortium, 2026-06-29 · [원문 보기](https://purescrap.eu/) · [[sources/SRC-20260727-7DEFB3CE|보관 원문·메타데이터]]
+- **PURESCRAP Newsletter No. 7** — PURESCRAP consortium, 2026-06-29 · [원문 보기](https://purescrap.eu/wp-content/uploads/2026/07/PURESCRAP-Newsletter-No7.pdf) · [[sources/SRC-20260728-44EB4AEB|보관 원문·메타데이터]]
+- **12th Steering Committee Meeting** — PURESCRAP consortium, 2026-02-25 · [원문 보기](https://purescrap.eu/?p=1062) · [[sources/SRC-20260728-71F1636F|보관 원문·메타데이터]]
+- **PURESCRAP results and amended schedule** — European Commission CORDIS, 2026-05-03 · [원문 보기](https://cordis.europa.eu/project/id/101092168/results) · [[sources/SRC-20260728-E41E2371|보관 원문·메타데이터]]
 
 [^src-20260727-48351abd]: **PURESCRAP — CORDIS project fact sheet 101092168** — European Commission CORDIS, 게시일 미상. [원문](https://cordis.europa.eu/project/id/101092168) · [[sources/SRC-20260727-48351ABD|보관 원문·메타데이터]]
 [^src-20260727-7defb3ce]: **PURESCRAP project status and sensor-station installation** — PURESCRAP consortium, 2026-06-29. [원문](https://purescrap.eu/) · [[sources/SRC-20260727-7DEFB3CE|보관 원문·메타데이터]]
+[^src-20260728-44eb4aeb]: **PURESCRAP Newsletter No. 7** — PURESCRAP consortium, 2026-06-29. [원문](https://purescrap.eu/wp-content/uploads/2026/07/PURESCRAP-Newsletter-No7.pdf) · [[sources/SRC-20260728-44EB4AEB|보관 원문·메타데이터]]
+[^src-20260728-71f1636f]: **12th Steering Committee Meeting** — PURESCRAP consortium, 2026-02-25. [원문](https://purescrap.eu/?p=1062) · [[sources/SRC-20260728-71F1636F|보관 원문·메타데이터]]
+[^src-20260728-e41e2371]: **PURESCRAP results and amended schedule** — European Commission CORDIS, 2026-05-03. [원문](https://cordis.europa.eu/project/id/101092168/results) · [[sources/SRC-20260728-E41E2371|보관 원문·메타데이터]]

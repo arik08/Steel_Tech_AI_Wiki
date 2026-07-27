@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-FC716893E661",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "hydrogen_storage_thermal_risk_model",
+  "value": "2026년 비동료심사 모델은 HYBRIT Luleå 암반공동-샤프트 저장계에서 압력은 거의 균일·선형으로 변하지만 온도장은 비선형·불균일하며, 주입·인출 유동과 열충격 때문에 샤프트-공동 접합부가 핵심 구조 취약 구역이 될 수 있다고 제시했다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-01-01",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-4C948F2F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-01-01",
+      "action": "created",
+      "reason": "파일럿 현장 적용 모델의 안전·운전 리스크 가설을 별도 기록",
+      "source_ids": [
+        "SRC-20260728-4C948F2F"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-4C948F2F"
+      ]
+    }
+  ]
+}

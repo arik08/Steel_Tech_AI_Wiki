@@ -3,7 +3,7 @@
   "subject_id": "PRJ-NUCOR-CONVENT-DRI-CCS",
   "predicate": "target_start_date",
   "value": "2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2026-07-25",
   "last_verified": "2026-07-25",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260725-BF5036AE"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "2025-12 official ExxonMobil plan is a later schedule statement that reaffirms the 2026 target and adds explicit investment, policy and permitting conditions"
     }
-  ]
+  ],
+  "superseded_by": "CLM-89E7ACE54C55"
 }

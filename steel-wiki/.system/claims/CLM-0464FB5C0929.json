@@ -6,10 +6,11 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-25",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
     "SRC-20260725-FE353D3A",
-    "SRC-20260725-6D04090A"
+    "SRC-20260725-6D04090A",
+    "SRC-20260728-FB94E7B7"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -20,6 +21,22 @@
       "reason": "Nucor 회사 페이지 프로젝트 공백 보강",
       "source_ids": [
         "SRC-20260725-FE353D3A",
+        "SRC-20260725-6D04090A"
+      ]
+    },
+    {
+      "date": "2024-08-27",
+      "action": "verified",
+      "reason": "DOE/NETL 환경검토 문서가 설치·통합·시험 예정 범위를 확인하지만 완료를 증명하지 않아 기존 상태를 교차 검증",
+      "source_ids": [
+        "SRC-20260728-FB94E7B7"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 DOE 현재 프로젝트 선정 페이지와 UK IDEA 현재 연구 페이지에서 기존 Gallatin 포집장치와 polishing loop 설계·건설·통합시험의 연구개발 범위를 재확인",
+      "source_ids": [
         "SRC-20260725-6D04090A"
       ]
     }

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-AF38909B433A",
+  "subject_id": "PRJ-SSAB-LULEA-ELECTRIC-MILL",
+  "predicate": "meltshop_equipment_configuration",
+  "value": "Danieli 계약 공급 범위는 210 t Digimelter 2기, 지역난방 열회수를 포함한 Q-One 전원, ECS 연속 스크랩 장입, MeltModel 동적 용해 제어로 구성된다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-EAC4FDB6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "Danieli 공급사 발표와 SSAB 동일일 공식 발표에서 구성·정격을 교차확인",
+      "source_ids": [
+        "SRC-20260728-EAC4FDB6"
+      ]
+    }
+  ]
+}

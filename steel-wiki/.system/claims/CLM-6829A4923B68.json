@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6829A4923B68",
+  "subject_id": "PRJ-JFE-CHIBA-CARBON-RECYCLING-BF",
+  "predicate": "pilot_furnace_volume_m3",
+  "value": "150",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-1AB6BC47"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "JFE 공식 실증 상세",
+      "source_ids": [
+        "SRC-20260728-1AB6BC47"
+      ]
+    }
+  ]
+}

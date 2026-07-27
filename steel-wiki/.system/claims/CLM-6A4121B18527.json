@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6A4121B18527",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "nippon_steelworks_logistics_automation",
+  "value": "Nippon Steel은 FY2025에 NS-Lib로 제철소 핵심 공정데이터 집계를 완료하고, 일부 구역 원격 운전과 Nagoya 중심 대형 특수차량·철도 운송 무인화를 추진; 무인 현장배치는 FY2026 이후 목표이며 전사 완료가 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-13",
+  "last_verified": "2026-05-13",
+  "source_ids": [
+    "SRC-20260728-D887E861"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-13",
+      "action": "created",
+      "reason": "실행 완료 범위와 미래 무인화 목표를 분리",
+      "source_ids": [
+        "SRC-20260728-D887E861"
+      ]
+    }
+  ]
+}

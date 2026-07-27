@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-828B7529A6F2",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "hydrogen_supply_limited_reduction_model",
+  "value": "모델 조건에서는 하부 유동층에서 수소가 거의 평형에 도달해 상부에 반응성이 낮은 구역이 형성됐고, 전체 환원은 고유 반응속도보다 수소 공급에 지배됐다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-AD321DEC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "동료심사 논문의 하이라이트·초록과 공개 프리프린트의 모델 범위를 교차확인",
+      "source_ids": [
+        "SRC-20260728-AD321DEC"
+      ]
+    }
+  ]
+}

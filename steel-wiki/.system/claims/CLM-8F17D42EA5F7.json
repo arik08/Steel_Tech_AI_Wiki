@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-8F17D42EA5F7",
+  "subject_id": "PRJ-HYFOR-DONAWITZ-PILOT",
+  "predicate": "tested_ore_scope_supplier_claim",
+  "value": "Primetals는 사실상 모든 주요 철광석 종류를 시험했다고 주장; 광종별 목록과 정량 결과는 미공개",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2025-09-25",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-8A38B43F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-09-25",
+      "action": "created",
+      "reason": "공급사 범위 주장으로 한정",
+      "source_ids": [
+        "SRC-20260728-8A38B43F"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-8A38B43F"
+      ]
+    }
+  ]
+}

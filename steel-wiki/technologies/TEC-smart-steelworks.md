@@ -2,7 +2,7 @@
 
 # 스마트 제철소 (Smart Steelworks)
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-28** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 통합·운영 기술"
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · **스마트 제철소 (Smart Steelworks) · 현재**
 
 
-![제철소 센서 데이터부터 디지털 트윈 최적화 운전자 승인 안전 인터록 actuator 수동 복구까지 이어지는 스마트 제철소 AI 아키텍처](../assets/media/SRC-20260725-41586A75/MED-9A1572EA2DFF.png){ .steel-media-image .steel-hero-image .steel-media-detail }
+![JFE automatic scrap inspection process diagram showing camera capture and AI classification](<https://www.jfe-steel.co.jp/release/2026/06/img/260629.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — AI 재구성 — 센서·historian·물리+ML 디지털 트윈·최적화·운전자 검토·안전 인터록·승인 setpoint·actuator를 단일 제어 경로로 연결하고 수동모드·rollback을 분리한 스마트 제철소 참조 아키텍처. 전면 무인 운전이나 모든 설비의 자동 폐루프 적용을 뜻하지 않는다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-41586A75|SRC-20260725-41586A75]] · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html))*
+*대표 이미지 — JFE automatic scrap inspection overview: truck-bed imaging during unloading and AI judgment of grade composition and foreign-material contamination (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260728-698EFDF6|SRC-20260728-698EFDF6]] · [원문 페이지](https://www.jfe-steel.co.jp/release/2026/06/260629.html))*
 
 !!! abstract "한눈에 보기"
 
@@ -43,8 +43,8 @@
 
 이 문서는 단순 대시보드나 데이터 수집을 스마트 제철소로 간주하지 않습니다. 물리 공정과 모델의 동기화, 예측의 검증, 운전 권한, DCS·PLC로의 되먹임, 사람의 승인과 안전·보안 경계를 분리해 실제 자동화 수준을 판독합니다.
 
-- **근거 확인 기업:** 4개
-- **직접 연결 근거:** 10건
+- **근거 확인 기업:** 5개
+- **직접 연결 근거:** 21건
 
 ## 작동 원리
 
@@ -139,6 +139,22 @@ flowchart TB
 | **공개 성과의 한계** | Tata 소결 사례는 기준기간, 절대 배출량, 적용 라인 수, 결과 지속기간, 통계 불확도와 제어 권한을 공개하지 않음 [^src-20260725-0cc8b82b] | 회사 발표 |
 | **다른 설비 확산 조건** | POSCO는 광양 2전로 기술을 포항과 인도네시아로 확대할 로드맵을 발표했으나, 계획은 해당 사업장 배치 완료의 증거가 아님 [^src-20260725-285480de] | 회사 발표 |
 
+### 최신 실증·검증 정보
+
+기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **arcelormittal ai deployment** | ArcelorMittal은 2025년 ADII로 6개 제철소를 디지털 가속 대상으로 선정하고, 주요 공장에 자체 예지보전 플랫폼을 배치했으며 EAF 전환 산업시험에 AI 기반 제품개발 플랫폼을 적용했다고 공시했다. 대상 공장 전체 목록과 모델 정확도는 미공개다. [^src-20260728-bec180e2] | 회사 IR |
+| **arcelormittal aws edge ai** | ArcelorMittal과 AWS는 2026-06 OT·IT 수렴과 cloud·edge AI 협력을 발표하고 예지보전·컴퓨터비전 품질관리·공정최적화·digital twin을 계획 use case로 제시; 대상 공장·완료 설비 수·정량 성과는 미공개 [^src-20260728-3f39f82d][^src-20260728-f7da1903] | 회사 발표·설비 공급사 |
+| **jfe ai scrap inspection status** | JFE Sendai AI scrap receiving inspection operating since 2026-06; digitizes appraisal data for labor reduction, standardization and future quality/operation optimization [^src-20260728-698efdf6] | 회사 발표 |
+| **jfe bf guidance result** | JFE는 운전자가 가이던스를 따랐을 때 용선온도 변동이 13% 감소했다고 회사 데이터로 보고하고 σ 15.9°C→14.0°C를 제시; 두 수치의 단순 감소율은 약 11.9%라 산술 차이가 있으며, 적용 사이트·고로 수·기간·heat 수·독립검증 및 완전자동 모드 성과는 미공개 [^src-20260728-3bab455e] | 설비 공급사 |
+| **jfe cloud genai agreement** | JFE Steel은 2026-04 AWS Japan 등과 CPS 기반 intelligent steelworks의 데이터 활용·SaaS 외부 제공 및 생성형 AI 활용 확대 협약을 체결; 특정 모델의 생산 투입 완료나 성과 수치는 미공개 [^src-20260728-a9f63b06] | 회사 발표 |
+| **jfe noetra physical ai rnd** | JFE Steel은 2026-07 Noetra에 출자해 멀티모달 기반모델의 제철소 설비운영·보전·R&D 활용을 검토 중; FY2026부터의 연구개발 단계이며 현장 배포·자율제어·정량 성과는 미확인 [^src-20260728-fa021a32][^src-20260728-1444f21d] | 회사 발표 |
+| **nippon steelworks logistics automation** | Nippon Steel은 FY2025에 NS-Lib로 제철소 핵심 공정데이터 집계를 완료하고, 일부 구역 원격 운전과 Nagoya 중심 대형 특수차량·철도 운송 무인화를 추진; 무인 현장배치는 FY2026 이후 목표이며 전사 완료가 아님 [^src-20260728-d887e861] | 회사 IR |
+| **reheating furnace model deployment** | 재가열로 에너지 최적화 모델을 19개 공장 23기 노에 산업화했고, 14기에는 온라인 통합 업그레이드를 적용해 일부 사례에서 최대 7% 생산성 향상을 회사가 보고했다. 최대값이며 전체 평균·독립 검증값은 아니다. [^src-20260728-bec180e2] | 회사 IR |
+| **tata agentic ai deployment** | Tata Steel은 9개월간 전사 업무에 300개 초과 특화 AI agent를 배치하고 Safety EyeQ로 고위험 구역 영상의 SOP 이탈·근접 위험을 감지한다고 공동 발표; 300개는 공정제어 agent 수가 아니며 현장별 정확도·독립 KPI는 미공개 [^src-20260728-e89c0798][^src-20260728-3da8271f] | 회사 발표·설비 공급사 |
+
 
 ## 공개 개발 연혁
 
@@ -150,7 +166,17 @@ flowchart TB
 | 2023-10-29 | Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing [^src-20260725-8ba7a1b3] |
 | 2024-12-11 | POSCO One-Touch Converter Operation Automation Technology [^src-20260725-285480de] |
 | 2025-10-07 | JFE Steel deploys CPS technology across sintering facilities [^src-20260725-41586a75] |
+| 2026-03-06 | ArcelorMittal 2025 Form 20-F: digital and AI deployment [^src-20260728-bec180e2] |
 | 2026-03-09 | Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management [^src-20260726-def03677] |
+| 2026-04-22 | Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain [^src-20260728-3da8271f] |
+| 2026-04-22 | Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain [^src-20260728-e89c0798] |
+| 2026-04-27 | JFE Steel and AWS Sign an Agreement Toward the Realization of a Sustainable Society [^src-20260728-a9f63b06] |
+| 2026-05-13 | Consolidated Financial Results for the Fiscal Year Ended March 31, 2026: DX and steelworks logistics [^src-20260728-d887e861] |
+| 2026-06-22 | ArcelorMittal announces strategic collaboration with AWS to drive industrial automation and lower-carbon construction globally [^src-20260728-3f39f82d] |
+| 2026-06-22 | ArcelorMittal announces strategic collaboration with AWS to drive industrial automation and lower-carbon construction globally [^src-20260728-f7da1903] |
+| 2026-06-29 | JFE AI scrap automatic inspection enters operation [^src-20260728-698efdf6] |
+| 2026-07-16 | Noetra Launches Full-Scale R&D for Japan-Developed Multimodal Foundation Model [^src-20260728-1444f21d] |
+| 2026-07-16 | Investment in Noetra Corporation, which promotes the development of a Japan-made AI foundation model [^src-20260728-fa021a32] |
 | 2026-07-20 | Digital Twins for Advanced Manufacturing [^src-20260725-30a4249e] |
 
 ## 설비·공정 이미지
@@ -176,6 +202,20 @@ flowchart TB
 - 출처 [[sources/SRC-20260725-41586A75|SRC-20260725-41586A75]] · 권리 `link_only` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html) · 작성·촬영 JFE Steel Corporation
 - 권리 메모: JFE Steel 공식 발표의 Figure 2 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.
 
+![제철소 센서 데이터부터 디지털 트윈 최적화 운전자 승인 안전 인터록 actuator 수동 복구까지 이어지는 스마트 제철소 AI 아키텍처](../assets/media/SRC-20260725-41586A75/MED-9A1572EA2DFF.png){ .steel-media-image .steel-media-detail }
+
+**AI 재구성.** AI 재구성 — 센서·historian·물리+ML 디지털 트윈·최적화·운전자 검토·안전 인터록·승인 setpoint·actuator를 단일 제어 경로로 연결하고 수동모드·rollback을 분리한 스마트 제철소 참조 아키텍처. 전면 무인 운전이나 모든 설비의 자동 폐루프 적용을 뜻하지 않는다.
+
+- 출처 [[sources/SRC-20260725-41586A75|SRC-20260725-41586A75]] · 권리 `ai_generated` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html) · 작성·촬영 OpenAI ImageGen / Codex
+- 권리 메모: JFE Steel CPS 공개 사례와 일반적인 OT 안전 경계를 종합해 2026-07-27 생성한 개념 아키텍처다. 특정 제철소의 실제 네트워크, 제어로직, as-built 또는 P&ID가 아니다.
+
+![JFE blast-furnace hot-metal temperature prediction and control guidance diagram](<https://www.jfe-steel.co.jp/en/products/solution/data-science/images/14-control-guidance_img01.jpg>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** JFE 공식 고로 용선온도 제어 가이던스 개념도: 장시간 물리모델, 단시간 ML·AI 예측 및 조작변수 추천을 운전자 또는 제어계에 연결
+
+- 출처 [[sources/SRC-20260728-3BAB455E|SRC-20260728-3BAB455E]] · 권리 `link_only` · [원문 페이지](https://www.jfe-steel.co.jp/en/products/solution/data-science/14-control-guidance.html) · 작성·촬영 JFE Steel Corporation
+- 권리 메모: JFE 공식 솔루션 페이지에서 도면과 캡션을 확인했으나 복제 라이선스가 없어 원문 서버 링크로만 표시
+
 
 ## 기업별 상세 현황
 
@@ -186,6 +226,14 @@ flowchart TB
 **단계 판단: 공식 현황 확인.** 공식 자료에서 관련 움직임은 확인되지만 단계 구분에 필요한 일정·설비·운전 정보가 충분하지 않습니다.
 
 - **날짜:** 발표 2020-01-20 · 수집 2026-07-25 · 검증 2026-07-25
+
+### [[companies/COM-ArcelorMittal|ArcelorMittal]]
+
+**확인된 현황.** 2025년 6개 공장 ADII 디지털 가속, 주요 공장 예지보전 플랫폼, EAF 산업시험 AI 적용, 19개 공장 23기 재가열로 최적화 모델 배치를 공시 [^src-20260728-bec180e2]
+
+**단계 판단: 연구·실증.** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
+
+- **날짜:** 발표 2026-03-06 · 수집 2026-07-28 · 검증 2026-07-28
 
 ### [[companies/COM-Nippon-Steel|Nippon Steel]]
 
@@ -283,6 +331,17 @@ flowchart TB
 - [[sources/SRC-20260725-6C80084B|Tata Steel climate action technology roadmap]] — Tata Steel, 게시일 미상 · [원문](https://www.tatasteel.com/sustainability/environment/climate-action/)
 - [[sources/SRC-20260725-8BA7A1B3|Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing]] — National Institute of Standards and Technology, 2023-10-29 · [원문](https://www.nist.gov/publications/conceptual-architecture-digital-twins-human-loop-based-smart-manufacturing)
 - [[sources/SRC-20260726-DEF03677|Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/e771fab2-8303-4f35-b945-bcac8028c804/Evolving-Scrapyard-Intergrating-New-Solutions-Advanced.pdf)
+- [[sources/SRC-20260728-1444F21D|Noetra Launches Full-Scale R&D for Japan-Developed Multimodal Foundation Model]] — Noetra Corp., 2026-07-16 · [원문](https://www.noetra.co.jp/pressrelease20260716-en)
+- [[sources/SRC-20260728-3BAB455E|Control Guidance Technology for Blast Furnace Hot Metal Temperature]] — JFE Steel Corporation, 게시일 미상 · [원문](https://www.jfe-steel.co.jp/en/products/solution/data-science/14-control-guidance.html)
+- [[sources/SRC-20260728-3DA8271F|Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain]] — Google Cloud, 2026-04-22 · [원문](https://www.googlecloudpresscorner.com/2026-04-22-Tata-Steel-Partners-with-Google-Cloud-To-Deploy-a-Unified-Agentic-AI-Across-its-Global-Value-Chain)
+- [[sources/SRC-20260728-3F39F82D|ArcelorMittal announces strategic collaboration with AWS to drive industrial automation and lower-carbon construction globally]] — ArcelorMittal, 2026-06-22 · [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-strategic-collaboration-with-aws-to-drive-industrial-automation-and-lower-carbon-construction-globally)
+- [[sources/SRC-20260728-698EFDF6|JFE AI scrap automatic inspection enters operation]] — JFE Steel Corporation, 2026-06-29 · [원문](https://www.jfe-steel.co.jp/release/2026/06/260629.html)
+- [[sources/SRC-20260728-A9F63B06|JFE Steel and AWS Sign an Agreement Toward the Realization of a Sustainable Society]] — JFE Steel Corporation, 2026-04-27 · [원문](https://www.jfe-steel.co.jp/en/release/2026/04/260427-1.html)
+- [[sources/SRC-20260728-BEC180E2|ArcelorMittal 2025 Form 20-F: digital and AI deployment]] — ArcelorMittal / U.S. SEC, 2026-03-06 · [원문](https://www.sec.gov/Archives/edgar/data/1243429/000124342926000020/mt-20251231.htm)
+- [[sources/SRC-20260728-D887E861|Consolidated Financial Results for the Fiscal Year Ended March 31, 2026: DX and steelworks logistics]] — Nippon Steel Corporation, 2026-05-13 · [원문](https://www.nipponsteel.com/en/ir/library/settlement/pdf/20260513_100.pdf)
+- [[sources/SRC-20260728-E89C0798|Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain]] — Tata Steel, 2026-04-22 · [원문](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain/)
+- [[sources/SRC-20260728-F7DA1903|ArcelorMittal announces strategic collaboration with AWS to drive industrial automation and lower-carbon construction globally]] — Amazon Web Services, 2026-06-22 · [원문](https://press.aboutamazon.com/aws/2026/6/arcelormittal-announces-strategic-collaboration-with-aws-to-drive-industrial-automation-and-lower-carbon-construction-globally)
+- [[sources/SRC-20260728-FA021A32|Investment in Noetra Corporation, which promotes the development of a Japan-made AI foundation model]] — JFE Steel Corporation, 2026-07-16 · [원문](https://www.jfe-steel.co.jp/release/2026/07/260716.html)
 
 [^src-20260725-017c8bae]: **NIST SP 800-82 Rev. 3 Guide to Operational Technology Security** — National Institute of Standards and Technology, 2023-09-28. [원문](https://csrc.nist.gov/pubs/sp/800/82/r3/final) · [[sources/SRC-20260725-017C8BAE|보관 원문·메타데이터]]
 [^src-20260725-0cc8b82b]: **Tata Steel first-in-world digital twin in sinter making** — Tata Steel, 2022-01-11. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2022/tata-steel-declared-as-one-of-the-joint-winners-as-top-innovative-company-large-in-manufacturing-category-at-cii-industrial-innovation-awards-2021/) · [[sources/SRC-20260725-0CC8B82B|보관 원문·메타데이터]]
@@ -294,3 +353,14 @@ flowchart TB
 [^src-20260725-6c80084b]: **Tata Steel climate action technology roadmap** — Tata Steel, 게시일 미상. [원문](https://www.tatasteel.com/sustainability/environment/climate-action/) · [[sources/SRC-20260725-6C80084B|보관 원문·메타데이터]]
 [^src-20260725-8ba7a1b3]: **Conceptual Architecture of Digital Twins with Human-in-the-Loop Based Smart Manufacturing** — National Institute of Standards and Technology, 2023-10-29. DOI: [10.1115/imece2023-112791](https://doi.org/10.1115/imece2023-112791). [원문](https://www.nist.gov/publications/conceptual-architecture-digital-twins-human-loop-based-smart-manufacturing) · [[sources/SRC-20260725-8BA7A1B3|보관 원문·메타데이터]]
 [^src-20260726-def03677]: **Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/e771fab2-8303-4f35-b945-bcac8028c804/Evolving-Scrapyard-Intergrating-New-Solutions-Advanced.pdf) · [[sources/SRC-20260726-DEF03677|보관 원문·메타데이터]]
+[^src-20260728-1444f21d]: **Noetra Launches Full-Scale R&D for Japan-Developed Multimodal Foundation Model** — Noetra Corp., 2026-07-16. [원문](https://www.noetra.co.jp/pressrelease20260716-en) · [[sources/SRC-20260728-1444F21D|보관 원문·메타데이터]]
+[^src-20260728-3bab455e]: **Control Guidance Technology for Blast Furnace Hot Metal Temperature** — JFE Steel Corporation, 게시일 미상. [원문](https://www.jfe-steel.co.jp/en/products/solution/data-science/14-control-guidance.html) · [[sources/SRC-20260728-3BAB455E|보관 원문·메타데이터]]
+[^src-20260728-3da8271f]: **Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain** — Google Cloud, 2026-04-22. [원문](https://www.googlecloudpresscorner.com/2026-04-22-Tata-Steel-Partners-with-Google-Cloud-To-Deploy-a-Unified-Agentic-AI-Across-its-Global-Value-Chain) · [[sources/SRC-20260728-3DA8271F|보관 원문·메타데이터]]
+[^src-20260728-3f39f82d]: **ArcelorMittal announces strategic collaboration with AWS to drive industrial automation and lower-carbon construction globally** — ArcelorMittal, 2026-06-22. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-announces-strategic-collaboration-with-aws-to-drive-industrial-automation-and-lower-carbon-construction-globally) · [[sources/SRC-20260728-3F39F82D|보관 원문·메타데이터]]
+[^src-20260728-698efdf6]: **JFE AI scrap automatic inspection enters operation** — JFE Steel Corporation, 2026-06-29. [원문](https://www.jfe-steel.co.jp/release/2026/06/260629.html) · [[sources/SRC-20260728-698EFDF6|보관 원문·메타데이터]]
+[^src-20260728-a9f63b06]: **JFE Steel and AWS Sign an Agreement Toward the Realization of a Sustainable Society** — JFE Steel Corporation, 2026-04-27. [원문](https://www.jfe-steel.co.jp/en/release/2026/04/260427-1.html) · [[sources/SRC-20260728-A9F63B06|보관 원문·메타데이터]]
+[^src-20260728-bec180e2]: **ArcelorMittal 2025 Form 20-F: digital and AI deployment** — ArcelorMittal / U.S. SEC, 2026-03-06. [원문](https://www.sec.gov/Archives/edgar/data/1243429/000124342926000020/mt-20251231.htm) · [[sources/SRC-20260728-BEC180E2|보관 원문·메타데이터]]
+[^src-20260728-d887e861]: **Consolidated Financial Results for the Fiscal Year Ended March 31, 2026: DX and steelworks logistics** — Nippon Steel Corporation, 2026-05-13. [원문](https://www.nipponsteel.com/en/ir/library/settlement/pdf/20260513_100.pdf) · [[sources/SRC-20260728-D887E861|보관 원문·메타데이터]]
+[^src-20260728-e89c0798]: **Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain** — Tata Steel, 2026-04-22. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain/) · [[sources/SRC-20260728-E89C0798|보관 원문·메타데이터]]
+[^src-20260728-f7da1903]: **ArcelorMittal announces strategic collaboration with AWS to drive industrial automation and lower-carbon construction globally** — Amazon Web Services, 2026-06-22. [원문](https://press.aboutamazon.com/aws/2026/6/arcelormittal-announces-strategic-collaboration-with-aws-to-drive-industrial-automation-and-lower-carbon-construction-globally) · [[sources/SRC-20260728-F7DA1903|보관 원문·메타데이터]]
+[^src-20260728-fa021a32]: **Investment in Noetra Corporation, which promotes the development of a Japan-made AI foundation model** — JFE Steel Corporation, 2026-07-16. [원문](https://www.jfe-steel.co.jp/release/2026/07/260716.html) · [[sources/SRC-20260728-FA021A32|보관 원문·메타데이터]]

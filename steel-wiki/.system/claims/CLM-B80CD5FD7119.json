@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM-B80CD5FD7119",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "volteron_scale_validation",
+  "value": "2025년 Volteron 1:1 수직 셀 성공 운전과 full-scale 플랜트 엔지니어링 설계 완료가 회사 보고로 확인됐지만, 산업 플랜트의 투자결정·건설·연속 상업운전 실적은 아직 별도 단계다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-12-31",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-53EDAF62",
+    "SRC-20260728-600ABF35"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-12-31",
+      "action": "created",
+      "reason": "최신 회사 공시를 기술 스케일업 근거로 반영하되 설계와 상업 운전을 구분",
+      "source_ids": [
+        "SRC-20260728-53EDAF62"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 수집한 ArcelorMittal 2025 Form 20-F에서 1:1 수직 셀 성공 운전, full-scale 엔지니어링 설계 완료, FID·건설·상업운전 미공개라는 의미 전체를 재확인",
+      "source_ids": [
+        "SRC-20260728-53EDAF62"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 EC INCITE current technique page independently cross-checks the 1 m2 industrial-electrode pilot and engineering/CAPEX study while retaining scale-up and funding conditions",
+      "source_ids": [
+        "SRC-20260728-600ABF35"
+      ]
+    }
+  ]
+}

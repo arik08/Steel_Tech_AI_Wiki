@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-27",
-  "last_verified": "2026-07-27",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260727-A39F1D70"
+    "SRC-20260727-A39F1D70",
+    "SRC-20260728-7EF29AFA"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,22 @@
       "reason": "POSCO가 보고한 정부 최종 승인 시점",
       "source_ids": [
         "SRC-20260727-A39F1D70"
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "action": "verified",
+      "reason": "POSCO 최신 ESG 페이지로 기존 최종 부지 승인 시점을 재검증",
+      "source_ids": [
+        "SRC-20260728-7EF29AFA"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-7EF29AFA"
       ]
     }
   ]

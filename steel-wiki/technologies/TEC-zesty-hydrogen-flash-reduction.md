@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![전기가열 관형 반응기, 철광석 미분, 수소 재순환, 수분 제거, DRI 미분 후단 시험을 나타낸 ZESTY AI 개념도](../assets/media/SRC-20260727-C43117BC/MED-6786347D8BBA.png){ .steel-media-image .steel-hero-image .steel-media-detail }
+![ZESTY 파일럿 관형 반응기와 제안된 30 kt/y 공정 흐름 학술 그림](<https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11663-025-03465-3/MediaObjects/11663_2025_3465_Fig1_HTML.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — AI 재구성 — 전기가열 관형 반응기에서 철광석 미분을 수소로 단계 환원하고, 수분 제거 후 수소를 재순환하며 DRI 미분을 후단 조정·ESF/EAF 시험으로 보내는 ZESTY 연구 개념도. 회수 미분 처리와 후단 통합은 검증 과제로 표시했으며, 실제 30 kt/y 설비의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260727-C43117BC|SRC-20260727-C43117BC]] · [원문 페이지](https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant))*
+*대표 이미지 — ZESTY 단일 관형 파일럿 반응기와 30 kt/y 제안 공정 흐름. 논문 Figure 1이며 30 kt/y 설비의 준공도가 아니다. (학술 자료 그림 · 권리 `link_only` · 출처 [[sources/SRC-20260727-824DD247|SRC-20260727-824DD247]] · [원문 페이지](https://link.springer.com/article/10.1007/s11663-025-03465-3/figures/1))*
 
 !!! abstract "한눈에 보기"
 
@@ -44,7 +44,7 @@
 이 문서는 Calix의 Zero Emissions Steel Technology(ZESTY)를 중심으로 다룹니다. 유동화 가스로 입자를 부유시키는 HyREX·HYFOR 계열과 달리 중력 낙하입자·역류 수소·간접 벽면가열이 핵심이며, 고온 직접가열형 Utah Flash Ironmaking Technology와도 운전온도·열전달·산업 프로그램을 구분합니다.
 
 - **근거 확인 기업:** 0개
-- **직접 연결 근거:** 2건
+- **직접 연결 근거:** 6건
 
 ## 작동 원리
 
@@ -109,6 +109,8 @@ flowchart TB
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
+| **official trl** | Calix/ARENA 보고서 기준 현재 TRL 5, 실증 플랜트를 통한 TRL 7 도달 목표 [^src-20260728-73732712] | 정부·공공자료 |
+| **pilot test count** | Calix 보고 기준 다양한 광석으로 130회 초과 파일럿 시험 [^src-20260728-73732712] | 정부·공공자료 |
 | **이론적 최소 수소량** | hematite 기준 54 kg H2/t-iron 이론 최소치에 접근을 목표; 실측 원단위가 아님 [^src-20260727-c43117bc] | 정부·공공자료 |
 | **제안 scale-up 방식** | 단일 파일럿 관에서 full-scale 관과 병렬 다관 모듈로 확대하고 전후단 예열·열회수를 통합하는 경로를 제안 [^src-20260727-824dd247] | 학술지 논문 |
 | **파일럿 광석 투입률** | 60 kg/h semi-continuous ore feed [^src-20260727-824dd247] | 학술지 논문 |
@@ -123,16 +125,20 @@ flowchart TB
 | 날짜 | 공개 사건 |
 | --- | --- |
 | 2025-02-10 | New Insights Into Hydrogen Reduction of Hematite in an Indirectly Heated Flash Reactor from Measurements and First-Order Modeling [^src-20260727-824dd247] |
+| 2025-11-17 | Rio Tinto scraps $215m research centre and BioIron product after decade of development [^src-20260728-00a0fa40] |
+| 2026-03-16 | Calix completes first ARENA grant milestone for Zesty, triggering $2m cash payment [^src-20260728-8b5f092e] |
 | 2026-03-30 | Calix - ZESTY Green Iron Demonstration Plant [^src-20260727-c43117bc] |
+| 2026-05-29 | ZESTY Green Iron Demonstration Project - Kick-off Report [^src-20260728-73732712] |
+| 2026-07-17 | Zesty patents, pilots and progress towards commercial demonstration [^src-20260728-cfbee0ae] |
 
 ## 설비·공정 이미지
 
-![ZESTY 파일럿 관형 반응기와 제안된 30 kt/y 공정 흐름 학술 그림](<https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11663-025-03465-3/MediaObjects/11663_2025_3465_Fig1_HTML.png>){ .steel-media-image .steel-media-detail }
+![전기가열 관형 반응기, 철광석 미분, 수소 재순환, 수분 제거, DRI 미분 후단 시험을 나타낸 ZESTY AI 개념도](../assets/media/SRC-20260727-C43117BC/MED-6786347D8BBA.png){ .steel-media-image .steel-media-detail }
 
-**학술 자료 그림.** ZESTY 단일 관형 파일럿 반응기와 30 kt/y 제안 공정 흐름. 논문 Figure 1이며 30 kt/y 설비의 준공도가 아니다.
+**AI 재구성.** AI 재구성 — 전기가열 관형 반응기에서 철광석 미분을 수소로 단계 환원하고, 수분 제거 후 수소를 재순환하며 DRI 미분을 후단 조정·ESF/EAF 시험으로 보내는 ZESTY 연구 개념도. 회수 미분 처리와 후단 통합은 검증 과제로 표시했으며, 실제 30 kt/y 설비의 준공도나 P&ID가 아니다.
 
-- 출처 [[sources/SRC-20260727-824DD247|SRC-20260727-824DD247]] · 권리 `link_only` · [원문 페이지](https://link.springer.com/article/10.1007/s11663-025-03465-3/figures/1) · 작성·촬영 Mokhtarani et al.; figure provided by Calix team
-- 권리 메모: Springer Nature 원문 서버 직접 표시. 로컬 복제하지 않았으며 재사용 조건은 원문 라이선스를 따른다.
+- 출처 [[sources/SRC-20260727-C43117BC|SRC-20260727-C43117BC]] · 권리 `ai_generated` · [원문 페이지](https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant) · 작성·촬영 OpenAI ImageGen / Codex
+- 권리 메모: ARENA ZESTY 프로젝트 설명과 Mokhtarani et al. 2025 파일럿 논문을 근거로 2026-07-27 생성한 기술 설명용 AI 재구성이다. 특정 설비의 as-built, 배관계장도 또는 성능 보증 자료가 아니다.
 
 
 ## 기업별 상세 현황
@@ -199,6 +205,14 @@ flowchart TB
 
 - [[sources/SRC-20260727-824DD247|New Insights Into Hydrogen Reduction of Hematite in an Indirectly Heated Flash Reactor from Measurements and First-Order Modeling]] — Springer Nature, 2025-02-10 · [원문](https://link.springer.com/article/10.1007/s11663-025-03465-3)
 - [[sources/SRC-20260727-C43117BC|Calix - ZESTY Green Iron Demonstration Plant]] — Australian Renewable Energy Agency, 2026-03-30 · [원문](https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant/)
+- [[sources/SRC-20260728-00A0FA40|Rio Tinto scraps $215m research centre and BioIron product after decade of development]] — ABC News Australia, 2025-11-17 · [원문](https://www.abc.net.au/news/2025-11-17/rio-tinto-scraps-wa-green-steel-bioiron-product/106019692)
+- [[sources/SRC-20260728-73732712|ZESTY Green Iron Demonstration Project - Kick-off Report]] — Australian Renewable Energy Agency / Calix Ltd, 2026-05-29 · [원문](https://arena.gov.au/assets/2026/03/Calix-ZESTY-Green-Iron-Demonstration-Plant-Project-Kick-off-Report.pdf)
+- [[sources/SRC-20260728-8B5F092E|Calix completes first ARENA grant milestone for Zesty, triggering $2m cash payment]] — Calix Limited / ASX, 2026-03-16 · [원문](https://investorpa.com/announcement-pdf/20260316/269605.pdf)
+- [[sources/SRC-20260728-CFBEE0AE|Zesty patents, pilots and progress towards commercial demonstration]] — Calix Limited, 2026-07-17 · [원문](https://calix.global/news/zesty-patents-pilots-and-progress-towards-commercial-demonstration/)
 
 [^src-20260727-824dd247]: **New Insights Into Hydrogen Reduction of Hematite in an Indirectly Heated Flash Reactor from Measurements and First-Order Modeling** — Springer Nature, 2025-02-10. DOI: [10.1007/s11663-025-03465-3](https://doi.org/10.1007/s11663-025-03465-3). [원문](https://link.springer.com/article/10.1007/s11663-025-03465-3) · [[sources/SRC-20260727-824DD247|보관 원문·메타데이터]]
 [^src-20260727-c43117bc]: **Calix - ZESTY Green Iron Demonstration Plant** — Australian Renewable Energy Agency, 2026-03-30. [원문](https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant/) · [[sources/SRC-20260727-C43117BC|보관 원문·메타데이터]]
+[^src-20260728-00a0fa40]: **Rio Tinto scraps $215m research centre and BioIron product after decade of development** — ABC News Australia, 2025-11-17. [원문](https://www.abc.net.au/news/2025-11-17/rio-tinto-scraps-wa-green-steel-bioiron-product/106019692) · [[sources/SRC-20260728-00A0FA40|보관 원문·메타데이터]]
+[^src-20260728-73732712]: **ZESTY Green Iron Demonstration Project - Kick-off Report** — Australian Renewable Energy Agency / Calix Ltd, 2026-05-29. [원문](https://arena.gov.au/assets/2026/03/Calix-ZESTY-Green-Iron-Demonstration-Plant-Project-Kick-off-Report.pdf) · [[sources/SRC-20260728-73732712|보관 원문·메타데이터]]
+[^src-20260728-8b5f092e]: **Calix completes first ARENA grant milestone for Zesty, triggering $2m cash payment** — Calix Limited / ASX, 2026-03-16. [원문](https://investorpa.com/announcement-pdf/20260316/269605.pdf) · [[sources/SRC-20260728-8B5F092E|보관 원문·메타데이터]]
+[^src-20260728-cfbee0ae]: **Zesty patents, pilots and progress towards commercial demonstration** — Calix Limited, 2026-07-17. [원문](https://calix.global/news/zesty-patents-pilots-and-progress-towards-commercial-demonstration/) · [[sources/SRC-20260728-CFBEE0AE|보관 원문·메타데이터]]

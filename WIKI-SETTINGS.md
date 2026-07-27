@@ -44,7 +44,7 @@
 
 ## 우선 프로젝트
 
-- Calix ZESTY Rockingham Green Iron Demonstration Plant
+- Calix ZESTY Kwinana Green Iron Demonstration Plant
 - Tata Steel HIsarna Jamshedpur Demonstration Plant
 - HYBRIT Gällivare Industrial Demonstration Plant
 - Stegra Boden Green Steel Plant

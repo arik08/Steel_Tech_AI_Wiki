@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2025-12-22",
-  "last_verified": "2025-12-22",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260727-3D412017"
+    "SRC-20260727-3D412017",
+    "SRC-20260728-EEBA9605"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "Preserves the target-versus-achievement distinction in the final report.",
       "source_ids": [
         "SRC-20260727-3D412017"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 최신 공식·전문 원문 재점검에서 값의 범위와 한계를 재확인했다.",
+      "source_ids": [
+        "SRC-20260728-EEBA9605"
       ]
     }
   ]

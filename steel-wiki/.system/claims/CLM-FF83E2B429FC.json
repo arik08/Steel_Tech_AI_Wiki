@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-FF83E2B429FC",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "industrial_leap_support_condition",
+  "value": "추가 Industriklivet 지원에는 Stegra가 2026년 봄까지 프로젝트 완공에 충분한 자본을 확보했음을 입증해야 한다는 조건이 붙었다. 2026년 EUR 1.4 billion 조달과 별도 프로그램이며, 정부 페이지는 보조금 전액 지급 완료를 밝히지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-EC5093B5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "공공지원 승인 조건을 후속 회사 조달 발표와 교차검증하되 승인·조달·지급을 구분",
+      "source_ids": [
+        "SRC-20260728-EC5093B5"
+      ]
+    }
+  ]
+}

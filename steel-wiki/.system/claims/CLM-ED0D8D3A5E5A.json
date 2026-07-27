@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-ED0D8D3A5E5A",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "controlled_open_arc_pilot_campaigns",
+  "value": "Metix 저자진은 SOAC DC 전기용융에서 명목 200 kW 노체로 약 10 t DRI, 명목 1,000 kW 노체로 약 370 t DRI를 처리한 두 시험을 보고했다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-521FD424"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "AIST 공식 기술기사와 AISTech 발표 기록, 2026년 동료심사 ESF 리뷰의 인용을 교차확인",
+      "source_ids": [
+        "SRC-20260728-521FD424"
+      ]
+    }
+  ]
+}

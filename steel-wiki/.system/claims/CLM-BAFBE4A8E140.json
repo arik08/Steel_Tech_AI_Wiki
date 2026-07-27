@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BAFBE4A8E140",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "permitted_sponge_iron_capacity_tpy",
+  "value": "허가 범위상 무화석 스펀지철 직접환원 설비의 최대 생산능력은 연 1,500,000 t이다. 이는 법적 허용 상한이며 FID·실제 건설 규모·달성 생산량이 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-E14C2E6C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "법원 판결의 허가 범위와 실제 투자·운전 실적을 분리해 기록",
+      "source_ids": [
+        "SRC-20260728-E14C2E6C"
+      ]
+    }
+  ]
+}

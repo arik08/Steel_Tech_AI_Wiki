@@ -1,0 +1,34 @@
+{
+  "claim_id": "CLM-3E3A4D216607",
+  "subject_id": "PRJ-METSO-PORI-DRI-SMELTING-PILOT",
+  "predicate": "hot_commissioning_status",
+  "value": "Metso는 2025년 Pori DRI Smelting Furnace 파일럿의 시험 캠페인에서 hot commissioning을 성공적으로 완료했다고 2026년 연차보고서에 밝혔다. 이는 2024년 개장 후 실제 고온 시운전 진척 근거이나 상업 장기운전 성능은 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-BFA997FF",
+    "SRC-20260728-351FFC36"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "2024년 개장·향후 시운전 상태를 2025년 달성 실적으로 갱신",
+      "source_ids": [
+        "SRC-20260728-BFA997FF"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "상세 기술 기사로 hot commissioning 완료를 교차확인",
+      "source_ids": [
+        "SRC-20260728-351FFC36"
+      ]
+    }
+  ]
+}

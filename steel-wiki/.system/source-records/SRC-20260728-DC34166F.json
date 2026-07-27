@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-20260728-DC34166F",
+  "title": "HYBRIT Demonstration - official fossil-free steel value chain",
+  "url": "https://www.hybritdevelopment.se/en/hybrit-demonstration/",
+  "canonical_url": "https://www.hybritdevelopment.se/en/hybrit-demonstration",
+  "publisher": "HYBRIT Development AB",
+  "published_at": null,
+  "collected_at": "2026-07-28",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "dc34166f3dcd5f095efc0959e35d73566abb335081c055289794e621d730140c",
+  "raw_sha256": "383d088d04fbcd207304e14a4c1ab2bab09245593f62e727977c6462e8a21e11",
+  "raw_path": ".system/raw/SRC-20260728-DC34166F.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-FB7272E7FEEC",
+      "kind": "process_diagram",
+      "caption": "HYBRIT 공식 실증 가치사슬 개념도: Gällivare의 무화석 펠릿·약 500 MW 수전해·수소 직접환원과 Oxelosund 전기로 슬래브 생산 연결. 개별 설비 준공도는 아니다.",
+      "alt_text": "Gällivare 펠릿 수소생산 직접환원과 Oxelosund 전기로를 연결한 HYBRIT 실증 공식 공정도",
+      "creator": "HYBRIT Development AB",
+      "image_url": "https://www.hybritdevelopment.se/wp-content/uploads/2022/06/vardekedja-hybrit-demo-en-960x588.jpg",
+      "origin_url": "https://www.hybritdevelopment.se/en/hybrit-demonstration",
+      "rights_status": "link_only",
+      "rights_note": "HYBRIT 공식 Demonstration 페이지의 원본 그림을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원격 링크로만 표시하며 개별 설비 준공도가 아닙니다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "PRJ-HYBRIT-GALLIVARE-DEMO"
+      ],
+      "display_width": "detail",
+      "hero_priority": -900
+    }
+  ]
+}

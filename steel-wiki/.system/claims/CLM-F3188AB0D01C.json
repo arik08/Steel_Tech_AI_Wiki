@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "medium",
   "first_seen": "2026-07-25",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260725-D230993B"
+    "SRC-20260725-D230993B",
+    "SRC-20260728-18CEA56E"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "공급사의 전환·신설 운전 모드를 등록",
       "source_ids": [
         "SRC-20260725-D230993B"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2017 개념의 수소 전환 경로와 현재 MIDREX H2 제품 페이지의 100% 또는 majority-hydrogen greenfield framing을 교차확인; 개별 프로젝트의 실제 fuel mix는 별도 확인 필요",
+      "source_ids": [
+        "SRC-20260728-18CEA56E"
       ]
     }
   ]

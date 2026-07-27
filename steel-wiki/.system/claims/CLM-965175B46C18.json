@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-965175B46C18",
+  "subject_id": "PRJ-METSO-PORI-DRI-SMELTING-PILOT",
+  "predicate": "campaign_target_carbon_result",
+  "value": "Metso는 2025년 두 Pori DRI smelting 시험 캠페인 모두에서 목표 용선 탄소 수준을 달성했다고 발표했다. 다만 공개 기사에는 목표값·달성값이 없어 정량 성능이나 고객 원료 성과로 일반화할 수 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-351FFC36"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "두 캠페인의 공개된 정성 성과와 정량 공개 한계를 함께 기록",
+      "source_ids": [
+        "SRC-20260728-351FFC36"
+      ]
+    }
+  ]
+}

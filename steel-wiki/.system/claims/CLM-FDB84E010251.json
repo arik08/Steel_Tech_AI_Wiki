@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-FDB84E010251",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "independent_scale_up_assessment",
+  "value": "Ramboll 2026 비교평가 기준 MOE는 저품위 원료와 소규모 모듈 공장의 잠재력이 있으나 대규모 에너지·비용 효율은 아직 입증되지 않음",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-60D60F81"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "독립 엔지니어링 백서의 결론이지만 회사·컨소시엄 자료를 종합한 비동료심사 평가이므로 medium으로 제한한다.",
+      "source_ids": [
+        "SRC-20260728-60D60F81"
+      ]
+    }
+  ]
+}

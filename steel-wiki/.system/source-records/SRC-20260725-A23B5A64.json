@@ -68,7 +68,10 @@
         "TEC-hydrogen-based-fine-ore-reduction"
       ],
       "display_width": "detail",
-      "hero_priority": -100
+      "hero_priority": -100,
+      "display_eligible": false,
+      "hero_eligible": false,
+      "qc_note": "2026-07-28 HyREX 페이지의 대표성과 기술 민감도를 고려해 범용 HYFOR·HyREX AI 개념도는 표시 대상에서 제외하고 공급사 실제 사진만 유지합니다."
     },
     {
       "media_id": "MED-A3F73A83EE4F",
@@ -87,7 +90,10 @@
         "TEC-hydrogen-based-fine-ore-reduction"
       ],
       "display_width": "detail",
-      "hero_priority": -200
+      "hero_priority": -200,
+      "display_eligible": false,
+      "hero_eligible": false,
+      "qc_note": "2026-07-28 HyREX 페이지의 대표성과 기술 민감도를 고려해 범용 HYFOR·HyREX AI 개념도는 표시 대상에서 제외하고 공급사 실제 사진만 유지합니다."
     }
   ]
 }

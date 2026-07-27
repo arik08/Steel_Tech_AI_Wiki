@@ -1,0 +1,31 @@
+{
+  "source_id": "SRC-20260728-C820F901",
+  "title": "Editors Choice—Understanding the Role of Multivalency in Chloride-Based Electrolytes for Efficient Iron Electrosynthesis",
+  "url": "https://doi.org/10.1149/1945-7111/ae60a9",
+  "canonical_url": "https://doi.org/10.1149/1945-7111/ae60a9",
+  "publisher": "The Electrochemical Society / IOP Publishing",
+  "published_at": "2026-04-28",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "c820f901777a6f5d1891b82f79796c8caff8f7373ff90bc89e289accebb2499b",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "William Lvovich",
+      "Anar Badalbayli",
+      "Sophia Chan",
+      "Nicholas Sinclair",
+      "Rohan Akolkar"
+    ],
+    "venue": "Journal of The Electrochemical Society",
+    "doi": "10.1149/1945-7111/ae60a9",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "d0798bc21ea2cf04a3932c07501b6b88ea740a7bfdcffc82cb395ef1ca3077da",
+  "raw_path": ".system/raw/SRC-20260728-C820F901.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

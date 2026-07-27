@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CF10CEC10DB3",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "government_rd_call_budget_2026_krw",
+  "value": "2026년도 신규지원 공고예산 501.46억 원. 실제 집행액·총사업비·민간분담액·실증플랜트 설비 CAPEX가 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-A93B9BD0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "정부 공고의 연도별 공고예산이며 기존 총사업비 Claim과 범위가 다름",
+      "source_ids": [
+        "SRC-20260728-A93B9BD0"
+      ]
+    }
+  ]
+}

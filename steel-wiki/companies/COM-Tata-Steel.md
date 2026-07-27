@@ -2,7 +2,7 @@
 
 # Tata Steel 기술 현황
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-28** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 
 ![배관과 흡수설비로 구성된 Tata Steel Jamshedpur 고로가스 탄소포집 설비](<https://www.tatasteel.com/media/14387/facillity-pic_1-1.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
@@ -14,9 +14,9 @@
     | 항목 | 확인 내용 |
     | --- | --- |
     | **확인된 기술** | 4개 / 감시 기술 13개 |
-    | **연결 프로젝트** | 3개 |
+    | **연결 프로젝트** | 4개 |
     | **실행 단계** | 계획·투자 1건 · 가동·현장 적용 1건 · 공식 현황 확인 2건 |
-    | **직접 연결 근거** | 7건 |
+    | **직접 연결 근거** | 12건 |
 
 !!! warning "주의해서 볼 항목"
 
@@ -79,6 +79,7 @@
 
 | 항목 | 현재 확인 내용 |
 | --- | --- |
+| **agentic ai status** | Zen AI·Tata Steel Digital Assistant와 300개 초과 특화 agent를 전사 배치하고 Safety EyeQ 현장 경보를 운영한다고 발표; 공정별 정량 성과와 독립 검증은 미공개 [^src-20260728-e89c0798] |
 | **EASyMelt 고로 개조 상태** | 2026-04-21 Jamshedpur 649 m3 E고로를 전기보조 합성가스 재순환 방식으로 단계 개조하는 EASyMelt 산업 실증 확정 계약 체결; DRI 전기용융로(ESF)와는 다른 고로 개조 기술이며 시운전일과 실제 감축 실적은 미공개 [^src-20260725-29802d50] |
 
 ## 주요 프로젝트
@@ -87,11 +88,44 @@
 
 | 프로젝트 | 현재 상태 | 핵심 일정·규모 |
 | --- | --- | --- |
+| **[[projects/PRJ-HISARNA-JAMSHEDPUR-DEMO|Tata Steel Jamshedpur HIsarna 약 100만 t/y 실증 계획]]** | 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] | **기술 경로** HIsarna cyclone smelting reduction demonstration [^src-20260727-fd3eba92] · **위치** Jamshedpur, India [^src-20260727-fd3eba92] · **연간 생산능력** 약 1,000,000 t/y demonstration design target [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] · **목표 가동 시점** 2030년까지 약 1 Mt/y 시설 구축 계획(주정부 LoI/MoU 발표상의 목표이며 확정 가동일 아님) [^src-20260728-433e5cf1] |
 | **[[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]** | Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음 [^src-20260725-e71081d1] | **기술 경로** 초기 천연가스 사용이 가능한 직접환원로와 EAF를 도입하고 향후 바이오메탄·수소 비율을 높이는 전환 경로 [^src-20260725-6c80084b] · **위치** IJmuiden, Netherlands [^src-20260725-e71081d1] |
 | **[[projects/PRJ-TATA-JAMSHEDPUR-BF-CCU|Tata Jamshedpur 고로가스 CCU]]** | 5 t-CO2/day 아민 포집설비가 FY2023-24 기준 1년 이상 24/7 운전됐고, 포집 CO2를 공정 내 활용하며 추가 설비 확대를 검토 중 [^src-20260725-3176f88e] | **기술 경로** 비연소 고로가스 → 아민 흡수식 CO2 포집 → CO2 제거 가스는 제철소 가스망 환류 → 포집 CO2 현장 활용 [^src-20260725-46a2055d] · **위치** Jamshedpur Works, India [^src-20260725-46a2055d] · **일일 CO2 포집능력** 5 t-CO2/day [^src-20260725-46a2055d] |
 | **[[projects/PRJ-TATA-JAMSHEDPUR-EASYMELT|Tata Jamshedpur EASyMelt 산업 실증]]** | 2023년 MoU와 front-end loading 검토를 거쳐 2026-04-21 확정 계약 후 단계적 산업 실증 추진 단계 [^src-20260725-29802d50] | **기술 경로** 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 토치 가열을 결합한 electrically-assisted syngas smelter [^src-20260725-6b30edde] · **위치** Jamshedpur Works E blast furnace, India [^src-20260725-29802d50] |
 
 ## 프로젝트별 상세
+
+??? info "Tata Steel Jamshedpur HIsarna 약 100만 t/y 실증 계획"
+
+    **프로젝트 문서:** [[projects/PRJ-HISARNA-JAMSHEDPUR-DEMO|Tata Steel Jamshedpur HIsarna 약 100만 t/y 실증 계획]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **목표 가동 시점** | 2030년까지 약 1 Mt/y 시설 구축 계획(주정부 LoI/MoU 발표상의 목표이며 확정 가동일 아님) [^src-20260728-433e5cf1] |
+    | **적용 원료** | 회사는 저품위 철광석과 steel slag 사용 가능성을 설명했으나 Jamshedpur 실증의 구체 광석 조성·배합은 미공개 [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] |
+    | **연간 생산능력** | 약 1,000,000 t/y demonstration design target [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] |
+    | **Company capex clarification** | 2026-03-05 Tata Steel의 NSE 공시는 HIsarna·EASyMelt 관련 추가 프로젝트를 계속 평가 중이라고 명시; 이 문구는 엔지니어링·인허가 착수 승인과 병존하지만 FID·확정 총사업비를 뜻하지 않음 [^src-20260728-735f3bf8] |
+    | **프로젝트 상태** | 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 [^src-20260727-fd3eba92][^src-20260728-1bfbfbdf] |
+    | **Investment boundary** | ₹11,000 crore 보도액은 Tinplate·Combi Mill 등 여러 승인·검토 프로젝트를 포함한 자본배분 맥락이며 HIsarna 단독 신규 투자액으로 확정되지 않음 [^src-20260728-735f3bf8] |
+    | **Funding disclosure boundary** | LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 [^src-20260728-433e5cf1][^src-20260728-1bfbfbdf][^src-20260728-735f3bf8] |
+    | **Proposed investment package** | HIsarna·EASyMelt를 포함한 구성분 estimated ₹7,000 crore; 전체 green-steel 패키지는 제목 ₹11,100 crore·본문 over ₹11,000 crore [^src-20260728-433e5cf1] |
+    | **기술 경로** | HIsarna cyclone smelting reduction demonstration [^src-20260727-fd3eba92] |
+    | **위치** | Jamshedpur, India [^src-20260727-fd3eba92] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-12-10 | 발표·검증 | **적용 원료**: 회사는 저품위 철광석과 steel slag 사용 가능성을 설명했으나 Jamshedpur 실증의 구체 광석 조성·배합은 미공개 · **연간 생산능력**: 약 1,000,000 t/y demonstration design target · **프로젝트 상태**: 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 · **기술 경로**: HIsarna cyclone smelting reduction demonstration · **위치**: Jamshedpur, India [^src-20260727-fd3eba92] |
+    | 2026-01-20 | 발표·검증 | **목표 가동 시점**: 2030년까지 약 1 Mt/y 시설 구축 계획(주정부 LoI/MoU 발표상의 목표이며 확정 가동일 아님) · **Funding disclosure boundary**: LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 · **Proposed investment package**: HIsarna·EASyMelt를 포함한 구성분 estimated ₹7,000 crore; 전체 green-steel 패키지는 제목 ₹11,100 crore·본문 over ₹11,000 crore [^src-20260728-433e5cf1] |
+    | 2026-03-05 | 발표·검증 | **Investment boundary**: LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 · 후속 정보로 대체 · **Company capex clarification**: 2026-03-05 Tata Steel의 NSE 공시는 HIsarna·EASyMelt 관련 추가 프로젝트를 계속 평가 중이라고 명시; 이 문구는 엔지니어링·인허가 착수 승인과 병존하지만 FID·확정 총사업비를 뜻하지 않음 · **Company capex clarification**: 2026-03-05 Tata Steel의 NSE 공시는 보도된 ₹11,000 crore를 Jharkhand 여러 기존·검토 프로젝트의 자본배분 맥락으로 설명하고 HIsarna·EASyMelt는 추가 평가 중이라고 명시; HIsarna 단독 확정 CAPEX·FID가 아님 · 후속 정보로 대체 · **Investment boundary**: ₹11,000 crore 보도액은 Tinplate·Combi Mill 등 여러 승인·검토 프로젝트를 포함한 자본배분 맥락이며 HIsarna 단독 신규 투자액으로 확정되지 않음 · **Funding disclosure boundary**: LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 [^src-20260728-735f3bf8] |
+    | 2026-06-04 | 발표·검증 | **적용 원료**: 회사는 저품위 철광석과 steel slag 사용 가능성을 설명했으나 Jamshedpur 실증의 구체 광석 조성·배합은 미공개 · **연간 생산능력**: 약 1,000,000 t/y demonstration design target · **프로젝트 상태**: 2025-12-10 이사회가 엔지니어링 작업 및 규제 승인 절차 개시를 승인; FID·EPC·착공·시운전은 공개 확인되지 않음 · **Funding disclosure boundary**: LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 [^src-20260728-1bfbfbdf] |
+    | 2030 | 목표 일정 | **목표 가동 시점**: 2030년까지 약 1 Mt/y 시설 구축 계획(주정부 LoI/MoU 발표상의 목표이며 확정 가동일 아님) [^src-20260728-433e5cf1] |
+
+    **변경·중단 이력**
+
+    - **Investment boundary · 후속 정보로 대체:** LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치 [^src-20260728-735f3bf8]
+    - **Company capex clarification · 후속 정보로 대체:** 2026-03-05 Tata Steel의 NSE 공시는 보도된 ₹11,000 crore를 Jharkhand 여러 기존·검토 프로젝트의 자본배분 맥락으로 설명하고 HIsarna·EASyMelt는 추가 평가 중이라고 명시; HIsarna 단독 확정 CAPEX·FID가 아님 [^src-20260728-735f3bf8]
 
 ??? info "Tata Steel IJmuiden DRP–EAF 전환"
 
@@ -205,6 +239,11 @@
 | [[sources/SRC-20260725-6C80084B|Tata Steel climate action technology roadmap]] | Tata Steel · 게시일 미상 | [원문 보기](https://www.tatasteel.com/sustainability/environment/climate-action/) |
 | [[sources/SRC-20260725-789AB58F|Tata Steel Nederland integrated decarbonisation project letter of intent]] | Tata Steel · 2025-09-29 | [원문 보기](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/) |
 | [[sources/SRC-20260725-E71081D1|Tata Steel Nederland 2025-2026 Green Steel Project status]] | Tata Steel Nederland · 2026-05-01 | [원문 보기](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) |
+| [[sources/SRC-20260727-FD3EBA92|Tata Steel Board affirms the long-term strategy for growth in India]] | Tata Steel · 2025-12-10 | [원문 보기](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india/) |
+| [[sources/SRC-20260728-1BFBFBDF|Integrated Report & Annual Accounts 2025-26 (119th Year): HIsarna Jamshedpur status]] | Tata Steel Limited · 2026-06-04 | [원문 보기](https://www.tatasteel.com/media/25904/tatasteel-iar-2025-26.pdf) |
+| [[sources/SRC-20260728-433E5CF1|Green Steel Technology to Drive India's Sustainable Industrial Transition (Press Release 41/2026)]] | Chief Minister's Secretariat, Government of Jharkhand · 2026-01-20 | [원문 보기](https://cm.jharkhand.gov.in/sites/default/files/press-release/2026-01/Press_Release-1-20-01-2026%28English%29.pdf) |
+| [[sources/SRC-20260728-735F3BF8|News Clarification (Ref. SEC/2018/2025-26)]] | Tata Steel Limited / National Stock Exchange of India · 2026-03-05 | [원문 보기](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_05032026095816_NSE-Clarification_signed.pdf) |
+| [[sources/SRC-20260728-E89C0798|Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain]] | Tata Steel · 2026-04-22 | [원문 보기](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain/) |
 
 [^src-20260725-29802d50]: **Tata Steel proceeds with phased EASyMelt industrial demonstration** — Tata Steel, 2026-04-21. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology/) · [[sources/SRC-20260725-29802D50|보관 원문·메타데이터]]
 [^src-20260725-3176f88e]: **Tata Steel FY2023-24 Jamshedpur CCU operating update** — Tata Steel, 2024-06-12. [원문](https://www.tatasteel.com/investors/integrated-report-2023-24/shaping-a-cleaner-tomorrow.html) · [[sources/SRC-20260725-3176F88E|보관 원문·메타데이터]]
@@ -213,3 +252,8 @@
 [^src-20260725-6c80084b]: **Tata Steel climate action technology roadmap** — Tata Steel, 게시일 미상. [원문](https://www.tatasteel.com/sustainability/environment/climate-action/) · [[sources/SRC-20260725-6C80084B|보관 원문·메타데이터]]
 [^src-20260725-789ab58f]: **Tata Steel Nederland integrated decarbonisation project letter of intent** — Tata Steel, 2025-09-29. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-signs-the-non-binding-joint-letter-of-intent-with-the-government-of-the-netherlands-and-the-province-of-north-holland-on-integrated-decarbonisation-and-health-measures-project/) · [[sources/SRC-20260725-789AB58F|보관 원문·메타데이터]]
 [^src-20260725-e71081d1]: **Tata Steel Nederland 2025-2026 Green Steel Project status** — Tata Steel Nederland, 2026-05-01. [원문](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) · [[sources/SRC-20260725-E71081D1|보관 원문·메타데이터]]
+[^src-20260727-fd3eba92]: **Tata Steel Board affirms the long-term strategy for growth in India** — Tata Steel, 2025-12-10. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india/) · [[sources/SRC-20260727-FD3EBA92|보관 원문·메타데이터]]
+[^src-20260728-1bfbfbdf]: **Integrated Report & Annual Accounts 2025-26 (119th Year): HIsarna Jamshedpur status** — Tata Steel Limited, 2026-06-04. [원문](https://www.tatasteel.com/media/25904/tatasteel-iar-2025-26.pdf) · [[sources/SRC-20260728-1BFBFBDF|보관 원문·메타데이터]]
+[^src-20260728-433e5cf1]: **Green Steel Technology to Drive India's Sustainable Industrial Transition (Press Release 41/2026)** — Chief Minister's Secretariat, Government of Jharkhand, 2026-01-20. [원문](https://cm.jharkhand.gov.in/sites/default/files/press-release/2026-01/Press_Release-1-20-01-2026%28English%29.pdf) · [[sources/SRC-20260728-433E5CF1|보관 원문·메타데이터]]
+[^src-20260728-735f3bf8]: **News Clarification (Ref. SEC/2018/2025-26)** — Tata Steel Limited / National Stock Exchange of India, 2026-03-05. [원문](https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_05032026095816_NSE-Clarification_signed.pdf) · [[sources/SRC-20260728-735F3BF8|보관 원문·메타데이터]]
+[^src-20260728-e89c0798]: **Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain** — Tata Steel, 2026-04-22. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain/) · [[sources/SRC-20260728-E89C0798|보관 원문·메타데이터]]

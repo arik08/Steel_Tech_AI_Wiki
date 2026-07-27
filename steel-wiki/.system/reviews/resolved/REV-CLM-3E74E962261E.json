@@ -1,0 +1,83 @@
+{
+  "review_id": "REV-CLM-3E74E962261E",
+  "type": "claim_conflict",
+  "created_at": "2026-07-28T03:41:58+09:00",
+  "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+  "predicate": "investment_boundary",
+  "existing_claims": [
+    {
+      "claim_id": "CLM-3C4548EE9FC4",
+      "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+      "predicate": "investment_boundary",
+      "value": "LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치",
+      "status": "active",
+      "confidence": "high",
+      "first_seen": "2026-03-05",
+      "last_verified": "2026-03-05",
+      "source_ids": [
+        "SRC-20260728-735F3BF8"
+      ],
+      "supersedes": [],
+      "coexists_with": [],
+      "history": [
+        {
+          "date": "2026-03-05",
+          "action": "created",
+          "reason": "Tata Steel 거래소 공시가 ₹11,000 crore를 여러 승인·검토 프로젝트의 맥락으로 설명하고 HIsarna·EASyMelt를 추가 평가 중이라고 밝혀 기존 해석 경계를 보강",
+          "source_ids": [
+            "SRC-20260728-735F3BF8"
+          ]
+        }
+      ]
+    }
+  ],
+  "proposed_claim": {
+    "claim_id": "CLM-9E0C594C5D26",
+    "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+    "predicate": "investment_boundary",
+    "value": "₹11,000 crore 보도액은 Tinplate·Combi Mill 등 여러 승인·검토 프로젝트를 포함한 자본배분 맥락이며 HIsarna 단독 신규 투자액으로 확정되지 않음",
+    "status": "active",
+    "confidence": "high",
+    "first_seen": "2026-03-05",
+    "last_verified": "2026-03-05",
+    "source_ids": [
+      "SRC-20260728-735F3BF8"
+    ],
+    "supersedes": [
+      "CLM-3C4548EE9FC4"
+    ],
+    "coexists_with": [],
+    "history": [
+      {
+        "date": "2026-03-05",
+        "action": "created",
+        "reason": "거래소 공시의 직접 설명을 별도 투자범위 Claim으로 정정",
+        "source_ids": [
+          "SRC-20260728-735F3BF8"
+        ]
+      },
+      {
+        "date": "2026-07-28",
+        "action": "review_supersede",
+        "reason": "초기 investment_boundary Claim이 funding_disclosure_boundary와 문구가 중복되어, Tata Steel NSE 공시가 직접 설명한 다중 프로젝트 범위로 정정한다."
+      }
+    ]
+  },
+  "allowed_decisions": [
+    "supersede",
+    "keep-existing",
+    "coexist",
+    "dispute",
+    "reject"
+  ],
+  "status": "resolved",
+  "resolution": {
+    "decided_at": "2026-07-28T03:42:03+09:00",
+    "decision": "supersede",
+    "rationale": "초기 investment_boundary Claim이 funding_disclosure_boundary와 문구가 중복되어, Tata Steel NSE 공시가 직접 설명한 다중 프로젝트 범위로 정정한다.",
+    "changed_claim_ids": [
+      "CLM-3C4548EE9FC4",
+      "CLM-9E0C594C5D26"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 
 # 용융산화물 전기분해 (Molten Oxide Electrolysis)
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-28** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 전해 기반 경로"
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![다중 불활성 양극, 용융산화물 전해질, 액체철 음극 풀과 산소 발생을 보여 주는 MOE AI 공정도](../assets/media/SRC-20260725-26EA1CBD/MED-49390EFFBA04.png){ .steel-media-image .steel-hero-image .steel-media-detail }
+![Boston Metal MOE 셀 특허의 내화물 용기와 중앙 전극 단면도](<https://patentimages.storage.googleapis.com/f9/3b/ca/e5700aa698b8cd/US11591703-20230228-D00001.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — AI 재구성 — Boston Metal 공개 설명과 학술 근거를 바탕으로 다중 불활성 양극·용융산화물 전해질·액체철 음극 풀·산소 발생·연속 출선을 기능 단위로 재구성한 MOE R&D 공정도. 실제 Woburn 셀 준공도가 아님. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-26EA1CBD|SRC-20260725-26EA1CBD]] · [원문 페이지](https://www.bostonmetal.com/moe-steel))*
+*대표 이미지 — Boston Metal 등록특허 Figure 1의 MOE metallurgical assembly 단면도. 내화물 용기·덮개·중앙 전극·바닥 집전 구조를 보여주는 특허 실시예이며 Woburn M5M 셀의 준공도는 아님 (특허 도면 · 권리 `link_only` · 출처 [[sources/SRC-20260728-C2858286|SRC-20260728-C2858286]] · [원문 페이지](https://patents.google.com/patent/US11591703B2/en))*
 
 !!! abstract "한눈에 보기"
 
@@ -39,7 +39,7 @@
     | **제품 형태** | 고순도 액체 철을 직접 생산한다. [^src-20260725-26ea1cbd] |
     | **적용 원료** | Boston Metal은 모든 등급의 철광석을 직접 투입할 수 있고 소결·펠릿화 전처리를 생략할 수 있다고 설명한다. [^src-20260725-26ea1cbd] |
     | **전력원단위 추정** | 성숙 설비를 가정한 문헌 추정치는 2.89–4.45 kWh/kg-Fe이며, 별도 모델은 약 4.7–4.78 kWh/kg-Fe를 제시한다. [^src-20260725-1ad87d2b] |
-    | **공개 개발 단계** | 2025년 Boston Metal Woburn의 다중 불활성 양극 산업 셀에서 톤 단위 철 출선이 확인됐으나, 별도의 제철 실증 플랜트는 향후 단계로 제시됐다. [^src-20260725-3c2197ef] |
+    | **공개 개발 단계** | 2025년 Boston Metal Woburn의 다중 불활성 양극 산업 셀에서 톤 단위 철 출선이 확인됐으나, 별도의 제철 실증 플랜트는 향후 단계로 제시됐다. [^src-20260725-3c2197ef][^src-20260728-a9ba86b5] |
     | **후단 활용** | 출선한 액체 철은 래들 정련으로 직접 이송할 수 있다. [^src-20260725-26ea1cbd] |
 
 ## 개요
@@ -49,7 +49,7 @@
 이 문서는 1,600°C 안팎에서 액체 철을 직접 생산하는 산업화 경로와, 더 낮은 온도에서 고체 철을 얻는 학술 변형을 구분해 다룹니다.
 
 - **근거 확인 기업:** 3개
-- **직접 연결 근거:** 9건
+- **직접 연결 근거:** 24건
 
 ## 작동 원리
 
@@ -80,7 +80,7 @@ flowchart TB
 
 !!! note "도식 해석"
 
-    위 흐름도는 공개 자료의 단계를 비교하기 쉽게 재구성한 것입니다. 실제 물질수지·전해액 조성·셀 배열을 뜻하는 설계도는 아닙니다. [^src-20260725-26ea1cbd][^src-20260725-cedc4521]
+    위 흐름도는 공개 자료의 단계를 비교하기 쉽게 재구성한 것입니다. 실제 물질수지·열수지·설비 치수·배관계장·제어 구성을 뜻하는 설계도는 아닙니다. [^src-20260725-26ea1cbd][^src-20260725-cedc4521]
 
 ## 주요 기술 특성
 
@@ -119,9 +119,26 @@ flowchart TB
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
-| **공개 개발 단계** | 2025년 Boston Metal Woburn의 다중 불활성 양극 산업 셀에서 톤 단위 철 출선이 확인됐으나, 별도의 제철 실증 플랜트는 향후 단계로 제시됐다. [^src-20260725-3c2197ef] | 회사 발표 |
+| **공개 개발 단계** | 2025년 Boston Metal Woburn의 다중 불활성 양극 산업 셀에서 톤 단위 철 출선이 확인됐으나, 별도의 제철 실증 플랜트는 향후 단계로 제시됐다. [^src-20260725-3c2197ef][^src-20260728-a9ba86b5] | 회사 발표·일반 언론 |
 | **연속운전 결과** | DOE 프로젝트에서 10 kg 철 생산과 산소 발생을 확인했지만, 100 kg을 1주 동안 생산하려던 내구 캠페인은 생산량과 기간 모두 목표에 미달했다. [^src-20260725-cedc4521] | 정부·공공자료 |
 | **상용화 모델** | Boston Metal은 철강사에 MOE 기술을 라이선스하고 핵심 금속 불활성 양극을 공급하는 사업 모델을 제시한다. [^src-20260725-26ea1cbd] | 회사 발표 |
+
+### 최신 실증·검증 정보
+
+기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **boston metal patent cell architecture** | Boston Metal 등록특허의 MOE 실시예는 내화물 용기·덮개·중앙 전극·바닥 개구부와 집전 구조를 포함하지만, Woburn M5M 셀의 준공도·실제 전극 간격·전해질 조성·전류효율·양극 수명은 공개하지 않는다. [^src-20260728-c2858286] | 특허 |
+| **eu research program** | ZEROSTEEL(2024-10-01~2028-09-30)은 용융산화물 전해를 네 가지 철광석 환원 연구경로 중 하나로 포함하지만, 2026-07 현재 공개 Results에는 해당 경로의 완료 캠페인·처리량·에너지 원단위·제품 품질 성과가 없다. [^src-20260728-5f743371][^src-20260728-8c2998fe] | 정부·공공자료·기타 |
+| **evidence boundary** | 문헌의 이론 에너지·탈탄소 잠재력 비교는 산업 규모 연속운전 효율, 설비수명 또는 상업 경제성 실증을 뜻하지 않는다. [^src-20260728-c00b1e0b] | 학술지 논문 |
+| **independent scale up assessment** | Ramboll 2026 비교평가 기준 MOE는 저품위 원료와 소규모 모듈 공장의 잠재력이 있으나 대규모 에너지·비용 효율은 아직 입증되지 않음 [^src-20260728-60d60f81] | 전문매체 |
+| **industrialization bottlenecks** | 고온 전해제철의 산업화 과제로 불활성 양극 내구성, 계면 반응속도, 전해질 전도도와 대형화가 지적된다. [^src-20260728-c00b1e0b] | 학술지 논문 |
+| **low temperature moe lab result** | 2026년 서울대 연구는 B2O3-Na2O 용융산화물·1,173 K·1.6 V 조건에서 철광석의 금속철 환원을 보였고, 공기 중 전류효율은 hematite 64.14%, goethite 66.00%, magnetite 67.58%였다. [^src-20260728-b069e634][^src-20260725-1486633e][^src-20260728-c7d9f0c3] | 학술지 논문 |
+| **refractory erosion test** | 2026년 동료심사 연구에서 Bayan Obo 광미 유래 CaO-SiO2-TiO2-Nb2O5-Fe2O3-CaF2 슬래그에 노출한 BN·Si3N4·ZrO2·SiC를 비교했다. SiC는 TiC/NbC 중심 치밀 보호층으로 상대적으로 안정했고 정적 도가니 침식률 4.78 mg/h를 보였다. [^src-20260728-85a65391] | 학술지 논문 |
+| **refractory result boundary** | 4.78 mg/h는 특정 산화물-불화물 광미계 슬래그의 정적 SiC 도가니 시험값이다. 교반·통전·열구배가 있는 산업 전해셀 수명이나 Boston Metal Woburn 셀의 내화물·전해질·캠페인 성능으로 환산할 수 없다. [^src-20260728-85a65391] | 학술지 논문 |
+| **route boundary** | 1,173 K borate 전해질·Pt 음극의 고체 철 석출 실험은 약 1,600°C에서 액체 철을 수집하는 Boston Metal MOE Steel과 온도·제품상·전해질·스케일업 과제가 다르며, 산업용 전극수명·연속 출선·에너지·경제성 근거가 아니다. [^src-20260728-b069e634][^src-20260725-1486633e][^src-20260728-c7d9f0c3] | 학술지 논문 |
+| **route temperature product state** | 2026년 동료심사 리뷰는 고온 전해제철을 대체로 1,073–1,223 K에서 고체·분말 철을 만드는 용융염 전해와 1,823 K 초과에서 액체 철을 지향하는 전통적 용융산화물 전해로 구분한다. [^src-20260728-c00b1e0b] | 학술지 논문 |
 
 
 ## 공개 개발 연혁
@@ -131,11 +148,36 @@ flowchart TB
 | 2011-08-05 | Electrolysis of Molten Iron Oxide with an Iridium Anode: The Role of Electrolyte Basicity [^src-20260725-1a6afbf8] |
 | 2013-05-08 | A new anode material for oxygen evolution in molten oxide electrolysis [^src-20260725-147875e9] |
 | 2023-01-27 | ArcelorMittal invests $36 million in Boston Metal [^src-20260725-9d378e7f] |
+| 2023-02-28 | Systems and methods for molten oxide electrolysis (US11591703B2) [^src-20260728-c2858286] |
 | 2024-08-05 | Economics of Electrowinning Iron from Ore for Green Steel Production [^src-20260725-1ad87d2b] |
 | 2025-03-12 | Boston Metal Celebrates Historic Commissioning Run of MOE Green Steel Cell [^src-20260725-3c2197ef] |
+| 2025-03-29 | 보스턴 메탈, 친환경 철강 생산의 새 이정표 찍다 [^src-20260728-a9ba86b5] |
+| 2026-02-11 | Healey-Driscoll Administration Awards $4.45 Million to Expand Advanced Manufacturing, Create Jobs Across Massachusetts [^src-20260728-203ccd00] |
+| 2026-02-24 | Layoffs hit Boston Metal as company plans Woburn shutdown [^src-20260728-88c8008a] |
+| 2026-03-10 | Forging the Future of Iron: Energy, Economics, and Emissions [^src-20260728-13a7a69d] |
+| 2026-03-13 | Expecting Layoffs Saturday, 71 Boston Metal Workers Get Reprieve - For Now [^src-20260728-ce51e854] |
+| 2026-05-01 | Erosion resistance evaluation of ceramic crucible in oxide-fluoride slags: Application to high-temperature molten oxide electrolysis [^src-20260728-85a65391] |
+| 2026-05-20 | Boston Metal Raises $75 Million to Scale Critical Metals Business [^src-20260728-01342e8c] |
+| 2026-06-25 | ZEROSTEEL CORDIS 현행 팩트시트 [^src-20260728-5f743371] |
 | 2026-07-07 | Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K [^src-20260725-1486633e] |
+| 2026-07-07 | Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K [^src-20260728-b069e634] |
+| 2026-07-07 | Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K [^src-20260728-c7d9f0c3] |
 
 ## 설비·공정 이미지
+
+![다중 불활성 양극, 용융산화물 전해질, 액체철 음극 풀과 산소 발생을 보여 주는 MOE AI 공정도](../assets/media/SRC-20260725-26EA1CBD/MED-49390EFFBA04.png){ .steel-media-image .steel-media-detail }
+
+**AI 재구성.** AI 재구성 — Boston Metal 공개 설명과 학술 근거를 바탕으로 다중 불활성 양극·용융산화물 전해질·액체철 음극 풀·산소 발생·연속 출선을 기능 단위로 재구성한 MOE R&D 공정도. 실제 Woburn 셀 준공도가 아님.
+
+- 출처 [[sources/SRC-20260725-26EA1CBD|SRC-20260725-26EA1CBD]] · 권리 `ai_generated` · [원문 페이지](https://www.bostonmetal.com/moe-steel) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: Boston Metal 공개 설명과 연결 학술 근거를 바탕으로 생성했습니다. 실제 셀 치수·전극 수명·운전성능을 나타내는 준공도나 실증 증거가 아닙니다.
+
+![Boston Metal Woburn 시설의 다중 불활성 양극 용융산화물 전해 산업 셀 외형](<https://www.bostonmetal.com/wp-content/uploads/2025/03/Boston-Metal-M5M-Cell-2025.jpg>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Boston Metal Woburn의 다중 불활성 양극 MOE Steel 산업 셀 공식 사진. 회사는 2025년 이 셀의 시운전과 톤 단위 용융철 출선을 발표했다. 사진은 실제 핵심 설비 외형을 보여주지만 내부 전극 간격·전해질 조성·전류효율·양극 수명이나 별도 상업 제철 플랜트 완공을 입증하는 단면도는 아니다.
+
+- 출처 [[sources/SRC-20260725-26EA1CBD|SRC-20260725-26EA1CBD]] · 권리 `link_only` · [원문 페이지](https://www.bostonmetal.com/moe-steel) · 작성·촬영 Boston Metal; photographer not identified
+- 권리 메모: Boston Metal 공식 MOE Steel 페이지 원본 사진을 원격 표시합니다. 재사용 라이선스와 촬영자 표기가 확인되지 않아 로컬 복제하지 않습니다.
 
 ![고온의 용융금속이 Boston Metal MOE 셀에서 출선되는 모습](<https://www.bostonmetal.com/wp-content/uploads/2025/04/Boston-Metal-MOE-Cell-Tap-Feb-2025.jpg>){ .steel-media-image .steel-media-compact }
 
@@ -235,6 +277,21 @@ flowchart TB
 - [[sources/SRC-20260725-4E9EE842|Low-carbon technologies for the global steel transformation: Molten oxide electrolysis]] — UNIDO / Agora Industry, 게시일 미상 · [원문](https://decarbonization.unido.org/wp-content/uploads/2025/08/a-ind_324_low-carbon-technologies_web.pdf)
 - [[sources/SRC-20260725-9D378E7F|ArcelorMittal invests $36 million in Boston Metal]] — ArcelorMittal, 2023-01-27 · [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-invests-36-million-in-steel-decarbonisation-disruptor-boston-metal)
 - [[sources/SRC-20260725-CEDC4521|Carbon-free Iron for a Sustainable Future: Boston Metal IEDO Peer Review]] — U.S. Department of Energy IEDO / Boston Metal, 게시일 미상 · [원문](https://www1.eere.energy.gov/iedo/downloads/2023/peer_review/Boston%20Metal_Lambotte_IEDO_Iron-and-Steel_Carbon%20Free%20Iron%20for%20a%20Sustainable%20Future.pdf)
+- [[sources/SRC-20260728-01342E8C|Boston Metal Raises $75 Million to Scale Critical Metals Business]] — Boston Metal / GlobeNewswire, 2026-05-20 · [원문](https://www.globenewswire.com/news-release/2026/05/20/3298554/0/en/boston-metal-raises-75-million-to-scale-critical-metals-business.html)
+- [[sources/SRC-20260728-13A7A69D|Forging the Future of Iron: Energy, Economics, and Emissions]] — Association for Iron & Steel Technology, 2026-03-10 · [원문](https://www.aist.org/getmedia/e578ebb3-40c5-4047-8c82-665a07fc6f1c/Forging-the-Future-of-Iron-Energy.pdf)
+- [[sources/SRC-20260728-203CCD00|Healey-Driscoll Administration Awards $4.45 Million to Expand Advanced Manufacturing, Create Jobs Across Massachusetts]] — Massachusetts Executive Office of Economic Development, 2026-02-11 · [원문](https://www.mass.gov/news/healey-driscoll-administration-awards-445-million-to-expand-advanced-manufacturing-create-jobs-across-massachusetts)
+- [[sources/SRC-20260728-422A2AB7|MOE Steel current roadmap and critical-metals sequencing]] — Boston Metal, 게시일 미상 · [원문](https://www.bostonmetal.com/green-steel-solution/)
+- [[sources/SRC-20260728-5F743371|ZEROSTEEL CORDIS 현행 팩트시트]] — European Commission CORDIS, 2026-06-25 · [원문](https://cordis.europa.eu/project/id/101178435)
+- [[sources/SRC-20260728-60D60F81|Forging a cleaner future: Advances and business models in electrochemical iron production]] — Ramboll, 게시일 미상 · [원문](https://c.ramboll.com/hubfs/Low-Carbon-Steel/Electrochemical-Whitepaper.pdf)
+- [[sources/SRC-20260728-85A65391|Erosion resistance evaluation of ceramic crucible in oxide-fluoride slags: Application to high-temperature molten oxide electrolysis]] — Elsevier, 2026-05-01 · [원문](https://doi.org/10.1016/j.ceramint.2026.03.364)
+- [[sources/SRC-20260728-88C8008A|Layoffs hit Boston Metal as company plans Woburn shutdown]] — Boston.com, 2026-02-24 · [원문](https://www.boston.com/news/business/2026/02/24/layoffs-hit-boston-metal-as-company-plans-woburn-shutdown/)
+- [[sources/SRC-20260728-8C2998FE|ZEROSTEEL 공식 프로젝트 소개]] — ZEROSTEEL Horizon Project, 게시일 미상 · [원문](https://zerosteel.eu/about/)
+- [[sources/SRC-20260728-A9BA86B5|보스턴 메탈, 친환경 철강 생산의 새 이정표 찍다]] — MIT Technology Review Korea, 2025-03-29 · [원문](https://www.technologyreview.kr/보스턴-메탈-친환경-철강-생산의-새-이정표-찍다/)
+- [[sources/SRC-20260728-B069E634|Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K]] — Springer Nature / Scientific Reports, 2026-07-07 · [원문](https://doi.org/10.1038/s41598-026-58521-y)
+- [[sources/SRC-20260728-C00B1E0B|High-temperature electrolytic ironmaking driven by green electricity toward decarbonization: Evaluating molten salt electrolysis and molten oxide electrolysis routes]] — Elsevier, 게시일 미상 · [원문](https://doi.org/10.1016/j.rser.2026.117058)
+- [[sources/SRC-20260728-C2858286|Systems and methods for molten oxide electrolysis (US11591703B2)]] — United States Patent and Trademark Office (USPTO), 2023-02-28 · [원문](https://patents.google.com/patent/US11591703B2/en)
+- [[sources/SRC-20260728-C7D9F0C3|Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K]] — Scientific Reports / Springer Nature, 2026-07-07 · [원문](https://www.nature.com/articles/s41598-026-58521-y)
+- [[sources/SRC-20260728-CE51E854|Expecting Layoffs Saturday, 71 Boston Metal Workers Get Reprieve - For Now]] — Woburn Patch, 2026-03-13 · [원문](https://patch.com/massachusetts/woburn/expecting-layoffs-saturday-71-boston-metal-works-get-reprieve-now)
 
 [^src-20260725-147875e9]: **A new anode material for oxygen evolution in molten oxide electrolysis** — Nature, 2013-05-08. DOI: [10.1038/nature12134](https://doi.org/10.1038/nature12134). [원문](https://www.nature.com/articles/nature12134) · [[sources/SRC-20260725-147875E9|보관 원문·메타데이터]]
 [^src-20260725-1486633e]: **Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K** — Scientific Reports, 2026-07-07. DOI: [10.1038/s41598-026-58521-y](https://doi.org/10.1038/s41598-026-58521-y). [원문](https://www.nature.com/articles/s41598-026-58521-y) · [[sources/SRC-20260725-1486633E|보관 원문·메타데이터]]
@@ -245,3 +302,17 @@ flowchart TB
 [^src-20260725-4e9ee842]: **Low-carbon technologies for the global steel transformation: Molten oxide electrolysis** — UNIDO / Agora Industry, 게시일 미상. [원문](https://decarbonization.unido.org/wp-content/uploads/2025/08/a-ind_324_low-carbon-technologies_web.pdf) · [[sources/SRC-20260725-4E9EE842|보관 원문·메타데이터]]
 [^src-20260725-9d378e7f]: **ArcelorMittal invests $36 million in Boston Metal** — ArcelorMittal, 2023-01-27. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-invests-36-million-in-steel-decarbonisation-disruptor-boston-metal) · [[sources/SRC-20260725-9D378E7F|보관 원문·메타데이터]]
 [^src-20260725-cedc4521]: **Carbon-free Iron for a Sustainable Future: Boston Metal IEDO Peer Review** — U.S. Department of Energy IEDO / Boston Metal, 게시일 미상. [원문](https://www1.eere.energy.gov/iedo/downloads/2023/peer_review/Boston%20Metal_Lambotte_IEDO_Iron-and-Steel_Carbon%20Free%20Iron%20for%20a%20Sustainable%20Future.pdf) · [[sources/SRC-20260725-CEDC4521|보관 원문·메타데이터]]
+[^src-20260728-01342e8c]: **Boston Metal Raises $75 Million to Scale Critical Metals Business** — Boston Metal / GlobeNewswire, 2026-05-20. [원문](https://www.globenewswire.com/news-release/2026/05/20/3298554/0/en/boston-metal-raises-75-million-to-scale-critical-metals-business.html) · [[sources/SRC-20260728-01342E8C|보관 원문·메타데이터]]
+[^src-20260728-13a7a69d]: **Forging the Future of Iron: Energy, Economics, and Emissions** — Association for Iron & Steel Technology, 2026-03-10. [원문](https://www.aist.org/getmedia/e578ebb3-40c5-4047-8c82-665a07fc6f1c/Forging-the-Future-of-Iron-Energy.pdf) · [[sources/SRC-20260728-13A7A69D|보관 원문·메타데이터]]
+[^src-20260728-203ccd00]: **Healey-Driscoll Administration Awards $4.45 Million to Expand Advanced Manufacturing, Create Jobs Across Massachusetts** — Massachusetts Executive Office of Economic Development, 2026-02-11. [원문](https://www.mass.gov/news/healey-driscoll-administration-awards-445-million-to-expand-advanced-manufacturing-create-jobs-across-massachusetts) · [[sources/SRC-20260728-203CCD00|보관 원문·메타데이터]]
+[^src-20260728-5f743371]: **ZEROSTEEL CORDIS 현행 팩트시트** — European Commission CORDIS, 2026-06-25. [원문](https://cordis.europa.eu/project/id/101178435) · [[sources/SRC-20260728-5F743371|보관 원문·메타데이터]]
+[^src-20260728-60d60f81]: **Forging a cleaner future: Advances and business models in electrochemical iron production** — Ramboll, 게시일 미상. [원문](https://c.ramboll.com/hubfs/Low-Carbon-Steel/Electrochemical-Whitepaper.pdf) · [[sources/SRC-20260728-60D60F81|보관 원문·메타데이터]]
+[^src-20260728-85a65391]: **Erosion resistance evaluation of ceramic crucible in oxide-fluoride slags: Application to high-temperature molten oxide electrolysis** — Elsevier, 2026-05-01. DOI: [10.1016/j.ceramint.2026.03.364](https://doi.org/10.1016/j.ceramint.2026.03.364). [원문](https://doi.org/10.1016/j.ceramint.2026.03.364) · [[sources/SRC-20260728-85A65391|보관 원문·메타데이터]]
+[^src-20260728-88c8008a]: **Layoffs hit Boston Metal as company plans Woburn shutdown** — Boston.com, 2026-02-24. [원문](https://www.boston.com/news/business/2026/02/24/layoffs-hit-boston-metal-as-company-plans-woburn-shutdown/) · [[sources/SRC-20260728-88C8008A|보관 원문·메타데이터]]
+[^src-20260728-8c2998fe]: **ZEROSTEEL 공식 프로젝트 소개** — ZEROSTEEL Horizon Project, 게시일 미상. [원문](https://zerosteel.eu/about/) · [[sources/SRC-20260728-8C2998FE|보관 원문·메타데이터]]
+[^src-20260728-a9ba86b5]: **보스턴 메탈, 친환경 철강 생산의 새 이정표 찍다** — MIT Technology Review Korea, 2025-03-29. [원문](https://www.technologyreview.kr/보스턴-메탈-친환경-철강-생산의-새-이정표-찍다/) · [[sources/SRC-20260728-A9BA86B5|보관 원문·메타데이터]]
+[^src-20260728-b069e634]: **Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K** — Springer Nature / Scientific Reports, 2026-07-07. DOI: [10.1038/s41598-026-58521-y](https://doi.org/10.1038/s41598-026-58521-y). [원문](https://doi.org/10.1038/s41598-026-58521-y) · [[sources/SRC-20260728-B069E634|보관 원문·메타데이터]]
+[^src-20260728-c00b1e0b]: **High-temperature electrolytic ironmaking driven by green electricity toward decarbonization: Evaluating molten salt electrolysis and molten oxide electrolysis routes** — Elsevier, 게시일 미상. DOI: [10.1016/j.rser.2026.117058](https://doi.org/10.1016/j.rser.2026.117058). [원문](https://doi.org/10.1016/j.rser.2026.117058) · [[sources/SRC-20260728-C00B1E0B|보관 원문·메타데이터]]
+[^src-20260728-c2858286]: **Systems and methods for molten oxide electrolysis (US11591703B2)** — United States Patent and Trademark Office (USPTO), 2023-02-28. [원문](https://patents.google.com/patent/US11591703B2/en) · [[sources/SRC-20260728-C2858286|보관 원문·메타데이터]]
+[^src-20260728-c7d9f0c3]: **Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K** — Scientific Reports / Springer Nature, 2026-07-07. DOI: [10.1038/s41598-026-58521-y](https://doi.org/10.1038/s41598-026-58521-y). [원문](https://www.nature.com/articles/s41598-026-58521-y) · [[sources/SRC-20260728-C7D9F0C3|보관 원문·메타데이터]]
+[^src-20260728-ce51e854]: **Expecting Layoffs Saturday, 71 Boston Metal Workers Get Reprieve - For Now** — Woburn Patch, 2026-03-13. [원문](https://patch.com/massachusetts/woburn/expecting-layoffs-saturday-71-boston-metal-works-get-reprieve-now) · [[sources/SRC-20260728-CE51E854|보관 원문·메타데이터]]

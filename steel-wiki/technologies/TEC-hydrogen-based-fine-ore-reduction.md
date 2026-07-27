@@ -2,7 +2,7 @@
 
 # 무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)
 
-> 조사 기준일: **2026-07-27** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-28** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 환원·용융 경로"
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![4개 독립 유동층 반응기가 계단식으로 배치되고 각 단계 cyclone이 비산 미분을 같은 반응기로 되돌리며 수소계 가스는 FBR-4에서 FBR-1로 역방향 흐르는 HyREX 공개 개념 기반 AI 재구성](../assets/media/SRC-20260725-013F0FA1/MED-1DFBEB84CEB5.png){ .steel-media-image .steel-hero-image .steel-media-detail }
+![분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도](<https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — AI 재구성 — POSCO 공개 HyREX 개념도를 바탕으로 4개 독립 유동층 반응기의 계단식 캐스케이드, 단계별 cyclone의 비산 미분 회수·동일 반응기 환류, 환원가스의 FBR-4→FBR-1 향류, 압력 경계를 고려한 단계간 고체 이송과 고온 DRI 밀폐 배출을 재구성했다. 반응기 단수와 이송·밀봉 상세는 공개 개념 범위이며 실제 실증설비의 준공도·PFD·P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-013F0FA1|SRC-20260725-013F0FA1]] · [원문 페이지](https://www.posco.com/homepage/docs/eng7/jsp/hyrex))*
+*대표 이미지 — POSCO 공식 HyREX 공정도: 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-013F0FA1|SRC-20260725-013F0FA1]] · [원문 페이지](https://www.posco.com/homepage/docs/eng7/jsp/hyrex))*
 
 !!! abstract "한눈에 보기"
 
@@ -46,7 +46,7 @@
 ‘무펠릿’은 모든 조립을 금지한다는 뜻이 아닙니다. Circored는 통상적인 DR 펠릿을 생략하지만 50 μm 이하 초미분을 바인더와 함께 미세 조립할 수 있습니다. 또한 HYFOR·HyREX의 다단 유동층과 Circored의 순환·기포 유동층은 반응기 구성과 운전창이 다르므로 동일 공정으로 합산하지 않습니다.
 
 - **근거 확인 기업:** 3개
-- **직접 연결 근거:** 13건
+- **직접 연결 근거:** 37건
 
 ## 작동 원리
 
@@ -103,7 +103,7 @@ flowchart TB
 | **유동층 단계 구성** | HYFOR는 가스 정제·가열 계통과 연결된 일련의 유동층 반응기에서 단계적으로 환원 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **환원가스 재순환** | HYFOR는 반응 후 가스를 정제해 공정으로 재순환하는 폐회로 환원가스 계통을 사용 [^src-20260725-a23b5a64] | 설비 공급사 |
 | **분진 회수·재순환** | HYFOR 파일럿은 건식 집진으로 회수한 분진을 공정에 재투입하도록 구성 [^src-20260725-bc8de092] | 설비 공급사 |
-| **단계별 cyclone 기능** | POSCO·RIST의 FINEX 계열 선행 특허는 각 유동층 반응기 상부 배출가스에서 cyclone으로 비산 미분을 분리해 동일 반응기 하부로 환류하고, 미분이 제거된 가스는 다음 반응기로 보내는 구성을 공개한다. 이는 현재 HyREX 실증설비의 준공도나 상세 압력실링 구성을 뜻하지 않는다. [^src-20260727-481a04fd] | 특허 |
+| **단계별 cyclone 기능** | POSCO HyREX 공개 학술 도식은 4개의 독립 유동층 반응기를 계단식으로 배치하고, 각 reactor shell 내부 freeboard에 4기의 고효율 cyclone과 internal dipleg를 두어 비산 초미분을 같은 반응기로 환류하는 구성을 제시한다. Cyclone 본체는 입자를 분리하고 dipleg의 농후 고체층은 하부 shortcut·역류 가스를 억제하는 pressure seal로 기능한다. 단계 간 주 고체류는 이 내부 미분 환류계통과 분리된 압력평형 이송경로를 사용한다. 공개 학술 개념도와 FINEX 산업모델 근거이며 포항 실증설비의 PFD·P&ID 또는 준공도는 아니다. [^src-20260728-d16cf64f][^src-20260728-6caf8ad1][^src-20260727-481a04fd] | 학술지 논문·특허 |
 | **고착 발생 메커니즘** | 환원 중 생성된 금속철 표면과 철 whisker가 입자 사이 결합을 만들어 유동층 탈유동화를 일으킬 수 있음 [^src-20260725-043634ea] | 학술지 논문 |
 | **고착 억제 수단** | 고착 완화 수단은 표면 코팅, 광석 혼합, 조립, 단계환원, 순환·원추형 유동층, 기계적 교반과 입자 구조 제어를 포함 [^src-20260725-043634ea] | 학술지 논문 |
 
@@ -137,6 +137,28 @@ flowchart TB
 | **파일럿 회분 투입량** | HYFOR 2021년 초기 시험은 시험 회당 약 800 kg의 광석을 사용 [^src-20260725-bc8de092] | 설비 공급사 |
 | **파일럿 캠페인 계획** | HYFOR는 2021년부터 최소 2년간 여러 광종을 대상으로 시험 캠페인을 계획 [^src-20260725-bc8de092] | 설비 공급사 |
 
+### 최신 실증·검증 정보
+
+기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **distributor local reduction rate model** | 2026년 동료심사 실험실 규모 CFD에서 분산판 제트는 가스 입구 부근 국부 환원속도를 약 2.1배 높였지만, 이는 처리량·생산성·금속화율 2.1배를 뜻하지 않는다. [^src-20260728-ad321dec] | 학술지 논문 |
+| **experimental scale boundary** | 57~61 wt% Fe 호주광 결과는 독립 배치 유동층 실험으로 미분광 수소환원의 가능성과 고착 위험을 뒷받침하지만, HYFOR·HyREX 통합 파일럿의 연속 처리량·가동률·상용 스케일 성능을 검증하지는 않는다. [^src-20260728-d8c7d596] | 학술지 논문 |
+| **fluidization parameter effect** | Within the simulated range, higher gas viscosity and superficial velocity improved fluidization; higher temperature also improved modeled fluidization through higher viscosity and slightly lower particle surface energy. [^src-20260728-73faeba5] | 학술지 논문 |
+| **hydrogen supply limited reduction model** | 모델 조건에서는 하부 유동층에서 수소가 거의 평형에 도달해 상부에 반응성이 낮은 구역이 형성됐고, 전체 환원은 고유 반응속도보다 수소 공급에 지배됐다. [^src-20260728-ad321dec] | 학술지 논문 |
+| **incite hyfor feed and reactor configuration** | INCITE 프로필의 HYFOR 설계는 통상 150 µm 미만·최대 500 µm 미분광을 약 900°C에서 예열·산화한 뒤 2기 연속 수소 유동층에서 환원한다. [^src-20260728-06def489] | 정부·공공자료 |
+| **independent reduction result** | 동일 배치 실험에서 700°C 12분 및 800°C 18분 이내 환원도 93% 초과가 관찰됐으나, 규소 불순물과의 fayalite 형성이 최종 환원도를 제한했다. [^src-20260728-d8c7d596] | 학술지 논문 |
+| **independent temperature sticking window** | 2026년 독립 실험에서 57~61 wt% Fe의 Pilbara 적철석-침철석 4종은 500~800°C 수소 환원 중 안정 유동화됐지만, 900°C에서는 4종 중 3종이 고착·가스 채널링·탈유동을 보였다. [^src-20260728-d8c7d596] | 학술지 논문 |
+| **low grade ore route tradeoff** | 저품위광 H2DRI를 EAF로 직접 처리하면 플럭스·슬래그·에너지·철 손실 부담이 커질 수 있고, 유동층 H2DRI-ESF-BOF는 환원·맥석 제거를 분담해 저품위광 적응 여지를 넓힌다는 모델 결과 [^src-20260728-4039f069][^src-20260728-40534940] | 학술지 논문 |
+| **model evidence boundary** | The result is a numerical mechanism/design-window study validated against literature data, not operating evidence from HYFOR, HyREX, or a commercial reactor; higher velocity also requires an entrainment assessment. [^src-20260728-73faeba5] | 학술지 논문 |
+| **modeled fluidization window** | A peer-reviewed DEM-CFD study modeled 30,000 iron-ore particles (75–150 µm) under H2, CO, and 70% H2–30% CH4 at 1.0–2.5 m/s and 873.15–1073.15 K. [^src-20260728-73faeba5] | 학술지 논문 |
+| **multistage reduction control factors** | 400 g 실험에서 금속철 전환은 주로 R2–R1 단계에서 일어났고, 환원도는 온도와 가스 산화도에 크게 좌우된 것으로 보고됐다. [^src-20260728-188fd401] | 학회 논문 |
+| **ore property scaleup evidence** | HyREX 확대에서 광종별 환원 kinetics·분화와 환원 중 입도·밀도 변화, sticking·defluidization 운전창 검증이 필요하며, 이는 공개 실험·발표 근거이지 포항 실증설비의 성능 미달 또는 고장 발생을 뜻하지 않음 [^src-20260728-fa603c67][^src-20260728-d16cf64f] | 전문매체·학술지 논문 |
+| **overall reduction distributor sensitivity model** | 같은 CFD 조건에서 빠른 수소 소비와 강한 입자 혼합 때문에 분산판 유무에 따른 전체 환원도 차이는 1% 미만이었다; 실험실 조건 결과로 산업 규모에 일반화할 수 없다. [^src-20260728-ad321dec] | 학술지 논문 |
+| **public result scope** | 2026-06-25 CORDIS Results는 ZEROSTEEL 관련 고압 수소 유동층 반응기의 설계·설치 논문 1편을 COM 2026 회의록으로 등재했다. 그러나 공식 행사일은 2026-08-17~20으로 수집일 이후이며, 공개 목록 자체에는 연속 운전 완료, 금속화율, 처리량, 압력, 에너지 원단위, 가동률 또는 제품 품질 KPI가 없다. [^src-20260728-11747e83] | 정부·공공자료 |
+| **reduction split strategy** | 유동층의 과도한 금속화에서 고착·탈유동 위험을 줄이기 위해 H2DRI와 ESF 사이에 환원부담을 나누는 설계 전략; 상용 실증 완료 주장이 아님 [^src-20260728-4039f069] | 학술지 논문 |
+
 
 ## 공개 개발 연혁
 
@@ -144,22 +166,35 @@ flowchart TB
 | --- | --- |
 | 2003-07-01 | US6585798B2 — Fluidized bed reactor for preventing the fine iron ore from sticking therein and method thereof [^src-20260727-481a04fd] |
 | 2020-01-15 | A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore [^src-20260725-043634ea] |
+| 2020-06-26 | Computational Fluid Dynamics Simulation of Iron Ore Reduction in Industrial-Scale Fluidized Beds [^src-20260728-6caf8ad1] |
 | 2021-06-24 | HYFOR Pilot Plant Under Operation [^src-20260725-bc8de092] |
+| 2023-06-12 | Achieving Sustainable Green Steel - HYFOR flowsheet [^src-20260728-0cb6166d] |
 | 2024-09-11 | POSCO HyREX electric smelting furnace pilot status [^src-20260725-a6759186] |
 | 2024-09-19 | Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant [^src-20260725-bab49577] |
+| 2025-01-24 | Production of green steel from low-grade ores: An end-to-end techno-economic assessment [^src-20260728-40534940] |
+| 2025-07-07 | Evaluation of Hydrogen Reduction Characteristics of Different Iron Ore Types under HyREX Reduction Conditions [^src-20260728-d16cf64f] |
+| 2025-07-29 | 산업부문 온실가스 감축 정책 평가 [^src-20260728-5db16a4e] |
 | 2025-09-25 | Construction begins on HYFOR and Smelter demonstration plant [^src-20260725-e316d68f] |
+| 2025-09-25 | Start of construction for hydrogen-based iron production plant in Linz - HYFOR pilot update [^src-20260728-8a38b43f] |
 | 2025-10-29 | POSCO decarbonization strategies from CCUS to HyREX [^src-20260725-ff076fe4] |
+| 2026-01-15 | Effect of process parameters on fluidization and agglomeration behavior of iron ore fines [^src-20260728-73faeba5] |
+| 2026-01-26 | 2026년도 한국형수소환원제철실증기술개발사업 신규지원 대상과제 공고 [^src-20260728-a93b9bd0] |
+| 2026-02-19 | Rio Tinto Annual Report on Form 20-F 2025 - Hy4Smelt disclosure [^src-20260728-cba8ac84] |
+| 2026-03-03 | POSCO Holdings FY2025 ESG Management Update - HyREX construction status [^src-20260728-f9f9f2cd] |
 | 2026-03-11 | Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction [^src-20260726-eadb3777] |
+| 2026-03-26 | 국가연구개발사업 예비타당성조사 2025 연차보고서 - 한국형 수소환원제철 실증기술개발사업 [^src-20260728-ff44a697] |
+| 2026-05-04 | Experimental Study on Multistage Hydrogen Reduction of Iron Ore by Fluidized Bed Reactor [^src-20260728-188fd401] |
+| 2026-05-12 | Hy4Smelt – Industrial Demonstration Project to Proof Potential Net-Zero Ironmaking by Combining Breakthrough HYFOR and Smelter Technologies [^src-20260728-7d3d8f38] |
+| 2026-05-20 | Towards green steel from hydrogen-based direct reduction of low-grade iron ores: Techno-economic and greenhouse gas emissions assessment [^src-20260728-4039f069] |
+| 2026-06-01 | Numerical analysis of hydrogen-based iron ore reduction in a fluidized bed reactor: influence of distributor plate on reaction kinetics [^src-20260728-ad321dec] |
+| 2026-06-01 | Hydrogen fluidised-bed reduction of Australian hematite-goethite iron ores [^src-20260728-d8c7d596] |
+| 2026-06-03 | voestalpine Annual Report 2025/26 - Hy4Smelt demonstration plant [^src-20260728-d5828b6f] |
 | 2026-06-22 | POSCO completes Gwangyang EAF and advances HyREX [^src-20260725-b859ca04] |
+| 2026-06-22 | POSCO accelerates decarbonized production system - HyREX groundwork update [^src-20260728-e90d8967] |
+| 2026-06-25 | ZEROSTEEL CORDIS Results page and listed COM 2026 proceeding [^src-20260728-11747e83] |
+| 2026-07-17 | Introduction to HyREX by POSCO - 2026 Emerging Fluidization Applications Workshop [^src-20260728-fa603c67] |
 
 ## 설비·공정 이미지
-
-![분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도](<https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg>){ .steel-media-image .steel-media-detail }
-
-**공정 개념도.** POSCO 공식 HyREX 공정도: 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계
-
-- 출처 [[sources/SRC-20260725-013F0FA1|SRC-20260725-013F0FA1]] · 권리 `link_only` · [원문 페이지](https://www.posco.com/homepage/docs/eng7/jsp/hyrex) · 작성·촬영 POSCO
-- 권리 메모: POSCO 공식 HyREX 페이지에서 원본 이미지와 공정 설명을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원격 링크로만 표시합니다.
 
 ![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-media-compact }
 
@@ -174,6 +209,13 @@ flowchart TB
 
 - 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · 권리 `link_only` · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor) · 작성·촬영 Primetals Technologies
 - 권리 메모: Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
+
+![Four descending HyREX fluidized-bed reactor shells with four internal cyclones and diplegs in each reactor, stage gas loops, solids transfer and downstream electric smelting furnace](../assets/media/SRC-20260728-D16CF64F/MED-DD7AB499459F.png){ .steel-media-image .steel-media-detail }
+
+**학술 자료 그림.** POSCO 연구진이 공개한 HyREX 개념 구성. 4기의 독립 유동층 반응기가 계단식으로 배치되고, 각 reactor shell 내부 freeboard에 4기의 고효율 cyclone과 dipleg가 표시된다. 사이클론은 비산 초미분을 포집·환류하며, 외부 stage gas loop와 별도의 고체 이송 경로를 거쳐 환원분이 ESF로 공급된다. 공개 학술 개념도이며 포항 실증설비의 PFD·P&ID 또는 준공도는 아니다.
+
+- 출처 [[sources/SRC-20260728-D16CF64F|SRC-20260728-D16CF64F]] · 권리 `permitted` · [원문 페이지](https://link.springer.com/article/10.1007/s11663-025-03645-1/figures/1) · 작성·촬영 Gi-Ho La, Ji-Wook Park, Chang-Kuk Ko, Young-Seok Lee, Myoung-Gyun Shin / POSCO Technical Research Laboratories
+- 권리 메모: Figure 1 of La et al. (2025), Metallurgical and Materials Transactions B, DOI 10.1007/s11663-025-03645-1. Article distributed under Creative Commons Attribution 4.0; no separate third-party credit is shown for this figure. Attribution and source link retained.
 
 
 ## 기업별 상세 현황
@@ -209,7 +251,7 @@ flowchart TB
 | 프로젝트 | 현재 확인 상태 | 일정·규모 |
 | --- | --- | --- |
 | **[[projects/PRJ-HYFOR-DONAWITZ-PILOT|HYFOR Donawitz 수소환원 파일럿]]** | 2021년 4월 시운전 후 초기 시험 캠페인을 수행한 HYFOR 수소 미분광 환원 파일럿 [^src-20260725-bc8de092] | - |
-| **[[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]** | 건설 중 [^src-20260725-e316d68f] | **시간당 처리능력** 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] · **목표 가동 시점** 2027년 말 [^src-20260725-e316d68f] |
+| **[[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]** | 건설 중 [^src-20260725-e316d68f][^src-20260728-d5828b6f][^src-20260728-cba8ac84] | **시간당 처리능력** 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] · **목표 가동 시점** 2027년 말 [^src-20260725-e316d68f][^src-20260728-d5828b6f][^src-20260728-1bf41b90][^src-20260728-cba8ac84] |
 | **[[projects/PRJ-POSCO-HYREX-DEMO|POSCO 포항 HyREX 통합 실증]]** | 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 [^src-20260725-b859ca04] | **연간 생산능력** 연 300,000 tonnes [^src-20260725-b859ca04] |
 
 ## 기술적 쟁점과 미공개 데이터
@@ -279,6 +321,30 @@ flowchart TB
 - [[sources/SRC-20260726-EADB3777|Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction]] — Association for Iron & Steel Technology, 2026-03-11 · [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf)
 - [[sources/SRC-20260727-481A04FD|US6585798B2 — Fluidized bed reactor for preventing the fine iron ore from sticking therein and method thereof]] — POSCO Holdings Inc. / RIST, 2003-07-01 · [원문](https://patents.google.com/patent/US6585798)
 - [[sources/SRC-20260727-A39F1D70|POSCO Climate Change - HyREX demonstration plan and current schedule]] — POSCO ESG, 게시일 미상 · [원문](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953)
+- [[sources/SRC-20260728-06DEF489|Hydrogen based ultra fine ore reduction combined with a continuous powered electric smelting furnace for liquid iron production (HYFOR / HY4SMELT)]] — European Commission Joint Research Centre - INCITE, 게시일 미상 · [원문](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/hydrogen-based-ultra-fine-ore-reduction-combined-continuous-powered-electric)
+- [[sources/SRC-20260728-0CB6166D|Achieving Sustainable Green Steel - HYFOR flowsheet]] — Primetals Technologies, 2023-06-12 · [원문](https://www.primetals.com/en/metals-magazine/achieving-green-steel/)
+- [[sources/SRC-20260728-11747E83|ZEROSTEEL CORDIS Results page and listed COM 2026 proceeding]] — European Commission CORDIS, 2026-06-25 · [원문](https://cordis.europa.eu/project/id/101178435/results)
+- [[sources/SRC-20260728-188FD401|Experimental Study on Multistage Hydrogen Reduction of Iron Ore by Fluidized Bed Reactor]] — Association for Iron & Steel Technology, 2026-05-04 · [원문](https://aistech.secure-platform.com/site/gallery/rounds/82013/details/17615)
+- [[sources/SRC-20260728-1BF41B90|HY4SMELT AUF DEM WEG ZUR UMSETZUNG]] — voestalpine Stahl GmbH / Stella Sustainable, 게시일 미상 · [원문](https://www.voestalpine.com/stella/News/HY4SMELT-AUF-DEM-WEG-ZUR-UMSETZUNG)
+- [[sources/SRC-20260728-4039F069|Towards green steel from hydrogen-based direct reduction of low-grade iron ores: Techno-economic and greenhouse gas emissions assessment]] — International Journal of Hydrogen Energy / Elsevier, 2026-05-20 · [원문](https://www.sciencedirect.com/science/article/pii/S0360319926017118)
+- [[sources/SRC-20260728-40534940|Production of green steel from low-grade ores: An end-to-end techno-economic assessment]] — Cell Reports Sustainability / Elsevier, 2025-01-24 · [원문](https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/d3990a62-6fc4-4024-bf52-c778e1b44e3f/content)
+- [[sources/SRC-20260728-5DB16A4E|산업부문 온실가스 감축 정책 평가]] — 대한민국 국회예산정책처, 2025-07-29 · [원문](https://www.nabo.go.kr/ko/report/analysisView.do?idx=8839)
+- [[sources/SRC-20260728-6CAF8AD1|Computational Fluid Dynamics Simulation of Iron Ore Reduction in Industrial-Scale Fluidized Beds]] — Wiley-VCH / steel research international, 2020-06-26 · [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/StResInt_special_issue_2020/srin.202000232_Schneiderbauer_2020.pdf)
+- [[sources/SRC-20260728-73FAEBA5|Effect of process parameters on fluidization and agglomeration behavior of iron ore fines]] — Elsevier, 2026-01-15 · [원문](https://doi.org/10.1016/j.powtec.2025.121500)
+- [[sources/SRC-20260728-7C490C85|Hy4Smelt official project page - overall approach and Smelter inside schematic]] — Hy4Smelt Project / K1-MET GmbH, 게시일 미상 · [원문](https://www.hy4smelt-project.eu/)
+- [[sources/SRC-20260728-7D3D8F38|Hy4Smelt – Industrial Demonstration Project to Proof Potential Net-Zero Ironmaking by Combining Breakthrough HYFOR and Smelter Technologies]] — EEC 2026 / EMECR 2026 / Primetals Technologies, 2026-05-12 · [원문](https://submit.m-n.marketing/event/66/contributions/5479/)
+- [[sources/SRC-20260728-7EF29AFA|Climate Change - HyREX deployment status]] — POSCO, 게시일 미상 · [원문](https://sustainability.posco.co.kr/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953)
+- [[sources/SRC-20260728-8A38B43F|Start of construction for hydrogen-based iron production plant in Linz - HYFOR pilot update]] — Primetals Technologies, 2025-09-25 · [원문](https://dam.primetals.com/m/a1a1b19c94313a0/original/PR2025083472de.pdf)
+- [[sources/SRC-20260728-A93B9BD0|2026년도 한국형수소환원제철실증기술개발사업 신규지원 대상과제 공고]] — 대한민국 산업통상부, 2026-01-26 · [원문](https://www.motir.go.kr/kor/article/ATCLf724eb567/212874/view)
+- [[sources/SRC-20260728-AD321DEC|Numerical analysis of hydrogen-based iron ore reduction in a fluidized bed reactor: influence of distributor plate on reaction kinetics]] — Elsevier, 2026-06-01 · [원문](https://doi.org/10.1016/j.clet.2026.101252)
+- [[sources/SRC-20260728-CBA8AC84|Rio Tinto Annual Report on Form 20-F 2025 - Hy4Smelt disclosure]] — Rio Tinto / U.S. Securities and Exchange Commission, 2026-02-19 · [원문](https://www.sec.gov/Archives/edgar/data/863064/000162828026009531/rio-20251231.htm)
+- [[sources/SRC-20260728-D16CF64F|Evaluation of Hydrogen Reduction Characteristics of Different Iron Ore Types under HyREX Reduction Conditions]] — Springer Nature / Metallurgical and Materials Transactions B, 2025-07-07 · [원문](https://link.springer.com/article/10.1007/s11663-025-03645-1)
+- [[sources/SRC-20260728-D5828B6F|voestalpine Annual Report 2025/26 - Hy4Smelt demonstration plant]] — voestalpine AG, 2026-06-03 · [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html)
+- [[sources/SRC-20260728-D8C7D596|Hydrogen fluidised-bed reduction of Australian hematite-goethite iron ores]] — Cleaner Engineering and Technology / Elsevier, 2026-06-01 · [원문](https://doi.org/10.1016/j.clet.2026.101212)
+- [[sources/SRC-20260728-E90D8967|POSCO accelerates decarbonized production system - HyREX groundwork update]] — POSCO Group Newsroom, 2026-06-22 · [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/)
+- [[sources/SRC-20260728-F9F9F2CD|POSCO Holdings FY2025 ESG Management Update - HyREX construction status]] — POSCO Holdings / U.S. SEC, 2026-03-03 · [원문](https://www.sec.gov/Archives/edgar/data/889132/000119312526062778/d31229dex991.htm)
+- [[sources/SRC-20260728-FA603C67|Introduction to HyREX by POSCO - 2026 Emerging Fluidization Applications Workshop]] — CPFD Software, 2026-07-17 · [원문](https://cpfd-software.com/introduction-to-hyrex-by-posco/)
+- [[sources/SRC-20260728-FF44A697|국가연구개발사업 예비타당성조사 2025 연차보고서 - 한국형 수소환원제철 실증기술개발사업]] — 한국과학기술기획평가원(KISTEP), 2026-03-26 · [원문](https://www.kistep.re.kr/reportDetail.es?mid=a10305060000&rpt_no=RES0220260093&rpt_tp=831-003)
 
 [^src-20260725-043634ea]: **A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore** — The Iron and Steel Institute of Japan, 2020-01-15. DOI: [10.2355/isijinternational.isijint-2019-392](https://doi.org/10.2355/isijinternational.isijint-2019-392). [원문](https://www.jstage.jst.go.jp/article/isijinternational/60/1/60_ISIJINT-2019-392/_html/-char/en) · [[sources/SRC-20260725-043634EA|보관 원문·메타데이터]]
 [^src-20260725-6f7c35d8]: **Circored Fine Ore Direct Reduction** — Metso Outotec, 게시일 미상. [원문](https://www.metso.com/globalassets/pdfs-and-other-downloads/circored---fine-ore-direct-reduction.pdf?r=3) · [[sources/SRC-20260725-6F7C35D8|보관 원문·메타데이터]]
@@ -291,3 +357,25 @@ flowchart TB
 [^src-20260725-ff076fe4]: **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29. [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
 [^src-20260726-eadb3777]: **Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction** — Association for Iron & Steel Technology, 2026-03-11. [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf) · [[sources/SRC-20260726-EADB3777|보관 원문·메타데이터]]
 [^src-20260727-481a04fd]: **US6585798B2 — Fluidized bed reactor for preventing the fine iron ore from sticking therein and method thereof** — POSCO Holdings Inc. / RIST, 2003-07-01. [원문](https://patents.google.com/patent/US6585798) · [[sources/SRC-20260727-481A04FD|보관 원문·메타데이터]]
+[^src-20260728-06def489]: **Hydrogen based ultra fine ore reduction combined with a continuous powered electric smelting furnace for liquid iron production (HYFOR / HY4SMELT)** — European Commission Joint Research Centre - INCITE, 게시일 미상. [원문](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/hydrogen-based-ultra-fine-ore-reduction-combined-continuous-powered-electric) · [[sources/SRC-20260728-06DEF489|보관 원문·메타데이터]]
+[^src-20260728-0cb6166d]: **Achieving Sustainable Green Steel - HYFOR flowsheet** — Primetals Technologies, 2023-06-12. [원문](https://www.primetals.com/en/metals-magazine/achieving-green-steel/) · [[sources/SRC-20260728-0CB6166D|보관 원문·메타데이터]]
+[^src-20260728-11747e83]: **ZEROSTEEL CORDIS Results page and listed COM 2026 proceeding** — European Commission CORDIS, 2026-06-25. [원문](https://cordis.europa.eu/project/id/101178435/results) · [[sources/SRC-20260728-11747E83|보관 원문·메타데이터]]
+[^src-20260728-188fd401]: **Experimental Study on Multistage Hydrogen Reduction of Iron Ore by Fluidized Bed Reactor** — Association for Iron & Steel Technology, 2026-05-04. [원문](https://aistech.secure-platform.com/site/gallery/rounds/82013/details/17615) · [[sources/SRC-20260728-188FD401|보관 원문·메타데이터]]
+[^src-20260728-1bf41b90]: **HY4SMELT AUF DEM WEG ZUR UMSETZUNG** — voestalpine Stahl GmbH / Stella Sustainable, 게시일 미상. [원문](https://www.voestalpine.com/stella/News/HY4SMELT-AUF-DEM-WEG-ZUR-UMSETZUNG) · [[sources/SRC-20260728-1BF41B90|보관 원문·메타데이터]]
+[^src-20260728-4039f069]: **Towards green steel from hydrogen-based direct reduction of low-grade iron ores: Techno-economic and greenhouse gas emissions assessment** — International Journal of Hydrogen Energy / Elsevier, 2026-05-20. DOI: [10.1016/j.ijhydene.2026.155073](https://doi.org/10.1016/j.ijhydene.2026.155073). [원문](https://www.sciencedirect.com/science/article/pii/S0360319926017118) · [[sources/SRC-20260728-4039F069|보관 원문·메타데이터]]
+[^src-20260728-40534940]: **Production of green steel from low-grade ores: An end-to-end techno-economic assessment** — Cell Reports Sustainability / Elsevier, 2025-01-24. DOI: [10.1016/j.crsus.2024.100301](https://doi.org/10.1016/j.crsus.2024.100301). [원문](https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/d3990a62-6fc4-4024-bf52-c778e1b44e3f/content) · [[sources/SRC-20260728-40534940|보관 원문·메타데이터]]
+[^src-20260728-5db16a4e]: **산업부문 온실가스 감축 정책 평가** — 대한민국 국회예산정책처, 2025-07-29. [원문](https://www.nabo.go.kr/ko/report/analysisView.do?idx=8839) · [[sources/SRC-20260728-5DB16A4E|보관 원문·메타데이터]]
+[^src-20260728-6caf8ad1]: **Computational Fluid Dynamics Simulation of Iron Ore Reduction in Industrial-Scale Fluidized Beds** — Wiley-VCH / steel research international, 2020-06-26. DOI: [10.1002/srin.202000232](https://doi.org/10.1002/srin.202000232). [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/StResInt_special_issue_2020/srin.202000232_Schneiderbauer_2020.pdf) · [[sources/SRC-20260728-6CAF8AD1|보관 원문·메타데이터]]
+[^src-20260728-73faeba5]: **Effect of process parameters on fluidization and agglomeration behavior of iron ore fines** — Elsevier, 2026-01-15. DOI: [10.1016/j.powtec.2025.121500](https://doi.org/10.1016/j.powtec.2025.121500). [원문](https://doi.org/10.1016/j.powtec.2025.121500) · [[sources/SRC-20260728-73FAEBA5|보관 원문·메타데이터]]
+[^src-20260728-7d3d8f38]: **Hy4Smelt – Industrial Demonstration Project to Proof Potential Net-Zero Ironmaking by Combining Breakthrough HYFOR and Smelter Technologies** — EEC 2026 / EMECR 2026 / Primetals Technologies, 2026-05-12. [원문](https://submit.m-n.marketing/event/66/contributions/5479/) · [[sources/SRC-20260728-7D3D8F38|보관 원문·메타데이터]]
+[^src-20260728-8a38b43f]: **Start of construction for hydrogen-based iron production plant in Linz - HYFOR pilot update** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/a1a1b19c94313a0/original/PR2025083472de.pdf) · [[sources/SRC-20260728-8A38B43F|보관 원문·메타데이터]]
+[^src-20260728-a93b9bd0]: **2026년도 한국형수소환원제철실증기술개발사업 신규지원 대상과제 공고** — 대한민국 산업통상부, 2026-01-26. [원문](https://www.motir.go.kr/kor/article/ATCLf724eb567/212874/view) · [[sources/SRC-20260728-A93B9BD0|보관 원문·메타데이터]]
+[^src-20260728-ad321dec]: **Numerical analysis of hydrogen-based iron ore reduction in a fluidized bed reactor: influence of distributor plate on reaction kinetics** — Elsevier, 2026-06-01. DOI: [10.1016/j.clet.2026.101252](https://doi.org/10.1016/j.clet.2026.101252). [원문](https://doi.org/10.1016/j.clet.2026.101252) · [[sources/SRC-20260728-AD321DEC|보관 원문·메타데이터]]
+[^src-20260728-cba8ac84]: **Rio Tinto Annual Report on Form 20-F 2025 - Hy4Smelt disclosure** — Rio Tinto / U.S. Securities and Exchange Commission, 2026-02-19. [원문](https://www.sec.gov/Archives/edgar/data/863064/000162828026009531/rio-20251231.htm) · [[sources/SRC-20260728-CBA8AC84|보관 원문·메타데이터]]
+[^src-20260728-d16cf64f]: **Evaluation of Hydrogen Reduction Characteristics of Different Iron Ore Types under HyREX Reduction Conditions** — Springer Nature / Metallurgical and Materials Transactions B, 2025-07-07. DOI: [10.1007/s11663-025-03645-1](https://doi.org/10.1007/s11663-025-03645-1). [원문](https://link.springer.com/article/10.1007/s11663-025-03645-1) · [[sources/SRC-20260728-D16CF64F|보관 원문·메타데이터]]
+[^src-20260728-d5828b6f]: **voestalpine Annual Report 2025/26 - Hy4Smelt demonstration plant** — voestalpine AG, 2026-06-03. [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) · [[sources/SRC-20260728-D5828B6F|보관 원문·메타데이터]]
+[^src-20260728-d8c7d596]: **Hydrogen fluidised-bed reduction of Australian hematite-goethite iron ores** — Cleaner Engineering and Technology / Elsevier, 2026-06-01. DOI: [10.1016/j.clet.2026.101212](https://doi.org/10.1016/j.clet.2026.101212). [원문](https://doi.org/10.1016/j.clet.2026.101212) · [[sources/SRC-20260728-D8C7D596|보관 원문·메타데이터]]
+[^src-20260728-e90d8967]: **POSCO accelerates decarbonized production system - HyREX groundwork update** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260728-E90D8967|보관 원문·메타데이터]]
+[^src-20260728-f9f9f2cd]: **POSCO Holdings FY2025 ESG Management Update - HyREX construction status** — POSCO Holdings / U.S. SEC, 2026-03-03. [원문](https://www.sec.gov/Archives/edgar/data/889132/000119312526062778/d31229dex991.htm) · [[sources/SRC-20260728-F9F9F2CD|보관 원문·메타데이터]]
+[^src-20260728-fa603c67]: **Introduction to HyREX by POSCO - 2026 Emerging Fluidization Applications Workshop** — CPFD Software, 2026-07-17. [원문](https://cpfd-software.com/introduction-to-hyrex-by-posco/) · [[sources/SRC-20260728-FA603C67|보관 원문·메타데이터]]
+[^src-20260728-ff44a697]: **국가연구개발사업 예비타당성조사 2025 연차보고서 - 한국형 수소환원제철 실증기술개발사업** — 한국과학기술기획평가원(KISTEP), 2026-03-26. [원문](https://www.kistep.re.kr/reportDetail.es?mid=a10305060000&rpt_no=RES0220260093&rpt_tp=831-003) · [[sources/SRC-20260728-FF44A697|보관 원문·메타데이터]]

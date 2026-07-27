@@ -2,7 +2,7 @@
 
 # 수소 직접환원철 (Hydrogen DRI)
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-28** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 환원·용융 경로"
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![수소 샤프트로 원료 하향 수소 상향 환원, 상부가스 집진 제습 재순환, DRI HDRI HBI와 EAF 연결을 나타낸 AI 개념도](../assets/media/SRC-20260725-75A329BD/MED-B7C2DC785571.png){ .steel-media-image .steel-hero-image .steel-media-detail }
+![MIDREX 수소 직접환원 샤프트로와 상부가스 세정, 압축, 수소 보충, 환원가스 가열 및 DRI HBI 배출 흐름을 보여주는 공식 Figure 4](<https://www.midrex.com/wp-content/uploads/FIGURE-4.-MIDREX-H2%E2%84%A2-Process-e1605628117802.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — AI 재구성 — DR급 펠릿·괴광을 샤프트 상부에 장입하고 하부 H2-rich gas와 향류 접촉시켜 DRI를 생산하며, 습윤 상부가스를 집진·제습·압축·재가열한 뒤 보충 수소와 합류해 재순환하는 대표 구성. 냉간 DRI·고온 HDRI·HBI는 대체 제품/이송 선택지이며 실제 HYBRIT·MIDREX·ENERGIRON 설비의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-75A329BD|SRC-20260725-75A329BD]] · [원문 페이지](https://www.hybritdevelopment.se/en/hybrit-six-years-of-research-paves-the-way-for-fossil-free-iron-and-steel-production-on-an-industrial-scale))*
+*대표 이미지 — MIDREX 공식 H2 샤프트로 공정도(Figure 4). 상부 장입식 샤프트로, top-gas scrubber, 공정가스 압축기, 외부 수소 공급, 환원가스 가열기와 DRI/HBI 제품 경로를 나타낸다. 2017년 개념에는 온도·탄소 조절용 제한적 천연가스 투입이 포함되므로 현재 모든 100% H2 프로젝트의 준공도나 무탄화수소 운전 보증으로 해석하지 않는다. (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260728-18CEA56E|SRC-20260728-18CEA56E]] · [원문 페이지](https://www.midrex.com/tech-article/midrex-h2-ultimate-low-co2-ironmaking-and-its-place-in-the-new-hydrogen-economy))*
 
 !!! abstract "한눈에 보기"
 
@@ -49,13 +49,13 @@
 이 문서는 펠릿·괴광을 충전하는 샤프트로 중심의 수소 DRI를 주축으로 다룹니다. 미분광 유동층 경로는 ‘무펠릿 미분광 수소환원’ 문서에서 별도로 비교합니다.
 
 - **근거 확인 기업:** 7개
-- **직접 연결 근거:** 22건
+- **직접 연결 근거:** 43건
 
 ## 작동 원리
 
 - **총괄 반응:** 총괄 반응은 Fe2O3 + 3H2 → 2Fe + 3H2O이며, 수소가 산화철의 산소를 수증기로 제거한다. [^src-20260725-afa5c853]
 - **작동 원리:** 고체 철광석과 가열한 수소계 환원가스를 접촉시키고 생성 수증기를 제거한 뒤 가스를 재순환해 금속화된 DRI를 만든다. [^src-20260725-d230993b]
-- **반응기 구성:** 상부에서 펠릿·괴광을 충전하는 샤프트로와 환원가스 순환계, 수증기 제거계, 수소 가열기를 결합한 구성이다. [^src-20260725-d230993b]
+- **반응기 구성:** 상부에서 펠릿·괴광을 충전하는 샤프트로와 환원가스 순환계, 수증기 제거계, 수소 가열기를 결합한 구성이다. [^src-20260725-d230993b][^src-20260728-18cea56e]
 
 ## 공정 구성
 
@@ -85,7 +85,7 @@ flowchart TB
 
 !!! note "도식 해석"
 
-    위 흐름도는 공개 자료의 단계를 비교하기 쉽게 재구성한 것입니다. 실제 물질수지·전해액 조성·셀 배열을 뜻하는 설계도는 아닙니다. [^src-20260725-afa5c853][^src-20260725-d230993b]
+    위 흐름도는 공개 자료의 단계를 비교하기 쉽게 재구성한 것입니다. 실제 물질수지·열수지·설비 치수·배관계장·제어 구성을 뜻하는 설계도는 아닙니다. [^src-20260725-afa5c853][^src-20260725-d230993b]
 
 ## 주요 기술 특성
 
@@ -95,10 +95,10 @@ flowchart TB
 | --- | --- | --- |
 | **총괄 반응** | 총괄 반응은 Fe2O3 + 3H2 → 2Fe + 3H2O이며, 수소가 산화철의 산소를 수증기로 제거한다. [^src-20260725-afa5c853] | 정부·공공자료 |
 | **작동 원리** | 고체 철광석과 가열한 수소계 환원가스를 접촉시키고 생성 수증기를 제거한 뒤 가스를 재순환해 금속화된 DRI를 만든다. [^src-20260725-d230993b] | 설비 공급사 |
-| **반응기 구성** | 상부에서 펠릿·괴광을 충전하는 샤프트로와 환원가스 순환계, 수증기 제거계, 수소 가열기를 결합한 구성이다. [^src-20260725-d230993b] | 설비 공급사 |
+| **반응기 구성** | 상부에서 펠릿·괴광을 충전하는 샤프트로와 환원가스 순환계, 수증기 제거계, 수소 가열기를 결합한 구성이다. [^src-20260725-d230993b][^src-20260728-18cea56e] | 설비 공급사 |
 | **환원가스 조성** | 2018년 MIDREX H2 설계 사례의 bustle gas는 약 90% H2이고, 1.4% C DRI를 위해 CO·CO2·H2O·CH4가 잔여 성분으로 포함됐다. [^src-20260725-afa5c853] | 정부·공공자료 |
 | **열수지** | CO가 없는 수소 환원에서는 최종 FeO→Fe 반응이 흡열이므로 환원가스 가열과 열수지 보완이 필요하다. [^src-20260725-45cf187d] | 설비 공급사 |
-| **운전 방식** | 기존 천연가스 DRI 플랫폼에서 수소 비율을 단계적으로 높이거나, 신규 설비를 최대 100% 수소 운전용으로 설계할 수 있다. [^src-20260725-d230993b] | 설비 공급사 |
+| **운전 방식** | 기존 천연가스 DRI 플랫폼에서 수소 비율을 단계적으로 높이거나, 신규 설비를 최대 100% 수소 운전용으로 설계할 수 있다. [^src-20260725-d230993b][^src-20260728-18cea56e] | 설비 공급사 |
 
 ### 원료·운전·제품
 
@@ -131,9 +131,27 @@ flowchart TB
 | --- | --- | --- |
 | **공개 개발 단계** | HYBRIT는 반산업 규모 통합 가치사슬과 5,000톤 이상 수소 DRI 생산을 입증했으며, MIDREX는 최대 100% 수소 상업 설비를 설계·건설 프로젝트에 적용 중이다. 완전 재생수소 상업설비의 장기 운전 실적과는 구분된다. [^src-20260725-75a329bd][^src-20260725-d230993b] | 회사 발표·설비 공급사 |
 | **파일럿 생산량** | HYBRIT 룰레오 파일럿은 2024년 8월 발표 시점까지 수소환원철을 5,000톤 이상 생산했다. [^src-20260725-75a329bd] | 회사 발표 |
-| **연속운전 결과** | HYBRIT는 175개 공정 모드를 시험했고, 개발한 스펀지철-EAF 용해 조업으로 기존 광석 기반 강과 동등한 품질의 강을 생산했다고 발표했다. [^src-20260725-75a329bd] | 회사 발표 |
+| **연속운전 결과** | HYBRIT는 175개 공정 모드를 시험했고, 개발한 스펀지철-EAF 용해 조업으로 기존 광석 기반 강과 동등한 품질의 강을 생산했다고 발표했다. [^src-20260725-75a329bd][^src-20260728-d30ab70a] | 회사 발표·정부·공공자료 |
 | **수소 저장·운전 유연성** | HYBRIT는 저장 수소를 전력시장 조건에 맞춰 사용한 시험에서 수소 생산 변동비를 최대 40% 낮출 수 있었다고 발표했다. [^src-20260725-75a329bd] | 회사 발표 |
 | **상용화 모델** | 샤프트로 공급사는 기존 천연가스 DRI 설비의 단계적 수소 전환과 100% 수소 신규 설비를 모두 제공하며, HDRI 직결 또는 HBI 판매형 가치사슬을 제시한다. [^src-20260725-d230993b] | 설비 공급사 |
+
+### 최신 실증·검증 정보
+
+기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **academic scale limit** | 2025~2026 비등온 연구는 3개 또는 단일 펠릿 실험과 CFD 유도 조건으로, 장입층 응력·군집·고착·입도분포·상용로 가동률을 직접 입증하지 않음 [^src-20260728-19665ac7][^src-20260728-4a07dd3e] | 학술지 논문 |
+| **big river dri status** | Big River 2.5 Mt/y MIDREX Flex HDRI/HBI project targets 2029 first production; natural-gas operation with hydrogen addition is possible, but initial 100% hydrogen use is not confirmed [^src-20260728-233c5c7d] | 설비 공급사 |
+| **hourly matching tradeoff** | 중품위광 H2DRI-ESF-BOF 모델에서 수소 전력의 시간별 매칭은 전해조 이용률·재생에너지 과잉설비·저장·배출·철강원가를 크게 바꾸며, 연간 평균 전력만으로 실제 배출과 비용을 대표하기 어렵다. [^src-20260728-75962e74] | 학술지 논문 |
+| **modeled hydrogen emission threshold** | 서호주 조건 모델에서는 시간별 매칭과 약 3 kgCO2/kgH2 배출한도의 조합이 대부분의 감축을 확보하면서 극단적 계통사용 제한의 비용급증을 피했지만, 이는 지역·전력믹스 의존 최적화 결과이지 보편 기준이 아니다. [^src-20260728-75962e74] | 학술지 논문 |
+| **modeled radial reduction variation** | CFD 유도 조건을 적용한 단일펠릿 TGA에서 약 105분 후 노벽 100%, 중간 90%, 축 중심 12% 환원; 상용로 평균 실적이 아닌 모델 연계 실험값 [^src-20260728-19665ac7] | 학술지 논문 |
+| **modeled transition tradeoff** | 2026년 산업규모 샤프트로·가스처리계 Aspen 모델에서는 투입가스의 수소 비중 증가로 CO2 배출이 약 3분의 2 감소하면서 DRI 금속화율이 90% 이상으로 계산됐으나, 이는 상용 100% 수소 운전 실측치가 아니다. [^src-20260728-8d2313b9] | 학술지 논문 |
+| **nonisothermal operating sensitivity** | 순수수소 샤프트로 환원은 펠릿이 겪는 온도 이력과 H2/H2O 조성에 따라 환원속도·미세구조가 크게 달라지므로 등온·균일가스 가정만으로 상용로 성능을 대표하기 어려움 [^src-20260728-19665ac7][^src-20260728-4a07dd3e] | 학술지 논문 |
+| **pellet thermal history microstructure** | LKAB 상용 펠릿 순수H2 소형로 실험에서 약 450°C부터 환원이 시작되고 약 668°C 아래 다공성 철, 그 위 조밀한 철층 형성이 관찰됨; 상용로 고정 경계값으로 확대 금지 [^src-20260728-4a07dd3e] | 학술지 논문 |
+| **process pressure tradeoff** | 동일 모델에서 공정가스 압력 증가는 금속화율을 높이고 압력강하를 낮췄지만 메탄 전환율을 낮춰, 전환기 혼합가스 운전의 압력 최적점은 다목적 절충 문제다. [^src-20260728-8d2313b9] | 학술지 논문 |
+| **top gas recycle tradeoff** | 동일 시스템 모델에서 상부가스 재순환은 환원가스의 CO 비율과 금속화율을 높였지만 개질기의 메탄 전환율을 낮출 수 있어, 재순환 확대를 단일 성능 개선으로 해석할 수 없다. [^src-20260728-8d2313b9] | 학술지 논문 |
+| **water vapor temperature constraint** | 낮은 온도와 높은 H2O 농도가 지속되면 wustite-to-iron 환원이 지연·억제되고 높은 H2O 조건에서는 고체 확산 지배가 강화될 수 있음 [^src-20260728-19665ac7] | 학술지 논문 |
 
 
 ## 공개 개발 연혁
@@ -145,17 +163,34 @@ flowchart TB
 | 2024-08-27 | HYBRIT six-year pilot research results [^src-20260725-75a329bd] |
 | 2024-12-01 | Swedish Energy Agency review of HYBRIT pilot phase [^src-20260725-c4a8eda3] |
 | 2025-01-06 | JFE Steel 2025 priorities for carbon-neutral technologies [^src-20260725-ec77a362] |
+| 2025-02-15 | Effect of Heating Rate on the Non-Isothermal Hydrogen Reduction of Hematite Pellets [^src-20260728-4a07dd3e] |
 | 2025-03-18 | Crucial Environmental Permit Application Announced - Important Milestone for LKAB Development [^src-20260727-a33857de] |
 | 2025-06-19 | ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans [^src-20260725-395d8a82] |
 | 2025-09-29 | Tata Steel Nederland integrated decarbonisation project letter of intent [^src-20260725-789ab58f] |
+| 2025-10-30 | Rapport: Utvidga transmissionsnätet i norra Norrbottens län [^src-20260728-3049f33d] |
+| 2025-10-30 | Station Degerträsk driftsatt [^src-20260728-eeb8c7f8] |
+| 2025-11-26 | Swedish Energy Agency grants SEK 390 million in support to Stegra [^src-20260728-ec5093b5] |
+| 2026-01-01 | Operational thermodynamics and hydrogen embrittlement risk in lined rock cavern–shaft systems: Numerical insights from Sweden’s first LRC hydrogen storage pilot [^src-20260728-4c948f2f] |
 | 2026-01-07 | China launches first million-tonne near-zero-carbon steel line at Baowu [^src-20260725-7e8abc86] |
+| 2026-02-24 | Decision on extended operation of HYBRIT's pilot facility for fossil-free hydrogen storage in Lulea [^src-20260728-830bd90f] |
+| 2026-03-03 | System analysis of direct reduced iron production with elevated levels of hydrogen in the shaft furnace [^src-20260728-8d2313b9] |
 | 2026-03-09 | Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation [^src-20260726-cedf7736] |
 | 2026-03-11 | Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction [^src-20260726-eadb3777] |
+| 2026-04-02 | Final electrolyzer module installed at Stegra green hydrogen plant [^src-20260728-8147c73e] |
+| 2026-04-13 | Non-isothermal Hydrogen Reduction and Kinetic Behavior of Iron Ore Pellets Under Simulated Shaft Furnace Conditions [^src-20260728-19665ac7] |
 | 2026-04-23 | LKAB Interim Report First Quarter 2026 [^src-20260727-91f88878] |
 | 2026-05-01 | Tata Steel Nederland 2025-2026 Green Steel Project status [^src-20260725-e71081d1] |
+| 2026-05-01 | Energy-system optimization for hydrogen-based green steel production from medium-grade iron ore [^src-20260728-75962e74] |
+| 2026-06-08 | Infrastruktur- och bostadsminister Andreas Carlson inviger järnvägen till Boden Industrial Park [^src-20260728-0356abdc] |
+| 2026-06-11 | Stegra ramps up in Boden but remains far from full pace [^src-20260728-7765bf98] |
 | 2026-06-12 | China Baowu and Rio Tinto complete hydrogen DRI and electric-smelting trials [^src-20260725-3ff9886c] |
 | 2026-06-15 | LKAB granted environmental permit for operations in Gallivare [^src-20260727-112971a7] |
+| 2026-06-15 | Midrex selected for Big River DRI plant [^src-20260728-233c5c7d] |
+| 2026-06-15 | Malmberget environmental permit judgment M 1413-23 [^src-20260728-e14c2e6c] |
 | 2026-06-24 | Stegra announces closing of EUR 1.4 billion financing round [^src-20260727-56d0b35d] |
+| 2026-06-24 | Stegra announces closing of EUR 1.4 billion financing round [^src-20260728-253ab0a9] |
+| 2026-06-24 | EUR 1.4 billion - Stegra rescue package completed [^src-20260728-b14401af] |
+| 2026-07-07 | Malmberget permit appealed by regulator and LKAB [^src-20260728-df4ed6d1] |
 
 ## 설비·공정 이미지
 
@@ -165,6 +200,13 @@ flowchart TB
 
 - 출처 [[sources/SRC-20260725-75A329BD|SRC-20260725-75A329BD]] · 권리 `link_only` · [원문 페이지](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial) · 작성·촬영 Helena Sundberg
 - 권리 메모: SSAB 공식 보도자료의 미디어 첨부 원본을 로컬에 복제하지 않고 원격 표시
+
+![수소 샤프트로 원료 하향 수소 상향 환원, 상부가스 집진 제습 재순환, DRI HDRI HBI와 EAF 연결을 나타낸 AI 개념도](../assets/media/SRC-20260725-75A329BD/MED-B7C2DC785571.png){ .steel-media-image .steel-media-detail }
+
+**AI 재구성.** AI 재구성 — DR급 펠릿·괴광을 샤프트 상부에 장입하고 하부 H2-rich gas와 향류 접촉시켜 DRI를 생산하며, 습윤 상부가스를 집진·제습·압축·재가열한 뒤 보충 수소와 합류해 재순환하는 대표 구성. 냉간 DRI·고온 HDRI·HBI는 대체 제품/이송 선택지이며 실제 HYBRIT·MIDREX·ENERGIRON 설비의 준공도나 P&ID가 아니다.
+
+- 출처 [[sources/SRC-20260725-75A329BD|SRC-20260725-75A329BD]] · 권리 `ai_generated` · [원문 페이지](https://www.hybritdevelopment.se/en/hybrit-six-years-of-research-paves-the-way-for-fossil-free-iron-and-steel-production-on-an-industrial-scale) · 작성·촬영 OpenAI ImageGen / Codex
+- 권리 메모: HYBRIT 공개 연구 결과와 일반적인 H2 shaft-DRI 가스루프를 종합해 2026-07-27 생성한 설명용 AI 재구성이다. 환원가스 조성, 압력, 온도, 제품 냉각·브리케팅 경로는 라이선서 및 프로젝트별로 다르다.
 
 ![thyssenkrupp Duisburg 직접환원탑 첫 지지기둥](<https://transformation.thyssenkrupp-steel.com/media/dr_anlage_1/bilder_2/traeger1_dr_turm_image_w450_h338.jpg>){ .steel-media-image .steel-media-compact }
 
@@ -179,6 +221,13 @@ flowchart TB
 
 - 출처 [[sources/SRC-20260725-E71081D1|SRC-20260725-E71081D1]] · 권리 `ai_generated` · [원문 페이지](https://www.tatasteel.com/media/25923/tsnbv-fy-25-26.pdf) · 작성·촬영 OpenAI image generation / Codex
 - 권리 메모: Tata Steel Nederland 연차보고서의 계획 범위를 바탕으로 생성했으며 FID·준공도·실제 공사진척의 증거가 아님
+
+![Midrex supplier rendering of the planned Big River Steel direct reduced iron plant](<https://www.midrex.com/wp-content/uploads/BRS-Model-1024x572.jpg>){ .steel-media-image .steel-media-detail }
+
+**장치 구성도.** Supplier model of the planned 2.5 Mt/y Big River Steel MIDREX Flex HDRI/HBI plant; not an as-built photograph
+
+- 출처 [[sources/SRC-20260728-233C5C7D|SRC-20260728-233C5C7D]] · 권리 `link_only` · [원문 페이지](https://www.midrex.com/press-release/midrex-selected-for-u-s-steels-first-of-its-kind-dri-facility-at-big-river-steel-works) · 작성·촬영 Midrex Technologies, Inc.
+- 권리 메모: Official Midrex supplier model and caption verified. Reuse permission was not stated, so the original server image is displayed by remote link only; it is not an as-built drawing.
 
 
 ## 기업별 상세 현황
@@ -320,6 +369,27 @@ flowchart TB
 - [[sources/SRC-20260727-56D0B35D|Stegra announces closing of EUR 1.4 billion financing round]] — Stegra / Cision, 2026-06-24 · [원문](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round,c4366881)
 - [[sources/SRC-20260727-91F88878|LKAB Interim Report First Quarter 2026]] — LKAB, 2026-04-23 · [원문](https://lkab.com/wp-content/uploads/2026/04/LKAB_2026_Q1_Interim-report.pdf)
 - [[sources/SRC-20260727-A33857DE|Crucial Environmental Permit Application Announced - Important Milestone for LKAB Development]] — LKAB, 2025-03-18 · [원문](https://lkab.com/en/press/crucial-environmental-permit-application-announced-important-milestone-for-lkabs-development/)
+- [[sources/SRC-20260728-0356ABDC|Infrastruktur- och bostadsminister Andreas Carlson inviger järnvägen till Boden Industrial Park]] — Government Offices of Sweden / Ministry of Rural Affairs and Infrastructure, 2026-06-08 · [원문](https://regeringen.se/pressmeddelanden/2026/06/infrastruktur--och-bostadsminister-andreas-carlson-inviger-jarnvagen-till-boden-industrial-park/)
+- [[sources/SRC-20260728-18CEA56E|MIDREX H2: Ultimate Low CO2 Ironmaking and its place in the new Hydrogen Economy]] — Midrex Technologies, Inc., 게시일 미상 · [원문](https://www.midrex.com/tech-article/midrex-h2-ultimate-low-co2-ironmaking-and-its-place-in-the-new-hydrogen-economy/)
+- [[sources/SRC-20260728-19665AC7|Non-isothermal Hydrogen Reduction and Kinetic Behavior of Iron Ore Pellets Under Simulated Shaft Furnace Conditions]] — Metallurgical and Materials Transactions B / Springer Nature, 2026-04-13 · [원문](https://link.springer.com/article/10.1007/s11663-026-04051-x)
+- [[sources/SRC-20260728-233C5C7D|Midrex selected for Big River DRI plant]] — Midrex Technologies, Inc., 2026-06-15 · [원문](https://www.midrex.com/press-release/midrex-selected-for-u-s-steels-first-of-its-kind-dri-facility-at-big-river-steel-works/)
+- [[sources/SRC-20260728-253AB0A9|Stegra announces closing of EUR 1.4 billion financing round]] — Stegra / Cision, 2026-06-24 · [원문](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round%2Cc4366881)
+- [[sources/SRC-20260728-3049F33D|Rapport: Utvidga transmissionsnätet i norra Norrbottens län]] — Svenska kraftnät, 2025-10-30 · [원문](https://www.svk.se/4aa85f/siteassets/om-oss/rapporter/2025/rapport_regeringsuppdrag-utvidga-transmissionsnatet-i-norra-norrbottens-lan.pdf)
+- [[sources/SRC-20260728-4A07DD3E|Effect of Heating Rate on the Non-Isothermal Hydrogen Reduction of Hematite Pellets]] — ISIJ International / Iron and Steel Institute of Japan, 2025-02-15 · [원문](https://www.jstage.jst.go.jp/article/isijinternational/65/2/65_ISIJINT-2024-288/_pdf/-char/en)
+- [[sources/SRC-20260728-4C948F2F|Operational thermodynamics and hydrogen embrittlement risk in lined rock cavern–shaft systems: Numerical insights from Sweden’s first LRC hydrogen storage pilot]] — SSRN, 2026-01-01 · [원문](https://doi.org/10.2139/ssrn.6882937)
+- [[sources/SRC-20260728-75962E74|Energy-system optimization for hydrogen-based green steel production from medium-grade iron ore]] — Applied Energy / Elsevier, 2026-05-01 · [원문](https://doi.org/10.1016/j.apenergy.2026.127563)
+- [[sources/SRC-20260728-7765BF98|Stegra ramps up in Boden but remains far from full pace]] — SVT Nyheter Norrbotten, 2026-06-11 · [원문](https://www.svt.se/nyheter/lokalt/norrbotten/stegra-trappar-upp-i-boden-men-langt-ifran-full-fart)
+- [[sources/SRC-20260728-8147C73E|Final electrolyzer module installed at Stegra green hydrogen plant]] — Stegra, 2026-04-02 · [원문](https://stegra.com/en/news-and-stories/final-electrolyzer-module-installed-at-stegras-green-hydrogen-plant)
+- [[sources/SRC-20260728-830BD90F|Decision on extended operation of HYBRIT's pilot facility for fossil-free hydrogen storage in Lulea]] — HYBRIT Development AB, 2026-02-24 · [원문](https://www.hybritdevelopment.se/en/vattenfall-decision-on-extended-operation-of-hybrits-pilot-facility-for-fossil-free-hydrogen-storage-in-lulea/)
+- [[sources/SRC-20260728-8D2313B9|System analysis of direct reduced iron production with elevated levels of hydrogen in the shaft furnace]] — Fuel / Elsevier, 2026-03-03 · [원문](https://doi.org/10.1016/j.fuel.2026.138979)
+- [[sources/SRC-20260728-B14401AF|EUR 1.4 billion - Stegra rescue package completed]] — SVT Nyheter / TT, 2026-06-24 · [원문](https://www.svt.se/nyheter/lokalt/norrbotten/14-miljarder-euro-stegras-raddningspaket-i-hamn)
+- [[sources/SRC-20260728-CEF2D62E|H2 Green Steel Story - the Quest for Earth's Sustainable Future]] — Midrex Technologies, 게시일 미상 · [원문](https://www.midrex.com/tech-article/h2-green-steel-story-the-quest-for-earths-sustainable-future/)
+- [[sources/SRC-20260728-D30AB70A|Hydrogen Breakthrough Ironmaking Technology (HYBRIT)]] — European Commission Joint Research Centre - INCITE, 게시일 미상 · [원문](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/hydrogen-breakthrough-ironmaking-technology-hybrit)
+- [[sources/SRC-20260728-DC34166F|HYBRIT Demonstration - official fossil-free steel value chain]] — HYBRIT Development AB, 게시일 미상 · [원문](https://www.hybritdevelopment.se/en/hybrit-demonstration/)
+- [[sources/SRC-20260728-DF4ED6D1|Malmberget permit appealed by regulator and LKAB]] — Sveriges Radio P4 Norrbotten, 2026-07-07 · [원문](https://www.sverigesradio.se/artikel/tillstandet-for-lkabs-gruva-i-malmberget-overklagas-aven-av-lkab)
+- [[sources/SRC-20260728-E14C2E6C|Malmberget environmental permit judgment M 1413-23]] — Umeå District Court, Land and Environment Court / Swedish Courts, 2026-06-15 · [원문](https://www.domstol.se/nyheter/2026/06/lkab-far-tillstand-till-gruvverksamheten-i-malmberget/)
+- [[sources/SRC-20260728-EC5093B5|Swedish Energy Agency grants SEK 390 million in support to Stegra]] — Swedish Energy Agency, 2025-11-26 · [원문](https://www.energimyndigheten.se/en/news/2025/swedish-energy-agency-grants-sek-390-million-in-support-to-stegra/)
+- [[sources/SRC-20260728-EEB8C7F8|Station Degerträsk driftsatt]] — Svenska kraftnät, 2025-10-30 · [원문](https://www.svk.se/utveckling-av-kraftsystemet/transmissionsnatet/transmissionsnatsprojekt/degertrask/nytt-om-station-degertrask/station-degertrask-driftsatt/)
 
 [^src-20260725-2b01239e]: **Iron and Steel Technology Roadmap** — International Energy Agency, 2020-10-08. [원문](https://www.iea.org/reports/iron-and-steel-technology-roadmap) · [[sources/SRC-20260725-2B01239E|보관 원문·메타데이터]]
 [^src-20260725-395d8a82]: **ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans** — ArcelorMittal, 2025-06-19. [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-europe-urges-faster-implementation-of-steel-and-metals-action-plan) · [[sources/SRC-20260725-395D8A82|보관 원문·메타데이터]]
@@ -342,3 +412,22 @@ flowchart TB
 [^src-20260727-56d0b35d]: **Stegra announces closing of EUR 1.4 billion financing round** — Stegra / Cision, 2026-06-24. [원문](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round,c4366881) · [[sources/SRC-20260727-56D0B35D|보관 원문·메타데이터]]
 [^src-20260727-91f88878]: **LKAB Interim Report First Quarter 2026** — LKAB, 2026-04-23. [원문](https://lkab.com/wp-content/uploads/2026/04/LKAB_2026_Q1_Interim-report.pdf) · [[sources/SRC-20260727-91F88878|보관 원문·메타데이터]]
 [^src-20260727-a33857de]: **Crucial Environmental Permit Application Announced - Important Milestone for LKAB Development** — LKAB, 2025-03-18. [원문](https://lkab.com/en/press/crucial-environmental-permit-application-announced-important-milestone-for-lkabs-development/) · [[sources/SRC-20260727-A33857DE|보관 원문·메타데이터]]
+[^src-20260728-0356abdc]: **Infrastruktur- och bostadsminister Andreas Carlson inviger järnvägen till Boden Industrial Park** — Government Offices of Sweden / Ministry of Rural Affairs and Infrastructure, 2026-06-08. [원문](https://regeringen.se/pressmeddelanden/2026/06/infrastruktur--och-bostadsminister-andreas-carlson-inviger-jarnvagen-till-boden-industrial-park/) · [[sources/SRC-20260728-0356ABDC|보관 원문·메타데이터]]
+[^src-20260728-18cea56e]: **MIDREX H2: Ultimate Low CO2 Ironmaking and its place in the new Hydrogen Economy** — Midrex Technologies, Inc., 게시일 미상. [원문](https://www.midrex.com/tech-article/midrex-h2-ultimate-low-co2-ironmaking-and-its-place-in-the-new-hydrogen-economy/) · [[sources/SRC-20260728-18CEA56E|보관 원문·메타데이터]]
+[^src-20260728-19665ac7]: **Non-isothermal Hydrogen Reduction and Kinetic Behavior of Iron Ore Pellets Under Simulated Shaft Furnace Conditions** — Metallurgical and Materials Transactions B / Springer Nature, 2026-04-13. DOI: [10.1007/s11663-026-04051-x](https://doi.org/10.1007/s11663-026-04051-x). [원문](https://link.springer.com/article/10.1007/s11663-026-04051-x) · [[sources/SRC-20260728-19665AC7|보관 원문·메타데이터]]
+[^src-20260728-233c5c7d]: **Midrex selected for Big River DRI plant** — Midrex Technologies, Inc., 2026-06-15. [원문](https://www.midrex.com/press-release/midrex-selected-for-u-s-steels-first-of-its-kind-dri-facility-at-big-river-steel-works/) · [[sources/SRC-20260728-233C5C7D|보관 원문·메타데이터]]
+[^src-20260728-253ab0a9]: **Stegra announces closing of EUR 1.4 billion financing round** — Stegra / Cision, 2026-06-24. [원문](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round%2Cc4366881) · [[sources/SRC-20260728-253AB0A9|보관 원문·메타데이터]]
+[^src-20260728-3049f33d]: **Rapport: Utvidga transmissionsnätet i norra Norrbottens län** — Svenska kraftnät, 2025-10-30. [원문](https://www.svk.se/4aa85f/siteassets/om-oss/rapporter/2025/rapport_regeringsuppdrag-utvidga-transmissionsnatet-i-norra-norrbottens-lan.pdf) · [[sources/SRC-20260728-3049F33D|보관 원문·메타데이터]]
+[^src-20260728-4a07dd3e]: **Effect of Heating Rate on the Non-Isothermal Hydrogen Reduction of Hematite Pellets** — ISIJ International / Iron and Steel Institute of Japan, 2025-02-15. DOI: [10.2355/isijinternational.ISIJINT-2024-288](https://doi.org/10.2355/isijinternational.ISIJINT-2024-288). [원문](https://www.jstage.jst.go.jp/article/isijinternational/65/2/65_ISIJINT-2024-288/_pdf/-char/en) · [[sources/SRC-20260728-4A07DD3E|보관 원문·메타데이터]]
+[^src-20260728-4c948f2f]: **Operational thermodynamics and hydrogen embrittlement risk in lined rock cavern–shaft systems: Numerical insights from Sweden’s first LRC hydrogen storage pilot** — SSRN, 2026-01-01. DOI: [10.2139/ssrn.6882937](https://doi.org/10.2139/ssrn.6882937). [원문](https://doi.org/10.2139/ssrn.6882937) · [[sources/SRC-20260728-4C948F2F|보관 원문·메타데이터]]
+[^src-20260728-75962e74]: **Energy-system optimization for hydrogen-based green steel production from medium-grade iron ore** — Applied Energy / Elsevier, 2026-05-01. DOI: [10.1016/j.apenergy.2026.127563](https://doi.org/10.1016/j.apenergy.2026.127563). [원문](https://doi.org/10.1016/j.apenergy.2026.127563) · [[sources/SRC-20260728-75962E74|보관 원문·메타데이터]]
+[^src-20260728-7765bf98]: **Stegra ramps up in Boden but remains far from full pace** — SVT Nyheter Norrbotten, 2026-06-11. [원문](https://www.svt.se/nyheter/lokalt/norrbotten/stegra-trappar-upp-i-boden-men-langt-ifran-full-fart) · [[sources/SRC-20260728-7765BF98|보관 원문·메타데이터]]
+[^src-20260728-8147c73e]: **Final electrolyzer module installed at Stegra green hydrogen plant** — Stegra, 2026-04-02. [원문](https://stegra.com/en/news-and-stories/final-electrolyzer-module-installed-at-stegras-green-hydrogen-plant) · [[sources/SRC-20260728-8147C73E|보관 원문·메타데이터]]
+[^src-20260728-830bd90f]: **Decision on extended operation of HYBRIT's pilot facility for fossil-free hydrogen storage in Lulea** — HYBRIT Development AB, 2026-02-24. [원문](https://www.hybritdevelopment.se/en/vattenfall-decision-on-extended-operation-of-hybrits-pilot-facility-for-fossil-free-hydrogen-storage-in-lulea/) · [[sources/SRC-20260728-830BD90F|보관 원문·메타데이터]]
+[^src-20260728-8d2313b9]: **System analysis of direct reduced iron production with elevated levels of hydrogen in the shaft furnace** — Fuel / Elsevier, 2026-03-03. DOI: [10.1016/j.fuel.2026.138979](https://doi.org/10.1016/j.fuel.2026.138979). [원문](https://doi.org/10.1016/j.fuel.2026.138979) · [[sources/SRC-20260728-8D2313B9|보관 원문·메타데이터]]
+[^src-20260728-b14401af]: **EUR 1.4 billion - Stegra rescue package completed** — SVT Nyheter / TT, 2026-06-24. [원문](https://www.svt.se/nyheter/lokalt/norrbotten/14-miljarder-euro-stegras-raddningspaket-i-hamn) · [[sources/SRC-20260728-B14401AF|보관 원문·메타데이터]]
+[^src-20260728-d30ab70a]: **Hydrogen Breakthrough Ironmaking Technology (HYBRIT)** — European Commission Joint Research Centre - INCITE, 게시일 미상. [원문](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/hydrogen-breakthrough-ironmaking-technology-hybrit) · [[sources/SRC-20260728-D30AB70A|보관 원문·메타데이터]]
+[^src-20260728-df4ed6d1]: **Malmberget permit appealed by regulator and LKAB** — Sveriges Radio P4 Norrbotten, 2026-07-07. [원문](https://www.sverigesradio.se/artikel/tillstandet-for-lkabs-gruva-i-malmberget-overklagas-aven-av-lkab) · [[sources/SRC-20260728-DF4ED6D1|보관 원문·메타데이터]]
+[^src-20260728-e14c2e6c]: **Malmberget environmental permit judgment M 1413-23** — Umeå District Court, Land and Environment Court / Swedish Courts, 2026-06-15. [원문](https://www.domstol.se/nyheter/2026/06/lkab-far-tillstand-till-gruvverksamheten-i-malmberget/) · [[sources/SRC-20260728-E14C2E6C|보관 원문·메타데이터]]
+[^src-20260728-ec5093b5]: **Swedish Energy Agency grants SEK 390 million in support to Stegra** — Swedish Energy Agency, 2025-11-26. [원문](https://www.energimyndigheten.se/en/news/2025/swedish-energy-agency-grants-sek-390-million-in-support-to-stegra/) · [[sources/SRC-20260728-EC5093B5|보관 원문·메타데이터]]
+[^src-20260728-eeb8c7f8]: **Station Degerträsk driftsatt** — Svenska kraftnät, 2025-10-30. [원문](https://www.svk.se/utveckling-av-kraftsystemet/transmissionsnatet/transmissionsnatsprojekt/degertrask/nytt-om-station-degertrask/station-degertrask-driftsatt/) · [[sources/SRC-20260728-EEB8C7F8|보관 원문·메타데이터]]

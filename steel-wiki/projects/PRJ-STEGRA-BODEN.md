@@ -2,17 +2,37 @@
 
 # Stegra Boden 통합 그린스틸 프로젝트
 
-> 최근 검증 **2026-07-27** · 확인된 핵심 정보 **5건** · 직접 연결 근거 **1건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **20건** · 직접 연결 근거 **9건**
+
+
+![재생전력과 수소생산 직접환원 전기로 압연 후처리를 연결한 Stegra Boden 통합 공정도](<https://www.midrex.com/wp-content/uploads/Screen-Shot-2022-12-13-at-2.21.01-PM.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+
+*대표 이미지 — MIDREX가 공개한 Stegra(당시 H2 Green Steel) Boden 통합 공정도: 재생전력·수소생산·DR 펠릿·직접환원·전기로·압연·후처리와 스크랩 순환. 2022년 공급사 개념도이며 준공도는 아니다. (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260728-CEF2D62E|SRC-20260728-CEF2D62E]] · [원문 페이지](https://www.midrex.com/tech-article/h2-green-steel-story-the-quest-for-earths-sustainable-future))*
 
 ## 확인된 핵심 정보
 
 | 항목 | 확인된 내용 |
 | --- | --- |
 | **건설 활동 상태** | 자금조달 활동 중 수개월간 공사 활동이 더 느리게 진행됐다고 회사가 설명 [^src-20260727-56d0b35d] |
+| **Construction ramp status** | 2026-06-11 현재 Boden 현장 인력은 2025년 최고 수준보다 크게 적었고, Stegra는 여름 중 4,000~5,000명 수준으로 단계적 증원을 계획했다. 이는 증원 목표이며 실제 달성 인원이나 공정률이 아니다. [^src-20260728-7765bf98] |
+| **Dri tower construction height** | 2026-06-11 SVT 현장 보도에서 Boden DRI tower는 약 120 m까지 올라갔고 계획 높이는 145 m로 제시됐다. 이는 물리적 건설 진척이며 DRI 설비 완공·시운전·생산 개시 근거가 아니다. [^src-20260728-7765bf98] |
+| **Electrolyzer module installation milestone** | Stegra는 2026-04-02 Boden 수소 플랜트의 마지막 electrolyzer module 설치를 발표했다. 회사도 추가 공사가 남았다고 명시했으므로 BOP 완공·시운전·수소 생산 또는 DRI 통합운전으로 해석하지 않는다. [^src-20260728-8147c73e] |
 | **종결 자금조달액** | EUR 1,400,000,000 [^src-20260727-56d0b35d] |
+| **Financing closed amount eur** | EUR 1.4 billion; 전체 프로젝트 원가나 실제 집행액 아님 [^src-20260728-253ab0a9] |
 | **자금조달 종결일** | 2026-06-24 [^src-20260727-56d0b35d] |
+| **Financing round status** | 2026-06-24 회사 발표 기준 14억 유로 금융조달 라운드 종결; 2026-04-14의 원칙 합의 상태를 갱신 [^src-20260728-253ab0a9][^src-20260728-b14401af] |
 | **자금 사용 목적** | Boden 통합 그린스틸 플랜트의 건설·시운전 완료를 위한 자금 [^src-20260727-56d0b35d] |
+| **Grid connection milestone** | 스웨덴 송전망 운영자는 Stegra 제철·수소설비 접속을 위해 건설한 400kV Degerträsk 변전소가 2025년 10월 예정대로 가압·가동됐다고 확인했으며, 추가 인출을 위한 공사는 2026년 계속됐다. [^src-20260728-eeb8c7f8] |
+| **Grid milestone boundary** | Degerträsk 변전소 가동은 계통 접속 기반시설의 진전이지 Stegra 전해조·DRI·EAF·압연설비의 시운전이나 설계부하 수전 완료 증거가 아니다. 2028~2030년 약 2000MW 추가 인출 가능성도 여러 지역 계통사업의 합산 범위다. [^src-20260728-eeb8c7f8] |
+| **Industrial leap additional support sek** | Swedish Energy Agency는 2025-11-26 Industriklivet 추가 지원 SEK 389,597,000을 승인했다. 승인 결정이며 전액 교부·지급 완료를 뜻하지 않는다. [^src-20260728-ec5093b5] |
+| **Industrial leap support condition** | 추가 Industriklivet 지원에는 Stegra가 2026년 봄까지 프로젝트 완공에 충분한 자본을 확보했음을 입증해야 한다는 조건이 붙었다. 2026년 EUR 1.4 billion 조달과 별도 프로그램이며, 정부 페이지는 보조금 전액 지급 완료를 밝히지 않는다. [^src-20260728-ec5093b5] |
+| **Industrial leap support context** | Stegra는 앞서 Industriklivet에서 SEK 1.2 billion 지원을 승인받았고 추가 SEK 1.6 billion을 신청했으나, 기관은 예산 범위상 SEK 389.597 million을 최대 추가 승인액으로 결정했다. [^src-20260728-ec5093b5] |
+| **Post financing schedule status** | 조달 종결 발표 시점에도 새 생산 개시일은 공개되지 않았고 건설 활동 확대만 명시; 조달 종결을 일정 확정으로 해석하지 않음 [^src-20260728-253ab0a9][^src-20260728-b14401af] |
+| **Production start schedule status** | 2026-06-11 독립 현장 보도에서 Stegra는 기존 2027년 초 생산개시 목표에 대한 새 상세 예측을 제시하지 않았고, 2026-06-24 회사 발표는 전체 일정을 검토 중이라고 확인했다. 따라서 기존 목표는 현재 확정 일정으로 볼 수 없다. [^src-20260728-7765bf98][^src-20260727-56d0b35d] |
 | **프로젝트 일정 상태** | 프로젝트 일정은 검토 중 [^src-20260727-56d0b35d] |
+| **Rail connection milestone** | 스웨덴 정부는 2026년 6월 9일 Boden Industrial Park와 Malmbanan·국가 철도망을 잇는 신설 철도가 공식 개통됐다고 확인했다. [^src-20260728-0356abdc] |
+| **Rail milestone boundary** | Boden Industrial Park 철도는 공공-민간 협력으로 조성된 공유 기반시설이며, 개통 자체가 Stegra 공정설비 완공·시운전·생산개시를 뜻하지 않는다. [^src-20260728-0356abdc] |
+| **Representative process reference** | 2022년 MIDREX 공개 공급사 개념도는 재생전력·현장 수소생산·DR 펠릿·직접환원·EAF·압연·후처리와 스크랩 순환을 연결; 현재 준공도는 아님 [^src-20260728-cef2d62e] |
 
 ## 전체 확인 이력
 
@@ -20,11 +40,35 @@
 
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
-| 2026-06-24 | 발표·검증 | **건설 활동 상태**: 자금조달 활동 중 수개월간 공사 활동이 더 느리게 진행됐다고 회사가 설명 · **자금 사용 목적**: Boden 통합 그린스틸 플랜트의 건설·시운전 완료를 위한 자금 · **종결 자금조달액**: EUR 1,400,000,000 · **프로젝트 일정 상태**: 프로젝트 일정은 검토 중 · **자금조달 종결일**: 2026-06-24 [^src-20260727-56d0b35d] |
+| 2025-10-30 | 발표·검증 | **Grid connection milestone**: 스웨덴 송전망 운영자는 Stegra 제철·수소설비 접속을 위해 건설한 400kV Degerträsk 변전소가 2025년 10월 예정대로 가압·가동됐다고 확인했으며, 추가 인출을 위한 공사는 2026년 계속됐다. · **Grid milestone boundary**: Degerträsk 변전소 가동은 계통 접속 기반시설의 진전이지 Stegra 전해조·DRI·EAF·압연설비의 시운전이나 설계부하 수전 완료 증거가 아니다. 2028~2030년 약 2000MW 추가 인출 가능성도 여러 지역 계통사업의 합산 범위다. [^src-20260728-eeb8c7f8] |
+| 2025-11-26 | 발표·검증 | **Industrial leap additional support sek**: Swedish Energy Agency는 2025-11-26 Industriklivet 추가 지원 SEK 389,597,000을 승인했다. 승인 결정이며 전액 교부·지급 완료를 뜻하지 않는다. · **Industrial leap support context**: Stegra는 앞서 Industriklivet에서 SEK 1.2 billion 지원을 승인받았고 추가 SEK 1.6 billion을 신청했으나, 기관은 예산 범위상 SEK 389.597 million을 최대 추가 승인액으로 결정했다. · **Industrial leap support condition**: 추가 Industriklivet 지원에는 Stegra가 2026년 봄까지 프로젝트 완공에 충분한 자본을 확보했음을 입증해야 한다는 조건이 붙었다. 2026년 EUR 1.4 billion 조달과 별도 프로그램이며, 정부 페이지는 보조금 전액 지급 완료를 밝히지 않는다. [^src-20260728-ec5093b5] |
+| 2026-04-02 | 발표·검증 | **Electrolyzer module installation milestone**: Stegra는 2026-04-02 Boden 수소 플랜트의 마지막 electrolyzer module 설치를 발표했다. 회사도 추가 공사가 남았다고 명시했으므로 BOP 완공·시운전·수소 생산 또는 DRI 통합운전으로 해석하지 않는다. [^src-20260728-8147c73e] |
+| 2026-06-08 | 발표·검증 | **Rail milestone boundary**: Boden Industrial Park 철도는 공공-민간 협력으로 조성된 공유 기반시설이며, 개통 자체가 Stegra 공정설비 완공·시운전·생산개시를 뜻하지 않는다. · **Rail connection milestone**: 스웨덴 정부는 2026년 6월 9일 Boden Industrial Park와 Malmbanan·국가 철도망을 잇는 신설 철도가 공식 개통됐다고 확인했다. [^src-20260728-0356abdc] |
+| 2026-06-11 | 발표·검증 | **Dri tower construction height**: 2026-06-11 SVT 현장 보도에서 Boden DRI tower는 약 120 m까지 올라갔고 계획 높이는 145 m로 제시됐다. 이는 물리적 건설 진척이며 DRI 설비 완공·시운전·생산 개시 근거가 아니다. · **Production start schedule status**: 2026-06-11 독립 현장 보도에서 Stegra는 기존 2027년 초 생산개시 목표에 대한 새 상세 예측을 제시하지 않았고, 2026-06-24 회사 발표는 전체 일정을 검토 중이라고 확인했다. 따라서 기존 목표는 현재 확정 일정으로 볼 수 없다. · **Construction ramp status**: 2026-06-11 현재 Boden 현장 인력은 2025년 최고 수준보다 크게 적었고, Stegra는 여름 중 4,000~5,000명 수준으로 단계적 증원을 계획했다. 이는 증원 목표이며 실제 달성 인원이나 공정률이 아니다. [^src-20260728-7765bf98] |
+| 2026-06-24 | 발표·검증 | **Post financing schedule status**: 조달 종결 발표 시점에도 새 생산 개시일은 공개되지 않았고 건설 활동 확대만 명시; 조달 종결을 일정 확정으로 해석하지 않음 · **Financing closed amount eur**: EUR 1.4 billion; 전체 프로젝트 원가나 실제 집행액 아님 · **Financing round status**: 2026-06-24 회사 발표 기준 14억 유로 금융조달 라운드 종결; 2026-04-14의 원칙 합의 상태를 갱신 [^src-20260728-253ab0a9] |
+| 2026-06-24 | 발표·검증 | **Post financing schedule status**: 조달 종결 발표 시점에도 새 생산 개시일은 공개되지 않았고 건설 활동 확대만 명시; 조달 종결을 일정 확정으로 해석하지 않음 · **Financing round status**: 2026-06-24 회사 발표 기준 14억 유로 금융조달 라운드 종결; 2026-04-14의 원칙 합의 상태를 갱신 [^src-20260728-b14401af] |
+| 2026-06-24 | 발표·검증 | **건설 활동 상태**: 자금조달 활동 중 수개월간 공사 활동이 더 느리게 진행됐다고 회사가 설명 · **자금 사용 목적**: Boden 통합 그린스틸 플랜트의 건설·시운전 완료를 위한 자금 · **종결 자금조달액**: EUR 1,400,000,000 · **Production start schedule status**: 2026-06-11 독립 현장 보도에서 Stegra는 기존 2027년 초 생산개시 목표에 대한 새 상세 예측을 제시하지 않았고, 2026-06-24 회사 발표는 전체 일정을 검토 중이라고 확인했다. 따라서 기존 목표는 현재 확정 일정으로 볼 수 없다. · **프로젝트 일정 상태**: 프로젝트 일정은 검토 중 · **자금조달 종결일**: 2026-06-24 [^src-20260727-56d0b35d] |
 | 2026-06-24 | 자금조달 | **자금조달 종결일**: 2026-06-24 [^src-20260727-56d0b35d] |
+| 2026-07-28 | 수집 확인 | **Representative process reference**: 2022년 MIDREX 공개 공급사 개념도는 재생전력·현장 수소생산·DR 펠릿·직접환원·EAF·압연·후처리와 스크랩 순환을 연결; 현재 준공도는 아님 [^src-20260728-cef2d62e] |
 
 ## 근거 자료
 
 - **Stegra announces closing of EUR 1.4 billion financing round** — Stegra / Cision, 2026-06-24 · [원문 보기](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round,c4366881) · [[sources/SRC-20260727-56D0B35D|보관 원문·메타데이터]]
+- **Infrastruktur- och bostadsminister Andreas Carlson inviger järnvägen till Boden Industrial Park** — Government Offices of Sweden / Ministry of Rural Affairs and Infrastructure, 2026-06-08 · [원문 보기](https://regeringen.se/pressmeddelanden/2026/06/infrastruktur--och-bostadsminister-andreas-carlson-inviger-jarnvagen-till-boden-industrial-park/) · [[sources/SRC-20260728-0356ABDC|보관 원문·메타데이터]]
+- **Stegra announces closing of EUR 1.4 billion financing round** — Stegra / Cision, 2026-06-24 · [원문 보기](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round%2Cc4366881) · [[sources/SRC-20260728-253AB0A9|보관 원문·메타데이터]]
+- **Stegra ramps up in Boden but remains far from full pace** — SVT Nyheter Norrbotten, 2026-06-11 · [원문 보기](https://www.svt.se/nyheter/lokalt/norrbotten/stegra-trappar-upp-i-boden-men-langt-ifran-full-fart) · [[sources/SRC-20260728-7765BF98|보관 원문·메타데이터]]
+- **Final electrolyzer module installed at Stegra green hydrogen plant** — Stegra, 2026-04-02 · [원문 보기](https://stegra.com/en/news-and-stories/final-electrolyzer-module-installed-at-stegras-green-hydrogen-plant) · [[sources/SRC-20260728-8147C73E|보관 원문·메타데이터]]
+- **EUR 1.4 billion - Stegra rescue package completed** — SVT Nyheter / TT, 2026-06-24 · [원문 보기](https://www.svt.se/nyheter/lokalt/norrbotten/14-miljarder-euro-stegras-raddningspaket-i-hamn) · [[sources/SRC-20260728-B14401AF|보관 원문·메타데이터]]
+- **H2 Green Steel Story - the Quest for Earth's Sustainable Future** — Midrex Technologies, 게시일 미상 · [원문 보기](https://www.midrex.com/tech-article/h2-green-steel-story-the-quest-for-earths-sustainable-future/) · [[sources/SRC-20260728-CEF2D62E|보관 원문·메타데이터]]
+- **Swedish Energy Agency grants SEK 390 million in support to Stegra** — Swedish Energy Agency, 2025-11-26 · [원문 보기](https://www.energimyndigheten.se/en/news/2025/swedish-energy-agency-grants-sek-390-million-in-support-to-stegra/) · [[sources/SRC-20260728-EC5093B5|보관 원문·메타데이터]]
+- **Station Degerträsk driftsatt** — Svenska kraftnät, 2025-10-30 · [원문 보기](https://www.svk.se/utveckling-av-kraftsystemet/transmissionsnatet/transmissionsnatsprojekt/degertrask/nytt-om-station-degertrask/station-degertrask-driftsatt/) · [[sources/SRC-20260728-EEB8C7F8|보관 원문·메타데이터]]
 
 [^src-20260727-56d0b35d]: **Stegra announces closing of EUR 1.4 billion financing round** — Stegra / Cision, 2026-06-24. [원문](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round,c4366881) · [[sources/SRC-20260727-56D0B35D|보관 원문·메타데이터]]
+[^src-20260728-0356abdc]: **Infrastruktur- och bostadsminister Andreas Carlson inviger järnvägen till Boden Industrial Park** — Government Offices of Sweden / Ministry of Rural Affairs and Infrastructure, 2026-06-08. [원문](https://regeringen.se/pressmeddelanden/2026/06/infrastruktur--och-bostadsminister-andreas-carlson-inviger-jarnvagen-till-boden-industrial-park/) · [[sources/SRC-20260728-0356ABDC|보관 원문·메타데이터]]
+[^src-20260728-253ab0a9]: **Stegra announces closing of EUR 1.4 billion financing round** — Stegra / Cision, 2026-06-24. [원문](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round%2Cc4366881) · [[sources/SRC-20260728-253AB0A9|보관 원문·메타데이터]]
+[^src-20260728-7765bf98]: **Stegra ramps up in Boden but remains far from full pace** — SVT Nyheter Norrbotten, 2026-06-11. [원문](https://www.svt.se/nyheter/lokalt/norrbotten/stegra-trappar-upp-i-boden-men-langt-ifran-full-fart) · [[sources/SRC-20260728-7765BF98|보관 원문·메타데이터]]
+[^src-20260728-8147c73e]: **Final electrolyzer module installed at Stegra green hydrogen plant** — Stegra, 2026-04-02. [원문](https://stegra.com/en/news-and-stories/final-electrolyzer-module-installed-at-stegras-green-hydrogen-plant) · [[sources/SRC-20260728-8147C73E|보관 원문·메타데이터]]
+[^src-20260728-b14401af]: **EUR 1.4 billion - Stegra rescue package completed** — SVT Nyheter / TT, 2026-06-24. [원문](https://www.svt.se/nyheter/lokalt/norrbotten/14-miljarder-euro-stegras-raddningspaket-i-hamn) · [[sources/SRC-20260728-B14401AF|보관 원문·메타데이터]]
+[^src-20260728-cef2d62e]: **H2 Green Steel Story - the Quest for Earth's Sustainable Future** — Midrex Technologies, 게시일 미상. [원문](https://www.midrex.com/tech-article/h2-green-steel-story-the-quest-for-earths-sustainable-future/) · [[sources/SRC-20260728-CEF2D62E|보관 원문·메타데이터]]
+[^src-20260728-ec5093b5]: **Swedish Energy Agency grants SEK 390 million in support to Stegra** — Swedish Energy Agency, 2025-11-26. [원문](https://www.energimyndigheten.se/en/news/2025/swedish-energy-agency-grants-sek-390-million-in-support-to-stegra/) · [[sources/SRC-20260728-EC5093B5|보관 원문·메타데이터]]
+[^src-20260728-eeb8c7f8]: **Station Degerträsk driftsatt** — Svenska kraftnät, 2025-10-30. [원문](https://www.svk.se/utveckling-av-kraftsystemet/transmissionsnatet/transmissionsnatsprojekt/degertrask/nytt-om-station-degertrask/station-degertrask-driftsatt/) · [[sources/SRC-20260728-EEB8C7F8|보관 원문·메타데이터]]

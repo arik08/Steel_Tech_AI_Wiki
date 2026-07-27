@@ -2,12 +2,22 @@
 
 # SSAB Luleå 신규 전기제철소
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **8건** · 직접 연결 근거 **1건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **17건** · 직접 연결 근거 **5건**
 
 
-![SSAB Luleå 전기제철소 기공식](<https://mb.cision.com/Public/980/4235985/a783e1cf18bc6171_org.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![스크랩과 스폰지철이 두 전기로로 투입되어 2차정련 연속주조 열간압연 코일로 이어지는 AI 공정 재구성](../assets/media/SRC-20260725-31601585/MED-E411E2A95B5D.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — SSAB Luleå 신규 전기제철소 기공식 현장 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-31601585|SRC-20260725-31601585]] · [원문 페이지](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule))*
+*대표 이미지 — AI 재구성 — SSAB Lulea 계획 공정의 스크랩·무화석 스폰지철 병렬 2기 EAF 투입, 2차정련, 연속주조, 열간압연과 코일 생산 흐름. 실제 준공도·배치도·P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-31601585|SRC-20260725-31601585]] · [원문 페이지](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule))*
+
+
+## 설비·공정 이미지
+
+![SSAB Luleå 전기제철소 기공식](<https://mb.cision.com/Public/980/4235985/a783e1cf18bc6171_org.jpg>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** SSAB Luleå 신규 전기제철소 기공식 현장
+
+- 출처 [[sources/SRC-20260725-31601585|SRC-20260725-31601585]] · 권리 `link_only` · [원문 페이지](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule) · 작성·촬영 SSAB / official press image
+- 권리 메모: SSAB 공식 보도자료의 기공식 사진입니다. 재사용 권한을 별도 확인하지 않아 원문 링크로만 표시합니다.
 
 !!! abstract "현재 상태"
 
@@ -18,13 +28,22 @@
 | 항목 | 확인된 내용 |
 | --- | --- |
 | **프로젝트 상태** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] |
-| **목표 가동 시점** | 2029년 말 가동 목표 [^src-20260725-31601585] |
+| **목표 가동 시점** | 2029년 말 가동 목표 [^src-20260725-31601585][^src-20260728-2bb4fea7] |
 | **연간 생산능력** | 연간 2,500,000톤 [^src-20260725-31601585] |
 | **투자비** | EUR 4.5 billion [^src-20260725-31601585] |
 | **기술 경로** | 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 [^src-20260725-31601585] |
 | **연간 CO2 감축·회피량** | 기존 고로 경로 대체 후 연간 약 3 Mt CO2 감축 추정 [^src-20260725-31601585] |
+| **Casting rolling configuration** | QSP-DUE 직접주조압연 계통은 110~140 mm 슬래브용 DySenCaster, 유도·저항가열을 결합한 100% 전기 터널로와 인라인 slab scarfer를 포함한다. [^src-20260728-eac4fdb6] |
+| **Construction restart status** | 2026-07-13 발표 기준 추가 측정 뒤 일부 공사를 7월 14일부터 단계적으로 재개; 완공·시운전·생산개시가 아님 [^src-20260728-3c88a721][^src-20260728-4f6eaea2] |
+| **Construction safety pause status** | 2026-06-29 낮은 농도의 시안화수소 감지로 해당·인접 토공 구역 작업을 재중단; 적용 노출한계 미만이라는 SSAB 발표와 구분 [^src-20260728-4f6eaea2][^src-20260728-3c88a721] |
 | **착공 시점** | 2025-09-17 기공식 [^src-20260725-31601585] |
 | **위치** | Luleå, Sweden [^src-20260725-31601585] |
+| **Meltshop equipment configuration** | Danieli 계약 공급 범위는 210 t Digimelter 2기, 지역난방 열회수를 포함한 Q-One 전원, ECS 연속 스크랩 장입, MeltModel 동적 용해 제어로 구성된다. [^src-20260728-eac4fdb6] |
+| **Q2 groundwork status** | 2026-07-22 SSAB Q2 공시 기준 예방적 안전 중단 후 기초공사 재개; 기존 Lulea 철강 생산은 정상 운영 중이며 신규 전기로 설치 완료·시운전·생산개시 근거는 아님 [^src-20260728-2bb4fea7] |
+| **Representative process reference** | AI 재구성은 스크랩·무화석 스폰지철의 병렬 2기 EAF 투입, 2차정련, 연속주조, 열간압연과 코일 생산 흐름을 설명; 실제 준공도·배치도·P&ID가 아님 [^src-20260725-31601585] |
+| **Schedule budget impact assessment** | 안전 관련 작업 중단은 전체 프로젝트 일정·예산에 중대한 영향을 주지 않는다는 SSAB 자체 평가; 독립 확정값 아님 [^src-20260728-4f6eaea2][^src-20260728-2bb4fea7] |
+| **Secondary metallurgy configuration** | 계약 공급 범위에는 twin-ladle 정련 station 2계열과 twin-tank 진공 탈가스기 2계열이 포함된다. [^src-20260728-eac4fdb6] |
+| **Supplier design evidence boundary** | Danieli의 설비 구성·연 2.5 Mt 제품 범위는 계약상 설계·공급 목표이며 설치 완료, 시운전 또는 실제 생산·품질 실적이 아니다. [^src-20260728-eac4fdb6] |
 
 ## 전체 확인 이력
 
@@ -32,11 +51,23 @@
 
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
-| 2025-09-17 | 발표·검증 | **연간 생산능력**: 연간 2,500,000톤 · **착공 시점**: 2025-09-17 기공식 · **위치**: Luleå, Sweden · **연간 CO2 감축·회피량**: 기존 고로 경로 대체 후 연간 약 3 Mt CO2 감축 추정 · **투자비**: EUR 4.5 billion · **기술 경로**: 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 · **프로젝트 상태**: 2025-09-17 기공 후 신규 전기제철소 건설 중 · **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585] |
-| 2029 | 목표 일정 | **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585] |
+| 2025-06-10 | 발표·검증 | **Casting rolling configuration**: QSP-DUE 직접주조압연 계통은 110~140 mm 슬래브용 DySenCaster, 유도·저항가열을 결합한 100% 전기 터널로와 인라인 slab scarfer를 포함한다. · **Secondary metallurgy configuration**: 계약 공급 범위에는 twin-ladle 정련 station 2계열과 twin-tank 진공 탈가스기 2계열이 포함된다. · **Supplier design evidence boundary**: Danieli의 설비 구성·연 2.5 Mt 제품 범위는 계약상 설계·공급 목표이며 설치 완료, 시운전 또는 실제 생산·품질 실적이 아니다. · **Meltshop equipment configuration**: Danieli 계약 공급 범위는 210 t Digimelter 2기, 지역난방 열회수를 포함한 Q-One 전원, ECS 연속 스크랩 장입, MeltModel 동적 용해 제어로 구성된다. [^src-20260728-eac4fdb6] |
+| 2025-09-17 | 발표·검증 | **연간 생산능력**: 연간 2,500,000톤 · **착공 시점**: 2025-09-17 기공식 · **위치**: Luleå, Sweden · **Representative process reference**: AI 재구성은 스크랩·무화석 스폰지철의 병렬 2기 EAF 투입, 2차정련, 연속주조, 열간압연과 코일 생산 흐름을 설명; 실제 준공도·배치도·P&ID가 아님 · **연간 CO2 감축·회피량**: 기존 고로 경로 대체 후 연간 약 3 Mt CO2 감축 추정 · **투자비**: EUR 4.5 billion · **기술 경로**: 전기로 2기 + 2차정련 + 일관 압연; 무화석 스폰지철과 재활용 스크랩 사용 · **프로젝트 상태**: 2025-09-17 기공 후 신규 전기제철소 건설 중 · **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585] |
+| 2026-06-29 | 발표·검증 | **Construction restart status**: 2026-07-13 발표 기준 추가 측정 뒤 일부 공사를 7월 14일부터 단계적으로 재개; 완공·시운전·생산개시가 아님 · **Construction safety pause status**: 2026-06-29 낮은 농도의 시안화수소 감지로 해당·인접 토공 구역 작업을 재중단; 적용 노출한계 미만이라는 SSAB 발표와 구분 · **Schedule budget impact assessment**: 안전 관련 작업 중단은 전체 프로젝트 일정·예산에 중대한 영향을 주지 않는다는 SSAB 자체 평가; 독립 확정값 아님 [^src-20260728-4f6eaea2] |
+| 2026-07-13 | 발표·검증 | **Construction restart status**: 2026-07-13 발표 기준 추가 측정 뒤 일부 공사를 7월 14일부터 단계적으로 재개; 완공·시운전·생산개시가 아님 · **Construction safety pause status**: 2026-06-29 낮은 농도의 시안화수소 감지로 해당·인접 토공 구역 작업을 재중단; 적용 노출한계 미만이라는 SSAB 발표와 구분 [^src-20260728-3c88a721] |
+| 2026-07-22 | 발표·검증 | **Q2 groundwork status**: 2026-07-22 SSAB Q2 공시 기준 예방적 안전 중단 후 기초공사 재개; 기존 Lulea 철강 생산은 정상 운영 중이며 신규 전기로 설치 완료·시운전·생산개시 근거는 아님 · **Schedule budget impact assessment**: 안전 관련 작업 중단은 전체 프로젝트 일정·예산에 중대한 영향을 주지 않는다는 SSAB 자체 평가; 독립 확정값 아님 · **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260728-2bb4fea7] |
+| 2029 | 목표 일정 | **목표 가동 시점**: 2029년 말 가동 목표 [^src-20260725-31601585][^src-20260728-2bb4fea7] |
 
 ## 근거 자료
 
 - **SSAB begins construction of new Luleå electric steel mill** — SSAB, 2025-09-17 · [원문 보기](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule) · [[sources/SRC-20260725-31601585|보관 원문·메타데이터]]
+- **SSAB Report for Q2 2026 - Lulea project schedule update** — SSAB, 2026-07-22 · [원문 보기](https://www.ssab.com/en/news/2026/07/report-for-q2-2026) · [[sources/SRC-20260728-2BB4FEA7|보관 원문·메타데이터]]
+- **After cyanide alarm, SSAB resumes steel mill construction** — SVT Nyheter Norrbotten, 2026-07-13 · [원문 보기](https://www.svt.se/nyheter/lokalt/norrbotten/efter-cyanidlarm-ssab-aterupptar-stalverksbygge) · [[sources/SRC-20260728-3C88A721|보관 원문·메타데이터]]
+- **SSAB pauses work at construction site in Lulea** — SSAB, 2026-06-29 · [원문 보기](https://www.ssab.com/en/news/2026/06/ssab-pauses-work-at-construction-site-in-lule) · [[sources/SRC-20260728-4F6EAEA2|보관 원문·메타데이터]]
+- **Fossil-free steel mini-mill to produce specialty hot-rolled strip in Luleå, Sweden** — Danieli, 2025-06-10 · [원문 보기](https://www.danieli-usa.com/en/news/fossil-free-steel-mini-mill-produce-specialty-hot-rolled-strip-lulea-sweden_13_972.htm) · [[sources/SRC-20260728-EAC4FDB6|보관 원문·메타데이터]]
 
 [^src-20260725-31601585]: **SSAB begins construction of new Luleå electric steel mill** — SSAB, 2025-09-17. [원문](https://www.ssab.com/en/news/2025/09/the-deputy-prime-minister-and-ssabs-ceo-broke-ground-on-a-new-steel-mill-in-lule) · [[sources/SRC-20260725-31601585|보관 원문·메타데이터]]
+[^src-20260728-2bb4fea7]: **SSAB Report for Q2 2026 - Lulea project schedule update** — SSAB, 2026-07-22. [원문](https://www.ssab.com/en/news/2026/07/report-for-q2-2026) · [[sources/SRC-20260728-2BB4FEA7|보관 원문·메타데이터]]
+[^src-20260728-3c88a721]: **After cyanide alarm, SSAB resumes steel mill construction** — SVT Nyheter Norrbotten, 2026-07-13. [원문](https://www.svt.se/nyheter/lokalt/norrbotten/efter-cyanidlarm-ssab-aterupptar-stalverksbygge) · [[sources/SRC-20260728-3C88A721|보관 원문·메타데이터]]
+[^src-20260728-4f6eaea2]: **SSAB pauses work at construction site in Lulea** — SSAB, 2026-06-29. [원문](https://www.ssab.com/en/news/2026/06/ssab-pauses-work-at-construction-site-in-lule) · [[sources/SRC-20260728-4F6EAEA2|보관 원문·메타데이터]]
+[^src-20260728-eac4fdb6]: **Fossil-free steel mini-mill to produce specialty hot-rolled strip in Luleå, Sweden** — Danieli, 2025-06-10. [원문](https://www.danieli-usa.com/en/news/fossil-free-steel-mini-mill-produce-specialty-hot-rolled-strip-lulea-sweden_13_972.htm) · [[sources/SRC-20260728-EAC4FDB6|보관 원문·메타데이터]]

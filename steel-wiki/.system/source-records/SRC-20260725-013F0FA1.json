@@ -28,10 +28,12 @@
       "collected_at": "2026-07-25",
       "content_sha256": null,
       "local_path": null,
-      "hero_priority": -100,
+      "display_width": "detail",
+      "hero_priority": -1000,
       "subject_ids": [
         "COM-POSCO",
         "PRJ-POSCO-HYREX-DEMO",
+        "PRJ-POSCO-HYREX-POHANG-DEMO",
         "TEC-hydrogen-based-fine-ore-reduction"
       ]
     },
@@ -52,7 +54,10 @@
         "TEC-hydrogen-based-fine-ore-reduction"
       ],
       "display_width": "detail",
-      "hero_priority": -300
+      "hero_priority": -300,
+      "display_eligible": false,
+      "hero_eligible": false,
+      "qc_note": "2026-07-28 사용자 기술 검토와 HyREX 학술 도식 재대조 결과 cyclone을 반응기 외부에 그린 형상이 부정확해 표시 대상에서 제외했습니다. HyREX는 각 유동층 반응기 shell 내부에 고효율 cyclone과 dipleg 계통을 배치합니다."
     }
   ]
 }

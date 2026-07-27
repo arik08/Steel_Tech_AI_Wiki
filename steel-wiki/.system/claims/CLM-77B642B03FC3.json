@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-77B642B03FC3",
+  "subject_id": "PRJ-NIPPON-USS-BIG-RIVER-DRI",
+  "predicate": "capex_usd",
+  "value": "approximately USD 1.9 billion",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-30",
+  "last_verified": "2026-04-30",
+  "source_ids": [
+    "SRC-20260728-15D8C4A6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-30",
+      "action": "created",
+      "reason": "Parent-company investment disclosure",
+      "source_ids": [
+        "SRC-20260728-15D8C4A6"
+      ]
+    }
+  ]
+}

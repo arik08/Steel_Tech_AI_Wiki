@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-444B1C152C71",
+  "subject_id": "TEC-hydrogen-direct-reduced-iron",
+  "predicate": "top_gas_recycle_tradeoff",
+  "value": "동일 시스템 모델에서 상부가스 재순환은 환원가스의 CO 비율과 금속화율을 높였지만 개질기의 메탄 전환율을 낮출 수 있어, 재순환 확대를 단일 성능 개선으로 해석할 수 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-03",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-8D2313B9"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-03",
+      "action": "created",
+      "reason": "가스 재순환의 상충효과를 독립 학술 모델로 보강",
+      "source_ids": [
+        "SRC-20260728-8D2313B9"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-8D2313B9"
+      ]
+    }
+  ]
+}

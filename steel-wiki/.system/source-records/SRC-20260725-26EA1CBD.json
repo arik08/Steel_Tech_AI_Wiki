@@ -33,6 +33,26 @@
       ],
       "display_width": "detail",
       "hero_priority": -100
+    },
+    {
+      "media_id": "MED-3968D4FEEEBC",
+      "kind": "facility_photo",
+      "caption": "Boston Metal Woburn의 다중 불활성 양극 MOE Steel 산업 셀 공식 사진. 회사는 2025년 이 셀의 시운전과 톤 단위 용융철 출선을 발표했다. 사진은 실제 핵심 설비 외형을 보여주지만 내부 전극 간격·전해질 조성·전류효율·양극 수명이나 별도 상업 제철 플랜트 완공을 입증하는 단면도는 아니다.",
+      "alt_text": "Boston Metal Woburn 시설의 다중 불활성 양극 용융산화물 전해 산업 셀 외형",
+      "creator": "Boston Metal; photographer not identified",
+      "image_url": "https://www.bostonmetal.com/wp-content/uploads/2025/03/Boston-Metal-M5M-Cell-2025.jpg",
+      "origin_url": "https://www.bostonmetal.com/moe-steel",
+      "rights_status": "link_only",
+      "rights_note": "Boston Metal 공식 MOE Steel 페이지 원본 사진을 원격 표시합니다. 재사용 라이선스와 촬영자 표기가 확인되지 않아 로컬 복제하지 않습니다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "TEC-molten-oxide-electrolysis",
+        "PRJ-BOSTON-METAL-MOE-WOBURN"
+      ],
+      "display_width": "compact",
+      "hero_priority": -600
     }
   ]
 }

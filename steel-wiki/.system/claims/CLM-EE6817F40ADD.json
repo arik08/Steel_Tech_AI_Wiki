@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-EE6817F40ADD",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "nucor_bushnell_scrap_pretreatment",
+  "value": "Nucor는 Bushnell 재활용 시설에서 광산 장비를 전용해 일반 스크랩의 구리·비철금속을 물리적으로 분리·회수하며 회수량 2배를 주장; 용강 탈동이 아니며 기준 처리량·순도는 미공개",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-05-06",
+  "last_verified": "2026-05-06",
+  "source_ids": [
+    "SRC-20260728-8E7E10C4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-06",
+      "action": "created",
+      "reason": "운영 중인 전처리 사례와 EAF bath 탈동을 구분",
+      "source_ids": [
+        "SRC-20260728-8E7E10C4"
+      ]
+    }
+  ]
+}

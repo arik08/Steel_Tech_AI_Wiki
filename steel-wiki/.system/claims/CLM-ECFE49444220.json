@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-ECFE49444220",
+  "subject_id": "TEC-blast-furnace-ccus",
+  "predicate": "jfe_demonstration_status",
+  "value": "JFE Chiba의 150 m³ 탄소순환 시험고로가 2025년 5월 운전을 시작했으며, 공개 성능치는 아직 확인되지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-1AB6BC47"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "공식 그룹 자료 3종에서 운전 개시와 실증 일정을 일관되게 확인했으나 모두 동일 발행자이며 CO2 저감 실측치는 비공개",
+      "source_ids": [
+        "SRC-20260728-1AB6BC47"
+      ]
+    }
+  ]
+}

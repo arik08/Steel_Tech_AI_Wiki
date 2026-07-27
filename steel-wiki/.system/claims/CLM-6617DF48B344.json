@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-6617DF48B344",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "published_scaleup_challenge_scope",
+  "value": "2026-07 POSCO 발표는 환원 kinetics, 유동화·defluidization, 환원 중 입도·밀도 변화, 고체 이송, 가스 재순환, 연결 반응기 압력평형, distributor·cyclone 설계, 고온 환원철 저장·이송을 상용 확대 기술과제로 다룸; 정량 설계값·성능 공개는 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-17",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-FA603C67"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-17",
+      "action": "created",
+      "reason": "최신 POSCO 발표의 공개 기술과제 범위 기록",
+      "source_ids": [
+        "SRC-20260728-FA603C67"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-FA603C67"
+      ]
+    }
+  ]
+}

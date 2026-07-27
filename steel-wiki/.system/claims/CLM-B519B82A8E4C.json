@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-B519B82A8E4C",
+  "subject_id": "PRJ-NIPPON-USS-BIG-RIVER-DRI",
+  "predicate": "feedstock_chain",
+  "value": "Keetac DR-grade pellets from Minnesota to on-site DRI production and four EAFs at Big River Steel Works",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-29",
+  "last_verified": "2026-04-29",
+  "source_ids": [
+    "SRC-20260728-AADE96F1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-29",
+      "action": "created",
+      "reason": "Official vertically integrated feedstock chain",
+      "source_ids": [
+        "SRC-20260728-AADE96F1"
+      ]
+    }
+  ]
+}

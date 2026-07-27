@@ -2,7 +2,7 @@
 
 # Nucor Convent DRI–CCS
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **9건** · 직접 연결 근거 **2건**
+> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **9건** · 직접 연결 근거 **4건**
 
 
 ![천연가스 직접환원 샤프트로와 CO2 분리·압축설비, 파이프라인 및 지중저장 단면 공정 재구성](../assets/media/SRC-20260725-BF5036AE/MED-B53ECCA94FC1.png){ .steel-media-image .steel-hero-image .steel-media-compact }
@@ -11,14 +11,14 @@
 
 !!! abstract "현재 상태"
 
-    **Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음** [^src-20260725-bf5036ae]
+    **2026-05 ExxonMobil report continues to list the Nucor Convent project as an announced long-term contract for up to about 0.8 Mt-CO2/y, while naming only CF Industries and NG3 as then transporting and storing CO2; Nucor start-up remains unconfirmed** [^src-20260728-19397fad]
 
 ## 확인된 핵심 정보
 
 | 항목 | 확인된 내용 |
 | --- | --- |
-| **프로젝트 상태** | Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음 [^src-20260725-bf5036ae] |
-| **목표 가동 시점** | 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] |
+| **프로젝트 상태** | 2026-05 ExxonMobil report continues to list the Nucor Convent project as an announced long-term contract for up to about 0.8 Mt-CO2/y, while naming only CF Industries and NG3 as then transporting and storing CO2; Nucor start-up remains unconfirmed [^src-20260728-19397fad] |
+| **목표 가동 시점** | 2026 target, conditional on further investment, supportive policy and permitting; actual start-up date remains unconfirmed [^src-20260728-c1d1d6ad] |
 | **기술 경로** | Convent 천연가스 DRI 설비 배출 CO2 포집 → ExxonMobil 수송 → Louisiana 내 ExxonMobil 저장시설 영구저장 계획 [^src-20260725-bf5036ae] |
 | **계약 교차확인** | Nucor도 ExxonMobil과의 Convent DRI CO2 포집·수송·영구저장 계약과 최대 80만 t/y 설계를 별도 공식 확인 [^src-20260725-11668643] |
 | **연간 CO2 포집능력** | 연간 최대 800,000 metric tonnes CO2 포집·수송·저장 계약 [^src-20260725-bf5036ae] |
@@ -35,12 +35,26 @@
 | --- | --- | --- |
 | 2023 | 목표 일정 | **목표 가동 시점**: 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] |
 | 2023-06-01 | 발표·검증 | **계약 교차확인**: Nucor도 ExxonMobil과의 Convent DRI CO2 포집·수송·영구저장 계약과 최대 80만 t/y 설계를 별도 공식 확인 · **공개 성과의 한계**: 계약과 설계용량은 양사에서 확인되지만 시운전·연간 실제 포집량·포집률·수송 개시·영구 주입 실적은 미확인 [^src-20260725-11668643] |
-| 2023-06-01 | 발표·검증 | **기술 경로**: Convent 천연가스 DRI 설비 배출 CO2 포집 → ExxonMobil 수송 → Louisiana 내 ExxonMobil 저장시설 영구저장 계획 · **연간 CO2 포집능력**: 연간 최대 800,000 metric tonnes CO2 포집·수송·저장 계약 · **프로젝트 상태**: Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음 · **위치**: Nucor DRI plant, Convent, Louisiana, United States · **배출 경계**: 고로가 아닌 천연가스 DRI 설비 CCS이며, DRI 환원제를 수소로 전환했다는 근거는 아님 · **참여 기관**: Nucor Corporation 및 ExxonMobil · **목표 가동 시점**: 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] |
+| 2023-06-01 | 발표·검증 | **기술 경로**: Convent 천연가스 DRI 설비 배출 CO2 포집 → ExxonMobil 수송 → Louisiana 내 ExxonMobil 저장시설 영구저장 계획 · **연간 CO2 포집능력**: 연간 최대 800,000 metric tonnes CO2 포집·수송·저장 계약 · **프로젝트 상태**: Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음 · 후속 정보로 대체 · **위치**: Nucor DRI plant, Convent, Louisiana, United States · **배출 경계**: 고로가 아닌 천연가스 DRI 설비 CCS이며, DRI 환원제를 수소로 전환했다는 근거는 아님 · **참여 기관**: Nucor Corporation 및 ExxonMobil · **목표 가동 시점**: 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 · 후속 정보로 대체 [^src-20260725-bf5036ae] |
+| 2025-12-09 | 발표·검증 | **목표 가동 시점**: 2026 target, conditional on further investment, supportive policy and permitting; actual start-up date remains unconfirmed [^src-20260728-c1d1d6ad] |
+| 2026 | 목표 일정 | **목표 가동 시점**: 2026 target, conditional on further investment, supportive policy and permitting; actual start-up date remains unconfirmed [^src-20260728-c1d1d6ad] |
+| 2026-05-01 | 발표·검증 | **프로젝트 상태**: 2026-05 ExxonMobil report continues to list the Nucor Convent project as an announced long-term contract for up to about 0.8 Mt-CO2/y, while naming only CF Industries and NG3 as then transporting and storing CO2; Nucor start-up remains unconfirmed [^src-20260728-19397fad] |
+
+## 변경 이력
+
+| 상태 | 항목 | 이전 내용 | 변경 사유 | 최근 검증 |
+| --- | --- | --- | --- | --- |
+| **후속 정보로 대체** | 프로젝트 상태 | Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음 [^src-20260725-bf5036ae] | 2026-05 official ExxonMobil portfolio report is a later status disclosure that preserves the unconfirmed-start conclusion while adding the current contract scale and operating-project comparison | 2026-07-25 |
+| **후속 정보로 대체** | 목표 가동 시점 | 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] | 2025-12 official ExxonMobil plan is a later schedule statement that reaffirms the 2026 target and adds explicit investment, policy and permitting conditions | 2026-07-25 |
 
 ## 근거 자료
 
 - **Nucor Convent DRI carbon capture and storage agreement** — Nucor Corporation, 2023-06-01 · [원문 보기](https://investors.nucor.com/news/news-details/2023/Nucor-Enters-Into-Carbon-Capture-Storage-Agreement-with-ExxonMobil-06-01-2023/default.aspx) · [[sources/SRC-20260725-11668643|보관 원문·메타데이터]]
 - **ExxonMobil and Nucor carbon capture agreement for Convent DRI plant** — ExxonMobil, 2023-06-01 · [원문 보기](https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement) · [[sources/SRC-20260725-BF5036AE|보관 원문·메타데이터]]
+- **Advancing Climate Solutions 2026 - Nucor Convent CCS status** — Exxon Mobil Corporation, 2026-05-01 · [원문 보기](https://corporate.exxonmobil.com/-/media/global/files/advancing-climate-solutions/2026/2026-advancing-climate-solutions-report.pdf) · [[sources/SRC-20260728-19397FAD|보관 원문·메타데이터]]
+- **ExxonMobil raises its 2030 Plan - conditional Nucor CCS start-up target** — Exxon Mobil Corporation, 2025-12-09 · [원문 보기](https://corporate.exxonmobil.com/news/news-releases/2025/1209-exxonmobil-raises-2030-plan-transformation) · [[sources/SRC-20260728-C1D1D6AD|보관 원문·메타데이터]]
 
 [^src-20260725-11668643]: **Nucor Convent DRI carbon capture and storage agreement** — Nucor Corporation, 2023-06-01. [원문](https://investors.nucor.com/news/news-details/2023/Nucor-Enters-Into-Carbon-Capture-Storage-Agreement-with-ExxonMobil-06-01-2023/default.aspx) · [[sources/SRC-20260725-11668643|보관 원문·메타데이터]]
 [^src-20260725-bf5036ae]: **ExxonMobil and Nucor carbon capture agreement for Convent DRI plant** — ExxonMobil, 2023-06-01. [원문](https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement) · [[sources/SRC-20260725-BF5036AE|보관 원문·메타데이터]]
+[^src-20260728-19397fad]: **Advancing Climate Solutions 2026 - Nucor Convent CCS status** — Exxon Mobil Corporation, 2026-05-01. [원문](https://corporate.exxonmobil.com/-/media/global/files/advancing-climate-solutions/2026/2026-advancing-climate-solutions-report.pdf) · [[sources/SRC-20260728-19397FAD|보관 원문·메타데이터]]
+[^src-20260728-c1d1d6ad]: **ExxonMobil raises its 2030 Plan - conditional Nucor CCS start-up target** — Exxon Mobil Corporation, 2025-12-09. [원문](https://corporate.exxonmobil.com/news/news-releases/2025/1209-exxonmobil-raises-2030-plan-transformation) · [[sources/SRC-20260728-C1D1D6AD|보관 원문·메타데이터]]

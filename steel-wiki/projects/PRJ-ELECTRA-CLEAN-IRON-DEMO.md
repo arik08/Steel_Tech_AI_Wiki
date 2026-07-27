@@ -2,12 +2,29 @@
 
 # Electra 청정철 시범공장
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **15건** · 직접 연결 근거 **3건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **19건** · 직접 연결 근거 **8건**
 
 
-![Electra 연구진 두 명이 파일럿 전해 설비의 대형 전착 철판을 점검하는 모습](../assets/media/SRC-20260725-D6930918/MED-72731666BC8E.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+![ElectraSteel 특허의 산 재생 셀과 막 분리 철 도금 셀 공정 구성도](<https://patentimages.storage.googleapis.com/13/7e/d6/4cdb4defb84ad3/US11753732-20230912-D00003.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Electra 파일럿 설비에서 대형 전착 철판을 점검하는 연구진 (실제 설비 사진 · 권리 `permitted` · 출처 [[sources/SRC-20260725-D6930918|SRC-20260725-D6930918]] · [원문 페이지](https://www.electra.earth/))*
+*대표 이미지 — ElectraSteel 특허 Figure 4의 2단 철 전환 공정 및 도금 셀 구성도. 용해·산 재생·전해액 순환·막 분리 도금 셀·금속 철 제거를 보여주는 특허 실시예이며 Colorado 실증설비의 준공도는 아님 (특허 도면 · 권리 `link_only` · 출처 [[sources/SRC-20260728-BE2CCB14|SRC-20260728-BE2CCB14]] · [원문 페이지](https://patents.google.com/patent/US11753732B2/en))*
+
+
+## 설비·공정 이미지
+
+![Electra 연구진 두 명이 파일럿 전해 설비의 대형 전착 철판을 점검하는 모습](../assets/media/SRC-20260725-D6930918/MED-72731666BC8E.png){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Electra 파일럿 설비에서 대형 전착 철판을 점검하는 연구진
+
+- 출처 [[sources/SRC-20260725-D6930918|SRC-20260725-D6930918]] · 권리 `permitted` · [원문 페이지](https://www.electra.earth/) · 작성·촬영 Electra
+- 권리 메모: Electra 공식 홈페이지 공개 이미지이며 내부 기술 인텔리전스 문서에 출처·원문 링크와 함께 사용; 외부 재배포 전 별도 권리 확인 필요
+
+![Electra demonstration facility electrowinning bath equipment during installation in April 2026](<https://media.licdn.com/dms/image/v2/D4E22AQEW2kSVdTGQvQ/feedshare-shrink_800/B4EZ27tLR0IAAc-/0/1776970675877?e=2147483647&t=nXnhEd_bjEV1YwYdRPYj4R3dfIlcj_H9d2cULPM9TsU&v=beta>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Electra가 2026년 4월 공개한 Colorado demonstration facility의 electrowinning bath 설치 현장. 핵심 전해조 설비의 현장 반입·설치를 보여주지만, 시운전 완료·연속 생산·500 t/y 달성을 입증하는 사진은 아니다.
+
+- 출처 [[sources/SRC-20260728-F9066CB4|SRC-20260728-F9066CB4]] · 권리 `link_only` · [원문 페이지](https://www.linkedin.com/posts/electra-earth_a-lot-of-hard-work-became-real-this-week-activity-7453155218462183424-N15E) · 작성·촬영 Electra; photographer not identified
+- 권리 메모: Company LinkedIn post; no reuse licence or photographer credit identified. Remote display only. The image documents installation status, not commissioning or production performance.
 
 !!! abstract "현재 상태"
 
@@ -19,19 +36,23 @@
 | --- | --- |
 | **프로젝트 상태** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] |
 | **목표 가동 시점** | 2026년 [^src-20260725-4c014458] |
-| **연간 생산능력** | 연간 500톤 (500 tpy) [^src-20260725-4c014458][^src-20260727-44dc8b30] |
+| **연간 생산능력** | 연간 500톤 (500 tpy) [^src-20260725-4c014458][^src-20260727-44dc8b30][^src-20260728-4b823cfa] |
 | **기술 경로** | 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 [^src-20260725-d6930918] |
-| **상용화 목표** | 회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님 [^src-20260727-44dc8b30] |
-| **시운전 목표** | 회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님 [^src-20260727-44dc8b30] |
-| **실증 자금조달** | Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 [^src-20260727-44dc8b30] |
+| **Commercial facility financing** | Electra는 2026-03-10 J.P. Morgan으로부터 USD 30 million venture debt facility를 확보했으며 용도는 최초 상업시설의 planning·preparation이다. 시범공장 CAPEX, 상업시설 FID 또는 전체 건설재원 확보와는 구분해야 한다. [^src-20260728-1be1edaf] |
+| **상용화 목표** | Electra CCO는 부지선정 중인 최초 상업시설에 대해 2029년 말 준비, 최대 1 Mt/y를 전망했다. 이는 site selection·FID 전 회사 전망이며 확정 부지·EPC·건설 일정이나 승인 용량이 아니다. [^src-20260728-4b823cfa] |
+| **시운전 목표** | Electra CCO는 2026-03-10 인터뷰에서 Colorado demonstration facility의 완전 가동 목표를 2026년 3분기로 제시했다. 2025년 10월의 시설 개장·ribbon cutting과 완전 가동은 구분되며, 2026년 7월 현재 실제 full operation 달성 실적을 확인한 값이 아니라 회사 목표다. [^src-20260728-4b823cfa] |
+| **Customer demonstration signal** | 2026년 7월 Electra는 Toyota Tsusho 관계자에게 demonstration facility의 Clean Iron 기술을 작동 상태로 시연했다고 밝혔으나, 전체 공정 full operation·첫 제품 출하·연속운전·500 t/y 달성은 공개하지 않음 [^src-20260728-0356e66a] |
+| **실증 자금조달** | Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 [^src-20260727-44dc8b30][^src-20260728-1be1edaf] |
 | **후단 활용** | 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용 [^src-20260725-d6930918] |
 | **설비 구성** | 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성 [^src-20260725-d6930918] |
-| **설비 부지 규모** | Jefferson County 130,000 ft² demonstration facility [^src-20260727-44dc8b30] |
+| **Equipment installation milestone** | Electra는 2026-04-23 Colorado demonstration facility에 핵심 electrowinning bath 설치를 공개했다. 이는 장비 설치·construction 진척 근거이며 시운전 완료, 연속 철 생산 또는 500 t/y 달성 근거가 아니다. [^src-20260728-f9066cb4] |
+| **설비 부지 규모** | Jefferson County 130,000 ft² demonstration facility [^src-20260727-44dc8b30][^src-20260728-4b823cfa] |
 | **적용 원료** | 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명 [^src-20260725-d6930918] |
+| **Independent pilot scale crosscheck** | Ramboll은 Boulder 파일럿이 약 2 m²·60 kg cathode sheet와 약 60°C·99% 철을 보였다고 정리하지만, 이는 500 t/y demonstration facility의 연속운전·원가·가동률 검증과 구분 [^src-20260728-60d60f81] |
 | **운전 온도** | 회사 기술 설명 기준 약 60°C 저온 운전 [^src-20260725-d6930918] |
 | **공개 성과의 한계** | 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음 [^src-20260725-4c014458] |
 | **제품 순도** | 회사 주장 기준 99% 초과 순도 철 [^src-20260725-d6930918] |
-| **수요사 품질인증 약정** | Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 [^src-20260727-44dc8b30] |
+| **수요사 품질인증 약정** | Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 [^src-20260727-44dc8b30][^src-20260728-4b823cfa] |
 
 ## 전체 확인 이력
 
@@ -39,17 +60,39 @@
 
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
-| 2025-10-21 | 발표·검증 | **설비 부지 규모**: Jefferson County 130,000 ft² demonstration facility · **수요사 품질인증 약정**: Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 · **상용화 목표**: 회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님 · **시운전 목표**: 회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님 · **실증 자금조달**: Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260727-44dc8b30] |
+| 2025-10-21 | 발표·검증 | **설비 부지 규모**: Jefferson County 130,000 ft² demonstration facility · **수요사 품질인증 약정**: Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 · **상용화 목표**: 회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님 · 후속 정보로 대체 · **시운전 목표**: 회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님 · 후속 정보로 대체 · **실증 자금조달**: Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260727-44dc8b30] |
 | 2026 | 목표 일정 | **목표 가동 시점**: 2026년 [^src-20260725-4c014458] |
+| 2026-03-10 | 발표·검증 | **Commercial facility financing**: Electra는 2026-03-10 J.P. Morgan으로부터 USD 30 million venture debt facility를 확보했으며 용도는 최초 상업시설의 planning·preparation이다. 시범공장 CAPEX, 상업시설 FID 또는 전체 건설재원 확보와는 구분해야 한다. · **실증 자금조달**: Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 [^src-20260728-1be1edaf] |
+| 2026-03-12 | 발표·검증 | **설비 부지 규모**: Jefferson County 130,000 ft² demonstration facility · **수요사 품질인증 약정**: Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 · **상용화 목표**: Electra CCO는 부지선정 중인 최초 상업시설에 대해 2029년 말 준비, 최대 1 Mt/y를 전망했다. 이는 site selection·FID 전 회사 전망이며 확정 부지·EPC·건설 일정이나 승인 용량이 아니다. · **시운전 목표**: Electra CCO는 2026-03-10 인터뷰에서 Colorado demonstration facility의 완전 가동 목표를 2026년 3분기로 제시했다. 2025년 10월의 시설 개장·ribbon cutting과 완전 가동은 구분되며, 2026년 7월 현재 실제 full operation 달성 실적을 확인한 값이 아니라 회사 목표다. · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260728-4b823cfa] |
+| 2026-04-23 | 발표·검증 | **Equipment installation milestone**: Electra는 2026-04-23 Colorado demonstration facility에 핵심 electrowinning bath 설치를 공개했다. 이는 장비 설치·construction 진척 근거이며 시운전 완료, 연속 철 생산 또는 500 t/y 달성 근거가 아니다. [^src-20260728-f9066cb4] |
 | 2026-04-28 | 발표·검증 | **프로젝트 상태**: 2026년 가동 목표로 시범공장 건설 중 · **목표 가동 시점**: 2026년 · **공개 성과의 한계**: 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음 · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260725-4c014458] |
 | 2026-07-25 | 수집 확인 | **기술 경로**: 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 · **설비 구성**: 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성 · **적용 원료**: 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명 · **후단 활용**: 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용 · **운전 온도**: 회사 기술 설명 기준 약 60°C 저온 운전 · **제품 순도**: 회사 주장 기준 99% 초과 순도 철 [^src-20260725-d6930918] |
+| 2026-07-28 | 수집 확인 | **Customer demonstration signal**: 2026년 7월 Electra는 Toyota Tsusho 관계자에게 demonstration facility의 Clean Iron 기술을 작동 상태로 시연했다고 밝혔으나, 전체 공정 full operation·첫 제품 출하·연속운전·500 t/y 달성은 공개하지 않음 [^src-20260728-0356e66a] |
+| 2026-07-28 | 수집 확인 | **Independent pilot scale crosscheck**: Ramboll은 Boulder 파일럿이 약 2 m²·60 kg cathode sheet와 약 60°C·99% 철을 보였다고 정리하지만, 이는 500 t/y demonstration facility의 연속운전·원가·가동률 검증과 구분 [^src-20260728-60d60f81] |
+
+## 변경 이력
+
+| 상태 | 항목 | 이전 내용 | 변경 사유 | 최근 검증 |
+| --- | --- | --- | --- | --- |
+| **후속 정보로 대체** | 상용화 목표 | 회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님 [^src-20260727-44dc8b30] | 기존 '2020년대 말 상업규모' 일반 목표를 2026년 CCO 인터뷰의 2029년 말·최대 1 Mt/y 전망으로 구체화하되, 부지선정·FID 전 회사 전망이라는 조건을 명시한다. | 2025-10-21 |
+| **후속 정보로 대체** | 시운전 목표 | 회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님 [^src-20260727-44dc8b30] | 2025년 회사 발표의 mid-2026 목표보다 2026-03-10 CCO 인터뷰의 Q3 2026 full operation 목표가 최신이다. 시설 개장과 실제 완전가동을 구분하고 달성 실적이 아닌 목표임을 명시하는 신규 Claim으로 대체한다. | 2025-10-21 |
 
 ## 근거 자료
 
 - **POSCO and Electra partner on low-temperature clean iron** — POSCO Group Newsroom, 2026-04-28 · [원문 보기](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC/) · [[sources/SRC-20260725-4C014458|보관 원문·메타데이터]]
 - **Electra Technology: How the low-temperature iron process works** — Electra, 게시일 미상 · [원문 보기](https://www.electra.earth/our-technology/) · [[sources/SRC-20260725-D6930918|보관 원문·메타데이터]]
 - **Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes** — Electra / GlobeNewswire, 2025-10-21 · [원문 보기](https://www.globenewswire.com/news-release/2025/10/21/3170489/0/en/Electra-Unveils-Demonstration-Facility-along-with-Advanced-Purchase-Commitments-for-Clean-Iron-and-Environmental-Attributes.html) · [[sources/SRC-20260727-44DC8B30|보관 원문·메타데이터]]
+- **Electra hosts Toyota Tsusho at demonstration facility to show Clean Iron technology in action** — Electra, 게시일 미상 · [원문 보기](https://www.linkedin.com/company/electra-earth) · [[sources/SRC-20260728-0356E66A|보관 원문·메타데이터]]
+- **Electra Secures $30M in New Capital to Accelerate Commercial Production** — Electra / GlobeNewswire, 2026-03-10 · [원문 보기](https://www.globenewswire.com/news-release/2026/03/10/3252582/0/en/Electra-Secures-30M-in-New-Capital-to-Accelerate-Commercial-Production.html) · [[sources/SRC-20260728-1BE1EDAF|보관 원문·메타데이터]]
+- **EAFs increasingly able to fill blast furnace gap: Electra** — Fastmarkets, 2026-03-12 · [원문 보기](https://www.fastmarkets.com/insights/eaf-able-to-fill-blast-iron-furnace-gap/) · [[sources/SRC-20260728-4B823CFA|보관 원문·메타데이터]]
+- **Forging a cleaner future: Advances and business models in electrochemical iron production** — Ramboll, 게시일 미상 · [원문 보기](https://c.ramboll.com/hubfs/Low-Carbon-Steel/Electrochemical-Whitepaper.pdf) · [[sources/SRC-20260728-60D60F81|보관 원문·메타데이터]]
+- **Electra demonstration-facility electrowinning baths installed** — Electra, 2026-04-23 · [원문 보기](https://www.linkedin.com/posts/electra-earth_a-lot-of-hard-work-became-real-this-week-activity-7453155218462183424-N15E) · [[sources/SRC-20260728-F9066CB4|보관 원문·메타데이터]]
 
 [^src-20260725-4c014458]: **POSCO and Electra partner on low-temperature clean iron** — POSCO Group Newsroom, 2026-04-28. [원문](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC/) · [[sources/SRC-20260725-4C014458|보관 원문·메타데이터]]
 [^src-20260725-d6930918]: **Electra Technology: How the low-temperature iron process works** — Electra, 게시일 미상. [원문](https://www.electra.earth/our-technology/) · [[sources/SRC-20260725-D6930918|보관 원문·메타데이터]]
 [^src-20260727-44dc8b30]: **Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes** — Electra / GlobeNewswire, 2025-10-21. [원문](https://www.globenewswire.com/news-release/2025/10/21/3170489/0/en/Electra-Unveils-Demonstration-Facility-along-with-Advanced-Purchase-Commitments-for-Clean-Iron-and-Environmental-Attributes.html) · [[sources/SRC-20260727-44DC8B30|보관 원문·메타데이터]]
+[^src-20260728-0356e66a]: **Electra hosts Toyota Tsusho at demonstration facility to show Clean Iron technology in action** — Electra, 게시일 미상. [원문](https://www.linkedin.com/company/electra-earth) · [[sources/SRC-20260728-0356E66A|보관 원문·메타데이터]]
+[^src-20260728-1be1edaf]: **Electra Secures $30M in New Capital to Accelerate Commercial Production** — Electra / GlobeNewswire, 2026-03-10. [원문](https://www.globenewswire.com/news-release/2026/03/10/3252582/0/en/Electra-Secures-30M-in-New-Capital-to-Accelerate-Commercial-Production.html) · [[sources/SRC-20260728-1BE1EDAF|보관 원문·메타데이터]]
+[^src-20260728-4b823cfa]: **EAFs increasingly able to fill blast furnace gap: Electra** — Fastmarkets, 2026-03-12. [원문](https://www.fastmarkets.com/insights/eaf-able-to-fill-blast-iron-furnace-gap/) · [[sources/SRC-20260728-4B823CFA|보관 원문·메타데이터]]
+[^src-20260728-60d60f81]: **Forging a cleaner future: Advances and business models in electrochemical iron production** — Ramboll, 게시일 미상. [원문](https://c.ramboll.com/hubfs/Low-Carbon-Steel/Electrochemical-Whitepaper.pdf) · [[sources/SRC-20260728-60D60F81|보관 원문·메타데이터]]
+[^src-20260728-f9066cb4]: **Electra demonstration-facility electrowinning baths installed** — Electra, 2026-04-23. [원문](https://www.linkedin.com/posts/electra-earth_a-lot-of-hard-work-became-real-this-week-activity-7453155218462183424-N15E) · [[sources/SRC-20260728-F9066CB4|보관 원문·메타데이터]]

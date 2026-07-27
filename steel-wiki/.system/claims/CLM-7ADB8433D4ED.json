@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-27",
-  "last_verified": "2026-07-27",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260727-FD3EBA92"
+    "SRC-20260727-FD3EBA92",
+    "SRC-20260728-1BFBFBDF"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "승인 범위와 미확인 후속 gate를 분리",
       "source_ids": [
         "SRC-20260727-FD3EBA92"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Tata Steel FY2025-26 통합보고서가 1 MTPA 실증 플랜트의 이사회 승인과 엔지니어링·인허가 진행을 재확인하되, 건설·가동 완료는 보고하지 않음",
+      "source_ids": [
+        "SRC-20260728-1BFBFBDF"
       ]
     }
   ]

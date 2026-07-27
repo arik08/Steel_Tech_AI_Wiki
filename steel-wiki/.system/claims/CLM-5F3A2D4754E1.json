@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5F3A2D4754E1",
+  "subject_id": "PRJ-SSAB-LULEA-ELECTRIC-MILL",
+  "predicate": "supplier_design_evidence_boundary",
+  "value": "Danieli의 설비 구성·연 2.5 Mt 제품 범위는 계약상 설계·공급 목표이며 설치 완료, 시운전 또는 실제 생산·품질 실적이 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-EAC4FDB6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "공급사 계약 발표의 증거 단계를 공사·운전 실적과 분리",
+      "source_ids": [
+        "SRC-20260728-EAC4FDB6"
+      ]
+    }
+  ]
+}

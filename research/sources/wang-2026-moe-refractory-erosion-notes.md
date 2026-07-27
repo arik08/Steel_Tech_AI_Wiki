@@ -1,0 +1,31 @@
+# Wang et al. 2026 MOE 내화물 침식 비교 확인 메모
+
+- 원문: https://doi.org/10.1016/j.ceramint.2026.03.364
+- 논문: Erosion resistance evaluation of ceramic crucible in oxide-fluoride
+  slags: Application to high-temperature molten oxide electrolysis
+- 저널: Ceramics International 52(13B), 23087-23095
+- 게시: 2026-05
+- 현재 확인일: 2026-07-28
+- 문서 성격: 동료심사 연구논문
+
+## 확인한 실험 범위
+
+- Bayan Obo 광미 유래
+  CaO-SiO2-TiO2-Nb2O5-Fe2O3-CaF2 산화물-불화물 슬래그에서 BN,
+  Si3N4, ZrO2, SiC 네 세라믹의 침식 거동을 비교했다.
+- 열역학 계산과 고온 공초점 레이저 주사현미경 관찰을 결합했으며, SiC는
+  정적 도가니법으로 추가 시험했다.
+- ZrO2, BN, Si3N4는 심한 열화를 보인 반면 SiC는 상대적으로 안정했고,
+  표면에 TiC/NbC 중심의 치밀한 보호층이 형성됐다.
+- 논문이 계산한 SiC 도가니 침식률은 4.78 mg/h이다.
+
+## Cross-Check와 해석 경계
+
+- 논문 초록·서지정보는 ScienceDirect 원문 페이지와 DOI·권호·페이지 정보로
+  교차 확인했다.
+- 4.78 mg/h는 특정 광미계 산화물-불화물 슬래그의 정적 도가니 시험값이다.
+  교반·전류·열구배가 있는 연속 산업용 전해 셀의 내화물 수명으로 환산할 수 없다.
+- Boston Metal Woburn 셀의 실제 전해질 조성, 내화물 재질, 운전온도 이력,
+  전류효율, 벽체 마모율 또는 캠페인 수명을 직접 시험한 연구가 아니다.
+- 따라서 이 연구는 MOE 내화물 선택의 일반적 기술 리스크와 후보재 비교 근거이며,
+  특정 회사 셀의 내구성 달성이나 상용 운전 성과 근거가 아니다.

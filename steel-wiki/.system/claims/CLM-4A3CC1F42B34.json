@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-4A3CC1F42B34",
+  "subject_id": "TEC-high-grade-eaf-and-scrap-impurity-removal",
+  "predicate": "jfe_ai_scrap_inspection_status",
+  "value": "JFE Sendai system photographs truck beds during unloading and uses AI to classify scrap-grade composition and foreign-material contamination; operating since 2026-06, but does not chemically remove tramp elements",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-29",
+  "last_verified": "2026-06-29",
+  "source_ids": [
+    "SRC-20260728-698EFDF6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-29",
+      "action": "created",
+      "reason": "Add operational scrap-quality inspection case without conflating sorting and removal",
+      "source_ids": [
+        "SRC-20260728-698EFDF6"
+      ]
+    }
+  ]
+}

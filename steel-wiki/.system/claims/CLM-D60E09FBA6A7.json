@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D60E09FBA6A7",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "grid_milestone_boundary",
+  "value": "Degerträsk 변전소 가동은 계통 접속 기반시설의 진전이지 Stegra 전해조·DRI·EAF·압연설비의 시운전이나 설계부하 수전 완료 증거가 아니다. 2028~2030년 약 2000MW 추가 인출 가능성도 여러 지역 계통사업의 합산 범위다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-EEB8C7F8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "송전 기반시설과 제철소 본체 가동을 분리",
+      "source_ids": [
+        "SRC-20260728-EEB8C7F8"
+      ]
+    }
+  ]
+}

@@ -43,7 +43,7 @@
 이 문서는 개별 반응기의 우열을 정하는 문서가 아닙니다. 1차 철과 스크랩, 기존 고로 자산과 신규 설비, 전력·수소·CO2 인프라, 제품 인증을 하나의 전환 포트폴리오로 연결해 읽습니다.
 
 - **근거 확인 기업:** 9개
-- **직접 연결 근거:** 25건
+- **직접 연결 근거:** 29건
 
 ## 작동 원리
 
@@ -90,7 +90,7 @@ flowchart TB
 
 !!! note "도식 해석"
 
-    위 흐름도는 공개 자료의 단계를 비교하기 쉽게 재구성한 것입니다. 실제 물질수지·전해액 조성·셀 배열을 뜻하는 설계도는 아닙니다. [^src-20260725-38165abc]
+    위 흐름도는 공개 자료의 단계를 비교하기 쉽게 재구성한 것입니다. 실제 물질수지·열수지·설비 치수·배관계장·제어 구성을 뜻하는 설계도는 아닙니다. [^src-20260725-38165abc]
 
 ## 주요 기술 특성
 
@@ -159,6 +159,7 @@ flowchart TB
 | 2025-03-19 | Demand and Supply Measures for the Steel and Cement Transition [^src-20260725-bd336973] |
 | 2025-04-10 | JFE Steel to introduce advanced large-scale EAF at Kurashiki [^src-20260725-38762376] |
 | 2025-05-15 | ArcelorMittal confirms intention to invest EUR 1.2 billion in Dunkirk [^src-20260725-3b0845ff] |
+| 2025-06-10 | Fossil-free steel mini-mill to produce specialty hot-rolled strip in Luleå, Sweden [^src-20260728-eac4fdb6] |
 | 2025-09-17 | SSAB begins construction of new Luleå electric steel mill [^src-20260725-31601585] |
 | 2025-09-29 | Tata Steel Nederland integrated decarbonisation project letter of intent [^src-20260725-789ab58f] |
 | 2025-12-03 | Routes to reducing emissions from steel production [^src-20260726-6aadacf1] |
@@ -167,7 +168,10 @@ flowchart TB
 | 2026-04-21 | Tata Steel proceeds with phased EASyMelt industrial demonstration [^src-20260725-29802d50] |
 | 2026-05-01 | Tata Steel Nederland 2025-2026 Green Steel Project status [^src-20260725-e71081d1] |
 | 2026-06-22 | POSCO completes Gwangyang EAF and advances HyREX [^src-20260725-b859ca04] |
+| 2026-06-29 | SSAB pauses work at construction site in Lulea [^src-20260728-4f6eaea2] |
 | 2026-07-01 | Energy Technology Perspectives 2026 executive summary [^src-20260725-79d4b2ed] |
+| 2026-07-13 | After cyanide alarm, SSAB resumes steel mill construction [^src-20260728-3c88a721] |
+| 2026-07-22 | SSAB Report for Q2 2026 - Lulea project schedule update [^src-20260728-2bb4fea7] |
 
 ## 설비·공정 이미지
 
@@ -309,7 +313,7 @@ flowchart TB
 | 프로젝트 | 현재 확인 상태 | 일정·규모 |
 | --- | --- | --- |
 | **[[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]** | 2026-06-17 준공 후 저탄소강 생산 개시 [^src-20260725-b859ca04] | **연간 생산능력** 연간 2,500,000톤 [^src-20260725-b859ca04] · **목표 시운전 시점** 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
-| **[[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] | **연간 생산능력** 연간 2,500,000톤 [^src-20260725-31601585] · **목표 가동 시점** 2029년 말 가동 목표 [^src-20260725-31601585] |
+| **[[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]** | 2025-09-17 기공 후 신규 전기제철소 건설 중 [^src-20260725-31601585] | **연간 생산능력** 연간 2,500,000톤 [^src-20260725-31601585] · **목표 가동 시점** 2029년 말 가동 목표 [^src-20260725-31601585][^src-20260728-2bb4fea7] |
 | **[[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]]** | 2024년 말 본 공사에 착수했고 2026-02 직접환원탑 철골 설치 단계 [^src-20260725-8d0bd4b8] | **연간 생산능력** 연간 DRI 2,500,000톤 [^src-20260725-8d0bd4b8] · **목표 시운전 시점** 2027년 시운전 개시 목표 [^src-20260725-8d0bd4b8] |
 | **[[projects/PRJ-ARCELORMITTAL-DUNKIRK-EAF|ArcelorMittal Dunkirk 대형 전기로]]** | 2026-02-10 200만 t/y 전기로 건설을 확정한 투자 실행 단계; 실제 착공·설비 설치·가동은 후속 확인 필요 [^src-20260725-61382798] | **연간 생산능력** 연간 2,000,000톤 조강 [^src-20260725-61382798] · **목표 시운전 시점** 2029년 가동 목표 [^src-20260725-61382798] |
 | **[[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]** | Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음 [^src-20260725-e71081d1] | - |
@@ -391,6 +395,10 @@ flowchart TB
 - [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]] — JFE Steel Corporation, 2025-01-06 · [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html)
 - [[sources/SRC-20260726-10602BC9|Chemical and electrochemical pathways to low-carbon iron and steel]] — npj Materials Sustainability / Springer Nature, 2024-10-01 · [원문](https://www.nature.com/articles/s44296-024-00036-6)
 - [[sources/SRC-20260726-6AADACF1|Routes to reducing emissions from steel production]] — Nature Reviews Clean Technology, 2025-12-03 · [원문](https://www.nature.com/articles/s44359-025-00118-1)
+- [[sources/SRC-20260728-2BB4FEA7|SSAB Report for Q2 2026 - Lulea project schedule update]] — SSAB, 2026-07-22 · [원문](https://www.ssab.com/en/news/2026/07/report-for-q2-2026)
+- [[sources/SRC-20260728-3C88A721|After cyanide alarm, SSAB resumes steel mill construction]] — SVT Nyheter Norrbotten, 2026-07-13 · [원문](https://www.svt.se/nyheter/lokalt/norrbotten/efter-cyanidlarm-ssab-aterupptar-stalverksbygge)
+- [[sources/SRC-20260728-4F6EAEA2|SSAB pauses work at construction site in Lulea]] — SSAB, 2026-06-29 · [원문](https://www.ssab.com/en/news/2026/06/ssab-pauses-work-at-construction-site-in-lule)
+- [[sources/SRC-20260728-EAC4FDB6|Fossil-free steel mini-mill to produce specialty hot-rolled strip in Luleå, Sweden]] — Danieli, 2025-06-10 · [원문](https://www.danieli-usa.com/en/news/fossil-free-steel-mini-mill-produce-specialty-hot-rolled-strip-lulea-sweden_13_972.htm)
 
 [^src-20260725-238e8691]: **Emissions Measurement and Data Collection for a Net Zero Steel Industry** — International Energy Agency, 2023-04-04. [원문](https://www.iea.org/reports/emissions-measurement-and-data-collection-for-a-net-zero-steel-industry) · [[sources/SRC-20260725-238E8691|보관 원문·메타데이터]]
 [^src-20260725-29802d50]: **Tata Steel proceeds with phased EASyMelt industrial demonstration** — Tata Steel, 2026-04-21. [원문](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology/) · [[sources/SRC-20260725-29802D50|보관 원문·메타데이터]]
@@ -417,3 +425,7 @@ flowchart TB
 [^src-20260725-ec77a362]: **JFE Steel 2025 priorities for carbon-neutral technologies** — JFE Steel Corporation, 2025-01-06. [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) · [[sources/SRC-20260725-EC77A362|보관 원문·메타데이터]]
 [^src-20260726-10602bc9]: **Chemical and electrochemical pathways to low-carbon iron and steel** — npj Materials Sustainability / Springer Nature, 2024-10-01. DOI: [10.1038/s44296-024-00036-6](https://doi.org/10.1038/s44296-024-00036-6). [원문](https://www.nature.com/articles/s44296-024-00036-6) · [[sources/SRC-20260726-10602BC9|보관 원문·메타데이터]]
 [^src-20260726-6aadacf1]: **Routes to reducing emissions from steel production** — Nature Reviews Clean Technology, 2025-12-03. DOI: [10.1038/s44359-025-00118-1](https://doi.org/10.1038/s44359-025-00118-1). [원문](https://www.nature.com/articles/s44359-025-00118-1) · [[sources/SRC-20260726-6AADACF1|보관 원문·메타데이터]]
+[^src-20260728-2bb4fea7]: **SSAB Report for Q2 2026 - Lulea project schedule update** — SSAB, 2026-07-22. [원문](https://www.ssab.com/en/news/2026/07/report-for-q2-2026) · [[sources/SRC-20260728-2BB4FEA7|보관 원문·메타데이터]]
+[^src-20260728-3c88a721]: **After cyanide alarm, SSAB resumes steel mill construction** — SVT Nyheter Norrbotten, 2026-07-13. [원문](https://www.svt.se/nyheter/lokalt/norrbotten/efter-cyanidlarm-ssab-aterupptar-stalverksbygge) · [[sources/SRC-20260728-3C88A721|보관 원문·메타데이터]]
+[^src-20260728-4f6eaea2]: **SSAB pauses work at construction site in Lulea** — SSAB, 2026-06-29. [원문](https://www.ssab.com/en/news/2026/06/ssab-pauses-work-at-construction-site-in-lule) · [[sources/SRC-20260728-4F6EAEA2|보관 원문·메타데이터]]
+[^src-20260728-eac4fdb6]: **Fossil-free steel mini-mill to produce specialty hot-rolled strip in Luleå, Sweden** — Danieli, 2025-06-10. [원문](https://www.danieli-usa.com/en/news/fossil-free-steel-mini-mill-produce-specialty-hot-rolled-strip-lulea-sweden_13_972.htm) · [[sources/SRC-20260728-EAC4FDB6|보관 원문·메타데이터]]

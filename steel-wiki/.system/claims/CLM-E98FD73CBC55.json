@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E98FD73CBC55",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "industrialization_bottlenecks",
+  "value": "고온 전해제철의 산업화 과제로 불활성 양극 내구성, 계면 반응속도, 전해질 전도도와 대형화가 지적된다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-C00B1E0B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "독립 동료심사 리뷰가 공통 병목을 종합함",
+      "source_ids": [
+        "SRC-20260728-C00B1E0B"
+      ]
+    }
+  ]
+}

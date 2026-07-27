@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-D5A129E9D996",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "metso_refractory_compatibility",
+  "value": "동일 연구의 실험 범위에서는 마그네시아-크로마이트 내화물이 검토 슬래그 조성·온도에 더 적합했지만, 이는 Pori 장기 캠페인의 전체 라이닝 수명 실증이나 상용 보증치가 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-02-24",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-AD1561EC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-02-24",
+      "action": "created",
+      "reason": "내화물 결과와 Pori 실증 수준을 분리",
+      "source_ids": [
+        "SRC-20260728-AD1561EC"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-AD1561EC"
+      ]
+    }
+  ]
+}

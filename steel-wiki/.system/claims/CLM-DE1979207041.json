@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DE1979207041",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "hydrogen_storage_model_evidence_limit",
+  "value": "해당 연구는 현장 측정과 해석해 비교했다고 밝힌 SSRN 사전논문이지만 공개 검색 기록만으로 측정계열·잔차를 검증할 수 없고 동료심사도 완료되지 않아, 샤프트 배관의 수소취성 위험을 실제 손상이나 운영사 확인 고장으로 해석할 수 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-4C948F2F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "모델 결과와 실제 설비 상태를 명확히 분리",
+      "source_ids": [
+        "SRC-20260728-4C948F2F"
+      ]
+    }
+  ]
+}

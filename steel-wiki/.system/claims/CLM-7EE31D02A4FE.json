@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-7EE31D02A4FE",
+  "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+  "predicate": "company_capex_clarification",
+  "value": "2026-03-05 Tata Steel의 NSE 공시는 보도된 ₹11,000 crore를 Jharkhand 여러 기존·검토 프로젝트의 자본배분 맥락으로 설명하고 HIsarna·EASyMelt는 추가 평가 중이라고 명시; HIsarna 단독 확정 CAPEX·FID가 아님",
+  "status": "superseded",
+  "confidence": "high",
+  "first_seen": "2026-03-05",
+  "last_verified": "2026-03-05",
+  "source_ids": [
+    "SRC-20260728-735F3BF8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-05",
+      "action": "created",
+      "reason": "회사 거래소 공시를 Jharkhand 정부 패키지 발표 및 FY2025-26 통합보고서와 교차 확인해 투자 범위를 한정",
+      "source_ids": [
+        "SRC-20260728-735F3BF8"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "다중 프로젝트 투자범위는 investment_boundary에 보존하고, company_capex_clarification은 HIsarna·EASyMelt의 회사 공시상 평가 상태와 FID 한계에 집중한다."
+    }
+  ],
+  "superseded_by": "CLM-4CFF6FFC5E98"
+}

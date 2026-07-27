@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-27",
-  "last_verified": "2026-07-27",
+  "last_verified": "2026-05-03",
   "source_ids": [
-    "SRC-20260727-48351ABD"
+    "SRC-20260727-48351ABD",
+    "SRC-20260728-E41E2371"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "CORDIS 최신 공공 계약 DB 종료일",
       "source_ids": [
         "SRC-20260727-48351ABD"
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "action": "verified",
+      "reason": "2026-05-03 CORDIS results page re-confirms amended grant end date",
+      "source_ids": [
+        "SRC-20260728-E41E2371"
       ]
     }
   ]

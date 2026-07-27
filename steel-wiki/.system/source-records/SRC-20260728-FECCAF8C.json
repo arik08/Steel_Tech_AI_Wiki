@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-20260728-FECCAF8C",
+  "title": "In-flight reduction of iron oxides from various sources by hydrogen plasma",
+  "url": "https://www.sciencedirect.com/science/article/pii/S2589152926000104",
+  "canonical_url": "https://www.sciencedirect.com/science/article/pii/S2589152926000104",
+  "publisher": "Materialia / Elsevier",
+  "published_at": "2026-03-01",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "feccaf8c7329a9375aef2b4381b82b00a912a3fa14416284648c0cf593e506f0",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Jordan N. Figueiredo",
+      "Bassam B. Dally",
+      "Deanna A. Lacoste"
+    ],
+    "venue": "Materialia",
+    "doi": "10.1016/j.mtla.2026.102658",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "876f722d14c34c2924e4d3ece280894039ac8199e53e64cea23b020f91f1d4ee",
+  "raw_path": ".system/raw/SRC-20260728-FECCAF8C.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

@@ -3,7 +3,7 @@
   "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
   "predicate": "commercialization_target",
   "value": "회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님",
-  "status": "active",
+  "status": "superseded",
   "confidence": "medium",
   "first_seen": "2025-10-21",
   "last_verified": "2025-10-21",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260727-44DC8B30"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "기존 '2020년대 말 상업규모' 일반 목표를 2026년 CCO 인터뷰의 2029년 말·최대 1 Mt/y 전망으로 구체화하되, 부지선정·FID 전 회사 전망이라는 조건을 명시한다."
     }
-  ]
+  ],
+  "superseded_by": "CLM-2AB08D19E909"
 }

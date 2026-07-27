@@ -3,7 +3,7 @@
   "subject_id": "PRJ-PURESCRAP-EU-SCRAP-PURITY",
   "predicate": "project_status",
   "value": "2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2026-07-27",
   "last_verified": "2026-07-27",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260727-7DEFB3CE"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "2026-07-23 최신 공식 뉴스레터가 2026년 4월 중량 스크랩 스테이션의 Hallstahammar 생산 현장 이전을 확인하므로, Swerim Luleå 설치 문구는 이전 단계의 역사적 상태로 보존하고 최신 project_status로 대체한다."
     }
-  ]
+  ],
+  "superseded_by": "CLM-96D0722B932C"
 }

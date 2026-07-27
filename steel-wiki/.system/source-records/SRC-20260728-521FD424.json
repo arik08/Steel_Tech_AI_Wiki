@@ -1,0 +1,28 @@
+{
+  "source_id": "SRC-20260728-521FD424",
+  "title": "Advancing Electric Smelting for Sustainable Iron Production: Pilot-Scale Validation of Controlled Open-Arc DC Technology",
+  "url": "https://www.aist.org/getmedia/be583fc6-ed6f-490f-aa31-df4596bb6526/January-2026_050-060.pdf",
+  "canonical_url": "https://www.aist.org/getmedia/be583fc6-ed6f-490f-aa31-df4596bb6526/January-2026_050-060.pdf",
+  "publisher": "Association for Iron & Steel Technology",
+  "published_at": "2026-01-01",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "medium",
+  "content_sha256": "521fd424ca9d597aef2d329af812442f54bf6c27677314f2619656e1bac28b47",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Isabel Geldenhuys",
+      "Gerhard Terblanche",
+      "Stephan Louw"
+    ],
+    "venue": "Iron & Steel Technology",
+    "peer_review_status": "unknown"
+  },
+  "raw_sha256": "ba96f73da55e875e00788ea03455aa467067536e0534ea1cebdc7582960f5840",
+  "raw_path": ".system/raw/SRC-20260728-521FD424.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

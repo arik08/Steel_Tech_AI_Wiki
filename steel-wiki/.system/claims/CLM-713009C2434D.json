@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-713009C2434D",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "modeled_low_grade_cost_advantage",
+  "value": "2026 논문 시나리오에서 저품위광 H2DRI-ESF-BOF LCOS가 H2DRI-EAF보다 16% 낮게 계산됨; 실제 프로젝트 원가가 아닌 모델 결과",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-20",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-4039F069"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-20",
+      "action": "created",
+      "reason": "모델 정량 결과와 적용 한계 동시 기록",
+      "source_ids": [
+        "SRC-20260728-4039F069"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-4039F069"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-15566AF0560B",
+  "subject_id": "PRJ-HY4SMELT",
+  "predicate": "incite_maturity_target",
+  "value": "EC INCITE는 HYFOR/HY4Smelt를 Under development / testing, Expected TRL 8로 분류한다. TRL 8 달성이나 상업운전 검증을 뜻하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-06DEF489"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "EC JRC 구조화 성숙도 필드에서 achieved가 아닌 expected임을 보존",
+      "source_ids": [
+        "SRC-20260728-06DEF489"
+      ]
+    }
+  ]
+}

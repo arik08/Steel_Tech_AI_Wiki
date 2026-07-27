@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2025-10-21",
-  "last_verified": "2025-10-21",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260727-44DC8B30"
+    "SRC-20260727-44DC8B30",
+    "SRC-20260728-1BE1EDAF"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "Records disclosed project support while avoiding CAPEX conflation.",
       "source_ids": [
         "SRC-20260727-44DC8B30"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 최신 공식·전문 원문 재점검에서 값의 범위와 한계를 재확인했다.",
+      "source_ids": [
+        "SRC-20260728-1BE1EDAF"
       ]
     }
   ]

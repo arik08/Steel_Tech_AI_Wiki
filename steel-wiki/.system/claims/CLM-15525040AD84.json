@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-27",
-  "last_verified": "2026-07-27",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260727-FD3EBA92"
+    "SRC-20260727-FD3EBA92",
+    "SRC-20260728-1BFBFBDF"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "Tata Steel이 약 1 MTPA 실증계획으로 표현; 달성 생산량 아님",
       "source_ids": [
         "SRC-20260727-FD3EBA92"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "최신 회사 통합보고서가 Jamshedpur HIsarna demonstration plant 용량을 1 MTPA로 반복 명시; 실적 생산량이 아닌 설계 목표",
+      "source_ids": [
+        "SRC-20260728-1BFBFBDF"
       ]
     }
   ]

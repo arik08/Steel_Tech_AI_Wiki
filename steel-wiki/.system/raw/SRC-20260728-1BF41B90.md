@@ -1,0 +1,23 @@
+# voestalpine 2026 Hy4Smelt construction-progress notes
+
+- Page: HY4SMELT AUF DEM WEG ZUR UMSETZUNG
+- Publisher: voestalpine Stahl GmbH / Stella Sustainable
+- Collected: 2026-07-28
+- URL: https://www.voestalpine.com/stella/News/HY4SMELT-AUF-DEM-WEG-ZUR-UMSETZUNG
+- Evidence type: project-partner sustainability update; page does not expose a clear publication date.
+- Current statements:
+  - total investment volume is EUR 170 million;
+  - the demonstration facility targets start-up from the end of 2027 and the project runs through 2030;
+  - the page describes construction as having started in October 2025;
+  - civil/structural work dominates through the end of July 2026;
+  - interior fit-out is targeted for completion by the end of 2026, followed by external works as steel construction and equipment installation advance;
+  - the schedule is described by the company as still being maintained.
+- Process scope:
+  - HYFOR reduction of ultra-fine ore with green hydrogen;
+  - electric Smelter to green hot metal;
+  - downstream processing in LD converter or EAF and secondary metallurgy;
+  - hydrogen supplied by the H2FUTURE PEM electrolyzer at Linz.
+- Verification boundary:
+  - this is a participant report, not independent construction certification;
+  - the October wording is a broad construction-period description and does not supersede the separately recorded 25 September 2025 groundbreaking date;
+  - structural work and schedule targets are not commissioning or continuous-operation evidence.

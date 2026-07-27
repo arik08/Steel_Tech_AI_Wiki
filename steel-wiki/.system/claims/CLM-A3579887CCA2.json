@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A3579887CCA2",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "industrial_scenario_model",
+  "value": "2026 EERZ 동적 모델의 배가스 재순환 시나리오는 물 제거 95%·purge 손실 15% 가정에서 신규 H2 공급 86.91% 감소, 전체 H2 이용률 58.48%, 모델 SER 533.02 kWh/t-feed를 계산했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-E6F2E802"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "동료심사 오픈액세스 원문의 산업 시나리오 입력·결과표를 확인",
+      "source_ids": [
+        "SRC-20260728-E6F2E802"
+      ]
+    }
+  ]
+}

@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-27",
-  "last_verified": "2026-07-27",
+  "last_verified": "2026-05-06",
   "source_ids": [
-    "SRC-20260727-F628E684"
+    "SRC-20260727-F628E684",
+    "SRC-20260728-2B829977"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "프로젝트 목표이며 달성 상태가 아님",
       "source_ids": [
         "SRC-20260727-F628E684"
+      ]
+    },
+    {
+      "date": "2026-05-06",
+      "action": "verified",
+      "reason": "AISTech 2026 공식 갤러리의 프로젝트 목표",
+      "source_ids": [
+        "SRC-20260728-2B829977"
       ]
     }
   ]

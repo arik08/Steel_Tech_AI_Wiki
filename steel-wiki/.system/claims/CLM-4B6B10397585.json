@@ -3,7 +3,7 @@
   "subject_id": "PRJ-NUCOR-CONVENT-DRI-CCS",
   "predicate": "project_status",
   "value": "Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2026-07-25",
   "last_verified": "2026-07-25",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260725-BF5036AE"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "2026-05 official ExxonMobil portfolio report is a later status disclosure that preserves the unconfirmed-start conclusion while adding the current contract scale and operating-project comparison"
     }
-  ]
+  ],
+  "superseded_by": "CLM-2849FC82783B"
 }

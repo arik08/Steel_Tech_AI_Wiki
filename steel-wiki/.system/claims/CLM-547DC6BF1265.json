@@ -6,9 +6,11 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2025-09-25",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260725-E316D68F"
+    "SRC-20260725-E316D68F",
+    "SRC-20260728-D5828B6F",
+    "SRC-20260728-CBA8AC84"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -27,6 +29,30 @@
       "reason": "2026-07-25 공식 원문 재검증",
       "source_ids": [
         "SRC-20260725-E316D68F"
+      ]
+    },
+    {
+      "date": "2026-06-03",
+      "action": "verified",
+      "reason": "voestalpine 2025/26 연차보고서로 건설 중 상태 교차검증",
+      "source_ids": [
+        "SRC-20260728-D5828B6F"
+      ]
+    },
+    {
+      "date": "2026-02-19",
+      "action": "verified",
+      "reason": "컨소시엄 파트너 Rio Tinto의 연차 공시로 건설 상태 교차검증",
+      "source_ids": [
+        "SRC-20260728-CBA8AC84"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-CBA8AC84"
       ]
     }
   ]

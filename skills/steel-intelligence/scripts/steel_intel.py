@@ -1731,6 +1731,7 @@ PREDICATE_LABELS = {
     "commercial_model": "상용화 모델",
     "location": "위치",
     "furnace_volume": "노 용적",
+    "pilot_furnace_volume_m3": "시험고로 용적(m³)",
     "reactor_height": "반응기 높이",
     "facility_footprint": "설비 부지 규모",
     "original_target_start_date": "기존 실증 개시 목표",
@@ -1739,6 +1740,7 @@ PREDICATE_LABELS = {
     "partners": "참여 기관",
     "expected_co2_reduction": "예상 CO2 감축",
     "performance_disclosure_limit": "공개 성과의 한계",
+    "performance_boundary": "성과 해석 경계",
     "laboratory_electrolysis_condition": "학술 실험 조건",
     "ore_feed_scope": "학술 검증 원료 범위",
     "academic_route_scope": "학술 검토 기술 범위",
@@ -2477,13 +2479,17 @@ PROJECT_DISPLAY_NAMES = {
     "PRJ-NIPPON-HASAKI-H2-DRI": "Nippon Steel Hasaki 수소 DRI 시험로",
     "PRJ-NIPPON-JAPAN-EAF-CONVERSION": "Nippon Steel 일본 3개 거점 전기로 전환",
     "PRJ-NIPPON-KIMITSU-COURSE50": "Nippon Steel Kimitsu COURSE50 실증",
+    "PRJ-NIPPON-USS-BIG-RIVER-DRI": "Nippon Steel·U. S. Steel Big River DRI",
     "PRJ-NUCOR-CONVENT-DRI-CCS": "Nucor Convent DRI–CCS",
     "PRJ-NUCOR-GALLATIN-EAF-CCUS": "Nucor Gallatin EAF 탄소포집 파일럿",
+    "PRJ-NUCOR-WEST-VIRGINIA-SHEET-MILL": "Nucor West Virginia 첨단 판재 공장",
     "PRJ-ARCELORMITTAL-DUNKIRK-EAF": "ArcelorMittal Dunkirk 대형 전기로",
     "PRJ-ARCELORMITTAL-VOLTERON": "ArcelorMittal–John Cockerill Volteron",
     "PRJ-TATA-JAMSHEDPUR-EASYMELT": "Tata Jamshedpur EASyMelt 산업 실증",
     "PRJ-TATA-IJMUIDEN-DRP-EAF": "Tata Steel IJmuiden DRP–EAF 전환",
     "PRJ-JFE-KURASHIKI-LARGE-EAF": "JFE Kurashiki 대형 고효율 전기로",
+    "PRJ-JFE-CHIBA-NO4-EAF": "JFE 치바 제4제강 전기로",
+    "PRJ-JFE-CHIBA-CARBON-RECYCLING-BF": "JFE Chiba 150 m³ 탄소순환 시험고로",
 }
 CLAIM_STATUS_LABELS = {
     "active": "현재 유효",
@@ -4814,7 +4820,7 @@ def technology_company_dossier_lines(
         if not diagram_note:
             diagram_note = (
                 "위 흐름도는 공개 자료의 단계를 비교하기 쉽게 재구성한 것입니다. "
-                "실제 물질수지·전해액 조성·셀 배열을 뜻하는 설계도는 아닙니다."
+                "실제 물질수지·열수지·설비 치수·배관계장·제어 구성을 뜻하는 설계도는 아닙니다."
             )
         lines.extend(
             [

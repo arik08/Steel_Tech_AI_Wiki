@@ -6,7 +6,7 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-27",
-  "last_verified": "2026-07-27",
+  "last_verified": "2026-07-28",
   "source_ids": [
     "SRC-20260727-91F88878"
   ],
@@ -17,6 +17,14 @@
       "date": "2026-07-27",
       "action": "created",
       "reason": "LKAB Q1 2026 보고가 확인한 지원 철회 금액",
+      "source_ids": [
+        "SRC-20260727-91F88878"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 LKAB Q1 2026 원문에서 지원 철회·미집행·재신청 계획의 의미 전체를 재확인; 사건일은 first_seen 및 기존 history에 유지",
       "source_ids": [
         "SRC-20260727-91F88878"
       ]

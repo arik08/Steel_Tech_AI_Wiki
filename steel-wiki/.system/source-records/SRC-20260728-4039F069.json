@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260728-4039F069",
+  "title": "Towards green steel from hydrogen-based direct reduction of low-grade iron ores: Techno-economic and greenhouse gas emissions assessment",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0360319926017118",
+  "canonical_url": "https://www.sciencedirect.com/science/article/pii/S0360319926017118",
+  "publisher": "International Journal of Hydrogen Energy / Elsevier",
+  "published_at": "2026-05-20",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "4039f0691e2b33c27d7bf3557fd210ed5e68dc9e7d0dd5ca87df406f7615a218",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Joao Miguel Margutti",
+      "Matthias Schiedeck",
+      "Philipp Morsch",
+      "Sarah Deutz",
+      "Sabrine Khadhraoui",
+      "Thomas Wolfinger",
+      "Andreas Peschel"
+    ],
+    "venue": "International Journal of Hydrogen Energy",
+    "doi": "10.1016/j.ijhydene.2026.155073",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "81bea7b1c29dda4724ffaeaacef70cb7ee53da20693e46dce264856836c7445b",
+  "raw_path": ".system/raw/SRC-20260728-4039F069.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}
