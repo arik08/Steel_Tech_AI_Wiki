@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     **저탄소 제철 종합 경로 (Low-carbon Ironmaking) · 현재** · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![ResponsibleSteel 탈탄소 진척도 수준 도표](<https://cdn.prod.website-files.com/653ed7060b01292cd4518d0e/69252147bfd2458286f637e1_Understanding%20ResponsibleSteel%E2%80%99s%20Decarbonisation%20Progress%20Levels.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![스크랩 EAF, 수소 샤프트 DRI, 수소 미분광과 ESF, 철광석 전해, 고로 CCUS의 다섯 저탄소 제철 경로를 비교한 AI 포트폴리오 지도](../assets/media/SRC-20260725-38165ABC/MED-A73F859DA386.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — ResponsibleSteel 탈탄소 진척도 수준 설명도: 스크랩 비율을 고려해 사업장 배출 성과를 비교하는 공식 도표 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-9B4DDCDD|SRC-20260725-9B4DDCDD]] · [원문 페이지](https://www.responsiblesteel.org/resources/the-decarbonisation-progress-levels))*
+*대표 이미지 — AI 재구성 — 미래 저탄소 제철의 5개 대표 경로를 동일한 경계로 비교한 포트폴리오 지도: 고급 스크랩-EAF, H2 shaft-DRI-EAF, H2 미분광 유동층-ESF-BOF, 철광석 직접 전해-정련, BF-BOF+CCUS. 회색은 고체, 녹색은 H2, 청색은 전력, 주황색은 용융금속, 보라색은 CO2 계통으로 구분했으며 개별 프로젝트의 준공도나 우열·배출량 순위를 뜻하지 않는다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-38165ABC|SRC-20260725-38165ABC]] · [원문 페이지](https://www.iea.org/reports/iron-and-steel-technology-roadmap))*
 
 !!! abstract "한눈에 보기"
 
@@ -213,6 +213,13 @@ flowchart TB
 - 출처 [[sources/SRC-20260725-8D0BD4B8|SRC-20260725-8D0BD4B8]] · 권리 `link_only` · [원문 페이지](https://transformation.thyssenkrupp-steel.com/startseite.html) · 작성·촬영 thyssenkrupp Steel Europe
 - 권리 메모: thyssenkrupp Steel 공식 프로젝트 사이트의 실제 공사 사진입니다. 재사용 권한을 별도 확인하지 않아 원문 링크로만 표시합니다.
 
+![ResponsibleSteel 탈탄소 진척도 수준 도표](<https://cdn.prod.website-files.com/653ed7060b01292cd4518d0e/69252147bfd2458286f637e1_Understanding%20ResponsibleSteel%E2%80%99s%20Decarbonisation%20Progress%20Levels.png>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** ResponsibleSteel 탈탄소 진척도 수준 설명도: 스크랩 비율을 고려해 사업장 배출 성과를 비교하는 공식 도표
+
+- 출처 [[sources/SRC-20260725-9B4DDCDD|SRC-20260725-9B4DDCDD]] · 권리 `link_only` · [원문 페이지](https://www.responsiblesteel.org/resources/the-decarbonisation-progress-levels) · 작성·촬영 ResponsibleSteel
+- 권리 메모: ResponsibleSteel 공식 원문에 게시된 설명도입니다. 재사용 권한을 별도 확인하지 않아 다운로드하지 않고 원문 링크로만 표시합니다.
+
 ![해안 제철소에서 샤프트 직접환원로의 DRI와 스크랩이 대형 전기로로 연결되고 기존 고로가 배경에 남아 있는 전환 개념도](../assets/media/SRC-20260725-E71081D1/MED-9911B32AD15F.png){ .steel-media-image .steel-media-compact }
 
 **AI 재구성.** IJmuiden Green Steel 1단계의 DRP–EAF·스크랩 통합 전환 경로 AI 재구성. 최종 설계나 착공 완료 상태를 나타내지 않음
@@ -333,6 +340,29 @@ flowchart TB
 - 광양 250만 톤 전기로는 이미 준공·생산 단계인 교량 자산이고, HyREX 30만 톤 실증은 개발·부지 준비 단계입니다. 두 용량을 같은 ‘저탄소 생산능력’으로 합산하지 말고 제품군·원료·가동률별로 분리 관리해야 합니다.
 - POSCO 경로의 핵심 비교축은 HyREX 반응기만이 아니라 광양 EAF의 스크랩·용선 혼합, 미분광 조달, 재생전력과 수소 공급, 필요 시 ESF/BOF 연계까지 이어지는 포트폴리오입니다. 각 자산의 수명과 다음 투자 결정 시점을 하나의 마스터 타임라인으로 묶는 것이 필요합니다.
 - 선행 모니터링 지표는 발표 용량이 아니라 FID 비율, 착공 진척, 실제 저배출 원료 투입량, 연속 운전시간, 제품별 Scope 1·2·상류 Scope 3, 스크랩 추가성, 전력·수소 탄소집약도와 인증된 출하량입니다.
+
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 발표 용량이 허가·FID·착공·시운전·인증 출하로 전환되는 비율과 소요기간
+- 제품별 Scope 1·2·상류 Scope 3, 스크랩 추가성, 전력·수소 탄소집약도를 동일 산정경계와 제3자 검증으로 공개
+- EAF·DRI·ESF·전기분해·CCUS별 실제 생산량·가동률과 인프라 계약을 마스터 타임라인에서 비교
+
+### 지연·실패 신호
+
+- 목표 용량을 현재 저탄소 생산능력으로 합산하거나, MOU·지원선정을 운전 실적으로 표현
+- 일정 철회·재검토·건설 둔화를 지우고 새 목표일만 남기거나 서로 다른 배출경계로 기술 우열을 비교
+
+### POSCO 판단 질문
+
+- 광양 EAF, HyREX, 외부 HBI, ESF, BF-CCUS를 제품군·자산수명·인프라 제약별로 어떤 순서와 option value로 배치할 것인가?
+- 기술 하나의 최저 배출보다 공급차질·전력가격·수소지연을 견디는 포트폴리오 복원력을 어떻게 계량할 것인가?
+- 각 경로의 중단·축소·확대 gate를 어떤 공개 또는 자체 실증 KPI에 연결할 것인가?
 
 ## 출처
 

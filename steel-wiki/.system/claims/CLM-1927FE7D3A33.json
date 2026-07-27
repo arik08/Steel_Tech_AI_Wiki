@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-1927FE7D3A33",
+  "subject_id": "PRJ-ARCELORMITTAL-VOLTERON",
+  "predicate": "pilot_cell_configuration",
+  "value": "1 m²급 셀에 양극 3개·음극 2개를 배치해 4장의 철판, 약 140 kg 금속 철을 한 열로 생산하는 파일럿 구성",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-71A7FA21"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "INCITE provides a more specific pilot configuration and batch product quantity.",
+      "source_ids": [
+        "SRC-20260727-71A7FA21"
+      ]
+    }
+  ]
+}

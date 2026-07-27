@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-DF169C9BEF58",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "financing_round_close_date",
+  "value": "2026-06-24",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-56D0B35D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "회사 발표의 실제 금융 종결일",
+      "source_ids": [
+        "SRC-20260727-56D0B35D"
+      ]
+    }
+  ]
+}

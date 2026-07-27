@@ -2,7 +2,7 @@
 
 # 전기용융로 (Electric Smelting Furnace)
 
-> 조사 기준일: **2026-07-26** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-27** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 ??? info "관련 기술 바로가기 · 현재 위치: 환원·용융 경로"
 
@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · **전기용융로 (Electric Smelting Furnace) · 현재** · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · **전기용융로 (Electric Smelting Furnace) · 현재** · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![고로, DRI-EAF, DRI-ESF와 전해제철 경로를 비교한 BHP 공정 개념도](<https://www.bhp.com/-/media/project/bhp1ip/bhp-com-en/images/general/2023/230615_prospectsblog3.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![DRI flux 탄소 투입, 침지 전극 가열, 슬래그와 용선 분리 출탕, 배가스 정제를 나타낸 전기용융로 AI 개념도](../assets/media/SRC-20260725-6EC0DF4D/MED-7AC974D2873D.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — BHP가 공개한 4개 1차 제철 경로 비교도 — DRI–ESF 경로 포함 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-6EC0DF4D|SRC-20260725-6EC0DF4D]] · [원문 페이지](https://www.bhp.com/news/bhp-insights/2023/06/pathways-to-decarbonisation-episode-seven-the-electric-smelting-furnace))*
+*대표 이미지 — AI 재구성 — DRI·flux·탄소원을 밀폐형 ESF에 투입하고 침지 전극의 저항·서브머지드 아크 가열로 환원·용융해 상부 슬래그와 하부 탄소함유 용선을 분리 출탕하는 개념도. 후단 BOF/EAF 정련, 배가스 정제와 FeO-in-slag·내화물·전극제어의 핵심 운전변수를 표시했으며 실제 NeoSmelt·Metso 설비의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-6EC0DF4D|SRC-20260725-6EC0DF4D]] · [원문 페이지](https://www.bhp.com/news/prospects/2023/06/pathways-to-decarbonisation-episode-seven-the-electric-smelting-furnace))*
 
 !!! abstract "한눈에 보기"
 
@@ -50,7 +50,7 @@
 이 문서의 ESF는 스크랩을 배치식으로 녹여 용강을 만드는 EAF가 아니라, DRI를 연속 투입해 잔류 FeO를 추가 환원하고 맥석을 슬래그로 분리하여 BOF·EAF 정련용 고탄소 용선을 만드는 제선 설비를 뜻합니다.
 
 - **근거 확인 기업:** 4개
-- **직접 연결 근거:** 16건
+- **직접 연결 근거:** 17건
 
 ## 작동 원리
 
@@ -136,6 +136,19 @@ flowchart TB
 | **상용 규모 확대 조건** | 공급사 기반 추정으로는 중형 고로 2.5–4 Mtpa를 대체하려면 직사각형 OSBF 2기 또는 원형 3기 정도가 필요할 수 있으나, 독립 검증된 상용 확대 자료는 없다. [^src-20260725-31725163] | 학술지 논문 |
 | **기존 산업 운전 사례** | 뉴질랜드 제철 사례는 2기의 50 MW 직사각형 ESF로 약 0.6 Mtpa 철강을 생산하고 1980년대 이후 원래 노저에서 누적 23 Mt 초과 용선을 생산한 것으로 보고됐다. [^src-20260725-31725163] | 학술지 논문 |
 
+### 최신 실증·검증 정보
+
+기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **Metso 공급사 설계 가동률 주장** | greater than 95%, supplier design claim [^src-20260727-9f7ff95c] | 설비 공급사 |
+| **Metso 공급사 설계 슬래그 FeO 주장** | less than 3%, supplier design claim [^src-20260727-9f7ff95c] | 설비 공급사 |
+| **Metso 상용 개념 생산능력** | 1.2 Mt/y 초과 hot metal [^src-20260727-9f7ff95c] | 설비 공급사 |
+| **Metso 상용 개념 설계전력** | 110 MW [^src-20260727-9f7ff95c] | 설비 공급사 |
+| **Metso 상용 개념 전극 구성** | six electrodes in line [^src-20260727-9f7ff95c] | 설비 공급사 |
+| **Metso 상용 개념 피상전력** | up to 115 MVA [^src-20260727-9f7ff95c] | 설비 공급사 |
+
 
 ## 공개 개발 연혁
 
@@ -163,6 +176,13 @@ flowchart TB
 
 - 출처 [[sources/SRC-20260725-67CAA465|SRC-20260725-67CAA465]] · 권리 `link_only` · [원문 페이지](https://www.bhp.com/news/media-centre/releases/2024/12/bluescope-bhp-and-rio-tinto-select-wa-for-australias-largest-ironmaking-electric-smelting-furnace) · 작성·촬영 NeoSmelt / BHP
 - 권리 메모: BHP 공식 발표 페이지의 원본 미디어를 외부 링크로만 표시하며 복제 권한은 별도 확인하지 않음
+
+![고로, DRI-EAF, DRI-ESF와 전해제철 경로를 비교한 BHP 공정 개념도](<https://www.bhp.com/-/media/project/bhp1ip/bhp-com-en/images/general/2023/230615_prospectsblog3.png>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** BHP가 공개한 4개 1차 제철 경로 비교도 — DRI–ESF 경로 포함
+
+- 출처 [[sources/SRC-20260725-6EC0DF4D|SRC-20260725-6EC0DF4D]] · 권리 `link_only` · [원문 페이지](https://www.bhp.com/news/bhp-insights/2023/06/pathways-to-decarbonisation-episode-seven-the-electric-smelting-furnace) · 작성·촬영 BHP
+- 권리 메모: BHP 공식 기술 설명 페이지의 원본 그림을 외부 링크로만 표시하며 복제 권한은 별도 확인하지 않음
 
 ![thyssenkrupp Duisburg 직접환원탑 첫 지지기둥](<https://transformation.thyssenkrupp-steel.com/media/dr_anlage_1/bilder_2/traeger1_dr_turm_image_w450_h338.jpg>){ .steel-media-image .steel-media-compact }
 
@@ -214,6 +234,7 @@ flowchart TB
 | --- | --- | --- |
 | **[[projects/PRJ-NEOSMELT-KWINANA|NeoSmelt Kwinana DRI–ESF 파일럿]]** | Kwinana 부지를 확정하고 pre-feasibility에서 final design 단계로 진전했으나, 2026-05-14 기준 FID와 주정부 자금집행은 미확정 [^src-20260725-8a93e42f][^src-20260725-fbf8ea9e] | **연간 생산능력** 연 30,000–40,000톤 용선 계획 [^src-20260725-67caa465] · **최종투자결정 목표** 2026년 말 [^src-20260725-fbf8ea9e] · **목표 시운전 시점** 2028년 하반기 [^src-20260725-8a93e42f] |
 | **[[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]** | 건설 중 [^src-20260725-e316d68f] | **시간당 처리능력** 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] · **목표 가동 시점** 2027년 말 [^src-20260725-e316d68f] |
+| **[[projects/PRJ-METSO-PORI-DRI-SMELTING-PILOT|Metso Pori DRI 용융 파일럿]]** | 현재 상태 Claim 미등록 | - |
 
 ## 기술적 쟁점과 미공개 데이터
 
@@ -238,6 +259,29 @@ flowchart TB
 - ESF는 기존 BOF·연주·압연 자산을 유지할 수 있는 전환 경로이지만, 고로 한 기를 대체하려면 복수 모듈과 대규모 전력·전극·내화물 정비체계가 필요할 수 있습니다. 배치도와 정비 중 우회 생산까지 포함한 통합 설계가 필요합니다.
 - 우선 모니터링 지표는 DRI 품위·입도·금속화율, 잔류 FeO, 탄소 kg/t, 전력 kWh/t-hot metal, 슬래그 kg/t와 FeO, 철 회수율, 용선 C·Si·P·S, 전극소모, 내화물 캠페인 수명, 연속운전 시간과 출선 간격입니다.
 
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 1 t/h급 파일럿에서 광종별 7일 이상 캠페인, 연속 장입·분리 출선, 철 회수율·슬래그 FeO·전극·내화물 데이터를 함께 공개
+- 저금속화·고맥석 DRI의 허용 범위를 명목치가 아니라 물질수지와 용선 C·Si·P·S 품질로 반복 검증
+- 상용 개념설계의 110 MW·1.2 Mt/y 주장을 고객 원료 시험, EPC 보증과 장기 availability 데이터로 전환
+
+### 지연·실패 신호
+
+- 첫 출선 사진이나 공급사 설계치만 있고 campaign length, slag kg/t, 철 손실, 실제 가동률이 비공개
+- ESF와 EAF를 혼용해 아크 노출·배치 용해를 연속 침지저항 가열 실적으로 오인하거나 후단 BOF 통합비용을 제외
+
+### POSCO 판단 질문
+
+- HyREX 환원물의 입도·금속화·맥석 분포에 맞는 bath depth, 전극, 슬래그 전도도와 출선 체계는 무엇인가?
+- ESF가 DR-grade 펠릿 프리미엄 절감으로 추가 전력·플럭스·슬래그 처리비를 상쇄하는 광석 품위 경계는 어디인가?
+- 독립 상용 플랫폼으로 확보할지 HyREX 통합 실증의 하위 모듈로 검증할지 투자 순서를 어떻게 나눌 것인가?
+
 ## 출처
 
 - [[sources/SRC-20260725-31725163|Application of Electric Smelting Furnace to Ironmaking]] — Journal of Sustainable Metallurgy, 2026-03-09 · [원문](https://link.springer.com/article/10.1007/s40831-026-01459-2)
@@ -256,6 +300,7 @@ flowchart TB
 - [[sources/SRC-20260725-FBF8EA9E|NeoSmelt pilot project — Legislative Council answer]] — Parliament of Western Australia, 2026-05-14 · [원문](https://www.parliament.wa.gov.au/hansard/daily/uh/2026-05-14/25?sid=73938f1f931d45e090&talkerIndex=0)
 - [[sources/SRC-20260726-6CC774DD|Electric Smelting Furnace-Based Flowsheets]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/1f692aad-90e1-4d92-b591-6b97060144cf/Electric-Smelting-Furnace-based-Flowsheets.pdf)
 - [[sources/SRC-20260726-E01E47B8|Smelter — Green Steelmaking Using Low-Grade DRI]] — Association for Iron & Steel Technology, 2024-05-08 · [원문](https://imis.aist.org/store/detail.aspx?id=PR-388-199)
+- [[sources/SRC-20260727-9F7FF95C|DRI Smelting Furnace - pilot and commercial design details]] — Metso, 게시일 미상 · [원문](https://www.metso.com/portfolio/dri-smelting-furnace/)
 
 [^src-20260725-31725163]: **Application of Electric Smelting Furnace to Ironmaking** — Journal of Sustainable Metallurgy, 2026-03-09. DOI: [10.1007/s40831-026-01459-2](https://doi.org/10.1007/s40831-026-01459-2). [원문](https://link.springer.com/article/10.1007/s40831-026-01459-2) · [[sources/SRC-20260725-31725163|보관 원문·메타데이터]]
 [^src-20260725-3ff9886c]: **China Baowu and Rio Tinto complete hydrogen DRI and electric-smelting trials** — Rio Tinto, 2026-06-12. [원문](https://www.riotinto.com/news/releases/2026/china-baowu-and-rio-tinto-complete-pilbara-blend-iron-ore-pelletisation-and-direct-reduction-trials) · [[sources/SRC-20260725-3FF9886C|보관 원문·메타데이터]]
@@ -272,3 +317,4 @@ flowchart TB
 [^src-20260725-fbf8ea9e]: **NeoSmelt pilot project — Legislative Council answer** — Parliament of Western Australia, 2026-05-14. [원문](https://www.parliament.wa.gov.au/hansard/daily/uh/2026-05-14/25?sid=73938f1f931d45e090&talkerIndex=0) · [[sources/SRC-20260725-FBF8EA9E|보관 원문·메타데이터]]
 [^src-20260726-6cc774dd]: **Electric Smelting Furnace-Based Flowsheets** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/1f692aad-90e1-4d92-b591-6b97060144cf/Electric-Smelting-Furnace-based-Flowsheets.pdf) · [[sources/SRC-20260726-6CC774DD|보관 원문·메타데이터]]
 [^src-20260726-e01e47b8]: **Smelter — Green Steelmaking Using Low-Grade DRI** — Association for Iron & Steel Technology, 2024-05-08. [원문](https://imis.aist.org/store/detail.aspx?id=PR-388-199) · [[sources/SRC-20260726-E01E47B8|보관 원문·메타데이터]]
+[^src-20260727-9f7ff95c]: **DRI Smelting Furnace - pilot and commercial design details** — Metso, 게시일 미상. [원문](https://www.metso.com/portfolio/dri-smelting-furnace/) · [[sources/SRC-20260727-9F7FF95C|보관 원문·메타데이터]]

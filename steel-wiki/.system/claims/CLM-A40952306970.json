@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A40952306970",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "thermal_insulation_energy_result",
+  "value": "비교 시험에서 내부 단열 적용 시 에너지 사용이 낮아짐; 상용 kWh/t로 환산할 수 없음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-9BC68665"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "조건 한정 논문 결과와 해석 한계",
+      "source_ids": [
+        "SRC-20260727-9BC68665"
+      ]
+    }
+  ]
+}

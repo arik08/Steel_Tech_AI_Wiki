@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C21650678735",
+  "subject_id": "PRJ-H2PLASMARED-EU",
+  "predicate": "project_volume_eur",
+  "value": "EUR 6,374,937.50",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-F628E684"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "CORDIS 등록 총사업비",
+      "source_ids": [
+        "SRC-20260727-F628E684"
+      ]
+    }
+  ]
+}

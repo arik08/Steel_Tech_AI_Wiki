@@ -1,0 +1,35 @@
+{
+  "source_id": "SRC-20260727-786D57D4",
+  "title": "Recent HIsarna operational developments at the IJmuiden pilot plant",
+  "url": "https://www.aist.org/getmedia/b77607bd-4387-43ca-8bfd-3dea9630032a/Recent-HIsarna-Operational-Developments-IJmuiden-Pilot-Plant.pdf",
+  "canonical_url": "https://www.aist.org/getmedia/b77607bd-4387-43ca-8bfd-3dea9630032a/Recent-HIsarna-Operational-Developments-IJmuiden-Pilot-Plant.pdf",
+  "publisher": "Tata Steel / Association for Iron & Steel Technology",
+  "published_at": "2026-03-09",
+  "collected_at": "2026-07-27",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "786d57d4d2f82c95745f71f3a60bcdbbb4beab968d80d9926ef9088868eec82b",
+  "academic": {
+    "kind": "conference_presentation",
+    "authors": [
+      "J.W.K. van Boggelen",
+      "H.K.A. Meijer",
+      "J. van der Stel",
+      "J.E.B. Fradet",
+      "T.W.J. Peeters",
+      "C.P. Kleemans",
+      "A. Kumar"
+    ],
+    "venue": "Scrap Supplements and Alternative Ironmaking 10",
+    "conference_name": "Scrap Supplements and Alternative Ironmaking 10",
+    "conference_date": "2026-03-09",
+    "conference_location": "Orlando, Florida, USA",
+    "peer_review_status": "not_peer_reviewed"
+  },
+  "raw_sha256": "9d492f68d29fa9f4e3770ef570bd1844f77594168522db7388103f07625a355c",
+  "raw_path": ".system/raw/SRC-20260727-786D57D4.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

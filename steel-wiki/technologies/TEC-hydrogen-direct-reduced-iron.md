@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    **수소 직접환원철 (Hydrogen DRI) · 현재** · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    **수소 직접환원철 (Hydrogen DRI) · 현재** · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![배관과 철골 구조물로 구성된 HYBRIT 수소 직접환원 파일럿 플랜트 전경](<https://mb.cision.com/Public/980/4028804/ae0aeee220ed7cee_org.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![수소 샤프트로 원료 하향 수소 상향 환원, 상부가스 집진 제습 재순환, DRI HDRI HBI와 EAF 연결을 나타낸 AI 개념도](../assets/media/SRC-20260725-75A329BD/MED-B7C2DC785571.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — 스웨덴 룰레오 HYBRIT 수소 직접환원 파일럿 플랜트 전경 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-75A329BD|SRC-20260725-75A329BD]] · [원문 페이지](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial))*
+*대표 이미지 — AI 재구성 — DR급 펠릿·괴광을 샤프트 상부에 장입하고 하부 H2-rich gas와 향류 접촉시켜 DRI를 생산하며, 습윤 상부가스를 집진·제습·압축·재가열한 뒤 보충 수소와 합류해 재순환하는 대표 구성. 냉간 DRI·고온 HDRI·HBI는 대체 제품/이송 선택지이며 실제 HYBRIT·MIDREX·ENERGIRON 설비의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-75A329BD|SRC-20260725-75A329BD]] · [원문 페이지](https://www.hybritdevelopment.se/en/hybrit-six-years-of-research-paves-the-way-for-fossil-free-iron-and-steel-production-on-an-industrial-scale))*
 
 !!! abstract "한눈에 보기"
 
@@ -49,7 +49,7 @@
 이 문서는 펠릿·괴광을 충전하는 샤프트로 중심의 수소 DRI를 주축으로 다룹니다. 미분광 유동층 경로는 ‘무펠릿 미분광 수소환원’ 문서에서 별도로 비교합니다.
 
 - **근거 확인 기업:** 7개
-- **직접 연결 근거:** 18건
+- **직접 연결 근거:** 22건
 
 ## 작동 원리
 
@@ -145,15 +145,26 @@ flowchart TB
 | 2024-08-27 | HYBRIT six-year pilot research results [^src-20260725-75a329bd] |
 | 2024-12-01 | Swedish Energy Agency review of HYBRIT pilot phase [^src-20260725-c4a8eda3] |
 | 2025-01-06 | JFE Steel 2025 priorities for carbon-neutral technologies [^src-20260725-ec77a362] |
+| 2025-03-18 | Crucial Environmental Permit Application Announced - Important Milestone for LKAB Development [^src-20260727-a33857de] |
 | 2025-06-19 | ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans [^src-20260725-395d8a82] |
 | 2025-09-29 | Tata Steel Nederland integrated decarbonisation project letter of intent [^src-20260725-789ab58f] |
 | 2026-01-07 | China launches first million-tonne near-zero-carbon steel line at Baowu [^src-20260725-7e8abc86] |
 | 2026-03-09 | Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation [^src-20260726-cedf7736] |
 | 2026-03-11 | Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction [^src-20260726-eadb3777] |
+| 2026-04-23 | LKAB Interim Report First Quarter 2026 [^src-20260727-91f88878] |
 | 2026-05-01 | Tata Steel Nederland 2025-2026 Green Steel Project status [^src-20260725-e71081d1] |
 | 2026-06-12 | China Baowu and Rio Tinto complete hydrogen DRI and electric-smelting trials [^src-20260725-3ff9886c] |
+| 2026-06-15 | LKAB granted environmental permit for operations in Gallivare [^src-20260727-112971a7] |
+| 2026-06-24 | Stegra announces closing of EUR 1.4 billion financing round [^src-20260727-56d0b35d] |
 
 ## 설비·공정 이미지
+
+![배관과 철골 구조물로 구성된 HYBRIT 수소 직접환원 파일럿 플랜트 전경](<https://mb.cision.com/Public/980/4028804/ae0aeee220ed7cee_org.jpg>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** 스웨덴 룰레오 HYBRIT 수소 직접환원 파일럿 플랜트 전경
+
+- 출처 [[sources/SRC-20260725-75A329BD|SRC-20260725-75A329BD]] · 권리 `link_only` · [원문 페이지](https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial) · 작성·촬영 Helena Sundberg
+- 권리 메모: SSAB 공식 보도자료의 미디어 첨부 원본을 로컬에 복제하지 않고 원격 표시
 
 ![thyssenkrupp Duisburg 직접환원탑 첫 지지기둥](<https://transformation.thyssenkrupp-steel.com/media/dr_anlage_1/bilder_2/traeger1_dr_turm_image_w450_h338.jpg>){ .steel-media-image .steel-media-compact }
 
@@ -235,6 +246,8 @@ flowchart TB
 | 프로젝트 | 현재 확인 상태 | 일정·규모 |
 | --- | --- | --- |
 | **[[projects/PRJ-HYBRIT-LULEA-PILOT|HYBRIT 룰레오 수소 DRI 파일럿]]** | 2018–2024 반산업 규모 파일럿 단계에서 광석→수소 DRI→EAF 조강 통합 가치사슬을 검증했으며, 결과를 바탕으로 산업화 지원 R&D 단계로 전환했다. [^src-20260725-75a329bd] | - |
+| **[[projects/PRJ-HYBRIT-GALLIVARE-DEMO|HYBRIT Gällivare 무화석 스펀지철 산업 실증]]** | 현재 상태 Claim 미등록 | - |
+| **[[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]]** | 현재 상태 Claim 미등록 | - |
 | **[[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]** | Green Steel Project 1단계 설계·협의 단계이며 최종투자결정·착공·확정 시운전일은 공개 확인되지 않음 [^src-20260725-e71081d1] | - |
 
 ## 기술적 쟁점과 미공개 데이터
@@ -260,6 +273,29 @@ flowchart TB
 - 광양 전기로와 향후 전기용융 기술을 고려하면, 외부 HBI 조달·자체 DRI·HyREX 환원물을 같은 금속원 포트폴리오에서 잔류원소·탄소·맥석·물류비로 비교할 필요가 있습니다.
 - 우선 모니터링 지표는 실제 수소 비율, 수소 kg/t-DRI, 가스 가열 전력, 연속운전 시간, 금속화율, 제품 탄소, 클러스터링 지수, 펠릿 품위, HDRI 온도와 EAF kWh/t입니다.
 
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 상업 규모에서 천연가스 보조 없이 실제 수소 비율, 연속운전 시간, 금속화율·제품 탄소·클러스터링 지수를 함께 공개
+- 전력·수소 공급계약, 환경허가, FID, 착공, 시운전이 목표일에서 실제 이정표로 순차 전환
+- 광종·펠릿별 수소 kg/t-DRI, 가스 가열전력, HDRI 온도와 후단 EAF kWh/t를 동일 캠페인 경계로 제시
+
+### 지연·실패 신호
+
+- HYBRIT처럼 일정 지연으로 기한부 지원이 철회되거나, Stegra처럼 대규모 추가 조달 뒤에도 공식 일정이 계속 검토 상태
+- ‘hydrogen-ready’ 또는 구매계약만 반복하고 실제 수소비율·연간 생산량·품질인증 결과가 공개되지 않음
+
+### POSCO 판단 질문
+
+- HyREX와 샤프트 DRI를 원료 전처리·수소·전력·후단 용융까지 같은 시스템 경계에서 비교하면 어느 조건에서 우위가 바뀌는가?
+- 외부 HBI 조달, 자체 DRI, 미분광 환원 중 무엇을 핵심 자산으로 두고 어떤 경로를 공급망 헤지로 유지할 것인가?
+- 보조금·저가 수소가 지연될 때 천연가스 브리지 운전의 탄소 lock-in을 어떤 투자 gate로 제한할 것인가?
+
 ## 출처
 
 - [[sources/SRC-20260725-2B01239E|Iron and Steel Technology Roadmap]] — International Energy Agency, 2020-10-08 · [원문](https://www.iea.org/reports/iron-and-steel-technology-roadmap)
@@ -280,6 +316,10 @@ flowchart TB
 - [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]] — JFE Steel Corporation, 2025-01-06 · [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html)
 - [[sources/SRC-20260726-CEDF7736|Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/e89e02e8-f108-4e65-b52a-939bec855f83/Tomorrows-Steel-Mill-Today-Ternium.pdf)
 - [[sources/SRC-20260726-EADB3777|Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction]] — Association for Iron & Steel Technology, 2026-03-11 · [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf)
+- [[sources/SRC-20260727-112971A7|LKAB granted environmental permit for operations in Gallivare]] — LKAB, 2026-06-15 · [원문](https://lkab.com/en/press/lkab-granted-environmental-permit-for-operations-in-gallivare/)
+- [[sources/SRC-20260727-56D0B35D|Stegra announces closing of EUR 1.4 billion financing round]] — Stegra / Cision, 2026-06-24 · [원문](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round,c4366881)
+- [[sources/SRC-20260727-91F88878|LKAB Interim Report First Quarter 2026]] — LKAB, 2026-04-23 · [원문](https://lkab.com/wp-content/uploads/2026/04/LKAB_2026_Q1_Interim-report.pdf)
+- [[sources/SRC-20260727-A33857DE|Crucial Environmental Permit Application Announced - Important Milestone for LKAB Development]] — LKAB, 2025-03-18 · [원문](https://lkab.com/en/press/crucial-environmental-permit-application-announced-important-milestone-for-lkabs-development/)
 
 [^src-20260725-2b01239e]: **Iron and Steel Technology Roadmap** — International Energy Agency, 2020-10-08. [원문](https://www.iea.org/reports/iron-and-steel-technology-roadmap) · [[sources/SRC-20260725-2B01239E|보관 원문·메타데이터]]
 [^src-20260725-395d8a82]: **ArcelorMittal cannot proceed with Bremen and Eisenhüttenstadt DRI-EAF plans** — ArcelorMittal, 2025-06-19. [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-europe-urges-faster-implementation-of-steel-and-metals-action-plan) · [[sources/SRC-20260725-395D8A82|보관 원문·메타데이터]]
@@ -298,3 +338,7 @@ flowchart TB
 [^src-20260725-ec77a362]: **JFE Steel 2025 priorities for carbon-neutral technologies** — JFE Steel Corporation, 2025-01-06. [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) · [[sources/SRC-20260725-EC77A362|보관 원문·메타데이터]]
 [^src-20260726-cedf7736]: **Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/e89e02e8-f108-4e65-b52a-939bec855f83/Tomorrows-Steel-Mill-Today-Ternium.pdf) · [[sources/SRC-20260726-CEDF7736|보관 원문·메타데이터]]
 [^src-20260726-eadb3777]: **Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction** — Association for Iron & Steel Technology, 2026-03-11. [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf) · [[sources/SRC-20260726-EADB3777|보관 원문·메타데이터]]
+[^src-20260727-112971a7]: **LKAB granted environmental permit for operations in Gallivare** — LKAB, 2026-06-15. [원문](https://lkab.com/en/press/lkab-granted-environmental-permit-for-operations-in-gallivare/) · [[sources/SRC-20260727-112971A7|보관 원문·메타데이터]]
+[^src-20260727-56d0b35d]: **Stegra announces closing of EUR 1.4 billion financing round** — Stegra / Cision, 2026-06-24. [원문](https://news.cision.com/stegra/r/stegra-announces-closing-of--1-4-billion-financing-round,c4366881) · [[sources/SRC-20260727-56D0B35D|보관 원문·메타데이터]]
+[^src-20260727-91f88878]: **LKAB Interim Report First Quarter 2026** — LKAB, 2026-04-23. [원문](https://lkab.com/wp-content/uploads/2026/04/LKAB_2026_Q1_Interim-report.pdf) · [[sources/SRC-20260727-91F88878|보관 원문·메타데이터]]
+[^src-20260727-a33857de]: **Crucial Environmental Permit Application Announced - Important Milestone for LKAB Development** — LKAB, 2025-03-18. [원문](https://lkab.com/en/press/crucial-environmental-permit-application-announced-important-milestone-for-lkabs-development/) · [[sources/SRC-20260727-A33857DE|보관 원문·메타데이터]]

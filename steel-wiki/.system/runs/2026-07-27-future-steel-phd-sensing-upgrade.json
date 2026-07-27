@@ -1,0 +1,138 @@
+{
+  "run_id": "future-steel-phd-sensing-upgrade-2026-07-27",
+  "started_at": "2026-07-27T18:00:00+09:00",
+  "completed_at": "2026-07-27T20:59:14+09:00",
+  "status": "success",
+  "baseline_date": "2026-07-27",
+  "scope": {
+    "purpose": "POSCO홀딩스 미래기술연구원 박사급 검토를 위한 미래철강 기술 원리·실증현황·전략 센싱·이미지 근거 고도화",
+    "audience": "미래철강TD 기술 센싱 및 전략 수립 담당자와 미래기술연구원 연구진",
+    "technologies_monitored": [
+      "TEC-low-carbon-ironmaking",
+      "TEC-hydrogen-direct-reduced-iron",
+      "TEC-hydrogen-based-fine-ore-reduction",
+      "TEC-zesty-hydrogen-flash-reduction",
+      "TEC-electric-smelting-furnace",
+      "TEC-hisarna-cyclone-smelting-reduction",
+      "TEC-hydrogen-plasma-smelting-reduction",
+      "TEC-molten-oxide-electrolysis",
+      "TEC-low-temperature-aqueous-iron-electrolysis",
+      "TEC-blast-furnace-ccus",
+      "TEC-high-grade-eaf-and-scrap-impurity-removal",
+      "TEC-microwave-biomass-ironmaking",
+      "TEC-smart-steelworks"
+    ],
+    "source_types": [
+      "company_release",
+      "company_ir",
+      "government",
+      "academic",
+      "equipment_supplier",
+      "permit"
+    ]
+  },
+  "queries": [
+    "HYBRIT Gallivare industrial demonstration schedule permit funding 2026",
+    "Stegra Boden financing commissioning status official",
+    "POSCO HyREX 2028 2030 demonstration schedule",
+    "H2PlasmaRed CORDIS status HPSR pilot paper",
+    "Metso Pori DRI smelting furnace pilot 1 t/h 2.5 MVA",
+    "PURESCRAP CORDIS project status 2026",
+    "Steelanol Gent first ethanol barge carbon capture D-CRBN",
+    "Calix ZESTY ARENA 30000 t/y flash hydrogen reduction",
+    "ZESTY flash reactor metallisation 60 kg/h 850 1050 C paper",
+    "Tata Steel HIsarna Jamshedpur 1 MTPA engineering regulatory approval",
+    "HIsarna off-gas scale-up refractory paper",
+    "AIST 2026 Recent HIsarna operational developments IJmuiden",
+    "Tata Steel Annual Report 2011-12 HIsarna pilot plant official photograph"
+  ],
+  "source_ids": [
+    "SRC-20260727-112971A7",
+    "SRC-20260727-275A6495",
+    "SRC-20260727-3D412017",
+    "SRC-20260727-44DC8B30",
+    "SRC-20260727-48351ABD",
+    "SRC-20260727-56D0B35D",
+    "SRC-20260727-71A7FA21",
+    "SRC-20260727-7863B18F",
+    "SRC-20260727-786D57D4",
+    "SRC-20260727-7DEFB3CE",
+    "SRC-20260727-824DD247",
+    "SRC-20260727-91F88878",
+    "SRC-20260727-96F6D922",
+    "SRC-20260727-9BC68665",
+    "SRC-20260727-9F7FF95C",
+    "SRC-20260727-A33857DE",
+    "SRC-20260727-A39F1D70",
+    "SRC-20260727-AAE02C9E",
+    "SRC-20260727-C280FAED",
+    "SRC-20260727-C43117BC",
+    "SRC-20260727-F628E684",
+    "SRC-20260727-FD3EBA92"
+  ],
+  "access_attempts": [
+    {
+      "url": "https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant/",
+      "method": "web",
+      "outcome": "success"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s11663-025-03465-3",
+      "method": "web",
+      "outcome": "success"
+    },
+    {
+      "url": "https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india/",
+      "method": "web",
+      "outcome": "success"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s11663-022-02620-4",
+      "method": "web",
+      "outcome": "success"
+    },
+    {
+      "url": "https://www.aist.org/getmedia/b77607bd-4387-43ca-8bfd-3dea9630032a/Recent-HIsarna-Operational-Developments-IJmuiden-Pilot-Plant.pdf",
+      "method": "pdf_text_and_page_verification",
+      "outcome": "success"
+    },
+    {
+      "url": "https://www.tatasteel.com/investors/annual-report-2011-12/html/principle2.html",
+      "method": "web_and_in_app_browser",
+      "outcome": "success"
+    }
+  ],
+  "failed_urls": [],
+  "counts": {
+    "new_sources": 22,
+    "claims_created": 133,
+    "technologies_monitored": 13,
+    "new_technology_dossiers": 2,
+    "new_project_pages": 8,
+    "final_ai_hero_images": 13,
+    "new_or_corrected_ai_hero_images": 12,
+    "technology_pages_with_non_ai_reference_images": 13,
+    "pending_reviews": 4,
+    "stale_claim_age_flags": 13
+  },
+  "verification": {
+    "source_integrity_errors": 0,
+    "source_schema_errors": 0,
+    "media_integrity_errors": 0,
+    "media_schema_errors": 0,
+    "claim_schema_errors": 0,
+    "claim_evidence_errors": 0,
+    "active_conflicts": 0,
+    "tests": "41 passed, 13 subtests passed",
+    "mkdocs_strict_build": "passed",
+    "ui_qa": "Codex in-app Browser desktop and 390x844 mobile passed; 13/13 technology pages had loaded AI heroes, non-AI reference media, required sensing sections, and no horizontal overflow; no console warnings or errors",
+    "ai_image_qc": "research/ai-image-qc-2026-07-27.md"
+  },
+  "limitations": [
+    "모든 AI 대표 이미지는 기술 이해를 위한 재구성이며 특정 설비의 as-built, PFD, P&ID 또는 성능 보증자료가 아니다.",
+    "기업 발표의 목표 용량·일정·투자·TRL 표현은 달성 실적과 분리했으며 공식 TRL 근거가 없는 기술에는 임의 점수를 만들지 않았다.",
+    "HIsarna 19.5일 연속운전과 93% 장기 campaign 가용률은 파일럿 기록이며 연간 상용 가동률로 확대 해석하지 않는다.",
+    "HPSR 100 kg/trial과 기존 200 kg/trial, PURESCRAP 종료일, Electra와 Volteron 관련 상이한 공개값은 자동 병합하지 않고 사람 검토 큐에 유지했다.",
+    "13개 오래된 Claim은 근거 발표일 기준 재검증 주기를 넘겨 stale age flag로 남겼으며 사실 삭제나 현재성 과장은 하지 않았다."
+  ]
+}

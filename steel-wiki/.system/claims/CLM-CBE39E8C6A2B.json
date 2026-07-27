@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CBE39E8C6A2B",
+  "subject_id": "TEC-hisarna-cyclone-smelting-reduction",
+  "predicate": "fossil_carbon_substitution_results",
+  "value": "과거 biochar 석탄대체 45%; 최초 천연가스 commissioning test의 저생산율 조건에서 15% 초과 대체. 100% biochar는 목표로서 미달성",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260727-786D57D4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "AIST 2026 Tata Steel presentation slide 9",
+      "source_ids": [
+        "SRC-20260727-786D57D4"
+      ]
+    }
+  ]
+}

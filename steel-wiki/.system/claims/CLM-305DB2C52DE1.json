@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-305DB2C52DE1",
+  "subject_id": "TEC-hisarna-cyclone-smelting-reduction",
+  "predicate": "offgas_system_configuration",
+  "value": "reflux chamber 후연소, air quench, up leg/down leg, 필요 시 water quench, 후단 gas cooling·집진·탈황",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-C280FAED"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "논문이 기술한 파일럿 off-gas 구성",
+      "source_ids": [
+        "SRC-20260727-C280FAED"
+      ]
+    }
+  ]
+}

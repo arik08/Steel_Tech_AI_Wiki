@@ -2,7 +2,7 @@
 
 # POSCO 포항 HyREX 통합 실증
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **16건** · 직접 연결 근거 **6건**
+> 최근 검증 **2026-07-27** · 확인된 핵심 정보 **23건** · 직접 연결 근거 **7건**
 
 
 ![분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도](<https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
@@ -23,16 +23,23 @@
 | **협력계약 체결 시점** | 2024-07-22 [^src-20260725-bab49577] |
 | **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
 | **적용 원료** | 소결용 철광석 미분을 직접 유동층 환원에 사용 [^src-20260725-bab49577] |
+| **정부 최종 부지 승인** | 2026-03 [^src-20260727-a39f1d70] |
 | **통합 설비 구성** | 광석 건조기, 다단 유동층, 고온 DRI 이송, 전기용융로, 집진, 출선, 슬래그 조립 계통 [^src-20260725-bab49577] |
 | **위치** | POSCO 포항제철소 [^src-20260725-bab49577] |
 | **업무협약 시점** | 2022 [^src-20260725-bab49577] |
+| **유동환원 시험로 회분 규모** | 50 kg/batch [^src-20260727-a39f1d70] |
+| **유동환원 시험로 도입 연도** | 2023 [^src-20260727-a39f1d70] |
 | **파일럿 첫 용선 생산** | 2024-04 [^src-20260725-a6759186] |
 | **파일럿 생산량** | 1 t/h 전기용융 파일럿을 가동해 첫 용선을 생산 [^src-20260725-a6759186] |
 | **공정 구성** | POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
 | **공개 성과의 한계** | 1 t/h ESF의 첫 용선은 용융 단위조작 근거이며 30만 t/y 통합설비의 연속운전을 입증하지 않음 [^src-20260725-a6759186] |
+| **개발부지 면적** | 1,350,000 m² [^src-20260727-a39f1d70] |
 | **부지 준비 확인 시점** | 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
 | **공급사 발표 시점** | 2024-09-19 [^src-20260725-bab49577] |
 | **목표 준공 시점** | 2030년까지 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] |
+| **실증설비 완공 목표** | 2028년 300,000 t/y 통합 실증설비 완공 목표 [^src-20260727-a39f1d70] |
+| **목표 착공 시점** | 2026-04 예정 [^src-20260727-a39f1d70] |
+| **단계별 시험운전 목표** | 2030년까지 단계별 시험운전 수행 계획 [^src-20260727-a39f1d70] |
 
 ## 전체 확인 이력
 
@@ -47,10 +54,13 @@
 | 2024-09-19 | 공식 발표 | **공급사 발표 시점**: 2024-09-19 [^src-20260725-bab49577] |
 | 2024-09-19 | 발표·검증 | **통합 설비 구성**: 광석 건조기, 다단 유동층, 고온 DRI 이송, 전기용융로, 집진, 출선, 슬래그 조립 계통 · **업무협약 시점**: 2022 · **적용 원료**: 소결용 철광석 미분을 직접 유동층 환원에 사용 · **위치**: POSCO 포항제철소 · **협력계약 체결 시점**: 2024-07-22 · **공급사 발표 시점**: 2024-09-19 [^src-20260725-bab49577] |
 | 2025-10-29 | 발표·검증 | **기술 경로**: FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] |
+| 2026-03 | 부지 승인 | **정부 최종 부지 승인**: 2026-03 [^src-20260727-a39f1d70] |
+| 2026-04 | 목표 일정 | **목표 착공 시점**: 2026-04 예정 [^src-20260727-a39f1d70] |
 | 2026-06-22 | 발표·검증 | **연간 생산능력**: 연 300,000 tonnes · **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 · **프로젝트 상태**: 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 · **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
 | 2026-06-22 | 실행 현황 | **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
 | 2026-07-25 | 수집 확인 | **공정 구성**: POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
 | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
+| 2026-07-27 | 수집 확인 | **목표 착공 시점**: 2026-04 예정 · **개발부지 면적**: 1,350,000 m² · **실증설비 완공 목표**: 2028년 300,000 t/y 통합 실증설비 완공 목표 · **유동환원 시험로 도입 연도**: 2023 · **유동환원 시험로 회분 규모**: 50 kg/batch · **정부 최종 부지 승인**: 2026-03 · **단계별 시험운전 목표**: 2030년까지 단계별 시험운전 수행 계획 [^src-20260727-a39f1d70] |
 | 2030 | 목표 일정 | **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] |
 
 ## 근거 자료
@@ -61,6 +71,7 @@
 - **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22 · [원문 보기](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
 - **Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant** — Primetals Technologies, 2024-09-19 · [원문 보기](https://www.primetals.com/en/news/primetals-technologies-and-posco-sign-cooperation-agreement-for-hyrex-direct-reduction-plant/) · [[sources/SRC-20260725-BAB49577|보관 원문·메타데이터]]
 - **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29 · [원문 보기](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
+- **POSCO Climate Change - HyREX demonstration plan and current schedule** — POSCO ESG, 게시일 미상 · [원문 보기](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953) · [[sources/SRC-20260727-A39F1D70|보관 원문·메타데이터]]
 
 [^src-20260725-013f0fa1]: **HyREX Hydrogen Reduction Ironmaking** — POSCO, 게시일 미상. [원문](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/) · [[sources/SRC-20260725-013F0FA1|보관 원문·메타데이터]]
 [^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
@@ -68,3 +79,4 @@
 [^src-20260725-b859ca04]: **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
 [^src-20260725-bab49577]: **Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant** — Primetals Technologies, 2024-09-19. [원문](https://www.primetals.com/en/news/primetals-technologies-and-posco-sign-cooperation-agreement-for-hyrex-direct-reduction-plant/) · [[sources/SRC-20260725-BAB49577|보관 원문·메타데이터]]
 [^src-20260725-ff076fe4]: **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29. [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
+[^src-20260727-a39f1d70]: **POSCO Climate Change - HyREX demonstration plan and current schedule** — POSCO ESG, 게시일 미상. [원문](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953) · [[sources/SRC-20260727-A39F1D70|보관 원문·메타데이터]]

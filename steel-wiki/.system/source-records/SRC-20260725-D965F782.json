@@ -52,6 +52,44 @@
         "TEC-microwave-biomass-ironmaking",
         "PRJ-BIOIRON-WA-RD"
       ]
+    },
+    {
+      "media_id": "MED-1D4B045DD76D",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 철광석 분광·바이오매스 바인더 혼합·브리케팅, 마이크로웨이브 가열 환원, 가스·전기 재순환과 DRI 냉각·후속 용융을 연결한 BioIron형 개념도. 특허·허가자료 기반의 비준공도 재구성.",
+      "alt_text": "철광석과 바이오매스가 브리켓으로 성형되어 마이크로웨이브 환원로를 통과하고 DRI 냉각·후속 용융으로 이어지는 AI 재구성도",
+      "creator": "OpenAI image generation / Codex",
+      "image_url": null,
+      "origin_url": "https://patents.google.com/patent/US11959153B2/en",
+      "rights_status": "ai_generated",
+      "rights_note": "공개 특허와 회사 자료의 공정 블록을 종합한 AI 재구성입니다. 중단된 파일럿의 실제 형상·연속운전·에너지 성능을 나타내지 않습니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "1d4b045dd76d4ebfa39629a875c3525f89b3e18b3c2d959368490c0323570403",
+      "local_path": "assets/media/SRC-20260725-D965F782/MED-1D4B045DD76D.png",
+      "subject_ids": [
+        "TEC-microwave-biomass-ironmaking"
+      ],
+      "display_width": "detail",
+      "hero_priority": -100
+    },
+    {
+      "media_id": "MED-7220FCC31DD9",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 미분광·바이오매스 브리켓, 예건조, 마이크로웨이브 환원, 가스/char 분리, DRI 냉각과 후단 용융의 연구 공정 개념도.",
+      "alt_text": "마이크로웨이브 바이오매스 환원제철 연구 공정과 확대 병목 AI 개념도",
+      "creator": "OpenAI ImageGen",
+      "image_url": null,
+      "origin_url": "https://patents.google.com/patent/US11959153B2/en",
+      "rights_status": "ai_generated",
+      "rights_note": "공개 특허·허가·기업자료를 바탕으로 2026-07-27 생성. 중단된 1 t/h 설계의 준공도나 확정 재개 설계가 아니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "7220fcc31dd98a9f12e7c4fa8ea5aa6aa6fc9524e0bea5d3c87a36439b031d76",
+      "local_path": "assets/media/SRC-20260725-D965F782/MED-7220FCC31DD9.png",
+      "subject_ids": [
+        "TEC-microwave-biomass-ironmaking"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200
     }
   ]
 }

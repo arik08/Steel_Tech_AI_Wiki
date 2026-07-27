@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F3CE59791B8F",
+  "subject_id": "PRJ-ARCELORMITTAL-VOLTERON",
+  "predicate": "latest_scale_up_plan",
+  "value": "40 kt/y 모듈을 기반으로 최대 800 kt/y 설비까지 확대하는 엔지니어링·CAPEX 검토 계획",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-71A7FA21"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "Captures the latest modular scale-up framing separately from the 2023 plan.",
+      "source_ids": [
+        "SRC-20260727-71A7FA21"
+      ]
+    }
+  ]
+}

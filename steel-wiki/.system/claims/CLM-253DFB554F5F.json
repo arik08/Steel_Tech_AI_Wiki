@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-253DFB554F5F",
+  "subject_id": "TEC-hisarna-cyclone-smelting-reduction",
+  "predicate": "pilot_cumulative_hot_metal",
+  "value": "IJmuiden 파일럿 누적 용선 18,450 t, 이 중 BOF 공급 17,450 t; 상용 생산량이 아닌 누적 파일럿 실적",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260727-786D57D4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "AIST 2026 Tata Steel presentation slide 5",
+      "source_ids": [
+        "SRC-20260727-786D57D4"
+      ]
+    }
+  ]
+}

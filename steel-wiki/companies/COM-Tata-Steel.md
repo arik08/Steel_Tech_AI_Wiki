@@ -5,15 +5,15 @@
 > 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 
-![고로 상부가스를 세정·개질하고 플라즈마로 가열해 열풍구로 재주입하는 폐회로 개념 구성](../assets/media/SRC-20260725-29802D50/MED-4B6744FBED5B.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+![배관과 흡수설비로 구성된 Tata Steel Jamshedpur 고로가스 탄소포집 설비](<https://www.tatasteel.com/media/14387/facillity-pic_1-1.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
 
-*대표 이미지 — EASyMelt의 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 가열·열풍구 주입 경로 AI 재구성. Jamshedpur E고로의 준공도가 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-29802D50|SRC-20260725-29802D50]] · [원문 페이지](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology))*
+*대표 이미지 — Tata Steel Jamshedpur 5 TPD 고로가스 CO2 포집설비 공식 사진 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-46A2055D|SRC-20260725-46A2055D]] · [원문 페이지](https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur))*
 
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 4개 / 감시 기술 11개 |
+    | **확인된 기술** | 4개 / 감시 기술 13개 |
     | **연결 프로젝트** | 3개 |
     | **실행 단계** | 계획·투자 1건 · 가동·현장 적용 1건 · 공식 현황 확인 2건 |
     | **직접 연결 근거** | 7건 |
@@ -179,12 +179,12 @@
 
 ## 설비·공정 이미지
 
-![배관과 흡수설비로 구성된 Tata Steel Jamshedpur 고로가스 탄소포집 설비](<https://www.tatasteel.com/media/14387/facillity-pic_1-1.jpg>){ .steel-media-image .steel-media-compact }
+![고로 상부가스를 세정·개질하고 플라즈마로 가열해 열풍구로 재주입하는 폐회로 개념 구성](../assets/media/SRC-20260725-29802D50/MED-4B6744FBED5B.png){ .steel-media-image .steel-media-compact }
 
-**실제 설비 사진.** Tata Steel Jamshedpur 5 TPD 고로가스 CO2 포집설비 공식 사진
+**AI 재구성.** EASyMelt의 고로 상부가스 재순환·코크스오븐가스 개질·플라즈마 가열·열풍구 주입 경로 AI 재구성. Jamshedpur E고로의 준공도가 아님
 
-- 출처 [[sources/SRC-20260725-46A2055D|SRC-20260725-46A2055D]] · 권리 `link_only` · [원문 페이지](https://www.tatasteel.com/media/newsroom/press-releases/india/2021/tata-steel-commissions-india-s-first-plant-for-co2-capture-from-blast-furnace-gas-at-jamshedpur) · 작성·촬영 Tata Steel
-- 권리 메모: Tata Steel 공식 보도자료 원본 사진을 외부 링크로만 표시
+- 출처 [[sources/SRC-20260725-29802D50|SRC-20260725-29802D50]] · 권리 `ai_generated` · [원문 페이지](https://www.tatasteel.com/newsroom/press-releases/india/2026/tata-steel-partners-sms-group-to-deploy-world-first-easymelt-decarbonisation-technology) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: Tata Steel과 SMS group의 공식 공정 설명을 바탕으로 생성했으며 실제 개조 설비 배치와 운전 증거로 사용하지 않음
 
 ![해안 제철소에서 샤프트 직접환원로의 DRI와 스크랩이 대형 전기로로 연결되고 기존 고로가 배경에 남아 있는 전환 개념도](../assets/media/SRC-20260725-E71081D1/MED-9911B32AD15F.png){ .steel-media-image .steel-media-compact }
 

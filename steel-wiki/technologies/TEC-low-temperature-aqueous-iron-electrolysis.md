@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![Electra 연구진 두 명이 파일럿 전해 설비의 대형 전착 철판을 점검하는 모습](../assets/media/SRC-20260725-D6930918/MED-72731666BC8E.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+![저온 수계 전해제철의 침출 정제 전해채취 재생 흐름 AI 개념도](../assets/media/SRC-20260725-133D1C12/MED-042C9B48BD81.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Electra 파일럿 설비에서 대형 전착 철판을 점검하는 연구진 (실제 설비 사진 · 권리 `permitted` · 출처 [[sources/SRC-20260725-D6930918|SRC-20260725-D6930918]] · [원문 페이지](https://www.electra.earth/))*
+*대표 이미지 — AI 재구성 — 광석 침출·고액분리·철 이온 정제·전해채취·철판 회수와 산/염기 재생의 기능 흐름. 특정 기업의 준공도·P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-133D1C12|SRC-20260725-133D1C12]] · [원문 페이지](https://arpa-e.energy.gov/sites/default/files/2025-04/ARPA-E%20Project%20Descriptions_ROSIE_R25.1.pdf))*
 
 !!! abstract "한눈에 보기"
 
@@ -47,7 +47,7 @@
 이 문서에서 다루는 경로는 고온 용융염 전기분해가 아니라, 광석을 수용액에서 용해·분리한 뒤 철을 전착하는 저온 경로입니다.
 
 - **근거 확인 기업:** 2개
-- **직접 연결 근거:** 10건
+- **직접 연결 근거:** 13건
 
 ## 작동 원리
 
@@ -98,6 +98,7 @@ flowchart TB
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
+| **Fortescue DER 공정 경로** | Pilbara 철광석을 130°C 미만 알칼리 전해질의 고체 슬러리 전해조에서 환원하는 저온 DER 연구 경로 [^src-20260727-3d412017] | 연구보고서 |
 | **전해 셀 구성** | 산·염기 생성 및 원료 분리를 담당하는 첫 번째 전기화학 셀 스택과, 수산화철을 금속 철로 바꾸는 전해채취 셀 스택의 2단 구성 [^src-20260725-133d1c12] | 정부·공공자료 |
 
 ### 원료·운전·제품
@@ -112,12 +113,18 @@ flowchart TB
 | **제품 순도** | Electra 주장 기준 99% 초과 순도의 철 [^src-20260725-3d62f9a6] | 회사 발표 |
 | **전력 운전 유연성** | 저온 공정 특성을 이용해 간헐성 재생전력의 가용 시간에 맞춰 생산을 동기화할 수 있다는 회사 주장 [^src-20260725-d6930918] | 회사 발표 |
 | **후단 활용** | 생산 철은 전기로(EAF) 제강 원료 또는 철 기반 배터리 소재로 사용 가능 [^src-20260725-d6930918] | 회사 발표 |
+| **실광석 조건별 전류효율** | 3.2 wt% Pilbara ore·100°C benchtop 조건에서 NaOH 30/40/60 wt%별 Faradaic efficiency 약 4%/28%/69%; 조건 한정 연구값 [^src-20260727-3d412017] | 연구보고서 |
+| **분리막 조건 선별 결과** | 막 비교시험에서 약 6.2–9.9 kWh/kg-Fe와 Faradaic efficiency 약 32–53%가 보고됐으며, 단기 스크리닝 값으로 상업 원단위가 아님 [^src-20260727-3d412017] | 연구보고서 |
+| **분리막 단기 운전시간** | 선정 막의 4시간 시험에서 crossover가 검출되지 않았으나, 막 수명이나 장기 안정성 입증으로 볼 수 없음 [^src-20260727-3d412017] | 연구보고서 |
+| **Fortescue DER 확인 병목** | 수소발생 부반응, 실제 광석 불순물·물질전달, 미분 부착·fouling, 막 기계강도·전도도·비용, 전극 안정성이 핵심 scale-up 병목 [^src-20260727-3d412017] | 연구보고서 |
 
 ### 실증·산업화
 
 | 구분 | 공개된 내용 | 근거 성격 |
 | --- | --- | --- |
 | **확대 검증 계획** | Volteron 개발사 발표는 1 m² 파일럿 성숙도와 규제 여건을 전제로 2026년 40–80 kt/y step-up plant 계약 로드맵을 제시했다. 이는 계획이며 가동 실적이 아니다. [^src-20260726-9f56db69] | 학회 발표 |
+| **Fortescue DER 단계 현황** | 2025년 8월 기준 Core Research Stage 1 마무리 단계; 전해조 unit와 balance of plant의 설계·건설·시운전은 Stage 2 과제 [^src-20260727-3d412017] | 연구보고서 |
+| **Fortescue DER 확대 목표** | Stage 2 목표는 100 kg feed에서 magnetite 및/또는 metallic iron으로 50% 이상 전환하고 건설·시운전 후 TRL 6을 입증하는 것; 아직 달성 실적이 아님 [^src-20260727-3d412017] | 연구보고서 |
 
 
 ## 공개 개발 연혁
@@ -129,6 +136,8 @@ flowchart TB
 | 2023-05-01 | Low-Temperature Electrowinning of Iron from Mixed Hematite-Magnetite Alkaline Suspensions [^src-20260726-b9accb8f] |
 | 2023-06-14 | ArcelorMittal and John Cockerill develop Volteron low-temperature electrolysis [^src-20260725-a6716adb] |
 | 2024-03-27 | Electra Launches Pilot Plant to Advance Commercialization of Sustainable Clean Iron Production [^src-20260725-3d62f9a6] |
+| 2025-10-21 | Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes [^src-20260727-44dc8b30] |
+| 2025-12-22 | Low Temperature Direct Electrochemical Reduction for Zero Emissions Iron Project - Core Research Final Report [^src-20260727-3d412017] |
 | 2026-03-09 | Volteron — Scalable Electrochemical Ironmaking for Green Steel Production [^src-20260726-9f56db69] |
 | 2026-04-28 | POSCO and Electra partner on low-temperature clean iron [^src-20260725-4c014458] |
 
@@ -140,6 +149,13 @@ flowchart TB
 
 - 출처 [[sources/SRC-20260725-3D62F9A6|SRC-20260725-3D62F9A6]] · 권리 `link_only` · [원문 페이지](https://www.businesswire.com/news/home/20240327121089/en/Electra-Launches-Pilot-Plant-to-Advance-Commercialization-of-Sustainable-Clean-Iron-Production) · 작성·촬영 Electra / Business Wire
 - 권리 메모: 공식 보도자료 이미지이나 재사용 권리가 명확하지 않아 원문 링크만 보존
+
+![Electra 연구진 두 명이 파일럿 전해 설비의 대형 전착 철판을 점검하는 모습](../assets/media/SRC-20260725-D6930918/MED-72731666BC8E.png){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Electra 파일럿 설비에서 대형 전착 철판을 점검하는 연구진
+
+- 출처 [[sources/SRC-20260725-D6930918|SRC-20260725-D6930918]] · 권리 `permitted` · [원문 페이지](https://www.electra.earth/) · 작성·촬영 Electra
+- 권리 메모: Electra 공식 홈페이지 공개 이미지이며 내부 기술 인텔리전스 문서에 출처·원문 링크와 함께 사용; 외부 재배포 전 별도 권리 확인 필요
 
 ![철광석 슬러리 처리와 수용액 순환 탱크, 모듈식 전해 셀, 전착 철판 회수 장치의 개념 구성](../assets/media/SRC-20260725-FBE26310/MED-F0E1DDA6F73D.png){ .steel-media-image .steel-media-compact }
 
@@ -173,7 +189,7 @@ flowchart TB
 
 | 프로젝트 | 현재 확인 상태 | 일정·규모 |
 | --- | --- | --- |
-| **[[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] | **연간 생산능력** 연간 500톤 (500 tpy) [^src-20260725-4c014458] · **목표 가동 시점** 2026년 [^src-20260725-4c014458] |
+| **[[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] | **연간 생산능력** 연간 500톤 (500 tpy) [^src-20260725-4c014458][^src-20260727-44dc8b30] · **목표 가동 시점** 2026년 [^src-20260725-4c014458] |
 | **[[projects/PRJ-ARCELORMITTAL-VOLTERON|ArcelorMittal–John Cockerill Volteron]]** | 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 [^src-20260725-fbe26310] | **연간 생산능력** 2023년 발표한 산업 1단계 목표 40,000~80,000 t/y [^src-20260725-a6716adb] · **목표 가동 시점** 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 [^src-20260725-a6716adb] |
 
 ## 기술적 쟁점과 미공개 데이터
@@ -203,6 +219,29 @@ flowchart TB
 - 국내에서의 경제성은 전력가격뿐 아니라 산·알칼리 순환, 용수·폐수, 불순물 잔사 처리와 광석 물류에 민감합니다. 저가 재생전력 시간대 추종이 설비 이용률 저하를 상쇄하는지 시간대별 운전모델로 확인해야 합니다.
 - 우선 모니터링 지표는 kWh/t-Fe, 전류효율, 셀 전압·전류밀도, 스택 가용률, 막·전극 수명, 산·알칼리·물 보충량, 광종별 철 회수율, 제품 순도·수분·잔류염, 잔사량, 월간 생산량과 EAF 용해 성과입니다.
 
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 500 t/y급 시설에서 월간 생산량, stack uptime, 전류효율, kWh/t-Fe, 제품 순도와 고객 EAF qualification을 함께 공개
+- 막·전극 수명, 산·알칼리·공정수 회수, 실광석 철 회수율·불순물 분배를 4시간 시험이 아닌 장기 캠페인으로 검증
+- Electra·Volteron·Fortescue가 pilot 목표를 commissioning·반복 생산·후속 상용 모듈 FID로 전환
+
+### 지연·실패 신호
+
+- 명목 용량·구매의향·TRL 목표만 갱신되고 실제 월별 생산·전력·소모품 데이터와 납품 품질 결과가 없음
+- 고순도 시약 또는 정제원료 결과를 저품위 실광석 성능으로 일반화하거나 전류효율 최고값을 시스템 에너지로 환산
+
+### POSCO 판단 질문
+
+- 수계 전해를 벌크 철 대체와 고순도 철 premium 시장 중 어디에 먼저 적용할 것인가?
+- 광석 전처리·침출·막·전착 회수·폐액 중 POSCO가 직접 확보할 병목 IP는 무엇인가?
+- MOE·수소 DRI 대비 전력·물·시약·원료 품위의 crossover를 어떤 자체 bench/pilot 시험으로 확인할 것인가?
+
 ## 출처
 
 - [[sources/SRC-20260725-133D1C12|ROSIE Project Descriptions: Electra Low-Temperature Green Ironmaking]] — U.S. Department of Energy ARPA-E, 게시일 미상 · [원문](https://arpa-e.energy.gov/sites/default/files/2025-04/ARPA-E%20Project%20Descriptions_ROSIE_R25.1.pdf)
@@ -215,6 +254,9 @@ flowchart TB
 - [[sources/SRC-20260726-7BCEED6F|ΣIDERWIN—A New Route for Iron Production]] — Materials Proceedings / MDPI, 2021-09-05 · [원문](https://doi.org/10.3390/materproc2021005058)
 - [[sources/SRC-20260726-9F56DB69|Volteron — Scalable Electrochemical Ironmaking for Green Steel Production]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/b2126be4-4ee8-47eb-a536-56cacf43d492/Scalable-Electrochemical-Ironmaking-or-Green-Steel-Production.pdf)
 - [[sources/SRC-20260726-B9ACCB8F|Low-Temperature Electrowinning of Iron from Mixed Hematite-Magnetite Alkaline Suspensions]] — Journal of The Electrochemical Society, 2023-05-01 · [원문](https://doi.org/10.1149/1945-7111/acd085)
+- [[sources/SRC-20260727-3D412017|Low Temperature Direct Electrochemical Reduction for Zero Emissions Iron Project - Core Research Final Report]] — Fortescue, Deakin University, Curtin University / ARENA, 2025-12-22 · [원문](https://arena.gov.au/assets/2026/01/Fortescue-Low-Temp-Direct-Electrochemical-Reduction-for-Zero-Emissions-Iron-Core-Research-Final-Report.pdf)
+- [[sources/SRC-20260727-44DC8B30|Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes]] — Electra / GlobeNewswire, 2025-10-21 · [원문](https://www.globenewswire.com/news-release/2025/10/21/3170489/0/en/Electra-Unveils-Demonstration-Facility-along-with-Advanced-Purchase-Commitments-for-Clean-Iron-and-Environmental-Attributes.html)
+- [[sources/SRC-20260727-71A7FA21|Low temperature electrolysis of iron ore in an aqueous alkaline solution - Volteron]] — European Commission Joint Research Centre / INCITE, 게시일 미상 · [원문](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/low-temperature-electrolysis-iron-ore-aqueous-alkaline-solution-volterontm)
 
 [^src-20260725-133d1c12]: **ROSIE Project Descriptions: Electra Low-Temperature Green Ironmaking** — U.S. Department of Energy ARPA-E, 게시일 미상. [원문](https://arpa-e.energy.gov/sites/default/files/2025-04/ARPA-E%20Project%20Descriptions_ROSIE_R25.1.pdf) · [[sources/SRC-20260725-133D1C12|보관 원문·메타데이터]]
 [^src-20260725-3d62f9a6]: **Electra Launches Pilot Plant to Advance Commercialization of Sustainable Clean Iron Production** — Electra / Business Wire, 2024-03-27. [원문](https://www.businesswire.com/news/home/20240327121089/en/Electra-Launches-Pilot-Plant-to-Advance-Commercialization-of-Sustainable-Clean-Iron-Production) · [[sources/SRC-20260725-3D62F9A6|보관 원문·메타데이터]]
@@ -226,3 +268,5 @@ flowchart TB
 [^src-20260726-7bceed6f]: **ΣIDERWIN—A New Route for Iron Production** — Materials Proceedings / MDPI, 2021-09-05. DOI: [10.3390/materproc2021005058](https://doi.org/10.3390/materproc2021005058). [원문](https://doi.org/10.3390/materproc2021005058) · [[sources/SRC-20260726-7BCEED6F|보관 원문·메타데이터]]
 [^src-20260726-9f56db69]: **Volteron — Scalable Electrochemical Ironmaking for Green Steel Production** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/b2126be4-4ee8-47eb-a536-56cacf43d492/Scalable-Electrochemical-Ironmaking-or-Green-Steel-Production.pdf) · [[sources/SRC-20260726-9F56DB69|보관 원문·메타데이터]]
 [^src-20260726-b9accb8f]: **Low-Temperature Electrowinning of Iron from Mixed Hematite-Magnetite Alkaline Suspensions** — Journal of The Electrochemical Society, 2023-05-01. DOI: [10.1149/1945-7111/acd085](https://doi.org/10.1149/1945-7111/acd085). [원문](https://doi.org/10.1149/1945-7111/acd085) · [[sources/SRC-20260726-B9ACCB8F|보관 원문·메타데이터]]
+[^src-20260727-3d412017]: **Low Temperature Direct Electrochemical Reduction for Zero Emissions Iron Project - Core Research Final Report** — Fortescue, Deakin University, Curtin University / ARENA, 2025-12-22. [원문](https://arena.gov.au/assets/2026/01/Fortescue-Low-Temp-Direct-Electrochemical-Reduction-for-Zero-Emissions-Iron-Core-Research-Final-Report.pdf) · [[sources/SRC-20260727-3D412017|보관 원문·메타데이터]]
+[^src-20260727-44dc8b30]: **Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes** — Electra / GlobeNewswire, 2025-10-21. [원문](https://www.globenewswire.com/news-release/2025/10/21/3170489/0/en/Electra-Unveils-Demonstration-Facility-along-with-Advanced-Purchase-Commitments-for-Clean-Iron-and-Environmental-Attributes.html) · [[sources/SRC-20260727-44DC8B30|보관 원문·메타데이터]]

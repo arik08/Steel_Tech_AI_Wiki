@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F7FD645DDD09",
+  "subject_id": "PRJ-METSO-PORI-DRI-SMELTING-PILOT",
+  "predicate": "location",
+  "value": "Pori, Finland",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-9F7FF95C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "공급사 공식 시설 설명",
+      "source_ids": [
+        "SRC-20260727-9F7FF95C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-750CC3577368",
+  "subject_id": "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT",
+  "predicate": "trial_duration_target",
+  "value": "Gent에서 1–2년 운전해 full-scale 적용 가능성을 시험하는 목표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-7863B18F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "회사 목표이며 완료 실적이 아님",
+      "source_ids": [
+        "SRC-20260727-7863B18F"
+      ]
+    }
+  ]
+}

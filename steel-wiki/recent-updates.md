@@ -6,13 +6,14 @@
 
 !!! info "마지막 성공 조사"
 
-    **2026-07-26 01:02** 기준 · 최근 성공 조사 **10건** 기록
+    **2026-07-27 20:59** 기준 · 최근 성공 조사 **11건** 기록
 
 ## 최근 조사 실행
 
 | 완료 시각 | 조사 범위 | 반영 결과 |
 |---|---|---|
-| 2026-07-26 01:02 | 11개 감시 기술의 논문·학회 근거 커버리지 감사, 기존 학술 메타데이터 보강 및 공식 원문 기반 공백 보완 | 신규 Source 14 · 신규 Claim 26 · 검토 대기 0 · 접근 실패 1 |
+| 2026-07-27 20:59 | POSCO홀딩스 미래기술연구원 박사급 검토를 위한 미래철강 기술 원리·실증현황·전략 센싱·이미지 근거 고도화 | 신규 Source 22 · 신규 Claim 133 · 검토 대기 4 |
+| 2026-07-26 00:48 | 11개 감시 기술의 논문·학회 근거 커버리지 감사, 기존 학술 메타데이터 보강 및 공식 원문 기반 공백 보완 | 신규 Source 14 · 신규 Claim 26 · 검토 대기 0 · 접근 실패 1 |
 | 2026-07-25 23:42 | POSCO·HyREX 대표 이미지의 공정 형상 오류를 공식 POSCO 공정도로 교정 | 신규 Source 1 · 신규 Claim 2 |
 | 2026-07-25 23:18 | 다른 기술·프로젝트의 설비 사진이 대표 이미지와 갤러리에 반복 승격되는 문제 수정 | Source 3 · Claim 0 |
 | 2026-07-25 22:45 | 골격 수준 프로젝트, 회사별 누락 프로젝트, 단일 출처 핵심 프로젝트와 기술-프로젝트 연결 보강 | 신규 Source 10 · 신규 Claim 84 · 검토 대기 0 · 접근 실패 1 |
@@ -32,51 +33,51 @@
 | 2027-12-31 | [[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]] | 목표 시운전 시점 | 신규 등록 | 2027년 시운전 개시 목표 · 현재 유효 | [[sources/SRC-20260725-8D0BD4B8|근거 보기]] |
 | 2027-12-31 | [[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]] | 수소망 연결 목표 | 신규 등록 | 2027년 지역 수소망 연결 계획 · 현재 유효 | [[sources/SRC-20260725-8D0BD4B8|근거 보기]] |
 | 2026-12-31 | [[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]] | 기존 시운전 목표 | 신규 등록 | 2026년 준산업 1 t/h 파일럿 시운전 예정이었으나 2025년 건설 중단으로 현재 유효하지 않음 · 과거 계획 기록 | [[sources/SRC-20260725-C925BF86|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]] | 학술 검증 원료 범위 | 신규 등록 | 2023 AIST 발표는 agricultural·aquatic·forestry residue biomass 시험과 Pilbara fines 적용을 회사 연구 범위로 공개 · 현재 유효 | [[sources/SRC-20260726-7A19874F|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]] | 학회 공개 공정 구성 | 신규 등록 | 2023 AIST 발표 공정: 미분광·flux·raw biomass green briquette → 600°C 초과 예열·사전환원 → microwave metallisation → electric melter gangue 제거 · 현재 유효 | [[sources/SRC-20260726-7A19874F|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | 학술 검증 원료 범위 | 신규 등록 | 2023 학술 연구에서 혼합 hematite-magnetite 알칼리 현탁액의 저온 전해채취를 연구 규모로 검증 · 현재 유효 | [[sources/SRC-20260726-B9ACCB8F|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | 학술 실험 조건 | 신규 등록 | 2015 전도성 콜로이드 전극 실험: 45 wt% NaOH, 110 °C, 1.7 V, 5시간 전해 · 현재 유효 | [[sources/SRC-20260726-3F53AC8C|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-low-temperature-aqueous-iron-electrolysis|저온 수계 전해제철 (Aqueous Iron Electrolysis)]] | 학술 검토 기술 범위 | 신규 등록 | RawMat 2021 학회 논문은 SIDERWIN의 저온 알칼리 철 전해채취 경로와 bauxite residue 적용 연구를 공개 · 현재 유효 | [[sources/SRC-20260726-7BCEED6F|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | 지역별 경로 의존성 | 신규 등록 | 2025 종설은 스크랩·광석 품질, 저탄소 전력·수소, 물류·정책의 지역차 때문에 단일 보편 경로가 없다고 평가 · 현재 유효 | [[sources/SRC-20260726-6AADACF1|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | 경로 공통 제약 | 신규 등록 | 학술 종설이 공통 제약으로 저탄소 전력·수소 공급, 광석 품위, 스크랩 Cu 축적, 공정 열, 전해 셀 스케일업을 지적 · 현재 유효 | [[sources/SRC-20260726-10602BC9|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] | 학술 검토 기술 범위 | 신규 등록 | 2024 종설은 수소 직접환원·수소 플라즈마/용융·암모니아 환원·수계/용융산화물 전해·바이오카본 EAF를 저탄소 후보군으로 검토 · 현재 유효 | [[sources/SRC-20260726-10602BC9|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] | 스케일업 검토 방법 | 신규 등록 | AISTech 2025 논문은 산업 최종 요구조건을 소규모 시험 설계에 반복 반영하는 scenario-based requirements engineering을 제안 · 현재 유효 | [[sources/SRC-20260726-443630DE|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] | 공개 스케일업 근거 공백 | 신규 등록 | AISTech 2025 논문은 산업 규모 HPSR의 예비 techno-economic·commercial feasibility 공개 연구가 부족하다고 명시 · 현재 유효 | [[sources/SRC-20260726-443630DE|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] | 학회 저자 단계 평가 | 신규 등록 | AISTech 2025 논문 저자들은 HPSR을 TRL 5로 평가했으며 공식 프로젝트 인증과 구분 필요 · 현재 유효 | [[sources/SRC-20260726-443630DE|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] | EAF 연계 | 검토 후 공존 | Tenova의 AIST 2026 발표는 건설 중인 Ternium Pesquería 3단계를 DRI–EAF–LF–RH-OB 통합 라인으로 제시하고, 2.1 Mt/y DRI·1.5 Mt/y 스크랩·2.6 Mt/y 슬래브 구성을 보고했다. 수치는 공급사 보고이며 달성 생산량이 아니다. · 현재 유효 | [[sources/SRC-20260726-CEDF7736|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] | EAF 연계 | 공존 확인 | 0%C 수소 DRI를 EAF에서 녹일 때는 FeO 환원, 용강 교반, 슬래그 포밍과 화학에너지를 위해 별도 탄소·산소·불활성가스 또는 조업·설비 변경이 필요할 수 있다. · 현재 유효 | [[sources/SRC-20260725-45CF187D|근거 보기]] |
-| 2026-07-26 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | 원료 품위별 용융로 선택 | 신규 등록 | AISTech 2024 논문 초록은 고품위 DRI·낮은 slag량에는 EAF, 저품위 DRI·높은 gangue에는 별도 smelter가 필요하다고 구분 · 현재 유효 | [[sources/SRC-20260726-E01E47B8|근거 보기]] |
-| 2026-07-26 | [[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]] | 학회 발표 당시 파일럿 계획 | 신규 등록 | 2023-03-08 AIST 발표 당시 1 t/h 연속 파일럿 상세설계 진행 계획 · 과거 계획 기록 | [[sources/SRC-20260726-7A19874F|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 검증·검정·불확도 정량화 | 신규 등록 | 데이터, 모델과 트윈 결과에 대해 verification·validation·uncertainty quantification을 수행해 목적 적합성과 신뢰도를 입증 · 현재 유효 | [[sources/SRC-20260725-30A4249E|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 데이터·결정 추적성 | 신규 등록 | 공정 데이터와 제품·설비 이력을 연결해 이상 진단, 원인 추적과 품질 계보를 지원 · 현재 유효 | [[sources/SRC-20260725-28E5A30F|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 기술 정의 | 신규 등록 | 물리 제조공정의 실시간 데이터와 목적 적합한 모델을 지속 동기화해 상태를 추정·예측하고, 검증된 결과를 사람 또는 제어계의 의사결정에 연결하는 운영 체계 · 현재 유효 | [[sources/SRC-20260725-30A4249E|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 물리–가상 동기화 | 신규 등록 | 가상 모델은 물리 설비의 현재 상태와 지속 동기화되어야 하며, 단순 3D 화면이나 정적 시뮬레이션만으로 운전용 디지털 트윈이라 할 수 없음 · 현재 유효 | [[sources/SRC-20260725-30A4249E|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 센서·계측 계층 | 신규 등록 | 온도·압력·조성 등 공정 센서뿐 아니라 IoT 카메라·영상계측·운전 이벤트를 물리 상태 입력으로 사용 · 현재 유효 | [[sources/SRC-20260725-285480DE|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 다른 설비 확산 조건 | 신규 등록 | POSCO는 광양 2전로 기술을 포항과 인도네시아로 확대할 로드맵을 발표했으나, 계획은 해당 사업장 배치 완료의 증거가 아님 · 현재 유효 | [[sources/SRC-20260725-285480DE|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 공개 성과의 한계 | 신규 등록 | Tata 소결 사례는 기준기간, 절대 배출량, 적용 라인 수, 결과 지속기간, 통계 불확도와 제어 권한을 공개하지 않음 · 현재 유효 | [[sources/SRC-20260725-0CC8B82B|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 공개 정량 성과 | 신규 등록 | Tata Steel은 소결 디지털 트윈 적용으로 반송 미분을 줄이고 굴뚝 배출을 60% 줄였다고 회사 발표 · 현재 유효 | [[sources/SRC-20260725-0CC8B82B|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 작동 원리 | 신규 등록 | 센서 입력을 통계·기계학습 모델과 열화학·물리 모델에 결합해 공정 상태를 실시간 예측하고, 예측값에 근거한 최적 조작을 물리 공정에 되먹임 · 현재 유효 | [[sources/SRC-20260725-41586A75|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 성과 측정 지표 | 신규 등록 | 품질 안정, 수율·생산성, 코크스·에너지 사용, 온실가스, 설비가동률과 안전을 보되 기준기간·원료·설비 상태·수동 개입을 함께 보정해야 함 · 현재 유효 | [[sources/SRC-20260725-41586A75|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | OT 보안 경계 | 신규 등록 | DCS·PLC·SCADA 등 OT는 기밀성뿐 아니라 성능·가용성·신뢰성·안전을 동시에 보호해야 하며 네트워크 분리와 최소권한이 필요 · 현재 유효 | [[sources/SRC-20260725-017C8BAE|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 모델 계층 | 신규 등록 | 데이터 기반 통계·기계학습 모델과 열화학 물리 시뮬레이션을 함께 사용하는 하이브리드 모델 · 현재 유효 | [[sources/SRC-20260725-41586A75|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 모델 드리프트 관리 | 신규 등록 | 모델은 원료·설비·운전 조건이 바뀐 뒤에도 목적 적합성을 재검증하고 불확도를 갱신해야 하며, 과거 정확도를 현재 성능으로 자동 이월할 수 없음 · 현재 유효 | [[sources/SRC-20260725-30A4249E|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 실시간성·지연 | 신규 등록 | 소결 CPS는 센서 입력과 하이브리드 모델을 사용해 실시간 예측을 수행; 제어 적용에는 공정 시간상수보다 짧은 지연과 결측 대응이 필요 · 현재 유효 | [[sources/SRC-20260725-41586A75|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 상호운용성 | 신규 등록 | 서로 다른 설비·모델·데이터 시스템 간 정의와 인터페이스를 맞추는 참조 아키텍처·개방형 표준이 확산의 전제 · 현재 유효 | [[sources/SRC-20260725-30A4249E|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 사람 개입 구조 | 신규 등록 | AI의 실시간 계산과 사람의 경험·인지·책임을 함께 의사결정 고리에 두며, 사람의 최종 승인·감독·개입 지점을 설계 · 현재 유효 | [[sources/SRC-20260725-8BA7A1B3|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 안전정지·수동 전환 | 신규 등록 | AI·트윈 결과가 물리 제어에 연결될 때 인터록, 안전정지, 수동 전환, 변경 롤백과 사고 대응을 포함해야 함 · 현재 유효 | [[sources/SRC-20260725-017C8BAE|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 디지털 스레드 | 신규 등록 | 설계·생산·품질·정비 데이터를 수명주기 전체에서 연결해 모델 입력과 운전 결정의 계보를 추적 · 현재 유효 | [[sources/SRC-20260725-30A4249E|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 공개 개발 단계 | 신규 등록 | 고로·전로·소결의 실제 생산현장 적용이 확인되지만 회사·공정별 자동제어 권한과 정량 검증 수준은 서로 다름 · 현재 유효 | [[sources/SRC-20260725-41586A75|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 현장 배치 범위 | 신규 등록 | JFE는 전 고로 공정의 CPS 배치 완료를 발표했고 일본 내 7개 소결 생산설비로 CPS를 전개 중 · 현재 유효 | [[sources/SRC-20260725-41586A75|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 의사결정·제어 권한 | 신규 등록 | 예측·권고, 운전자 승인 뒤 실행, 허용범위 내 자율 폐루프는 서로 다른 권한 단계이며 공개 자료에서 명시적으로 구분해야 함 · 현재 유효 | [[sources/SRC-20260725-8BA7A1B3|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 데이터 문맥화 | 신규 등록 | 연속 제철 공정의 데이터를 공정·설비·품질 이력과 연결해 추적성, 진단과 운전 데이터 표준화를 지원 · 현재 유효 | [[sources/SRC-20260725-28E5A30F|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 폐루프 자동제어 | 신규 등록 | 광양 2전로 사례는 25개 수동 조작을 원터치 순서로 자동화했지만 운영자는 감시·관리 책임을 유지; 완전 무인 자율운전과 동일하지 않음 · 현재 유효 | [[sources/SRC-20260725-285480DE|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]] | 시스템 계층 | 신규 등록 | 물리 공간, 사이버 공간, 인간 공간을 연결하고 AI 계산과 사람의 인지·승인 역할을 명시하는 3영역 구조 · 현재 유효 | [[sources/SRC-20260725-8BA7A1B3|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 기술 정의 | 신규 등록 | 철광석의 산화철을 용융 산화물 전해질에 녹이고, 전자를 환원제로 사용해 음극에서 액체 철을 만들며 불활성 양극에서 산소를 발생시키는 직접 전해 제철 경로 · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 제품 형태 | 신규 등록 | 고순도 액체 철을 직접 생산한다. · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 운전 방식 | 신규 등록 | 연속 운전 중 액체 철을 반복 출선하며, 셀 안의 양극 수와 플랜트의 셀 수를 늘리는 모듈식 증설 구조다. · 현재 유효 | [[sources/SRC-20260725-CEDC4521|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 운전 온도 | 신규 등록 | Boston Metal의 고온 MOE Steel 경로는 약 1,600°C에서 운전한다. · 현재 유효 | [[sources/SRC-20260725-26EA1CBD|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 저온 학술 변형 온도 | 신규 등록 | 서울대의 B2O3-Na2O 저온 MOE 실험은 1173 K(900°C)에서 수행됐다. · 현재 유효 | [[sources/SRC-20260725-1486633E|근거 보기]] |
-| 2026-07-25 | [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]] | 필요 인프라 | 신규 등록 | UNIDO·Agora 시나리오는 MOE 조강 1톤당 12.4–14.8 GJ의 전력을 가정하며, 대규모 저탄소 전력 공급과 저장·계통 인프라가 필요할 수 있다. · 현재 유효 | [[sources/SRC-20260725-4E9EE842|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 이론적 최소 수소량 | 신규 등록 | hematite 기준 54 kg H2/t-iron 이론 최소치에 접근을 목표; 실측 원단위가 아님 · 현재 유효 | [[sources/SRC-20260727-C43117BC|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 기술 정의 | 신규 등록 | 간접 가열 수직 관형 반응기에서 미분 철광석을 중력 하강시키고, 하부에서 공급한 수소와 향류 접촉해 고체 DRI를 만드는 flash hydrogen reduction 공정 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 제안 scale-up 방식 | 신규 등록 | 단일 파일럿 관에서 full-scale 관과 병렬 다관 모듈로 확대하고 전후단 예열·열회수를 통합하는 경로를 제안 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 작동 원리 | 신규 등록 | 반응기 벽을 전기로 간접 가열해 환원열을 공급하고 수소는 주로 환원제로 사용하며, 배가스 수분 제거 뒤 미반응 수소 재순환을 제안 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 파일럿 벽온 범위 | 신규 등록 | 850–1050 °C 균일 벽온 조건 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 파일럿 반응기 구성 | 신규 등록 | 내경 0.2 m, 길이 18 m 수직관과 길이 방향 18개 독립 전기히터 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 파일럿 광석 투입률 | 신규 등록 | 60 kg/h semi-continuous ore feed · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 파일럿 금속화 결과 | 신규 등록 | 조사한 조건에서 최대 95% metallisation; 연속 실증플랜트 성능이 아닌 파일럿 조건부 최고값 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 핵심 scale-up 위험 | 신규 등록 | 입도·체류시간·수소 화학양론·열 및 물질전달, 고온 sticking, 미분 회수와 수소 recycle, DRI/HBI 후처리의 연속운전 검증 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] | 적용 원료 | 신규 등록 | 일반적으로 500 µm 미만 철광석 미분을 직접 투입하며 펠릿화 생략 가능성을 지향 · 현재 유효 | [[sources/SRC-20260727-824DD247|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | 기술 정의 | 신규 등록 | Cyclone Converter Furnace(CCF)와 HIsmelt계 Smelting Reduction Vessel(SRV)을 결합해 미분광을 예환원·용융한 뒤 슬래그층에서 석탄으로 최종 환원하는 용융환원 공정 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | scale-up 위험 | 신규 등록 | 후연소 혼합·체류시간, 산소 포트와 유량, 벽 열손실, 내화물 침식·부착물, 급랭·집진 및 조성변동을 파일럿 데이터로 검증해야 함 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | 내화물 검사 결과 | 신규 등록 | 2020 inspection에서 고온 oxygen-lance 인근 reflux chamber 내화물 평균 두께 32–38 mm, fresh 49.5 mm 대비 감소 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | 작동 원리 | 신규 등록 | CCF에 미분광과 산소를 주입하고 CO-H2 후연소열로 예환원·용융하며, 벽면 용융막이 SRV로 낙하해 주입 석탄과 반응해 용선을 생성 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | 생략 가능한 전처리 범위 | 신규 등록 | 미분광 직접 투입으로 소결 공정과 코크스 제조를 생략하는 경로; 펠릿 생략은 이 출처만으로 별도 확정하지 않음 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | 배가스 계통 구성 | 신규 등록 | reflux chamber 후연소, air quench, up leg/down leg, 필요 시 water quench, 후단 gas cooling·집진·탈황 · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] | IJmuiden 파일럿 명목규모 | 신규 등록 | 60,000 t-hot-metal/y nominal pilot scale · 현재 유효 | [[sources/SRC-20260727-C280FAED|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | Metso 공급사 설계 슬래그 FeO 주장 | 신규 등록 | less than 3%, supplier design claim · 현재 유효 | [[sources/SRC-20260727-9F7FF95C|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | Metso 공급사 설계 가동률 주장 | 신규 등록 | greater than 95%, supplier design claim · 현재 유효 | [[sources/SRC-20260727-9F7FF95C|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | Metso 상용 개념 전극 구성 | 신규 등록 | six electrodes in line · 현재 유효 | [[sources/SRC-20260727-9F7FF95C|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | Metso 상용 개념 설계전력 | 신규 등록 | 110 MW · 현재 유효 | [[sources/SRC-20260727-9F7FF95C|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | Metso 상용 개념 생산능력 | 신규 등록 | 1.2 Mt/y 초과 hot metal · 현재 유효 | [[sources/SRC-20260727-9F7FF95C|근거 보기]] |
+| 2026-07-27 | [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] | Metso 상용 개념 피상전력 | 신규 등록 | up to 115 MVA · 현재 유효 | [[sources/SRC-20260727-9F7FF95C|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-ZESTY-ROCKINGHAM-DEMO|Calix ZESTY Rockingham 3만 t/y 실증 계획]] | 검증 범위 | 신규 등록 | 다양한 광종·품위를 toll processing하고 HDRI/HBI를 복수 철강사의 BF-BOF 부분대체 및 ESF/EAF 경로에서 시험하는 목표 · 현재 유효 | [[sources/SRC-20260727-C43117BC|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-ZESTY-ROCKINGHAM-DEMO|Calix ZESTY Rockingham 3만 t/y 실증 계획]] | 기술 경로 | 신규 등록 | Calix ZESTY 기반 HDRI/HBI 실증 플랜트 · 현재 유효 | [[sources/SRC-20260727-C43117BC|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-ZESTY-ROCKINGHAM-DEMO|Calix ZESTY Rockingham 3만 t/y 실증 계획]] | 목표 준공 시점 | 신규 등록 | 2031-03-31 · 현재 유효 | [[sources/SRC-20260727-C43117BC|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-ZESTY-ROCKINGHAM-DEMO|Calix ZESTY Rockingham 3만 t/y 실증 계획]] | 프로젝트 상태 | 신규 등록 | 파일럿 시험 이후 30,000 t/y 플랜트의 건설·시운전·운전과 상용 Pre-FEED/FEED를 수행하는 프로젝트; 2026-03-30 공개자료에는 준공·가동 실적 없음 · 현재 유효 | [[sources/SRC-20260727-C43117BC|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-ZESTY-ROCKINGHAM-DEMO|Calix ZESTY Rockingham 3만 t/y 실증 계획]] | 프로젝트 착수 시점 | 신규 등록 | 2025-07-01 · 현재 유효 | [[sources/SRC-20260727-C43117BC|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-ZESTY-ROCKINGHAM-DEMO|Calix ZESTY Rockingham 3만 t/y 실증 계획]] | 연간 생산능력 | 신규 등록 | 30,000 t/y HDRI 설계목표 · 현재 유효 | [[sources/SRC-20260727-C43117BC|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]] | 단열 적용 상분리 결과 | 신규 등록 | 비교 시험에서 내부 단열이 slag-metal phase separation을 개선 · 현재 유효 | [[sources/SRC-20260727-9BC68665|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]] | 단열 적용 에너지 결과 | 신규 등록 | 비교 시험에서 내부 단열 적용 시 에너지 사용이 낮아짐; 상용 kWh/t로 환산할 수 없음 · 현재 유효 | [[sources/SRC-20260727-9BC68665|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]] | 논문 시험 출탕 방식 | 신규 등록 | 해당 5회 시험에는 melt tapping이 없었고 냉각 뒤 slag·metal 상을 기계적으로 회수 · 현재 유효 | [[sources/SRC-20260727-9BC68665|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]] | 논문 시험 종료 조건 | 신규 등록 | 약 90분 뒤 반응속도 비교를 위해 의도적으로 semi-reduced 상태에서 종료 · 현재 유효 | [[sources/SRC-20260727-9BC68665|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]] | 논문 보고 시험 횟수 | 신규 등록 | 5 trials · 현재 유효 | [[sources/SRC-20260727-9BC68665|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]] | 논문 시험 장입 방식 | 신규 등록 | batch charged · 현재 유효 | [[sources/SRC-20260727-9BC68665|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]] | 내화물 비교 결과 | 신규 등록 | phosphate-bonded magnesia lining이 비교한 magnesia-alumina spinel lining보다 마모가 적었음 · 현재 유효 | [[sources/SRC-20260727-9BC68665|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]] | 맥석 조성 영향 | 신규 등록 | 시험 광석의 gangue 조성이 환원거동에 유의한 영향을 줌 · 현재 유효 | [[sources/SRC-20260727-9BC68665|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 프로젝트 일정 상태 | 신규 등록 | 프로젝트 일정은 검토 중 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 자금 사용 목적 | 신규 등록 | Boden 통합 그린스틸 플랜트의 건설·시운전 완료를 위한 자금 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 자금조달 종결일 | 신규 등록 | 2026-06-24 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 종결 자금조달액 | 신규 등록 | EUR 1,400,000,000 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]] | 건설 활동 상태 | 신규 등록 | 자금조달 활동 중 수개월간 공사 활동이 더 느리게 진행됐다고 회사가 설명 · 현재 유효 | [[sources/SRC-20260727-56D0B35D|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]] | 제품 출하 이정표 | 신규 등록 | 에탄올 생산량이 바지선 운송을 지원할 수준에 도달해 LanzaTech가 첫 선적분 소유권을 인수; 정제 후 향료·생활용품 고객 판매 예정 · 현재 유효 | [[sources/SRC-20260727-96F6D922|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]] | 첫 바지선 출하 시점 | 신규 등록 | 2024-12 초, 정확한 일자는 미공개 · 현재 유효 | [[sources/SRC-20260727-96F6D922|근거 보기]] |
+| 2026-07-27 | [[projects/PRJ-PURESCRAP-EU-SCRAP-PURITY|EU PURESCRAP 스크랩 순도 검증]] | 검증 범위 | 신규 등록 | heavy cut scrap와 shredded scrap 두 처리사슬에 센서·AI 분석을 통합하고 R260 및 42CrMo4를 예시 강종으로 반산업·산업 규모 제강 검증 · 현재 유효 | [[sources/SRC-20260727-48351ABD|근거 보기]] |
 
 !!! note "표를 읽는 법"
 

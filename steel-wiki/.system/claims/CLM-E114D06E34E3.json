@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E114D06E34E3",
+  "subject_id": "TEC-hisarna-cyclone-smelting-reduction",
+  "predicate": "pretreatment_elimination_scope",
+  "value": "미분광 직접 투입으로 소결 공정과 코크스 제조를 생략하는 경로; 펠릿 생략은 이 출처만으로 별도 확정하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-C280FAED"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "논문이 명시한 coking and sintering elimination 범위에 한정",
+      "source_ids": [
+        "SRC-20260727-C280FAED"
+      ]
+    }
+  ]
+}

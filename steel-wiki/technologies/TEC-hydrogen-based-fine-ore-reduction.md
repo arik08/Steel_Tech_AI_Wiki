@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · **무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction) · 현재** · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · **무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction) · 현재** · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![철광석 미분 예열, 4단 유동층 수소 환원, cyclone 회수 미분, 수소 재순환, 고온 DRI 미분 밀폐 이송과 ESF 연결을 나타낸 AI 개념도](../assets/media/SRC-20260725-A23B5A64/MED-A3F73A83EE4F.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor))*
+*대표 이미지 — AI 재구성 — 철광석 미분을 예열해 4단 유동층에 순차 공급하고, 하부 H2-rich gas의 상향 흐름과 고체 하향 이동으로 환원한 뒤 고온 DRI 미분을 밀폐 이송해 ESF에 투입하는 대표 구성. 습윤 배가스의 cyclone/dust recovery, 수분 제거, 압축·재가열, 보충 수소 합류와 회수 미분 처리 경계를 분리했으며 실제 HYFOR·HyREX 설비의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · [원문 페이지](https://www.primetals.com/portfolio/ironmaking/hyfor))*
 
 !!! abstract "한눈에 보기"
 
@@ -46,7 +46,7 @@
 ‘무펠릿’은 모든 조립을 금지한다는 뜻이 아닙니다. Circored는 통상적인 DR 펠릿을 생략하지만 50 μm 이하 초미분을 바인더와 함께 미세 조립할 수 있습니다. 또한 HYFOR·HyREX의 다단 유동층과 Circored의 순환·기포 유동층은 반응기 구성과 운전창이 다르므로 동일 공정으로 합산하지 않습니다.
 
 - **근거 확인 기업:** 3개
-- **직접 연결 근거:** 11건
+- **직접 연결 근거:** 12건
 
 ## 작동 원리
 
@@ -152,6 +152,13 @@ flowchart TB
 
 ## 설비·공정 이미지
 
+![HYFOR 파일럿 플랜트 내부의 수직 유동층 반응기와 배관 설비](<https://dam.primetals.com/m/1a3d5f41e250f9d9/webimage-DSC_0099.png>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Primetals Technologies HYFOR 파일럿 플랜트의 실제 유동층 반응기 설비
+
+- 출처 [[sources/SRC-20260725-A23B5A64|SRC-20260725-A23B5A64]] · 권리 `link_only` · [원문 페이지](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor) · 작성·촬영 Primetals Technologies
+- 권리 메모: Primetals Technologies 공식 HYFOR 기술 페이지에서 원본 이미지와 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
+
 ![HYFOR 파일럿 플랜트 내부의 미분광 분배 장치와 배관](<https://dam.primetals.com/m/5cabf17404a68773/webimage-DSC_0098x.png>){ .steel-media-image .steel-media-compact }
 
 **실제 설비 사진.** Primetals Technologies HYFOR 파일럿 플랜트의 미분광 분배·공급 설비
@@ -225,6 +232,29 @@ flowchart TB
 - HYFOR·Circored는 외부 벤치마크로서 가치가 다릅니다. HYFOR는 다양한 정광의 다단 수소 유동층 파일럿 운전, Circored는 상업 크기 설계와 과거 HBI 실증 이력을 제공합니다. POSCO는 동일 정광 샘플을 기준으로 입도창·분진율·금속화율·수소이용률·고착 한계를 비교하는 공급사 중립 시험이 필요합니다.
 - 우선 모니터링 지표는 원료 광종·품위·입도분포, 건조·예열 에너지, 반응기별 온도·압력강하·가스속도, 수소 원단위와 재순환율, 금속화율 분포, 비산분·철 손실·재순환 횟수, 고착·비계획 정지, HDRI 온도, ESF 철 회수율·슬래그량, 전체 설비 가동률과 제품 톤당 전력·수소·배출량입니다.
 
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- HyREX의 실제 착공·EPC, 반응기별 장기 ΔP·고착·비산, 광종별 금속화 분포와 Fe 수율을 단계별 시험운전에서 공개
+- 50 kg/batch 시험로에서 300,000 t/y 통합실증으로 확대할 때 수소이용률, 분진 회수, 고온이송과 ESF 통합 가동률을 함께 검증
+- 2028 설비완공 목표와 2030 운전조건·기술성숙 목표를 구분해 실제 commissioning·ramp-up 이력으로 전환
+
+### 지연·실패 신호
+
+- 부지승인·목표 착공일을 건설 진척으로 표현하거나, 기계적 완공을 상용 운전기술 확보로 간주
+- 평균 금속화율만 공개하고 입도별 비산·응집, reactor train 편차, 수소·전력·철 질량수지가 없음
+
+### POSCO 판단 질문
+
+- 광종별 유동화·sticking 운전창과 ESF의 허용 FeO·맥석 창을 하나의 통합시험계획으로 어떻게 연결할 것인가?
+- HyREX 독자 확대와 ZESTY·HYFOR·샤프트 DRI benchmark를 어떤 공통 KPI로 비교할 것인가?
+- 착공·실증 지연 시 확보할 외부 DRI/HBI 또는 대체 환원 기술의 hedge는 무엇인가?
+
 ## 출처
 
 - [[sources/SRC-20260725-013F0FA1|HyREX Hydrogen Reduction Ironmaking]] — POSCO, 게시일 미상 · [원문](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/)
@@ -238,6 +268,7 @@ flowchart TB
 - [[sources/SRC-20260725-E316D68F|Construction begins on HYFOR and Smelter demonstration plant]] — Primetals Technologies, 2025-09-25 · [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf)
 - [[sources/SRC-20260725-FF076FE4|POSCO decarbonization strategies from CCUS to HyREX]] — POSCO Group Newsroom, 2025-10-29 · [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/)
 - [[sources/SRC-20260726-EADB3777|Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction]] — Association for Iron & Steel Technology, 2026-03-11 · [원문](https://www.aist.org/getmedia/36162fc5-d792-4bb2-bcb3-23c66d1e625e/Reduction-Behaviour-of-Iron-Ores-by-H2.pdf)
+- [[sources/SRC-20260727-A39F1D70|POSCO Climate Change - HyREX demonstration plan and current schedule]] — POSCO ESG, 게시일 미상 · [원문](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953)
 
 [^src-20260725-043634ea]: **A Review on Prevention of Sticking during Fluidized Bed Reduction of Fine Iron Ore** — The Iron and Steel Institute of Japan, 2020-01-15. DOI: [10.2355/isijinternational.isijint-2019-392](https://doi.org/10.2355/isijinternational.isijint-2019-392). [원문](https://www.jstage.jst.go.jp/article/isijinternational/60/1/60_ISIJINT-2019-392/_html/-char/en) · [[sources/SRC-20260725-043634EA|보관 원문·메타데이터]]
 [^src-20260725-6f7c35d8]: **Circored Fine Ore Direct Reduction** — Metso Outotec, 게시일 미상. [원문](https://www.metso.com/globalassets/pdfs-and-other-downloads/circored---fine-ore-direct-reduction.pdf?r=3) · [[sources/SRC-20260725-6F7C35D8|보관 원문·메타데이터]]

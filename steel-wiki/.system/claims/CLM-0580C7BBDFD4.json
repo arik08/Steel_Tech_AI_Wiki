@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0580C7BBDFD4",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "metso_conceptual_commercial_capacity_tpy",
+  "value": "1.2 Mt/y 초과 hot metal",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-9F7FF95C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "공급사 상용 개념설계이며 운전 실적이 아님",
+      "source_ids": [
+        "SRC-20260727-9F7FF95C"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 # POSCO 기술 현황
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-27** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 
 ![분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도](<https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
@@ -13,10 +13,10 @@
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 7개 / 감시 기술 11개 |
+    | **확인된 기술** | 7개 / 감시 기술 13개 |
     | **연결 프로젝트** | 4개 |
     | **실행 단계** | 연구·실증 3건 · 준공·가동 준비 1건 · 공식 현황 확인 1건 · 계획·투자 1건 · 가동·현장 적용 1건 |
-    | **직접 연결 근거** | 12건 |
+    | **직접 연결 근거** | 14건 |
 
 !!! warning "주의해서 볼 항목"
 
@@ -122,7 +122,7 @@
 
 | 프로젝트 | 현재 상태 | 핵심 일정·규모 |
 | --- | --- | --- |
-| **[[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] | **기술 경로** 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 [^src-20260725-d6930918] · **연간 생산능력** 연간 500톤 (500 tpy) [^src-20260725-4c014458] · **목표 가동 시점** 2026년 [^src-20260725-4c014458] |
+| **[[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] | **기술 경로** 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 [^src-20260725-d6930918] · **연간 생산능력** 연간 500톤 (500 tpy) [^src-20260725-4c014458][^src-20260727-44dc8b30] · **목표 가동 시점** 2026년 [^src-20260725-4c014458] |
 | **[[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]** | 2026-06-17 준공 후 저탄소강 생산 개시 [^src-20260725-b859ca04] | **기술 경로** 스크랩 전기로 + 고로 용선 혼합 합탕 + 스크랩 선별·성분 제어 [^src-20260725-b859ca04] · **위치** 대한민국 전라남도 광양제철소 [^src-20260725-b859ca04] · **연간 생산능력** 연간 2,500,000톤 [^src-20260725-b859ca04] · **목표 시운전 시점** 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
 | **[[projects/PRJ-POSCO-GWANGYANG-ONE-TOUCH-CONVERTER|POSCO 광양 2전로 원터치 자동화]]** | 광양제철소 제2전로에서 원터치 자동운전과 원격 기동·조업 시연이 확인된 생산현장 적용 사례 [^src-20260725-285480de] | **위치** 대한민국 광양제철소 제2전로 [^src-20260725-285480de] |
 | **[[projects/PRJ-POSCO-HYREX-DEMO|POSCO 포항 HyREX 통합 실증]]** | 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 [^src-20260725-b859ca04] | **기술 경로** FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] · **위치** POSCO 포항제철소 [^src-20260725-bab49577] · **연간 생산능력** 연 300,000 tonnes [^src-20260725-b859ca04] |
@@ -135,21 +135,27 @@
 
     | 항목 | 확인된 내용 |
     | --- | --- |
+    | **설비 부지 규모** | Jefferson County 130,000 ft² demonstration facility [^src-20260727-44dc8b30] |
+    | **수요사 품질인증 약정** | Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 [^src-20260727-44dc8b30] |
     | **프로젝트 상태** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] |
     | **목표 가동 시점** | 2026년 [^src-20260725-4c014458] |
+    | **상용화 목표** | 회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님 [^src-20260727-44dc8b30] |
     | **기술 경로** | 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 [^src-20260725-d6930918] |
     | **공개 성과의 한계** | 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음 [^src-20260725-4c014458] |
     | **설비 구성** | 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성 [^src-20260725-d6930918] |
     | **적용 원료** | 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명 [^src-20260725-d6930918] |
+    | **시운전 목표** | 회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님 [^src-20260727-44dc8b30] |
     | **후단 활용** | 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용 [^src-20260725-d6930918] |
     | **운전 온도** | 회사 기술 설명 기준 약 60°C 저온 운전 [^src-20260725-d6930918] |
+    | **실증 자금조달** | Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 [^src-20260727-44dc8b30] |
     | **제품 순도** | 회사 주장 기준 99% 초과 순도 철 [^src-20260725-d6930918] |
-    | **연간 생산능력** | 연간 500톤 (500 tpy) [^src-20260725-4c014458] |
+    | **연간 생산능력** | 연간 500톤 (500 tpy) [^src-20260725-4c014458][^src-20260727-44dc8b30] |
 
     **전체 공개 연혁**
 
     | 날짜 | 구분 | 확인된 사건 |
     | --- | --- | --- |
+    | 2025-10-21 | 발표·검증 | **설비 부지 규모**: Jefferson County 130,000 ft² demonstration facility · **수요사 품질인증 약정**: Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 · **상용화 목표**: 회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님 · **시운전 목표**: 회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님 · **실증 자금조달**: Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260727-44dc8b30] |
     | 2026 | 목표 일정 | **목표 가동 시점**: 2026년 [^src-20260725-4c014458] |
     | 2026-04-28 | 발표·검증 | **프로젝트 상태**: 2026년 가동 목표로 시범공장 건설 중 · **목표 가동 시점**: 2026년 · **공개 성과의 한계**: 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음 · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260725-4c014458] |
     | 2026-07-25 | 수집 확인 | **기술 경로**: 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 · **설비 구성**: 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성 · **적용 원료**: 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명 · **후단 활용**: 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용 · **운전 온도**: 회사 기술 설명 기준 약 60°C 저온 운전 · **제품 순도**: 회사 주장 기준 99% 초과 순도 철 [^src-20260725-d6930918] |
@@ -214,10 +220,16 @@
 
     | 항목 | 확인된 내용 |
     | --- | --- |
+    | **목표 착공 시점** | 2026-04 예정 [^src-20260727-a39f1d70] |
+    | **개발부지 면적** | 1,350,000 m² [^src-20260727-a39f1d70] |
+    | **실증설비 완공 목표** | 2028년 300,000 t/y 통합 실증설비 완공 목표 [^src-20260727-a39f1d70] |
     | **파일럿 첫 용선 생산** | 2024-04 [^src-20260725-a6759186] |
     | **통합 설비 구성** | 광석 건조기, 다단 유동층, 고온 DRI 이송, 전기용융로, 집진, 출선, 슬래그 조립 계통 [^src-20260725-bab49577] |
     | **연간 생산능력** | 연 300,000 tonnes [^src-20260725-b859ca04] |
+    | **유동환원 시험로 도입 연도** | 2023 [^src-20260727-a39f1d70] |
+    | **유동환원 시험로 회분 규모** | 50 kg/batch [^src-20260727-a39f1d70] |
     | **업무협약 시점** | 2022 [^src-20260725-bab49577] |
+    | **정부 최종 부지 승인** | 2026-03 [^src-20260727-a39f1d70] |
     | **공정 구성** | POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
     | **적용 원료** | 소결용 철광석 미분을 직접 유동층 환원에 사용 [^src-20260725-bab49577] |
     | **위치** | POSCO 포항제철소 [^src-20260725-bab49577] |
@@ -228,6 +240,7 @@
     | **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
     | **프로젝트 상태** | 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 [^src-20260725-b859ca04] |
     | **파일럿 생산량** | 1 t/h 전기용융 파일럿을 가동해 첫 용선을 생산 [^src-20260725-a6759186] |
+    | **단계별 시험운전 목표** | 2030년까지 단계별 시험운전 수행 계획 [^src-20260727-a39f1d70] |
     | **기술 경로** | FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] |
     | **부지 준비 확인 시점** | 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
 
@@ -242,10 +255,13 @@
     | 2024-09-19 | 공식 발표 | **공급사 발표 시점**: 2024-09-19 [^src-20260725-bab49577] |
     | 2024-09-19 | 발표·검증 | **통합 설비 구성**: 광석 건조기, 다단 유동층, 고온 DRI 이송, 전기용융로, 집진, 출선, 슬래그 조립 계통 · **업무협약 시점**: 2022 · **적용 원료**: 소결용 철광석 미분을 직접 유동층 환원에 사용 · **위치**: POSCO 포항제철소 · **협력계약 체결 시점**: 2024-07-22 · **공급사 발표 시점**: 2024-09-19 [^src-20260725-bab49577] |
     | 2025-10-29 | 발표·검증 | **기술 경로**: FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] |
+    | 2026-03 | 부지 승인 | **정부 최종 부지 승인**: 2026-03 [^src-20260727-a39f1d70] |
+    | 2026-04 | 목표 일정 | **목표 착공 시점**: 2026-04 예정 [^src-20260727-a39f1d70] |
     | 2026-06-22 | 발표·검증 | **연간 생산능력**: 연 300,000 tonnes · **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 · **프로젝트 상태**: 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 · **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
     | 2026-06-22 | 실행 현황 | **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
     | 2026-07-25 | 수집 확인 | **공정 구성**: POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
     | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
+    | 2026-07-27 | 수집 확인 | **목표 착공 시점**: 2026-04 예정 · **개발부지 면적**: 1,350,000 m² · **실증설비 완공 목표**: 2028년 300,000 t/y 통합 실증설비 완공 목표 · **유동환원 시험로 도입 연도**: 2023 · **유동환원 시험로 회분 규모**: 50 kg/batch · **정부 최종 부지 승인**: 2026-03 · **단계별 시험운전 목표**: 2030년까지 단계별 시험운전 수행 계획 [^src-20260727-a39f1d70] |
     | 2030 | 목표 일정 | **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] |
 
 ## AI 분석
@@ -287,6 +303,8 @@
 | [[sources/SRC-20260725-C888600A|Tenova for POSCO Gwangyang plant]] | Tenova · 2023-06-07 | [원문 보기](https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant) |
 | [[sources/SRC-20260725-D6930918|Electra Technology: How the low-temperature iron process works]] | Electra · 게시일 미상 | [원문 보기](https://www.electra.earth/our-technology/) |
 | [[sources/SRC-20260725-FF076FE4|POSCO decarbonization strategies from CCUS to HyREX]] | POSCO Group Newsroom · 2025-10-29 | [원문 보기](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) |
+| [[sources/SRC-20260727-44DC8B30|Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes]] | Electra / GlobeNewswire · 2025-10-21 | [원문 보기](https://www.globenewswire.com/news-release/2025/10/21/3170489/0/en/Electra-Unveils-Demonstration-Facility-along-with-Advanced-Purchase-Commitments-for-Clean-Iron-and-Environmental-Attributes.html) |
+| [[sources/SRC-20260727-A39F1D70|POSCO Climate Change - HyREX demonstration plan and current schedule]] | POSCO ESG · 게시일 미상 | [원문 보기](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953) |
 
 [^src-20260725-013f0fa1]: **HyREX Hydrogen Reduction Ironmaking** — POSCO, 게시일 미상. [원문](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/) · [[sources/SRC-20260725-013F0FA1|보관 원문·메타데이터]]
 [^src-20260725-1486633e]: **Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K** — Scientific Reports, 2026-07-07. DOI: [10.1038/s41598-026-58521-y](https://doi.org/10.1038/s41598-026-58521-y). [원문](https://www.nature.com/articles/s41598-026-58521-y) · [[sources/SRC-20260725-1486633E|보관 원문·메타데이터]]
@@ -300,3 +318,5 @@
 [^src-20260725-c888600a]: **Tenova for POSCO Gwangyang plant** — Tenova, 2023-06-07. [원문](https://tenova.com/newsroom/latest-tenova/tenova-posco-gwangyang-plant) · [[sources/SRC-20260725-C888600A|보관 원문·메타데이터]]
 [^src-20260725-d6930918]: **Electra Technology: How the low-temperature iron process works** — Electra, 게시일 미상. [원문](https://www.electra.earth/our-technology/) · [[sources/SRC-20260725-D6930918|보관 원문·메타데이터]]
 [^src-20260725-ff076fe4]: **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29. [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
+[^src-20260727-44dc8b30]: **Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes** — Electra / GlobeNewswire, 2025-10-21. [원문](https://www.globenewswire.com/news-release/2025/10/21/3170489/0/en/Electra-Unveils-Demonstration-Facility-along-with-Advanced-Purchase-Commitments-for-Clean-Iron-and-Environmental-Attributes.html) · [[sources/SRC-20260727-44DC8B30|보관 원문·메타데이터]]
+[^src-20260727-a39f1d70]: **POSCO Climate Change - HyREX demonstration plan and current schedule** — POSCO ESG, 게시일 미상. [원문](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953) · [[sources/SRC-20260727-A39F1D70|보관 원문·메타데이터]]

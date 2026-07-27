@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-74F96989CF08",
+  "subject_id": "TEC-zesty-hydrogen-flash-reduction",
+  "predicate": "technical_definition",
+  "value": "간접 가열 수직 관형 반응기에서 미분 철광석을 중력 하강시키고, 하부에서 공급한 수소와 향류 접촉해 고체 DRI를 만드는 flash hydrogen reduction 공정",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-824DD247"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "동료심사 논문이 파일럿 반응기 구성과 반응 경로를 직접 기술",
+      "source_ids": [
+        "SRC-20260727-824DD247"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-20260727-C43117BC",
+  "title": "Calix - ZESTY Green Iron Demonstration Plant",
+  "url": "https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant/",
+  "canonical_url": "https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant",
+  "publisher": "Australian Renewable Energy Agency",
+  "published_at": "2026-03-30",
+  "collected_at": "2026-07-27",
+  "source_type": "government",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "c43117bc95fc3f17e68f8905772f56b2e1b8842f10e936e4c9e1c900ec028626",
+  "raw_sha256": "cb460b14022985fcb2e65a33fae64914dbb0312b7b9ca0357992cc78b587d508",
+  "raw_path": ".system/raw/SRC-20260727-C43117BC.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-6786347D8BBA",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 전기가열 관형 반응기에서 철광석 미분을 수소로 단계 환원하고, 수분 제거 후 수소를 재순환하며 DRI 미분을 후단 조정·ESF/EAF 시험으로 보내는 ZESTY 연구 개념도. 회수 미분 처리와 후단 통합은 검증 과제로 표시했으며, 실제 30 kt/y 설비의 준공도나 P&ID가 아니다.",
+      "alt_text": "전기가열 관형 반응기, 철광석 미분, 수소 재순환, 수분 제거, DRI 미분 후단 시험을 나타낸 ZESTY AI 개념도",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://arena.gov.au/projects/calix-zesty-green-iron-demonstration-plant",
+      "rights_status": "ai_generated",
+      "rights_note": "ARENA ZESTY 프로젝트 설명과 Mokhtarani et al. 2025 파일럿 논문을 근거로 2026-07-27 생성한 기술 설명용 AI 재구성이다. 특정 설비의 as-built, 배관계장도 또는 성능 보증 자료가 아니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "6786347d8bba8b13d14fe7f9d2f734c2caf3fa208392c58db9de176a0e7a7cef",
+      "local_path": "assets/media/SRC-20260727-C43117BC/MED-6786347D8BBA.png",
+      "subject_ids": [
+        "TEC-zesty-hydrogen-flash-reduction"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200
+    }
+  ]
+}

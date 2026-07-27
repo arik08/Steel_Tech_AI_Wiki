@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-15525040AD84",
+  "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+  "predicate": "capacity_tpy",
+  "value": "약 1,000,000 t/y demonstration design target",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-FD3EBA92"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "Tata Steel이 약 1 MTPA 실증계획으로 표현; 달성 생산량 아님",
+      "source_ids": [
+        "SRC-20260727-FD3EBA92"
+      ]
+    }
+  ]
+}

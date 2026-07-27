@@ -2,7 +2,7 @@
 
 # voestalpine 기술 현황
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-27** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 
 ![중공 전극에서 아르곤·수소·미분광을 투입하고 플라즈마 아크로 환원·용융하는 HPSR 반응기 내부 구성도](<https://www.k1-met.com/fileadmin/_processed_/a/9/csm_220127_SuSteel_EN.jpg_9ed9be70f3.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
@@ -13,10 +13,10 @@
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 2개 / 감시 기술 11개 |
+    | **확인된 기술** | 2개 / 감시 기술 13개 |
     | **연결 프로젝트** | 4개 |
     | **실행 단계** | 건설·구축 1건 · 연구·실증 1건 |
-    | **직접 연결 근거** | 11건 |
+    | **직접 연결 근거** | 12건 |
 
 ## 기술 포트폴리오
 
@@ -151,9 +151,12 @@
     | **대표 설비 참고** | K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; 실제 배관계장도나 준공도는 아님 [^src-20260725-a0ac41d7] |
     | **프로젝트 착수 시점** | 2016-09-01 [^src-20260725-2fa1b498] |
     | **위치** | voestalpine Stahl Donawitz, Austria [^src-20260725-a0ac41d7] |
+    | **논문 시험 종료 조건** | 약 90분 뒤 반응속도 비교를 위해 의도적으로 semi-reduced 상태에서 종료 [^src-20260727-9bc68665] |
     | **총 프로젝트 규모** | EUR 6,770,925 [^src-20260725-34d63eea] |
     | **파일럿 운전 개시** | 2021 [^src-20260725-f2f9bb6e] |
+    | **내화물 비교 결과** | phosphate-bonded magnesia lining이 비교한 magnesia-alumina spinel lining보다 마모가 적었음 [^src-20260727-9bc68665] |
     | **참여 기관** | voestalpine Stahl, voestalpine Stahl Donawitz, K1-MET, Montanuniversitaet Leoben, Pirhofer Automation, WIVA P&G [^src-20260725-34d63eea] |
+    | **논문 시험 장입 방식** | batch charged [^src-20260727-9bc68665] |
     | **목표 기술성숙도** | TRL 7 시스템 프로토타입 운전환경 실증 목표 [^src-20260725-a0ac41d7] |
     | **현재 공식 종료 시점** | 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정 [^src-20260725-34d63eea] |
     | **파일럿 회분 투입량** | 2025 논문이 기술한 기존 실증 설비 광석 용량 200 kg/trial [^src-20260725-1f1ea152] |
@@ -162,13 +165,18 @@
     | **연속화 목표 처리량** | SuS-F 확대 목표 200 kg ore/h 완전 연속 운전 [^src-20260725-1f1ea152] |
     | **수증기 회수·재전해** | 배가스 수증기 응축수의 수전해 재이용 개념 개발 목표 [^src-20260725-a0ac41d7] |
     | **중간 후속단계 종료** | 2023-06 초기 후속 연구 종료 [^src-20260725-2fa1b498] |
+    | **맥석 조성 영향** | 시험 광석의 gangue 조성이 환원거동에 유의한 영향을 줌 [^src-20260727-9bc68665] |
     | **시험 원료 공급률** | 공개 2024 캠페인에서 미분광 100~200 g/min 연속 투입 [^src-20260725-ee8a09ef] |
+    | **논문 보고 시험 횟수** | 5 trials [^src-20260727-9bc68665] |
     | **공개 성과의 한계** | 시험설비 운전과 목표 처리량은 200 kg/h 장기 연속 생산·가동률·상용 경제성을 입증하지 않음 [^src-20260725-f2f9bb6e] |
+    | **단열 적용 상분리 결과** | 비교 시험에서 내부 단열이 slag-metal phase separation을 개선 [^src-20260727-9bc68665] |
     | **기존 목표 종료 시점** | 2025-09-30 K1-MET 페이지의 기존 SuS-F 종료 일정 [^src-20260725-a0ac41d7] |
     | **프로젝트 상태** | Donawitz SuSteel 시험설비에서 수소 플라즈마 단일단계 조강 생산 시험을 수행 중; 연속화·수소공급·가스회수 연구 단계 [^src-20260725-f2f9bb6e] |
+    | **단열 적용 에너지 결과** | 비교 시험에서 내부 단열 적용 시 에너지 사용이 낮아짐; 상용 kWh/t로 환산할 수 없음 [^src-20260727-9bc68665] |
     | **성과 측정 지표** | 2025/26 중점 연구는 수소 공급 확보와 가스 회수 개선 [^src-20260725-f2f9bb6e] |
     | **경제성 평가** | SuSteel 관련 2025/26 R&D 비용 EUR 0.86 million; 전년 EUR 0.89 million [^src-20260725-f2f9bb6e] |
     | **운전 방식** | 초기 배치에서 미분광 연속공급·저탄소강 반연속 출강으로 전환 목표 [^src-20260725-a0ac41d7] |
+    | **논문 시험 출탕 방식** | 해당 5회 시험에는 melt tapping이 없었고 냉각 뒤 slag·metal 상을 기계적으로 회수 [^src-20260727-9bc68665] |
     | **기술성숙도** | 2025 Processes 논문 저자 평가 TRL 5 [^src-20260725-1f1ea152] |
     | **배가스 현열·수소 회수** | 배가스 미반응 수소와 현열을 사전환원·예열에 재이용하는 확대안 [^src-20260725-1f1ea152] |
     | **단계 완료 시점** | 2020-02-29 최초 SuSteel 단계 종료 [^src-20260725-2fa1b498] |
@@ -190,6 +198,7 @@
     | 2026-07-25 | 수집 확인 | **대표 설비 참고**: K1-MET SuS-F 공식 HPSR 반응기 내부 구성도; 실제 배관계장도나 준공도는 아님 · **위치**: voestalpine Stahl Donawitz, Austria · **목표 기술성숙도**: TRL 7 시스템 프로토타입 운전환경 실증 목표 · **수증기 회수·재전해**: 배가스 수증기 응축수의 수전해 재이용 개념 개발 목표 · **기존 목표 종료 시점**: 2025-09-30 K1-MET 페이지의 기존 SuS-F 종료 일정 · **운전 방식**: 초기 배치에서 미분광 연속공급·저탄소강 반연속 출강으로 전환 목표 [^src-20260725-a0ac41d7] |
     | 2026-07-25 | 수집 확인 | **총 프로젝트 규모**: EUR 6,770,925 · **참여 기관**: voestalpine Stahl, voestalpine Stahl Donawitz, K1-MET, Montanuniversitaet Leoben, Pirhofer Automation, WIVA P&G · **현재 공식 종료 시점**: 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정 · **후속 프로젝트 착수**: 2022-10-01 SuS-F 착수 · **지원·조달 금액**: EUR 3,946,740 [^src-20260725-34d63eea] |
     | 2026-07-25 | 수집 확인 | **프로젝트 착수 시점**: 2016-09-01 · **용융욕·회분 용량**: 약 100 g 실험실 규모에서 약 90 kg 용융 파일럿으로 확대 · **중간 후속단계 종료**: 2023-06 초기 후속 연구 종료 · **단계 완료 시점**: 2020-02-29 최초 SuSteel 단계 종료 [^src-20260725-2fa1b498] |
+    | 2026-07-27 | 수집 확인 | **논문 시험 종료 조건**: 약 90분 뒤 반응속도 비교를 위해 의도적으로 semi-reduced 상태에서 종료 · **내화물 비교 결과**: phosphate-bonded magnesia lining이 비교한 magnesia-alumina spinel lining보다 마모가 적었음 · **논문 시험 장입 방식**: batch charged · **맥석 조성 영향**: 시험 광석의 gangue 조성이 환원거동에 유의한 영향을 줌 · **논문 보고 시험 횟수**: 5 trials · **단열 적용 상분리 결과**: 비교 시험에서 내부 단열이 slag-metal phase separation을 개선 · **단열 적용 에너지 결과**: 비교 시험에서 내부 단열 적용 시 에너지 사용이 낮아짐; 상용 kWh/t로 환산할 수 없음 · **논문 시험 출탕 방식**: 해당 5회 시험에는 melt tapping이 없었고 냉각 뒤 slag·metal 상을 기계적으로 회수 [^src-20260727-9bc68665] |
     | 2026-09-30 | 현재 공식 일정 | **현재 공식 종료 시점**: 2026-09-30 오스트리아 기후에너지기금 현재 공식 종료 일정 [^src-20260725-34d63eea] |
 
 ## AI 분석
@@ -215,6 +224,7 @@
 | [[sources/SRC-20260725-EE8A09EF|The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements]] | Steel Research International / Wiley · 2024-05-15 | [원문 보기](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/Pauna_et_al__2024__Optical_spectra_HPSR_StResInt.pdf) |
 | [[sources/SRC-20260725-F2F9BB6E|Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz]] | voestalpine AG · 2026-06-04 | [원문 보기](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) |
 | [[sources/SRC-20260725-FE22DEFE|voestalpine researches hydrogen plasma steelmaking in SuSteel]] | voestalpine · 2022-04-27 | [원문 보기](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/) |
+| [[sources/SRC-20260727-9BC68665|Advancing hydrogen plasma smelting reduction: Experimental insights from a pilot plant]] | Materiaux & Techniques / EDP Sciences · 게시일 미상 | [원문 보기](https://doi.org/10.1051/mattech/2025029) |
 
 [^src-20260725-1f1ea152]: **Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction** — Processes / MDPI, 2025-02-05. DOI: [10.3390/pr13020420](https://doi.org/10.3390/pr13020420). [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Adami_2025_-_Strategic_selection_of_a_pre-reduction_reactor_for_increased_hydrogen_utilization_in_hydrogen_plasma_smelting_reduction.pdf) · [[sources/SRC-20260725-1F1EA152|보관 원문·메타데이터]]
 [^src-20260725-2fa1b498]: **Project SuSteel: Sustainable steel production utilising hydrogen** — K1-MET GmbH, 게시일 미상. [원문](https://www.k1-met.com/en/non_comet/susteel) · [[sources/SRC-20260725-2FA1B498|보관 원문·메타데이터]]
@@ -227,3 +237,4 @@
 [^src-20260725-ee8a09ef]: **The Optical Spectra of Hydrogen Plasma Smelting Reduction of Iron Ore: Application and Requirements** — Steel Research International / Wiley, 2024-05-15. DOI: [10.1002/srin.202400028](https://doi.org/10.1002/srin.202400028). [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/Pauna_et_al__2024__Optical_spectra_HPSR_StResInt.pdf) · [[sources/SRC-20260725-EE8A09EF|보관 원문·메타데이터]]
 [^src-20260725-f2f9bb6e]: **Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz** — voestalpine AG, 2026-06-04. [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) · [[sources/SRC-20260725-F2F9BB6E|보관 원문·메타데이터]]
 [^src-20260725-fe22defe]: **voestalpine researches hydrogen plasma steelmaking in SuSteel** — voestalpine, 2022-04-27. [원문](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/) · [[sources/SRC-20260725-FE22DEFE|보관 원문·메타데이터]]
+[^src-20260727-9bc68665]: **Advancing hydrogen plasma smelting reduction: Experimental insights from a pilot plant** — Materiaux & Techniques / EDP Sciences, 게시일 미상. DOI: [10.1051/mattech/2025029](https://doi.org/10.1051/mattech/2025029). [원문](https://doi.org/10.1051/mattech/2025029) · [[sources/SRC-20260727-9BC68665|보관 원문·메타데이터]]

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BBA197094D27",
+  "subject_id": "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT",
+  "predicate": "capture_capacity_kgpd",
+  "value": "약 300 kg CO2/day, 1단계 공개 시험 처리율이며 장기간 평균 포집량이 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-7863B18F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "파일럿 공개 사양과 성능 한계를 분리",
+      "source_ids": [
+        "SRC-20260727-7863B18F"
+      ]
+    }
+  ]
+}

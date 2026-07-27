@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-4B60522AFFE5",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "final_government_site_approval_date",
+  "value": "2026-03",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-A39F1D70"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "POSCO가 보고한 정부 최종 승인 시점",
+      "source_ids": [
+        "SRC-20260727-A39F1D70"
+      ]
+    }
+  ]
+}

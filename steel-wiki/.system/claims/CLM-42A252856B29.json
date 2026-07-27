@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-42A252856B29",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "replacement_eu_funding_plan",
+  "value": "갱신 조건·일정에 맞춘 새 EU 지원 신청 준비 계획; 지원 확보 실적 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-91F88878"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "회사 계획과 실제 확보를 구분",
+      "source_ids": [
+        "SRC-20260727-91F88878"
+      ]
+    }
+  ]
+}

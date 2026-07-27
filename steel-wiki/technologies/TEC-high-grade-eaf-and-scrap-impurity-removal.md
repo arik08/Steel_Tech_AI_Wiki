@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![폐제품 파쇄부터 AI 선별기와 규격 스크랩 생산까지 보여주는 Sortera 공정도](<https://sortera.wpengine.com/wp-content/uploads/2020/09/Screen-Shot-2020-09-10-at-8.55.13-AM.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![고급강용 스크랩 센서 선별 배합 EAF 정련과 실험적 구리 제거 AI 개념도](../assets/media/SRC-20260725-4366E5B1/MED-5B57D82A5381.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Sortera의 자동차 금속 재활용용 AI 센서 선별 공정 개념도. 파쇄·혼합 스크랩을 AI 선별기에 통과시켜 규격별 원료로 나누는 범용 플랫폼 설명도이며, DOE 지원 철스크랩 열기계적 탈동 모듈의 준공도(as-built)는 아님 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-3DA8B9C7|SRC-20260725-3DA8B9C7]] · [원문 페이지](https://www.sorteratechnologies.com/technology))*
+*대표 이미지 — AI 재구성 — 폐스크랩 해체·센서 선별·강종별 bin·조성 기반 배합·EAF·정련 흐름과 실험적 탈동 분기를 구분한 개념도. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-4366E5B1|SRC-20260725-4366E5B1]] · [원문 페이지](https://link.springer.com/article/10.1007/s11663-019-01537-9))*
 
 !!! abstract "한눈에 보기"
 
@@ -44,7 +44,7 @@
 ‘불순물 제거’를 하나의 노내 처리로 보지 않습니다. 구리·주석은 통상적인 산화슬래그로 제거하기 어려워 해체·파쇄·선별·희석 또는 아직 개발 중인 탈동 공정이 핵심인 반면, 인은 산화·염기성 슬래그, 질소는 공기 차단·CO 기포·진공 등 서로 다른 제어창을 사용합니다.
 
 - **근거 확인 기업:** 3개
-- **직접 연결 근거:** 15건
+- **직접 연결 근거:** 17건
 
 ## 작동 원리
 
@@ -142,6 +142,14 @@ flowchart TB
 | **상용 규모 확대 조건** | 대형 EAF 확대에는 스크랩·DRI 용해시간, DRI 맥석·공극의 열전달 저하, 정련 교반, 생산성 및 제품별 불순물 제어를 함께 검증해야 함 [^src-20260725-9dccdb31] | 회사 IR |
 | **공개 성과의 한계** | DRI 미분 주입 파일럿은 성공하지 못했고 일부 전규모 데이터만 확보됐으므로 해당 주입법을 상용 검증된 탈질 해법으로 간주할 수 없음 [^src-20260725-9fbef9c2] | 정부·공공자료 |
 
+### 최신 실증·검증 정보
+
+기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **기존 선별 플랫폼** | Sortera는 자동차 금속 재활용에서 AI 센서 선별기로 원료 흐름을 고도화하고 오염물을 제거하는 기존 플랫폼을 공개했으나 철스크랩 열기계 탈동 모듈의 상용 실적과는 구분 [^src-20260725-3da8b9c7] | 설비 공급사 |
+
 
 ## 공개 개발 연혁
 
@@ -159,6 +167,7 @@ flowchart TB
 | 2026-03-09 | Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management [^src-20260726-def03677] |
 | 2026-06-22 | POSCO completes Gwangyang EAF and advances HyREX [^src-20260725-b859ca04] |
 | 2026-06-24 | Image-Segmentation-Guided Fragmentized Steel Scrap Tramp Material Characterization [^src-20260725-7ddd98e7] |
+| 2026-06-29 | PURESCRAP project status and sensor-station installation [^src-20260727-7defb3ce] |
 
 ## 설비·공정 이미지
 
@@ -168,6 +177,13 @@ flowchart TB
 
 - 출처 [[sources/SRC-20260725-38762376|SRC-20260725-38762376]] · 권리 `ai_generated` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · 작성·촬영 OpenAI image generation / Codex
 - 권리 메모: JFE 공식 투자 발표의 설비 범위를 바탕으로 생성했으며 실제 배치·공사진척·성능의 증거로 사용하지 않음
+
+![폐제품 파쇄부터 AI 선별기와 규격 스크랩 생산까지 보여주는 Sortera 공정도](<https://sortera.wpengine.com/wp-content/uploads/2020/09/Screen-Shot-2020-09-10-at-8.55.13-AM.png>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** Sortera의 자동차 금속 재활용용 AI 센서 선별 공정 개념도. 파쇄·혼합 스크랩을 AI 선별기에 통과시켜 규격별 원료로 나누는 범용 플랫폼 설명도이며, DOE 지원 철스크랩 열기계적 탈동 모듈의 준공도(as-built)는 아님
+
+- 출처 [[sources/SRC-20260725-3DA8B9C7|SRC-20260725-3DA8B9C7]] · 권리 `link_only` · [원문 페이지](https://www.sorteratechnologies.com/technology) · 작성·촬영 Sortera Technologies
+- 권리 메모: Sortera 공식 기술 페이지에서 원본과 맥락을 확인했습니다. 재사용 허가를 별도 확인하지 않아 원격 링크만 보존하며, 철스크랩 탈동 실증 설비의 실제 도면으로 해석하지 않습니다.
 
 ![전기로 하부를 투명하게 표현한 Consteerrer 전자기 교반 장치 내부 구성도](<https://tenova.com/sites/default/files/styles/original/public/images/paragraphs/2021/CONSTEERRER.jpg.webp>){ .steel-media-image .steel-media-detail }
 
@@ -217,6 +233,7 @@ flowchart TB
 | 프로젝트 | 현재 확인 상태 | 일정·규모 |
 | --- | --- | --- |
 | **[[projects/PRJ-SORTERA-SCRAP-DECOPPER|Sortera 스크랩 구리 제거 프로젝트]]** | 미국 DOE가 개발·실증 대상으로 선정한 프로젝트이며 준공·상업운전·성능 결과는 공개 출처에서 확인되지 않음 [^src-20260725-34ffe3b8] | - |
+| **[[projects/PRJ-PURESCRAP-EU-SCRAP-PURITY|EU PURESCRAP 스크랩 순도 검증]]** | 2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정 [^src-20260727-7defb3ce] | - |
 | **[[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]** | 2026-06-17 준공 후 저탄소강 생산 개시 [^src-20260725-b859ca04] | **연간 생산능력** 연간 2,500,000톤 [^src-20260725-b859ca04] · **목표 시운전 시점** 2025년 말 생산 진입 예정(2023년 공급사 계획; 실제 준공·생산은 2026-06-17 확인) [^src-20260725-c888600a] |
 | **[[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]** | 2025-04-10 투자·건설을 결정하고 정부 보조금 승인을 확보한 건설 준비 단계 [^src-20260725-38762376] | **연간 생산능력** 연간 약 2,000,000톤 조강 [^src-20260725-38762376] · **목표 가동 시점** 2028-04 시작 회계연도 1분기 생산 개시 목표 [^src-20260725-38762376] |
 
@@ -248,6 +265,29 @@ flowchart TB
 - Nippon Steel의 10 t/charge 시험 EAF와 Hirohata 사례는 대형 EAF용 탈인·탈질과 제품 믹스의 비교 기준입니다. POSCO도 최고품질 한 heat보다 월간 등급별 합격률, 재처리율, tap-to-tap, 전극·슬래그·진공 비용을 비교해야 합니다.
 - 우선 모니터링 지표는 입고·장입·용강 Cu/Sn/N/P/S, 선별 회수율과 철 손실, 희석용 DRI/HBI·용선 비율, 탭 질소, 슬래그 FeO·염기도·P 분배, 진공시간, 제품별 합격률·표면결함·다운그레이드율, 저급 스크랩 추가 사용량입니다.
 
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 실제 처리량 t/h, lot별 Cu·Sn·Ni·Cr 예측오차, 철 회수율과 질량수지를 공개
+- R260·42CrMo4 등 목표 강종을 산업 규모로 반복 생산하며 저품위 스크랩 투입 증가와 제품 합격률·수율을 함께 입증
+- PURESCRAP 종료일 충돌을 grant amendment·최종보고서로 해소하고 SSAB·VASD 제강 검증 결과를 공개
+
+### 지연·실패 신호
+
+- 센서 스테이션 설치나 AI 분류 정확도만 발표하고 bulk chemistry 오차·처리량·강종 합격률이 비공개
+- Cu 제거율을 철 손실·에너지·부산물과 분리하거나 DRI/HBI 희석 의존도를 스크랩 고도화 성능으로 계산
+
+### POSCO 판단 질문
+
+- 센서 결과를 장입 lot 배합·EAF·LF 분석까지 연결하는 digital thread를 어떤 데이터 표준으로 구축할 것인가?
+- 저품위 스크랩 확대의 원가 편익이 목표 강종 합격률·수율·철 손실까지 포함해 유지되는 경계는 어디인가?
+- PURESCRAP·Sortera 결과를 광양 대형 EAF의 원료 사양과 어떤 대조시험으로 검증할 것인가?
+
 ## 출처
 
 - [[sources/SRC-20260725-34FFE3B8|DOE selects steel scrap copper-removal and molten sulfide electrolysis projects]] — U.S. Department of Energy, 게시일 미상 · [원문](https://www.energy.gov/cmei/ito/ito-fy23-fy24-high-priority-selections)
@@ -265,9 +305,12 @@ flowchart TB
 - [[sources/SRC-20260725-DED07902|METI Green Steel for GX: Kurashiki EAF]] — Ministry of Economy, Trade and Industry, Japan, 2025-01-23 · [원문](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf)
 - [[sources/SRC-20260726-CEDF7736|Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/e89e02e8-f108-4e65-b52a-939bec855f83/Tomorrows-Steel-Mill-Today-Ternium.pdf)
 - [[sources/SRC-20260726-DEF03677|Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/e771fab2-8303-4f35-b945-bcac8028c804/Evolving-Scrapyard-Intergrating-New-Solutions-Advanced.pdf)
+- [[sources/SRC-20260727-48351ABD|PURESCRAP — CORDIS project fact sheet 101092168]] — European Commission CORDIS, 게시일 미상 · [원문](https://cordis.europa.eu/project/id/101092168)
+- [[sources/SRC-20260727-7DEFB3CE|PURESCRAP project status and sensor-station installation]] — PURESCRAP consortium, 2026-06-29 · [원문](https://purescrap.eu/)
 
 [^src-20260725-34ffe3b8]: **DOE selects steel scrap copper-removal and molten sulfide electrolysis projects** — U.S. Department of Energy, 게시일 미상. [원문](https://www.energy.gov/cmei/ito/ito-fy23-fy24-high-priority-selections) · [[sources/SRC-20260725-34FFE3B8|보관 원문·메타데이터]]
 [^src-20260725-38762376]: **JFE Steel to introduce advanced large-scale EAF at Kurashiki** — JFE Steel Corporation, 2025-04-10. [원문](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · [[sources/SRC-20260725-38762376|보관 원문·메타데이터]]
+[^src-20260725-3da8b9c7]: **Sortera Technologies AI sensor sorting platform** — Sortera Technologies, 게시일 미상. [원문](https://www.sorteratechnologies.com/technology) · [[sources/SRC-20260725-3DA8B9C7|보관 원문·메타데이터]]
 [^src-20260725-4366e5b1]: **Finding the Most Efficient Way to Remove Residual Copper from Steel Scrap** — Springer Nature / Metallurgical and Materials Transactions B, 2019-02-27. DOI: [10.1007/s11663-019-01537-9](https://doi.org/10.1007/s11663-019-01537-9). [원문](https://link.springer.com/article/10.1007/s11663-019-01537-9) · [[sources/SRC-20260725-4366E5B1|보관 원문·메타데이터]]
 [^src-20260725-7ddd98e7]: **Image-Segmentation-Guided Fragmentized Steel Scrap Tramp Material Characterization** — Springer Nature / Journal of Sustainable Metallurgy, 2026-06-24. DOI: [10.1007/s40831-026-01569-x](https://doi.org/10.1007/s40831-026-01569-x). [원문](https://link.springer.com/article/10.1007/s40831-026-01569-x) · [[sources/SRC-20260725-7DDD98E7|보관 원문·메타데이터]]
 [^src-20260725-9dccdb31]: **Nippon Steel Carbon Neutral Vision 2050** — Nippon Steel Corporation, 2021-03-30. [원문](https://www.nipponsteel.com/en/ir/library/pdf/20210330_ZC.pdf) · [[sources/SRC-20260725-9DCCDB31|보관 원문·메타데이터]]
@@ -280,3 +323,4 @@ flowchart TB
 [^src-20260725-ded07902]: **METI Green Steel for GX: Kurashiki EAF** — Ministry of Economy, Trade and Industry, Japan, 2025-01-23. [원문](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf) · [[sources/SRC-20260725-DED07902|보관 원문·메타데이터]]
 [^src-20260726-cedf7736]: **Tomorrow’s Steel Mill, Today: Ternium Pesquería Leads Sustainable Innovation** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/e89e02e8-f108-4e65-b52a-939bec855f83/Tomorrows-Steel-Mill-Today-Ternium.pdf) · [[sources/SRC-20260726-CEDF7736|보관 원문·메타데이터]]
 [^src-20260726-def03677]: **Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/e771fab2-8303-4f35-b945-bcac8028c804/Evolving-Scrapyard-Intergrating-New-Solutions-Advanced.pdf) · [[sources/SRC-20260726-DEF03677|보관 원문·메타데이터]]
+[^src-20260727-7defb3ce]: **PURESCRAP project status and sensor-station installation** — PURESCRAP consortium, 2026-06-29. [원문](https://purescrap.eu/) · [[sources/SRC-20260727-7DEFB3CE|보관 원문·메타데이터]]

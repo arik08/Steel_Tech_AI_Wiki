@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5C71240EA3CA",
+  "subject_id": "PRJ-PURESCRAP-EU-SCRAP-PURITY",
+  "predicate": "target_end_date",
+  "value": "2027-03-31",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-48351ABD"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "CORDIS 최신 공공 계약 DB 종료일",
+      "source_ids": [
+        "SRC-20260727-48351ABD"
+      ]
+    }
+  ]
+}

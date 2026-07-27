@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-99CC78B7C048",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "innovation_fund_support_withdrawn_eur",
+  "value": "EUR 113,000,000",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-91F88878"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "LKAB Q1 2026 보고가 확인한 지원 철회 금액",
+      "source_ids": [
+        "SRC-20260727-91F88878"
+      ]
+    }
+  ]
+}

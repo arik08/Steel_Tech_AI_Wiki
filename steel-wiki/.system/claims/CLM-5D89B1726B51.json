@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5D89B1726B51",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "commercialization_target",
+  "value": "회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2025-10-21",
+  "last_verified": "2025-10-21",
+  "source_ids": [
+    "SRC-20260727-44DC8B30"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-10-21",
+      "action": "created",
+      "reason": "Preserves target-versus-achievement distinction.",
+      "source_ids": [
+        "SRC-20260727-44DC8B30"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E78B99FE8E1A",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "fortescue_scale_up_target",
+  "value": "Stage 2 목표는 100 kg feed에서 magnetite 및/또는 metallic iron으로 50% 이상 전환하고 건설·시운전 후 TRL 6을 입증하는 것; 아직 달성 실적이 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-12-22",
+  "last_verified": "2025-12-22",
+  "source_ids": [
+    "SRC-20260727-3D412017"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-12-22",
+      "action": "created",
+      "reason": "Preserves the target-versus-achievement distinction in the final report.",
+      "source_ids": [
+        "SRC-20260727-3D412017"
+      ]
+    }
+  ]
+}

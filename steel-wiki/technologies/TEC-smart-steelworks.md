@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · **스마트 제철소 (Smart Steelworks) · 현재**
 
 
-![호퍼와 드럼, 소결대 내부, 센서 입력, 기계학습과 물리 시뮬레이션을 연결한 JFE 소결 CPS 도식](<https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-1.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![제철소 센서 데이터부터 디지털 트윈 최적화 운전자 승인 안전 인터록 actuator 수동 복구까지 이어지는 스마트 제철소 AI 아키텍처](../assets/media/SRC-20260725-41586A75/MED-9A1572EA2DFF.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — 소결기 내부 연소·열 상태를 센서, 기계학습, 물리 시뮬레이션으로 예측하고 최적 조작으로 되먹임하는 JFE 소결 CPS 구성도 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-41586A75|SRC-20260725-41586A75]] · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html))*
+*대표 이미지 — AI 재구성 — 센서·historian·물리+ML 디지털 트윈·최적화·운전자 검토·안전 인터록·승인 setpoint·actuator를 단일 제어 경로로 연결하고 수동모드·rollback을 분리한 스마트 제철소 참조 아키텍처. 전면 무인 운전이나 모든 설비의 자동 폐루프 적용을 뜻하지 않는다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-41586A75|SRC-20260725-41586A75]] · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html))*
 
 !!! abstract "한눈에 보기"
 
@@ -162,6 +162,13 @@ flowchart TB
 - 출처 [[sources/SRC-20260725-30A4249E|SRC-20260725-30A4249E]] · 권리 `link_only` · [원문 페이지](https://www.nist.gov/programs-projects/digital-twins-advanced-manufacturing) · 작성·촬영 National Institute of Standards and Technology
 - 권리 메모: NIST 공식 프로그램 페이지의 원본을 확인했습니다. 철강 전용 도면이 아닌 제조 디지털 트윈의 일반 예시이며 원격 링크로 표시합니다.
 
+![호퍼와 드럼, 소결대 내부, 센서 입력, 기계학습과 물리 시뮬레이션을 연결한 JFE 소결 CPS 도식](<https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-1.png>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** 소결기 내부 연소·열 상태를 센서, 기계학습, 물리 시뮬레이션으로 예측하고 최적 조작으로 되먹임하는 JFE 소결 CPS 구성도
+
+- 출처 [[sources/SRC-20260725-41586A75|SRC-20260725-41586A75]] · 권리 `link_only` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html) · 작성·촬영 JFE Steel Corporation
+- 권리 메모: JFE Steel 공식 발표의 Figure 1 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.
+
 ![물리 제철소와 사이버 모델, AI, 운전지침, 로봇 자동화를 양방향으로 연결한 JFE 지능형 제철소 구조도](<https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-2.png>){ .steel-media-image .steel-media-detail }
 
 **공정 개념도.** 제철소 센서·운전데이터에서 사이버 모델·AI로 올라가 운전지침과 로봇 자동화로 되돌아오는 JFE 지능형 제철소 CPS 전체 구조
@@ -240,6 +247,29 @@ flowchart TB
 - 광양 2전로의 25개 수동 조작 통합과 97% 예측 정확도는 구체적이지만, 정확도의 정의·오차분포·제품별 편차·수동 개입·인터록 작동 이력까지 있어야 장기 폐루프 성능을 판정할 수 있습니다. 포항·인도네시아 확대 계획은 실제 배치와 분리합니다.
 - JFE의 전 고로 CPS와 7개 소결설비 전개는 수평 확산의 비교 기준입니다. POSCO도 단일 대표 사례보다 설비별 배치율, 재사용 가능한 모델·데이터 표준, 현장별 재학습 비용과 정량 성과 공개 수준을 비교하는 편이 유용합니다.
 - 우선 모니터링 지표는 센서 결측률·지연, 모델 오차와 신뢰구간, 드리프트 경보, 권고 채택률, 자동제어 사용률, 수동 복귀·인터록 횟수, 품질·수율·에너지의 보정 후 효과, 가동률, 장애복구시간과 OT 보안 사고입니다.
+
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 권고·사람승인·제한 폐루프·완전자율을 구분하고 자동제어 적용시간, 수동개입·override·interlock 빈도를 공개
+- 동일 모델을 다른 노·라인·사업장에 이전해 품질·연료·수율의 기준선 대비 효과와 모델 드리프트를 반복 검증
+- 데이터 단절·센서 이상·모델 불확실성에서 안전계층과 rollback이 실제로 작동한 시험 기록을 확보
+
+### 지연·실패 신호
+
+- 97% 정확도처럼 표본·목표변수·기준선이 없는 단일 모델 지표만 반복
+- 대시보드·디지털 트윈 구축을 폐루프 운전으로 표현하면서 조작권한·수동개입률·OT 보안 경계는 미공개
+
+### POSCO 판단 질문
+
+- AI에 맡길 조작변수와 사람이 유지할 승인점을 안전·품질 책임별로 어디에 둘 것인가?
+- 정확도보다 override 원인·개입률·interlock·경제성과를 전사 공통 KPI로 수집할 수 있는가?
+- 물리모델과 ML 중 어느 계층을 안전 기준계로 두고 해외 제철소 이전 시 재검증 책임을 누가 갖는가?
 
 ## 출처
 

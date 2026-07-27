@@ -2,7 +2,7 @@
 
 # ArcelorMittal Ghent Steelanol
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **11건** · 직접 연결 근거 **2건**
+> 최근 검증 **2026-07-27** · 확인된 핵심 정보 **13건** · 직접 연결 근거 **3건**
 
 
 ![증류탑과 배관으로 구성된 ArcelorMittal Ghent Steelanol 설비](<https://europe.arcelormittal.com/repo/Europe/ArcelorMittal-announces-first-industrial-production-of-ethanol.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
@@ -24,9 +24,11 @@
 | **가동·시운전 확인 시점** | 2022-12-08 [^src-20260725-b6fb82e5] |
 | **배출 경계** | CO2 영구저장이 아니라 탄소를 에탄올에 전환하는 CCU이므로 제품 사용·대체재·추가 에너지까지 포함한 전과정 회계가 필요 [^src-20260725-b6fb82e5] |
 | **제품 단위 배출** | ArcelorMittal 주장 기준 full-capacity에서 Ghent 연간 배출 125,000톤 감축; 독립 전과정 검증값은 별도 확인 필요 [^src-20260725-b6fb82e5] |
+| **첫 바지선 출하 시점** | 2024-12 초, 정확한 일자는 미공개 [^src-20260727-96f6d922] |
 | **위치** | ArcelorMittal Ghent, Belgium [^src-20260725-b6fb82e5] |
 | **참여 기관** | ArcelorMittal, LanzaTech, Primetals Technologies, E4tech [^src-20260725-b6fb82e5] |
 | **연간 제품 생산능력** | 연 80 million litres advanced ethanol, full-capacity nameplate [^src-20260725-b6fb82e5] |
+| **제품 출하 이정표** | 에탄올 생산량이 바지선 운송을 지원할 수준에 도달해 LanzaTech가 첫 선적분 소유권을 인수; 정제 후 향료·생활용품 고객 판매 예정 [^src-20260727-96f6d922] |
 | **프로젝트 착수 시점** | 2015년부터 공정 개념·온실가스 효과 평가 협력 [^src-20260725-b6fb82e5] |
 
 ## 전체 확인 이력
@@ -39,11 +41,15 @@
 | 2022-12-08 | 발표·검증 | **참여 기관**: ArcelorMittal, LanzaTech, Primetals Technologies, E4tech · **기술 경로**: 제철 부생가스·폐바이오매스 가스 → 전처리 → LanzaTech 바이오촉매 발효 → advanced ethanol · **제품 단위 배출**: ArcelorMittal 주장 기준 full-capacity에서 Ghent 연간 배출 125,000톤 감축; 독립 전과정 검증값은 별도 확인 필요 · **프로젝트 상태**: 2022-12-08 CCU 플랜트 준공·개소가 확인됐으며, 고로계 탄소함유 부생가스를 바이오촉매로 에탄올화하는 산업 실증 설비 · **연간 제품 생산능력**: 연 80 million litres advanced ethanol, full-capacity nameplate · **프로젝트 착수 시점**: 2015년부터 공정 개념·온실가스 효과 평가 협력 · **가동·시운전 확인 시점**: 2022-12-08 · **위치**: ArcelorMittal Ghent, Belgium · **투자비**: EUR 200 million · **배출 경계**: CO2 영구저장이 아니라 탄소를 에탄올에 전환하는 CCU이므로 제품 사용·대체재·추가 에너지까지 포함한 전과정 회계가 필요 [^src-20260725-b6fb82e5] |
 | 2023-11-07 | 실행 일정 | **상업 가동 시점**: 2023-11-07 첫 산업 규모 에탄올 생산 [^src-20260725-624e124c] |
 | 2023-11-16 | 발표·검증 | **상업 가동 시점**: 2023-11-07 첫 산업 규모 에탄올 생산 [^src-20260725-624e124c] |
+| 2024-12 | 출하 이력 | **첫 바지선 출하 시점**: 2024-12 초, 정확한 일자는 미공개 [^src-20260727-96f6d922] |
+| 2024-12-11 | 발표·검증 | **제품 출하 이정표**: 에탄올 생산량이 바지선 운송을 지원할 수준에 도달해 LanzaTech가 첫 선적분 소유권을 인수; 정제 후 향료·생활용품 고객 판매 예정 · **첫 바지선 출하 시점**: 2024-12 초, 정확한 일자는 미공개 [^src-20260727-96f6d922] |
 
 ## 근거 자료
 
 - **ArcelorMittal announces first industrial production of ethanol at Steelanol** — ArcelorMittal Europe, 2023-11-16 · [원문 보기](https://europe.arcelormittal.com/newsandmedia/pressreleases/6227/Steelanol-first-industrial-scale-production) · [[sources/SRC-20260725-624E124C|보관 원문·메타데이터]]
 - **ArcelorMittal inaugurates Steelanol CCU project at Ghent** — ArcelorMittal, 2022-12-08 · [원문 보기](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-inaugurates-flagship-carbon-capture-and-utilisation-project-at-its-steel-plant-in-ghent-belgium) · [[sources/SRC-20260725-B6FB82E5|보관 원문·메타데이터]]
+- **ArcelorMittal and LanzaTech announce first Steelanol barge shipment** — ArcelorMittal and LanzaTech, 2024-12-11 · [원문 보기](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-and-lanzatech-announce-ethanol-production-milestone-and-shipment-of-first-barge-from-flagship-steelanol-facility-in-belgium) · [[sources/SRC-20260727-96F6D922|보관 원문·메타데이터]]
 
 [^src-20260725-624e124c]: **ArcelorMittal announces first industrial production of ethanol at Steelanol** — ArcelorMittal Europe, 2023-11-16. [원문](https://europe.arcelormittal.com/newsandmedia/pressreleases/6227/Steelanol-first-industrial-scale-production) · [[sources/SRC-20260725-624E124C|보관 원문·메타데이터]]
 [^src-20260725-b6fb82e5]: **ArcelorMittal inaugurates Steelanol CCU project at Ghent** — ArcelorMittal, 2022-12-08. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-inaugurates-flagship-carbon-capture-and-utilisation-project-at-its-steel-plant-in-ghent-belgium) · [[sources/SRC-20260725-B6FB82E5|보관 원문·메타데이터]]
+[^src-20260727-96f6d922]: **ArcelorMittal and LanzaTech announce first Steelanol barge shipment** — ArcelorMittal and LanzaTech, 2024-12-11. [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-and-lanzatech-announce-ethanol-production-milestone-and-shipment-of-first-barge-from-flagship-steelanol-facility-in-belgium) · [[sources/SRC-20260727-96F6D922|보관 원문·메타데이터]]

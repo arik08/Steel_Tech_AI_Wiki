@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-65A2248B2B97",
+  "subject_id": "PRJ-METSO-PORI-DRI-SMELTING-PILOT",
+  "predicate": "hearth_dimensions_m",
+  "value": "1.8 m × 2.8 m",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-9F7FF95C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "설치된 파일럿 설비 사양",
+      "source_ids": [
+        "SRC-20260727-9F7FF95C"
+      ]
+    }
+  ]
+}

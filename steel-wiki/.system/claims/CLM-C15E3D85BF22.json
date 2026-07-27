@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C15E3D85BF22",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "demonstration_financing",
+  "value": "Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-10-21",
+  "last_verified": "2025-10-21",
+  "source_ids": [
+    "SRC-20260727-44DC8B30"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-10-21",
+      "action": "created",
+      "reason": "Records disclosed project support while avoiding CAPEX conflation.",
+      "source_ids": [
+        "SRC-20260727-44DC8B30"
+      ]
+    }
+  ]
+}

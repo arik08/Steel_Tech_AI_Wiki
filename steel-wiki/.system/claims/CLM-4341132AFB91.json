@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-4341132AFB91",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "metso_supplier_design_availability",
+  "value": "greater than 95%, supplier design claim",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-9F7FF95C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "확인된 상업 가동률이 아닌 공급사 설계 주장",
+      "source_ids": [
+        "SRC-20260727-9F7FF95C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-68967B1CCBC6",
+  "subject_id": "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT",
+  "predicate": "feedgas_risk",
+  "value": "고로 정상부 가스의 변동하는 오염물 수준이 1단계 분리·포집의 명시된 기술 과제",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-7863B18F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "회사 발표가 직접 명시한 실증 과제",
+      "source_ids": [
+        "SRC-20260727-7863B18F"
+      ]
+    }
+  ]
+}

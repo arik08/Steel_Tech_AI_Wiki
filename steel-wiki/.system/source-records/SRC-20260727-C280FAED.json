@@ -1,0 +1,48 @@
+{
+  "source_id": "SRC-20260727-C280FAED",
+  "title": "Off-Gas System Scale-Up of HIsarna Iron-Making Process: A CFD-Based Approach",
+  "url": "https://link.springer.com/article/10.1007/s11663-022-02620-4",
+  "canonical_url": "https://link.springer.com/article/10.1007/s11663-022-02620-4",
+  "publisher": "Springer Nature",
+  "published_at": "2022-09-02",
+  "collected_at": "2026-07-27",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "c280faed2d0de75235ec711d91f776132583b7992cc339f68b8b403286b508e2",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Ashkan Hosseini",
+      "Johannes L. T. Hage",
+      "Yongxiang Yang"
+    ],
+    "venue": "Metallurgical and Materials Transactions B",
+    "doi": "10.1007/s11663-022-02620-4",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "0fac76aef4a6aaaa60468fedd0691266b6088d6b72d4ac0f2e56d7f80e4d2a94",
+  "raw_path": ".system/raw/SRC-20260727-C280FAED.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-7B7E8B0AD3B0",
+      "kind": "academic_figure",
+      "caption": "HIsarna IJmuiden 파일럿의 CCF·SRV·배가스 계통 개략도. 논문 Figure 1이며 Jamshedpur 실증설비 준공도가 아니다.",
+      "alt_text": "HIsarna 파일럿 CCF SRV 배가스 계통 학술 개략도",
+      "creator": "Hosseini et al.",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11663-022-02620-4/MediaObjects/11663_2022_2620_Fig1_HTML.png",
+      "origin_url": "https://link.springer.com/article/10.1007/s11663-022-02620-4/figures/1",
+      "rights_status": "link_only",
+      "rights_note": "Springer Nature 원문 서버 직접 표시. 로컬 복제하지 않았으며 재사용 조건은 원문 라이선스를 따른다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "TEC-hisarna-cyclone-smelting-reduction"
+      ],
+      "display_width": "detail"
+    }
+  ]
+}

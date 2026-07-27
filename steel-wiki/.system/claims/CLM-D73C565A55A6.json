@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D73C565A55A6",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "fortescue_key_bottlenecks",
+  "value": "수소발생 부반응, 실제 광석 불순물·물질전달, 미분 부착·fouling, 막 기계강도·전도도·비용, 전극 안정성이 핵심 scale-up 병목",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-12-22",
+  "last_verified": "2025-12-22",
+  "source_ids": [
+    "SRC-20260727-3D412017"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-12-22",
+      "action": "created",
+      "reason": "Synthesises limitations explicitly reported across the research work packages.",
+      "source_ids": [
+        "SRC-20260727-3D412017"
+      ]
+    }
+  ]
+}

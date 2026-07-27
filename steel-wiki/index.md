@@ -6,9 +6,9 @@
 
 !!! info "현재 감시 범위"
 
-    **11개 기업** · **11개 기술** · **138개 Source** · **726개 Claim**
+    **12개 기업** · **13개 기술** · **160개 Source** · **859개 Claim**
 
-    [[REVIEW|사람 검토 대기]] **0건** · 근거가 연결된 주체 **55개**
+    [[REVIEW|사람 검토 대기]] **4건** · 근거가 연결된 주체 **65개**
 
 ## 기술 포트폴리오 지도
 
@@ -18,12 +18,15 @@
 flowchart LR
   ore["철광석·미분광"] --> hdri["수소 DRI"]
   ore --> fine["무펠릿 미분광<br/>수소환원"]
+  ore --> zesty["ZESTY 수소<br/>플래시 환원"]
+  ore --> hisarna["HIsarna 사이클론<br/>용융환원"]
   ore --> aqueous["저온 수계<br/>전해제철"]
   ore --> moe["용융산화물<br/>전기분해"]
   ore --> plasma["수소 플라즈마<br/>제련"]
   ore --> bio["마이크로웨이브·<br/>바이오매스 제철"]
   hdri --> esf["전기용융로"]
   fine --> esf
+  zesty --> esf
   scrap["철스크랩"] --> clean["스크랩 불순물 제거"]
   clean --> eaf["고급강 EAF"]
   esf --> eaf
@@ -34,6 +37,7 @@ flowchart LR
   ccus --> low
   plasma --> low
   bio --> low
+  hisarna --> low
   smart["스마트 제철소"] -. "전 공정 최적화" .-> low
   classDef feed fill:#F5F6F7,stroke:#9BA2AD,color:#20242C
   classDef process fill:#EDF2FB,stroke:#3F66C9,color:#20242C
@@ -41,7 +45,7 @@ flowchart LR
   classDef enabler fill:#FFFFFF,stroke:#3F66C9,color:#3158B8,stroke-dasharray:5 3
   classDef outcome fill:#3F66C9,stroke:#3158B8,color:#FFFFFF
   class ore,scrap,bf feed
-  class hdri,fine,aqueous,moe,plasma,bio,esf,ccus process
+  class hdri,fine,zesty,hisarna,aqueous,moe,plasma,bio,esf,ccus process
   class clean,eaf circular
   class smart enabler
   class low outcome
@@ -66,6 +70,8 @@ flowchart LR
 | [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] | [[companies/COM-POSCO|건설·구축]] |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|건설·구축]] | [[companies/COM-Rio-Tinto|실증]] |  |
 | [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] |  |  |  |  |  |  |  |  |  | [[companies/COM-voestalpine|파일럿]] |  |  |
 | [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]] |  |  |  |  |  |  |  |  |  |  | [[companies/COM-Rio-Tinto|일부 프로젝트 중단]] |  |
+| [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] |  |  |  |  |  |  |  |  |  |  |  |  |
+| [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] |  |  |  |  |  |  |  |  |  |  |  |  |
 
 > **단계 흐름:** 연구 → 소규모 시험·파일럿 → 실증 → 건설·구축 → 준공·시운전 → 가동·적용 → 상용
 >
@@ -82,9 +88,9 @@ flowchart LR
 
 ## 감시 대상
 
-- **기업:** POSCO, ArcelorMittal, China Baowu Steel Group, Nippon Steel, JFE Steel, Tata Steel, thyssenkrupp Steel, SSAB, Nucor, voestalpine, Rio Tinto
-- **기술:** hydrogen direct reduced iron, electric smelting furnace, molten oxide electrolysis, blast furnace CCUS, low-carbon ironmaking, smart steelworks, low-temperature aqueous iron electrolysis, high-grade EAF and scrap impurity removal, hydrogen-based fine-ore reduction, hydrogen plasma smelting reduction, microwave biomass ironmaking
-- **프로젝트:** None
+- **기업:** POSCO, ArcelorMittal, China Baowu Steel Group, Nippon Steel, JFE Steel, Tata Steel, thyssenkrupp Steel, SSAB, Nucor, voestalpine, Rio Tinto, Calix Ltd
+- **기술:** hydrogen direct reduced iron, electric smelting furnace, molten oxide electrolysis, blast furnace CCUS, low-carbon ironmaking, smart steelworks, low-temperature aqueous iron electrolysis, high-grade EAF and scrap impurity removal, hydrogen-based fine-ore reduction, hydrogen plasma smelting reduction, microwave biomass ironmaking, zesty hydrogen flash reduction, hisarna cyclone smelting reduction
+- **프로젝트:** Calix ZESTY Rockingham Green Iron Demonstration Plant, Tata Steel HIsarna Jamshedpur Demonstration Plant, HYBRIT Gällivare Industrial Demonstration Plant, Stegra Boden Green Steel Plant, EU H2PlasmaRed, Metso Pori DRI Smelting Furnace Pilot, EU PURESCRAP, ArcelorMittal Gent MHI Carbon Capture and D-CRBN Pilot
 - **국가:** None
 
 ## 회사
@@ -107,6 +113,7 @@ flowchart LR
 - [[technologies/TEC-blast-furnace-ccus|고로 CCUS]]
 - [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]]
 - [[technologies/TEC-high-grade-eaf-and-scrap-impurity-removal|고급강 EAF·스크랩 불순물 제거]]
+- [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]]
 - [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]]
 - [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]]
 - [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]]
@@ -115,22 +122,28 @@ flowchart LR
 - [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 - [[technologies/TEC-molten-oxide-electrolysis|용융산화물 전기분해 (Molten Oxide Electrolysis)]]
 - [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
+- [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]]
 
 ## 프로젝트
 
 - [[projects/PRJ-ARCELORMITTAL-DUNKIRK-EAF|ArcelorMittal Dunkirk 대형 전기로]]
+- [[projects/PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT|ArcelorMittal Gent MHI CO2 포집·전환 파일럿]]
 - [[projects/PRJ-ARCELORMITTAL-VOLTERON|ArcelorMittal–John Cockerill Volteron]]
 - [[projects/PRJ-BAOWU-ZHANJIANG-H2-SHAFT-EAF|China Baowu Zhanjiang 수소 샤프트로–전기로 라인]]
 - [[projects/PRJ-BIOIRON-WA-RD|BioIron 연구개발 시설 (Western Australia)]]
 - [[projects/PRJ-BOSTON-METAL-MOE-WOBURN|Boston Metal Woburn MOE 산업 셀]]
 - [[projects/PRJ-CARBON2CHEM-DUISBURG|thyssenkrupp Duisburg Carbon2Chem]]
 - [[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]
+- [[projects/PRJ-H2PLASMARED-EU|EU H2PlasmaRed 통합 실증]]
+- [[projects/PRJ-HISARNA-JAMSHEDPUR-DEMO|Tata Steel Jamshedpur HIsarna 약 100만 t/y 실증 계획]]
 - [[projects/PRJ-HY4SMELT|HY4Smelt 실증 프로젝트]]
+- [[projects/PRJ-HYBRIT-GALLIVARE-DEMO|HYBRIT Gällivare 무화석 스펀지철 산업 실증]]
 - [[projects/PRJ-HYBRIT-LULEA-PILOT|HYBRIT 룰레오 수소 DRI 파일럿]]
 - [[projects/PRJ-HYFOR-DONAWITZ-PILOT|HYFOR Donawitz 수소환원 파일럿]]
 - [[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]
 - [[projects/PRJ-JFE-SINTER-CPS-ROLLOUT|JFE 일본 7개 소결설비 CPS 전개]]
 - [[projects/PRJ-LIGHTBOW-HPSR-CONTROL|LIGHTBOW HPSR 아크 제어 연구]]
+- [[projects/PRJ-METSO-PORI-DRI-SMELTING-PILOT|Metso Pori DRI 용융 파일럿]]
 - [[projects/PRJ-MOLTEN-SULFIDE-ELECTROLYSIS|용융 황화물 전해 프로젝트]]
 - [[projects/PRJ-NEOSMELT-KWINANA|NeoSmelt Kwinana DRI–ESF 파일럿]]
 - [[projects/PRJ-NIPPON-HASAKI-H2-DRI|Nippon Steel Hasaki 수소 DRI 시험로]]
@@ -141,15 +154,18 @@ flowchart LR
 - [[projects/PRJ-POSCO-GWANGYANG-EAF|POSCO 광양 250만 톤 전기로]]
 - [[projects/PRJ-POSCO-GWANGYANG-ONE-TOUCH-CONVERTER|POSCO 광양 2전로 원터치 자동화]]
 - [[projects/PRJ-POSCO-HYREX-DEMO|POSCO 포항 HyREX 통합 실증]]
+- [[projects/PRJ-PURESCRAP-EU-SCRAP-PURITY|EU PURESCRAP 스크랩 순도 검증]]
 - [[projects/PRJ-SORTERA-SCRAP-DECOPPER|Sortera 스크랩 구리 제거 프로젝트]]
 - [[projects/PRJ-SSAB-LULEA-ELECTRIC-MILL|SSAB Luleå 신규 전기제철소]]
 - [[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]]
+- [[projects/PRJ-STEGRA-BODEN|Stegra Boden 통합 그린스틸 프로젝트]]
 - [[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]]
 - [[projects/PRJ-TATA-IJMUIDEN-DRP-EAF|Tata Steel IJmuiden DRP–EAF 전환]]
 - [[projects/PRJ-TATA-JAMSHEDPUR-BF-CCU|Tata Jamshedpur 고로가스 CCU]]
 - [[projects/PRJ-TATA-JAMSHEDPUR-EASYMELT|Tata Jamshedpur EASyMelt 산업 실증]]
 - [[projects/PRJ-TK-H2STEEL-DUISBURG|thyssenkrupp Duisburg tkH2Steel]]
 - [[projects/PRJ-ULCOS-TGR-BF|ULCOS 상부가스 재순환 고로]]
+- [[projects/PRJ-ZESTY-ROCKINGHAM-DEMO|Calix ZESTY Rockingham 3만 t/y 실증 계획]]
 
 ## 기타 항목
 
@@ -162,11 +178,11 @@ flowchart LR
 - 2027-12-31 · PRJ-TK-H2STEEL-DUISBURG · `target_commissioning_date` · created
 - 2027-12-31 · PRJ-TK-H2STEEL-DUISBURG · `hydrogen_network_date` · created
 - 2026-12-31 · PRJ-BIOIRON-WA-RD · `original_commissioning_target` · created
-- 2026-07-26 · TEC-microwave-biomass-ironmaking · `ore_feed_scope` · created
-- 2026-07-26 · TEC-microwave-biomass-ironmaking · `conference_process_configuration` · created
-- 2026-07-26 · TEC-low-temperature-aqueous-iron-electrolysis · `ore_feed_scope` · created
-- 2026-07-26 · TEC-low-temperature-aqueous-iron-electrolysis · `laboratory_electrolysis_condition` · created
-- 2026-07-26 · TEC-low-temperature-aqueous-iron-electrolysis · `academic_route_scope` · created
+- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `theoretical_hydrogen_minimum` · created
+- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `technical_definition` · created
+- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `scale_up_method` · created
+- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `process_principle` · created
+- 2026-07-27 · TEC-zesty-hydrogen-flash-reduction · `pilot_wall_temperature_range` · created
 
 ## 출처
 
@@ -308,16 +324,38 @@ flowchart LR
 - [[sources/SRC-20260726-DEF03677|Evolving Scrapyard: Integrating New Solutions for Advanced Scrap Management]]
 - [[sources/SRC-20260726-E01E47B8|Smelter — Green Steelmaking Using Low-Grade DRI]]
 - [[sources/SRC-20260726-EADB3777|Reduction Behaviour of Iron Ores by H2 at Multi-Stage Reduction]]
+- [[sources/SRC-20260727-112971A7|LKAB granted environmental permit for operations in Gallivare]]
+- [[sources/SRC-20260727-275A6495|MHI and D-CRBN connect steelmaking CO2 capture and plasma conversion units]]
+- [[sources/SRC-20260727-3D412017|Low Temperature Direct Electrochemical Reduction for Zero Emissions Iron Project - Core Research Final Report]]
+- [[sources/SRC-20260727-44DC8B30|Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes]]
+- [[sources/SRC-20260727-48351ABD|PURESCRAP — CORDIS project fact sheet 101092168]]
+- [[sources/SRC-20260727-56D0B35D|Stegra announces closing of EUR 1.4 billion financing round]]
+- [[sources/SRC-20260727-71A7FA21|Low temperature electrolysis of iron ore in an aqueous alkaline solution - Volteron]]
+- [[sources/SRC-20260727-7863B18F|Carbon capture pilot begins operation at ArcelorMittal Gent]]
+- [[sources/SRC-20260727-786D57D4|Recent HIsarna operational developments at the IJmuiden pilot plant]]
+- [[sources/SRC-20260727-7DEFB3CE|PURESCRAP project status and sensor-station installation]]
+- [[sources/SRC-20260727-824DD247|New Insights Into Hydrogen Reduction of Hematite in an Indirectly Heated Flash Reactor from Measurements and First-Order Modeling]]
+- [[sources/SRC-20260727-91F88878|LKAB Interim Report First Quarter 2026]]
+- [[sources/SRC-20260727-96F6D922|ArcelorMittal and LanzaTech announce first Steelanol barge shipment]]
+- [[sources/SRC-20260727-9BC68665|Advancing hydrogen plasma smelting reduction: Experimental insights from a pilot plant]]
+- [[sources/SRC-20260727-9F7FF95C|DRI Smelting Furnace - pilot and commercial design details]]
+- [[sources/SRC-20260727-A33857DE|Crucial Environmental Permit Application Announced - Important Milestone for LKAB Development]]
+- [[sources/SRC-20260727-A39F1D70|POSCO Climate Change - HyREX demonstration plan and current schedule]]
+- [[sources/SRC-20260727-AAE02C9E|Tata Steel Annual Report 2011-12 — Principle 2: Sustainable Products and Processes]]
+- [[sources/SRC-20260727-C280FAED|Off-Gas System Scale-Up of HIsarna Iron-Making Process: A CFD-Based Approach]]
+- [[sources/SRC-20260727-C43117BC|Calix - ZESTY Green Iron Demonstration Plant]]
+- [[sources/SRC-20260727-F628E684|Hydrogen Plasma Reduction for Steelmaking and Circular Economy - H2PlasmaRed periodic report]]
+- [[sources/SRC-20260727-FD3EBA92|Tata Steel Board affirms the long-term strategy for growth in India]]
 
 ## 최근 동향 보고서
 
-- [2026년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2026-h1.md)
-- [2024년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2024-h1.md)
-- [2025년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2025-h2.md)
-- [2025년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2025-h1.md)
-- [2024년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2024-h2.md)
-- [2023년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2023-h2.md)
-- [2023년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2023-h1.md)
-- [2022년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2022-h2.md)
-- [2022년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2022-h1.md)
+- [2020년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2020-h1.md)
+- [2020년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2020-h2.md)
+- [2021년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2021-h1.md)
 - [2021년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2021-h2.md)
+- [2022년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2022-h1.md)
+- [2022년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2022-h2.md)
+- [2023년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2023-h1.md)
+- [2023년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2023-h2.md)
+- [2024년 상반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2024-h1.md)
+- [2024년 하반기 철강 신기술·프로젝트 동향](reports/briefs/brief-2024-h2.md)

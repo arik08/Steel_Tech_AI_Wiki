@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-45EF7EC80140",
+  "subject_id": "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT",
+  "predicate": "project_status",
+  "value": "2024-05-21 공개 기준 ArcelorMittal Gent 고로 정상부 가스에 연결한 MHI Advanced KM CDR Process 파일럿 운전 개시",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-7863B18F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "공급사·파트너 공동발표의 실제 운전 개시",
+      "source_ids": [
+        "SRC-20260727-7863B18F"
+      ]
+    }
+  ]
+}

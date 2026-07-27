@@ -13,10 +13,10 @@
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 1개 / 감시 기술 11개 |
-    | **연결 프로젝트** | 2개 |
+    | **확인된 기술** | 1개 / 감시 기술 13개 |
+    | **연결 프로젝트** | 3개 |
     | **실행 단계** | 공식 현황 확인 1건 |
-    | **직접 연결 근거** | 5건 |
+    | **직접 연결 근거** | 8건 |
 
 ## 기술 포트폴리오
 
@@ -44,10 +44,42 @@
 
 | 프로젝트 | 현재 상태 | 핵심 일정·규모 |
 | --- | --- | --- |
+| **[[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] | **기술 경로** 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 [^src-20260725-d6930918] · **연간 생산능력** 연간 500톤 (500 tpy) [^src-20260725-4c014458][^src-20260727-44dc8b30] · **목표 가동 시점** 2026년 [^src-20260725-4c014458] |
 | **[[projects/PRJ-NUCOR-CONVENT-DRI-CCS|Nucor Convent DRI–CCS]]** | Nucor와 ExxonMobil의 DRI 설비 CO2 포집·수송·저장 계약은 2025 Form 10-K에도 공시됐으나 실제 2026 시운전 완료는 확인되지 않음 [^src-20260725-bf5036ae] | **기술 경로** Convent 천연가스 DRI 설비 배출 CO2 포집 → ExxonMobil 수송 → Louisiana 내 ExxonMobil 저장시설 영구저장 계획 [^src-20260725-bf5036ae] · **위치** Nucor DRI plant, Convent, Louisiana, United States [^src-20260725-bf5036ae] · **연간 CO2 포집능력** 연간 최대 800,000 metric tonnes CO2 포집·수송·저장 계약 [^src-20260725-bf5036ae] · **목표 가동 시점** 2023년 발표 당시 2026년 가동 예상; 실제 개시일은 현재 등록 근거에서 미확인 [^src-20260725-bf5036ae] |
 | **[[projects/PRJ-NUCOR-GALLATIN-EAF-CCUS|Nucor Gallatin EAF 탄소포집 파일럿]]** | 기존 열통합 아민 포집 파일럿의 구축·시험 후, DOE 선정 과제로 수소생산 결합 polishing loop를 기존 포집장치에 통합 설계·건설·시험하는 연구개발 단계 [^src-20260725-fe353d3a][^src-20260725-6d04090a] | **기술 경로** EAF 저농도 배가스 → 기존 수계 아민 포집 → 수소생산 결합 이중 polishing loop → 용매 열화물·대기오염물질 측정 [^src-20260725-6d04090a] · **위치** Nucor Steel Gallatin, Ghent, Kentucky, United States [^src-20260725-fe353d3a] · **지원·조달 금액** DOE USD 3,000,000 + 비연방 USD 750,001 = 총 USD 3,750,001 [^src-20260725-6d04090a] |
 
 ## 프로젝트별 상세
+
+??? info "Electra 청정철 시범공장"
+
+    **프로젝트 문서:** [[projects/PRJ-ELECTRA-CLEAN-IRON-DEMO|Electra 청정철 시범공장]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **설비 부지 규모** | Jefferson County 130,000 ft² demonstration facility [^src-20260727-44dc8b30] |
+    | **수요사 품질인증 약정** | Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 [^src-20260727-44dc8b30] |
+    | **프로젝트 상태** | 2026년 가동 목표로 시범공장 건설 중 [^src-20260725-4c014458] |
+    | **목표 가동 시점** | 2026년 [^src-20260725-4c014458] |
+    | **상용화 목표** | 회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님 [^src-20260727-44dc8b30] |
+    | **기술 경로** | 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 [^src-20260725-d6930918] |
+    | **공개 성과의 한계** | 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음 [^src-20260725-4c014458] |
+    | **설비 구성** | 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성 [^src-20260725-d6930918] |
+    | **적용 원료** | 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명 [^src-20260725-d6930918] |
+    | **시운전 목표** | 회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님 [^src-20260727-44dc8b30] |
+    | **후단 활용** | 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용 [^src-20260725-d6930918] |
+    | **운전 온도** | 회사 기술 설명 기준 약 60°C 저온 운전 [^src-20260725-d6930918] |
+    | **실증 자금조달** | Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 [^src-20260727-44dc8b30] |
+    | **제품 순도** | 회사 주장 기준 99% 초과 순도 철 [^src-20260725-d6930918] |
+    | **연간 생산능력** | 연간 500톤 (500 tpy) [^src-20260725-4c014458][^src-20260727-44dc8b30] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-10-21 | 발표·검증 | **설비 부지 규모**: Jefferson County 130,000 ft² demonstration facility · **수요사 품질인증 약정**: Nucor·Toyota Tsusho America·INTERFER가 시범 생산 철의 제강·유통·특수강 적용 검증을 위한 구매 약정을 체결; 품질 승인 완료 실적과는 구분 · **상용화 목표**: 회사 목표는 2020년대 말 상업규모 청정철 생산이며 확정 가동 일정이 아님 · **시운전 목표**: 회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님 · **실증 자금조달**: Breakthrough Energy Catalyst 보조금 USD 50 million과 Colorado CITCO 세액공제 USD 8 million 발표; 총설비투자비와는 다름 · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260727-44dc8b30] |
+    | 2026 | 목표 일정 | **목표 가동 시점**: 2026년 [^src-20260725-4c014458] |
+    | 2026-04-28 | 발표·검증 | **프로젝트 상태**: 2026년 가동 목표로 시범공장 건설 중 · **목표 가동 시점**: 2026년 · **공개 성과의 한계**: 500 t/y 설계용량과 2026 가동 목표는 공개됐지만 전류효율·전력원단위·연속운전시간·전극수명·투자비는 공개되지 않음 · **연간 생산능력**: 연간 500톤 (500 tpy) [^src-20260725-4c014458] |
+    | 2026-07-25 | 수집 확인 | **기술 경로**: 철광석을 산성 수용액에 용해해 공존 광물을 분리하고 산을 재생한 뒤 전해채취 셀에서 금속 철을 전착하는 저온 전기화학·습식제련 경로 · **설비 구성**: 산·염기 생성과 원료 분리를 담당하는 셀 스택과 철 전착을 담당하는 전해채취 셀 스택의 모듈식 구성 · **적용 원료**: 실리카·알루미나 등 불순물을 포함하거나 과거 채굴 후 미활용된 철 함유 원료까지 적용 가능하다는 회사 설명 · **후단 활용**: 생산 철을 EAF 제강 원료 또는 철 기반 배터리 소재로 사용 · **운전 온도**: 회사 기술 설명 기준 약 60°C 저온 운전 · **제품 순도**: 회사 주장 기준 99% 초과 순도 철 [^src-20260725-d6930918] |
 
 ??? info "Nucor Convent DRI–CCS"
 
@@ -118,13 +150,19 @@
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
 | [[sources/SRC-20260725-11668643|Nucor Convent DRI carbon capture and storage agreement]] | Nucor Corporation · 2023-06-01 | [원문 보기](https://investors.nucor.com/news/news-details/2023/Nucor-Enters-Into-Carbon-Capture-Storage-Agreement-with-ExxonMobil-06-01-2023/default.aspx) |
+| [[sources/SRC-20260725-4C014458|POSCO and Electra partner on low-temperature clean iron]] | POSCO Group Newsroom · 2026-04-28 | [원문 보기](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC/) |
 | [[sources/SRC-20260725-6D04090A|DOE Round 5 selection: UK IDEA dual-loop capture at Nucor Steel Gallatin]] | U.S. Department of Energy · 게시일 미상 | [원문 보기](https://www.energy.gov/hgeo/project-selections-foa-2614-carbon-management-round-5) |
 | [[sources/SRC-20260725-AA686449|Nucor sustainability and EAF steelmaking profile]] | Nucor Corporation · 게시일 미상 | [원문 보기](https://nucor.com/sustainability/) |
 | [[sources/SRC-20260725-BF5036AE|ExxonMobil and Nucor carbon capture agreement for Convent DRI plant]] | ExxonMobil · 2023-06-01 | [원문 보기](https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement) |
+| [[sources/SRC-20260725-D6930918|Electra Technology: How the low-temperature iron process works]] | Electra · 게시일 미상 | [원문 보기](https://www.electra.earth/our-technology/) |
 | [[sources/SRC-20260725-FE353D3A|Nucor and University of Kentucky carbon-capture pilot at Gallatin]] | Nucor Corporation · 2022-04-22 | [원문 보기](https://nucor.com/news-release/nucor-and-the-university-of-kentucky-receive-federal-grant-for-carbon-capture-r%26d-at-gallatin-mill-122742) |
+| [[sources/SRC-20260727-44DC8B30|Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes]] | Electra / GlobeNewswire · 2025-10-21 | [원문 보기](https://www.globenewswire.com/news-release/2025/10/21/3170489/0/en/Electra-Unveils-Demonstration-Facility-along-with-Advanced-Purchase-Commitments-for-Clean-Iron-and-Environmental-Attributes.html) |
 
 [^src-20260725-11668643]: **Nucor Convent DRI carbon capture and storage agreement** — Nucor Corporation, 2023-06-01. [원문](https://investors.nucor.com/news/news-details/2023/Nucor-Enters-Into-Carbon-Capture-Storage-Agreement-with-ExxonMobil-06-01-2023/default.aspx) · [[sources/SRC-20260725-11668643|보관 원문·메타데이터]]
+[^src-20260725-4c014458]: **POSCO and Electra partner on low-temperature clean iron** — POSCO Group Newsroom, 2026-04-28. [원문](https://newsroom.posco.com/kr/%ED%8F%AC%EC%8A%A4%EC%BD%94-%EC%A0%80%ED%83%84%EC%86%8C-%EC%A0%9C%EC%B2%A0-%EA%B8%B0%EC%88%A0-%EB%B3%B4%EC%9C%A0-%E7%BE%8E-%ED%98%81%EC%8B%A0%EA%B8%B0%EC%97%85-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%9D%BC/) · [[sources/SRC-20260725-4C014458|보관 원문·메타데이터]]
 [^src-20260725-6d04090a]: **DOE Round 5 selection: UK IDEA dual-loop capture at Nucor Steel Gallatin** — U.S. Department of Energy, 게시일 미상. [원문](https://www.energy.gov/hgeo/project-selections-foa-2614-carbon-management-round-5) · [[sources/SRC-20260725-6D04090A|보관 원문·메타데이터]]
 [^src-20260725-aa686449]: **Nucor sustainability and EAF steelmaking profile** — Nucor Corporation, 게시일 미상. [원문](https://nucor.com/sustainability/) · [[sources/SRC-20260725-AA686449|보관 원문·메타데이터]]
 [^src-20260725-bf5036ae]: **ExxonMobil and Nucor carbon capture agreement for Convent DRI plant** — ExxonMobil, 2023-06-01. [원문](https://corporate.exxonmobil.com/news/news-releases/2023/0601_lcs-nucor-agreement) · [[sources/SRC-20260725-BF5036AE|보관 원문·메타데이터]]
+[^src-20260725-d6930918]: **Electra Technology: How the low-temperature iron process works** — Electra, 게시일 미상. [원문](https://www.electra.earth/our-technology/) · [[sources/SRC-20260725-D6930918|보관 원문·메타데이터]]
 [^src-20260725-fe353d3a]: **Nucor and University of Kentucky carbon-capture pilot at Gallatin** — Nucor Corporation, 2022-04-22. [원문](https://nucor.com/news-release/nucor-and-the-university-of-kentucky-receive-federal-grant-for-carbon-capture-r%26d-at-gallatin-mill-122742) · [[sources/SRC-20260725-FE353D3A|보관 원문·메타데이터]]
+[^src-20260727-44dc8b30]: **Electra Unveils Demonstration Facility along with Advanced Purchase Commitments for Clean Iron and Environmental Attributes** — Electra / GlobeNewswire, 2025-10-21. [원문](https://www.globenewswire.com/news-release/2025/10/21/3170489/0/en/Electra-Unveils-Demonstration-Facility-along-with-Advanced-Purchase-Commitments-for-Clean-Iron-and-Environmental-Attributes.html) · [[sources/SRC-20260727-44DC8B30|보관 원문·메타데이터]]

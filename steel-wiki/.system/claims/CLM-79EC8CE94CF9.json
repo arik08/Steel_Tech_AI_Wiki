@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-79EC8CE94CF9",
+  "subject_id": "TEC-zesty-hydrogen-flash-reduction",
+  "predicate": "pilot_wall_temperature_range",
+  "value": "850–1050 °C 균일 벽온 조건",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-824DD247"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "논문이 보고한 시험 조건이며 상용 운전창이 아님",
+      "source_ids": [
+        "SRC-20260727-824DD247"
+      ]
+    }
+  ]
+}

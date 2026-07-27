@@ -66,6 +66,8 @@ TECHNOLOGY_PREDICATES = {
     "hydrogen-based fine-ore reduction": "fine_ore_hydrogen_reduction_status",
     "hydrogen plasma smelting reduction": "hydrogen_plasma_smelting_status",
     "microwave biomass ironmaking": "microwave_biomass_ironmaking_status",
+    "zesty hydrogen flash reduction": "zesty_hydrogen_flash_reduction_status",
+    "hisarna cyclone smelting reduction": "hisarna_cyclone_smelting_reduction_status",
 }
 TECHNOLOGY_DETAILS = {
     "hydrogen direct reduced iron": {
@@ -133,6 +135,8 @@ TECHNOLOGY_DETAILS = {
         ),
         "related_projects": (
             "PRJ-HYBRIT-LULEA-PILOT",
+            "PRJ-HYBRIT-GALLIVARE-DEMO",
+            "PRJ-STEGRA-BODEN",
             "PRJ-TATA-IJMUIDEN-DRP-EAF",
         ),
         "watch": (
@@ -209,6 +213,7 @@ TECHNOLOGY_DETAILS = {
         "related_projects": (
             "PRJ-NEOSMELT-KWINANA",
             "PRJ-HY4SMELT",
+            "PRJ-METSO-PORI-DRI-SMELTING-PILOT",
         ),
         "watch": (
             "시험 규모와 상업 설비의 차이, 투입 원료 품위·금속화율, 탄소·전력원단위, "
@@ -342,6 +347,7 @@ TECHNOLOGY_DETAILS = {
             "PRJ-TATA-JAMSHEDPUR-BF-CCU",
             "PRJ-STEELANOL-GHENT",
             "PRJ-CARBON2CHEM-DUISBURG",
+            "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT",
         ),
         "watch": (
             "고로 배출가스가 실제 포집 대상인지, CCU와 영구저장 CCS 중 어느 경로인지, "
@@ -747,6 +753,7 @@ TECHNOLOGY_DETAILS = {
         ),
         "related_projects": (
             "PRJ-SORTERA-SCRAP-DECOPPER",
+            "PRJ-PURESCRAP-EU-SCRAP-PURITY",
             "PRJ-POSCO-GWANGYANG-EAF",
             "PRJ-JFE-KURASHIKI-LARGE-EAF",
         ),
@@ -992,6 +999,7 @@ TECHNOLOGY_DETAILS = {
         "related_projects": (
             "PRJ-SUSTEEL-DONAWITZ",
             "PRJ-LIGHTBOW-HPSR-CONTROL",
+            "PRJ-H2PLASMARED-EU",
         ),
         "watch": (
             "200 kg/h 연속화의 실제 달성 여부, 연속 투입·출강 시간과 가동률, 아크 "
@@ -1122,6 +1130,502 @@ TECHNOLOGY_DETAILS = {
             "확인해야 합니다."
         ),
     },
+    "zesty hydrogen flash reduction": {
+        "label": "ZESTY 수소 직접 플래시 환원",
+        "category": "간접 전기가열 낙하입자식 미분광 수소 직접환원",
+        "description": (
+            "철광석 미분을 수직 반응관 상부에서 낙하시키고 하부에서 공급한 수소와 "
+            "역류 접촉시키면서, 반응관 벽을 외부 전기로 간접가열해 DRI 미분을 만드는 "
+            "공정입니다. 통상적인 DR 펠릿을 생략할 수 있지만 초미분 회수, 다관 "
+            "scale-out, 수소 재순환과 고온 DRI 안정화가 함께 해결돼야 합니다."
+        ),
+        "scope_note": (
+            "이 문서는 Calix의 Zero Emissions Steel Technology(ZESTY)를 중심으로 "
+            "다룹니다. 유동화 가스로 입자를 부유시키는 HyREX·HYFOR 계열과 달리 "
+            "중력 낙하입자·역류 수소·간접 벽면가열이 핵심이며, 고온 직접가열형 Utah "
+            "Flash Ironmaking Technology와도 운전온도·열전달·산업 프로그램을 구분합니다."
+        ),
+        "process_mermaid": (
+            'flowchart TB\n'
+            '    A["철광석 미분 — 입도·품위·수분 확인"] --> B["상부 계량·분산 장입"]\n'
+            '    B --> C["수직 반응관 — 입자 중력 낙하"]\n'
+            '    P["재생전력"] --> H["외벽 전기가열 — 간접 열전달"]\n'
+            '    H --> C\n'
+            '    G["수소 — 하부 공급"] --> C\n'
+            '    C --> R["Fe₂O₃ → Fe₃O₄ → FeO → Fe"]\n'
+            '    R --> D["고온 DRI 미분 — 하부 회수"]\n'
+            '    C --> O["상부 H₂·H₂O·동반 미분"]\n'
+            '    O --> S["사이클론·집진 — 미분 회수"]\n'
+            '    S --> J["회수 미분 — 재투입·처리 방식 실증 필요"]\n'
+            '    O --> W["수분 제거"]\n'
+            '    W -. 수소 재순환 .-> G\n'
+            '    D --> X{"제품 안정화·후단"}\n'
+            '    X --> I["부동태화·냉간/고온 브리켓·HBI"]\n'
+            '    X --> E["DRI/HBI 후처리·ESF/EAF 적용 시험"]\n'
+            '    M["3만 t/y 실증 확대 — 다관 병렬은 제안 경로"] -. 분배·온도 균일도 .-> C\n'
+            '    V["위험: 비산·부착·재산화·수소비용"] -. 운전창 .-> C\n'
+            '    classDef feed fill:#F5F6F7,stroke:#9BA2AD,color:#20242C\n'
+            '    classDef reactor fill:#3F66C9,stroke:#3158B8,color:#FFFFFF\n'
+            '    classDef recycle fill:#E7F3EE,stroke:#24724A,color:#20242C\n'
+            '    classDef product fill:#EDF2FB,stroke:#3F66C9,color:#20242C\n'
+            '    classDef risk fill:#FBE9E9,stroke:#B74848,color:#20242C\n'
+            '    class A,B,P,G feed\n'
+            '    class C,H,R reactor\n'
+            '    class O,S,W,J recycle\n'
+            '    class D,X,I,E,M product\n'
+            '    class V risk'
+        ),
+        "process_legend": (
+            "**색상 범례 (AI 재구성):** 회색=원료·에너지 · 진한 코발트=간접가열 "
+            "플래시 환원 · 녹색=가스·미분 회수 · 옅은 코발트=제품·확대 · 적색=운전 위험"
+        ),
+        "diagram_note": (
+            "위 흐름도는 ARENA 사업자료와 동료심사 논문의 공개 공정을 기능 단위로 "
+            "재구성한 것입니다. Rockingham 실증설비의 준공도·배관계장도(P&ID)나 "
+            "확정된 다관 배치가 아닙니다."
+        ),
+        "analysis_points": (
+            "간접가열은 수소를 연료가 아니라 환원제로 집중해 쓰고 전력으로 반응열을 "
+            "공급할 수 있게 합니다. 다만 이론적 최소 수소량과 실제 플랜트 원단위는 "
+            "수분 제거·purge·미반응 수소 재순환을 포함해 구분해야 합니다. 공개 논문에 "
+            "정제·압축 사양과 회수 미분 재투입 방식은 확정돼 있지 않습니다.",
+            "‘펠릿 불필요’는 ‘선광·건조·분급·집진 불필요’를 뜻하지 않습니다. "
+            "저품위광의 맥석이 남으면 DRI 제품량, ESF 슬래그량·전력·플럭스와 철 "
+            "회수율에 부담이 이동합니다.",
+            "ARENA의 3만 t/y 실증 목표와 논문의 병렬 다관 scale-up 제안은 서로 다른 "
+            "근거입니다. 파일럿 단일관의 온도·금속화 성능을 선형 확대할 수 없으며, "
+            "관별 광석·수소 분배, 벽면 열플럭스, 고체농도와 정비격리가 독립 변수입니다.",
+            "상부로 동반되는 초미분은 집진 부하일 뿐 아니라 철 수율 손실입니다. "
+            "평균 금속화율과 함께 입도별 제품·분진 질량수지, 재순환 횟수, 사이클론 "
+            "마모와 filter differential pressure가 공개돼야 합니다.",
+            "고온 DRI 미분은 재산화·발화·분진폭발 위험이 있어 부동태화, HBI 또는 "
+            "밀폐 고온이송이 필요합니다. 환원 반응기 성능과 제품 물류·후단 ESF/EAF "
+            "품질을 별도 검증해야 합니다.",
+            "ARENA 실증사업의 개시·FEED는 기술의 산업 실행 신호지만 상용 경쟁력 "
+            "입증은 아닙니다. Rockingham의 재생수소 가격, 장기 연속운전과 복수 "
+            "Pilbara 광종의 toll processing 결과가 다음 판단 기준입니다.",
+        ),
+        "posco_implications": (
+            "HyREX와 동일한 Pilbara 정광을 사용해 원료 전처리, 수소 kg/t-Fe, 전력 "
+            "kWh/t-Fe, 금속화율 분포, Fe 수율, 분진 재순환과 ESF 슬래그를 같은 "
+            "경계에서 비교해야 합니다.",
+            "ZESTY를 HyREX 전체 대체기술로만 보지 말고, ESF 전단의 부분환원 모듈이나 "
+            "광종별 전처리-환원 옵션으로 평가할 필요가 있습니다. 최적 부분환원도는 "
+            "반응기와 ESF의 합산 전력·철 수율로 결정해야 합니다.",
+            "Calix–Rio Tinto의 비독점 공동개발 구조, 반응관·calciner 특허와 라이선스 "
+            "조건을 확인해 POSCO 독자시험·협력·회피설계의 FTO를 조기에 검토해야 합니다.",
+            "향후 12~36개월 선행지표는 Rockingham 인허가·FID/EPC, 수소 공급계약, "
+            "정격 단일관과 다관 모듈의 연속시간, 광종별 금속화–Fe수율–분진–에너지 "
+            "동시 데이터, HBI/ESF 고객시험과 CAPEX/OPEX 갱신입니다.",
+            "판단 질문은 ‘실측 원단위가 이론값에 얼마나 접근하는가’, ‘관별 분배편차를 "
+            "어떻게 계측·제어하는가’, ‘고온 DRI 미분을 어떤 형태로 ESF에 연결하는가’, "
+            "‘수소가격 상승 후에도 펠릿 생략 편익이 남는가’입니다.",
+        ),
+        "related_projects": ("PRJ-ZESTY-ROCKINGHAM-DEMO",),
+        "watch": (
+            "향후 12~36개월 동안 Rockingham의 인허가·FID·EPC와 수소계약, 단일관·다관 "
+            "연속운전 시간, 광종별 금속화율·Fe 수율·분진회수, 실측 수소·전력원단위, "
+            "HBI/ESF 제품검증, CAPEX/OPEX 갱신과 Rio Tinto의 배치·라이선스 결정을 "
+            "확인해야 합니다."
+        ),
+    },
+    "hisarna cyclone smelting reduction": {
+        "label": "HIsarna 사이클론 용융환원",
+        "category": "미분광 사이클론 예비환원·용융과 탄소계 용융욕 최종환원",
+        "description": (
+            "미분 철광석과 산소를 상부 Cyclone Converter Furnace(CCF)에 직접 투입해 "
+            "예비환원·용융하고, 하부 Smelting Reduction Vessel(SRV)의 석탄·용융욕에서 "
+            "최종 환원해 용선을 만드는 공정입니다. 미분광을 직접 투입해 소결과 코크스 "
+            "제조를 생략하지만 탄소 환원과 산소제조가 남아 CCUS·대체탄소원과 함께 "
+            "평가해야 합니다."
+        ),
+        "scope_note": (
+            "이 문서는 Tata Steel의 CCF와 HIsmelt계 bath smelting을 결합한 HIsarna를 "
+            "다룹니다. 코크스 충전층을 유지하는 BF-CCUS와 달리 일체형 사이클론-용융욕 "
+            "반응기이며, 수소 고체환원 뒤 ESF에서 녹이는 DRI–ESF 경로와도 구분합니다."
+        ),
+        "process_mermaid": (
+            'flowchart TB\n'
+            '    A["미분 철광석·산소"] --> C["상부 CCF — 회전 고온유동"]\n'
+            '    C --> D["비행 중 예비환원·용융"]\n'
+            '    D --> F["용융 산화철 방울·벽면막 하강"]\n'
+            '    K["분탄 — SRV 주입"] --> S["하부 SRV — 용융 슬래그·철욕"]\n'
+            '    F --> S\n'
+            '    S --> R["FeO 최종환원·침탄"]\n'
+            '    R --> H["용선 출선"]\n'
+            '    R --> L["슬래그 출재"]\n'
+            '    S --> G["CO·H₂·분진 상향가스"]\n'
+            '    G --> C\n'
+            '    Z["산소"] --> P["reflux chamber — 후연소"]\n'
+            '    C --> P\n'
+            '    P --> Q["quench·집진·가스정제"]\n'
+            '    Q --> X["고농도 CO₂ — 압축·수송·CCUS 검토"]\n'
+            '    V["위험: ore carryover·foaming·내화물·고-Al 슬래그"] -. 운전창 .-> C\n'
+            '    V -. 운전창 .-> S\n'
+            '    classDef feed fill:#F5F6F7,stroke:#9BA2AD,color:#20242C\n'
+            '    classDef cyclone fill:#3F66C9,stroke:#3158B8,color:#FFFFFF\n'
+            '    classDef bath fill:#B4552D,stroke:#8E3F20,color:#FFFFFF\n'
+            '    classDef gas fill:#E7F3EE,stroke:#24724A,color:#20242C\n'
+            '    classDef product fill:#EDF2FB,stroke:#3F66C9,color:#20242C\n'
+            '    classDef risk fill:#FBE9E9,stroke:#B74848,color:#20242C\n'
+            '    class A,K,Z feed\n'
+            '    class C,D,F cyclone\n'
+            '    class S,R bath\n'
+            '    class G,P,Q,X gas\n'
+            '    class H,L product\n'
+            '    class V risk'
+        ),
+        "process_legend": (
+            "**색상 범례 (AI 재구성):** 회색=원료 · 코발트=CCF 예비환원·용융 · "
+            "갈색=SRV 용융욕 최종환원 · 녹색=배가스·CCUS · 옅은 코발트=용선·슬래그 · "
+            "적색=확대 운전 위험"
+        ),
+        "diagram_note": (
+            "위 흐름도는 Tata Steel 공식 설명과 동료심사 CFD 논문을 기능 단위로 "
+            "재구성한 것입니다. IJmuiden 파일럿 또는 Jamshedpur 실증로의 준공도·"
+            "배관계장도(P&ID)가 아닙니다."
+        ),
+        "analysis_points": (
+            "HIsarna의 원료 자유도는 소결·코크스를 없애는 데서 오지만, 맥석을 "
+            "없애지는 않습니다. 고-Al₂O₃·저품위광은 슬래그 부피·점도·융점, flux와 "
+            "열부하, 탈황·탈인, 철 수율을 동시에 바꿉니다.",
+            "상부 CCF의 ore carryover는 Fe 수율·집진 부하와 하부 SRV 투입량을 "
+            "변화시키고, 하부 bath foaming과 후연소는 CCF 열전달·내화물과 연결됩니다. "
+            "CCF와 SRV를 독립 장치처럼 최적화할 수 없습니다.",
+            "6만 t/y 명목 파일럿에서 약 100만 t/y 실증으로 확대할 때 cyclone 체류시간, "
+            "droplet 궤적, 벽면막, 산소·분체 분배와 냉각면 열플럭스가 선형으로 유지되지 "
+            "않습니다. 실제 연속 캠페인과 가동률이 CFD 설계보다 우선적인 검증치입니다.",
+            "HIsarna는 기본적으로 탄소계 환원 공정입니다. 소결·코크스 생략에 따른 "
+            "감축과 고농도 CO₂의 포집 잠재력은 회사 주장으로 구분하고, 산소제조·석탄·"
+            "배가스 정제·CO₂ 수송·저장까지 포함한 순회피량을 요구해야 합니다.",
+            "reflux chamber의 내화물 두께·열손실·CO 변동은 pilot inspection과 CFD "
+            "문헌에서 scale-up 변수로 확인됩니다. Jamshedpur 실증 원료 사양은 아직 "
+            "미공개이므로 IJmuiden의 고-Al 원료 시험과 분리해 추적해야 합니다.",
+            "Tata 이사회가 승인한 것은 엔지니어링과 규제 절차의 개시입니다. FID, EPC, "
+            "착공, 준공·가동을 같은 상태로 표시하지 않고 후속 공시를 단계별로 보존해야 합니다.",
+        ),
+        "posco_implications": (
+            "FINEX, HIsarna, BF-CCUS와 HyREX–ESF를 동일 광석·제품 경계에서 비교해 "
+            "원료전처리, O₂, 석탄/H₂, 전력, 슬래그, 용선 P/S와 CO₂ 저장비를 정렬해야 합니다.",
+            "POSCO의 FINEX·용융환원 경험은 HIsarna 평가에 유리하지만 CCF의 in-flight "
+            "melting과 일체형 SRV 후연소는 별도 노형·제어 문제입니다. 분진·droplet·"
+            "bath coupling의 계측과 모델 검증 역량을 비교해야 합니다.",
+            "Jamshedpur의 구체 원료 사양은 미공개입니다. 향후 공개되는 광석 Al₂O₃·"
+            "맥석 범위, basicity, slag kg/t, FeO, P/S 분배와 campaign length를 "
+            "IJmuiden 시험 데이터와 구분해 추적해야 합니다.",
+            "향후 12~36개월 선행지표는 Jamshedpur 설계사/EPC·환경인허가, 예산·FID·"
+            "착공, 공개 원료사양과 광종별 캠페인, 연속시간·가동률, coal–gas–biocarbon 조합, "
+            "CO₂ 저장 파트너·오프테이크와 Tata의 라이선스 정책입니다.",
+            "판단 질문은 ‘CCUS 없이 얻는 순감축이 얼마인가’, ‘1 Mt/y 확대 시 CCF "
+            "carryover와 SRV foaming을 어떻게 제어하는가’, ‘FINEX 대비 원료·용선 "
+            "품질과 총비용은 어떤가’, ‘Tata의 글로벌 IP가 FTO에 주는 제약은 무엇인가’입니다.",
+        ),
+        "related_projects": ("PRJ-HISARNA-JAMSHEDPUR-DEMO",),
+        "watch": (
+            "향후 12~36개월 동안 Jamshedpur 실증의 설계사·EPC·인허가·FID·착공, 공개 "
+            "원료사양과 광종별 장기 캠페인·용선·슬래그 품질, 연속운전 시간·가동률, 석탄·산소 "
+            "원단위, 내화물·냉각 수명, CO₂ 포집·운송·저장 계약과 글로벌 라이선스 "
+            "정책을 확인해야 합니다."
+        ),
+    },
+}
+TECHNOLOGY_SENSING_DASHBOARDS = {
+    "hydrogen direct reduced iron": {
+        "leading_indicators": (
+            "상업 규모에서 천연가스 보조 없이 실제 수소 비율, 연속운전 시간, "
+            "금속화율·제품 탄소·클러스터링 지수를 함께 공개",
+            "전력·수소 공급계약, 환경허가, FID, 착공, 시운전이 목표일에서 실제 "
+            "이정표로 순차 전환",
+            "광종·펠릿별 수소 kg/t-DRI, 가스 가열전력, HDRI 온도와 후단 EAF "
+            "kWh/t를 동일 캠페인 경계로 제시",
+        ),
+        "warning_signals": (
+            "HYBRIT처럼 일정 지연으로 기한부 지원이 철회되거나, Stegra처럼 대규모 "
+            "추가 조달 뒤에도 공식 일정이 계속 검토 상태",
+            "‘hydrogen-ready’ 또는 구매계약만 반복하고 실제 수소비율·연간 생산량·"
+            "품질인증 결과가 공개되지 않음",
+        ),
+        "decision_questions": (
+            "HyREX와 샤프트 DRI를 원료 전처리·수소·전력·후단 용융까지 같은 시스템 "
+            "경계에서 비교하면 어느 조건에서 우위가 바뀌는가?",
+            "외부 HBI 조달, 자체 DRI, 미분광 환원 중 무엇을 핵심 자산으로 두고 "
+            "어떤 경로를 공급망 헤지로 유지할 것인가?",
+            "보조금·저가 수소가 지연될 때 천연가스 브리지 운전의 탄소 lock-in을 "
+            "어떤 투자 gate로 제한할 것인가?",
+        ),
+    },
+    "electric smelting furnace": {
+        "leading_indicators": (
+            "1 t/h급 파일럿에서 광종별 7일 이상 캠페인, 연속 장입·분리 출선, "
+            "철 회수율·슬래그 FeO·전극·내화물 데이터를 함께 공개",
+            "저금속화·고맥석 DRI의 허용 범위를 명목치가 아니라 물질수지와 용선 "
+            "C·Si·P·S 품질로 반복 검증",
+            "상용 개념설계의 110 MW·1.2 Mt/y 주장을 고객 원료 시험, EPC 보증과 "
+            "장기 availability 데이터로 전환",
+        ),
+        "warning_signals": (
+            "첫 출선 사진이나 공급사 설계치만 있고 campaign length, slag kg/t, "
+            "철 손실, 실제 가동률이 비공개",
+            "ESF와 EAF를 혼용해 아크 노출·배치 용해를 연속 침지저항 가열 실적으로 "
+            "오인하거나 후단 BOF 통합비용을 제외",
+        ),
+        "decision_questions": (
+            "HyREX 환원물의 입도·금속화·맥석 분포에 맞는 bath depth, 전극, "
+            "슬래그 전도도와 출선 체계는 무엇인가?",
+            "ESF가 DR-grade 펠릿 프리미엄 절감으로 추가 전력·플럭스·슬래그 처리비를 "
+            "상쇄하는 광석 품위 경계는 어디인가?",
+            "독립 상용 플랫폼으로 확보할지 HyREX 통합 실증의 하위 모듈로 검증할지 "
+            "투자 순서를 어떻게 나눌 것인가?",
+        ),
+    },
+    "molten oxide electrolysis": {
+        "leading_indicators": (
+            "셀 전류·전압, 전류효율, kWh/t-Fe, 금속·산소 수율을 수백~수천 시간 "
+            "연속운전과 함께 공개",
+            "불활성 양극 부식·전해질 오염·금속 회수·내화물 수명 데이터를 셀 교체 "
+            "주기와 물질수지로 제시",
+            "단일 tap을 넘어 복수 산업 셀의 병렬운전, 제품 규격과 고객 제강시험, "
+            "상용 부지 EPC 이정표가 확인",
+        ),
+        "warning_signals": (
+            "셀 크기·campaign hours·전류효율 없이 ‘고순도 철’ 또는 투자·제휴 발표만 반복",
+            "전력의 탄소집약도, 양극·전해질 보충, 산소 부산물 크레딧을 제외한 "
+            "선택적 에너지·배출 비교",
+        ),
+        "decision_questions": (
+            "MOE를 2030년대 대규모 제선 대체로 볼지, 고순도 철·특수합금용 선도시장 "
+            "옵션으로 볼지 어떤 실증 gate에서 구분할 것인가?",
+            "POSCO가 확보해야 할 핵심은 셀 운전, 불활성 양극, 전해질, 출탕·정련 중 "
+            "어느 IP·공정 패키지인가?",
+            "수소계 경로 대비 전력망·원료·제품 가치의 교차점은 어떤 지역과 제품군에서 "
+            "먼저 형성되는가?",
+        ),
+    },
+    "blast furnace CCUS": {
+        "leading_indicators": (
+            "고로·열연 등 실제 배가스에서 연속운전 시간, 포집률·순도, 용매 열화, "
+            "재생열·압축전력을 같은 기간으로 공개",
+            "포집장치 연결을 넘어 CO2 운송·영구저장 계약 또는 CCU 제품의 반복 출하·"
+            "실제 이용률과 전과정 avoided-CO2가 확인",
+            "Gent 300 kg/day 파일럿의 가스원 확대와 D-CRBN의 CO2→CO 전환율·"
+            "제품가스 순도·kWh/t-CO가 공개",
+        ),
+        "warning_signals": (
+            "‘세계 최초 연결’·첫 바지선 출하만 반복하고 월간 생산량·가동률·"
+            "물질·에너지수지가 비공개",
+            "포집 CO2를 영구저장과 단기 제품전환으로 구분하지 않거나, 증기·전력·"
+            "압축·수송을 제외한 gross capture만 감축량으로 제시",
+        ),
+        "decision_questions": (
+            "고로 잔존수명 동안 포집·수송·저장 투자를 회수할 수 있는 입지와 시점은 어디인가?",
+            "저장망이 없는 제철소에서 에탄올·CO 전환의 반복 오프테이크와 탄소회계가 "
+            "CCS 대비 경쟁력을 갖는 조건은 무엇인가?",
+            "Gent의 변동 불순물·용매·플라즈마 결과를 POSCO 고로·열연 배가스 조성에 "
+            "어떤 시험으로 이전 검증할 것인가?",
+        ),
+    },
+    "low-carbon ironmaking": {
+        "leading_indicators": (
+            "발표 용량이 허가·FID·착공·시운전·인증 출하로 전환되는 비율과 소요기간",
+            "제품별 Scope 1·2·상류 Scope 3, 스크랩 추가성, 전력·수소 탄소집약도를 "
+            "동일 산정경계와 제3자 검증으로 공개",
+            "EAF·DRI·ESF·전기분해·CCUS별 실제 생산량·가동률과 인프라 계약을 "
+            "마스터 타임라인에서 비교",
+        ),
+        "warning_signals": (
+            "목표 용량을 현재 저탄소 생산능력으로 합산하거나, MOU·지원선정을 "
+            "운전 실적으로 표현",
+            "일정 철회·재검토·건설 둔화를 지우고 새 목표일만 남기거나 서로 다른 "
+            "배출경계로 기술 우열을 비교",
+        ),
+        "decision_questions": (
+            "광양 EAF, HyREX, 외부 HBI, ESF, BF-CCUS를 제품군·자산수명·인프라 "
+            "제약별로 어떤 순서와 option value로 배치할 것인가?",
+            "기술 하나의 최저 배출보다 공급차질·전력가격·수소지연을 견디는 포트폴리오 "
+            "복원력을 어떻게 계량할 것인가?",
+            "각 경로의 중단·축소·확대 gate를 어떤 공개 또는 자체 실증 KPI에 연결할 것인가?",
+        ),
+    },
+    "smart steelworks": {
+        "leading_indicators": (
+            "권고·사람승인·제한 폐루프·완전자율을 구분하고 자동제어 적용시간, "
+            "수동개입·override·interlock 빈도를 공개",
+            "동일 모델을 다른 노·라인·사업장에 이전해 품질·연료·수율의 기준선 대비 "
+            "효과와 모델 드리프트를 반복 검증",
+            "데이터 단절·센서 이상·모델 불확실성에서 안전계층과 rollback이 실제로 "
+            "작동한 시험 기록을 확보",
+        ),
+        "warning_signals": (
+            "97% 정확도처럼 표본·목표변수·기준선이 없는 단일 모델 지표만 반복",
+            "대시보드·디지털 트윈 구축을 폐루프 운전으로 표현하면서 조작권한·"
+            "수동개입률·OT 보안 경계는 미공개",
+        ),
+        "decision_questions": (
+            "AI에 맡길 조작변수와 사람이 유지할 승인점을 안전·품질 책임별로 어디에 둘 것인가?",
+            "정확도보다 override 원인·개입률·interlock·경제성과를 전사 공통 KPI로 "
+            "수집할 수 있는가?",
+            "물리모델과 ML 중 어느 계층을 안전 기준계로 두고 해외 제철소 이전 시 "
+            "재검증 책임을 누가 갖는가?",
+        ),
+    },
+    "low-temperature aqueous iron electrolysis": {
+        "leading_indicators": (
+            "500 t/y급 시설에서 월간 생산량, stack uptime, 전류효율, kWh/t-Fe, "
+            "제품 순도와 고객 EAF qualification을 함께 공개",
+            "막·전극 수명, 산·알칼리·공정수 회수, 실광석 철 회수율·불순물 분배를 "
+            "4시간 시험이 아닌 장기 캠페인으로 검증",
+            "Electra·Volteron·Fortescue가 pilot 목표를 commissioning·반복 생산·"
+            "후속 상용 모듈 FID로 전환",
+        ),
+        "warning_signals": (
+            "명목 용량·구매의향·TRL 목표만 갱신되고 실제 월별 생산·전력·소모품 "
+            "데이터와 납품 품질 결과가 없음",
+            "고순도 시약 또는 정제원료 결과를 저품위 실광석 성능으로 일반화하거나 "
+            "전류효율 최고값을 시스템 에너지로 환산",
+        ),
+        "decision_questions": (
+            "수계 전해를 벌크 철 대체와 고순도 철 premium 시장 중 어디에 먼저 적용할 것인가?",
+            "광석 전처리·침출·막·전착 회수·폐액 중 POSCO가 직접 확보할 병목 IP는 무엇인가?",
+            "MOE·수소 DRI 대비 전력·물·시약·원료 품위의 crossover를 어떤 자체 "
+            "bench/pilot 시험으로 확인할 것인가?",
+        ),
+    },
+    "high-grade EAF and scrap impurity removal": {
+        "leading_indicators": (
+            "실제 처리량 t/h, lot별 Cu·Sn·Ni·Cr 예측오차, 철 회수율과 질량수지를 공개",
+            "R260·42CrMo4 등 목표 강종을 산업 규모로 반복 생산하며 저품위 스크랩 "
+            "투입 증가와 제품 합격률·수율을 함께 입증",
+            "PURESCRAP 종료일 충돌을 grant amendment·최종보고서로 해소하고 SSAB·"
+            "VASD 제강 검증 결과를 공개",
+        ),
+        "warning_signals": (
+            "센서 스테이션 설치나 AI 분류 정확도만 발표하고 bulk chemistry 오차·"
+            "처리량·강종 합격률이 비공개",
+            "Cu 제거율을 철 손실·에너지·부산물과 분리하거나 DRI/HBI 희석 의존도를 "
+            "스크랩 고도화 성능으로 계산",
+        ),
+        "decision_questions": (
+            "센서 결과를 장입 lot 배합·EAF·LF 분석까지 연결하는 digital thread를 "
+            "어떤 데이터 표준으로 구축할 것인가?",
+            "저품위 스크랩 확대의 원가 편익이 목표 강종 합격률·수율·철 손실까지 "
+            "포함해 유지되는 경계는 어디인가?",
+            "PURESCRAP·Sortera 결과를 광양 대형 EAF의 원료 사양과 어떤 대조시험으로 "
+            "검증할 것인가?",
+        ),
+    },
+    "hydrogen-based fine-ore reduction": {
+        "leading_indicators": (
+            "HyREX의 실제 착공·EPC, 반응기별 장기 ΔP·고착·비산, 광종별 금속화 "
+            "분포와 Fe 수율을 단계별 시험운전에서 공개",
+            "50 kg/batch 시험로에서 300,000 t/y 통합실증으로 확대할 때 수소이용률, "
+            "분진 회수, 고온이송과 ESF 통합 가동률을 함께 검증",
+            "2028 설비완공 목표와 2030 운전조건·기술성숙 목표를 구분해 실제 "
+            "commissioning·ramp-up 이력으로 전환",
+        ),
+        "warning_signals": (
+            "부지승인·목표 착공일을 건설 진척으로 표현하거나, 기계적 완공을 "
+            "상용 운전기술 확보로 간주",
+            "평균 금속화율만 공개하고 입도별 비산·응집, reactor train 편차, "
+            "수소·전력·철 질량수지가 없음",
+        ),
+        "decision_questions": (
+            "광종별 유동화·sticking 운전창과 ESF의 허용 FeO·맥석 창을 하나의 "
+            "통합시험계획으로 어떻게 연결할 것인가?",
+            "HyREX 독자 확대와 ZESTY·HYFOR·샤프트 DRI benchmark를 어떤 공통 KPI로 "
+            "비교할 것인가?",
+            "착공·실증 지연 시 확보할 외부 DRI/HBI 또는 대체 환원 기술의 hedge는 무엇인가?",
+        ),
+    },
+    "hydrogen plasma smelting reduction": {
+        "leading_indicators": (
+            "100 kg급 batch 시험에서 5 t DC-EAF 캠페인으로 넘어가 연속 투입·출강, "
+            "금속화·철수율·H2/Ar·kWh/t를 함께 공개",
+            "아크 안정성·plasma length, Fe 증발·분진, 전극·내화물 마모와 slag-metal "
+            "분리를 장기 캠페인에서 검증",
+            "H2PlasmaRed의 TRL 5→7 목표를 retrofit 완료, 2026 캠페인 결과와 "
+            "독립 material/energy balance로 입증",
+        ),
+        "warning_signals": (
+            "설비 명목 100/200 kg을 달성 처리량으로 혼용하거나 batch charge·무출강 "
+            "시험을 연속 공정으로 표현",
+            "부분환원 90분 시험의 조건부 내화물·단열 개선을 상용 에너지 원단위와 "
+            "가동률로 확대 해석",
+        ),
+        "decision_questions": (
+            "HPSR을 벌크 1차철 경로, EAF retrofit, 저품위광·부산물 처리 중 어느 "
+            "use case로 집중할 것인가?",
+            "HyREX–ESF 대비 환원·용융 일체화 편익이 Ar·전극·내화물·Fe 증발 부담을 "
+            "상쇄하는 조건은 무엇인가?",
+            "논문별 100 kg/200 kg 범위 차이를 장치 버전·캠페인별로 어떤 검증 데이터로 해소할 것인가?",
+        ),
+    },
+    "microwave biomass ironmaking": {
+        "leading_indicators": (
+            "중단 원인을 반영한 노 설계 freeze, 신규 부지·허가·FID와 연속 파일럿 "
+            "재착수 일정이 확인",
+            "최대 12개 혼의 전자장·온도 균일도, 연속 브리켓 이송·붕괴, 금속화율·"
+            "Fe 수율·제품 탄소와 완전 물질수지를 공개",
+            "전력·천연가스·바이오매스 원단위, 타르·분진·슬래그 및 공급망 "
+            "지속가능성을 동일 캠페인으로 검증",
+        ),
+        "warning_signals": (
+            "‘R&D 지속’ 문구만 있고 redesign·재허가·재착수의 구체 이정표가 없음",
+            "소형 batch의 전력 또는 감축 최고값을 1 t/h 연속 설비로 확대하면서 "
+            "전자장·열·가스 균일도와 공급망을 제외",
+        ),
+        "decision_questions": (
+            "Rio Tinto의 노 설계·전자장·브리켓층 위험이 POSCO 연구에 어떻게 재현되는가?",
+            "재착수 전 최소 gate를 연속운전 시간, 금속화율, Fe 수율, 에너지수지 중 "
+            "어떤 조합으로 둘 것인가?",
+            "직접 투자보다 redesign·파트너·특허 움직임을 추적하는 option-value 전략이 "
+            "현재 단계에 더 적절한가?",
+        ),
+    },
+    "zesty hydrogen flash reduction": {
+        "leading_indicators": (
+            "Rockingham의 환경허가·FID·EPC·수소계약이 30,000 t/y 실증 착공·시운전으로 전환",
+            "단일관과 병렬 다관 모듈에서 연속시간, 관별 분배편차, 금속화–Fe수율–"
+            "분진–수소·전력 원단위를 광종별로 동시 공개",
+            "DRI/HBI 안정화와 복수 철강사의 BF-BOF·ESF/EAF 제품시험, CAPEX/OPEX "
+            "갱신이 확인",
+        ),
+        "warning_signals": (
+            "54 kg H2/t 이론값 또는 파일럿 최대 95% 금속화를 실증플랜트 평균 실적으로 표현",
+            "회수 미분 재투입, 수소 정제·압축, 다관 배치와 고온이송이 확정되지 "
+            "않았는데 완성 공정도처럼 제시",
+        ),
+        "decision_questions": (
+            "HyREX와 같은 Pilbara 광석 경계에서 펠릿 생략 편익이 수소·전력·분진·"
+            "ESF 슬래그 부담을 상쇄하는가?",
+            "관별 분배와 정비격리를 어떻게 계측·제어하고 단일관 성능을 plant "
+            "availability로 변환할 것인가?",
+            "협력·라이선스·독자시험 중 어떤 방식으로 반응관·calciner IP와 FTO를 확보할 것인가?",
+        ),
+    },
+    "hisarna cyclone smelting reduction": {
+        "leading_indicators": (
+            "Jamshedpur 약 1 Mt/y 계획이 엔지니어링·규제 절차에서 예산·FID·EPC·"
+            "착공으로 실제 전환",
+            "공개 원료사양별 CCF carryover, SRV foaming, 연속시간·가동률, 용선·"
+            "슬래그 품질, 석탄·산소 원단위를 검증",
+            "reflux chamber 내화물·열손실·후연소 성능과 CO2 포집·운송·저장 계약을 "
+            "장기 캠페인 데이터로 공개",
+        ),
+        "warning_signals": (
+            "2022년 400 kt/y demo·1 Mt/y industrial 설계와 2025년 약 1 Mt/y "
+            "demonstration 계획을 같은 단계·확정 용량으로 병합",
+            "Jamshedpur 원료 사양이 미공개인데 IJmuiden 고-Al 시험을 현지 실증 "
+            "확정조건으로 표현하거나 이사회 승인을 FID·착공으로 표시",
+        ),
+        "decision_questions": (
+            "FINEX·BF-CCUS·HyREX–ESF와 동일 광석·용선 경계에서 HIsarna의 총비용·"
+            "순회피 CO2 우위가 생기는 조건은 무엇인가?",
+            "1 Mt/y 확대 시 CCF droplet·wall film·carryover와 SRV bath foaming을 "
+            "어떤 계측·모델·제어로 검증할 것인가?",
+            "Tata의 글로벌 IP가 협력·라이선스·회피설계와 POSCO 용융환원 기술 "
+            "포트폴리오에 주는 제약은 무엇인가?",
+        ),
+    },
 }
 TECHNOLOGY_NAVIGATION_GROUPS = (
     (
@@ -1129,7 +1633,9 @@ TECHNOLOGY_NAVIGATION_GROUPS = (
         (
             "hydrogen direct reduced iron",
             "hydrogen-based fine-ore reduction",
+            "zesty hydrogen flash reduction",
             "electric smelting furnace",
+            "hisarna cyclone smelting reduction",
             "hydrogen plasma smelting reduction",
             "microwave biomass ironmaking",
         ),
@@ -1157,6 +1663,8 @@ TECHNOLOGY_NAVIGATION_GROUPS = (
     ),
 )
 PREDICATE_LABELS = {
+    "zesty_hydrogen_flash_reduction_status": "ZESTY 수소 플래시 환원 현황",
+    "hisarna_cyclone_smelting_reduction_status": "HIsarna 사이클론 용융환원 현황",
     "project_status": "프로젝트 상태",
     "target_start_date": "목표 가동 시점",
     "project_start_date": "프로젝트 착수 시점",
@@ -1466,6 +1974,132 @@ PREDICATE_LABELS = {
     "permit_decision_date": "환경 허가 결정",
     "construction_pause_date": "건설 중단 발표",
     "original_commissioning_target": "기존 시운전 목표",
+    "commissioning_target": "시운전 목표",
+    "qualification_commitments": "수요사 품질인증 약정",
+    "demonstration_financing": "실증 자금조달",
+    "commercialization_target": "상용화 목표",
+    "latest_pilot_status": "최신 파일럿 운전 상태",
+    "pilot_cell_configuration": "파일럿 셀 구성",
+    "trl_evidence_caveat": "TRL 근거 해석 주의",
+    "latest_scale_up_plan": "최신 규모 확대 계획",
+    "deployment_dependency": "산업화 선결조건",
+    "fortescue_der_process_route": "Fortescue DER 공정 경로",
+    "fortescue_real_ore_faraday_efficiency": "실광석 조건별 전류효율",
+    "fortescue_membrane_screening": "분리막 조건 선별 결과",
+    "fortescue_membrane_duration": "분리막 단기 운전시간",
+    "fortescue_stage_status": "Fortescue DER 단계 현황",
+    "fortescue_scale_up_target": "Fortescue DER 확대 목표",
+    "fortescue_key_bottlenecks": "Fortescue DER 확인 병목",
+    "hybrit_industrial_demo_schedule": "HYBRIT 산업실증 일정",
+    "hybrit_demo_power_demand_estimate": "HYBRIT 추가 전력수요 추정",
+    "hybrit_innovation_fund_status": "HYBRIT EU 지원협약 상태",
+    "hybrit_permit_status": "HYBRIT 환경허가 상태",
+    "hybrit_schedule_risk": "HYBRIT 일정 위험",
+    "stegra_boden_financing": "Stegra Boden 자금조달",
+    "stegra_boden_schedule_status": "Stegra Boden 일정 상태",
+    "final_site_approval_date": "최종 부지 승인 시점",
+    "construction_schedule": "건설 일정",
+    "target_demo_completion_date": "실증설비 완공 목표",
+    "trial_operation_window": "단계별 시험운전 기간",
+    "h2plasmared_project_period": "H2PlasmaRed 사업기간",
+    "h2plasmared_funding": "H2PlasmaRed 사업비·EU 지원",
+    "h2plasmared_target": "H2PlasmaRed 실증 목표",
+    "h2plasmared_current_status": "H2PlasmaRed 공개 진행상태",
+    "pilot_2026_test_basis": "2026년 파일럿 시험 기준",
+    "pilot_refractory_result": "파일럿 내화물 결과",
+    "pilot_insulation_result": "파일럿 단열 개선 결과",
+    "ore_gangue_effect": "광석 맥석 영향",
+    "batch_size_interpretation": "회분 규모 해석 주의",
+    "metso_pilot_configuration": "Metso Pori 파일럿 구성",
+    "metso_campaign_scale": "Metso Pori 캠페인 규모",
+    "metso_commercial_design_claim": "Metso 상용설계 주장",
+    "supplier_claim_limit": "공급사 주장 검증 한계",
+    "total_cost_eur": "총사업비",
+    "eu_contribution_eur": "EU 지원액",
+    "low_quality_scrap_share_target": "저품질 스크랩 투입 확대 목표",
+    "validation_scope": "검증 범위",
+    "target_end_date": "목표 종료일",
+    "first_barge_shipment_date": "첫 바지선 출하 시점",
+    "product_shipment_milestone": "제품 출하 이정표",
+    "capture_capacity_kgpd": "일일 CO2 시험 처리율",
+    "trial_duration_target": "시험기간 목표",
+    "phase_2_target": "2단계 시험 목표",
+    "feedgas_risk": "원료가스 불순물 위험",
+    "co2_conversion_connection_date": "CO2 전환장치 연결 시점",
+    "co2_conversion_route": "CO2 전환 경로",
+    "conversion_validation_scope": "전환공정 검증 범위",
+    "additional_electricity_demand_twh_per_year": "추가 전력수요 추정",
+    "construction_activity_status": "건설 활동 상태",
+    "dc_eaf_retrofit_target_tonnes": "DC EAF 개조 목표 규모",
+    "electrode_diameter_mm": "전극 직경",
+    "environmental_permit_grant_date": "환경허가 승인일",
+    "environmental_permit_scope": "환경허가 범위",
+    "final_government_site_approval_date": "정부 최종 부지 승인",
+    "financing_amount_eur": "종결 자금조달액",
+    "financing_round_close_date": "자금조달 종결일",
+    "financing_use": "자금 사용 목적",
+    "funding_withdrawal_reason": "지원 철회 사유",
+    "gangue_effect": "맥석 조성 영향",
+    "hearth_dimensions_m": "노상 치수",
+    "ijmuiden_pilot_capacity_tpy": "IJmuiden 파일럿 명목규모",
+    "pilot_cumulative_hot_metal": "파일럿 누적 용선 생산·BOF 공급",
+    "pilot_long_run_record": "파일럿 최장 연속운전·가용률",
+    "pilot_peak_productivity": "파일럿 최고 생산성",
+    "coal_rate_at_peak_productivity": "최고 생산성 조건 석탄 원단위",
+    "feedstock_flexibility_campaign": "석탄 품질 범위 검증",
+    "low_grade_ore_campaign": "저품위광·고 Al₂O₃ 슬래그 운전",
+    "fossil_carbon_substitution_results": "화석탄소 대체 실적",
+    "slag_circularity_campaign": "제강슬래그 순환이용 실증",
+    "long_run_upgrade_bottleneck": "장기운전 제한과 설비 보강",
+    "innovation_fund_disbursed_eur": "Innovation Fund 지급액",
+    "innovation_fund_support_status": "Innovation Fund 지원 상태",
+    "innovation_fund_support_withdrawn_eur": "철회된 Innovation Fund 금액",
+    "integrated_hpsr_pilot_target_scale": "HPSR 통합 파일럿 목표 규모",
+    "key_scale_up_risks": "핵심 scale-up 위험",
+    "material_feeding_arrangement_count": "원료 장입 계통 수",
+    "metso_conceptual_apparent_power_mva": "Metso 상용 개념 피상전력",
+    "metso_conceptual_commercial_capacity_tpy": "Metso 상용 개념 생산능력",
+    "metso_conceptual_design_power_mw": "Metso 상용 개념 설계전력",
+    "metso_conceptual_electrode_configuration": "Metso 상용 개념 전극 구성",
+    "metso_supplier_design_availability": "Metso 공급사 설계 가동률 주장",
+    "metso_supplier_design_slag_feo": "Metso 공급사 설계 슬래그 FeO 주장",
+    "offgas_system_configuration": "배가스 계통 구성",
+    "periodic_report_status_date": "정기보고 진행상태",
+    "pilot_fbr_capacity_kg_per_batch": "유동환원 시험로 회분 규모",
+    "pilot_fbr_introduction_year": "유동환원 시험로 도입 연도",
+    "pilot_hot_metal_capacity_tph": "파일럿 명목 용선 처리율",
+    "pilot_metallisation_result": "파일럿 금속화 결과",
+    "pilot_ore_feed_rate": "파일럿 광석 투입률",
+    "pilot_reactor_configuration": "파일럿 반응기 구성",
+    "pilot_wall_temperature_range": "파일럿 벽온 범위",
+    "post_permit_decision_status": "허가 후 의사결정 상태",
+    "pretreatment_elimination_scope": "생략 가능한 전처리 범위",
+    "project_schedule_status": "프로젝트 일정 상태",
+    "refractory_comparison_result": "내화물 비교 결과",
+    "refractory_inspection_result": "내화물 검사 결과",
+    "replacement_eu_funding_plan": "대체 EU 지원 신청 계획",
+    "reported_trial_charge_mode": "논문 시험 장입 방식",
+    "reported_trial_count": "논문 보고 시험 횟수",
+    "reported_trial_stop_condition": "논문 시험 종료 조건",
+    "reported_trial_tapping_mode": "논문 시험 출탕 방식",
+    "scale_up_method": "제안 scale-up 방식",
+    "scale_up_risks": "scale-up 위험",
+    "site_development_area_m2": "개발부지 면적",
+    "tapping_configuration": "출선·출재 구성",
+    "target_five_tonne_campaign_completion_date": "5 t 캠페인 완료 목표",
+    "target_groundbreaking_date": "목표 착공 시점",
+    "target_pilot_trials_end_date": "파일럿 시험 완료 목표",
+    "target_ramp_up_period": "목표 램프업 기간",
+    "target_trial_operation_end_date": "단계별 시험운전 목표",
+    "test_platform_purpose": "시험 플랫폼 목적",
+    "theoretical_hydrogen_minimum": "이론적 최소 수소량",
+    "thermal_insulation_energy_result": "단열 적용 에너지 결과",
+    "thermal_insulation_phase_separation_result": "단열 적용 상분리 결과",
+    "transformer_apparent_power_mva": "변압기 피상전력",
+    "trl_baseline": "출발 기술성숙도",
+    "trl_target": "목표 기술성숙도",
+    "typical_test_campaign_duration_days": "통상 시험 캠페인 기간",
+    "typical_test_campaign_feed_tonnes": "통상 시험 캠페인 원료량",
 }
 TECHNICAL_FEATURE_GROUPS = (
     (
@@ -1532,9 +2166,12 @@ TECHNICAL_FEATURE_GROUPS = (
             "process_principle",
             "process_configuration",
             "conference_process_configuration",
+            "fortescue_der_process_route",
             "cell_configuration",
+            "pilot_cell_configuration",
             "reactor_configuration",
             "furnace_configuration",
+            "metso_pilot_configuration",
             "electrolyte_system",
             "anode_material",
             "anode_durability",
@@ -1637,6 +2274,15 @@ TECHNICAL_FEATURE_GROUPS = (
             "downstream_melting",
             "pilot_horn_count",
             "laboratory_scale",
+            "fortescue_real_ore_faraday_efficiency",
+            "fortescue_membrane_screening",
+            "fortescue_membrane_duration",
+            "fortescue_key_bottlenecks",
+            "pilot_2026_test_basis",
+            "pilot_refractory_result",
+            "pilot_insulation_result",
+            "ore_gangue_effect",
+            "batch_size_interpretation",
         ),
     ),
     (
@@ -1648,6 +2294,7 @@ TECHNICAL_FEATURE_GROUPS = (
             "emissions_per_tonne",
             "infrastructure_requirement",
             "electricity_demand_scenario",
+            "hybrit_demo_power_demand_estimate",
             "economic_assessment",
             "refractory_and_heat_loss",
             "feed_power_control",
@@ -1720,6 +2367,29 @@ TECHNICAL_FEATURE_GROUPS = (
             "campaign_schedule",
             "furnace_design_risk",
             "continued_rd_status",
+            "commissioning_target",
+            "qualification_commitments",
+            "demonstration_financing",
+            "commercialization_target",
+            "latest_pilot_status",
+            "trl_evidence_caveat",
+            "latest_scale_up_plan",
+            "deployment_dependency",
+            "fortescue_stage_status",
+            "fortescue_scale_up_target",
+            "hybrit_industrial_demo_schedule",
+            "hybrit_innovation_fund_status",
+            "hybrit_permit_status",
+            "hybrit_schedule_risk",
+            "stegra_boden_financing",
+            "stegra_boden_schedule_status",
+            "h2plasmared_project_period",
+            "h2plasmared_funding",
+            "h2plasmared_target",
+            "h2plasmared_current_status",
+            "metso_campaign_scale",
+            "metso_commercial_design_claim",
+            "supplier_claim_limit",
         ),
     ),
 )
@@ -1762,8 +2432,22 @@ PROJECT_TIMELINE_PREDICATES = {
     "investment_announcement_date": "투자 의향 발표",
     "schedule_change": "일정·의사결정 변화",
     "target_commercial_operation_date": "목표 상업생산 시점",
+    "target_end_date": "목표 일정",
+    "first_barge_shipment_date": "출하 이력",
+    "co2_conversion_connection_date": "설비 연결",
+    "environmental_permit_grant_date": "허가 이력",
+    "final_government_site_approval_date": "부지 승인",
+    "financing_round_close_date": "자금조달",
+    "target_groundbreaking_date": "목표 일정",
 }
 PROJECT_DISPLAY_NAMES = {
+    "PRJ-ZESTY-ROCKINGHAM-DEMO": "Calix ZESTY Rockingham 3만 t/y 실증 계획",
+    "PRJ-HISARNA-JAMSHEDPUR-DEMO": "Tata Steel Jamshedpur HIsarna 약 100만 t/y 실증 계획",
+    "PRJ-HYBRIT-GALLIVARE-DEMO": "HYBRIT Gällivare 무화석 스펀지철 산업 실증",
+    "PRJ-STEGRA-BODEN": "Stegra Boden 통합 그린스틸 프로젝트",
+    "PRJ-H2PLASMARED-EU": "EU H2PlasmaRed 통합 실증",
+    "PRJ-PURESCRAP-EU-SCRAP-PURITY": "EU PURESCRAP 스크랩 순도 검증",
+    "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT": "ArcelorMittal Gent MHI CO2 포집·전환 파일럿",
     "PRJ-BIOIRON-WA-RD": "BioIron 연구개발 시설 (Western Australia)",
     "PRJ-ELECTRA-CLEAN-IRON-DEMO": "Electra 청정철 시범공장",
     "PRJ-HY4SMELT": "HY4Smelt 실증 프로젝트",
@@ -1907,6 +2591,59 @@ MEDIA_DISPLAY_OVERRIDES = {
     # smart-steelworks dossier than a generic manufacturing-twin image.
     "MED-C33AA7D4CB6D": {
         "hero_priority": -20,
+    },
+    # Superseded AI concept images remain in immutable evidence records, but
+    # corrected process-flow versions are the only reader-facing variants.
+    "MED-7B53D844AF8D": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-0899E249E8FA": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-1D4B045DD76D": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-667CEDEE9C8F": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-23BDA82376B5": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-EC43E3167DA9": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-49CEB753F6E6": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-8C16D5A1B89E": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-D0FBFEAE165E": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-F5940F4D2FEC": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    "MED-52C2D1320144": {
+        "display_eligible": False,
+        "hero_eligible": False,
+    },
+    # This intermediate smart-steelworks redraw still allowed a visual bypass
+    # around the single operator-approval path. Preserve it for provenance,
+    # but do not publish it as a control architecture.
+    "MED-6FA3CF1F55A0": {
+        "display_eligible": False,
+        "hero_eligible": False,
     },
 }
 SOURCE_DISPLAY_CORRECTIONS = {
@@ -2806,6 +3543,8 @@ def add_image(args: argparse.Namespace) -> dict[str, Any]:
     record_path, record = source_record_by_id(root, args.source_id)
     image_file_value = getattr(args, "image_file", None)
     image_url_value = getattr(args, "image_url", None)
+    display_width = getattr(args, "display_width", None)
+    hero_priority = getattr(args, "hero_priority", None)
     if bool(image_file_value) == bool(image_url_value):
         raise ValueError("Provide exactly one of --image-file or --image-url")
     if args.kind not in MEDIA_KINDS:
@@ -2822,6 +3561,10 @@ def add_image(args: argparse.Namespace) -> dict[str, Any]:
         raise ValueError("rights_status=ai_generated requires kind=ai_reconstruction")
     if args.rights_status == "link_only" and not image_url_value:
         raise ValueError("link_only images require --image-url")
+    if display_width not in {None, "compact", "detail"}:
+        raise ValueError("display_width must be compact or detail")
+    if hero_priority is not None and not -1000 <= int(hero_priority) <= 1000:
+        raise ValueError("hero_priority must be between -1000 and 1000")
     subject_ids = list(
         dict.fromkeys(
             str(item).strip()
@@ -2892,6 +3635,12 @@ def add_image(args: argparse.Namespace) -> dict[str, Any]:
             "content_sha256": fingerprint if data is not None else None,
             "local_path": local_relative.as_posix() if local_relative else None,
             **({"subject_ids": subject_ids} if subject_ids else {}),
+            **({"display_width": display_width} if display_width else {}),
+            **(
+                {"hero_priority": int(hero_priority)}
+                if hero_priority is not None
+                else {}
+            ),
         }
     )
     write_json(record_path, record)
@@ -2975,6 +3724,33 @@ def media_width_class(media: dict[str, Any]) -> str:
     return ".steel-media-compact"
 
 
+def source_ids_with_subject_media(
+    source_ids: list[str],
+    sources_by_id: dict[str, dict[str, Any]],
+    subject_id: str | None,
+) -> list[str]:
+    """Include explicitly scoped media even when its source supports a related subject."""
+    ordered = list(dict.fromkeys(source_ids))
+    if not subject_id:
+        return ordered
+    seen = set(ordered)
+    for source_id, source in sources_by_id.items():
+        if source_id in seen:
+            continue
+        if any(
+            subject_id
+            in {
+                str(item)
+                for item in media.get("subject_ids", [])
+                if str(item)
+            }
+            for media in source.get("images", [])
+        ):
+            ordered.append(source_id)
+            seen.add(source_id)
+    return ordered
+
+
 def media_gallery_lines(
     source_ids: list[str],
     sources_by_id: dict[str, dict[str, Any]],
@@ -2984,7 +3760,9 @@ def media_gallery_lines(
     items: list[tuple[str, dict[str, Any]]] = []
     seen: set[str] = set()
     excluded = excluded_media_ids or set()
-    for source_id in source_ids:
+    for source_id in source_ids_with_subject_media(
+        source_ids, sources_by_id, subject_id
+    ):
         for media in sources_by_id.get(source_id, {}).get("images", []):
             media_id = str(media.get("media_id", ""))
             display_media = media_for_display(media)
@@ -3068,7 +3846,9 @@ def representative_image_lines(
         kind: index for index, kind in enumerate(preferred_kinds)
     }
     candidates: list[tuple[int, int, int, str, dict[str, Any]]] = []
-    for source_id in source_ids:
+    for source_id in source_ids_with_subject_media(
+        source_ids, sources_by_id, subject_id
+    ):
         for raw_media in sources_by_id.get(source_id, {}).get("images", []):
             media = media_for_display(raw_media)
             if (
@@ -4036,6 +4816,7 @@ def technology_company_dossier_lines(
                 "",
             ]
         )
+        rendered_feature_predicates: set[str] = set()
         for group_label, group_predicates in TECHNICAL_FEATURE_GROUPS:
             group_claims = [
                 (predicate, technical_claims[predicate])
@@ -4058,6 +4839,60 @@ def technology_company_dossier_lines(
                 f"{claim_source_footnote_references(claim)} | "
                 f"{claim_evidence_label(claim, sources_by_id)} |"
                 for predicate, claim in group_claims
+            )
+            rendered_feature_predicates.update(
+                predicate for predicate, _ in group_claims
+            )
+            lines.append("")
+        already_presented_predicates = {
+            "technical_definition",
+            "operating_temperature",
+            "product_form",
+            "product_purity",
+            "metallization",
+            "product_carbon",
+            "feedstock_scope",
+            "hydrogen_consumption",
+            "energy_intensity_estimate",
+            "development_stage",
+            "downstream_route",
+            "core_reaction",
+            "process_principle",
+            "cell_configuration",
+            "reactor_configuration",
+        } | rendered_feature_predicates
+        additional_claims = sorted(
+            (
+                (predicate_name, claim)
+                for predicate_name, claim in technical_claims.items()
+                if predicate_name not in already_presented_predicates
+            ),
+            key=lambda item: (
+                PREDICATE_LABELS.get(
+                    item[0],
+                    item[0].replace("_", " "),
+                ).casefold(),
+                item[0],
+            ),
+        )
+        if additional_claims:
+            lines.extend(
+                [
+                    "### 최신 실증·검증 정보",
+                    "",
+                    "기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 "
+                    "보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.",
+                    "",
+                    "| 구분 | 공개된 내용 | 근거 성격 |",
+                    "| --- | --- | --- |",
+                ]
+            )
+            lines.extend(
+                f"| **{PREDICATE_LABELS.get(predicate_name, predicate_name.replace('_', ' '))}** | "
+                f"{markdown_cell(humanize_claim_value(claim.get('value', '')))} "
+                f"{claim_source_footnote_references(claim)} | "
+                f"{claim_evidence_label(claim, sources_by_id)} |"
+                for predicate_name, claim in additional_claims
             )
             lines.append("")
         lines.extend(["", "## 공개 개발 연혁", ""])
@@ -4228,6 +5063,52 @@ def technology_company_dossier_lines(
             f"- {markdown_cell(point)}"
             for point in posco_implications
         )
+    sensing_dashboard = TECHNOLOGY_SENSING_DASHBOARDS.get(technology, {})
+    leading_indicators = tuple(
+        detail.get("leading_indicators")
+        or sensing_dashboard.get("leading_indicators")
+        or ()
+    )
+    warning_signals = tuple(
+        detail.get("warning_signals")
+        or sensing_dashboard.get("warning_signals")
+        or ()
+    )
+    decision_questions = tuple(
+        detail.get("decision_questions")
+        or sensing_dashboard.get("decision_questions")
+        or ()
+    )
+    if leading_indicators or warning_signals or decision_questions:
+        lines.extend(
+            [
+                "",
+                "## 12–36개월 기술 센싱 대시보드",
+                "",
+                "!!! info \"AI 분석 — 연구·전략 의사결정용\"",
+                "",
+                "    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 "
+                "관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.",
+                "",
+            ]
+        )
+        if leading_indicators:
+            lines.extend(["### 성숙도 승격 신호", ""])
+            lines.extend(
+                f"- {markdown_cell(item)}" for item in leading_indicators
+            )
+            lines.append("")
+        if warning_signals:
+            lines.extend(["### 지연·실패 신호", ""])
+            lines.extend(
+                f"- {markdown_cell(item)}" for item in warning_signals
+            )
+            lines.append("")
+        if decision_questions:
+            lines.extend(["### POSCO 판단 질문", ""])
+            lines.extend(
+                f"- {markdown_cell(item)}" for item in decision_questions
+            )
     lines.extend(["", source_heading, ""])
     for source_id in all_source_ids:
         record = sources_by_id.get(source_id, {})
@@ -5474,7 +6355,7 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
         review_lines.append("")
     if not pending_records:
         review_lines.append("- 검토 대기 항목이 없습니다.")
-    atomic_write_text(root / "REVIEW.md", "\n".join(review_lines) + "\n")
+    atomic_write_text(root / "REVIEW.md", "\n".join(review_lines).rstrip() + "\n")
 
     recent_changes: list[tuple[str, str, str, str]] = []
     for claim in claims:
@@ -5698,12 +6579,15 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
         "flowchart LR",
         '  ore["철광석·미분광"] --> hdri["수소 DRI"]',
         '  ore --> fine["무펠릿 미분광<br/>수소환원"]',
+        '  ore --> zesty["ZESTY 수소<br/>플래시 환원"]',
+        '  ore --> hisarna["HIsarna 사이클론<br/>용융환원"]',
         '  ore --> aqueous["저온 수계<br/>전해제철"]',
         '  ore --> moe["용융산화물<br/>전기분해"]',
         '  ore --> plasma["수소 플라즈마<br/>제련"]',
         '  ore --> bio["마이크로웨이브·<br/>바이오매스 제철"]',
         '  hdri --> esf["전기용융로"]',
         "  fine --> esf",
+        "  zesty --> esf",
         '  scrap["철스크랩"] --> clean["스크랩 불순물 제거"]',
         '  clean --> eaf["고급강 EAF"]',
         "  esf --> eaf",
@@ -5714,6 +6598,7 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
         "  ccus --> low",
         "  plasma --> low",
         "  bio --> low",
+        "  hisarna --> low",
         '  smart["스마트 제철소"] -. "전 공정 최적화" .-> low',
         "  classDef feed fill:#F5F6F7,stroke:#9BA2AD,color:#20242C",
         "  classDef process fill:#EDF2FB,stroke:#3F66C9,color:#20242C",
@@ -5721,7 +6606,7 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
         "  classDef enabler fill:#FFFFFF,stroke:#3F66C9,color:#3158B8,stroke-dasharray:5 3",
         "  classDef outcome fill:#3F66C9,stroke:#3158B8,color:#FFFFFF",
         "  class ore,scrap,bf feed",
-        "  class hdri,fine,aqueous,moe,plasma,bio,esf,ccus process",
+        "  class hdri,fine,zesty,hisarna,aqueous,moe,plasma,bio,esf,ccus process",
         "  class clean,eaf circular",
         "  class smart enabler",
         "  class low outcome",
@@ -6589,8 +7474,17 @@ def audit_store(args: argparse.Namespace) -> dict[str, Any]:
         if not raw_path.is_file():
             findings["source_integrity"].append(f"{source_id}: raw file missing")
         else:
-            current_hash = raw_sha256(raw_path.read_bytes())
-            if current_hash != record.get("raw_sha256"):
+            raw_bytes = raw_path.read_bytes()
+            current_hash = raw_sha256(raw_bytes)
+            # Git may materialize tracked Markdown with CRLF on Windows even
+            # though the immutable source was registered and hashed with LF.
+            # Accept only that transport-level newline conversion; all other
+            # byte changes must still fail the integrity audit.
+            lf_hash = raw_sha256(raw_bytes.replace(b"\r\n", b"\n"))
+            if (
+                current_hash != record.get("raw_sha256")
+                and lf_hash != record.get("raw_sha256")
+            ):
                 findings["source_integrity"].append(
                     f"{source_id}: raw file hash changed"
                 )
@@ -7013,6 +7907,16 @@ def build_parser() -> argparse.ArgumentParser:
     image_parser.add_argument("--caption", required=True)
     image_parser.add_argument("--alt-text")
     image_parser.add_argument("--creator")
+    image_parser.add_argument(
+        "--display-width",
+        choices=("compact", "detail"),
+        help="Display ordinary photos compactly or technical diagrams at detail width.",
+    )
+    image_parser.add_argument(
+        "--hero-priority",
+        type=int,
+        help="Lower values take precedence when selecting the representative image.",
+    )
     image_parser.add_argument(
         "--subject-id",
         action="append",

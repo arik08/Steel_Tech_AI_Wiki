@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-441AD7323B65",
+  "subject_id": "PRJ-METSO-PORI-DRI-SMELTING-PILOT",
+  "predicate": "pilot_hot_metal_capacity_tph",
+  "value": "approximately 1 t/h nominal",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-9F7FF95C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "공급사 명목 용량이며 장기 평균 생산량이 아님",
+      "source_ids": [
+        "SRC-20260727-9F7FF95C"
+      ]
+    }
+  ]
+}

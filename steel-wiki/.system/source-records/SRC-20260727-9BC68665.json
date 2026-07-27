@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-20260727-9BC68665",
+  "title": "Advancing hydrogen plasma smelting reduction: Experimental insights from a pilot plant",
+  "url": "https://doi.org/10.1051/mattech/2025029",
+  "canonical_url": "https://doi.org/10.1051/mattech/2025029",
+  "publisher": "Materiaux & Techniques / EDP Sciences",
+  "published_at": null,
+  "collected_at": "2026-07-27",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "9bc686651da1e05767b1e06e5d8e2e02e5e6fa21db50311c442dd8e073dc25a8",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Bernhard Adami",
+      "Manuel A. Farkas",
+      "Johannes Schenk",
+      "Michael A. Zarl"
+    ],
+    "venue": "Materiaux & Techniques",
+    "doi": "10.1051/mattech/2025029",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "ac69e7ce96b1222be8143d3d632a3c3a25ccf147232bb0b390ed38905554fcb3",
+  "raw_path": ".system/raw/SRC-20260727-9BC68665.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

@@ -14,7 +14,46 @@
   "raw_path": ".system/raw/SRC-20260725-2EABD949.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": [],
+  "images": [
+    {
+      "media_id": "MED-23BDA82376B5",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 고로·열풍로 배가스의 집진·전처리, CO2 분리·용매 재생, 압축·수송과 활용·저장 경로를 한 화면에 정리한 개념도. 특정 제철소의 준공도(as-built)가 아님.",
+      "alt_text": "고로와 열풍로 배가스가 가스 정제, CO2 흡수·재생, 압축을 거쳐 활용 또는 저장으로 분기되고 정제가스 일부는 공정으로 재순환되는 AI 개념도",
+      "creator": "OpenAI image generation / Codex",
+      "image_url": null,
+      "origin_url": "https://ieaghg.org/publications/iron-and-steel-ccs-study-techno-economics-integrated-steel-mill",
+      "rights_status": "ai_generated",
+      "rights_note": "IEAGHG와 공식 공정자료의 기능 블록을 종합한 AI 재구성입니다. 특정 흡수제·설비 배치·포집률 또는 상용 운전을 입증하지 않습니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "23bda82376b526c5d89e16cb6bfd0413cca462055229e89ad3c1e2f4f827ee11",
+      "local_path": "assets/media/SRC-20260725-2EABD949/MED-23BDA82376B5.png",
+      "subject_ids": [
+        "TEC-blast-furnace-ccus"
+      ],
+      "display_width": "detail",
+      "hero_priority": -100
+    },
+    {
+      "media_id": "MED-EFBC900681FA",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 고로 상부가스를 집진·조정한 뒤 용매 흡수로 CO2를 분리하고, rich/lean solvent 재생루프와 재생탑 상부의 농축 CO2 압축·수송·저장/활용 경계를 분리한 대표 구성. 처리 가스의 연료사용·재순환 여부와 포집기술은 사이트별 설계에 따라 달라지며 실제 제철소의 준공도나 P&ID가 아니다.",
+      "alt_text": "고로 상부가스 집진 조정, CO2 흡수와 용매 재생, CO2 압축 수송 저장 활용 분기를 나타낸 BF CCUS AI 개념도",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://ieaghg.org/publications/iron-and-steel-ccs-study-techno-economics-integrated-steel-mill",
+      "rights_status": "ai_generated",
+      "rights_note": "IEAGHG 통합제철소 CCS 연구와 공개 고로 가스 포집 사례를 바탕으로 2026-07-27 생성한 대표 공정 개념도다. 용매 종류, 포집률, 재생열, 가스 재순환율, 압력과 배관은 특정 설비 성능값이 아니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "efbc900681fa688a94649e2c07c64b2b1994f6ed23938d9fdd6633b132860daf",
+      "local_path": "assets/media/SRC-20260725-2EABD949/MED-EFBC900681FA.png",
+      "subject_ids": [
+        "TEC-blast-furnace-ccus"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200
+    }
+  ],
   "academic": {
     "kind": "research_report",
     "authors": [

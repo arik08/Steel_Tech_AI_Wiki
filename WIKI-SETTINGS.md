@@ -24,6 +24,7 @@
 - Nucor
 - voestalpine
 - Rio Tinto
+- Calix Ltd
 
 ## 우선 기술
 
@@ -38,8 +39,19 @@
 - hydrogen-based fine-ore reduction
 - hydrogen plasma smelting reduction
 - microwave biomass ironmaking
+- zesty hydrogen flash reduction
+- hisarna cyclone smelting reduction
 
 ## 우선 프로젝트
+
+- Calix ZESTY Rockingham Green Iron Demonstration Plant
+- Tata Steel HIsarna Jamshedpur Demonstration Plant
+- HYBRIT Gällivare Industrial Demonstration Plant
+- Stegra Boden Green Steel Plant
+- EU H2PlasmaRed
+- Metso Pori DRI Smelting Furnace Pilot
+- EU PURESCRAP
+- ArcelorMittal Gent MHI Carbon Capture and D-CRBN Pilot
 
 ## 우선 국가
 

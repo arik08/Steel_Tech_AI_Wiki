@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3133E1264789",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "pilot_fbr_introduction_year",
+  "value": "2023",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-A39F1D70"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "실제 유동환원 시험로 도입 연도",
+      "source_ids": [
+        "SRC-20260727-A39F1D70"
+      ]
+    }
+  ]
+}

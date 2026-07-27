@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8C0B11909846",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "fortescue_der_process_route",
+  "value": "Pilbara 철광석을 130°C 미만 알칼리 전해질의 고체 슬러리 전해조에서 환원하는 저온 DER 연구 경로",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-12-22",
+  "last_verified": "2025-12-22",
+  "source_ids": [
+    "SRC-20260727-3D412017"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-12-22",
+      "action": "created",
+      "reason": "ARENA final report defines a distinct real-ore alkaline slurry route.",
+      "source_ids": [
+        "SRC-20260727-3D412017"
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · **마이크로웨이브·바이오매스 환원제철 (BioIron) · 현재**
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · **마이크로웨이브·바이오매스 환원제철 (BioIron) · 현재**
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![마이크로웨이브 발생기와 도파관, 질소 공급, 반응 캐비티 내부 브리켓을 표시한 특허 실험장치도](<https://patentimages.storage.googleapis.com/94/09/e2/0ec72830c4b438/US11959153-20240416-D00005.png>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![마이크로웨이브 바이오매스 환원제철 연구 공정과 확대 병목 AI 개념도](../assets/media/SRC-20260725-D965F782/MED-7220FCC31DD9.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — US11959153B2 Figure 8: 2 kW 마이크로웨이브 발생기, 자동 튜너, 도파관, PC 제어, 질소 공급·배가스 배출, 내화물과 바이오매스-철광석 브리켓을 포함한 실험 처리장치 (특허 도면 · 권리 `link_only` · 출처 [[sources/SRC-20260725-D965F782|SRC-20260725-D965F782]] · [원문 페이지](https://patents.google.com/patent/US11959153B2/en))*
+*대표 이미지 — AI 재구성 — 미분광·바이오매스 브리켓, 예건조, 마이크로웨이브 환원, 가스/char 분리, DRI 냉각과 후단 용융의 연구 공정 개념도. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-D965F782|SRC-20260725-D965F782]] · [원문 페이지](https://patents.google.com/patent/US11959153B2/en))*
 
 !!! abstract "한눈에 보기"
 
@@ -161,6 +161,15 @@ flowchart TB
 | **노 설계 확대 위험** | 현재 노 설계는 기술 위험 최소화와 성능 최적화를 위한 추가 개발이 필요하다는 Rio Tinto 공식 판단 [^src-20260725-c925bf86] | 회사 발표 |
 | **건설 중단 후 R&D** | 파일럿 건설은 중단됐지만 University of Nottingham·Metso와 BioIron 기술개발은 계속 [^src-20260725-c925bf86] | 회사 발표 |
 
+### 최신 실증·검증 정보
+
+기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **대표 설비 참고** | US11959153B2 Figure 8 실험장치 및 Figure 14 공정 블록도; 독일 파일럿·서호주 1 t/h 준공도는 아님 [^src-20260725-d965f782] | 특허 |
+| **시간당 처리능력** | 중단 전 서호주 준산업 파일럿 설계능력 약 1 tonne DRI/h [^src-20260725-f1d3edea] | 회사 발표 |
+
 
 ## 공개 개발 연혁
 
@@ -176,6 +185,13 @@ flowchart TB
 | 2025-11-17 | Rio Tinto pauses BioIron pilot construction [^src-20260725-c925bf86] |
 
 ## 설비·공정 이미지
+
+![마이크로웨이브 발생기와 도파관, 질소 공급, 반응 캐비티 내부 브리켓을 표시한 특허 실험장치도](<https://patentimages.storage.googleapis.com/94/09/e2/0ec72830c4b438/US11959153-20240416-D00005.png>){ .steel-media-image .steel-media-compact }
+
+**특허 도면.** US11959153B2 Figure 8: 2 kW 마이크로웨이브 발생기, 자동 튜너, 도파관, PC 제어, 질소 공급·배가스 배출, 내화물과 바이오매스-철광석 브리켓을 포함한 실험 처리장치
+
+- 출처 [[sources/SRC-20260725-D965F782|SRC-20260725-D965F782]] · 권리 `link_only` · [원문 페이지](https://patents.google.com/patent/US11959153B2/en) · 작성·촬영 Rio Tinto Services Limited / Michael Buckley
+- 권리 메모: 특허 원문의 Figure 8을 원격 링크로만 표시합니다. 독일 파일럿이나 서호주 1 t/h 선형 노상로의 준공도는 아닙니다.
 
 ![브리켓 예열과 마이크로웨이브 환원 챔버, 질소 공급 및 고체 제품 배출을 보여주는 특허 공정도](<https://patentimages.storage.googleapis.com/71/27/c7/5b911d8f373789/US11959153-20240416-D00008.png>){ .steel-media-image .steel-media-compact }
 
@@ -232,6 +248,29 @@ flowchart TB
 - 브리켓 내부 환원은 FINEX·HyREX의 미분 유동층과 달리 원료 성형을 다시 도입합니다. 기존 제철소의 브리켓·분진 재활용 경험을 활용할 수 있으나, 농업잔사 계절성·회분·알칼리·염소·수분과 장거리 물류는 별도 공급망 리스크입니다.
 - 마이크로웨이브 발생기·도파관·혼·차폐·반사전력 계측은 기존 전기로 전력설비와 다른 역량입니다. 시험한다면 작은 회분 실험보다 연속 이동층에서 층고·상변화에 따른 전자장 분포와 브리켓 온도 편차를 계측하는 것이 우선입니다.
 - 현재 단계에서는 BioIron을 HyREX 대체 상용안으로 보기보다, 저수소 지역의 장기 선택지이자 바이오탄소·마이크로웨이브 결합 벤치마크로 관리하는 편이 타당합니다. 재개 조건은 신규 노 설계, 지속 운전시간, 전력·바이오매스 원단위, LCA, 후단 용융 제품 품질의 공개입니다.
+
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 중단 원인을 반영한 노 설계 freeze, 신규 부지·허가·FID와 연속 파일럿 재착수 일정이 확인
+- 최대 12개 혼의 전자장·온도 균일도, 연속 브리켓 이송·붕괴, 금속화율·Fe 수율·제품 탄소와 완전 물질수지를 공개
+- 전력·천연가스·바이오매스 원단위, 타르·분진·슬래그 및 공급망 지속가능성을 동일 캠페인으로 검증
+
+### 지연·실패 신호
+
+- ‘R&D 지속’ 문구만 있고 redesign·재허가·재착수의 구체 이정표가 없음
+- 소형 batch의 전력 또는 감축 최고값을 1 t/h 연속 설비로 확대하면서 전자장·열·가스 균일도와 공급망을 제외
+
+### POSCO 판단 질문
+
+- Rio Tinto의 노 설계·전자장·브리켓층 위험이 POSCO 연구에 어떻게 재현되는가?
+- 재착수 전 최소 gate를 연속운전 시간, 금속화율, Fe 수율, 에너지수지 중 어떤 조합으로 둘 것인가?
+- 직접 투자보다 redesign·파트너·특허 움직임을 추적하는 option-value 전략이 현재 단계에 더 적절한가?
 
 ## 출처
 

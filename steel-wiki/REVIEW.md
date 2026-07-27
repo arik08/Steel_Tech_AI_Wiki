@@ -2,6 +2,36 @@
 
 # Review Queue
 
-미해결 검토: **0건**
+미해결 검토: **4건**
 
-- 검토 대기 항목이 없습니다.
+## REV-CLM-95B477FAC44B
+
+- 유형: `claim_conflict`
+- 주체: PRJ-ARCELORMITTAL-VOLTERON
+- 속성: `project_status`
+- 허용 결정: `supersede`, `keep-existing`, `coexist`, `dispute`, `reject`
+- 제안 값: **1 m² 파일럿은 2025년 4월부터 운전 중이라는 JRC 기록이 있으나, 40 kt/y 이상 scale-up plant의 착공·가동은 여전히 확인되지 않음**
+
+## REV-CLM-E2166F3218D2
+
+- 유형: `claim_conflict`
+- 주체: PRJ-PURESCRAP-EU-SCRAP-PURITY
+- 속성: `target_end_date`
+- 허용 결정: `supersede`, `keep-existing`, `coexist`, `dispute`, `reject`
+- 제안 값: **2026-06, 정확한 일자는 미공개**
+
+## REV-CLM-E5FB7F8F9E88
+
+- 유형: `claim_conflict`
+- 주체: PRJ-ARCELORMITTAL-VOLTERON
+- 속성: `performance_disclosure_limit`
+- 허용 결정: `supersede`, `keep-existing`, `coexist`, `dispute`, `reject`
+- 제안 값: **3.5–4.3 MWh/t 추정치는 공개됐지만 상업규모 실측 전력원단위·장기 연속운전·전극수명·가동률·제품 품질 합격률은 확인되지 않음**
+
+## REV-CLM-FEDE194FC786
+
+- 유형: `claim_conflict`
+- 주체: PRJ-SUSTEEL-DONAWITZ
+- 속성: `pilot_batch_size`
+- 허용 결정: `supersede`, `keep-existing`, `coexist`, `dispute`, `reject`
+- 제안 값: **2026 논문이 기술한 설비·시험 규모 약 100 kg iron ore/trial**

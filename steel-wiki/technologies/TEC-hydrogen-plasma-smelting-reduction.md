@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · **수소 플라즈마 용융환원 (HPSR) · 현재** · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · **수소 플라즈마 용융환원 (HPSR) · 현재** · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![중공 전극에서 아르곤·수소·미분광을 투입하고 플라즈마 아크로 환원·용융하는 HPSR 반응기 내부 구성도](<https://www.k1-met.com/fileadmin/_processed_/a/9/csm_220127_SuSteel_EN.jpg_9ed9be70f3.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![철광석 단일 투입, 수소 아르곤 플라즈마 토치와 DC 아크, 환원 용융, 슬래그와 용선 출탕, 수소 재순환을 나타낸 HPSR AI 개념도](../assets/media/SRC-20260725-A0AC41D7/MED-DE2C759D0EE0.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — SuS-F 공식 HPSR 반응기 구성도: 중공 흑연전극을 통한 미분광·Ar·H2 공급, 직류 플라즈마 아크, 용융욕, 출강과 배가스 계통 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-A0AC41D7|SRC-20260725-A0AC41D7]] · [원문 페이지](https://www.k1-met.com/en/non_comet/sus_f))*
+*대표 이미지 — AI 재구성 — 단일 철광석 투입, H2/Ar 플라즈마 가스와 DC 아크, 동일 용기 내 1단 환원·용융, 상부 슬래그와 하부 용선의 분리 출탕, 배가스 집진·제습·수소 회수·보충가스 합류를 하나의 시험계통으로 나타낸 HPSR 개념도. 전극·내화물 수명과 철 증발 손실은 핵심 검증항목이며 실제 SuSteel/H2PlasmaRed 설비의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-A0AC41D7|SRC-20260725-A0AC41D7]] · [원문 페이지](https://www.k1-met.com/en/projects/susteel))*
 
 !!! abstract "한눈에 보기"
 
@@ -46,7 +46,7 @@
 여기서 HPSR은 일반 수소 DRI나 전기용융로와 구분합니다. 수소가 환원제인 동시에 플라즈마 아크가 용융 열원을 제공하며, 용융욕과 플라즈마의 계면에서 최종 환원이 일어납니다. ‘단일단계’는 보조 예열·사전환원·배가스 회수까지 불필요하다는 뜻이 아니며, 확대 설계는 오히려 이 전단·후단 통합을 검토합니다.
 
 - **근거 확인 기업:** 1개
-- **직접 연결 근거:** 11건
+- **직접 연결 근거:** 13건
 
 ## 작동 원리
 
@@ -148,6 +148,15 @@ flowchart TB
 | **상용 규모 확대 조건** | 연속 광석 공급·출강, 아크 안정성, H2·Ar·배가스 수지, 전극·내화물 수명, 철 증발과 장기 가동률 검증이 상용 확대 조건 [^src-20260725-973f138f] | 정부·공공자료 |
 | **파일럿 회분 투입량** | 2025 검토 논문은 기존 실증 반응기의 광석 회분 용량을 200 kg/trial로 기술 [^src-20260725-1f1ea152] | 학술지 논문 |
 
+### 최신 실증·검증 정보
+
+기존 분류표에 속하지 않는 최신 공개 결과와 확대 계획을 별도로 보존합니다. 목표·계획 문구는 달성 실적으로 해석하지 않습니다.
+
+| 구분 | 공개된 내용 | 근거 성격 |
+| --- | --- | --- |
+| **기술성숙도** | 2025 Processes 논문 저자 평가 TRL 5; SuS-F 공식 목표는 TRL 7이며 달성 확인과 구분 [^src-20260725-1f1ea152] | 학술지 논문 |
+| **플라즈마 안정화 가스** | 아르곤을 플라즈마 안정화 가스로 사용 [^src-20260725-1f1ea152] | 학술지 논문 |
+
 
 ## 공개 개발 연혁
 
@@ -159,7 +168,18 @@ flowchart TB
 | 2025-02-05 | Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction [^src-20260725-1f1ea152] |
 | 2025-05-05 | Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach [^src-20260726-443630de] |
 | 2025-06-02 | In Situ Observation of Sustainable Hematite-Magnetite-Wustite-Iron Hydrogen Plasma Reduction [^src-20260725-4333339b] |
+| 2025-10-28 | Hydrogen Plasma Reduction for Steelmaking and Circular Economy - H2PlasmaRed periodic report [^src-20260727-f628e684] |
 | 2026-06-04 | Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz [^src-20260725-f2f9bb6e] |
+
+## 설비·공정 이미지
+
+![중공 전극에서 아르곤·수소·미분광을 투입하고 플라즈마 아크로 환원·용융하는 HPSR 반응기 내부 구성도](<https://www.k1-met.com/fileadmin/_processed_/a/9/csm_220127_SuSteel_EN.jpg_9ed9be70f3.png>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** SuS-F 공식 HPSR 반응기 구성도: 중공 흑연전극을 통한 미분광·Ar·H2 공급, 직류 플라즈마 아크, 용융욕, 출강과 배가스 계통
+
+- 출처 [[sources/SRC-20260725-A0AC41D7|SRC-20260725-A0AC41D7]] · 권리 `link_only` · [원문 페이지](https://www.k1-met.com/en/non_comet/sus_f) · 작성·촬영 K1-MET GmbH
+- 권리 메모: K1-MET 공식 SuS-F 프로젝트 페이지에서 원본 도식과 HPSR process schematic 캡션을 확인했습니다. 재사용 권한은 별도 확인하지 않아 원문 링크만 보존합니다.
+
 
 ## 기업별 상세 현황
 
@@ -179,6 +199,7 @@ flowchart TB
 | --- | --- | --- |
 | **[[projects/PRJ-SUSTEEL-DONAWITZ|voestalpine Donawitz SuSteel·SuS-F]]** | Donawitz SuSteel 시험설비에서 수소 플라즈마 단일단계 조강 생산 시험을 수행 중; 연속화·수소공급·가스회수 연구 단계 [^src-20260725-f2f9bb6e] | - |
 | **[[projects/PRJ-LIGHTBOW-HPSR-CONTROL|LIGHTBOW HPSR 아크 제어 연구]]** | HPSR 연속 투입 중 아크 출력의 모델 기반 제어를 개발하는 FFG 진행 프로젝트 [^src-20260725-973f138f] | - |
+| **[[projects/PRJ-H2PLASMARED-EU|EU H2PlasmaRed 통합 실증]]** | 현재 상태 Claim 미등록 | - |
 
 ## 기술적 쟁점과 미공개 데이터
 
@@ -210,6 +231,29 @@ flowchart TB
 - Donawitz의 200 kg/h 연속화 목표는 POSCO 1 t/h ESF와 단순 용량 비교가 불가능합니다. HPSR은 환원·용융·출강을 포함한 목표 처리량이고, POSCO 수치는 용융 파일럿 처리량입니다. 운전시간·실제 광석량·제품량·금속화·가동률을 정렬한 뒤 비교해야 합니다.
 - 우선 모니터링 지표는 용융욕 질량과 실제품량, 연속 투입·출강 시간, 아크 소호·재점호 횟수, 전압·전류·아크 길이 변동, H₂·Ar·전력 원단위와 가스 회수율, 전극·내화물 소비, 금속화율·Fe 수율·철 증발, 슬래그량·P/S 분배, OES 가용률, 분진·수증기 차폐와 제품 탄소입니다.
 
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 100 kg급 batch 시험에서 5 t DC-EAF 캠페인으로 넘어가 연속 투입·출강, 금속화·철수율·H2/Ar·kWh/t를 함께 공개
+- 아크 안정성·plasma length, Fe 증발·분진, 전극·내화물 마모와 slag-metal 분리를 장기 캠페인에서 검증
+- H2PlasmaRed의 TRL 5→7 목표를 retrofit 완료, 2026 캠페인 결과와 독립 material/energy balance로 입증
+
+### 지연·실패 신호
+
+- 설비 명목 100/200 kg을 달성 처리량으로 혼용하거나 batch charge·무출강 시험을 연속 공정으로 표현
+- 부분환원 90분 시험의 조건부 내화물·단열 개선을 상용 에너지 원단위와 가동률로 확대 해석
+
+### POSCO 판단 질문
+
+- HPSR을 벌크 1차철 경로, EAF retrofit, 저품위광·부산물 처리 중 어느 use case로 집중할 것인가?
+- HyREX–ESF 대비 환원·용융 일체화 편익이 Ar·전극·내화물·Fe 증발 부담을 상쇄하는 조건은 무엇인가?
+- 논문별 100 kg/200 kg 범위 차이를 장치 버전·캠페인별로 어떤 검증 데이터로 해소할 것인가?
+
 ## 출처
 
 - [[sources/SRC-20260725-1F1EA152|Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction]] — Processes / MDPI, 2025-02-05 · [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Adami_2025_-_Strategic_selection_of_a_pre-reduction_reactor_for_increased_hydrogen_utilization_in_hydrogen_plasma_smelting_reduction.pdf)
@@ -223,6 +267,8 @@ flowchart TB
 - [[sources/SRC-20260725-F2F9BB6E|Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz]] — voestalpine AG, 2026-06-04 · [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html)
 - [[sources/SRC-20260725-FE22DEFE|voestalpine researches hydrogen plasma steelmaking in SuSteel]] — voestalpine, 2022-04-27 · [원문](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/)
 - [[sources/SRC-20260726-443630DE|Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach]] — Association for Iron & Steel Technology, 2025-05-05 · [원문](https://imis.aist.org/AISTPapers/Abstracts_Only_PDF/PR-389-235.pdf)
+- [[sources/SRC-20260727-9BC68665|Advancing hydrogen plasma smelting reduction: Experimental insights from a pilot plant]] — Materiaux & Techniques / EDP Sciences, 게시일 미상 · [원문](https://doi.org/10.1051/mattech/2025029)
+- [[sources/SRC-20260727-F628E684|Hydrogen Plasma Reduction for Steelmaking and Circular Economy - H2PlasmaRed periodic report]] — European Commission CORDIS, 2025-10-28 · [원문](https://cordis.europa.eu/project/id/101138228/reporting)
 
 [^src-20260725-1f1ea152]: **Strategic Selection of a Pre-Reduction Reactor for Increased Hydrogen Utilization in Hydrogen Plasma Smelting Reduction** — Processes / MDPI, 2025-02-05. DOI: [10.3390/pr13020420](https://doi.org/10.3390/pr13020420). [원문](https://www.k1-met.com/fileadmin/user_upload/Publications/Adami_2025_-_Strategic_selection_of_a_pre-reduction_reactor_for_increased_hydrogen_utilization_in_hydrogen_plasma_smelting_reduction.pdf) · [[sources/SRC-20260725-1F1EA152|보관 원문·메타데이터]]
 [^src-20260725-2fa1b498]: **Project SuSteel: Sustainable steel production utilising hydrogen** — K1-MET GmbH, 게시일 미상. [원문](https://www.k1-met.com/en/non_comet/susteel) · [[sources/SRC-20260725-2FA1B498|보관 원문·메타데이터]]
@@ -234,3 +280,4 @@ flowchart TB
 [^src-20260725-f2f9bb6e]: **Application of SuSteel technology and operation of the SuSteel pilot plant in Donawitz** — voestalpine AG, 2026-06-04. [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) · [[sources/SRC-20260725-F2F9BB6E|보관 원문·메타데이터]]
 [^src-20260725-fe22defe]: **voestalpine researches hydrogen plasma steelmaking in SuSteel** — voestalpine, 2022-04-27. [원문](https://www.voestalpine.com/group/en/media/press-releases/2022-04-27-voestalpine-researching-into-hydrogen-plasma-for-green-steel-production-in-an-international-showcase-project/) · [[sources/SRC-20260725-FE22DEFE|보관 원문·메타데이터]]
 [^src-20260726-443630de]: **Conceptualizing Hydrogen Plasma Reduction for Industrial-Scale Prereduced Iron Ore Smelting: A Scenario-Based Approach** — Association for Iron & Steel Technology, 2025-05-05. DOI: [10.33313/389/243](https://doi.org/10.33313/389/243). [원문](https://imis.aist.org/AISTPapers/Abstracts_Only_PDF/PR-389-235.pdf) · [[sources/SRC-20260726-443630DE|보관 원문·메타데이터]]
+[^src-20260727-f628e684]: **Hydrogen Plasma Reduction for Steelmaking and Circular Economy - H2PlasmaRed periodic report** — European Commission CORDIS, 2025-10-28. [원문](https://cordis.europa.eu/project/id/101138228/reporting) · [[sources/SRC-20260727-F628E684|보관 원문·메타데이터]]

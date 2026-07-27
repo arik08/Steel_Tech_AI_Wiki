@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![고온의 용융금속이 Boston Metal MOE 셀에서 출선되는 모습](<https://www.bostonmetal.com/wp-content/uploads/2025/04/Boston-Metal-MOE-Cell-Tap-Feb-2025.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![다중 불활성 양극, 용융산화물 전해질, 액체철 음극 풀과 산소 발생을 보여 주는 MOE AI 공정도](../assets/media/SRC-20260725-26EA1CBD/MED-49390EFFBA04.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Boston Metal Woburn 다중 불활성 양극 MOE 셀의 2025년 2월 용융금속 출선 장면 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-3C2197EF|SRC-20260725-3C2197EF]] · [원문 페이지](https://www.bostonmetal.com/news/boston-metal-celebrates-historic-commissioning-run-of-moe-green-steel-cell))*
+*대표 이미지 — AI 재구성 — Boston Metal 공개 설명과 학술 근거를 바탕으로 다중 불활성 양극·용융산화물 전해질·액체철 음극 풀·산소 발생·연속 출선을 기능 단위로 재구성한 MOE R&D 공정도. 실제 Woburn 셀 준공도가 아님. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-26EA1CBD|SRC-20260725-26EA1CBD]] · [원문 페이지](https://www.bostonmetal.com/moe-steel))*
 
 !!! abstract "한눈에 보기"
 
@@ -135,6 +135,16 @@ flowchart TB
 | 2025-03-12 | Boston Metal Celebrates Historic Commissioning Run of MOE Green Steel Cell [^src-20260725-3c2197ef] |
 | 2026-07-07 | Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K [^src-20260725-1486633e] |
 
+## 설비·공정 이미지
+
+![고온의 용융금속이 Boston Metal MOE 셀에서 출선되는 모습](<https://www.bostonmetal.com/wp-content/uploads/2025/04/Boston-Metal-MOE-Cell-Tap-Feb-2025.jpg>){ .steel-media-image .steel-media-compact }
+
+**실제 설비 사진.** Boston Metal Woburn 다중 불활성 양극 MOE 셀의 2025년 2월 용융금속 출선 장면
+
+- 출처 [[sources/SRC-20260725-3C2197EF|SRC-20260725-3C2197EF]] · 권리 `link_only` · [원문 페이지](https://www.bostonmetal.com/news/boston-metal-celebrates-historic-commissioning-run-of-moe-green-steel-cell) · 작성·촬영 Boston Metal
+- 권리 메모: Boston Metal 공식 발표의 설비 사진이나 재사용 조건이 명확하지 않아 원문 이미지 링크만 보존
+
+
 ## 기업별 상세 현황
 
 ### [[companies/COM-POSCO|POSCO]]
@@ -190,6 +200,29 @@ flowchart TB
 - HyREX와 달리 수소 제조·저장·수송을 생략할 수 있어 장기 대안 포트폴리오의 옵션 가치가 있습니다. 대신 고온 전해 셀과 불활성 양극의 기술위험이 더 큽니다.
 - POSCO 지원 서울대 연구는 900°C급 저온 MOE의 별도 연구축을 보여줍니다. Boston Metal의 액체 철 경로와 제품 형태·후단 공정이 다르므로 동일 성숙도 선상에서 직접 비교하면 안 됩니다.
 - 우선 모니터링 지표는 셀당 정격 전류와 생산량, 1회 연속운전 시간, 전류효율, kWh/t-Fe, 양극 마모율, 맥석 허용범위, 제품 불순물, 첫 독립 실증부지와 라이선스 계약입니다.
+
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 셀 전류·전압, 전류효율, kWh/t-Fe, 금속·산소 수율을 수백~수천 시간 연속운전과 함께 공개
+- 불활성 양극 부식·전해질 오염·금속 회수·내화물 수명 데이터를 셀 교체 주기와 물질수지로 제시
+- 단일 tap을 넘어 복수 산업 셀의 병렬운전, 제품 규격과 고객 제강시험, 상용 부지 EPC 이정표가 확인
+
+### 지연·실패 신호
+
+- 셀 크기·campaign hours·전류효율 없이 ‘고순도 철’ 또는 투자·제휴 발표만 반복
+- 전력의 탄소집약도, 양극·전해질 보충, 산소 부산물 크레딧을 제외한 선택적 에너지·배출 비교
+
+### POSCO 판단 질문
+
+- MOE를 2030년대 대규모 제선 대체로 볼지, 고순도 철·특수합금용 선도시장 옵션으로 볼지 어떤 실증 gate에서 구분할 것인가?
+- POSCO가 확보해야 할 핵심은 셀 운전, 불활성 양극, 전해질, 출탕·정련 중 어느 IP·공정 패키지인가?
+- 수소계 경로 대비 전력망·원료·제품 가치의 교차점은 어떤 지역과 제품군에서 먼저 형성되는가?
 
 ## 출처
 

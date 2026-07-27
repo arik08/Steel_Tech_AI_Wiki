@@ -10,7 +10,7 @@
 
     **환원·용융 경로**
 
-    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
+    [[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]] · [[technologies/TEC-hydrogen-based-fine-ore-reduction|무펠릿 미분광 수소환원 (Fluidized-bed Hydrogen Reduction)]] · [[technologies/TEC-zesty-hydrogen-flash-reduction|ZESTY 수소 직접 플래시 환원]] · [[technologies/TEC-electric-smelting-furnace|전기용융로 (Electric Smelting Furnace)]] · [[technologies/TEC-hisarna-cyclone-smelting-reduction|HIsarna 사이클론 용융환원]] · [[technologies/TEC-hydrogen-plasma-smelting-reduction|수소 플라즈마 용융환원 (HPSR)]] · [[technologies/TEC-microwave-biomass-ironmaking|마이크로웨이브·바이오매스 환원제철 (BioIron)]]
 
     **전해 기반 경로**
 
@@ -25,9 +25,9 @@
     [[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]] · [[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]
 
 
-![흡수탑과 재생탑으로 구성된 ESCAP 이산화탄소 회수 공정도](<https://www.nipponsteel.com/en/sustainability/img/env_climate_future_im06.webp>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![고로 상부가스 집진 조정, CO2 흡수와 용매 재생, CO2 압축 수송 저장 활용 분기를 나타낸 BF CCUS AI 개념도](../assets/media/SRC-20260725-2EABD949/MED-EFBC900681FA.png){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Nippon Steel ESCAP 화학흡수식 CO2 분리·회수 공정 흐름도 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-1A31BE76|SRC-20260725-1A31BE76]] · [원문 페이지](https://www.nipponsteel.com/en/sustainability/env/climate/future.html))*
+*대표 이미지 — AI 재구성 — 고로 상부가스를 집진·조정한 뒤 용매 흡수로 CO2를 분리하고, rich/lean solvent 재생루프와 재생탑 상부의 농축 CO2 압축·수송·저장/활용 경계를 분리한 대표 구성. 처리 가스의 연료사용·재순환 여부와 포집기술은 사이트별 설계에 따라 달라지며 실제 제철소의 준공도나 P&ID가 아니다. (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-2EABD949|SRC-20260725-2EABD949]] · [원문 페이지](https://ieaghg.org/publications/iron-and-steel-ccs-study-techno-economics-integrated-steel-mill))*
 
 !!! abstract "한눈에 보기"
 
@@ -44,7 +44,7 @@
 이 문서는 고로가스에서 CO2를 분리하는 설비만이 아니라, 고로가스 재순환·산소송풍, 압축·액화·수송, 영구 저장 또는 제품 전환까지의 사슬을 다룹니다. CCU 제품화와 지중 CCS는 탄소의 체류기간과 회계 경계가 다르므로 분리해 봅니다.
 
 - **근거 확인 기업:** 5개
-- **직접 연결 근거:** 18건
+- **직접 연결 근거:** 21건
 
 ## 작동 원리
 
@@ -130,7 +130,10 @@ flowchart TB
 | 2022-09-01 | JFE technical report on carbon-recycling blast furnace [^src-20260725-7e6dfd33] |
 | 2022-12-08 | ArcelorMittal inaugurates Steelanol CCU project at Ghent [^src-20260725-b6fb82e5] |
 | 2023-11-16 | ArcelorMittal announces first industrial production of ethanol at Steelanol [^src-20260725-624e124c] |
+| 2024-05-21 | Carbon capture pilot begins operation at ArcelorMittal Gent [^src-20260727-7863b18f] |
 | 2024-06-12 | Tata Steel FY2023-24 Jamshedpur CCU operating update [^src-20260725-3176f88e] |
+| 2024-07-08 | MHI and D-CRBN connect steelmaking CO2 capture and plasma conversion units [^src-20260727-275a6495] |
+| 2024-12-11 | ArcelorMittal and LanzaTech announce first Steelanol barge shipment [^src-20260727-96f6d922] |
 | 2025-01-06 | JFE Steel 2025 priorities for carbon-neutral technologies [^src-20260725-ec77a362] |
 | 2025-09-29 | Tata Steel Nederland integrated decarbonisation project letter of intent [^src-20260725-789ab58f] |
 | 2026-03-09 | Profitable Decarbonization of the Blast Furnace Through Electrified Top-Gas Recycling [^src-20260726-b392bd57] |
@@ -142,6 +145,13 @@ flowchart TB
 **실제 설비 사진.** Nippon Steel Kimitsu COURSE50·Super COURSE50 시험고로 공식 사진
 
 - 출처 [[sources/SRC-20260725-1A31BE76|SRC-20260725-1A31BE76]] · 권리 `link_only` · [원문 페이지](https://www.nipponsteel.com/en/sustainability/env/climate/future.html) · 작성·촬영 Nippon Steel Corporation / NEDO
+- 권리 메모: 공식 기업 페이지의 원본 이미지를 외부 링크로만 표시하며 복제·재배포 권리는 확인되지 않음
+
+![흡수탑과 재생탑으로 구성된 ESCAP 이산화탄소 회수 공정도](<https://www.nipponsteel.com/en/sustainability/img/env_climate_future_im06.webp>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** Nippon Steel ESCAP 화학흡수식 CO2 분리·회수 공정 흐름도
+
+- 출처 [[sources/SRC-20260725-1A31BE76|SRC-20260725-1A31BE76]] · 권리 `link_only` · [원문 페이지](https://www.nipponsteel.com/en/sustainability/env/climate/future.html) · 작성·촬영 Nippon Steel Corporation
 - 권리 메모: 공식 기업 페이지의 원본 이미지를 외부 링크로만 표시하며 복제·재배포 권리는 확인되지 않음
 
 ![배관과 흡수설비로 구성된 Tata Steel Jamshedpur 고로가스 탄소포집 설비](<https://www.tatasteel.com/media/14387/facillity-pic_1-1.jpg>){ .steel-media-image .steel-media-compact }
@@ -225,6 +235,7 @@ flowchart TB
 | **[[projects/PRJ-TATA-JAMSHEDPUR-BF-CCU|Tata Jamshedpur 고로가스 CCU]]** | 5 t-CO2/day 아민 포집설비가 FY2023-24 기준 1년 이상 24/7 운전됐고, 포집 CO2를 공정 내 활용하며 추가 설비 확대를 검토 중 [^src-20260725-3176f88e] | **일일 CO2 포집능력** 5 t-CO2/day [^src-20260725-46a2055d] |
 | **[[projects/PRJ-STEELANOL-GHENT|ArcelorMittal Ghent Steelanol]]** | 2022-12-08 CCU 플랜트 준공·개소가 확인됐으며, 고로계 탄소함유 부생가스를 바이오촉매로 에탄올화하는 산업 실증 설비 [^src-20260725-b6fb82e5] | **연간 제품 생산능력** 연 80 million litres advanced ethanol, full-capacity nameplate [^src-20260725-b6fb82e5] · **상업 가동 시점** 2023-11-07 첫 산업 규모 에탄올 생산 [^src-20260725-624e124c] |
 | **[[projects/PRJ-CARBON2CHEM-DUISBURG|thyssenkrupp Duisburg Carbon2Chem]]** | 2016년 착수 후 1·2단계를 거쳐, 2028년까지 제3단계 응용 검증·DR 가스 적용·메탄올·수소 연구를 수행 중 [^src-20260725-cd029ab1] | **확인된 실증 규모** 제철소 인접 약 3,700 m2 기술센터에 실제 코크스오븐·고로·전로가스용 정제·흡착·메탄올·암모니아 합성 및 분석 설비를 구성 [^src-20260725-fed4b2d7] |
+| **[[projects/PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT|ArcelorMittal Gent MHI CO2 포집·전환 파일럿]]** | 2024-05-21 공개 기준 ArcelorMittal Gent 고로 정상부 가스에 연결한 MHI Advanced KM CDR Process 파일럿 운전 개시 [^src-20260727-7863b18f] | - |
 
 ## 기술적 쟁점과 미공개 데이터
 
@@ -250,6 +261,29 @@ flowchart TB
 - 국내 저장지 제약을 고려하면 선박 수송을 포함한 해외 저장사슬의 인수 규격, 장기 책임과 비용을 포집 기술과 함께 검증해야 합니다. CCU 파일럿은 저장 부족을 해소하는 보조 경로이지 자동으로 대규모 영구 감축을 보장하지 않습니다.
 - 우선 모니터링 지표는 원료가스 조성·압력, 포집률, CO2 순도, 재생열 GJ/t-CO2, 전력 kWh/t-CO2, 압축·액화 에너지, 연간 이용률, 순회피량, 수송거리, 저장계약 물량, MRV 기준과 톤당 총비용입니다.
 
+## 12–36개월 기술 센싱 대시보드
+
+!!! info "AI 분석 — 연구·전략 의사결정용"
+
+    아래 항목은 공개된 목표가 실제 성과로 전환되는지를 추적하기 위한 관찰 프레임입니다. 정식 TRL 판정이나 투자 권고가 아닙니다.
+
+### 성숙도 승격 신호
+
+- 고로·열연 등 실제 배가스에서 연속운전 시간, 포집률·순도, 용매 열화, 재생열·압축전력을 같은 기간으로 공개
+- 포집장치 연결을 넘어 CO2 운송·영구저장 계약 또는 CCU 제품의 반복 출하·실제 이용률과 전과정 avoided-CO2가 확인
+- Gent 300 kg/day 파일럿의 가스원 확대와 D-CRBN의 CO2→CO 전환율·제품가스 순도·kWh/t-CO가 공개
+
+### 지연·실패 신호
+
+- ‘세계 최초 연결’·첫 바지선 출하만 반복하고 월간 생산량·가동률·물질·에너지수지가 비공개
+- 포집 CO2를 영구저장과 단기 제품전환으로 구분하지 않거나, 증기·전력·압축·수송을 제외한 gross capture만 감축량으로 제시
+
+### POSCO 판단 질문
+
+- 고로 잔존수명 동안 포집·수송·저장 투자를 회수할 수 있는 입지와 시점은 어디인가?
+- 저장망이 없는 제철소에서 에탄올·CO 전환의 반복 오프테이크와 탄소회계가 CCS 대비 경쟁력을 갖는 조건은 무엇인가?
+- Gent의 변동 불순물·용매·플라즈마 결과를 POSCO 고로·열연 배가스 조성에 어떤 시험으로 이전 검증할 것인가?
+
 ## 출처
 
 - [[sources/SRC-20260725-054778AA|JFE Steel carbon-neutral strategy — carbon-recycling blast furnace]] — JFE Steel Corporation, 2022-09-01 · [원문](https://www.jfe-steel.co.jp/en/company/pdf/carbon-neutral-strategy_220901_1.pdf)
@@ -270,6 +304,9 @@ flowchart TB
 - [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]] — JFE Steel Corporation, 2025-01-06 · [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html)
 - [[sources/SRC-20260725-FED4B2D7|Carbon2Chem technical center in Duisburg]] — Fraunhofer UMSICHT, 2018-09-04 · [원문](https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html)
 - [[sources/SRC-20260726-B392BD57|Profitable Decarbonization of the Blast Furnace Through Electrified Top-Gas Recycling]] — Association for Iron & Steel Technology, 2026-03-09 · [원문](https://www.aist.org/getmedia/7b039809-54af-40f1-9c74-1a9df73d4c82/Profitable-Decarbonization-of-the-Blast-Furnace-updated.pdf)
+- [[sources/SRC-20260727-275A6495|MHI and D-CRBN connect steelmaking CO2 capture and plasma conversion units]] — Mitsubishi Heavy Industries, 2024-07-08 · [원문](https://www.mhi.com/news/240708.html)
+- [[sources/SRC-20260727-7863B18F|Carbon capture pilot begins operation at ArcelorMittal Gent]] — Mitsubishi Heavy Industries, 2024-05-21 · [원문](https://www.mhi.com/news/24052102.html)
+- [[sources/SRC-20260727-96F6D922|ArcelorMittal and LanzaTech announce first Steelanol barge shipment]] — ArcelorMittal and LanzaTech, 2024-12-11 · [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-and-lanzatech-announce-ethanol-production-milestone-and-shipment-of-first-barge-from-flagship-steelanol-facility-in-belgium)
 
 [^src-20260725-054778aa]: **JFE Steel carbon-neutral strategy — carbon-recycling blast furnace** — JFE Steel Corporation, 2022-09-01. [원문](https://www.jfe-steel.co.jp/en/company/pdf/carbon-neutral-strategy_220901_1.pdf) · [[sources/SRC-20260725-054778AA|보관 원문·메타데이터]]
 [^src-20260725-1a31be76]: **Breakthrough technology development and CCUS for carbon-neutral steelmaking** — Nippon Steel Corporation, 게시일 미상. [원문](https://www.nipponsteel.com/en/sustainability/env/climate/future.html) · [[sources/SRC-20260725-1A31BE76|보관 원문·메타데이터]]
@@ -289,3 +326,6 @@ flowchart TB
 [^src-20260725-ec77a362]: **JFE Steel 2025 priorities for carbon-neutral technologies** — JFE Steel Corporation, 2025-01-06. [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) · [[sources/SRC-20260725-EC77A362|보관 원문·메타데이터]]
 [^src-20260725-fed4b2d7]: **Carbon2Chem technical center in Duisburg** — Fraunhofer UMSICHT, 2018-09-04. DOI: [10.1002/cite.201800067](https://doi.org/10.1002/cite.201800067). [원문](https://www.umsicht.fraunhofer.de/en/carbonmanagement/carbon-cycle/technical-center.html) · [[sources/SRC-20260725-FED4B2D7|보관 원문·메타데이터]]
 [^src-20260726-b392bd57]: **Profitable Decarbonization of the Blast Furnace Through Electrified Top-Gas Recycling** — Association for Iron & Steel Technology, 2026-03-09. [원문](https://www.aist.org/getmedia/7b039809-54af-40f1-9c74-1a9df73d4c82/Profitable-Decarbonization-of-the-Blast-Furnace-updated.pdf) · [[sources/SRC-20260726-B392BD57|보관 원문·메타데이터]]
+[^src-20260727-275a6495]: **MHI and D-CRBN connect steelmaking CO2 capture and plasma conversion units** — Mitsubishi Heavy Industries, 2024-07-08. [원문](https://www.mhi.com/news/240708.html) · [[sources/SRC-20260727-275A6495|보관 원문·메타데이터]]
+[^src-20260727-7863b18f]: **Carbon capture pilot begins operation at ArcelorMittal Gent** — Mitsubishi Heavy Industries, 2024-05-21. [원문](https://www.mhi.com/news/24052102.html) · [[sources/SRC-20260727-7863B18F|보관 원문·메타데이터]]
+[^src-20260727-96f6d922]: **ArcelorMittal and LanzaTech announce first Steelanol barge shipment** — ArcelorMittal and LanzaTech, 2024-12-11. [원문](https://corporate.arcelormittal.com/media/news/non-regulatory-news/arcelormittal-and-lanzatech-announce-ethanol-production-milestone-and-shipment-of-first-barge-from-flagship-steelanol-facility-in-belgium) · [[sources/SRC-20260727-96F6D922|보관 원문·메타데이터]]

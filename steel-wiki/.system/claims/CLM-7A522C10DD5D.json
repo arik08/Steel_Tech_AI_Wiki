@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7A522C10DD5D",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "funding_withdrawal_reason",
+  "value": "갱신 일정과 특히 환경허가 지연으로 기한부 보조금 이정표 충족이 불가능했음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-91F88878"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "LKAB가 밝힌 철회 이유",
+      "source_ids": [
+        "SRC-20260727-91F88878"
+      ]
+    }
+  ]
+}
