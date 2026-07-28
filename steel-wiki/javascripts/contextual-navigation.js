@@ -18,6 +18,43 @@
     return decoded.length > 1 ? decoded.replace(/\/+$/u, "") : decoded;
   }
 
+  function sameDocumentLocation(target) {
+    return (
+      target.origin === window.location.origin &&
+      normalizePath(target.pathname) === normalizePath(window.location.pathname) &&
+      target.search === window.location.search &&
+      target.hash === window.location.hash
+    );
+  }
+
+  function suppressRedundantNavigation(event) {
+    if (
+      event.defaultPrevented ||
+      event.button !== 0 ||
+      event.altKey ||
+      event.ctrlKey ||
+      event.metaKey ||
+      event.shiftKey ||
+      !(event.target instanceof Element)
+    ) {
+      return;
+    }
+
+    const link = event.target.closest("a[href]");
+    if (
+      !link ||
+      link.hasAttribute("download") ||
+      (link.target && link.target !== "_self")
+    ) {
+      return;
+    }
+
+    const target = new URL(link.href, window.location.href);
+    if (sameDocumentLocation(target)) {
+      event.preventDefault();
+    }
+  }
+
   function uniqueCandidates(values) {
     const seen = new Set();
     const result = [];
@@ -165,13 +202,32 @@
           .querySelectorAll(`.${TARGET_CLASS}`)
           .forEach((element) => element.classList.remove(TARGET_CLASS));
         target.classList.add(TARGET_CLASS);
-        const centerTarget = () => {
+        const targetNeedsCentering = () => {
+          const scrollingElement =
+            document.scrollingElement || document.documentElement;
+          if (scrollingElement.scrollHeight <= window.innerHeight + 1) {
+            return false;
+          }
           const box = target.getBoundingClientRect();
-          const top = box.top + window.scrollY - (window.innerHeight - box.height) / 2;
+          return box.top < 72 || box.bottom > window.innerHeight - 24;
+        };
+        const centerTarget = () => {
+          if (!targetNeedsCentering()) return;
+          const box = target.getBoundingClientRect();
+          const scrollingElement =
+            document.scrollingElement || document.documentElement;
+          const desiredTop =
+            box.top + window.scrollY - (window.innerHeight - box.height) / 2;
+          const maximumTop = Math.max(
+            0,
+            scrollingElement.scrollHeight - window.innerHeight,
+          );
+          const top = Math.min(maximumTop, Math.max(0, desiredTop));
+          if (Math.abs(window.scrollY - top) < 1) return;
           const root = document.documentElement;
           const previousScrollBehavior = root.style.scrollBehavior;
           root.style.scrollBehavior = "auto";
-          window.scrollTo(0, Math.max(0, top));
+          window.scrollTo(0, top);
           requestAnimationFrame(() => {
             root.style.scrollBehavior = previousScrollBehavior;
           });
@@ -180,10 +236,7 @@
         centerTarget();
         window.setTimeout(() => {
           if (!target.isConnected) return;
-          const box = target.getBoundingClientRect();
-          const comfortablyVisible =
-            box.top >= 72 && box.bottom <= window.innerHeight - 24;
-          if (!comfortablyVisible) centerTarget();
+          centerTarget();
         }, 650);
         window.setTimeout(() => target.classList.remove(TARGET_CLASS), 3200);
       });
@@ -192,6 +245,7 @@
 
   if (!window.__steelContextualNavigationInstalled) {
     window.__steelContextualNavigationInstalled = true;
+    document.addEventListener("click", suppressRedundantNavigation, true);
     document.addEventListener("click", rememberContext, true);
   }
 
