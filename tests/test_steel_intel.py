@@ -596,6 +596,7 @@ class SteelIntelTests(unittest.TestCase):
             for item in config["redirects"]
         }
 
+        self.assertTrue(config["trailingSlash"])
         self.assertEqual(
             redirects["/academic-landscape-:slug"],
             "/reports/academic-landscape-:slug",
