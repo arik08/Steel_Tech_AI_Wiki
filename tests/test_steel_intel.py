@@ -557,6 +557,25 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("border-color: #c9d5dc", styles)
         self.assertIn("backdrop-filter: blur(4px)", styles)
 
+    def test_contextual_navigation_skips_redundant_motion(self):
+        config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
+        navigation = (
+            PROJECT_ROOT
+            / "steel-wiki"
+            / "javascripts"
+            / "contextual-navigation.js"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("javascripts/contextual-navigation.js", config)
+        self.assertIn("function suppressRedundantNavigation", navigation)
+        self.assertIn("event.preventDefault()", navigation)
+        self.assertIn("function sameDocumentLocation", navigation)
+        self.assertIn(
+            "scrollingElement.scrollHeight <= window.innerHeight + 1",
+            navigation,
+        )
+        self.assertIn("if (!targetNeedsCentering()) return", navigation)
+
     def test_footnote_source_preview_is_loaded(self):
         config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
         tooltips = (
