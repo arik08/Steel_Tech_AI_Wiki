@@ -4,7 +4,7 @@
   if (!window.mermaid) return;
 
   window.mermaid.initialize({
-    startOnLoad: true,
+    startOnLoad: false,
     theme: "base",
     themeVariables: {
       background: "transparent",
@@ -26,4 +26,45 @@
       clusterBorder: "#d4d8de",
     },
   });
+
+  let rendering = Promise.resolve();
+  let scheduled = false;
+
+  function pendingDiagrams(root = document) {
+    return [
+      ...root.querySelectorAll('.mermaid:not([data-processed="true"])'),
+    ].filter((diagram) => !diagram.querySelector("svg"));
+  }
+
+  function renderPendingDiagrams(root = document) {
+    rendering = rendering
+      .then(async () => {
+        for (const diagram of pendingDiagrams(root)) {
+          try {
+            await window.mermaid.run({ nodes: [diagram] });
+          } catch (error) {
+            console.error("Mermaid diagram rendering failed.", error);
+          }
+        }
+      })
+      .catch((error) => {
+        console.error("Mermaid rendering queue failed.", error);
+      });
+    return rendering;
+  }
+
+  function scheduleMermaidRendering(root = document) {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(() => {
+      scheduled = false;
+      renderPendingDiagrams(root);
+    });
+  }
+
+  if (typeof document$ !== "undefined") {
+    document$.subscribe(() => scheduleMermaidRendering());
+  }
+  document.addEventListener("DOMContentLoaded", () => scheduleMermaidRendering());
+  window.addEventListener("load", () => scheduleMermaidRendering());
 })();
