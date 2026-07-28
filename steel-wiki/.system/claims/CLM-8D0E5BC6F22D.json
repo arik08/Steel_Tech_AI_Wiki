@@ -1,0 +1,43 @@
+{
+  "claim_id": "CLM-8D0E5BC6F22D",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "low_temperature_moe_lab_result",
+  "value": "2026년 서울대 연구는 B2O3-Na2O 용융산화물·1,173 K·1.6 V 조건에서 철광석의 금속철 환원을 보였고, 공기 중 전류효율은 hematite 64.14%, goethite 66.00%, magnetite 67.58%였다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-B069E634",
+    "SRC-20260725-1486633E",
+    "SRC-20260728-C7D9F0C3"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "Peer-reviewed laboratory result with ore-specific current efficiencies",
+      "source_ids": [
+        "SRC-20260728-B069E634"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Re-linked to the existing canonical Nature article after duplicate-path review",
+      "source_ids": [
+        "SRC-20260725-1486633E"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Current article version cross-checked against PubMed and the author institution publication list",
+      "source_ids": [
+        "SRC-20260728-C7D9F0C3"
+      ]
+    }
+  ]
+}

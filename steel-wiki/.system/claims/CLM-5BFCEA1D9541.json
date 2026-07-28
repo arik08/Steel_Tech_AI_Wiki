@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-5BFCEA1D9541",
+  "subject_id": "TEC-zesty-hydrogen-flash-reduction",
+  "predicate": "pilot_reactor_configuration",
+  "value": "내경 0.2 m, 길이 18 m 수직관과 길이 방향 18개 독립 전기히터",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-824DD247"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "논문이 보고한 실제 파일럿 장치 사양",
+      "source_ids": [
+        "SRC-20260727-824DD247"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-50AF15B5FA38",
+  "subject_id": "PRJ-STEELANOL-GHENT",
+  "predicate": "regulatory_status",
+  "value": "EU 집행위는 2025-09 전력 배출계수·rigid input 대체 산정 변경이 Steelanol 같은 불가피한 산업 부생가스 기반 RCF 설비의 온실가스 절감 기준 충족을 용이하게 할 것으로 예상했으나, Steelanol 연료 인정 완료나 경제성 확보를 확인한 것은 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-09-17",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-FB3E03F1"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-09-17",
+      "action": "created",
+      "reason": "사업 리스크의 핵심인 EU RCF 방법론 변화에 대해 공식 집행위 답변으로 교차검증하고 확정·예상 범위를 구분",
+      "source_ids": [
+        "SRC-20260728-FB3E03F1"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 EU 집행위 공식 답변에서 방법론 변경의 예상 효과와 Steelanol 연료 인정·경제성 미확인 경계를 재확인",
+      "source_ids": [
+        "SRC-20260728-FB3E03F1"
+      ]
+    }
+  ]
+}

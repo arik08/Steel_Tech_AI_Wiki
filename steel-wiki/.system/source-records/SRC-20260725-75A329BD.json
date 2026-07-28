@@ -28,6 +28,44 @@
       "collected_at": "2026-07-25",
       "content_sha256": null,
       "local_path": null
+    },
+    {
+      "media_id": "MED-EC43E3167DA9",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 펠릿 하강·수소 상승 샤프트 환원, 상부가스 수분 제거·압축·재가열·재순환, DRI·HDRI·HBI 후단을 한 화면에 정리한 수소 DRI 개념도. 실제 HYBRIT 또는 MIDREX 설비의 준공도·P&ID가 아니다.",
+      "alt_text": "수소 샤프트 직접환원로와 상부가스 재순환, DRI·HBI 제품 흐름을 나타낸 AI 개념도",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://www.ssab.com/en/news/2024/08/hybrit-six-years-of-research-paves-the-way-for-fossilfree-iron-and-steel-production-on-an-industrial",
+      "rights_status": "ai_generated",
+      "rights_note": "2026-07-27 생성. 공개된 수소 DRI 원리와 HYBRIT 자료를 바탕으로 한 교육용 AI 재구성으로, 특정 설비의 실제 치수·배관·성능을 나타내지 않음.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "ec43e3167da905e48242c5f177713f00ba3fc33063d14492d25c6fbb4914f4cc",
+      "local_path": "assets/media/SRC-20260725-75A329BD/MED-EC43E3167DA9.png",
+      "subject_ids": [
+        "TEC-hydrogen-direct-reduced-iron"
+      ],
+      "display_width": "detail",
+      "hero_priority": -100
+    },
+    {
+      "media_id": "MED-B7C2DC785571",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — DR급 펠릿·괴광을 샤프트 상부에 장입하고 하부 H2-rich gas와 향류 접촉시켜 DRI를 생산하며, 습윤 상부가스를 집진·제습·압축·재가열한 뒤 보충 수소와 합류해 재순환하는 대표 구성. 냉간 DRI·고온 HDRI·HBI는 대체 제품/이송 선택지이며 실제 HYBRIT·MIDREX·ENERGIRON 설비의 준공도나 P&ID가 아니다.",
+      "alt_text": "수소 샤프트로 원료 하향 수소 상향 환원, 상부가스 집진 제습 재순환, DRI HDRI HBI와 EAF 연결을 나타낸 AI 개념도",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://www.hybritdevelopment.se/en/hybrit-six-years-of-research-paves-the-way-for-fossil-free-iron-and-steel-production-on-an-industrial-scale",
+      "rights_status": "ai_generated",
+      "rights_note": "HYBRIT 공개 연구 결과와 일반적인 H2 shaft-DRI 가스루프를 종합해 2026-07-27 생성한 설명용 AI 재구성이다. 환원가스 조성, 압력, 온도, 제품 냉각·브리케팅 경로는 라이선서 및 프로젝트별로 다르다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "b7c2dc785571fa0d35fd1c3c5ee05153a11ea696aa6b510c91c1e904f521444f",
+      "local_path": "assets/media/SRC-20260725-75A329BD/MED-B7C2DC785571.png",
+      "subject_ids": [
+        "TEC-hydrogen-direct-reduced-iron"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200
     }
   ]
 }

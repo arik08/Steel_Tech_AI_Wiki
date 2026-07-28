@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-53FD37FAC574",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "target_completion_date",
+  "value": "2028년 완공을 회사가 희망한다고 발표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-A33857DE"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "회사 목표이며 확정 준공일이 아님",
+      "source_ids": [
+        "SRC-20260727-A33857DE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-DF020D02D57A",
+  "subject_id": "PRJ-JFE-CHIBA-CARBON-RECYCLING-BF",
+  "predicate": "commissioning_date",
+  "value": "2025-05",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-05-31",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-1AB6BC47"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-05-31",
+      "action": "created",
+      "reason": "JFE 공식 자료의 2025년 5월 송풍 및 운전 개시 월",
+      "source_ids": [
+        "SRC-20260728-1AB6BC47"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 JFE 공식 현재 정책 페이지에서 탄소순환 고로 시험설비의 2025-05 준공일을 재확인",
+      "source_ids": [
+        "SRC-20260728-1AB6BC47"
+      ]
+    }
+  ]
+}

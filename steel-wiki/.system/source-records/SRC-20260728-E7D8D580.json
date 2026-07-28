@@ -1,0 +1,31 @@
+{
+  "source_id": "SRC-20260728-E7D8D580",
+  "title": "Microstructure and Faradaic Efficiency of Electrodeposited Iron in NaOH(aq)",
+  "url": "https://doi.org/10.1149/1945-7111/ae4427",
+  "canonical_url": "https://doi.org/10.1149/1945-7111/ae4427",
+  "publisher": "The Electrochemical Society / IOP Publishing",
+  "published_at": "2026-04-14",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "e7d8d580aa6e4852a91b528b7151ed561758712b10319ff44d0344021da12de6",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Andrew C. Goldman",
+      "Chang-Yu Hung",
+      "Stoichko Antonov",
+      "Martin Detrois",
+      "Paul A. Kempler"
+    ],
+    "venue": "Journal of The Electrochemical Society",
+    "doi": "10.1149/1945-7111/ae4427",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "58e63aa3bc3e65d1b0acc2c6445f80dcf46c710e7d82dd786456f7245dbcb67a",
+  "raw_path": ".system/raw/SRC-20260728-E7D8D580.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

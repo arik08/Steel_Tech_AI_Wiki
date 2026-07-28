@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6639A59DCD91",
+  "subject_id": "PRJ-ZESTY-ROCKINGHAM-DEMO",
+  "predicate": "conditional_funding_balance",
+  "value": "첫 지급 뒤 ARENA A$42.9 million과 Rio Tinto 현금·현물 A$32 million 초과분은 matched funding 및 후속 프로젝트 마일스톤 조건부로 남아 있었으며, 확보 완료된 무조건부 건설재원으로 볼 수 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-16",
+  "last_verified": "2026-03-16",
+  "source_ids": [
+    "SRC-20260728-8B5F092E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-16",
+      "action": "created",
+      "reason": "Preserves the conditionality of outstanding grant and partner contributions",
+      "source_ids": [
+        "SRC-20260728-8B5F092E"
+      ]
+    }
+  ]
+}

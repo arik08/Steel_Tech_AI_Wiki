@@ -1,0 +1,14 @@
+# Nucor West Virginia sheet mill selection
+
+- Announcement date: 2022-01-12
+- Publisher: Nucor Corporation
+- Location: Mason County, West Virginia, on the Ohio River.
+- Announced capacity: 3 million tons/year of sheet steel.
+- Announced product and equipment scope: sheet up to 84 inches wide, a 76-inch tandem cold mill, a high-end automotive galvanizing line with full inspection capability, and a construction-grade galvanizing line.
+- Initial announced cost: approximately USD 2.7 billion. Nucor subsequently raised the net cash-outlay estimate, so this figure must be treated as the 2022 announcement baseline rather than current final cost.
+- Nucor described the facility as supporting high-quality, low-carbon steels and a lower-carbon footprint than incumbent regional supply.
+- Boundary: the original two-year construction expectation was superseded by later actual progress; the 2026 commissioning schedule is governed by the Q1 2026 presentation.
+- Photo terms: the page states that Nucor photos may be used for non-commercial news and communication, without alteration. No project photo was embedded in the article body captured here, so no image was registered from this release.
+
+Original:
+https://nucor.com/news/?article=nucor-selects-west-virginia-as-location-for-new-state-of-the-art-sheet-mill-122736

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0186B84C3F00",
+  "subject_id": "PRJ-NIPPON-USS-BIG-RIVER-DRI",
+  "predicate": "capacity_tpy",
+  "value": "2.5 million metric tonnes/year HDRI/HBI design capacity",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-15",
+  "last_verified": "2026-06-15",
+  "source_ids": [
+    "SRC-20260728-233C5C7D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-15",
+      "action": "created",
+      "reason": "Equipment-supplier design capacity",
+      "source_ids": [
+        "SRC-20260728-233C5C7D"
+      ]
+    }
+  ]
+}

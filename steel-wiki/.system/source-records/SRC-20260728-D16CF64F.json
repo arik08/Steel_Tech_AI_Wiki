@@ -1,0 +1,101 @@
+{
+  "source_id": "SRC-20260728-D16CF64F",
+  "title": "Evaluation of Hydrogen Reduction Characteristics of Different Iron Ore Types under HyREX Reduction Conditions",
+  "url": "https://link.springer.com/article/10.1007/s11663-025-03645-1",
+  "canonical_url": "https://link.springer.com/article/10.1007/s11663-025-03645-1",
+  "publisher": "Springer Nature / Metallurgical and Materials Transactions B",
+  "published_at": "2025-07-07",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "d16cf64fe856497369f5a93840b01c360d86fe870db9e62adc4a7540b352b762",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Gi-Ho La",
+      "Ji-Wook Park",
+      "Chang-Kuk Ko",
+      "Young-Seok Lee",
+      "Myoung-Gyun Shin"
+    ],
+    "venue": "Metallurgical and Materials Transactions B",
+    "doi": "10.1007/s11663-025-03645-1",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "844f16e379f4eb388f75c27f58cbc2c534842d8d6a87b26af0a43358ee9dbe05",
+  "raw_path": ".system/raw/SRC-20260728-D16CF64F.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-DD7AB499459F",
+      "kind": "academic_figure",
+      "caption": "POSCO 연구진이 공개한 HyREX 개념 구성. 4기의 독립 유동층 반응기가 계단식으로 배치되고, 각 reactor shell 내부 freeboard에 4기의 고효율 cyclone과 dipleg가 표시된다. 사이클론은 비산 초미분을 포집·환류하며, 외부 stage gas loop와 별도의 고체 이송 경로를 거쳐 환원분이 ESF로 공급된다. 공개 학술 개념도이며 포항 실증설비의 PFD·P&ID 또는 준공도는 아니다.",
+      "alt_text": "Four descending HyREX fluidized-bed reactor shells with four internal cyclones and diplegs in each reactor, stage gas loops, solids transfer and downstream electric smelting furnace",
+      "creator": "Gi-Ho La, Ji-Wook Park, Chang-Kuk Ko, Young-Seok Lee, Myoung-Gyun Shin / POSCO Technical Research Laboratories",
+      "image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11663-025-03645-1/MediaObjects/11663_2025_3645_Fig1_HTML.png",
+      "origin_url": "https://link.springer.com/article/10.1007/s11663-025-03645-1/figures/1",
+      "rights_status": "permitted",
+      "rights_note": "Figure 1 of La et al. (2025), Metallurgical and Materials Transactions B, DOI 10.1007/s11663-025-03645-1. Article distributed under Creative Commons Attribution 4.0; no separate third-party credit is shown for this figure. Attribution and source link retained.",
+      "collected_at": "2026-07-28",
+      "content_sha256": "dd7ab499459fe0460b26addfe8755761a5ad7f0bfbf2cf92e1abd475eb7f3d00",
+      "local_path": "assets/media/SRC-20260728-D16CF64F/MED-DD7AB499459F.png",
+      "subject_ids": [
+        "TEC-hydrogen-based-fine-ore-reduction",
+        "PRJ-POSCO-HYREX-DEMO",
+        "COM-POSCO"
+      ],
+      "display_width": "detail",
+      "hero_priority": -250
+    },
+    {
+      "media_id": "MED-EB9D333D6746",
+      "kind": "ai_reconstruction",
+      "caption": "AI 기능 재구성: HyREX 공개 학술자료를 바탕으로 4기의 독립 유동층 반응기, 각 shell 내부의 4기 cyclone·dipleg, pressure-balanced stage 간 고체 이송, 환원가스의 FBR-4→FBR-1 향류 방향을 가독성 중심으로 재구성했다. Cyclone은 미분 분리, dipleg 내 농후 고체층은 shortcut·역류 가스 억제용 pressure seal 역할을 구분해 표시했다. 상세 gas nozzle·배관은 생략했으며 실증설비 PFD·P&ID 또는 준공도가 아니다.",
+      "alt_text": "AI functional reconstruction of four descending HyREX-like fluidized-bed reactors, each containing four internal cyclones and diplegs, sealed interstage solids transfer, countercurrent hydrogen direction and downstream ESF",
+      "creator": "OpenAI image generation; technical direction and source validation by Codex",
+      "image_url": null,
+      "origin_url": "https://link.springer.com/article/10.1007/s11663-025-03645-1/figures/1",
+      "rights_status": "ai_generated",
+      "rights_note": "AI-generated functional reconstruction based on La et al. (2025) Figure 1 and POSCO public HyREX geometry. Not an as-built drawing, PFD or P&ID. Technical labels manually reviewed for reactor count, internal cyclone placement, solids/gas direction and pressure hierarchy.",
+      "collected_at": "2026-07-28",
+      "content_sha256": "eb9d333d6746f6b548103bbe3c8181e33028e75a13da0c63a99b5f15d5d94857",
+      "local_path": "assets/media/SRC-20260728-D16CF64F/MED-EB9D333D6746.png",
+      "subject_ids": [
+        "TEC-hydrogen-based-fine-ore-reduction",
+        "PRJ-POSCO-HYREX-DEMO",
+        "COM-POSCO"
+      ],
+      "display_width": "detail",
+      "hero_priority": -400,
+      "display_eligible": false,
+      "hero_eligible": false,
+      "qc_note": "2026-07-28 사용자 기술 검토에 따라 HyREX 핵심기술 페이지에서는 추정 AI 재구성을 노출하지 않고 POSCO 공식 공정도와 POSCO 연구진의 학술 도면만 사용합니다."
+    },
+    {
+      "media_id": "MED-621E7933DEF1",
+      "kind": "ai_reconstruction",
+      "caption": "HyREX 계열 4단 분광 수소환원 유동로의 기능 재구성. 각 독립 반응기 내부의 4개 사이클론·딥레그는 평면상 2×2 사각 꼭짓점에 배치되며, 포집 미분을 유동층으로 되돌리고 딥레그 내 고체층이 가스 단락을 억제한다. 벌크 고체는 별도의 밀봉·압력평형 이송 경로로 FBR-1→4를 통과하고, 수소계 환원가스는 FBR-4→1로 향한다. FINEX 공개 형상은 기계 배치 계보만 참고했으며 석탄·HCI·용융가스화로 구성은 반영하지 않았다. 실제 준공도·P&ID가 아닌 AI 기능 재구성이다.",
+      "alt_text": "계단식으로 배치된 네 개의 HyREX 유동층 반응기와 각 반응기 내부의 2×2 사각 배치 사이클론 네 개, 밀봉형 고체 이송 및 역류 환원가스 흐름을 나타낸 청사진형 AI 기능 재구성",
+      "creator": "OpenAI image generation; technical direction and source validation by Codex",
+      "image_url": null,
+      "origin_url": "https://link.springer.com/article/10.1007/s11663-025-03645-1",
+      "rights_status": "ai_generated",
+      "rights_note": "2026-07-28 생성형 AI 제작. HyREX 학술 도식(La et al., 2025)으로 4단 반응기와 내부 사이클론 구성을 검증하고, 사용자가 제공한 FINEX 화면 캡처는 기계적 배치 계보 참고에만 사용했다. 실제 설계·준공도·P&ID로 재사용 금지.",
+      "collected_at": "2026-07-28",
+      "content_sha256": "621e7933def1631e9c2e9bbcecb73f474dc016119f99455d90086e33f29e08c0",
+      "local_path": "assets/media/SRC-20260728-D16CF64F/MED-621E7933DEF1.png",
+      "subject_ids": [
+        "TEC-hydrogen-based-fine-ore-reduction",
+        "PRJ-POSCO-HYREX-DEMO",
+        "COM-POSCO"
+      ],
+      "display_width": "detail",
+      "hero_priority": -450,
+      "display_eligible": false,
+      "hero_eligible": false,
+      "qc_note": "2026-07-28 사용자 기술 검토에 따라 2×2 내부 cyclone 배치를 반영했더라도 공개 설계 이상의 형상 추정이 포함되므로 HyREX 핵심기술 페이지 표시 대상에서 제외했습니다."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-8E3A43872938",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "commissioning_target",
+  "value": "회사 발표 기준 2026년 중반 가동 개시 목표이며, 발표 시점에는 실제 가동 실적이 아님",
+  "status": "superseded",
+  "confidence": "high",
+  "first_seen": "2025-10-21",
+  "last_verified": "2025-10-21",
+  "source_ids": [
+    "SRC-20260727-44DC8B30"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-10-21",
+      "action": "created",
+      "reason": "Separates the announced schedule from achieved operation.",
+      "source_ids": [
+        "SRC-20260727-44DC8B30"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "2025년 회사 발표의 mid-2026 목표보다 2026-03-10 CCO 인터뷰의 Q3 2026 full operation 목표가 최신이다. 시설 개장과 실제 완전가동을 구분하고 달성 실적이 아닌 목표임을 명시하는 신규 Claim으로 대체한다."
+    }
+  ],
+  "superseded_by": "CLM-FBC932885E04"
+}

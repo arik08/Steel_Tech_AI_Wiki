@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-FA1D1CBFA01B",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "later_stage_grid_gap",
+  "value": "향후 Gällivare·Kiruna 계획이 모두 실현되면 현재 예약·계획된 두 400kV 선로만으로 전체 수요를 충족할 수 없어 추가 송전망 또는 인근 발전이 필요하며, 이는 첫 단계와 구분되는 장기 확장 리스크다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-10-30",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-3049F33D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-10-30",
+      "action": "created",
+      "reason": "1단계 충분성과 장기 전력제약을 분리",
+      "source_ids": [
+        "SRC-20260728-3049F33D"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-3049F33D"
+      ]
+    }
+  ]
+}

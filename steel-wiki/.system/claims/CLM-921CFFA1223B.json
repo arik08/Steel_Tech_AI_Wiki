@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-921CFFA1223B",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "schedule_update_status",
+  "value": "2026년 1분기 공시는 일정 지연과 '갱신된 일정'을 명시했지만 새 완공·가동 연도는 공개하지 않았다. 2025년 발표의 2028년 완공·2029년 램프업은 최신 확정 일정으로 단정하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-23",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260727-91F88878"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-23",
+      "action": "created",
+      "reason": "LKAB 2026 Q1 공시의 명시 문구와 비공개 경계를 함께 기록",
+      "source_ids": [
+        "SRC-20260727-91F88878"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260727-91F88878"
+      ]
+    }
+  ]
+}

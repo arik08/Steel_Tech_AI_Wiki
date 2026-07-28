@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-20260728-E8CB361F",
+  "title": "Decarbonizing ironmaking through green-electricity-driven low-temperature electrodeposition",
+  "url": "https://doi.org/10.1016/j.hydromet.2026.106804",
+  "canonical_url": "https://doi.org/10.1016/j.hydromet.2026.106804",
+  "publisher": "Elsevier / Hydrometallurgy",
+  "published_at": null,
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "e8cb361f221a10976906a96215ac9994b505a338577662392b04fe71719b2c57",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Zhen Wang",
+      "Mengmeng Liu",
+      "Renze Xu"
+    ],
+    "venue": "Hydrometallurgy",
+    "doi": "10.1016/j.hydromet.2026.106804",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "386ce17cd924e1fac43fac39e3d6268a2b026aeb3b2a077f2d901369d1741f1d",
+  "raw_path": ".system/raw/SRC-20260728-E8CB361F.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260728-7D3D8F38",
+  "title": "Hy4Smelt – Industrial Demonstration Project to Proof Potential Net-Zero Ironmaking by Combining Breakthrough HYFOR and Smelter Technologies",
+  "url": "https://submit.m-n.marketing/event/66/contributions/5479/",
+  "canonical_url": "https://submit.m-n.marketing/event/66/contributions/5479",
+  "publisher": "EEC 2026 / EMECR 2026 / Primetals Technologies",
+  "published_at": "2026-05-12",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "medium",
+  "content_sha256": "7d3d8f38d53b5f8877cd51e2c83f5398201c1b66a1825087bd8a19c5c81a666f",
+  "academic": {
+    "kind": "conference_presentation",
+    "authors": [
+      "Alexander Fleischanderl",
+      "Bernhard Hiebl",
+      "Bernhard Voraberger",
+      "Christoph Prietl",
+      "Daniel Spreitzer",
+      "Gerald Wimmer"
+    ],
+    "conference_name": "14th European Electric Steelmaking Conference and 5th EMECR",
+    "conference_date": "2026-05-12",
+    "conference_location": "Milan, Italy",
+    "peer_review_status": "not_peer_reviewed"
+  },
+  "raw_sha256": "47bcbe93628a9ec358e41cc706209ed0ebb0a535390ad6ce46cd1fc0fdde4a4d",
+  "raw_path": ".system/raw/SRC-20260728-7D3D8F38.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

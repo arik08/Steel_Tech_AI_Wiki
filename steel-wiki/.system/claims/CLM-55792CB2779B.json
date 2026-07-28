@@ -11,7 +11,9 @@
     "SRC-20260725-1F1EA152"
   ],
   "supersedes": [],
-  "coexists_with": [],
+  "coexists_with": [
+    "CLM-B53AA1BE36A3"
+  ],
   "history": [
     {
       "date": "2026-07-25",
@@ -20,6 +22,12 @@
       "source_ids": [
         "SRC-20260725-1F1EA152"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "coexistence_confirmed",
+      "with": "CLM-B53AA1BE36A3",
+      "reason": "2025 종설의 200 kg/trial은 기존 demonstration plant의 명목 ore capacity 설명이고, 2026 실험논문의 약 100 kg/trial은 그 논문이 기술한 setup·시험 규모다. 설비 명목용량과 보고 캠페인 charge/운전 규모를 구분하며 어느 값도 다른 값을 자동 폐기하지 않는다."
     }
   ]
 }

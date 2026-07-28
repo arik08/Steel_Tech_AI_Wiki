@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-533CA3A92E06",
+  "subject_id": "PRJ-ZESTY-ROCKINGHAM-DEMO",
+  "predicate": "project_start_date",
+  "value": "2025-07-01",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-C43117BC"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "ARENA 공식 프로젝트 시작일",
+      "source_ids": [
+        "SRC-20260727-C43117BC"
+      ]
+    }
+  ]
+}

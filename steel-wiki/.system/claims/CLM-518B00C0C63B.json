@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-518B00C0C63B",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "jfe_ai_scrap_inspection_status",
+  "value": "JFE Sendai AI scrap receiving inspection operating since 2026-06; digitizes appraisal data for labor reduction, standardization and future quality/operation optimization",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-29",
+  "last_verified": "2026-06-29",
+  "source_ids": [
+    "SRC-20260728-698EFDF6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-29",
+      "action": "created",
+      "reason": "Add operational smart-steelworks edge AI case",
+      "source_ids": [
+        "SRC-20260728-698EFDF6"
+      ]
+    }
+  ]
+}

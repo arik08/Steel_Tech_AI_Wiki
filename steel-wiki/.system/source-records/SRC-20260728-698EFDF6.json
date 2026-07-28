@@ -1,0 +1,39 @@
+{
+  "source_id": "SRC-20260728-698EFDF6",
+  "title": "JFE AI scrap automatic inspection enters operation",
+  "url": "https://www.jfe-steel.co.jp/release/2026/06/260629.html",
+  "canonical_url": "https://www.jfe-steel.co.jp/release/2026/06/260629.html",
+  "publisher": "JFE Steel Corporation",
+  "published_at": "2026-06-29",
+  "collected_at": "2026-07-28",
+  "source_type": "company_release",
+  "language": "ja",
+  "reliability": "primary",
+  "content_sha256": "698efdf60d81420d870da8082e5e85d7a5adb680129ee42b93211c526be8ce48",
+  "raw_sha256": "1d50056b0467ef20122c4ecc3a525da7949db775cede0855d8e7defba538d0a7",
+  "raw_path": ".system/raw/SRC-20260728-698EFDF6.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-D0835EFD2F95",
+      "kind": "process_diagram",
+      "caption": "JFE automatic scrap inspection overview: truck-bed imaging during unloading and AI judgment of grade composition and foreign-material contamination",
+      "alt_text": "JFE automatic scrap inspection process diagram showing camera capture and AI classification",
+      "creator": "JFE Steel Corporation",
+      "image_url": "https://www.jfe-steel.co.jp/release/2026/06/img/260629.png",
+      "origin_url": "https://www.jfe-steel.co.jp/release/2026/06/260629.html",
+      "rights_status": "link_only",
+      "rights_note": "Official JFE process diagram and caption verified. Reuse permission was not stated, so the original server image is displayed by remote link only.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "TEC-high-grade-eaf-and-scrap-impurity-removal",
+        "TEC-smart-steelworks"
+      ],
+      "display_width": "detail",
+      "hero_priority": -400
+    }
+  ]
+}

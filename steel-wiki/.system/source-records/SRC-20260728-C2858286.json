@@ -1,0 +1,40 @@
+{
+  "source_id": "SRC-20260728-C2858286",
+  "title": "Systems and methods for molten oxide electrolysis (US11591703B2)",
+  "url": "https://patents.google.com/patent/US11591703B2/en",
+  "canonical_url": "https://patents.google.com/patent/US11591703B2/en",
+  "publisher": "United States Patent and Trademark Office (USPTO)",
+  "published_at": "2023-02-28",
+  "collected_at": "2026-07-28",
+  "source_type": "patent",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "c2858286e1c85faedfd895462692312feaaa0024d33c544b3ec2d731c975319c",
+  "raw_sha256": "e3d6ad8c2ce15d67ca46e2765012e4d192a76ec2fe1563903fb755c6fb61a60b",
+  "raw_path": ".system/raw/SRC-20260728-C2858286.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-109853F17170",
+      "kind": "patent_figure",
+      "caption": "Boston Metal 등록특허 Figure 1의 MOE metallurgical assembly 단면도. 내화물 용기·덮개·중앙 전극·바닥 집전 구조를 보여주는 특허 실시예이며 Woburn M5M 셀의 준공도는 아님",
+      "alt_text": "Boston Metal MOE 셀 특허의 내화물 용기와 중앙 전극 단면도",
+      "creator": "Boston Electrometallurgical Corporation / USPTO",
+      "image_url": "https://patentimages.storage.googleapis.com/f9/3b/ca/e5700aa698b8cd/US11591703-20230228-D00001.png",
+      "origin_url": "https://patents.google.com/patent/US11591703B2/en",
+      "rights_status": "link_only",
+      "rights_note": "미국 등록특허 원문에서 도면과 설명을 확인했으며 복제 라이선스가 명시되지 않아 원격 링크로만 표시. 실제 M5M 설비 준공도가 아닌 특허 실시예임.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "TEC-molten-oxide-electrolysis",
+        "PRJ-BOSTON-METAL-MOE-WOBURN",
+        "COM-Boston-Metal"
+      ],
+      "display_width": "detail",
+      "hero_priority": -1000
+    }
+  ]
+}

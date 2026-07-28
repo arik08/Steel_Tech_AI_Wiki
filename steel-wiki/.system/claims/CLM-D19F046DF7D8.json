@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D19F046DF7D8",
+  "subject_id": "PRJ-JFE-CHIBA-CARBON-RECYCLING-BF",
+  "predicate": "target_end_date",
+  "value": "FY2026 demonstration completion target",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-1AB6BC47"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "JFE 공식 실증 일정",
+      "source_ids": [
+        "SRC-20260728-1AB6BC47"
+      ]
+    }
+  ]
+}

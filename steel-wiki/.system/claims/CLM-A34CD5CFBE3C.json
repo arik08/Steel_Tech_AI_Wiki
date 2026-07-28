@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-A34CD5CFBE3C",
+  "subject_id": "TEC-electric-smelting-furnace",
+  "predicate": "medium_grade_energy_system_cost_model",
+  "value": "2026년 2Mt/y 중품위광 H2DRI-ESF-BOF 에너지시스템 모델은 현 조건에서 BF-BOF 대비 400 USD/t-liquid-steel 초과 비용격차를 계산했으며, 2030년 약 125 USD/t·2040년 약 38 USD/t의 추가지원 필요를 제시했다. 실제 프로젝트 원가가 아닌 시나리오 결과다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-01",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-75962E74"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-01",
+      "action": "created",
+      "reason": "중품위광 ESF 경로의 최신 시간해상도 비용 모델과 경계 반영",
+      "source_ids": [
+        "SRC-20260728-75962E74"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-75962E74"
+      ]
+    }
+  ]
+}

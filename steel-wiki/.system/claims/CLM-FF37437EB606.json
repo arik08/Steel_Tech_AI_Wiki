@@ -1,0 +1,43 @@
+{
+  "claim_id": "CLM-FF37437EB606",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "route_boundary",
+  "value": "1,173 K borate 전해질·Pt 음극의 고체 철 석출 실험은 약 1,600°C에서 액체 철을 수집하는 Boston Metal MOE Steel과 온도·제품상·전해질·스케일업 과제가 다르며, 산업용 전극수명·연속 출선·에너지·경제성 근거가 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-B069E634",
+    "SRC-20260725-1486633E",
+    "SRC-20260728-C7D9F0C3"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "Prevents conflation of two materially different molten-oxide electrolysis configurations",
+      "source_ids": [
+        "SRC-20260728-B069E634"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Re-linked to the existing canonical Nature article after duplicate-path review",
+      "source_ids": [
+        "SRC-20260725-1486633E"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Current article version confirms the platinum-electrode five-hour laboratory boundary and funding disclosure",
+      "source_ids": [
+        "SRC-20260728-C7D9F0C3"
+      ]
+    }
+  ]
+}

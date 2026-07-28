@@ -1,0 +1,32 @@
+{
+  "source_id": "SRC-20260728-AD1561EC",
+  "title": "Fluxing Options and Slag Operating Window for Metso’s Sustainable DRI Smelting Furnace",
+  "url": "https://doi.org/10.1007/s11837-025-07243-z",
+  "canonical_url": "https://doi.org/10.1007/s11837-025-07243-z",
+  "publisher": "JOM / The Minerals, Metals & Materials Society / Springer",
+  "published_at": "2025-02-24",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "ad1561ec6b4676ce18805bb15d0ffd64962876b58bf9bfaad8e00831432abea1",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Joseph Hamuyuni",
+      "Fiseha Tesfaye",
+      "Kimmo Vallo",
+      "Timo Haimi",
+      "Jouni Pihlasalo",
+      "Mari Lindgren"
+    ],
+    "venue": "JOM",
+    "doi": "10.1007/s11837-025-07243-z",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "25e30d8ac808a30f240b330bb68cf4747c5b60f96b540c8bd59feca057371fa5",
+  "raw_path": ".system/raw/SRC-20260728-AD1561EC.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

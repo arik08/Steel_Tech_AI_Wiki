@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-215629373425",
+  "subject_id": "PRJ-JFE-CHIBA-NO4-EAF",
+  "predicate": "technology_route",
+  "value": "stainless-steel shop EAF increases scrap melting and substitutes scrap for part of blast-furnace hot-metal input; not a complete conversion away from hot metal",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-30",
+  "last_verified": "2026-04-30",
+  "source_ids": [
+    "SRC-20260728-BC8B3047"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-30",
+      "action": "created",
+      "reason": "Official process scope with interpretation boundary",
+      "source_ids": [
+        "SRC-20260728-BC8B3047"
+      ]
+    }
+  ]
+}

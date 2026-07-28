@@ -1,0 +1,42 @@
+{
+  "claim_id": "CLM-629B8E198162",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "financing_round_status",
+  "value": "2026-06-24 회사 발표 기준 14억 유로 금융조달 라운드 종결; 2026-04-14의 원칙 합의 상태를 갱신",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-24",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-253AB0A9",
+    "SRC-20260728-B14401AF"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-24",
+      "action": "created",
+      "reason": "원칙 합의와 실제 closing을 구분",
+      "source_ids": [
+        "SRC-20260728-253AB0A9"
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "action": "verified",
+      "reason": "SVT/TT 독립 보도로 회사 closing 발표 교차검증",
+      "source_ids": [
+        "SRC-20260728-B14401AF"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-B14401AF"
+      ]
+    }
+  ]
+}

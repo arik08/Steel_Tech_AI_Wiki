@@ -3,7 +3,7 @@
   "subject_id": "COM-Nippon-Steel",
   "predicate": "blast_furnace_ccus_status",
   "value": "Kimitsu 시험고로에서 2024년 수소 활용 CO2 43% 감축 확인; 고로가스 CO2 분리·포집 및 CCUS 연구 병행",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2026-07-25",
   "last_verified": "2026-07-25",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260725-45A1D063"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "Nippon Steel의 2026년 2~3월 45% 감축 시험은 2024년 43% 소형 시험고로 성과의 후속 기록이다. 신규 Claim은 시험로 규모와 4,500 m3 실제 고로 미검증 경계를 명시해 최신 회사 현황으로 대체한다."
     }
-  ]
+  ],
+  "superseded_by": "CLM-063D68F11352"
 }

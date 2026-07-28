@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-ADE511C10203",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "independent_reduction_result",
+  "value": "동일 배치 실험에서 700°C 12분 및 800°C 18분 이내 환원도 93% 초과가 관찰됐으나, 규소 불순물과의 fayalite 형성이 최종 환원도를 제한했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-01",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-D8C7D596"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-01",
+      "action": "created",
+      "reason": "광종·불순물에 따른 환원성과 시간 결과를 독립 근거로 기록",
+      "source_ids": [
+        "SRC-20260728-D8C7D596"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-D8C7D596"
+      ]
+    }
+  ]
+}

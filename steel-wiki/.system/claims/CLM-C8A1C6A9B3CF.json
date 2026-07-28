@@ -11,7 +11,9 @@
     "SRC-20260725-973F138F"
   ],
   "supersedes": [],
-  "coexists_with": [],
+  "coexists_with": [
+    "CLM-3F622A0D9251"
+  ],
   "history": [
     {
       "date": "2026-07-25",
@@ -20,6 +22,12 @@
       "source_ids": [
         "SRC-20260725-973F138F"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "coexistence_confirmed",
+      "with": "CLM-3F622A0D9251",
+      "reason": "기존 Claim은 HPSR 전반의 연속화·아크·수지·전극·내화물·증발·가동률 조건이고, 신규 Claim은 hematite leach residue 같은 sidestream 원료 확대에서 논문이 추가로 제시한 슬래그·침탄·분진 계측 조건이다. 범위가 보완적이므로 병존한다."
     }
   ]
 }

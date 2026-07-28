@@ -1,0 +1,50 @@
+{
+  "source_id": "SRC-20260727-824DD247",
+  "title": "New Insights Into Hydrogen Reduction of Hematite in an Indirectly Heated Flash Reactor from Measurements and First-Order Modeling",
+  "url": "https://link.springer.com/article/10.1007/s11663-025-03465-3",
+  "canonical_url": "https://link.springer.com/article/10.1007/s11663-025-03465-3",
+  "publisher": "Springer Nature",
+  "published_at": "2025-02-10",
+  "collected_at": "2026-07-27",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "824dd24713463fda6820fa11da727f18b4930844d5f6247dcd780a069d2a0e9e",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Babak Mokhtarani",
+      "Mehdi Jafarian",
+      "Graham J. Nathan"
+    ],
+    "venue": "Metallurgical and Materials Transactions B",
+    "doi": "10.1007/s11663-025-03465-3",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "c7dd6b46431e3d85b225a841d2eb15031ba5691f833bdef2c0dc5c3bc3689da1",
+  "raw_path": ".system/raw/SRC-20260727-824DD247.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-751DF8B9DA30",
+      "kind": "academic_figure",
+      "caption": "ZESTY 단일 관형 파일럿 반응기와 30 kt/y 제안 공정 흐름. 논문 Figure 1이며 30 kt/y 설비의 준공도가 아니다.",
+      "alt_text": "ZESTY 파일럿 관형 반응기와 제안된 30 kt/y 공정 흐름 학술 그림",
+      "creator": "Mokhtarani et al.; figure provided by Calix team",
+      "image_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11663-025-03465-3/MediaObjects/11663_2025_3465_Fig1_HTML.png",
+      "origin_url": "https://link.springer.com/article/10.1007/s11663-025-03465-3/figures/1",
+      "rights_status": "link_only",
+      "rights_note": "Springer Nature 원문 서버 직접 표시. 로컬 복제하지 않았으며 재사용 조건은 원문 라이선스를 따른다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "TEC-zesty-hydrogen-flash-reduction",
+        "PRJ-ZESTY-ROCKINGHAM-DEMO"
+      ],
+      "display_width": "detail",
+      "hero_priority": -600
+    }
+  ]
+}

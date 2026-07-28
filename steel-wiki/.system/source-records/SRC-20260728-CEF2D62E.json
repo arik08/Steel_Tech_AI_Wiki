@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-20260728-CEF2D62E",
+  "title": "H2 Green Steel Story - the Quest for Earth's Sustainable Future",
+  "url": "https://www.midrex.com/tech-article/h2-green-steel-story-the-quest-for-earths-sustainable-future/",
+  "canonical_url": "https://www.midrex.com/tech-article/h2-green-steel-story-the-quest-for-earths-sustainable-future",
+  "publisher": "Midrex Technologies",
+  "published_at": null,
+  "collected_at": "2026-07-28",
+  "source_type": "equipment_supplier",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "cef2d62ee5ef0091fa02aaa0b23ec5792bea716a14db49de48a9867a3aec09ad",
+  "raw_sha256": "b6892edf98499dd74ed696e69bf681960b7955dfb4432da3246376f529c4a875",
+  "raw_path": ".system/raw/SRC-20260728-CEF2D62E.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-A704058C3536",
+      "kind": "process_diagram",
+      "caption": "MIDREX가 공개한 Stegra(당시 H2 Green Steel) Boden 통합 공정도: 재생전력·수소생산·DR 펠릿·직접환원·전기로·압연·후처리와 스크랩 순환. 2022년 공급사 개념도이며 준공도는 아니다.",
+      "alt_text": "재생전력과 수소생산 직접환원 전기로 압연 후처리를 연결한 Stegra Boden 통합 공정도",
+      "creator": "H2 Green Steel / Midrex Technologies",
+      "image_url": "https://www.midrex.com/wp-content/uploads/Screen-Shot-2022-12-13-at-2.21.01-PM.png",
+      "origin_url": "https://www.midrex.com/tech-article/h2-green-steel-story-the-quest-for-earths-sustainable-future",
+      "rights_status": "link_only",
+      "rights_note": "MIDREX 공식 기술 기사에 게시된 H2 Green Steel 제공 공정도를 확인했습니다. 재사용 권한은 별도 확인하지 않아 원격 링크로만 표시하고 현재 준공도로 간주하지 않습니다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "PRJ-STEGRA-BODEN"
+      ],
+      "display_width": "detail",
+      "hero_priority": -900
+    }
+  ]
+}

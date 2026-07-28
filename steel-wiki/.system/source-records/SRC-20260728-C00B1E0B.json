@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-20260728-C00B1E0B",
+  "title": "High-temperature electrolytic ironmaking driven by green electricity toward decarbonization: Evaluating molten salt electrolysis and molten oxide electrolysis routes",
+  "url": "https://doi.org/10.1016/j.rser.2026.117058",
+  "canonical_url": "https://doi.org/10.1016/j.rser.2026.117058",
+  "publisher": "Elsevier",
+  "published_at": null,
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "c00b1e0b697c6165ca500387ad9d724b4971290af80a89594a84310f3d68b265",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Zhen Wang",
+      "Mengmeng Liu",
+      "Renze Xu"
+    ],
+    "venue": "Renewable and Sustainable Energy Reviews",
+    "doi": "10.1016/j.rser.2026.117058",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "87b395e8eca73619f404a937b7ae16c04c0645dcddbebe67e4ba7b964cfca1df",
+  "raw_path": ".system/raw/SRC-20260728-C00B1E0B.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-27DFF4F5620B",
+  "subject_id": "PRJ-BOSTON-METAL-MOE-WOBURN",
+  "predicate": "steel_scaleup_financing_limit",
+  "value": "회사 설명상 MOE Steel 개발 비용·복잡성이 당시 매출과 가용자본을 초과해 metals 중심 구조조정과 burn-rate 축소가 필요",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-02-24",
+  "last_verified": "2026-02-24",
+  "source_ids": [
+    "SRC-20260728-88C8008A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-02-24",
+      "action": "created",
+      "reason": "Boston.com이 보도한 회사 이메일 설명",
+      "source_ids": [
+        "SRC-20260728-88C8008A"
+      ]
+    }
+  ]
+}

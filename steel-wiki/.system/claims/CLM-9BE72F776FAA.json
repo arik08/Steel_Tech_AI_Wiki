@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9BE72F776FAA",
+  "subject_id": "PRJ-HY4SMELT",
+  "predicate": "incite_hot_metal_slag_targets",
+  "value": "설계 목표는 탄소 최대 4.5% hot metal과 FeO 1% 미만의 고로 유사 슬래그이며, 실증설비의 장기 제품·슬래그 품질 달성 실적은 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-06DEF489"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "INCITE 프로필의 smelter 제품 목표를 목표값으로 한정해 등록",
+      "source_ids": [
+        "SRC-20260728-06DEF489"
+      ]
+    }
+  ]
+}

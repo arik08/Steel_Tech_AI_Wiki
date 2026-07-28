@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D0CCDDF3A24F",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "environmental_permit_grant_date",
+  "value": "2026-06-15",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-112971A7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "LKAB가 발표한 법원 환경허가 승인일",
+      "source_ids": [
+        "SRC-20260727-112971A7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "source_id": "SRC-20260728-D4ADAE82",
+  "title": "Spatiotemporal Dynamics of Hydrogen Plasma Smelting Reduction of iron ore",
+  "url": "https://arxiv.org/abs/2607.06840",
+  "canonical_url": "https://arxiv.org/abs/2607.06840",
+  "publisher": "arXiv",
+  "published_at": "2026-07-07",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "medium",
+  "content_sha256": "d4adae821f2ca0d63d1d32db8b6119e16e953709e9fb02eec15c36eaeb8a59c0",
+  "academic": {
+    "kind": "preprint",
+    "authors": [
+      "Ram Krushna Mohanta",
+      "Kai Lopez",
+      "Sai Vishnu Korsipati",
+      "Hariswaran Sitaraman",
+      "Laxminarayan Raja",
+      "Noemi Leick",
+      "Seetharaman Sridhar"
+    ],
+    "venue": "arXiv",
+    "doi": "10.48550/arXiv.2607.06840",
+    "peer_review_status": "not_peer_reviewed"
+  },
+  "raw_sha256": "8e7024021d690ba2dfdb5077d06b55a16a13bb702cdddf34e7d696728dc3d7f9",
+  "raw_path": ".system/raw/SRC-20260728-D4ADAE82.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

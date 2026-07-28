@@ -92,7 +92,9 @@ project/
       "collected_at": "2026-07-25",
       "content_sha256": "...",
       "local_path": "assets/media/SRC-20260725-A1B2C3D4/MED-1234ABCDEF56.jpg",
-      "subject_ids": ["COM-EXAMPLE-STEEL", "PRJ-HAMBURG-DRI"]
+      "subject_ids": ["COM-EXAMPLE-STEEL", "PRJ-HAMBURG-DRI"],
+      "display_width": "detail",
+      "hero_priority": -100
     }
   ]
 }
@@ -151,6 +153,12 @@ project/
 허용 목록이다. 협력·투자·컨소시엄 관계만으로 파트너의 설비 이미지를 회사 페이지에
 표시하지 않는다. 특히 회사 페이지는 회사 직접 Source 또는 `subject_ids`에 해당
 `COM-` ID가 명시된 이미지로 제한한다.
+
+`display_width`는 선택 필드이며 일반 사진은 `compact`, 세부 판독이 필요한 공정도·
+장치도는 `detail`을 사용한다. `hero_priority`도 선택 필드이며 작은 값이 대표 이미지
+선정에서 먼저 온다. 동일 기술 페이지의 생성형 공정도를 최상단에 고정할 때는
+`-100`처럼 음수 우선순위를 사용하되, 실제 설비·학술 이미지는 본문 갤러리에 함께
+남겨 기술 검증 자료로 활용한다.
 
 ## 3. 주장
 

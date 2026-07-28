@@ -11,7 +11,8 @@
     "SSAB",
     "Nucor",
     "voestalpine",
-    "Rio Tinto"
+    "Rio Tinto",
+    "Calix Ltd"
   ],
   "technologies": [
     "hydrogen direct reduced iron",
@@ -24,9 +25,20 @@
     "high-grade EAF and scrap impurity removal",
     "hydrogen-based fine-ore reduction",
     "hydrogen plasma smelting reduction",
-    "microwave biomass ironmaking"
+    "microwave biomass ironmaking",
+    "zesty hydrogen flash reduction",
+    "hisarna cyclone smelting reduction"
   ],
-  "projects": [],
+  "projects": [
+    "Calix ZESTY Kwinana Green Iron Demonstration Plant",
+    "Tata Steel HIsarna Jamshedpur Demonstration Plant",
+    "HYBRIT Gällivare Industrial Demonstration Plant",
+    "Stegra Boden Green Steel Plant",
+    "EU H2PlasmaRed",
+    "Metso Pori DRI Smelting Furnace Pilot",
+    "EU PURESCRAP",
+    "ArcelorMittal Gent MHI Carbon Capture and D-CRBN Pilot"
+  ],
   "countries": [],
   "source_priority": [
     "company_release",

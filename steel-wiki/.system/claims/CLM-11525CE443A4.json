@@ -1,0 +1,34 @@
+{
+  "claim_id": "CLM-11525CE443A4",
+  "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+  "predicate": "feedstock_scope",
+  "value": "회사는 저품위 철광석과 steel slag 사용 가능성을 설명했으나 Jamshedpur 실증의 구체 광석 조성·배합은 미공개",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260727-FD3EBA92",
+    "SRC-20260728-1BFBFBDF"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "회사 발표 범위를 넘는 고-Al 원료 실증 추정을 방지",
+      "source_ids": [
+        "SRC-20260727-FD3EBA92"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "통합보고서는 저품위 인도 철광석·분광 직접 사용과 기존 slag 시험을 기술하지만 Jamshedpur 운전 배합은 공개하지 않음",
+      "source_ids": [
+        "SRC-20260728-1BFBFBDF"
+      ]
+    }
+  ]
+}

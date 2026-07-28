@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-66719DC0238F",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "refractory_erosion_test",
+  "value": "2026년 동료심사 연구에서 Bayan Obo 광미 유래 CaO-SiO2-TiO2-Nb2O5-Fe2O3-CaF2 슬래그에 노출한 BN·Si3N4·ZrO2·SiC를 비교했다. SiC는 TiC/NbC 중심 치밀 보호층으로 상대적으로 안정했고 정적 도가니 침식률 4.78 mg/h를 보였다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-85A65391"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "ScienceDirect 원문 초록과 DOI·권호·페이지를 교차 확인한 동료심사 실험 결과",
+      "source_ids": [
+        "SRC-20260728-85A65391"
+      ]
+    }
+  ]
+}

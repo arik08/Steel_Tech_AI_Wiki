@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-85BA5EC65AD3",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "citrate_electrolyte_result",
+  "value": "2026년 ACS 동료심사 연구는 citrate co-anion으로 Fe2+ 배위를 조절한 FeCl2·FeSO4 전해질이 pH 5 이상에서 최대 10일 화학적으로 안정했고 10 mA/cm2에서 95% 초과 Faradaic efficiency와 철산화물 형성 억제를 보였다고 보고했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-7CCF544F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "ACS 원문 페이지와 권호 목차의 DOI·저자·게시일·초록을 교차 확인",
+      "source_ids": [
+        "SRC-20260728-7CCF544F"
+      ]
+    }
+  ]
+}

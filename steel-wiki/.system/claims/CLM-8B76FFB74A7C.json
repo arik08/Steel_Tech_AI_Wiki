@@ -1,0 +1,34 @@
+{
+  "claim_id": "CLM-8B76FFB74A7C",
+  "subject_id": "TEC-smart-steelworks",
+  "predicate": "arcelormittal_aws_edge_ai",
+  "value": "ArcelorMittal과 AWS는 2026-06 OT·IT 수렴과 cloud·edge AI 협력을 발표하고 예지보전·컴퓨터비전 품질관리·공정최적화·digital twin을 계획 use case로 제시; 대상 공장·완료 설비 수·정량 성과는 미공개",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-22",
+  "last_verified": "2026-06-22",
+  "source_ids": [
+    "SRC-20260728-3F39F82D",
+    "SRC-20260728-F7DA1903"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-22",
+      "action": "created",
+      "reason": "협력 발표와 실제 전사 배포 완료를 구분",
+      "source_ids": [
+        "SRC-20260728-3F39F82D"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "action": "verified",
+      "reason": "AWS 공급사측 공동 발표로 use case와 미래형 문구를 교차 확인",
+      "source_ids": [
+        "SRC-20260728-F7DA1903"
+      ]
+    }
+  ]
+}

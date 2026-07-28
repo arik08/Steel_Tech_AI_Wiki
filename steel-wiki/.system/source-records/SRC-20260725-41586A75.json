@@ -42,6 +42,63 @@
       "collected_at": "2026-07-25",
       "content_sha256": null,
       "local_path": null
+    },
+    {
+      "media_id": "MED-52C2D1320144",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 제철 공정의 센서·엣지·데이터 계층, 물리+ML 디지털 트윈, 사람 승인과 제한적 폐루프 제어, 인터록·수동개입·롤백을 연결한 스마트 제철소 구조 개념도.",
+      "alt_text": "원료·소결·고로·제강·주조·압연 설비가 센서·데이터 계층과 디지털 트윈에 연결되고 사람 승인과 안전 인터록을 거쳐 제한적으로 제어되는 AI 개념도",
+      "creator": "OpenAI image generation / Codex",
+      "image_url": null,
+      "origin_url": "https://www.jfe-steel.co.jp/en/release/2025/10/251007.html",
+      "rights_status": "ai_generated",
+      "rights_note": "JFE 공식 CPS 설명과 관련 디지털 트윈 근거를 종합한 AI 재구성입니다. 전면 무인운전이나 모든 설비의 폐루프 제어를 주장하지 않습니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "52c2d132014496575c5328a2f5a5b7c1bf245dd102ed2253876a09e66e21c724",
+      "local_path": "assets/media/SRC-20260725-41586A75/MED-52C2D1320144.png",
+      "subject_ids": [
+        "TEC-smart-steelworks"
+      ],
+      "display_width": "detail",
+      "hero_priority": -100
+    },
+    {
+      "media_id": "MED-6FA3CF1F55A0",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 센서·historian·물리+ML 디지털 트윈·최적화·운전자 승인·안전 인터록·actuator·rollback을 분리한 스마트 제철소 제어 아키텍처.",
+      "alt_text": "스마트 제철소 데이터 모델 운전자 승인 안전 인터록 폐루프 제어 AI 개념도",
+      "creator": "OpenAI ImageGen",
+      "image_url": null,
+      "origin_url": "https://www.jfe-steel.co.jp/en/release/2025/10/251007.html",
+      "rights_status": "ai_generated",
+      "rights_note": "공개 사례를 일반화해 2026-07-27 생성한 개념 아키텍처. 특정 제철소 OT 구성도·P&ID가 아니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "6fa3cf1f55a077563b3cfb624c047678268bdfee2165ab4720ad6b7334dc0c50",
+      "local_path": "assets/media/SRC-20260725-41586A75/MED-6FA3CF1F55A0.png",
+      "subject_ids": [
+        "TEC-smart-steelworks"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200
+    },
+    {
+      "media_id": "MED-9A1572EA2DFF",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 센서·historian·물리+ML 디지털 트윈·최적화·운전자 검토·안전 인터록·승인 setpoint·actuator를 단일 제어 경로로 연결하고 수동모드·rollback을 분리한 스마트 제철소 참조 아키텍처. 전면 무인 운전이나 모든 설비의 자동 폐루프 적용을 뜻하지 않는다.",
+      "alt_text": "제철소 센서 데이터부터 디지털 트윈 최적화 운전자 승인 안전 인터록 actuator 수동 복구까지 이어지는 스마트 제철소 AI 아키텍처",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://www.jfe-steel.co.jp/en/release/2025/10/251007.html",
+      "rights_status": "ai_generated",
+      "rights_note": "JFE Steel CPS 공개 사례와 일반적인 OT 안전 경계를 종합해 2026-07-27 생성한 개념 아키텍처다. 특정 제철소의 실제 네트워크, 제어로직, as-built 또는 P&ID가 아니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "9a1572ea2dffbc75fdabab246834cc60e538e7c9a59d08f184c4e43f2462825c",
+      "local_path": "assets/media/SRC-20260725-41586A75/MED-9A1572EA2DFF.png",
+      "subject_ids": [
+        "TEC-smart-steelworks"
+      ],
+      "display_width": "detail",
+      "hero_priority": -300
     }
   ]
 }

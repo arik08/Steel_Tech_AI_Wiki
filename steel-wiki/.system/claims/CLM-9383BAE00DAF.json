@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-9383BAE00DAF",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "reduction_split_strategy",
+  "value": "유동층의 과도한 금속화에서 고착·탈유동 위험을 줄이기 위해 H2DRI와 ESF 사이에 환원부담을 나누는 설계 전략; 상용 실증 완료 주장이 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-20",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-4039F069"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-20",
+      "action": "created",
+      "reason": "저품위 미분광 유동층-ESF 통합 모델의 설계 논리",
+      "source_ids": [
+        "SRC-20260728-4039F069"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-4039F069"
+      ]
+    }
+  ]
+}

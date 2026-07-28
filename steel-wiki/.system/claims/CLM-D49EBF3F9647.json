@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-D49EBF3F9647",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "academic_multistage_reduction_test",
+  "value": "POSTECH 연구진은 AISTech 2026에서 400 g 미분광을 R4–R3–R2–R1 네 단계로 순차 환원한 실험을 공개해 HyREX 다단 유동층 운전 최적화 연구를 뒷받침했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-04",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-188FD401"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-04",
+      "action": "created",
+      "reason": "AIST 공식 발표 레코드의 실험 목적·시료량·단계 구성을 직접 확인.",
+      "source_ids": [
+        "SRC-20260728-188FD401"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-188FD401"
+      ]
+    }
+  ]
+}

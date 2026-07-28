@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F1EAA5977CCE",
+  "subject_id": "PRJ-JFE-CHIBA-CARBON-RECYCLING-BF",
+  "predicate": "performance_boundary",
+  "value": "공개 자료는 운전 개시만 확인하며 달성 CO2 저감률·메탄화 전환율·수소 수요·안정 연속운전 시간은 공개하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-1AB6BC47"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "회사 목표와 측정 실적을 구분하기 위한 공개정보 경계",
+      "source_ids": [
+        "SRC-20260728-1AB6BC47"
+      ]
+    }
+  ]
+}

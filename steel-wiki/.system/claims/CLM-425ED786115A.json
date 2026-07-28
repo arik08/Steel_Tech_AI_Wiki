@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-425ED786115A",
+  "subject_id": "PRJ-BOSTON-METAL-MOE-WOBURN",
+  "predicate": "grant_timing_boundary",
+  "value": "USD 950,308 주정부 보조금 발표는 2026-02-24 WARN 보도보다 앞선 2026-02-11 사건이며, 이후 Woburn 인력·시설 유지, 철강 프로그램 연속운전 또는 과거 상용화 일정 복구를 입증하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-203CCD00"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "선행 보조금 발표가 후속 구조조정 신호를 상쇄하지 않도록 시간 경계를 명시",
+      "source_ids": [
+        "SRC-20260728-203CCD00"
+      ]
+    }
+  ]
+}

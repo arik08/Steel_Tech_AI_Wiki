@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-2A8DDA79E70D",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "grid_connection_milestone",
+  "value": "스웨덴 송전망 운영자는 Stegra 제철·수소설비 접속을 위해 건설한 400kV Degerträsk 변전소가 2025년 10월 예정대로 가압·가동됐다고 확인했으며, 추가 인출을 위한 공사는 2026년 계속됐다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-10-30",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-EEB8C7F8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-10-30",
+      "action": "created",
+      "reason": "회사 외 독립 공공기관의 전력 기반시설 이정표 확인",
+      "source_ids": [
+        "SRC-20260728-EEB8C7F8"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-EEB8C7F8"
+      ]
+    }
+  ]
+}

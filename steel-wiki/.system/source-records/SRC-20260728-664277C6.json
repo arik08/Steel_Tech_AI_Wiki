@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-20260728-664277C6",
+  "title": "A generalized Grain-Scale model for the Non-Plasma and Plasma-Assisted hydrogen direct reduction of iron ore",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0009250926006950",
+  "canonical_url": "https://www.sciencedirect.com/science/article/pii/S0009250926006950",
+  "publisher": "Chemical Engineering Science / Elsevier",
+  "published_at": null,
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "664277c66cb3e5f53c5f7fa8cacfd9b67a006b2807985232d46d710f2fc4e1bb",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Rui You",
+      "Hariswaran Sitaraman",
+      "Sridhar Seetharaman",
+      "Laxminarayan L. Raja"
+    ],
+    "venue": "Chemical Engineering Science",
+    "doi": "10.1016/j.ces.2026.123983",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "5bc5f7e954e92d6cda0135e6406579b22128372ba2f53173f0a56b21a71ebee5",
+  "raw_path": ".system/raw/SRC-20260728-664277C6.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

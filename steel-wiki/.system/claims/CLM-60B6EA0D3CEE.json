@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-60B6EA0D3CEE",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "innovation_fund_support_status",
+  "value": "LKAB와 CINEA가 기존 Innovation Fund 지원 협약 철회에 합의",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260727-91F88878"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "실제 지원 사건이며 프로젝트 취소로 확대하지 않음",
+      "source_ids": [
+        "SRC-20260727-91F88878"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 LKAB Q1 2026 원문에서 지원 철회·미집행·재신청 계획의 의미 전체를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260727-91F88878"
+      ]
+    }
+  ]
+}

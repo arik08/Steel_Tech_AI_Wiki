@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-540E389A9F2B",
+  "subject_id": "PRJ-SSAB-LULEA-ELECTRIC-MILL",
+  "predicate": "secondary_metallurgy_configuration",
+  "value": "계약 공급 범위에는 twin-ladle 정련 station 2계열과 twin-tank 진공 탈가스기 2계열이 포함된다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-EAC4FDB6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "Danieli 기술 상세를 SSAB 발표의 2차정련·진공탈가스 구성과 대조",
+      "source_ids": [
+        "SRC-20260728-EAC4FDB6"
+      ]
+    }
+  ]
+}

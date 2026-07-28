@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-2AB08D19E909",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "commercialization_target",
+  "value": "Electra CCO는 부지선정 중인 최초 상업시설에 대해 2029년 말 준비, 최대 1 Mt/y를 전망했다. 이는 site selection·FID 전 회사 전망이며 확정 부지·EPC·건설 일정이나 승인 용량이 아니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-4B823CFA"
+  ],
+  "supersedes": [
+    "CLM-5D89B1726B51"
+  ],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "2026년 최신 임원 인터뷰가 상업 scale outlook을 정량화하지만 부지 선정 전 전망이라는 불확실성을 함께 명시한다.",
+      "source_ids": [
+        "SRC-20260728-4B823CFA"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "review_supersede",
+      "reason": "기존 '2020년대 말 상업규모' 일반 목표를 2026년 CCO 인터뷰의 2029년 말·최대 1 Mt/y 전망으로 구체화하되, 부지선정·FID 전 회사 전망이라는 조건을 명시한다."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BA5C0F5D5D1C",
+  "subject_id": "PRJ-NIPPON-USS-BIG-RIVER-DRI",
+  "predicate": "technology_route",
+  "value": "MIDREX Flex shaft-furnace route producing HDRI for direct hot charging to adjacent Big River EAFs and HBI for merchant sale/export; initial reductant mix is not publicly fixed as 100% hydrogen",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-15",
+  "last_verified": "2026-06-15",
+  "source_ids": [
+    "SRC-20260728-233C5C7D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-15",
+      "action": "created",
+      "reason": "Supplier configuration and hydrogen boundary",
+      "source_ids": [
+        "SRC-20260728-233C5C7D"
+      ]
+    }
+  ]
+}

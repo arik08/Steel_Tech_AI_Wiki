@@ -13,10 +13,10 @@
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 5개 / 감시 기술 11개 |
-    | **연결 프로젝트** | 3개 |
+    | **확인된 기술** | 5개 / 감시 기술 13개 |
+    | **연결 프로젝트** | 4개 |
     | **실행 단계** | 연구·실증 5건 |
-    | **직접 연결 근거** | 8건 |
+    | **직접 연결 근거** | 14건 |
 
 !!! warning "주의해서 볼 항목"
 
@@ -29,7 +29,7 @@
 | 기술 | 현재 확인 내용 | 단계 |
 | --- | --- | --- |
 | **[[technologies/TEC-hydrogen-direct-reduced-iron|수소 직접환원철 (Hydrogen DRI)]]** | Hasaki R&D Center의 시험 shaft furnace와 전기로를 이용한 수소 DRI 실증 개발 단계 [^src-20260725-45a1d063] | **연구·실증** |
-| **[[technologies/TEC-blast-furnace-ccus|고로 CCUS]]** | Kimitsu 시험고로에서 2024년 수소 활용 CO2 43% 감축 확인; 고로가스 CO2 분리·포집 및 CCUS 연구 병행 [^src-20260725-45a1d063] | **연구·실증** |
+| **[[technologies/TEC-blast-furnace-ccus|고로 CCUS]]** | Kimitsu 12 m3 소형 시험고로에서 2026년 2~3월 수소 활용 CO2 45% 감축을 회사가 보고; 4,500 m3 제2고로 실증 결과가 아니며 고로가스 CO2 분리·포집 및 CCUS 연구는 병행 [^src-20260725-f396d188] | **연구·실증** |
 | **[[technologies/TEC-low-carbon-ironmaking|저탄소 제철 종합 경로 (Low-carbon Ironmaking)]]** | 수소 DRI·대형 EAF 고급강·고로 수소취입의 3개 핵심 경로를 시험설비에서 개발 [^src-20260725-45a1d063] | **연구·실증** |
 | **[[technologies/TEC-smart-steelworks|스마트 제철소 (Smart Steelworks)]]** | 원격운전·자동화·AI·고급 알고리즘의 연구 및 실용화 연구 단계; 전사 배치 여부는 이 출처로 미확인 [^src-20260725-45a1d063] | **연구·실증** |
 | **[[technologies/TEC-high-grade-eaf-and-scrap-impurity-removal|고급강 EAF·스크랩 불순물 제거]]** | 10톤/charge 시험 EAF에서 2025년부터 고효율 탈인·탈질 시험; Hirohata 통합 EAF에서 고급강 상업 생산 [^src-20260725-daaeec2b] | **연구·실증** |
@@ -48,11 +48,11 @@
 
 ??? info "고로 CCUS · 연구·실증"
 
-    **확인된 사실:** Kimitsu 시험고로에서 2024년 수소 활용 CO2 43% 감축 확인; 고로가스 CO2 분리·포집 및 CCUS 연구 병행 [^src-20260725-45a1d063]
+    **확인된 사실:** Kimitsu 12 m3 소형 시험고로에서 2026년 2~3월 수소 활용 CO2 45% 감축을 회사가 보고; 4,500 m3 제2고로 실증 결과가 아니며 고로가스 CO2 분리·포집 및 CCUS 연구는 병행 [^src-20260725-f396d188]
 
     **판단 기준:** 기술 가능성을 검증하는 단계입니다. 시험 규모의 성공을 상용 생산성과로 해석하지 않고 규모 확대 계획을 따로 확인해야 합니다.
 
-    **확인 날짜:** 발표 미상 · 검증 2026-07-25
+    **확인 날짜:** 발표 2026-06-02 · 검증 2026-06-02
 
     **다음 확인:** 고로 배출가스가 실제 포집 대상인지, CCU와 영구저장 CCS 중 어느 경로인지, 포집량과 최종 저장처가 확정됐는지, 재생열·압축·수송을 포함한 순회피량과 톤당 비용이 공개됐는지 확인해야 합니다.
 
@@ -86,6 +86,14 @@
 
     **다음 확인:** 스크랩 종류·해방도·센서 판정의 대표성, Cu·Sn 실제 제거율과 철 손실, DRI/HBI·용선 희석 의존도, 탭 N·P·S, 처리량·가동률, 제품별 합격률과 대형 EAF 장기 생산 실적을 확인해야 합니다.
 
+## 사업화·프로젝트 지표
+
+| 항목 | 현재 확인 내용 |
+| --- | --- |
+| **big river dri status** | Nippon Steel subsidiary U. S. Steel approved a USD 1.9 billion, 2.5 Mt/y MIDREX Flex HDRI/HBI plant at Big River Steel Works; supplier selection complete and first production targeted for 2029 [^src-20260728-15d8c4a6][^src-20260728-233c5c7d] |
+| **noetra ai participation** | Noetra의 44개 참여·출자 기업 목록에 포함; 멀티모달 기반모델 연구개발 참여 사실은 확인되나 Nippon Steel 제철소 적용 범위·성과는 미공개 [^src-20260728-1444f21d] |
+| **steelworks dx status** | NS-Lib에 제철소 핵심 공정데이터를 통합하고 크레인·AGV, 일부 구역 원격운전, 대형차량·철도 무인화를 추진; 설비 수·정량 성과는 미공개 [^src-20260728-d887e861] |
+
 ## 주요 프로젝트
 
 회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
@@ -95,6 +103,7 @@
 | **[[projects/PRJ-NIPPON-HASAKI-H2-DRI|Nippon Steel Hasaki 수소 DRI 시험로]]** | Nippon Steel이 저품위 철광석 수소환원 시험로를 건설하고 2026년 3월 운전을 개시한 연구개발 프로젝트 [^src-20260725-f396d188] | **기술 경로** 저품위 철광석을 100% 수소로 직접환원하고 환원-냉각-성형 전 공정을 상용 유사 구성으로 평가 [^src-20260725-280a7fac] · **위치** Nippon Steel Hasaki R&D Center, Kamisu, Ibaraki, Japan [^src-20260725-280a7fac] · **시간당 처리능력** 시험로 설계 처리량 약 1 tonne/hour [^src-20260725-280a7fac] |
 | **[[projects/PRJ-NIPPON-JAPAN-EAF-CONVERSION|Nippon Steel 일본 3개 거점 전기로 전환]]** | 3개 거점 전기로 신설·증설·재가동 투자 확정; Yawata는 2026-04-15 착공, Hirohata·Shunan은 공개 목표 일정에 따른 추진 단계 [^src-20260725-e5bc335b][^src-20260725-e3271b0a] | **기술 경로** 고로 상공정을 대형 전기로로 전환하고 고급강 제조·물류·전력공급·후단 에너지 설비를 함께 구축 [^src-20260725-e5bc335b] · **위치** Kyushu Works Yawata, Setouchi Works Hirohata, Yamaguchi Works Shunan, Japan [^src-20260725-e5bc335b] · **연간 생산능력** 3개 거점 합계 약 2,900,000톤/년: Yawata 2.0 Mt/y, Hirohata 0.5 Mt/y, Shunan 0.4 Mt/y [^src-20260725-e5bc335b] · **지원·조달 금액** GX Promotion Act 정부지원 최대 JPY 251.4 billion: Yawata 179.9bn, Hirohata 42.8bn, Shunan 28.7bn [^src-20260725-e5bc335b] · **목표 가동 시점** Shunan FY2028 하반기, Yawata·Hirohata FY2029 하반기 생산 개시 목표 [^src-20260725-e5bc335b] |
 | **[[projects/PRJ-NIPPON-KIMITSU-COURSE50|Nippon Steel Kimitsu COURSE50 실증]]** | 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 [^src-20260725-46c2dbc8] | **기술 경로** Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 [^src-20260725-46c2dbc8] · **위치** East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan [^src-20260725-0a7903ea] |
+| **[[projects/PRJ-NIPPON-USS-BIG-RIVER-DRI|Nippon Steel·U. S. Steel Big River DRI]]** | U. S. Steel board approved the USD 1.9 billion investment on 2026-04-28 and Midrex was selected by 2026-06-15; construction completion and operation remain future milestones [^src-20260728-15d8c4a6][^src-20260728-233c5c7d] | **기술 경로** MIDREX Flex shaft-furnace route producing HDRI for direct hot charging to adjacent Big River EAFs and HBI for merchant sale/export; initial reductant mix is not publicly fixed as 100% hydrogen [^src-20260728-233c5c7d] · **위치** Big River Steel Works, Osceola, Arkansas, United States [^src-20260728-aade96f1] · **연간 생산능력** 2.5 million metric tonnes/year HDRI/HBI design capacity [^src-20260728-233c5c7d] · **투자비** approximately USD 1.9 billion [^src-20260728-15d8c4a6] · **목표 가동 시점** first production expected in 2029; AIST reports first-half 2029 after about 30 months construction [^src-20260728-233c5c7d][^src-20260728-d4bcb579] |
 
 ## 프로젝트별 상세
 
@@ -169,6 +178,30 @@
     | 2026-05-29 | 발표·검증 | **공개 성과의 한계**: 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음 · **기술 경로**: Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 · **프로젝트 상태**: 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 · **기존 실증 개시 목표**: 2026-01 실증 개시 목표로 2023년 발표했으나, 2026-05-29에도 FY2026 실증 준비·설비 도입 진행으로 설명 [^src-20260725-46c2dbc8] |
     | 2026-06-02 | 발표·검증 | **공개 성과의 한계**: 45% 감축은 12 m3급 소형 시험고로 결과이며 Kimitsu 제2고로 장기운전·제품 단위 배출·실제 수소원단위는 아직 공개 확인되지 않음 · **시험 결과**: Kimitsu 소형 시험고로에서 2026년 2~3월 CO2 배출 45% 감축을 회사가 보고; 4,500 m3 고로 실증 결과는 아님 [^src-20260725-f396d188] |
 
+??? info "Nippon Steel·U. S. Steel Big River DRI"
+
+    **프로젝트 문서:** [[projects/PRJ-NIPPON-USS-BIG-RIVER-DRI|Nippon Steel·U. S. Steel Big River DRI]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **연간 생산능력** | 2.5 million metric tonnes/year HDRI/HBI design capacity [^src-20260728-233c5c7d] |
+    | **목표 가동 시점** | first production expected in 2029; AIST reports first-half 2029 after about 30 months construction [^src-20260728-233c5c7d][^src-20260728-d4bcb579] |
+    | **위치** | Big River Steel Works, Osceola, Arkansas, United States [^src-20260728-aade96f1] |
+    | **투자비** | approximately USD 1.9 billion [^src-20260728-15d8c4a6] |
+    | **Feedstock chain** | Keetac DR-grade pellets from Minnesota to on-site DRI production and four EAFs at Big River Steel Works [^src-20260728-aade96f1] |
+    | **기술 경로** | MIDREX Flex shaft-furnace route producing HDRI for direct hot charging to adjacent Big River EAFs and HBI for merchant sale/export; initial reductant mix is not publicly fixed as 100% hydrogen [^src-20260728-233c5c7d] |
+    | **프로젝트 상태** | U. S. Steel board approved the USD 1.9 billion investment on 2026-04-28 and Midrex was selected by 2026-06-15; construction completion and operation remain future milestones [^src-20260728-15d8c4a6][^src-20260728-233c5c7d] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2026-04-29 | 발표·검증 | **위치**: Big River Steel Works, Osceola, Arkansas, United States · **Feedstock chain**: Keetac DR-grade pellets from Minnesota to on-site DRI production and four EAFs at Big River Steel Works [^src-20260728-aade96f1] |
+    | 2026-04-30 | 발표·검증 | **투자비**: approximately USD 1.9 billion · **프로젝트 상태**: U. S. Steel board approved the USD 1.9 billion investment on 2026-04-28 and Midrex was selected by 2026-06-15; construction completion and operation remain future milestones [^src-20260728-15d8c4a6] |
+    | 2026-05-04 | 발표·검증 | **목표 가동 시점**: first production expected in 2029; AIST reports first-half 2029 after about 30 months construction [^src-20260728-d4bcb579] |
+    | 2026-06-15 | 발표·검증 | **연간 생산능력**: 2.5 million metric tonnes/year HDRI/HBI design capacity · **목표 가동 시점**: first production expected in 2029; AIST reports first-half 2029 after about 30 months construction · **기술 경로**: MIDREX Flex shaft-furnace route producing HDRI for direct hot charging to adjacent Big River EAFs and HBI for merchant sale/export; initial reductant mix is not publicly fixed as 100% hydrogen · **프로젝트 상태**: U. S. Steel board approved the USD 1.9 billion investment on 2026-04-28 and Midrex was selected by 2026-06-15; construction completion and operation remain future milestones [^src-20260728-233c5c7d] |
+    | 2029 | 목표 일정 | **목표 가동 시점**: first production expected in 2029; AIST reports first-half 2029 after about 30 months construction [^src-20260728-233c5c7d][^src-20260728-d4bcb579] |
+
 ## AI 분석
 
 !!! warning "공개 근거와 구분"
@@ -176,6 +209,10 @@
     - 확인된 사실만으로 기술 경쟁력을 단일 순위로 평가하지 않았습니다. 실증 규모, 상용 운전, 원료·에너지 조건이 서로 다르기 때문입니다.
     - 현재 자료의 실행 단계 분포는 연구·실증 5건입니다. 이는 공식 발표 문구를 바탕으로 한 분류이며 정식 TRL 판정이 아닙니다.
     - 다음 갱신에서는 목표치보다 착공·준공·누적 생산량·가동률·제품 단위 배출량처럼 실행을 입증하는 지표를 우선 확인하는 것이 좋습니다.
+
+??? note "변경 이력"
+
+    - **blast furnace ccus status · 후속 정보로 대체:** Kimitsu 시험고로에서 2024년 수소 활용 CO2 43% 감축 확인; 고로가스 CO2 분리·포집 및 CCUS 연구 병행 [^src-20260725-45a1d063]
 
 ## 설비·공정 이미지
 
@@ -206,6 +243,12 @@
 | [[sources/SRC-20260725-E3271B0A|Nippon Steel starts Yawata large-EAF conversion construction]] | Nippon Steel Corporation · 2026-04-15 | [원문 보기](https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html) |
 | [[sources/SRC-20260725-E5BC335B|Nippon Steel investment decision for three-site EAF conversion]] | Nippon Steel Corporation · 2025-05-30 | [원문 보기](https://www.nipponsteel.com/en/newsroom/news/2025/__icsFiles/afieldfile/2025/09/26/20250530_200.pdf) |
 | [[sources/SRC-20260725-F396D188|Nippon Steel FY2025 results: carbon-neutral technology progress]] | Nippon Steel Corporation · 2026-06-02 | [원문 보기](https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf) |
+| [[sources/SRC-20260728-1444F21D|Noetra Launches Full-Scale R&D for Japan-Developed Multimodal Foundation Model]] | Noetra Corp. · 2026-07-16 | [원문 보기](https://www.noetra.co.jp/pressrelease20260716-en) |
+| [[sources/SRC-20260728-15D8C4A6|Nippon Steel confirms Big River DRI investment]] | Nippon Steel Corporation · 2026-04-30 | [원문 보기](https://www.nipponsteel.com/en/newsroom/news/2026/__icsFiles/afieldfile/2026/05/01/20260430_150.pdf) |
+| [[sources/SRC-20260728-233C5C7D|Midrex selected for Big River DRI plant]] | Midrex Technologies, Inc. · 2026-06-15 | [원문 보기](https://www.midrex.com/press-release/midrex-selected-for-u-s-steels-first-of-its-kind-dri-facility-at-big-river-steel-works/) |
+| [[sources/SRC-20260728-AADE96F1|U. S. Steel Big River DRI investment and site integration]] | United States Steel Corporation · 2026-04-29 | [원문 보기](https://www.ussteel.com/media/newsroom/-/blogs/u-s-steel-announces-first-of-its-kind-in-the-united-states-dri-facility-at-big-river-steel-works) |
+| [[sources/SRC-20260728-D4BCB579|U. S. Steel targets 2029 start for Big River DRI plant]] | Association for Iron & Steel Technology · 2026-05-04 | [원문 보기](https://www.aist.org/u-s-steel-targets-2029-start-for-dri-plant) |
+| [[sources/SRC-20260728-D887E861|Consolidated Financial Results for the Fiscal Year Ended March 31, 2026: DX and steelworks logistics]] | Nippon Steel Corporation · 2026-05-13 | [원문 보기](https://www.nipponsteel.com/en/ir/library/settlement/pdf/20260513_100.pdf) |
 
 [^src-20260725-0a7903ea]: **Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration** — Nippon Steel Corporation, 2023-02-09. [원문](https://www.nipponsteel.com/en/news/20230209_100.html) · [[sources/SRC-20260725-0A7903EA|보관 원문·메타데이터]]
 [^src-20260725-280a7fac]: **Nippon Steel GX briefing: Hasaki hydrogen DRI test furnace** — Nippon Steel Corporation, 게시일 미상. [원문](https://www.nipponsteel.com/en/ir/library/pdf/20250313_100.pdf) · [[sources/SRC-20260725-280A7FAC|보관 원문·메타데이터]]
@@ -215,3 +258,9 @@
 [^src-20260725-e3271b0a]: **Nippon Steel starts Yawata large-EAF conversion construction** — Nippon Steel Corporation, 2026-04-15. [원문](https://www.nipponsteel.com/newsroom/news/2026/20260415_100.html) · [[sources/SRC-20260725-E3271B0A|보관 원문·메타데이터]]
 [^src-20260725-e5bc335b]: **Nippon Steel investment decision for three-site EAF conversion** — Nippon Steel Corporation, 2025-05-30. [원문](https://www.nipponsteel.com/en/newsroom/news/2025/__icsFiles/afieldfile/2025/09/26/20250530_200.pdf) · [[sources/SRC-20260725-E5BC335B|보관 원문·메타데이터]]
 [^src-20260725-f396d188]: **Nippon Steel FY2025 results: carbon-neutral technology progress** — Nippon Steel Corporation, 2026-06-02. [원문](https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf) · [[sources/SRC-20260725-F396D188|보관 원문·메타데이터]]
+[^src-20260728-1444f21d]: **Noetra Launches Full-Scale R&D for Japan-Developed Multimodal Foundation Model** — Noetra Corp., 2026-07-16. [원문](https://www.noetra.co.jp/pressrelease20260716-en) · [[sources/SRC-20260728-1444F21D|보관 원문·메타데이터]]
+[^src-20260728-15d8c4a6]: **Nippon Steel confirms Big River DRI investment** — Nippon Steel Corporation, 2026-04-30. [원문](https://www.nipponsteel.com/en/newsroom/news/2026/__icsFiles/afieldfile/2026/05/01/20260430_150.pdf) · [[sources/SRC-20260728-15D8C4A6|보관 원문·메타데이터]]
+[^src-20260728-233c5c7d]: **Midrex selected for Big River DRI plant** — Midrex Technologies, Inc., 2026-06-15. [원문](https://www.midrex.com/press-release/midrex-selected-for-u-s-steels-first-of-its-kind-dri-facility-at-big-river-steel-works/) · [[sources/SRC-20260728-233C5C7D|보관 원문·메타데이터]]
+[^src-20260728-aade96f1]: **U. S. Steel Big River DRI investment and site integration** — United States Steel Corporation, 2026-04-29. [원문](https://www.ussteel.com/media/newsroom/-/blogs/u-s-steel-announces-first-of-its-kind-in-the-united-states-dri-facility-at-big-river-steel-works) · [[sources/SRC-20260728-AADE96F1|보관 원문·메타데이터]]
+[^src-20260728-d4bcb579]: **U. S. Steel targets 2029 start for Big River DRI plant** — Association for Iron & Steel Technology, 2026-05-04. [원문](https://www.aist.org/u-s-steel-targets-2029-start-for-dri-plant) · [[sources/SRC-20260728-D4BCB579|보관 원문·메타데이터]]
+[^src-20260728-d887e861]: **Consolidated Financial Results for the Fiscal Year Ended March 31, 2026: DX and steelworks logistics** — Nippon Steel Corporation, 2026-05-13. [원문](https://www.nipponsteel.com/en/ir/library/settlement/pdf/20260513_100.pdf) · [[sources/SRC-20260728-D887E861|보관 원문·메타데이터]]

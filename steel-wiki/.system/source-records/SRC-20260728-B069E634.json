@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-20260728-B069E634",
+  "title": "Production of Fe metal from Fe ores through novel molten oxide electrolysis at 1173 K",
+  "url": "https://doi.org/10.1038/s41598-026-58521-y",
+  "canonical_url": "https://doi.org/10.1038/s41598-026-58521-y",
+  "publisher": "Springer Nature / Scientific Reports",
+  "published_at": "2026-07-07",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "b069e63439c7ccb5b69b6494147ce444d74c6320b45a862cae143d963fa7edb4",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Joongseok Kim",
+      "Jungshin Kang",
+      "Kyung-Woo Yi"
+    ],
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-026-58521-y",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "0efcf994c1b2abbfa36e455d2b2b0a8f2b1cc4d559cc68dc59563a9278662c63",
+  "raw_path": ".system/raw/SRC-20260728-B069E634.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

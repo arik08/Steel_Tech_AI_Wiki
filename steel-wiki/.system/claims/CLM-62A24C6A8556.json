@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-62A24C6A8556",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "evidence_scale_and_conditions",
+  "value": "7 kW급 벤치 transferred-arc, 100–200 A, Ar-5%H2, DRI급 적철광 양극 조건의 실험·모델 결과이며 다른 극성·가스조성·산업 반응기로 일반화하려면 추가 검증이 필요",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-6E02E4F3"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "논문 실험조건과 저자 한계를 그대로 분리해 기록해 상업규모 성능으로 확대해석하지 않는다.",
+      "source_ids": [
+        "SRC-20260728-6E02E4F3"
+      ]
+    }
+  ]
+}

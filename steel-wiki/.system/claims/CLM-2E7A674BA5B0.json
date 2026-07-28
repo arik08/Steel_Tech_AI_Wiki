@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2E7A674BA5B0",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "representative_process_reference",
+  "value": "HYBRIT 공식 실증 가치사슬 개념도는 Gällivare의 펠릿·약 500 MW 수전해·수소 직접환원과 Oxelosund 전기로 슬래브 생산을 연결; 개별 설비 준공도는 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-DC34166F"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "프로젝트 전체 공정을 설명하는 공식 대표 이미지 등록",
+      "source_ids": [
+        "SRC-20260728-DC34166F"
+      ]
+    }
+  ]
+}

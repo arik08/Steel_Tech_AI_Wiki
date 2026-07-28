@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-00F58216C7AE",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "alkaline_deposit_growth_boundary",
+  "value": "400 cm2는 전극 기하 확대, 0.5 kg/m2/h는 전극면적당 성장률, 9시간은 전착 실험시간이다. 원광 전처리·전해액 재생·제품 박리·세척을 포함한 연속 플랜트 처리량·t/y 생산능력이나 전극 장기수명 근거가 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-E7D8D580"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "전극 셀의 면적·성장률·실험시간과 통합 플랜트 생산능력·장기 운전을 분리",
+      "source_ids": [
+        "SRC-20260728-E7D8D580"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-20260728-C30EAE04",
+  "title": "MHI FY2024 transition-bond report on Gent CO2 capture and D-CRBN demonstration",
+  "url": "https://www.mhi.com/finance/stock/esg/transitionbond/pdf/42tb_reporting2024.pdf",
+  "canonical_url": "https://www.mhi.com/finance/stock/esg/transitionbond/pdf/42tb_reporting2024.pdf",
+  "publisher": "Mitsubishi Heavy Industries",
+  "published_at": "2025-12-05",
+  "collected_at": "2026-07-28",
+  "source_type": "company_ir",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "c30eae04724d49cb15708ec31052b44b616d7906960f7ff1b9e2a5cf6c4bf857",
+  "raw_sha256": "eb92e3d3109bd3d9fb7b831c57b50099c3b5e89770a27a8da4951906d8a7fe16",
+  "raw_path": ".system/raw/SRC-20260728-C30EAE04.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-623A8601BFAC",
+      "kind": "facility_photo",
+      "caption": "ArcelorMittal Gent의 MHI CO2MPACT 포집 모듈과 D-CRBN 플라즈마 CO2 전환 장치; MHI 공식 시험 사진",
+      "alt_text": "ArcelorMittal Gent의 MHI CO2MPACT 포집 모듈과 D-CRBN 플라즈마 전환 컨테이너",
+      "creator": "Mitsubishi Heavy Industries",
+      "image_url": "https://www.mhi.com/sites/g/files/jwhtju111/files/styles/original_image_style/public/2024-07/240708.jpg?itok=Ge81WCPH",
+      "origin_url": "https://www.mhi.com/news/240708.html",
+      "rights_status": "link_only",
+      "rights_note": "MHI 공식 보도자료에서 원본과 맥락을 확인했으며 복제 권한은 확인되지 않아 원격 링크만 사용",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT"
+      ],
+      "display_width": "compact",
+      "hero_priority": -700
+    }
+  ]
+}

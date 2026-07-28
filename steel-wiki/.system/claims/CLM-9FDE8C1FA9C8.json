@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9FDE8C1FA9C8",
+  "subject_id": "PRJ-NUCOR-WEST-VIRGINIA-SHEET-MILL",
+  "predicate": "project_status",
+  "value": "2026년 1분기 기준 최종 건설·설비별 시운전 단계이며, 산세 라인부터 냉연·도금·용해·열연 설비를 순차 시운전 중; 통합 상업생산 확정 상태가 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-28",
+  "last_verified": "2026-04-28",
+  "source_ids": [
+    "SRC-20260728-8C43A9D2"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-28",
+      "action": "created",
+      "reason": "Nucor 최신 공식 투자자 자료로 건설과 상업생산을 구분",
+      "source_ids": [
+        "SRC-20260728-8C43A9D2"
+      ]
+    }
+  ]
+}

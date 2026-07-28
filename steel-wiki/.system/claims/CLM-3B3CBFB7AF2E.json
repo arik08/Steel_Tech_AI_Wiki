@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3B3CBFB7AF2E",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "reported_trial_charge_mode",
+  "value": "batch charged",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-9BC68665"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "동료심사 논문의 시험 투입 방식",
+      "source_ids": [
+        "SRC-20260727-9BC68665"
+      ]
+    }
+  ]
+}

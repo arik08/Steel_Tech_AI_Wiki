@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-0DE49BFE602E",
+  "subject_id": "COM-JFE-Steel",
+  "predicate": "scrap_cu_blending_ai_status",
+  "value": "JFE는 EAF 용강의 Cu 농도를 기계학습으로 예측해 스크랩 배합을 최적화하고 규격 외 tramp element와 고급 스크랩 과잉 투입을 줄이는 솔루션을 공개",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-ABFA913A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "JFE 공식 솔루션 페이지와 2026년 5월 기술 카탈로그의 동일 항목을 대조",
+      "source_ids": [
+        "SRC-20260728-ABFA913A"
+      ]
+    }
+  ]
+}

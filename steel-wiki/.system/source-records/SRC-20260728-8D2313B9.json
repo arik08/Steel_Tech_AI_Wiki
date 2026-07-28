@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-20260728-8D2313B9",
+  "title": "System analysis of direct reduced iron production with elevated levels of hydrogen in the shaft furnace",
+  "url": "https://doi.org/10.1016/j.fuel.2026.138979",
+  "canonical_url": "https://doi.org/10.1016/j.fuel.2026.138979",
+  "publisher": "Fuel / Elsevier",
+  "published_at": "2026-03-03",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "8d2313b9ec464501624a5464a28644eac31a86a81583489ae865a93f5b1d7d18",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Marwa Mortadi",
+      "Carl Haikarainen",
+      "Guanwei Zhou",
+      "Henrik Saxén"
+    ],
+    "venue": "Fuel",
+    "doi": "10.1016/j.fuel.2026.138979",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "aad43e529e87d63a119b551076c14a41fb5d65cea1fa3b8a69ab57887bf5a550",
+  "raw_path": ".system/raw/SRC-20260728-8D2313B9.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

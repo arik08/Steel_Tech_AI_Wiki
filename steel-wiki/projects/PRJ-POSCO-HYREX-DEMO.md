@@ -2,12 +2,22 @@
 
 # POSCO 포항 HyREX 통합 실증
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **16건** · 직접 연결 근거 **6건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **39건** · 직접 연결 근거 **15건**
 
 
 ![분철광석이 4단 유동층 환원로를 거쳐 DRI가 된 뒤 전기용융로와 전로, 연속주조로 이어지는 POSCO HyREX 공식 공정도](<https://www.posco.com/homepage/docs/eng7/jsp/resources/images/hyrex/hyrex_about_obj.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
 *대표 이미지 — POSCO 공식 HyREX 공정도: 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-013F0FA1|SRC-20260725-013F0FA1]] · [원문 페이지](https://www.posco.com/homepage/docs/eng7/jsp/hyrex))*
+
+
+## 설비·공정 이미지
+
+![Four descending HyREX fluidized-bed reactor shells with four internal cyclones and diplegs in each reactor, stage gas loops, solids transfer and downstream electric smelting furnace](../assets/media/SRC-20260728-D16CF64F/MED-DD7AB499459F.png){ .steel-media-image .steel-media-detail }
+
+**학술 자료 그림.** POSCO 연구진이 공개한 HyREX 개념 구성. 4기의 독립 유동층 반응기가 계단식으로 배치되고, 각 reactor shell 내부 freeboard에 4기의 고효율 cyclone과 dipleg가 표시된다. 사이클론은 비산 초미분을 포집·환류하며, 외부 stage gas loop와 별도의 고체 이송 경로를 거쳐 환원분이 ESF로 공급된다. 공개 학술 개념도이며 포항 실증설비의 PFD·P&ID 또는 준공도는 아니다.
+
+- 출처 [[sources/SRC-20260728-D16CF64F|SRC-20260728-D16CF64F]] · 권리 `permitted` · [원문 페이지](https://link.springer.com/article/10.1007/s11663-025-03645-1/figures/1) · 작성·촬영 Gi-Ho La, Ji-Wook Park, Chang-Kuk Ko, Young-Seok Lee, Myoung-Gyun Shin / POSCO Technical Research Laboratories
+- 권리 메모: Figure 1 of La et al. (2025), Metallurgical and Materials Transactions B, DOI 10.1007/s11663-025-03645-1. Article distributed under Creative Commons Attribution 4.0; no separate third-party credit is shown for this figure. Attribution and source link retained.
 
 !!! abstract "현재 상태"
 
@@ -20,19 +30,42 @@
 | **프로젝트 상태** | 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 [^src-20260725-b859ca04] |
 | **연간 생산능력** | 연 300,000 tonnes [^src-20260725-b859ca04] |
 | **기술 경로** | FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] |
+| **Academic evidence boundary** | AISTech 2026 결과는 400 g 실험실 다단 환원 연구이며, 포항 300,000 t/y 통합 실증설비의 처리량·수소원단위·가동률·제품 품질 실적으로 해석할 수 없다. [^src-20260728-188fd401] |
+| **Academic multistage reduction test** | POSTECH 연구진은 AISTech 2026에서 400 g 미분광을 R4–R3–R2–R1 네 단계로 순차 환원한 실험을 공개해 HyREX 다단 유동층 운전 최적화 연구를 뒷받침했다. [^src-20260728-188fd401] |
 | **협력계약 체결 시점** | 2024-07-22 [^src-20260725-bab49577] |
+| **Cpfd simulation validation scope** | Barracuda Virtual Reactor를 drag model 선택, 최소유동화속도와 층 압력강하 검증에 활용한다는 발표 소개; 시뮬레이션 정확도·실증설비 운전 성능의 독립 검증 아님 [^src-20260728-fa603c67] |
 | **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
 | **적용 원료** | 소결용 철광석 미분을 직접 유동층 환원에 사용 [^src-20260725-bab49577] |
+| **정부 최종 부지 승인** | 2026-03 [^src-20260727-a39f1d70][^src-20260728-7ef29afa] |
+| **Funding evidence boundary** | 국회예산정책처 표는 예타 조정 후 국비 3,088.4억 원, 민간 5,057.1억 원, 총사업비 8,145.6억 원을 각각 제시한다. 표시된 구성요소의 단순합은 8,145.5억 원으로 총액과 0.1억 원 차이가 나며, 원문은 반올림·숨은 자리수 여부를 설명하지 않는다. 각 표기값을 그대로 보존하며 전액 교부·집행 실적이나 POSCO 자체 설비 CAPEX로 해석하지 않는다. [^src-20260728-5db16a4e] |
+| **Government rd call budget 2026 krw** | 2026년도 신규지원 공고예산 501.46억 원. 실제 집행액·총사업비·민간분담액·실증플랜트 설비 CAPEX가 아니다. [^src-20260728-a93b9bd0] |
+| **Government rd call project count** | 신규 지원 연구개발과제 11개(총괄 2개, 세부 7개, 일반 2개). 개별 수행기관 선정·협약·집행 완료를 뜻하지 않는다. [^src-20260728-a93b9bd0] |
+| **Government rd call scope** | 산업통상부 2026년 신규지원 공고의 사업 목적은 연산 30만 톤급 한국형 수소환원제철 핵심 실증기술 확보이며, 분광수소 유동환원로-전기용융로 연속공정과 수소환원철·냉선의 전기로 활용 실증을 지원 범위로 둔다. [^src-20260728-a93b9bd0] |
+| **Government rd support period** | 지원기간 최대 57개월, 공고상 연차 구분 2026-04-01~2030-12-31. 이는 연구개발 지원기간이며 건설·시운전·상업가동 완료 보증 일정이 아니다. [^src-20260728-a93b9bd0] |
 | **통합 설비 구성** | 광석 건조기, 다단 유동층, 고온 DRI 이송, 전기용융로, 집진, 출선, 슬래그 조립 계통 [^src-20260725-bab49577] |
 | **위치** | POSCO 포항제철소 [^src-20260725-bab49577] |
 | **업무협약 시점** | 2022 [^src-20260725-bab49577] |
+| **National rd budget proposal and adjusted alternative** | KISTEP 연차보고서에서 기획보고서 원안은 총 8,849.6억 원(국고 3,386.5억 원, 민자 5,463.1억 원)이었고, 예타 조정 대안은 약 8,145억 원(국고 3,088억 원, 민자 5,057억 원)이다. 국회예산정책처의 8,145.6억 원은 이 조정 대안의 정밀 표기와 부합하며, 원안과 대안을 병합하지 않는다. [^src-20260728-ff44a697] |
+| **National rnd government budget krw** | KRW 308.84 billion [^src-20260728-5db16a4e] |
+| **National rnd private budget krw** | KRW 505.71 billion [^src-20260728-5db16a4e] |
+| **National rnd total budget krw** | KRW 814.56 billion [^src-20260728-5db16a4e] |
+| **유동환원 시험로 회분 규모** | 50 kg/batch [^src-20260727-a39f1d70] |
+| **유동환원 시험로 도입 연도** | 2023 [^src-20260727-a39f1d70] |
 | **파일럿 첫 용선 생산** | 2024-04 [^src-20260725-a6759186] |
 | **파일럿 생산량** | 1 t/h 전기용융 파일럿을 가동해 첫 용선을 생산 [^src-20260725-a6759186] |
+| **Pre feasibility decision boundary** | 예타는 사업 시행 대안을 제시하면서 과다 산출된 일부 장비금액과 범위를 조정했다. 이는 실제 연차별 교부·집행, 개별 설비 발주, HyREX 플랜트 CAPEX 또는 준공을 증명하지 않는다. [^src-20260728-ff44a697] |
 | **공정 구성** | POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
+| **Published scaleup challenge scope** | 2026-07 POSCO 발표는 환원 kinetics, 유동화·defluidization, 환원 중 입도·밀도 변화, 고체 이송, 가스 재순환, 연결 반응기 압력평형, distributor·cyclone 설계, 고온 환원철 저장·이송을 상용 확대 기술과제로 다룸; 정량 설계값·성능 공개는 아님 [^src-20260728-fa603c67] |
+| **Reported construction status** | POSCO Holdings는 2026-03-03 공시에서 30만 t/y HyREX 실증플랜트가 건설에 들어갔다고 표현했으나, 2026-06-22 후속 POSCO 자료가 구체적으로 확인한 진척은 산단 승인 후 약 135만 m² 공유수면 매립 추진이다. 핵심 환원·용융설비 설치나 시운전 개시로 확대 해석하지 않는다. [^src-20260728-f9f9f2cd][^src-20260728-e90d8967][^src-20260728-7ef29afa] |
 | **공개 성과의 한계** | 1 t/h ESF의 첫 용선은 용융 단위조작 근거이며 30만 t/y 통합설비의 연속운전을 입증하지 않음 [^src-20260725-a6759186] |
+| **Secured project funding krw** | KRW 308.8 billion; POSCO Holdings가 2025-06 사전타당성조사 통과와 함께 확보했다고 공시한 project funding이며 전체 사업비·실집행액과 동일하지 않음 [^src-20260728-f9f9f2cd] |
+| **개발부지 면적** | 1,350,000 m² [^src-20260727-a39f1d70] |
 | **부지 준비 확인 시점** | 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
 | **공급사 발표 시점** | 2024-09-19 [^src-20260725-bab49577] |
 | **목표 준공 시점** | 2030년까지 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] |
+| **실증설비 완공 목표** | 2028년 300,000 t/y 통합 실증설비 완공 목표 [^src-20260727-a39f1d70] |
+| **목표 착공 시점** | 2026-04 예정 [^src-20260727-a39f1d70] |
+| **단계별 시험운전 목표** | 2030년까지 단계별 시험운전 수행 계획 [^src-20260727-a39f1d70] |
 
 ## 전체 확인 이력
 
@@ -46,12 +79,29 @@
 | 2024-09-11 | 발표·검증 | **파일럿 첫 용선 생산**: 2024-04 · **공개 성과의 한계**: 1 t/h ESF의 첫 용선은 용융 단위조작 근거이며 30만 t/y 통합설비의 연속운전을 입증하지 않음 · **파일럿 생산량**: 1 t/h 전기용융 파일럿을 가동해 첫 용선을 생산 [^src-20260725-a6759186] |
 | 2024-09-19 | 공식 발표 | **공급사 발표 시점**: 2024-09-19 [^src-20260725-bab49577] |
 | 2024-09-19 | 발표·검증 | **통합 설비 구성**: 광석 건조기, 다단 유동층, 고온 DRI 이송, 전기용융로, 집진, 출선, 슬래그 조립 계통 · **업무협약 시점**: 2022 · **적용 원료**: 소결용 철광석 미분을 직접 유동층 환원에 사용 · **위치**: POSCO 포항제철소 · **협력계약 체결 시점**: 2024-07-22 · **공급사 발표 시점**: 2024-09-19 [^src-20260725-bab49577] |
+| 2025-07-29 | 발표·검증 | **National rnd total budget krw**: KRW 814.56 billion · **National rnd government budget krw**: KRW 308.84 billion · **Funding evidence boundary**: 국회예산정책처 표는 예타 조정 후 국비 3,088.4억 원, 민간 5,057.1억 원, 총사업비 8,145.6억 원을 각각 제시한다. 표시된 구성요소의 단순합은 8,145.5억 원으로 총액과 0.1억 원 차이가 나며, 원문은 반올림·숨은 자리수 여부를 설명하지 않는다. 각 표기값을 그대로 보존하며 전액 교부·집행 실적이나 POSCO 자체 설비 CAPEX로 해석하지 않는다. · **National rnd private budget krw**: KRW 505.71 billion · **Funding evidence boundary**: 예타 확정 3,088.4억원은 국비 몫이고 민간 5,057.1억원을 포함한 국가 R&D 사업 총예산은 8,145.6억원이다. 예산구조는 전액 교부·집행 실적이나 POSCO 자체 설비 CAPEX와 동일하지 않다. · 후속 정보로 대체 [^src-20260728-5db16a4e] |
 | 2025-10-29 | 발표·검증 | **기술 경로**: FINEX 유동층 경험을 바탕으로 미분광을 수소계 가스로 직접환원하고 ESF에서 용융 [^src-20260725-ff076fe4] |
+| 2026-01-26 | 발표·검증 | **Government rd call project count**: 신규 지원 연구개발과제 11개(총괄 2개, 세부 7개, 일반 2개). 개별 수행기관 선정·협약·집행 완료를 뜻하지 않는다. · **Government rd support period**: 지원기간 최대 57개월, 공고상 연차 구분 2026-04-01~2030-12-31. 이는 연구개발 지원기간이며 건설·시운전·상업가동 완료 보증 일정이 아니다. · **Government rd call scope**: 산업통상부 2026년 신규지원 공고의 사업 목적은 연산 30만 톤급 한국형 수소환원제철 핵심 실증기술 확보이며, 분광수소 유동환원로-전기용융로 연속공정과 수소환원철·냉선의 전기로 활용 실증을 지원 범위로 둔다. · **Government rd call budget 2026 krw**: 2026년도 신규지원 공고예산 501.46억 원. 실제 집행액·총사업비·민간분담액·실증플랜트 설비 CAPEX가 아니다. [^src-20260728-a93b9bd0] |
+| 2026-03 | 부지 승인 | **정부 최종 부지 승인**: 2026-03 [^src-20260727-a39f1d70][^src-20260728-7ef29afa] |
+| 2026-03-03 | 발표·검증 | **Reported construction status**: POSCO Holdings는 2026-03-03 공시에서 30만 t/y HyREX 실증플랜트가 건설에 들어갔다고 표현했으나, 2026-06-22 후속 POSCO 자료가 구체적으로 확인한 진척은 산단 승인 후 약 135만 m² 공유수면 매립 추진이다. 핵심 환원·용융설비 설치나 시운전 개시로 확대 해석하지 않는다. · **Secured project funding krw**: KRW 308.8 billion; POSCO Holdings가 2025-06 사전타당성조사 통과와 함께 확보했다고 공시한 project funding이며 전체 사업비·실집행액과 동일하지 않음 [^src-20260728-f9f9f2cd] |
+| 2026-03-26 | 발표·검증 | **National rd budget proposal and adjusted alternative**: KISTEP 연차보고서에서 기획보고서 원안은 총 8,849.6억 원(국고 3,386.5억 원, 민자 5,463.1억 원)이었고, 예타 조정 대안은 약 8,145억 원(국고 3,088억 원, 민자 5,057억 원)이다. 국회예산정책처의 8,145.6억 원은 이 조정 대안의 정밀 표기와 부합하며, 원안과 대안을 병합하지 않는다. · **Pre feasibility decision boundary**: 예타는 사업 시행 대안을 제시하면서 과다 산출된 일부 장비금액과 범위를 조정했다. 이는 실제 연차별 교부·집행, 개별 설비 발주, HyREX 플랜트 CAPEX 또는 준공을 증명하지 않는다. [^src-20260728-ff44a697] |
+| 2026-04 | 목표 일정 | **목표 착공 시점**: 2026-04 예정 [^src-20260727-a39f1d70] |
+| 2026-05-04 | 발표·검증 | **Academic evidence boundary**: AISTech 2026 결과는 400 g 실험실 다단 환원 연구이며, 포항 300,000 t/y 통합 실증설비의 처리량·수소원단위·가동률·제품 품질 실적으로 해석할 수 없다. · **Academic multistage reduction test**: POSTECH 연구진은 AISTech 2026에서 400 g 미분광을 R4–R3–R2–R1 네 단계로 순차 환원한 실험을 공개해 HyREX 다단 유동층 운전 최적화 연구를 뒷받침했다. [^src-20260728-188fd401] |
+| 2026-06-22 | 발표·검증 | **Reported construction status**: POSCO Holdings는 2026-03-03 공시에서 30만 t/y HyREX 실증플랜트가 건설에 들어갔다고 표현했으나, 2026-06-22 후속 POSCO 자료가 구체적으로 확인한 진척은 산단 승인 후 약 135만 m² 공유수면 매립 추진이다. 핵심 환원·용융설비 설치나 시운전 개시로 확대 해석하지 않는다. [^src-20260728-e90d8967] |
 | 2026-06-22 | 발표·검증 | **연간 생산능력**: 연 300,000 tonnes · **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 · **프로젝트 상태**: 포항제철소 30만 t/y HyREX 통합 실증설비 공동설계 및 부지 준비 단계 · **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
 | 2026-06-22 | 실행 현황 | **부지 준비 확인 시점**: 2026-06-22 현재 포항제철소 부지 준비 중 [^src-20260725-b859ca04] |
+| 2026-07-17 | 발표·검증 | **Published scaleup challenge scope**: 2026-07 POSCO 발표는 환원 kinetics, 유동화·defluidization, 환원 중 입도·밀도 변화, 고체 이송, 가스 재순환, 연결 반응기 압력평형, distributor·cyclone 설계, 고온 환원철 저장·이송을 상용 확대 기술과제로 다룸; 정량 설계값·성능 공개는 아님 · **Cpfd simulation validation scope**: Barracuda Virtual Reactor를 drag model 선택, 최소유동화속도와 층 압력강하 검증에 활용한다는 발표 소개; 시뮬레이션 정확도·실증설비 운전 성능의 독립 검증 아님 [^src-20260728-fa603c67] |
 | 2026-07-25 | 수집 확인 | **공정 구성**: POSCO 공식 개념 기준 분철광석-4단 유동층 환원로-DRI-전기용융로-전로-연속주조 연계 [^src-20260725-013f0fa1] |
 | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; 포항 HyREX 준공도·실제 설비가 아닌 유동층 기술 참고 [^src-20260725-a23b5a64] |
+| 2026-07-27 | 수집 확인 | **목표 착공 시점**: 2026-04 예정 · **개발부지 면적**: 1,350,000 m² · **실증설비 완공 목표**: 2028년 300,000 t/y 통합 실증설비 완공 목표 · **유동환원 시험로 도입 연도**: 2023 · **유동환원 시험로 회분 규모**: 50 kg/batch · **정부 최종 부지 승인**: 2026-03 · **단계별 시험운전 목표**: 2030년까지 단계별 시험운전 수행 계획 [^src-20260727-a39f1d70] |
+| 2026-07-28 | 수집 확인 | **Reported construction status**: POSCO Holdings는 2026-03-03 공시에서 30만 t/y HyREX 실증플랜트가 건설에 들어갔다고 표현했으나, 2026-06-22 후속 POSCO 자료가 구체적으로 확인한 진척은 산단 승인 후 약 135만 m² 공유수면 매립 추진이다. 핵심 환원·용융설비 설치나 시운전 개시로 확대 해석하지 않는다. · **정부 최종 부지 승인**: 2026-03 [^src-20260728-7ef29afa] |
 | 2030 | 목표 일정 | **목표 준공 시점**: 2030년까지 상용화 기술개발 완료 목표 [^src-20260725-b859ca04] |
+
+## 변경 이력
+
+| 상태 | 항목 | 이전 내용 | 변경 사유 | 최근 검증 |
+| --- | --- | --- | --- | --- |
+| **후속 정보로 대체** | Funding evidence boundary | 예타 확정 3,088.4억원은 국비 몫이고 민간 5,057.1억원을 포함한 국가 R&D 사업 총예산은 8,145.6억원이다. 예산구조는 전액 교부·집행 실적이나 POSCO 자체 설비 CAPEX와 동일하지 않다. [^src-20260728-5db16a4e] | 같은 국회예산정책처 표의 표시값을 재대조한 결과 국비 3,088.4억 원과 민간 5,057.1억 원의 단순합은 8,145.5억 원으로, 표가 제시한 총사업비 8,145.6억 원과 0.1억 원 차이가 난다. 원문은 반올림 또는 숨은 자리수 여부를 설명하지 않으므로, 구성요소 합계가 총액과 정확히 일치한다고 단정한 기존 Claim을 supersede하고 각 표시값과 산술 차이를 함께 보존한 신규 Claim을 채택한다. | 2026-07-28 |
 
 ## 근거 자료
 
@@ -61,6 +111,15 @@
 - **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22 · [원문 보기](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
 - **Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant** — Primetals Technologies, 2024-09-19 · [원문 보기](https://www.primetals.com/en/news/primetals-technologies-and-posco-sign-cooperation-agreement-for-hyrex-direct-reduction-plant/) · [[sources/SRC-20260725-BAB49577|보관 원문·메타데이터]]
 - **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29 · [원문 보기](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
+- **POSCO Climate Change - HyREX demonstration plan and current schedule** — POSCO ESG, 게시일 미상 · [원문 보기](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953) · [[sources/SRC-20260727-A39F1D70|보관 원문·메타데이터]]
+- **Experimental Study on Multistage Hydrogen Reduction of Iron Ore by Fluidized Bed Reactor** — Association for Iron & Steel Technology, 2026-05-04 · [원문 보기](https://aistech.secure-platform.com/site/gallery/rounds/82013/details/17615) · [[sources/SRC-20260728-188FD401|보관 원문·메타데이터]]
+- **산업부문 온실가스 감축 정책 평가** — 대한민국 국회예산정책처, 2025-07-29 · [원문 보기](https://www.nabo.go.kr/ko/report/analysisView.do?idx=8839) · [[sources/SRC-20260728-5DB16A4E|보관 원문·메타데이터]]
+- **Climate Change - HyREX deployment status** — POSCO, 게시일 미상 · [원문 보기](https://sustainability.posco.co.kr/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953) · [[sources/SRC-20260728-7EF29AFA|보관 원문·메타데이터]]
+- **2026년도 한국형수소환원제철실증기술개발사업 신규지원 대상과제 공고** — 대한민국 산업통상부, 2026-01-26 · [원문 보기](https://www.motir.go.kr/kor/article/ATCLf724eb567/212874/view) · [[sources/SRC-20260728-A93B9BD0|보관 원문·메타데이터]]
+- **POSCO accelerates decarbonized production system - HyREX groundwork update** — POSCO Group Newsroom, 2026-06-22 · [원문 보기](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260728-E90D8967|보관 원문·메타데이터]]
+- **POSCO Holdings FY2025 ESG Management Update - HyREX construction status** — POSCO Holdings / U.S. SEC, 2026-03-03 · [원문 보기](https://www.sec.gov/Archives/edgar/data/889132/000119312526062778/d31229dex991.htm) · [[sources/SRC-20260728-F9F9F2CD|보관 원문·메타데이터]]
+- **Introduction to HyREX by POSCO - 2026 Emerging Fluidization Applications Workshop** — CPFD Software, 2026-07-17 · [원문 보기](https://cpfd-software.com/introduction-to-hyrex-by-posco/) · [[sources/SRC-20260728-FA603C67|보관 원문·메타데이터]]
+- **국가연구개발사업 예비타당성조사 2025 연차보고서 - 한국형 수소환원제철 실증기술개발사업** — 한국과학기술기획평가원(KISTEP), 2026-03-26 · [원문 보기](https://www.kistep.re.kr/reportDetail.es?mid=a10305060000&rpt_no=RES0220260093&rpt_tp=831-003) · [[sources/SRC-20260728-FF44A697|보관 원문·메타데이터]]
 
 [^src-20260725-013f0fa1]: **HyREX Hydrogen Reduction Ironmaking** — POSCO, 게시일 미상. [원문](https://www.posco.com/homepage/docs/eng7/jsp/hyrex/) · [[sources/SRC-20260725-013F0FA1|보관 원문·메타데이터]]
 [^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
@@ -68,3 +127,12 @@
 [^src-20260725-b859ca04]: **POSCO completes Gwangyang EAF and advances HyREX** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260725-B859CA04|보관 원문·메타데이터]]
 [^src-20260725-bab49577]: **Primetals Technologies and POSCO Sign Cooperation Agreement for HyREX Direct Reduction Plant** — Primetals Technologies, 2024-09-19. [원문](https://www.primetals.com/en/news/primetals-technologies-and-posco-sign-cooperation-agreement-for-hyrex-direct-reduction-plant/) · [[sources/SRC-20260725-BAB49577|보관 원문·메타데이터]]
 [^src-20260725-ff076fe4]: **POSCO decarbonization strategies from CCUS to HyREX** — POSCO Group Newsroom, 2025-10-29. [원문](https://newsroom.posco.com/en/from-ccus-to-hyrex-the-full-lineup-of-posco-groups-decarbonization-strategies-for-a-sustainable-steel-industry/) · [[sources/SRC-20260725-FF076FE4|보관 원문·메타데이터]]
+[^src-20260727-a39f1d70]: **POSCO Climate Change - HyREX demonstration plan and current schedule** — POSCO ESG, 게시일 미상. [원문](https://sustainability.posco.com/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953) · [[sources/SRC-20260727-A39F1D70|보관 원문·메타데이터]]
+[^src-20260728-188fd401]: **Experimental Study on Multistage Hydrogen Reduction of Iron Ore by Fluidized Bed Reactor** — Association for Iron & Steel Technology, 2026-05-04. [원문](https://aistech.secure-platform.com/site/gallery/rounds/82013/details/17615) · [[sources/SRC-20260728-188FD401|보관 원문·메타데이터]]
+[^src-20260728-5db16a4e]: **산업부문 온실가스 감축 정책 평가** — 대한민국 국회예산정책처, 2025-07-29. [원문](https://www.nabo.go.kr/ko/report/analysisView.do?idx=8839) · [[sources/SRC-20260728-5DB16A4E|보관 원문·메타데이터]]
+[^src-20260728-7ef29afa]: **Climate Change - HyREX deployment status** — POSCO, 게시일 미상. [원문](https://sustainability.posco.co.kr/S91/S91F10/eng/cmspage.do?mmcd=2648825310001953) · [[sources/SRC-20260728-7EF29AFA|보관 원문·메타데이터]]
+[^src-20260728-a93b9bd0]: **2026년도 한국형수소환원제철실증기술개발사업 신규지원 대상과제 공고** — 대한민국 산업통상부, 2026-01-26. [원문](https://www.motir.go.kr/kor/article/ATCLf724eb567/212874/view) · [[sources/SRC-20260728-A93B9BD0|보관 원문·메타데이터]]
+[^src-20260728-e90d8967]: **POSCO accelerates decarbonized production system - HyREX groundwork update** — POSCO Group Newsroom, 2026-06-22. [원문](https://newsroom.posco.com/en/posco-accelerates-transition-to-decarbonized-production-system-with-completion-of-koreas-largest-electric-arc-furnace/) · [[sources/SRC-20260728-E90D8967|보관 원문·메타데이터]]
+[^src-20260728-f9f9f2cd]: **POSCO Holdings FY2025 ESG Management Update - HyREX construction status** — POSCO Holdings / U.S. SEC, 2026-03-03. [원문](https://www.sec.gov/Archives/edgar/data/889132/000119312526062778/d31229dex991.htm) · [[sources/SRC-20260728-F9F9F2CD|보관 원문·메타데이터]]
+[^src-20260728-fa603c67]: **Introduction to HyREX by POSCO - 2026 Emerging Fluidization Applications Workshop** — CPFD Software, 2026-07-17. [원문](https://cpfd-software.com/introduction-to-hyrex-by-posco/) · [[sources/SRC-20260728-FA603C67|보관 원문·메타데이터]]
+[^src-20260728-ff44a697]: **국가연구개발사업 예비타당성조사 2025 연차보고서 - 한국형 수소환원제철 실증기술개발사업** — 한국과학기술기획평가원(KISTEP), 2026-03-26. [원문](https://www.kistep.re.kr/reportDetail.es?mid=a10305060000&rpt_no=RES0220260093&rpt_tp=831-003) · [[sources/SRC-20260728-FF44A697|보관 원문·메타데이터]]

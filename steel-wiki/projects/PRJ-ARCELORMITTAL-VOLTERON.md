@@ -2,32 +2,56 @@
 
 # ArcelorMittal–John Cockerill Volteron
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **11건** · 직접 연결 근거 **2건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **18건** · 직접 연결 근거 **4건**
 
 
-![철광석 슬러리 처리와 수용액 순환 탱크, 모듈식 전해 셀, 전착 철판 회수 장치의 개념 구성](../assets/media/SRC-20260725-FBE26310/MED-F0E1DDA6F73D.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+![John Cockerill SIDERWIN 저온 철 전해 파일럿 설비 내부](<https://johncockerill.com/wp-content/uploads/2023/06/siderwin-pilot-plant-980x735.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
 
-*대표 이미지 — Volteron 저온 수계 전해의 광석 용해·불순물 분리·전해액 순환·철판 전착 경로 AI 재구성. 실제 R&D 설비의 준공도가 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-FBE26310|SRC-20260725-FBE26310]] · [원문 페이지](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations))*
+*대표 이미지 — John Cockerill 공식 SIDERWIN/Volteron 계열 저온 수계 철 전해 파일럿 설비 사진; 산업규모 플랜트 준공 사진이 아님 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260728-BDB79FE9|SRC-20260728-BDB79FE9]] · [원문 페이지](https://johncockerill.com/en/industry/metals/iron-steel-making))*
+
+
+## 설비·공정 이미지
+
+![철광석 슬러리 처리와 수용액 순환 탱크, 모듈식 전해 셀, 전착 철판 회수 장치의 개념 구성](../assets/media/SRC-20260725-FBE26310/MED-F0E1DDA6F73D.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** Volteron 저온 수계 전해의 광석 용해·불순물 분리·전해액 순환·철판 전착 경로 AI 재구성. 실제 R&D 설비의 준공도가 아님
+
+- 출처 [[sources/SRC-20260725-FBE26310|SRC-20260725-FBE26310]] · 권리 `ai_generated` · [원문 페이지](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations) · 작성·촬영 OpenAI image generation / Codex
+- 권리 메모: ArcelorMittal 공식 R&D 설명을 바탕으로 생성했으며 실제 장치 형상과 배치의 증거로 사용하지 않음
+
+![철광석 분쇄에서 산화철 전해와 용해로로 이어지는 Volteron 공식 개략 공정도](<https://johncockerill.com/wp-content/uploads/2026/01/volteron-980x494.png>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** John Cockerill 공식 Volteron 개략 공정도: 철광석 분쇄·청정전력·산화철 전해·용해로 연계; 상세 물질수지나 준공도는 아님
+
+- 출처 [[sources/SRC-20260728-BDB79FE9|SRC-20260728-BDB79FE9]] · 권리 `link_only` · [원문 페이지](https://johncockerill.com/en/industry/metals/iron-steel-making) · 작성·촬영 John Cockerill
+- 권리 메모: John Cockerill 공식 제품 페이지에서 원본과 맥락을 확인했으나 복제 라이선스가 없어 원격 링크로만 표시
 
 !!! abstract "현재 상태"
 
-    **저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음** [^src-20260725-fbe26310]
+    **2025년 1:1 수직 셀 파일럿의 성공 운전과 산업규모 플랜트 엔지니어링 설계 완료가 확인됐으나, 40,000~80,000 t/y 단계의 FID·착공·가동은 확인되지 않음** [^src-20260728-53edaf62]
 
 ## 확인된 핵심 정보
 
 | 항목 | 확인된 내용 |
 | --- | --- |
-| **프로젝트 상태** | 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 [^src-20260725-fbe26310] |
+| **프로젝트 상태** | 2025년 1:1 수직 셀 파일럿의 성공 운전과 산업규모 플랜트 엔지니어링 설계 완료가 확인됐으나, 40,000~80,000 t/y 단계의 FID·착공·가동은 확인되지 않음 [^src-20260728-53edaf62] |
 | **목표 가동 시점** | 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 [^src-20260725-a6716adb] |
 | **연간 생산능력** | 2023년 발표한 산업 1단계 목표 40,000~80,000 t/y [^src-20260725-a6716adb] |
 | **기술성숙도** | ArcelorMittal 공식 설명 기준 TRL 1에서 TRL 6까지 진전 [^src-20260725-fbe26310] |
 | **기술 경로** | 철광석·물·수산화나트륨 전해질을 약 110°C에서 전해해 철판을 직접 생산한 뒤 EAF 제강으로 연결 [^src-20260725-fbe26310] |
+| **산업화 선결조건** | 최초 scale-up plant 배치는 파일럿 결과, 제도·사업 여건, 자금조달에 조건부이며 착공 확정이 아님 [^src-20260727-71a7fa21] |
+| **전력원단위 추정** | INCITE 추정 3.5–4.3 MWh/t-iron plate, 목표 3.7 MWh/t; 완전 상업규모 실측 원단위가 아님 [^src-20260727-71a7fa21] |
 | **설비 구성** | 저온 수계 전해 셀과 1 m² 철판 생산 규모 R&D 설비 [^src-20260725-fbe26310] |
+| **Industrial engineering status** | John Cockerill이 full-scale industrial plant 엔지니어링 설계를 완료했고 ArcelorMittal은 이를 1:1 파일럿 성공 운전과 함께 기술경제적 타당성 입증으로 설명했다. 공개 보고에는 산업 플랜트의 FID·부지·EPC 착수 정보가 없다. [^src-20260728-53edaf62] |
+| **최신 파일럿 운전 상태** | EU JRC INCITE 기준 1 m² 파일럿을 2025년에 시운전했고 2025년 4월부터 운전 중; 산업규모 연속운전 입증과는 구분 [^src-20260727-71a7fa21] |
+| **최신 규모 확대 계획** | 40 kt/y 모듈을 기반으로 최대 800 kt/y 설비까지 확대하는 엔지니어링·CAPEX 검토 계획 [^src-20260727-71a7fa21] |
 | **운전 온도** | 최대 약 110°C [^src-20260725-fbe26310] |
 | **참여 기관** | ArcelorMittal과 John Cockerill; 전신 SIDERWIN은 EU Horizon 2020 컨소시엄 [^src-20260725-a6716adb] |
-| **공개 성과의 한계** | 전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족 [^src-20260725-fbe26310] |
+| **공개 성과의 한계** | 3.5–4.3 MWh/t 추정치는 공개됐지만 상업규모 실측 전력원단위·장기 연속운전·전극수명·가동률·제품 품질 합격률은 확인되지 않음 [^src-20260727-71a7fa21] |
+| **파일럿 셀 구성** | 1 m²급 셀에 양극 3개·음극 2개를 배치해 4장의 철판, 약 140 kg 금속 철을 한 열로 생산하는 파일럿 구성 [^src-20260727-71a7fa21] |
 | **제품 형태** | 약 1 m² 면적·5 mm 두께의 순철 판재를 R&D 설비에서 생산 [^src-20260725-fbe26310] |
 | **확대 검증 계획** | 1단계 검증 후 연간 300,000~1,000,000톤으로 확대 의향 [^src-20260725-a6716adb] |
+| **TRL 근거 해석 주의** | INCITE 구조화 필드는 Operational·Achieved TRL 7로 표시하지만 본문은 2025년 말 TRL 7 검증 예정이라고 서술하므로, TRL 7 표시는 산업규모 신뢰성 입증으로 확대 해석할 수 없음 [^src-20260727-71a7fa21] |
 
 ## 전체 확인 이력
 
@@ -37,12 +61,26 @@
 | --- | --- | --- |
 | 2023 | 목표 일정 | **목표 가동 시점**: 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 [^src-20260725-a6716adb] |
 | 2023-06-14 | 발표·검증 | **확대 검증 계획**: 1단계 검증 후 연간 300,000~1,000,000톤으로 확대 의향 · **목표 가동 시점**: 2023년 발표 당시 2027년 생산 개시 목표; 현재 착공·가동 확인 필요 · **연간 생산능력**: 2023년 발표한 산업 1단계 목표 40,000~80,000 t/y · **참여 기관**: ArcelorMittal과 John Cockerill; 전신 SIDERWIN은 EU Horizon 2020 컨소시엄 [^src-20260725-a6716adb] |
-| 2026-07-25 | 수집 확인 | **기술 경로**: 철광석·물·수산화나트륨 전해질을 약 110°C에서 전해해 철판을 직접 생산한 뒤 EAF 제강으로 연결 · **제품 형태**: 약 1 m² 면적·5 mm 두께의 순철 판재를 R&D 설비에서 생산 · **운전 온도**: 최대 약 110°C · **기술성숙도**: ArcelorMittal 공식 설명 기준 TRL 1에서 TRL 6까지 진전 · **공개 성과의 한계**: 전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족 · **설비 구성**: 저온 수계 전해 셀과 1 m² 철판 생산 규모 R&D 설비 · **프로젝트 상태**: 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 [^src-20260725-fbe26310] |
+| 2026-03-06 | 발표·검증 | **프로젝트 상태**: 2025년 1:1 수직 셀 파일럿의 성공 운전과 산업규모 플랜트 엔지니어링 설계 완료가 확인됐으나, 40,000~80,000 t/y 단계의 FID·착공·가동은 확인되지 않음 · **Industrial engineering status**: John Cockerill이 full-scale industrial plant 엔지니어링 설계를 완료했고 ArcelorMittal은 이를 1:1 파일럿 성공 운전과 함께 기술경제적 타당성 입증으로 설명했다. 공개 보고에는 산업 플랜트의 FID·부지·EPC 착수 정보가 없다. [^src-20260728-53edaf62] |
+| 2026-07-25 | 수집 확인 | **기술 경로**: 철광석·물·수산화나트륨 전해질을 약 110°C에서 전해해 철판을 직접 생산한 뒤 EAF 제강으로 연결 · **제품 형태**: 약 1 m² 면적·5 mm 두께의 순철 판재를 R&D 설비에서 생산 · **운전 온도**: 최대 약 110°C · **기술성숙도**: ArcelorMittal 공식 설명 기준 TRL 1에서 TRL 6까지 진전 · **공개 성과의 한계**: 전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족 · 후속 정보로 대체 · **설비 구성**: 저온 수계 전해 셀과 1 m² 철판 생산 규모 R&D 설비 · **프로젝트 상태**: 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 · 후속 정보로 대체 [^src-20260725-fbe26310] |
+| 2026-07-27 | 수집 확인 | **파일럿 셀 구성**: 1 m²급 셀에 양극 3개·음극 2개를 배치해 4장의 철판, 약 140 kg 금속 철을 한 열로 생산하는 파일럿 구성 · **전력원단위 추정**: INCITE 추정 3.5–4.3 MWh/t-iron plate, 목표 3.7 MWh/t; 완전 상업규모 실측 원단위가 아님 · **산업화 선결조건**: 최초 scale-up plant 배치는 파일럿 결과, 제도·사업 여건, 자금조달에 조건부이며 착공 확정이 아님 · **TRL 근거 해석 주의**: INCITE 구조화 필드는 Operational·Achieved TRL 7로 표시하지만 본문은 2025년 말 TRL 7 검증 예정이라고 서술하므로, TRL 7 표시는 산업규모 신뢰성 입증으로 확대 해석할 수 없음 · **공개 성과의 한계**: 3.5–4.3 MWh/t 추정치는 공개됐지만 상업규모 실측 전력원단위·장기 연속운전·전극수명·가동률·제품 품질 합격률은 확인되지 않음 · **최신 파일럿 운전 상태**: EU JRC INCITE 기준 1 m² 파일럿을 2025년에 시운전했고 2025년 4월부터 운전 중; 산업규모 연속운전 입증과는 구분 · **프로젝트 상태**: 1 m² 파일럿은 2025년 4월부터 운전 중이라는 JRC 기록이 있으나, 40 kt/y 이상 scale-up plant의 착공·가동은 여전히 확인되지 않음 · 후속 정보로 대체 · **최신 규모 확대 계획**: 40 kt/y 모듈을 기반으로 최대 800 kt/y 설비까지 확대하는 엔지니어링·CAPEX 검토 계획 [^src-20260727-71a7fa21] |
+
+## 변경 이력
+
+| 상태 | 항목 | 이전 내용 | 변경 사유 | 최근 검증 |
+| --- | --- | --- | --- | --- |
+| **후속 정보로 대체** | 프로젝트 상태 | 1 m² 파일럿은 2025년 4월부터 운전 중이라는 JRC 기록이 있으나, 40 kt/y 이상 scale-up plant의 착공·가동은 여전히 확인되지 않음 [^src-20260727-71a7fa21] | 2026-03-06 공개된 ArcelorMittal 2025 Form 20-F가 2025-04 INCITE의 파일럿 운전 중 상태보다 후속 시점의 성공 운전 및 산업설계 완료를 확인한다. 새 Claim은 이를 반영하면서도 FID·착공·가동 미확인을 유지한다. | 2026-07-27 |
+| **후속 정보로 대체** | 프로젝트 상태 | 저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음 [^src-20260725-fbe26310] | JRC 2026 기록이 1 m² pilot의 2025-04 운전을 구체적으로 확인하는 더 최신의 공공 근거다. 산업 40–80 kt/y plant 미확인 경계는 유지하면서 pilot status를 갱신한다. | 2026-07-25 |
+| **후속 정보로 대체** | 공개 성과의 한계 | 전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족 [^src-20260725-fbe26310] | 후속 JRC 근거가 3.5–4.3 MWh/t 추정치를 새로 공개했으므로 '전력원단위 공개 부족'이라는 기존 문구를 그대로 유지할 수 없다. 추정치와 상업 실측의 차이를 명시한 신규 Claim으로 대체한다. | 2026-07-25 |
 
 ## 근거 자료
 
 - **ArcelorMittal and John Cockerill develop Volteron low-temperature electrolysis** — ArcelorMittal, 2023-06-14 · [원문 보기](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-and-john-cockerill-announce-plans-to-develop-world-s-first-industrial-scale-low-temperature-iron-electrolysis-plant) · [[sources/SRC-20260725-A6716ADB|보관 원문·메타데이터]]
 - **ArcelorMittal Volteron research and scale-up status** — ArcelorMittal, 게시일 미상 · [원문 보기](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations) · [[sources/SRC-20260725-FBE26310|보관 원문·메타데이터]]
+- **Low temperature electrolysis of iron ore in an aqueous alkaline solution - Volteron** — European Commission Joint Research Centre / INCITE, 게시일 미상 · [원문 보기](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/low-temperature-electrolysis-iron-ore-aqueous-alkaline-solution-volterontm) · [[sources/SRC-20260727-71A7FA21|보관 원문·메타데이터]]
+- **ArcelorMittal 2025 Form 20-F: Volteron pilot and industrial engineering** — ArcelorMittal, 2026-03-06 · [원문 보기](https://cms.arcelormittal.com/media/21bhvfoo/mt-31-12-2025-20-f-document.pdf) · [[sources/SRC-20260728-53EDAF62|보관 원문·메타데이터]]
 
 [^src-20260725-a6716adb]: **ArcelorMittal and John Cockerill develop Volteron low-temperature electrolysis** — ArcelorMittal, 2023-06-14. [원문](https://corporate.arcelormittal.com/media/news/regulatory-news/arcelormittal-and-john-cockerill-announce-plans-to-develop-world-s-first-industrial-scale-low-temperature-iron-electrolysis-plant) · [[sources/SRC-20260725-A6716ADB|보관 원문·메타데이터]]
 [^src-20260725-fbe26310]: **ArcelorMittal Volteron research and scale-up status** — ArcelorMittal, 게시일 미상. [원문](https://corporate.arcelormittal.com/media/insights-and-podcasts/insights/steel-thoughts-developing-breakthrough-process-innovations) · [[sources/SRC-20260725-FBE26310|보관 원문·메타데이터]]
+[^src-20260727-71a7fa21]: **Low temperature electrolysis of iron ore in an aqueous alkaline solution - Volteron** — European Commission Joint Research Centre / INCITE, 게시일 미상. [원문](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/low-temperature-electrolysis-iron-ore-aqueous-alkaline-solution-volterontm) · [[sources/SRC-20260727-71A7FA21|보관 원문·메타데이터]]
+[^src-20260728-53edaf62]: **ArcelorMittal 2025 Form 20-F: Volteron pilot and industrial engineering** — ArcelorMittal, 2026-03-06. [원문](https://cms.arcelormittal.com/media/21bhvfoo/mt-31-12-2025-20-f-document.pdf) · [[sources/SRC-20260728-53EDAF62|보관 원문·메타데이터]]

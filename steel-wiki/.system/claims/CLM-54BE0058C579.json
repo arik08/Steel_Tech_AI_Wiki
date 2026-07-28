@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-54BE0058C579",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "laboratory_current_density",
+  "value": "2025 ACS Energy Letters 연구는 미크론 크기·나노기공 α-Fe2O3의 직접 알칼리 전해에서 외부 강제대류 없이 0.6 A/cm² 초과 철 생성 전류밀도를 보고했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-04-09",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-FF583C8E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-04-09",
+      "action": "created",
+      "reason": "동료심사 논문의 모델 전극 실험값을 원문·DOE OSTI 메타데이터로 확인",
+      "source_ids": [
+        "SRC-20260728-FF583C8E"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "현재 수집한 동료심사 원문과 DOE OSTI 기록으로 실험값과 적용 범위를 재검증",
+      "source_ids": [
+        "SRC-20260728-FF583C8E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-3F622A0D9251",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "scale_up_requirement",
+  "value": "sidestream HPSR 확대에는 슬래그·내화물 검증, H2·Ar 절감/재순환, 배가스 회수, 금속 침탄, 증발 손실과 분진·아크 이동에 강건한 계측이 필요",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-22",
+  "last_verified": "2026-05-22",
+  "source_ids": [
+    "SRC-20260728-A0536CA5"
+  ],
+  "supersedes": [],
+  "coexists_with": [
+    "CLM-C8A1C6A9B3CF"
+  ],
+  "history": [
+    {
+      "date": "2026-05-22",
+      "action": "created",
+      "reason": "동료심사 논문의 scale-up discussion",
+      "source_ids": [
+        "SRC-20260728-A0536CA5"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "review_coexist",
+      "reason": "기존 Claim은 HPSR 전반의 연속화·아크·수지·전극·내화물·증발·가동률 조건이고, 신규 Claim은 hematite leach residue 같은 sidestream 원료 확대에서 논문이 추가로 제시한 슬래그·침탄·분진 계측 조건이다. 범위가 보완적이므로 병존한다."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6302E6D42077",
+  "subject_id": "PRJ-ZESTY-ROCKINGHAM-DEMO",
+  "predicate": "hydrogen_supply_status",
+  "value": "Kwinana의 재생수소 비용·접근성이 제약이며 실증용으로 재생수소와 천연가스 기반 수소를 함께 검토 중",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-29",
+  "last_verified": "2026-05-29",
+  "source_ids": [
+    "SRC-20260728-73732712"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-29",
+      "action": "created",
+      "reason": "ARENA/Calix 공식 착수 보고서의 hydrogen availability 절",
+      "source_ids": [
+        "SRC-20260728-73732712"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "claim_id": "CLM-06D61D63B060",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "stage_cyclone_function",
+  "value": "POSCO·RIST의 FINEX 계열 선행 특허는 각 유동층 반응기 상부 배출가스에서 cyclone으로 비산 미분을 분리해 동일 반응기 하부로 환류하고, 미분이 제거된 가스는 다음 반응기로 보내는 구성을 공개한다. 이는 현재 HyREX 실증설비의 준공도나 상세 압력실링 구성을 뜻하지 않는다.",
+  "status": "superseded",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-481A04FD"
+  ],
+  "supersedes": [
+    "CLM-11F7F8142612"
+  ],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "계단식 다단 유동층 AI 공정도의 단계별 cyclone 기능과 적용 경계를 POSCO·RIST 특허로 독립 분류",
+      "source_ids": [
+        "SRC-20260727-481A04FD"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "사용자가 지적한 역류 억제 기능을 FINEX 산업규모 유동층 논문으로 확인했습니다. 신규 문장은 기존 cyclone의 미분 분리·환류 설명을 보존하면서 dipleg 농후 고체층의 pressure-seal 기능과 HyREX 적용 경계를 추가하므로 확장 정정으로 채택합니다."
+    }
+  ],
+  "superseded_by": "CLM-9883C8C9269F"
+}

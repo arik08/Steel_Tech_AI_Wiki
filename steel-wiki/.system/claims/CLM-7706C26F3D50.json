@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7706C26F3D50",
+  "subject_id": "PRJ-SUSTEEL-DONAWITZ",
+  "predicate": "gangue_effect",
+  "value": "시험 광석의 gangue 조성이 환원거동에 유의한 영향을 줌",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-9BC68665"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "동료심사 논문 결과",
+      "source_ids": [
+        "SRC-20260727-9BC68665"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-FBC932885E04",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "commissioning_target",
+  "value": "Electra CCO는 2026-03-10 인터뷰에서 Colorado demonstration facility의 완전 가동 목표를 2026년 3분기로 제시했다. 2025년 10월의 시설 개장·ribbon cutting과 완전 가동은 구분되며, 2026년 7월 현재 실제 full operation 달성 실적을 확인한 값이 아니라 회사 목표다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-4B823CFA"
+  ],
+  "supersedes": [
+    "CLM-8E3A43872938"
+  ],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "최신 임원 인터뷰가 기존 2026년 중반 목표를 Q3 2026 full operation으로 갱신하고, opening과 operating status를 구분한다.",
+      "source_ids": [
+        "SRC-20260728-4B823CFA"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "review_supersede",
+      "reason": "2025년 회사 발표의 mid-2026 목표보다 2026-03-10 CCO 인터뷰의 Q3 2026 full operation 목표가 최신이다. 시설 개장과 실제 완전가동을 구분하고 달성 실적이 아닌 목표임을 명시하는 신규 Claim으로 대체한다."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "source_id": "SRC-20260728-6CAF8AD1",
+  "title": "Computational Fluid Dynamics Simulation of Iron Ore Reduction in Industrial-Scale Fluidized Beds",
+  "url": "https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/StResInt_special_issue_2020/srin.202000232_Schneiderbauer_2020.pdf",
+  "canonical_url": "https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/StResInt_special_issue_2020/srin.202000232_Schneiderbauer_2020.pdf",
+  "publisher": "Wiley-VCH / steel research international",
+  "published_at": "2020-06-26",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "6caf8ad1880a1f3879dfba771a45f266464d0e3bebd3e0614c2733815ffc4b58",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Simon Schneiderbauer",
+      "Mustafa Efe Kinaci",
+      "Franz Hauzenberger"
+    ],
+    "venue": "steel research international",
+    "doi": "10.1002/srin.202000232",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "cb33c5ae6b07b8ffcd81a54346d744efbce24f0a0ce1be8f98f3d226d1810c26",
+  "raw_path": ".system/raw/SRC-20260728-6CAF8AD1.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-DD61D6A51543",
+      "kind": "ai_reconstruction",
+      "caption": "AI 기능 재구성 — 산업규모 FINEX 유동층 논문이 설명한 cyclone-dipleg 계통을 단일 반응기 절개도로 재구성했다. Cyclone은 비산 미분을 가스에서 분리하고, 하부 dipleg의 농후 고체층은 유동층에서 cyclone 하부로 향하는 shortcut gas를 억제하는 압력 seal을 형성한다. HyREX 실증설비의 준공도·seal 상세가 아니다.",
+      "alt_text": "가압 미분광 유동층 반응기와 cyclone, 농후 고체로 채워진 dipleg seal, 같은 반응기로 되돌아가는 미분 및 차단된 가스 역류를 보여주는 AI 기능 재구성",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://www.k1-met.com/fileadmin/user_upload/Publications/Journal_articles_open_access/StResInt_special_issue_2020/srin.202000232_Schneiderbauer_2020.pdf",
+      "rights_status": "ai_generated",
+      "rights_note": "2026-07-28 생성. Schneiderbauer 등(2020)의 산업규모 FINEX CFD 논문과 일반 cyclone-dipleg 압력 seal 원리를 시각화한 설명용 AI 재구성이다. 공개되지 않은 HyREX 반응기 치수·압력·seal-leg·밸브·제어구성을 확정하지 않는다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": "dd61d6a515437cd420f5e8778c190153d0197bc8ed50406d5aecf51e69032c49",
+      "local_path": "assets/media/SRC-20260728-6CAF8AD1/MED-DD61D6A51543.png",
+      "subject_ids": [
+        "TEC-hydrogen-based-fine-ore-reduction"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200,
+      "display_eligible": false,
+      "hero_eligible": false,
+      "qc_note": "2026-07-28 사용자 기술 검토 결과 external cyclone 형상은 HyREX 설명용 이미지로 부적합해 표시 대상에서 제외했습니다. 논문의 산업규모 FINEX 모델은 shell 내부 cyclone-dipleg 형상을 보여주며, HyREX도 각 반응기 내부 cyclone 구성을 사용합니다."
+    }
+  ]
+}

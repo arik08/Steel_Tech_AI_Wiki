@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-20260728-7CCF544F",
+  "title": "Stable, Efficient Iron Electrodeposition via Anion-Directed Control of Fe(II) Coordination",
+  "url": "https://doi.org/10.1021/acselectrochem.5c00521",
+  "canonical_url": "https://doi.org/10.1021/acselectrochem.5c00521",
+  "publisher": "American Chemical Society",
+  "published_at": "2026-02-11",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "7ccf544fc2d1599b08898834b5556442842521887dc336537b616d0716754c4e",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Jiang Luo",
+      "Kyobin Park",
+      "Donghyeon Kang",
+      "Justin G. Connell"
+    ],
+    "venue": "ACS Electrochemistry",
+    "doi": "10.1021/acselectrochem.5c00521",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "ce57a346e87b06534074b1305c5d307b9358b5cbe832a33e59298f587a493cde",
+  "raw_path": ".system/raw/SRC-20260728-7CCF544F.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

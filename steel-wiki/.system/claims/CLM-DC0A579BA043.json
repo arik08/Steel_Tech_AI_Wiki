@@ -3,7 +3,7 @@
   "subject_id": "PRJ-ARCELORMITTAL-VOLTERON",
   "predicate": "project_status",
   "value": "저온 철 전해 기술을 TRL 6 연구개발 설비까지 확대했으나 40,000~80,000 t/y 산업 1단계의 착공·가동은 확인되지 않음",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2026-07-25",
   "last_verified": "2026-07-25",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260725-FBE26310"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "JRC 2026 기록이 1 m² pilot의 2025-04 운전을 구체적으로 확인하는 더 최신의 공공 근거다. 산업 40–80 kt/y plant 미확인 경계는 유지하면서 pilot status를 갱신한다."
     }
-  ]
+  ],
+  "superseded_by": "CLM-D6F7315CC27D"
 }

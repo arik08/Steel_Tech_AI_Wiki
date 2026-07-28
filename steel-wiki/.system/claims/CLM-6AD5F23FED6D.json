@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-6AD5F23FED6D",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "government_rd_call_project_count",
+  "value": "신규 지원 연구개발과제 11개(총괄 2개, 세부 7개, 일반 2개). 개별 수행기관 선정·협약·집행 완료를 뜻하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-A93B9BD0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "공고문이 지원과제 수와 유형을 직접 제시하지만 선정 결과 문서는 아님",
+      "source_ids": [
+        "SRC-20260728-A93B9BD0"
+      ]
+    }
+  ]
+}

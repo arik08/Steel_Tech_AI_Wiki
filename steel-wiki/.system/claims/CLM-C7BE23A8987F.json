@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C7BE23A8987F",
+  "subject_id": "PRJ-HYBRIT-GALLIVARE-DEMO",
+  "predicate": "post_permit_decision_status",
+  "value": "LKAB는 판결을 검토하고 향후 진행 방식을 평가한다고 발표; 허가를 FID·착공으로 해석하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-112971A7"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "허가 이후 실제 의사결정 상태",
+      "source_ids": [
+        "SRC-20260727-112971A7"
+      ]
+    }
+  ]
+}

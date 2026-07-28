@@ -1,0 +1,31 @@
+{
+  "source_id": "SRC-20260728-40534940",
+  "title": "Production of green steel from low-grade ores: An end-to-end techno-economic assessment",
+  "url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/d3990a62-6fc4-4024-bf52-c778e1b44e3f/content",
+  "canonical_url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/d3990a62-6fc4-4024-bf52-c778e1b44e3f/content",
+  "publisher": "Cell Reports Sustainability / Elsevier",
+  "published_at": "2025-01-24",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "4053494056c1354f5ab8a99a88bad16fb130a39b0de90dd43b69cd49c97c8429",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Alireza Rahbari",
+      "M. Shahabuddin",
+      "Shabnam Sabah",
+      "Geoffrey Brooks",
+      "John Pye"
+    ],
+    "venue": "Cell Reports Sustainability",
+    "doi": "10.1016/j.crsus.2024.100301",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "44c6293d350eb8477affbb50120d010bd17b426a3ba9109d7545baa06a522bf1",
+  "raw_path": ".system/raw/SRC-20260728-40534940.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

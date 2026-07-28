@@ -28,6 +28,44 @@
       "collected_at": "2026-07-25",
       "content_sha256": null,
       "local_path": null
+    },
+    {
+      "media_id": "MED-667CEDEE9C8F",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — DRI·플럭스·탄소 장입, 밀폐형 3전극 전기용융, 잔류 FeO 환원, 용선·슬래그 분리 출탕과 후단 정련을 정리한 ESF 개념도. 실제 프로젝트 준공도·P&ID가 아니다.",
+      "alt_text": "밀폐형 전기용융로에서 DRI가 용선과 슬래그로 분리되는 흐름을 나타낸 AI 개념도",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://www.bhp.com/news/bhp-insights/2023/06/pathways-to-decarbonisation-episode-seven-the-electric-smelting-furnace",
+      "rights_status": "ai_generated",
+      "rights_note": "2026-07-27 생성. 공개된 DRI-ESF 원리를 바탕으로 한 교육용 AI 재구성으로, 특정 공급사 또는 프로젝트의 실제 설계가 아님.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "667cedee9c8f51b004d6fe791ea7d24d114a9735876ea21166ccc2e5039f77b4",
+      "local_path": "assets/media/SRC-20260725-6EC0DF4D/MED-667CEDEE9C8F.png",
+      "subject_ids": [
+        "TEC-electric-smelting-furnace"
+      ],
+      "display_width": "detail",
+      "hero_priority": -100
+    },
+    {
+      "media_id": "MED-7AC974D2873D",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — DRI·flux·탄소원을 밀폐형 ESF에 투입하고 침지 전극의 저항·서브머지드 아크 가열로 환원·용융해 상부 슬래그와 하부 탄소함유 용선을 분리 출탕하는 개념도. 후단 BOF/EAF 정련, 배가스 정제와 FeO-in-slag·내화물·전극제어의 핵심 운전변수를 표시했으며 실제 NeoSmelt·Metso 설비의 준공도나 P&ID가 아니다.",
+      "alt_text": "DRI flux 탄소 투입, 침지 전극 가열, 슬래그와 용선 분리 출탕, 배가스 정제를 나타낸 전기용융로 AI 개념도",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://www.bhp.com/news/prospects/2023/06/pathways-to-decarbonisation-episode-seven-the-electric-smelting-furnace",
+      "rights_status": "ai_generated",
+      "rights_note": "BHP ESF 설명과 Metso Pori DRI smelting furnace 공개사양을 종합해 2026-07-27 생성한 기술 설명용 AI 재구성이다. 특정 공급사의 전극 배치, 노체 형상, 내화물 설계, 실제 유동 또는 성능을 보증하지 않는다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "7ac974d2873deaf472d96a935d13c9fe42f70fb6a7c44a43fa1e4530ae1b3a87",
+      "local_path": "assets/media/SRC-20260725-6EC0DF4D/MED-7AC974D2873D.png",
+      "subject_ids": [
+        "TEC-electric-smelting-furnace"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200
     }
   ]
 }

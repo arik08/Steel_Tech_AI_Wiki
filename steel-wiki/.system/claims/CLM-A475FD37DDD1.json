@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2026-07-25",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260725-75A329BD"
+    "SRC-20260725-75A329BD",
+    "SRC-20260728-D30AB70A"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "공식 파일럿의 조건 탐색과 EAF 제품 결과를 등록",
       "source_ids": [
         "SRC-20260725-75A329BD"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "EC JRC INCITE 프로필이 175개 공정점과 DRI/HBI EAF 용해·강 품질 결과를 현재 재확인",
+      "source_ids": [
+        "SRC-20260728-D30AB70A"
       ]
     }
   ]

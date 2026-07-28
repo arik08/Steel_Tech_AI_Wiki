@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-05306877B705",
+  "subject_id": "TEC-hydrogen-based-fine-ore-reduction",
+  "predicate": "independent_temperature_sticking_window",
+  "value": "2026년 독립 실험에서 57~61 wt% Fe의 Pilbara 적철석-침철석 4종은 500~800°C 수소 환원 중 안정 유동화됐지만, 900°C에서는 4종 중 3종이 고착·가스 채널링·탈유동을 보였다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-01",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-D8C7D596"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-01",
+      "action": "created",
+      "reason": "HYFOR·HyREX 공급사 주장과 독립 광석 실험의 온도 한계를 교차검증",
+      "source_ids": [
+        "SRC-20260728-D8C7D596"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-D8C7D596"
+      ]
+    }
+  ]
+}

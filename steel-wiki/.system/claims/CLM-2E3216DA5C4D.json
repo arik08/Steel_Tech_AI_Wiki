@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2E3216DA5C4D",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "industrial_leap_additional_support_sek",
+  "value": "Swedish Energy Agency는 2025-11-26 Industriklivet 추가 지원 SEK 389,597,000을 승인했다. 승인 결정이며 전액 교부·지급 완료를 뜻하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-EC5093B5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "스웨덴 에너지청 영문·스웨덴어 원문에서 정확한 승인액과 조건을 대조",
+      "source_ids": [
+        "SRC-20260728-EC5093B5"
+      ]
+    }
+  ]
+}

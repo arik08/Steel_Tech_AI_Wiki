@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2029-12-31",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260725-31601585"
+    "SRC-20260725-31601585",
+    "SRC-20260728-2BB4FEA7"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -27,6 +28,22 @@
       "reason": "2026-07-25 원문 재검증 및 사건일-검증일 분리",
       "source_ids": [
         "SRC-20260725-31601585"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "action": "verified",
+      "reason": "SSAB Q2 2026 규제 공시로 2029년 말 목표 최신 재확인",
+      "source_ids": [
+        "SRC-20260728-2BB4FEA7"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-2BB4FEA7"
       ]
     }
   ]

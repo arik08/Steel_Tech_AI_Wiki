@@ -1,0 +1,23 @@
+# Geleta et al. 2026 fine-ore fluidization CFD-DEM notes
+
+- Title: Effect of process parameters on fluidization and agglomeration behavior of iron ore fines
+- Authors: Dereje Degefa Geleta; In-Kook Suh; Joonho Lee
+- Venue: Powder Technology 467 (2026), 121500
+- DOI: 10.1016/j.powtec.2025.121500
+- Volume publication: 15 January 2026 (DOI suffix reflects 2025 article processing)
+- Evidence type: peer-reviewed journal article.
+- Model scope:
+  - coupled discrete element method and computational fluid dynamics (DEM-CFD);
+  - 30,000 iron-ore particles in the 75–150 µm range;
+  - hydrogen, carbon monoxide, and a 70% hydrogen–30% methane mixture;
+  - superficial gas velocity from 1.0 to 2.5 m/s and temperature from 873.15 to 1073.15 K.
+- Results:
+  - the model was checked against literature experimental pressure-drop and fluidization behavior;
+  - higher gas viscosity and operating velocity improved modeled fluidization;
+  - higher temperature increased gas viscosity and slightly reduced the modeled particle surface energy, improving fluidization in the simulated range;
+  - increased velocity can also raise entrainment risk, so the result is not an instruction to maximize velocity without a solids-carryover assessment.
+- Verification boundary:
+  - this is a numerical reactor-behavior study validated against literature data, not a HYFOR or HyREX operating campaign;
+  - the findings support mechanism and design-window interpretation only, not commercial throughput, metallization, or availability.
+- DOI page: https://doi.org/10.1016/j.powtec.2025.121500
+- Publisher record: https://www.sciencedirect.com/science/article/pii/S0032591025008952

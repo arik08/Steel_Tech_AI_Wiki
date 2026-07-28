@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-11DEFC235C4E",
+  "subject_id": "PRJ-ZESTY-ROCKINGHAM-DEMO",
+  "predicate": "demonstration_emissions_boundary",
+  "value": "실증 운전에는 계통 전력 등이 사용될 수 있어 생산물 전량이 자동으로 zero-emissions iron인 것은 아니며 실제 전력·수소 공급원을 확인해야 함",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-11-18",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-00A0FA40"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-11-18",
+      "action": "created",
+      "reason": "Calix CEO가 ABC News에 설명한 실증과 상용 무탄소 목표의 경계",
+      "source_ids": [
+        "SRC-20260728-00A0FA40"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "현재 접근 가능한 ABC News 원문에서 실증 운전의 전력·수소 공급 경계를 재확인",
+      "source_ids": [
+        "SRC-20260728-00A0FA40"
+      ]
+    }
+  ]
+}

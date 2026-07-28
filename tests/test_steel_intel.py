@@ -58,6 +58,11 @@ class SteelIntelTests(unittest.TestCase):
     def test_index_is_the_only_home_projection(self):
         self.assertTrue((self.root / "index.md").is_file())
         self.assertFalse((self.root / "HOME.md").exists())
+        self.assertFalse(
+            (self.root / "REVIEW.md").read_text(encoding="utf-8").endswith(
+                "\n\n"
+            )
+        )
         report_index = (
             self.root / "reports" / "index.md"
         ).read_text(encoding="utf-8")
@@ -91,6 +96,8 @@ class SteelIntelTests(unittest.TestCase):
         )
         self.assertIn("색상 범례 (AI 의미 그룹)", index)
         self.assertIn("옅은 코발트=전환 기술", index)
+        self.assertIn('ore --> zesty["ZESTY 수소<br/>플래시 환원"]', index)
+        self.assertIn('ore --> hisarna["HIsarna 사이클론<br/>용융환원"]', index)
 
     def claim_args(self, source_id, value):
         return Namespace(
@@ -312,6 +319,13 @@ class SteelIntelTests(unittest.TestCase):
                     "last_verified": "2026-07-25",
                     "source_ids": ["SRC-ACADEMIC"],
                 },
+                {
+                    "predicate": "unclassified_validation_note",
+                    "value": "40 kt/y 모듈을 조합해 최대 800 kt/y까지 확대할 계획",
+                    "status": "active",
+                    "last_verified": "2026-07-25",
+                    "source_ids": ["SRC-ACADEMIC"],
+                },
             ]
         }
         sources = {
@@ -339,8 +353,25 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("| **총괄 반응** | Fe2O3 -> 2Fe + 1.5O2", markdown)
         self.assertIn("### 에너지·환경·경제", markdown)
         self.assertIn("성숙 설비 가정 2.89-4.45 kWh/kg Fe", markdown)
+        self.assertIn("### 최신 실증·검증 정보", markdown)
+        self.assertIn("40 kt/y 모듈을 조합해 최대 800 kt/y", markdown)
+        self.assertIn("## 12–36개월 기술 센싱 대시보드", markdown)
+        self.assertIn("### 성숙도 승격 신호", markdown)
+        self.assertIn("### 지연·실패 신호", markdown)
+        self.assertIn("### POSCO 판단 질문", markdown)
         self.assertIn("| 학술 연구 |", markdown)
         self.assertNotIn("고온 용융염 전기분해가 아니라", markdown)
+
+    def test_all_future_technology_pages_have_strategy_sensing_framework(self):
+        self.assertEqual(
+            set(steel_intel.TECHNOLOGY_DETAILS),
+            set(steel_intel.TECHNOLOGY_SENSING_DASHBOARDS),
+        )
+        for technology, dashboard in steel_intel.TECHNOLOGY_SENSING_DASHBOARDS.items():
+            with self.subTest(technology=technology):
+                self.assertGreaterEqual(len(dashboard["leading_indicators"]), 3)
+                self.assertGreaterEqual(len(dashboard["warning_signals"]), 2)
+                self.assertGreaterEqual(len(dashboard["decision_questions"]), 3)
 
     def test_mkdocs_navigation_keeps_sources_out_of_sidebar(self):
         (self.root / "companies" / "COM-POSCO.md").write_text(
@@ -565,6 +596,7 @@ class SteelIntelTests(unittest.TestCase):
             for item in config["redirects"]
         }
 
+        self.assertTrue(config["trailingSlash"])
         self.assertEqual(
             redirects["/academic-landscape-:slug"],
             "/reports/academic-landscape-:slug",
@@ -1037,6 +1069,25 @@ class SteelIntelTests(unittest.TestCase):
         )
         self.assertEqual(audit["counts"]["source_integrity"], 1)
 
+    def test_audit_accepts_git_crlf_materialization_of_lf_source(self):
+        incoming = Path(self.temp_dir.name) / "source-with-lines.md"
+        incoming.write_bytes(b"Immutable first line.\nImmutable second line.\n")
+        created = steel_intel.add_source(
+            self.source_args(
+                incoming,
+                "Immutable source with line endings",
+                "https://example.com/immutable-line-endings",
+            )
+        )
+        raw_path = self.root / created["raw_path"]
+        lf_bytes = raw_path.read_bytes().replace(b"\r\n", b"\n")
+        raw_path.write_bytes(lf_bytes.replace(b"\n", b"\r\n"))
+
+        audit = steel_intel.audit_store(
+            Namespace(root=str(self.root), stale_days=180)
+        )
+        self.assertEqual(audit["counts"]["source_integrity"], 0)
+
     def test_audit_does_not_flag_resolved_coexisting_claims(self):
         first_file = Path(self.temp_dir.name) / "first-scope.md"
         first_file.write_text(
@@ -1123,6 +1174,8 @@ class SteelIntelTests(unittest.TestCase):
                 rights_status="permitted",
                 rights_note="공식 미디어 자료의 내부 기술검토 사용 조건 확인",
                 subject_id=["COM-EXAMPLE-STEEL", "PRJ-EXAMPLE-DRI"],
+                display_width="detail",
+                hero_priority=-100,
             )
         )
         self.assertEqual(added["action"], "image_added")
@@ -1140,6 +1193,8 @@ class SteelIntelTests(unittest.TestCase):
             stored_source["images"][0]["subject_ids"],
             ["COM-EXAMPLE-STEEL", "PRJ-EXAMPLE-DRI"],
         )
+        self.assertEqual(stored_source["images"][0]["display_width"], "detail")
+        self.assertEqual(stored_source["images"][0]["hero_priority"], -100)
 
         link_only = steel_intel.add_image(
             Namespace(
@@ -1175,8 +1230,8 @@ class SteelIntelTests(unittest.TestCase):
             source_page,
         )
         self.assertIn(
-            "![상세 장치 배치도]"
-            "(<https://example.com/media/restricted.jpg>)"
+            "![원통형 반응기와 배관이 설치된 실증 설비]"
+            f"(../{added['local_path']})"
             "{ .steel-media-image .steel-hero-image .steel-media-detail }",
             project_page,
         )
@@ -1311,6 +1366,39 @@ class SteelIntelTests(unittest.TestCase):
         self.assertEqual(unrelated_hero, [])
         self.assertEqual(unrelated_gallery, [])
 
+    def test_subject_scoped_media_is_found_outside_claim_source_list(self):
+        sources = {
+            "SRC-CLAIM": {"images": []},
+            "SRC-RELATED-PROJECT": {
+                "images": [
+                    {
+                        "media_id": "MED-TECH-HERO",
+                        "local_path": "assets/media/tech-hero.png",
+                        "caption": "기술 전용 AI 개념도",
+                        "kind": "ai_reconstruction",
+                        "rights_status": "ai_generated",
+                        "hero_priority": -100,
+                        "subject_ids": ["TEC-EXAMPLE"],
+                    }
+                ]
+            },
+        }
+
+        hero, excluded_media_ids = steel_intel.representative_image_lines(
+            ["SRC-CLAIM"],
+            sources,
+            subject_id="TEC-EXAMPLE",
+        )
+        unrelated_hero, _ = steel_intel.representative_image_lines(
+            ["SRC-CLAIM"],
+            sources,
+            subject_id="TEC-OTHER",
+        )
+
+        self.assertIn("../assets/media/tech-hero.png", "\n".join(hero))
+        self.assertEqual(excluded_media_ids, {"MED-TECH-HERO"})
+        self.assertEqual(unrelated_hero, [])
+
     def test_representative_image_prefers_process_diagram_for_technology_page(self):
         source_id = "SRC-ESF-IMAGES"
         lines, excluded_media_ids = steel_intel.representative_image_lines(
@@ -1346,6 +1434,42 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("https://example.com/esf-process.png", rendered)
         self.assertNotIn("https://example.com/esf-facility.jpg", rendered)
         self.assertEqual(excluded_media_ids, {"MED-PROCESS"})
+
+    def test_manual_hero_priority_can_place_ai_reconstruction_first(self):
+        source_id = "SRC-ORDERED-HERO"
+        lines, excluded_media_ids = steel_intel.representative_image_lines(
+            [source_id],
+            {
+                source_id: {
+                    "images": [
+                        {
+                            "media_id": "MED-OFFICIAL",
+                            "image_url": "https://example.com/official-process.png",
+                            "origin_url": "https://example.com/official",
+                            "caption": "공식 공정 구성도",
+                            "kind": "process_diagram",
+                            "rights_status": "link_only",
+                        },
+                        {
+                            "media_id": "MED-AI",
+                            "local_path": "assets/media/ai.png",
+                            "origin_url": "https://example.com/evidence",
+                            "caption": "일관된 AI 개념도",
+                            "kind": "ai_reconstruction",
+                            "rights_status": "ai_generated",
+                            "hero_priority": -100,
+                            "display_width": "detail",
+                        },
+                    ]
+                }
+            },
+        )
+
+        rendered = "\n".join(lines)
+        self.assertIn("../assets/media/ai.png", rendered)
+        self.assertNotIn("official-process.png", rendered)
+        self.assertIn(".steel-media-detail", rendered)
+        self.assertEqual(excluded_media_ids, {"MED-AI"})
 
     def test_technology_dossier_links_related_project_status_schedule_and_capacity(self):
         source_id = "SRC-NEOSMELT"

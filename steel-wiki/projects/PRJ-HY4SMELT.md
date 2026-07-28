@@ -2,32 +2,58 @@
 
 # HY4Smelt 실증 프로젝트
 
-> 최근 검증 **2026-07-25** · 확인된 핵심 정보 **11건** · 직접 연결 근거 **2건**
+> 최근 검증 **2026-07-28** · 확인된 핵심 정보 **27건** · 직접 연결 근거 **8건**
 
 
-![유동층 수소환원 반응기에서 전기용융로로 환원철 미분이 이송되는 HY4Smelt 개념 재구성](../assets/media/SRC-20260725-E316D68F/MED-F0531463286B.png){ .steel-media-image .steel-hero-image .steel-media-compact }
+![전극, 장입, 용융욕과 출탕 계통이 보이는 Hy4Smelt Smelter 내부 구성 개략도](<https://www.hy4smelt-project.eu/fileadmin/_processed_/b/6/csm_Primetals_smelter_inside_Copyright__c__Primetals_Technologies_Austria_GmbH_6616813fd0.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — HY4Smelt 미분광 수소환원-전기용융 연계 공정의 출처 기반 AI 재구성; 실제 준공도나 설비 사진이 아님 (AI 재구성 · 권리 `ai_generated` · 출처 [[sources/SRC-20260725-E316D68F|SRC-20260725-E316D68F]] · [원문 페이지](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf))*
+*대표 이미지 — Hy4Smelt 공식 프로젝트 페이지의 Smelter 내부 구성 개략도. Primetals Technologies의 일반 설계 개념이며 Linz 실증설비의 준공도(as-built)는 아닙니다. (장치 구성도 · 권리 `link_only` · 출처 [[sources/SRC-20260728-7C490C85|SRC-20260728-7C490C85]] · [원문 페이지](https://www.hy4smelt-project.eu/))*
+
+
+## 설비·공정 이미지
+
+![유동층 수소환원 반응기에서 전기용융로로 환원철 미분이 이송되는 HY4Smelt 개념 재구성](../assets/media/SRC-20260725-E316D68F/MED-F0531463286B.png){ .steel-media-image .steel-media-compact }
+
+**AI 재구성.** HY4Smelt 미분광 수소환원-전기용융 연계 공정의 출처 기반 AI 재구성; 실제 준공도나 설비 사진이 아님
+
+- 출처 [[sources/SRC-20260725-E316D68F|SRC-20260725-E316D68F]] · 권리 `ai_generated` · [원문 페이지](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · 작성·촬영 OpenAI image generation; Codex research reconstruction
+- 권리 메모: Primetals의 HYFOR-Smelter 실증 착공 자료와 Wiki의 검증된 공정 Claim을 바탕으로 생성한 설명용 재구성입니다. 실제 설비 사진·준공도·배관계장도가 아닙니다.
 
 !!! abstract "현재 상태"
 
-    **건설 중** [^src-20260725-e316d68f]
+    **건설 중** [^src-20260725-e316d68f][^src-20260728-d5828b6f][^src-20260728-cba8ac84]
 
 ## 확인된 핵심 정보
 
 | 항목 | 확인된 내용 |
 | --- | --- |
-| **프로젝트 상태** | 건설 중 [^src-20260725-e316d68f] |
-| **목표 가동 시점** | 2027년 말 [^src-20260725-e316d68f] |
+| **프로젝트 상태** | 건설 중 [^src-20260725-e316d68f][^src-20260728-d5828b6f][^src-20260728-cba8ac84] |
+| **목표 가동 시점** | 2027년 말 [^src-20260725-e316d68f][^src-20260728-d5828b6f][^src-20260728-1bf41b90][^src-20260728-cba8ac84] |
+| **시간당 처리능력** | EMECR 2026 행사 초록: HYFOR 최대 2.6 t/h DRI, Smelter 최대 2.4 t/h 용선; 첨부 논문과 기존 자료의 3 t/h와 불일치 [^src-20260728-7d3d8f38] |
 | **시간당 처리능력** | 시간당 3톤 (3 tonnes per hour) [^src-20260725-e316d68f] |
+| **Construction stage 2026 07** | 2026년 7월 말까지 Linz 현장은 건물·기초의 토목·구조 공사가 중심이며, 철골·설비 설치가 진행된 뒤 외부공사가 이어질 예정이라고 voestalpine이 설명했다. 이는 참여사 보고이며 독립 공정률 인증은 아니다. [^src-20260728-1bf41b90] |
 | **착공 시점** | 2025-09-25 [^src-20260725-e316d68f] |
+| **Demonstration product** | 보호 분위기의 전기 Smelter에서 HYFOR DRI를 용융해 GPI(granulated pig iron) 생산 예정; 실제 생산 실적은 아직 아님 [^src-20260728-d5828b6f] |
 | **대표 설비 참고** | HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고 [^src-20260725-a23b5a64] |
 | **적용 원료** | 응집하지 않은 저·중품위 철광석 미분을 중점 검증 [^src-20260725-e316d68f] |
+| **Funded project period** | Hy4Smelt 공식 프로젝트 페이지의 RFCS 프로젝트 기간은 2025-04-01부터 2029-09-30까지로 표시된다. 이는 voestalpine 연차보고서의 '연구 프로젝트 2030년까지'라는 연도 단위 표현과 범위·정밀도가 다른 일정 표기다. [^src-20260728-7c490c85] |
+| **Fy2025 26 capex eur** | 2025/26 사업연도 EUR 5.93 million; 누적 투자액이나 공정률 의미는 아님 [^src-20260728-d5828b6f] |
+| **Hyfor design dri output tph** | up to 2.6 t/h DRI (EMECR 2026 event abstract); attached paper states up to 3 t/h [^src-20260728-7d3d8f38] |
+| **Incite hot metal slag targets** | 설계 목표는 탄소 최대 4.5% hot metal과 FeO 1% 미만의 고로 유사 슬래그이며, 실증설비의 장기 제품·슬래그 품질 달성 실적은 아니다. [^src-20260728-06def489] |
+| **Incite maturity target** | EC INCITE는 HYFOR/HY4Smelt를 Under development / testing, Expected TRL 8로 분류한다. TRL 8 달성이나 상업운전 검증을 뜻하지 않는다. [^src-20260728-06def489] |
+| **Incite metallisation design targets** | INCITE 기술 프로필은 1단 환원 후 금속화율 통상 약 40%, 2단 후 최대 94.4%를 제시하지만 이는 설계·목표값이며 장기운전 평균이나 성능보증 달성값이 아니다. [^src-20260728-06def489] |
+| **Incite stage specific design rates** | INCITE 본문은 HDRI 통상 >1.5~2.2 t/h와 smelter 약 2.5 t/h hot metal을, 구조화 생산데이터는 hot metal 3 t/h·slag 1 t/h·green H2 1,500 m³/h를 제시한다. 단계·표기 방식이 다른 설계값이며 현 시점 연속 실측 처리량이 아니다. [^src-20260728-06def489] |
 | **통합 설비 구성** | HYFOR 수소 미분광 직접환원과 전기 Smelter를 결합한 통합 실증설비 [^src-20260725-e316d68f] |
 | **위치** | Linz, Austria [^src-20260725-e316d68f] |
 | **참여 기관** | voestalpine, Primetals Technologies, Rio Tinto 및 기타 프로젝트 파트너 [^src-20260725-e316d68f] |
+| **Planned total expenditure eur** | 총 계획 지출 약 EUR 170 million; 전액 설비 CapEx로 해석하지 않음 [^src-20260728-d5828b6f][^src-20260728-1bf41b90] |
 | **제품 형태** | 미분 DRI를 전기 Smelter에서 용융해 용융 철 제품을 생산하는 경로 [^src-20260725-e316d68f] |
+| **Representative equipment reference** | Hy4Smelt 공식 프로젝트 페이지의 Primetals Smelter 내부 구성 개략도는 전극·장입·용융욕·출탕 계통을 보여 주는 대표 설비 이미지이나 Linz 실증설비의 준공도(as-built)는 아니다. [^src-20260728-7c490c85] |
+| **Research program end date** | 2030년까지 [^src-20260728-d5828b6f] |
 | **공개 성과의 한계** | 착공과 설계 처리량은 연속 실증 또는 상업 운전 완료의 증거가 아님 [^src-20260725-e316d68f] |
+| **Smelter design hot metal output tph** | up to 2.4 t/h green hot metal (EMECR 2026 event abstract); attached paper states up to 3 t/h [^src-20260728-7d3d8f38] |
+| **Target interior fitout completion** | 2026년 말 [^src-20260728-1bf41b90] |
+| **Voestalpine share eur** | EUR 41.8 million [^src-20260728-d5828b6f] |
 
 ## 전체 확인 이력
 
@@ -36,13 +62,31 @@
 | 날짜 | 구분 | 확인된 사건 |
 | --- | --- | --- |
 | 2025-09-25 | 발표·검증 | **위치**: Linz, Austria · **적용 원료**: 응집하지 않은 저·중품위 철광석 미분을 중점 검증 · **프로젝트 상태**: 건설 중 · **공개 성과의 한계**: 착공과 설계 처리량은 연속 실증 또는 상업 운전 완료의 증거가 아님 · **목표 가동 시점**: 2027년 말 · **시간당 처리능력**: 시간당 3톤 (3 tonnes per hour) · **제품 형태**: 미분 DRI를 전기 Smelter에서 용융해 용융 철 제품을 생산하는 경로 · **참여 기관**: voestalpine, Primetals Technologies, Rio Tinto 및 기타 프로젝트 파트너 · **통합 설비 구성**: HYFOR 수소 미분광 직접환원과 전기 Smelter를 결합한 통합 실증설비 · **착공 시점**: 2025-09-25 [^src-20260725-e316d68f] |
+| 2026-02-19 | 발표·검증 | **프로젝트 상태**: 건설 중 · **목표 가동 시점**: 2027년 말 [^src-20260728-cba8ac84] |
+| 2026-05-12 | 발표·검증 | **Smelter design hot metal output tph**: up to 2.4 t/h green hot metal (EMECR 2026 event abstract); attached paper states up to 3 t/h · **시간당 처리능력**: EMECR 2026 행사 초록: HYFOR 최대 2.6 t/h DRI, Smelter 최대 2.4 t/h 용선; 첨부 논문과 기존 자료의 3 t/h와 불일치 · **Hyfor design dri output tph**: up to 2.6 t/h DRI (EMECR 2026 event abstract); attached paper states up to 3 t/h [^src-20260728-7d3d8f38] |
+| 2026-06-03 | 발표·검증 | **Demonstration product**: 보호 분위기의 전기 Smelter에서 HYFOR DRI를 용융해 GPI(granulated pig iron) 생산 예정; 실제 생산 실적은 아직 아님 · **Planned total expenditure eur**: 총 계획 지출 약 EUR 170 million; 전액 설비 CapEx로 해석하지 않음 · **프로젝트 상태**: 건설 중 · **Research program end date**: 2030년까지 · **목표 가동 시점**: 2027년 말 · **Fy2025 26 capex eur**: 2025/26 사업연도 EUR 5.93 million; 누적 투자액이나 공정률 의미는 아님 · **Voestalpine share eur**: EUR 41.8 million [^src-20260728-d5828b6f] |
 | 2026-07-25 | 수집 확인 | **대표 설비 참고**: HYFOR 파일럿 유동층 반응기 실제 설비 사진; HY4SMELT 준공 설비 사진이 아닌 기술 참고 [^src-20260725-a23b5a64] |
-| 2027 | 목표 일정 | **목표 가동 시점**: 2027년 말 [^src-20260725-e316d68f] |
+| 2026-07-28 | 수집 확인 | **Incite maturity target**: EC INCITE는 HYFOR/HY4Smelt를 Under development / testing, Expected TRL 8로 분류한다. TRL 8 달성이나 상업운전 검증을 뜻하지 않는다. · **Incite metallisation design targets**: INCITE 기술 프로필은 1단 환원 후 금속화율 통상 약 40%, 2단 후 최대 94.4%를 제시하지만 이는 설계·목표값이며 장기운전 평균이나 성능보증 달성값이 아니다. · **Incite hot metal slag targets**: 설계 목표는 탄소 최대 4.5% hot metal과 FeO 1% 미만의 고로 유사 슬래그이며, 실증설비의 장기 제품·슬래그 품질 달성 실적은 아니다. · **Incite stage specific design rates**: INCITE 본문은 HDRI 통상 >1.5~2.2 t/h와 smelter 약 2.5 t/h hot metal을, 구조화 생산데이터는 hot metal 3 t/h·slag 1 t/h·green H2 1,500 m³/h를 제시한다. 단계·표기 방식이 다른 설계값이며 현 시점 연속 실측 처리량이 아니다. [^src-20260728-06def489] |
+| 2026-07-28 | 수집 확인 | **Planned total expenditure eur**: 총 계획 지출 약 EUR 170 million; 전액 설비 CapEx로 해석하지 않음 · **목표 가동 시점**: 2027년 말 · **Target interior fitout completion**: 2026년 말 · **Construction stage 2026 07**: 2026년 7월 말까지 Linz 현장은 건물·기초의 토목·구조 공사가 중심이며, 철골·설비 설치가 진행된 뒤 외부공사가 이어질 예정이라고 voestalpine이 설명했다. 이는 참여사 보고이며 독립 공정률 인증은 아니다. [^src-20260728-1bf41b90] |
+| 2026-07-28 | 수집 확인 | **Representative equipment reference**: Hy4Smelt 공식 프로젝트 페이지의 Primetals Smelter 내부 구성 개략도는 전극·장입·용융욕·출탕 계통을 보여 주는 대표 설비 이미지이나 Linz 실증설비의 준공도(as-built)는 아니다. · **Funded project period**: Hy4Smelt 공식 프로젝트 페이지의 RFCS 프로젝트 기간은 2025-04-01부터 2029-09-30까지로 표시된다. 이는 voestalpine 연차보고서의 '연구 프로젝트 2030년까지'라는 연도 단위 표현과 범위·정밀도가 다른 일정 표기다. [^src-20260728-7c490c85] |
+| 2027 | 목표 일정 | **목표 가동 시점**: 2027년 말 [^src-20260725-e316d68f][^src-20260728-d5828b6f][^src-20260728-1bf41b90][^src-20260728-cba8ac84] |
 
 ## 근거 자료
 
 - **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상 · [원문 보기](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 - **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25 · [원문 보기](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
+- **Hydrogen based ultra fine ore reduction combined with a continuous powered electric smelting furnace for liquid iron production (HYFOR / HY4SMELT)** — European Commission Joint Research Centre - INCITE, 게시일 미상 · [원문 보기](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/hydrogen-based-ultra-fine-ore-reduction-combined-continuous-powered-electric) · [[sources/SRC-20260728-06DEF489|보관 원문·메타데이터]]
+- **HY4SMELT AUF DEM WEG ZUR UMSETZUNG** — voestalpine Stahl GmbH / Stella Sustainable, 게시일 미상 · [원문 보기](https://www.voestalpine.com/stella/News/HY4SMELT-AUF-DEM-WEG-ZUR-UMSETZUNG) · [[sources/SRC-20260728-1BF41B90|보관 원문·메타데이터]]
+- **Hy4Smelt official project page - overall approach and Smelter inside schematic** — Hy4Smelt Project / K1-MET GmbH, 게시일 미상 · [원문 보기](https://www.hy4smelt-project.eu/) · [[sources/SRC-20260728-7C490C85|보관 원문·메타데이터]]
+- **Hy4Smelt – Industrial Demonstration Project to Proof Potential Net-Zero Ironmaking by Combining Breakthrough HYFOR and Smelter Technologies** — EEC 2026 / EMECR 2026 / Primetals Technologies, 2026-05-12 · [원문 보기](https://submit.m-n.marketing/event/66/contributions/5479/) · [[sources/SRC-20260728-7D3D8F38|보관 원문·메타데이터]]
+- **Rio Tinto Annual Report on Form 20-F 2025 - Hy4Smelt disclosure** — Rio Tinto / U.S. Securities and Exchange Commission, 2026-02-19 · [원문 보기](https://www.sec.gov/Archives/edgar/data/863064/000162828026009531/rio-20251231.htm) · [[sources/SRC-20260728-CBA8AC84|보관 원문·메타데이터]]
+- **voestalpine Annual Report 2025/26 - Hy4Smelt demonstration plant** — voestalpine AG, 2026-06-03 · [원문 보기](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) · [[sources/SRC-20260728-D5828B6F|보관 원문·메타데이터]]
 
 [^src-20260725-a23b5a64]: **HYFOR: Hydrogen-Based Fine-Ore Reduction** — Primetals Technologies, 게시일 미상. [원문](https://www.primetals.com/en/portfolio/solutions/ironmaking/direct-reduction/hyfor/) · [[sources/SRC-20260725-A23B5A64|보관 원문·메타데이터]]
 [^src-20260725-e316d68f]: **Construction begins on HYFOR and Smelter demonstration plant** — Primetals Technologies, 2025-09-25. [원문](https://dam.primetals.com/m/6c938163b0f170c0/original/PR2025083472en.pdf) · [[sources/SRC-20260725-E316D68F|보관 원문·메타데이터]]
+[^src-20260728-06def489]: **Hydrogen based ultra fine ore reduction combined with a continuous powered electric smelting furnace for liquid iron production (HYFOR / HY4SMELT)** — European Commission Joint Research Centre - INCITE, 게시일 미상. [원문](https://innovation-centre-for-industrial-transformation.ec.europa.eu/innovative-techniques/hydrogen-based-ultra-fine-ore-reduction-combined-continuous-powered-electric) · [[sources/SRC-20260728-06DEF489|보관 원문·메타데이터]]
+[^src-20260728-1bf41b90]: **HY4SMELT AUF DEM WEG ZUR UMSETZUNG** — voestalpine Stahl GmbH / Stella Sustainable, 게시일 미상. [원문](https://www.voestalpine.com/stella/News/HY4SMELT-AUF-DEM-WEG-ZUR-UMSETZUNG) · [[sources/SRC-20260728-1BF41B90|보관 원문·메타데이터]]
+[^src-20260728-7c490c85]: **Hy4Smelt official project page - overall approach and Smelter inside schematic** — Hy4Smelt Project / K1-MET GmbH, 게시일 미상. [원문](https://www.hy4smelt-project.eu/) · [[sources/SRC-20260728-7C490C85|보관 원문·메타데이터]]
+[^src-20260728-7d3d8f38]: **Hy4Smelt – Industrial Demonstration Project to Proof Potential Net-Zero Ironmaking by Combining Breakthrough HYFOR and Smelter Technologies** — EEC 2026 / EMECR 2026 / Primetals Technologies, 2026-05-12. [원문](https://submit.m-n.marketing/event/66/contributions/5479/) · [[sources/SRC-20260728-7D3D8F38|보관 원문·메타데이터]]
+[^src-20260728-cba8ac84]: **Rio Tinto Annual Report on Form 20-F 2025 - Hy4Smelt disclosure** — Rio Tinto / U.S. Securities and Exchange Commission, 2026-02-19. [원문](https://www.sec.gov/Archives/edgar/data/863064/000162828026009531/rio-20251231.htm) · [[sources/SRC-20260728-CBA8AC84|보관 원문·메타데이터]]
+[^src-20260728-d5828b6f]: **voestalpine Annual Report 2025/26 - Hy4Smelt demonstration plant** — voestalpine AG, 2026-06-03. [원문](https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html) · [[sources/SRC-20260728-D5828B6F|보관 원문·메타데이터]]

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-B9347F7DD5F9",
+  "subject_id": "TEC-molten-oxide-electrolysis",
+  "predicate": "route_temperature_product_state",
+  "value": "2026년 동료심사 리뷰는 고온 전해제철을 대체로 1,073–1,223 K에서 고체·분말 철을 만드는 용융염 전해와 1,823 K 초과에서 액체 철을 지향하는 전통적 용융산화물 전해로 구분한다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-C00B1E0B"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "동료심사 리뷰의 경로 분류를 기술 경계로 사용하되 개별 셀의 고정 규격으로 일반화하지 않음",
+      "source_ids": [
+        "SRC-20260728-C00B1E0B"
+      ]
+    }
+  ]
+}

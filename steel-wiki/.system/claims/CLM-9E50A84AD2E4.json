@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9E50A84AD2E4",
+  "subject_id": "PRJ-BIOIRON-WA-RD",
+  "predicate": "annual_report_restart_boundary",
+  "value": "2025 Form 20-F는 파일럿 작업과 기존 시운전 목표의 pause를 재확인했으나 재착공일·개정 설계·EPC·잔여투자비·1 t/h 달성값을 제시하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-02-19",
+  "last_verified": "2026-02-19",
+  "source_ids": [
+    "SRC-20260728-1F248414"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-02-19",
+      "action": "created",
+      "reason": "공식 연차보고서의 확인 범위와 미공개 범위를 분리했다.",
+      "source_ids": [
+        "SRC-20260728-1F248414"
+      ]
+    }
+  ]
+}

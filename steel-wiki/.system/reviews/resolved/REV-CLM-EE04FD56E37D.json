@@ -1,0 +1,83 @@
+{
+  "review_id": "REV-CLM-EE04FD56E37D",
+  "type": "claim_conflict",
+  "created_at": "2026-07-28T03:42:38+09:00",
+  "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+  "predicate": "company_capex_clarification",
+  "existing_claims": [
+    {
+      "claim_id": "CLM-7EE31D02A4FE",
+      "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+      "predicate": "company_capex_clarification",
+      "value": "2026-03-05 Tata Steel의 NSE 공시는 보도된 ₹11,000 crore를 Jharkhand 여러 기존·검토 프로젝트의 자본배분 맥락으로 설명하고 HIsarna·EASyMelt는 추가 평가 중이라고 명시; HIsarna 단독 확정 CAPEX·FID가 아님",
+      "status": "active",
+      "confidence": "high",
+      "first_seen": "2026-03-05",
+      "last_verified": "2026-03-05",
+      "source_ids": [
+        "SRC-20260728-735F3BF8"
+      ],
+      "supersedes": [],
+      "coexists_with": [],
+      "history": [
+        {
+          "date": "2026-03-05",
+          "action": "created",
+          "reason": "회사 거래소 공시를 Jharkhand 정부 패키지 발표 및 FY2025-26 통합보고서와 교차 확인해 투자 범위를 한정",
+          "source_ids": [
+            "SRC-20260728-735F3BF8"
+          ]
+        }
+      ]
+    }
+  ],
+  "proposed_claim": {
+    "claim_id": "CLM-4CFF6FFC5E98",
+    "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+    "predicate": "company_capex_clarification",
+    "value": "2026-03-05 Tata Steel의 NSE 공시는 HIsarna·EASyMelt 관련 추가 프로젝트를 계속 평가 중이라고 명시; 이 문구는 엔지니어링·인허가 착수 승인과 병존하지만 FID·확정 총사업비를 뜻하지 않음",
+    "status": "active",
+    "confidence": "high",
+    "first_seen": "2026-03-05",
+    "last_verified": "2026-03-05",
+    "source_ids": [
+      "SRC-20260728-735F3BF8"
+    ],
+    "supersedes": [
+      "CLM-7EE31D02A4FE"
+    ],
+    "coexists_with": [],
+    "history": [
+      {
+        "date": "2026-03-05",
+        "action": "created",
+        "reason": "기존 Claim의 다중 프로젝트 투자범위 설명은 investment_boundary로 분리하고, 이 Claim은 HIsarna·EASyMelt 평가 상태에 집중",
+        "source_ids": [
+          "SRC-20260728-735F3BF8"
+        ]
+      },
+      {
+        "date": "2026-07-28",
+        "action": "review_supersede",
+        "reason": "다중 프로젝트 투자범위는 investment_boundary에 보존하고, company_capex_clarification은 HIsarna·EASyMelt의 회사 공시상 평가 상태와 FID 한계에 집중한다."
+      }
+    ]
+  },
+  "allowed_decisions": [
+    "supersede",
+    "keep-existing",
+    "coexist",
+    "dispute",
+    "reject"
+  ],
+  "status": "resolved",
+  "resolution": {
+    "decided_at": "2026-07-28T03:42:44+09:00",
+    "decision": "supersede",
+    "rationale": "다중 프로젝트 투자범위는 investment_boundary에 보존하고, company_capex_clarification은 HIsarna·EASyMelt의 회사 공시상 평가 상태와 FID 한계에 집중한다.",
+    "changed_claim_ids": [
+      "CLM-7EE31D02A4FE",
+      "CLM-4CFF6FFC5E98"
+    ]
+  }
+}

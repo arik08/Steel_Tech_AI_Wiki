@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F1AA5979839D",
+  "subject_id": "PRJ-JFE-CHIBA-NO4-EAF",
+  "predicate": "expected_ghg_reduction_tpy",
+  "value": "up to approximately 450,000 tonnes/year company estimate; measured annual reduction not yet disclosed",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-30",
+  "last_verified": "2026-04-30",
+  "source_ids": [
+    "SRC-20260728-BC8B3047"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-30",
+      "action": "created",
+      "reason": "Preserve company forecast and performance boundary",
+      "source_ids": [
+        "SRC-20260728-BC8B3047"
+      ]
+    }
+  ]
+}

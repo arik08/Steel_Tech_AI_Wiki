@@ -1,0 +1,27 @@
+{
+  "source_id": "SRC-20260728-D5828B6F",
+  "title": "voestalpine Annual Report 2025/26 - Hy4Smelt demonstration plant",
+  "url": "https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html",
+  "canonical_url": "https://reports.voestalpine.com/2526/ar/management-report/non-financial-statement/environmental-information/i-r-d-innovation-research-and-development.html",
+  "publisher": "voestalpine AG",
+  "published_at": "2026-06-03",
+  "collected_at": "2026-07-28",
+  "source_type": "company_ir",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "d5828b6ff7b55cb07c2eac972d1daf7fbb6182f082382675d40da73c6f146a5a",
+  "raw_sha256": "9f16512c84756c81acea2e06e356706ade2d50a065409aaf9e9e3ddb04447fd8",
+  "raw_path": ".system/raw/SRC-20260728-D5828B6F.md",
+  "previous_version": "SRC-20260725-F2F9BB6E",
+  "supporting_sources": [
+    {
+      "title": "Hy4Smelt construction starts at Linz",
+      "url": "https://www.voestalpine.com/group/en/media/press-releases/2025-07-29-voestalpine-hy4smelt-construction-on-Austrias-largest-climate-action-research-project-starts-at-the-voestalpine-site-in-Linz/",
+      "canonical_url": "https://www.voestalpine.com/group/en/media/press-releases/2025-07-29-voestalpine-hy4smelt-construction-on-Austrias-largest-climate-action-research-project-starts-at-the-voestalpine-site-in-Linz",
+      "publisher": "voestalpine AG",
+      "published_at": "2025-09-25",
+      "collected_at": "2026-07-28"
+    }
+  ],
+  "images": []
+}

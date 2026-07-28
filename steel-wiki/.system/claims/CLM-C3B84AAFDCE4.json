@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C3B84AAFDCE4",
+  "subject_id": "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT",
+  "predicate": "co2_conversion_route",
+  "value": "포집한 고순도 CO2를 재생전력 기반 플라즈마로 CO로 전환해 제철 환원탄소 일부 또는 화학·대체연료 원료로 사용하는 시험",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-275A6495"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "공동발표의 시험 경로와 용도 후보",
+      "source_ids": [
+        "SRC-20260727-275A6495"
+      ]
+    }
+  ]
+}

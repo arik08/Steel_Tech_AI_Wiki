@@ -2,21 +2,21 @@
 
 # JFE Steel 기술 현황
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-28** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 
-![호퍼와 드럼, 소결대 내부, 센서 입력, 기계학습과 물리 시뮬레이션을 연결한 JFE 소결 CPS 도식](<https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-1.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
+![JFE blast-furnace hot-metal temperature prediction and control guidance diagram](<https://www.jfe-steel.co.jp/en/products/solution/data-science/images/14-control-guidance_img01.jpg>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — 소결기 내부 연소·열 상태를 센서, 기계학습, 물리 시뮬레이션으로 예측하고 최적 조작으로 되먹임하는 JFE 소결 CPS 구성도 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260725-41586A75|SRC-20260725-41586A75]] · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html))*
+*대표 이미지 — JFE 공식 고로 용선온도 제어 가이던스 개념도: 장시간 물리모델, 단시간 ML·AI 예측 및 조작변수 추천을 운전자 또는 제어계에 연결 (공정 개념도 · 권리 `link_only` · 출처 [[sources/SRC-20260728-3BAB455E|SRC-20260728-3BAB455E]] · [원문 페이지](https://www.jfe-steel.co.jp/en/products/solution/data-science/14-control-guidance.html))*
 
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 5개 / 감시 기술 11개 |
-    | **연결 프로젝트** | 3개 |
+    | **확인된 기술** | 5개 / 감시 기술 13개 |
+    | **연결 프로젝트** | 5개 |
     | **실행 단계** | 연구·실증 2건 · 계획·투자 2건 · 가동·현장 적용 1건 |
-    | **직접 연결 근거** | 8건 |
+    | **직접 연결 근거** | 15건 |
 
 ## 기술 포트폴리오
 
@@ -82,17 +82,73 @@
 
     **다음 확인:** 스크랩 종류·해방도·센서 판정의 대표성, Cu·Sn 실제 제거율과 철 손실, DRI/HBI·용선 희석 의존도, 탭 N·P·S, 처리량·가동률, 제품별 합격률과 대형 EAF 장기 생산 실적을 확인해야 합니다.
 
+## 사업화·프로젝트 지표
+
+| 항목 | 현재 확인 내용 |
+| --- | --- |
+| **ai scrap inspection status** | Installed at Sendai Works in 2026-04 and operating since 2026-06 after on-equipment validation and tuning; numerical accuracy and throughput remain undisclosed [^src-20260728-698efdf6] |
+| **bf hot metal temperature guidance** | JFE는 고로 용선온도를 비정상 물리모델로 8~12시간, ML·AI로 2~3시간 선행 예측하고 송풍습도·PCI·송풍온도 조작을 안내하거나 제어계에 직접 입력할 수 있는 가이던스를 공개 [^src-20260728-3bab455e] |
+| **blast furnace ccus operating status** | 150 m³ 탄소순환 시험고로를 2025년 5월 송풍해 운전을 시작했으며 FY2026까지 실증 예정 [^src-20260728-1ab6bc47] |
+| **chiba stainless eaf status** | 2026-04-29 operating: approximately 0.3 Mt/y scrap-melting EAF at Chiba No. 4 steelmaking shop, partially substituting scrap for blast-furnace hot metal [^src-20260728-bc8b3047] |
+| **cloud genai status** | AWS 기반 솔루션 SaaS 제공을 사용 중이며 Bedrock·Quick 등 생성형 AI 활용 확대를 추진한다고 발표; 전 공장 배포·정량 성과는 확인되지 않음 [^src-20260728-a9f63b06] |
+| **physical ai rnd status** | Noetra 멀티모달 기반모델 개발에 출자·참여하고 제철소 운영·보전·연구개발 적용을 검토; 아직 연구개발 단계 [^src-20260728-fa021a32] |
+| **scrap cu blending ai status** | JFE는 EAF 용강의 Cu 농도를 기계학습으로 예측해 스크랩 배합을 최적화하고 규격 외 tramp element와 고급 스크랩 과잉 투입을 줄이는 솔루션을 공개 [^src-20260728-abfa913a] |
+| **scrap cu model disclosure limit** | 공개 페이지에는 적용 제철소·가동일·예측오차·평가 heat 수·downgrade 감소율·원료비 절감액이 없으며, Cu 예측·배합 최적화는 용강 탈동 기술이나 모든 고급강의 저급 스크랩 사용 입증이 아님 [^src-20260728-abfa913a] |
+
 ## 주요 프로젝트
 
 회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
 
 | 프로젝트 | 현재 상태 | 핵심 일정·규모 |
 | --- | --- | --- |
+| **[[projects/PRJ-JFE-CHIBA-CARBON-RECYCLING-BF|JFE Chiba 150 m³ 탄소순환 시험고로]]** | 150 m³ 시험고로가 2025년 5월 송풍·운전을 시작했으며 FY2026까지 실증 예정 [^src-20260728-1ab6bc47] | **기술 경로** 고로 배가스 CO2를 수소로 메탄화해 e-methane 환원제로 고로에 재순환하고 산소 취입·순환가스 가열·고로와 메탄화 설비의 연동 운전을 검증 [^src-20260728-1ab6bc47] · **위치** JFE Steel East Japan Works Chiba district, Japan [^src-20260728-1ab6bc47] |
+| **[[projects/PRJ-JFE-CHIBA-NO4-EAF|JFE 치바 제4제강 전기로]]** | 2026-04-28 completion ceremony and 2026-04-29 start of operation at JFE East Japan Works Chiba No. 4 Steelmaking Shop [^src-20260728-bc8b3047] | **기술 경로** stainless-steel shop EAF increases scrap melting and substitutes scrap for part of blast-furnace hot-metal input; not a complete conversion away from hot metal [^src-20260728-bc8b3047] · **위치** JFE Steel East Japan Works, Chiba Area, Japan [^src-20260728-bc8b3047] |
 | **[[projects/PRJ-JFE-KURASHIKI-LARGE-EAF|JFE Kurashiki 대형 고효율 전기로]]** | 2025-04-10 투자·건설을 결정하고 정부 보조금 승인을 확보한 건설 준비 단계 [^src-20260725-38762376] | **기술 경로** 스크랩·저탄소 DRI를 고효율 대형 EAF에서 용해하고 고급강 정련·물류 설비와 통합 [^src-20260725-38762376] · **위치** West Japan Works Kurashiki facility, Japan [^src-20260725-38762376] · **연간 생산능력** 연간 약 2,000,000톤 조강 [^src-20260725-38762376] · **지원·조달 금액** 일본 정부 보조금 최대 JPY 104.5 billion 예상 [^src-20260725-38762376] · **목표 가동 시점** 2028-04 시작 회계연도 1분기 생산 개시 목표 [^src-20260725-38762376] |
 | **[[projects/PRJ-JFE-SINTER-CPS-ROLLOUT|JFE 일본 7개 소결설비 CPS 전개]]** | 일본 내 7개 소결 생산설비에 CPS 전개 중이며 전 고로 공정의 CPS 배치는 완료됐다고 회사 발표 [^src-20260725-41586a75] | **위치** JFE Steel 일본 내 7개 소결 생산설비 [^src-20260725-41586a75] |
 | **[[projects/PRJ-NIPPON-KIMITSU-COURSE50|Nippon Steel Kimitsu COURSE50 실증]]** | 2026-05-29 기준 Kimitsu 제2고로의 FY2026 수소환원 실증을 위한 설비 도입·엔지니어링 진행 중; 실증 개시 완료는 미확인 [^src-20260725-46c2dbc8] | **기술 경로** Kimitsu 제2고로에 제철소 내 코크스오븐가스와 수소계 가스를 취입해 탄소 환원의 일부를 수소환원으로 대체 [^src-20260725-46c2dbc8] · **위치** East Nippon Works Kimitsu Area No. 2 blast furnace, Chiba, Japan [^src-20260725-0a7903ea] |
 
 ## 프로젝트별 상세
+
+??? info "JFE Chiba 150 m³ 탄소순환 시험고로"
+
+    **프로젝트 문서:** [[projects/PRJ-JFE-CHIBA-CARBON-RECYCLING-BF|JFE Chiba 150 m³ 탄소순환 시험고로]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **위치** | JFE Steel East Japan Works Chiba district, Japan [^src-20260728-1ab6bc47] |
+    | **시험고로 용적(m³)** | 150 [^src-20260728-1ab6bc47] |
+    | **프로젝트 상태** | 150 m³ 시험고로가 2025년 5월 송풍·운전을 시작했으며 FY2026까지 실증 예정 [^src-20260728-1ab6bc47] |
+    | **기술 경로** | 고로 배가스 CO2를 수소로 메탄화해 e-methane 환원제로 고로에 재순환하고 산소 취입·순환가스 가열·고로와 메탄화 설비의 연동 운전을 검증 [^src-20260728-1ab6bc47] |
+    | **목표 종료일** | FY2026 demonstration completion target [^src-20260728-1ab6bc47] |
+    | **가동·시운전 확인 시점** | 2025-05 [^src-20260728-1ab6bc47] |
+    | **성과 해석 경계** | 공개 자료는 운전 개시만 확인하며 달성 CO2 저감률·메탄화 전환율·수소 수요·안정 연속운전 시간은 공개하지 않음 [^src-20260728-1ab6bc47] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2025-05 | 실행 일정 | **가동·시운전 확인 시점**: 2025-05 [^src-20260728-1ab6bc47] |
+    | 2026 | 목표 일정 | **목표 종료일**: FY2026 demonstration completion target [^src-20260728-1ab6bc47] |
+    | 2026-07-28 | 수집 확인 | **위치**: JFE Steel East Japan Works Chiba district, Japan · **시험고로 용적(m³)**: 150 · **프로젝트 상태**: 150 m³ 시험고로가 2025년 5월 송풍·운전을 시작했으며 FY2026까지 실증 예정 · **기술 경로**: 고로 배가스 CO2를 수소로 메탄화해 e-methane 환원제로 고로에 재순환하고 산소 취입·순환가스 가열·고로와 메탄화 설비의 연동 운전을 검증 · **목표 종료일**: FY2026 demonstration completion target · **가동·시운전 확인 시점**: 2025-05 · **성과 해석 경계**: 공개 자료는 운전 개시만 확인하며 달성 CO2 저감률·메탄화 전환율·수소 수요·안정 연속운전 시간은 공개하지 않음 [^src-20260728-1ab6bc47] |
+
+??? info "JFE 치바 제4제강 전기로"
+
+    **프로젝트 문서:** [[projects/PRJ-JFE-CHIBA-NO4-EAF|JFE 치바 제4제강 전기로]]
+
+    | 항목 | 확인된 내용 |
+    | --- | --- |
+    | **기술 경로** | stainless-steel shop EAF increases scrap melting and substitutes scrap for part of blast-furnace hot-metal input; not a complete conversion away from hot metal [^src-20260728-bc8b3047] |
+    | **프로젝트 상태** | 2026-04-28 completion ceremony and 2026-04-29 start of operation at JFE East Japan Works Chiba No. 4 Steelmaking Shop [^src-20260728-bc8b3047] |
+    | **위치** | JFE Steel East Japan Works, Chiba Area, Japan [^src-20260728-bc8b3047] |
+    | **투자비** | approximately JPY 18 billion [^src-20260728-bc8b3047] |
+    | **Expected ghg reduction tpy** | up to approximately 450,000 tonnes/year company estimate; measured annual reduction not yet disclosed [^src-20260728-bc8b3047] |
+    | **Scrap melting capacity tpy** | approximately 300,000 tonnes/year design capacity [^src-20260728-bc8b3047] |
+
+    **전체 공개 연혁**
+
+    | 날짜 | 구분 | 확인된 사건 |
+    | --- | --- | --- |
+    | 2026-04-30 | 발표·검증 | **기술 경로**: stainless-steel shop EAF increases scrap melting and substitutes scrap for part of blast-furnace hot-metal input; not a complete conversion away from hot metal · **프로젝트 상태**: 2026-04-28 completion ceremony and 2026-04-29 start of operation at JFE East Japan Works Chiba No. 4 Steelmaking Shop · **위치**: JFE Steel East Japan Works, Chiba Area, Japan · **투자비**: approximately JPY 18 billion · **Expected ghg reduction tpy**: up to approximately 450,000 tonnes/year company estimate; measured annual reduction not yet disclosed · **Scrap melting capacity tpy**: approximately 300,000 tonnes/year design capacity [^src-20260728-bc8b3047] |
 
 ??? info "JFE Kurashiki 대형 고효율 전기로"
 
@@ -183,6 +239,13 @@
 - 출처 [[sources/SRC-20260725-38762376|SRC-20260725-38762376]] · 권리 `ai_generated` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · 작성·촬영 OpenAI image generation / Codex
 - 권리 메모: JFE 공식 투자 발표의 설비 범위를 바탕으로 생성했으며 실제 배치·공사진척·성능의 증거로 사용하지 않음
 
+![호퍼와 드럼, 소결대 내부, 센서 입력, 기계학습과 물리 시뮬레이션을 연결한 JFE 소결 CPS 도식](<https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-1.png>){ .steel-media-image .steel-media-detail }
+
+**공정 개념도.** 소결기 내부 연소·열 상태를 센서, 기계학습, 물리 시뮬레이션으로 예측하고 최적 조작으로 되먹임하는 JFE 소결 CPS 구성도
+
+- 출처 [[sources/SRC-20260725-41586A75|SRC-20260725-41586A75]] · 권리 `link_only` · [원문 페이지](https://www.jfe-steel.co.jp/en/release/2025/10/251007.html) · 작성·촬영 JFE Steel Corporation
+- 권리 메모: JFE Steel 공식 발표의 Figure 1 원본을 확인했습니다. 재사용 권한을 별도 확인하지 않아 원격 링크로만 표시합니다.
+
 ![물리 제철소와 사이버 모델, AI, 운전지침, 로봇 자동화를 양방향으로 연결한 JFE 지능형 제철소 구조도](<https://www.jfe-steel.co.jp/en/release/2025/10/img/251007-2.png>){ .steel-media-image .steel-media-detail }
 
 **공정 개념도.** 제철소 센서·운전데이터에서 사이버 모델·AI로 올라가 운전지침과 로봇 자동화로 되돌아오는 JFE 지능형 제철소 CPS 전체 구조
@@ -203,6 +266,13 @@
 | [[sources/SRC-20260725-DED07902|METI Green Steel for GX: Kurashiki EAF]] | Ministry of Economy, Trade and Industry, Japan · 2025-01-23 | [원문 보기](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf) |
 | [[sources/SRC-20260725-EC77A362|JFE Steel 2025 priorities for carbon-neutral technologies]] | JFE Steel Corporation · 2025-01-06 | [원문 보기](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) |
 | [[sources/SRC-20260725-F396D188|Nippon Steel FY2025 results: carbon-neutral technology progress]] | Nippon Steel Corporation · 2026-06-02 | [원문 보기](https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf) |
+| [[sources/SRC-20260728-1AB6BC47|Policy Engagement - Carbon-Recycling Blast Furnaces]] | JFE Holdings, Inc. · 게시일 미상 | [원문 보기](https://www.jfe-holdings.co.jp/en/sustainability/environment/climate/steel_industry_efforts/) |
+| [[sources/SRC-20260728-3BAB455E|Control Guidance Technology for Blast Furnace Hot Metal Temperature]] | JFE Steel Corporation · 게시일 미상 | [원문 보기](https://www.jfe-steel.co.jp/en/products/solution/data-science/14-control-guidance.html) |
+| [[sources/SRC-20260728-698EFDF6|JFE AI scrap automatic inspection enters operation]] | JFE Steel Corporation · 2026-06-29 | [원문 보기](https://www.jfe-steel.co.jp/release/2026/06/260629.html) |
+| [[sources/SRC-20260728-A9F63B06|JFE Steel and AWS Sign an Agreement Toward the Realization of a Sustainable Society]] | JFE Steel Corporation · 2026-04-27 | [원문 보기](https://www.jfe-steel.co.jp/en/release/2026/04/260427-1.html) |
+| [[sources/SRC-20260728-ABFA913A|Optimization of Scrap Blending by Estimation Model for Hot Metal Cu Concentration in Electric Arc Furnace]] | JFE Steel Corporation · 게시일 미상 | [원문 보기](https://www.jfe-steel.co.jp/en/products/solution/steelmaking/01-electric-arc-furnace.html) |
+| [[sources/SRC-20260728-BC8B3047|JFE Chiba No. 4 Steelmaking Shop EAF start-up]] | JFE Steel Corporation · 2026-04-30 | [원문 보기](https://www.jfe-steel.co.jp/release/2026/04/260430.html) |
+| [[sources/SRC-20260728-FA021A32|Investment in Noetra Corporation, which promotes the development of a Japan-made AI foundation model]] | JFE Steel Corporation · 2026-07-16 | [원문 보기](https://www.jfe-steel.co.jp/release/2026/07/260716.html) |
 
 [^src-20260725-0a7903ea]: **Nippon Steel decides Kimitsu No. 2 BF hydrogen-reduction demonstration** — Nippon Steel Corporation, 2023-02-09. [원문](https://www.nipponsteel.com/en/news/20230209_100.html) · [[sources/SRC-20260725-0A7903EA|보관 원문·메타데이터]]
 [^src-20260725-38762376]: **JFE Steel to introduce advanced large-scale EAF at Kurashiki** — JFE Steel Corporation, 2025-04-10. [원문](https://www.jfe-steel.co.jp/en/release/2025/04/250410.html) · [[sources/SRC-20260725-38762376|보관 원문·메타데이터]]
@@ -212,3 +282,10 @@
 [^src-20260725-ded07902]: **METI Green Steel for GX: Kurashiki EAF** — Ministry of Economy, Trade and Industry, Japan, 2025-01-23. [원문](https://www.meti.go.jp/shingikai/mono_info_service/green_steel/pdf/20250123_3.pdf) · [[sources/SRC-20260725-DED07902|보관 원문·메타데이터]]
 [^src-20260725-ec77a362]: **JFE Steel 2025 priorities for carbon-neutral technologies** — JFE Steel Corporation, 2025-01-06. [원문](https://www.jfe-steel.co.jp/en/release/2025/01/250106.html) · [[sources/SRC-20260725-EC77A362|보관 원문·메타데이터]]
 [^src-20260725-f396d188]: **Nippon Steel FY2025 results: carbon-neutral technology progress** — Nippon Steel Corporation, 2026-06-02. [원문](https://www.nipponsteel.com/en/ir/individual/pdf/20260602_nipponsteel_notice_en.pdf) · [[sources/SRC-20260725-F396D188|보관 원문·메타데이터]]
+[^src-20260728-1ab6bc47]: **Policy Engagement - Carbon-Recycling Blast Furnaces** — JFE Holdings, Inc., 게시일 미상. [원문](https://www.jfe-holdings.co.jp/en/sustainability/environment/climate/steel_industry_efforts/) · [[sources/SRC-20260728-1AB6BC47|보관 원문·메타데이터]]
+[^src-20260728-3bab455e]: **Control Guidance Technology for Blast Furnace Hot Metal Temperature** — JFE Steel Corporation, 게시일 미상. [원문](https://www.jfe-steel.co.jp/en/products/solution/data-science/14-control-guidance.html) · [[sources/SRC-20260728-3BAB455E|보관 원문·메타데이터]]
+[^src-20260728-698efdf6]: **JFE AI scrap automatic inspection enters operation** — JFE Steel Corporation, 2026-06-29. [원문](https://www.jfe-steel.co.jp/release/2026/06/260629.html) · [[sources/SRC-20260728-698EFDF6|보관 원문·메타데이터]]
+[^src-20260728-a9f63b06]: **JFE Steel and AWS Sign an Agreement Toward the Realization of a Sustainable Society** — JFE Steel Corporation, 2026-04-27. [원문](https://www.jfe-steel.co.jp/en/release/2026/04/260427-1.html) · [[sources/SRC-20260728-A9F63B06|보관 원문·메타데이터]]
+[^src-20260728-abfa913a]: **Optimization of Scrap Blending by Estimation Model for Hot Metal Cu Concentration in Electric Arc Furnace** — JFE Steel Corporation, 게시일 미상. [원문](https://www.jfe-steel.co.jp/en/products/solution/steelmaking/01-electric-arc-furnace.html) · [[sources/SRC-20260728-ABFA913A|보관 원문·메타데이터]]
+[^src-20260728-bc8b3047]: **JFE Chiba No. 4 Steelmaking Shop EAF start-up** — JFE Steel Corporation, 2026-04-30. [원문](https://www.jfe-steel.co.jp/release/2026/04/260430.html) · [[sources/SRC-20260728-BC8B3047|보관 원문·메타데이터]]
+[^src-20260728-fa021a32]: **Investment in Noetra Corporation, which promotes the development of a Japan-made AI foundation model** — JFE Steel Corporation, 2026-07-16. [원문](https://www.jfe-steel.co.jp/release/2026/07/260716.html) · [[sources/SRC-20260728-FA021A32|보관 원문·메타데이터]]

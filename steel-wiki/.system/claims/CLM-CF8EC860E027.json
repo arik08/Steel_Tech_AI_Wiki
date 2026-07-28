@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-CF8EC860E027",
+  "subject_id": "TEC-low-temperature-aqueous-iron-electrolysis",
+  "predicate": "fortescue_stage_status",
+  "value": "2025년 8월 기준 Core Research Stage 1 마무리 단계; 전해조 unit와 balance of plant의 설계·건설·시운전은 Stage 2 과제",
+  "status": "superseded",
+  "confidence": "high",
+  "first_seen": "2025-08-31",
+  "last_verified": "2025-08-31",
+  "source_ids": [
+    "SRC-20260727-3D412017"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-08-31",
+      "action": "created",
+      "reason": "Separates completed core research from planned demonstration hardware.",
+      "source_ids": [
+        "SRC-20260727-3D412017"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "기존 Claim은 2025-08의 Stage 1 마무리 단계만 반영했다. 2026-04 ARENA 공개기록으로 Core Research 종료와 프로젝트 종료일을 확인하고, Stage 2·TRL6 공개 성과 부재의 해석 경계를 명시한 신규 Claim으로 갱신한다."
+    }
+  ],
+  "superseded_by": "CLM-1607E708A851"
+}

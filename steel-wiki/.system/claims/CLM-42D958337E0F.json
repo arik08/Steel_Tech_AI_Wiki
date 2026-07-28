@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-42D958337E0F",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "academic_evidence_boundary",
+  "value": "AISTech 2026 결과는 400 g 실험실 다단 환원 연구이며, 포항 300,000 t/y 통합 실증설비의 처리량·수소원단위·가동률·제품 품질 실적으로 해석할 수 없다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-04",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-188FD401"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-04",
+      "action": "created",
+      "reason": "Scale and evidence boundary are explicit in the official conference record.",
+      "source_ids": [
+        "SRC-20260728-188FD401"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-188FD401"
+      ]
+    }
+  ]
+}

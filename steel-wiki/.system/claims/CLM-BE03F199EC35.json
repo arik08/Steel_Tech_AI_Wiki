@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BE03F199EC35",
+  "subject_id": "PRJ-NEOSMELT-KWINANA",
+  "predicate": "environmental_decision_boundary",
+  "value": "Part IV 비평가 결정은 전체 환경·개발 인허가 완료가 아니다. EPA는 소음·대기배출에 EP Act Part V 등 다른 절차가 적용되고 식생 제거에는 별도 허가가 필요할 수 있다고 명시했으므로, FID·건설승인·착공·시운전·가동 근거로 해석하지 않는다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-DC2DCCF5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "비평가 결정의 법적 범위와 잔여 승인 절차 분리",
+      "source_ids": [
+        "SRC-20260728-DC2DCCF5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D6161FE4F990",
+  "subject_id": "PRJ-HY4SMELT",
+  "predicate": "incite_stage_specific_design_rates",
+  "value": "INCITE 본문은 HDRI 통상 >1.5~2.2 t/h와 smelter 약 2.5 t/h hot metal을, 구조화 생산데이터는 hot metal 3 t/h·slag 1 t/h·green H2 1,500 m³/h를 제시한다. 단계·표기 방식이 다른 설계값이며 현 시점 연속 실측 처리량이 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-06DEF489"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "EC JRC 프로필의 본문·구조화 데이터·범례를 대조해 단계별 설계값과 실측값을 구분",
+      "source_ids": [
+        "SRC-20260728-06DEF489"
+      ]
+    }
+  ]
+}

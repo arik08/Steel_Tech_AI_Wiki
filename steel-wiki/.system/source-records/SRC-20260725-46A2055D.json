@@ -28,6 +28,8 @@
       "collected_at": "2026-07-25",
       "content_sha256": null,
       "local_path": null,
+      "display_width": "compact",
+      "hero_priority": -600,
       "subject_ids": [
         "COM-Tata-Steel",
         "TEC-blast-furnace-ccus",

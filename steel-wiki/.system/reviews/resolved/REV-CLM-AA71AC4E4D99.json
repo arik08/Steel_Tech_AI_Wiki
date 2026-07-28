@@ -1,0 +1,83 @@
+{
+  "review_id": "REV-CLM-AA71AC4E4D99",
+  "type": "claim_conflict",
+  "created_at": "2026-07-28T03:51:02+09:00",
+  "subject_id": "PRJ-PURESCRAP-EU-SCRAP-PURITY",
+  "predicate": "project_status",
+  "existing_claims": [
+    {
+      "claim_id": "CLM-D0E2E62166F0",
+      "subject_id": "PRJ-PURESCRAP-EU-SCRAP-PURITY",
+      "predicate": "project_status",
+      "value": "2단계에서 Stena Recycling Hallstahammar 파쇄 스크랩 센서 스테이션과 Swerim Luleå 중량 스크랩 스테이션 설치; VASD·SSAB 화학분석 검증은 후속 예정",
+      "status": "active",
+      "confidence": "high",
+      "first_seen": "2026-07-27",
+      "last_verified": "2026-07-27",
+      "source_ids": [
+        "SRC-20260727-7DEFB3CE"
+      ],
+      "supersedes": [],
+      "coexists_with": [],
+      "history": [
+        {
+          "date": "2026-07-27",
+          "action": "created",
+          "reason": "프로젝트 공식 사이트의 설치 실적과 후속 목표를 분리",
+          "source_ids": [
+            "SRC-20260727-7DEFB3CE"
+          ]
+        }
+      ]
+    }
+  ],
+  "proposed_claim": {
+    "claim_id": "CLM-96D0722B932C",
+    "subject_id": "PRJ-PURESCRAP-EU-SCRAP-PURITY",
+    "predicate": "project_status",
+    "value": "2026-07-23 최신 공식 뉴스레터 기준 중량 스크랩 센서 스테이션은 Swerim Luleå 시험 후 2026년 4월 Stena Recycling Hallstahammar 생산 현장으로 이전됐으며, 완전 산업가동·정량 KPI 달성은 아직 확인되지 않음",
+    "status": "active",
+    "confidence": "high",
+    "first_seen": "2026-07-28",
+    "last_verified": "2026-07-28",
+    "source_ids": [
+      "SRC-20260728-44EB4AEB"
+    ],
+    "supersedes": [
+      "CLM-D0E2E62166F0"
+    ],
+    "coexists_with": [],
+    "history": [
+      {
+        "date": "2026-07-28",
+        "action": "created",
+        "reason": "최신 날짜가 명시된 공식 뉴스레터로 프로젝트 현재 상태를 갱신하고, 공식 홈페이지의 Swerim 설치 문구는 이전 단계 설명으로 보존",
+        "source_ids": [
+          "SRC-20260728-44EB4AEB"
+        ]
+      },
+      {
+        "date": "2026-07-28",
+        "action": "review_supersede",
+        "reason": "2026-07-23 최신 공식 뉴스레터가 2026년 4월 중량 스크랩 스테이션의 Hallstahammar 생산 현장 이전을 확인하므로, Swerim Luleå 설치 문구는 이전 단계의 역사적 상태로 보존하고 최신 project_status로 대체한다."
+      }
+    ]
+  },
+  "allowed_decisions": [
+    "supersede",
+    "keep-existing",
+    "coexist",
+    "dispute",
+    "reject"
+  ],
+  "status": "resolved",
+  "resolution": {
+    "decided_at": "2026-07-28T03:51:12+09:00",
+    "decision": "supersede",
+    "rationale": "2026-07-23 최신 공식 뉴스레터가 2026년 4월 중량 스크랩 스테이션의 Hallstahammar 생산 현장 이전을 확인하므로, Swerim Luleå 설치 문구는 이전 단계의 역사적 상태로 보존하고 최신 project_status로 대체한다.",
+    "changed_claim_ids": [
+      "CLM-D0E2E62166F0",
+      "CLM-96D0722B932C"
+    ]
+  }
+}

@@ -6,7 +6,7 @@
   "status": "active",
   "confidence": "high",
   "first_seen": "2025-11-17",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
     "SRC-20260725-C925BF86",
     "SRC-20260725-84498FDF"
@@ -36,6 +36,14 @@
       "reason": "2026-07-25 공식 원문 재검증",
       "source_ids": [
         "SRC-20260725-C925BF86"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Rio Tinto 현행 Climate reporting 페이지의 2025 실적과 2026 조치 표로 현재 상태 재검증",
+      "source_ids": [
+        "SRC-20260725-84498FDF"
       ]
     }
   ]

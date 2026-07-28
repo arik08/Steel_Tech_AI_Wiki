@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-706139EDE208",
+  "subject_id": "PRJ-ARCELORMITTAL-VOLTERON",
+  "predicate": "deployment_dependency",
+  "value": "최초 scale-up plant 배치는 파일럿 결과, 제도·사업 여건, 자금조달에 조건부이며 착공 확정이 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-71A7FA21"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "Explicitly distinguishes conditional deployment from project execution.",
+      "source_ids": [
+        "SRC-20260727-71A7FA21"
+      ]
+    }
+  ]
+}

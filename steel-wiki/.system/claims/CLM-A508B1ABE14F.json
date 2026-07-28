@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A508B1ABE14F",
+  "subject_id": "PRJ-HYBRIT-LULEA-PILOT",
+  "predicate": "incite_maturity_classification",
+  "value": "EC INCITE 구조화 필드는 Operational·Achieved TRL 7로 표시하지만 본문은 relevant environment에서 up to TRL 6/7로 설명한다. 이 분류는 Gällivare 상업 규모 운전 검증이 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-D30AB70A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "동일 EC 프로필의 구조화 필드와 본문 표현 차이를 보존하고 TRL 과대해석을 방지",
+      "source_ids": [
+        "SRC-20260728-D30AB70A"
+      ]
+    }
+  ]
+}

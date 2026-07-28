@@ -27,7 +27,12 @@
       "rights_note": "Boston Metal 공식 발표의 설비 사진이나 재사용 조건이 명확하지 않아 원문 이미지 링크만 보존",
       "collected_at": "2026-07-25",
       "content_sha256": null,
-      "local_path": null
+      "local_path": null,
+      "subject_ids": [
+        "TEC-molten-oxide-electrolysis"
+      ],
+      "display_width": "compact",
+      "hero_priority": -500
     }
   ]
 }

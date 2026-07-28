@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7C334891634D",
+  "subject_id": "PRJ-ARCELORMITTAL-VOLTERON",
+  "predicate": "trl_evidence_caveat",
+  "value": "INCITE 구조화 필드는 Operational·Achieved TRL 7로 표시하지만 본문은 2025년 말 TRL 7 검증 예정이라고 서술하므로, TRL 7 표시는 산업규모 신뢰성 입증으로 확대 해석할 수 없음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-71A7FA21"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "Preserves the internal timing difference in the official JRC page.",
+      "source_ids": [
+        "SRC-20260727-71A7FA21"
+      ]
+    }
+  ]
+}

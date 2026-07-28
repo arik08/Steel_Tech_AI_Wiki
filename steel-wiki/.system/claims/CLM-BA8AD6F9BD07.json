@@ -3,7 +3,7 @@
   "subject_id": "PRJ-ARCELORMITTAL-VOLTERON",
   "predicate": "performance_disclosure_limit",
   "value": "전류효율·전력원단위·연속운전시간·전극수명·산업 1단계 부지와 투자비는 공개 확인이 부족",
-  "status": "active",
+  "status": "superseded",
   "confidence": "high",
   "first_seen": "2026-07-25",
   "last_verified": "2026-07-25",
@@ -20,6 +20,14 @@
       "source_ids": [
         "SRC-20260725-FBE26310"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "status_changed",
+      "from": "active",
+      "to": "superseded",
+      "reason": "후속 JRC 근거가 3.5–4.3 MWh/t 추정치를 새로 공개했으므로 '전력원단위 공개 부족'이라는 기존 문구를 그대로 유지할 수 없다. 추정치와 상업 실측의 차이를 명시한 신규 Claim으로 대체한다."
     }
-  ]
+  ],
+  "superseded_by": "CLM-B4227CF67BF5"
 }

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-492DC9A001E3",
+  "subject_id": "TEC-zesty-hydrogen-flash-reduction",
+  "predicate": "feedstock_scope",
+  "value": "일반적으로 500 µm 미만 철광석 미분을 직접 투입하며 펠릿화 생략 가능성을 지향",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-824DD247"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "논문 Methods의 실제 파일럿 투입 원료 범위",
+      "source_ids": [
+        "SRC-20260727-824DD247"
+      ]
+    }
+  ]
+}

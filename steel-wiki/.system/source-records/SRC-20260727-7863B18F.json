@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-20260727-7863B18F",
+  "title": "Carbon capture pilot begins operation at ArcelorMittal Gent",
+  "url": "https://www.mhi.com/news/24052102.html",
+  "canonical_url": "https://www.mhi.com/news/24052102.html",
+  "publisher": "Mitsubishi Heavy Industries",
+  "published_at": "2024-05-21",
+  "collected_at": "2026-07-27",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "7863b18fe8b461b5a1b0f5b1697e71e504cdd3cada248e6dee320ef9d68631c5",
+  "raw_sha256": "cd107c5f247c43fccbaee336657399e00503ee8ee9f7ffab07d016dfceb07e36",
+  "raw_path": ".system/raw/SRC-20260727-7863B18F.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-179736289521",
+      "kind": "facility_photo",
+      "caption": "ArcelorMittal, BHP, Mitsubishi Development와 MHI 프로젝트팀이 방문한 Gent CO2 포집 파일럿 설비. MHI 공식 보도사진.",
+      "alt_text": "ArcelorMittal Gent의 MHI CO2 포집 파일럿 설비와 프로젝트팀",
+      "creator": "Mitsubishi Heavy Industries",
+      "image_url": "https://www.mhi.com/sites/g/files/jwhtju111/files/styles/original_image_style/public/2024-05/24052402.jpg?itok=bjVtjqIH",
+      "origin_url": "https://www.mhi.com/news/24052102.html",
+      "rights_status": "link_only",
+      "rights_note": "MHI 공식 보도자료에서 원본 사진과 캡션을 확인했다. 복제 권한이 명시되지 않아 원문 서버 URL만 표시하며 로컬 다운로드하지 않는다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "PRJ-ARCELORMITTAL-GHENT-MHI-CO2-PILOT"
+      ],
+      "display_width": "compact",
+      "hero_priority": -600
+    }
+  ]
+}

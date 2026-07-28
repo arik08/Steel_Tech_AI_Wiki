@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-FC4C9ADEC5BD",
+  "subject_id": "TEC-hisarna-cyclone-smelting-reduction",
+  "predicate": "pilot_long_run_record",
+  "value": "최장 연속운전 19.5일, 장기 campaign 가용률 93%; 연간 상용 가동률로 확대 해석하지 않음",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-03-09",
+  "last_verified": "2026-03-09",
+  "source_ids": [
+    "SRC-20260727-786D57D4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-03-09",
+      "action": "created",
+      "reason": "AIST 2026 Tata Steel presentation slide 5",
+      "source_ids": [
+        "SRC-20260727-786D57D4"
+      ]
+    }
+  ]
+}

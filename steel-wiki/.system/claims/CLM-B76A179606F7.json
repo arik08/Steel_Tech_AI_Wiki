@@ -1,0 +1,43 @@
+{
+  "claim_id": "CLM-B76A179606F7",
+  "subject_id": "PRJ-HISARNA-JAMSHEDPUR-DEMO",
+  "predicate": "funding_disclosure_boundary",
+  "value": "LoI/MoU의 proposed·estimated 투자액이며 FID·확정 CAPEX·EPC 발주·착공·자금 집행으로 해석할 수 없음; Tata FY2025-26 보고서의 ₹11.1 billion 표기와 정부 ₹11,100 crore 표기는 10배 불일치",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-03-05",
+  "source_ids": [
+    "SRC-20260728-433E5CF1",
+    "SRC-20260728-1BFBFBDF",
+    "SRC-20260728-735F3BF8"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "단위 충돌과 투자 단계 과대해석 방지",
+      "source_ids": [
+        "SRC-20260728-433E5CF1"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Tata 통합보고서의 ₹11.1 billion 표기를 정부 수치와 대조",
+      "source_ids": [
+        "SRC-20260728-1BFBFBDF"
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "action": "verified",
+      "reason": "Tata Steel 거래소 공시가 ₹11,000 crore 보도를 여러 승인·검토 프로젝트 맥락으로 한정해 기존 투자 해석 경계를 보강",
+      "source_ids": [
+        "SRC-20260728-735F3BF8"
+      ]
+    }
+  ]
+}

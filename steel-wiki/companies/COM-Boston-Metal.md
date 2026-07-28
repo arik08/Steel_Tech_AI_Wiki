@@ -2,21 +2,21 @@
 
 # Boston Metal 기술 현황
 
-> 조사 기준일: **2026-07-25** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-07-28** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 
-![고온의 용융금속이 Boston Metal MOE 셀에서 출선되는 모습](<https://www.bostonmetal.com/wp-content/uploads/2025/04/Boston-Metal-MOE-Cell-Tap-Feb-2025.jpg>){ .steel-media-image .steel-hero-image .steel-media-compact }
+![Boston Metal MOE 셀 특허의 내화물 용기와 중앙 전극 단면도](<https://patentimages.storage.googleapis.com/f9/3b/ca/e5700aa698b8cd/US11591703-20230228-D00001.png>){ .steel-media-image .steel-hero-image .steel-media-detail }
 
-*대표 이미지 — Boston Metal Woburn 다중 불활성 양극 MOE 셀의 2025년 2월 용융금속 출선 장면 (실제 설비 사진 · 권리 `link_only` · 출처 [[sources/SRC-20260725-3C2197EF|SRC-20260725-3C2197EF]] · [원문 페이지](https://www.bostonmetal.com/news/boston-metal-celebrates-historic-commissioning-run-of-moe-green-steel-cell))*
+*대표 이미지 — Boston Metal 등록특허 Figure 1의 MOE metallurgical assembly 단면도. 내화물 용기·덮개·중앙 전극·바닥 집전 구조를 보여주는 특허 실시예이며 Woburn M5M 셀의 준공도는 아님 (특허 도면 · 권리 `link_only` · 출처 [[sources/SRC-20260728-C2858286|SRC-20260728-C2858286]] · [원문 페이지](https://patents.google.com/patent/US11591703B2/en))*
 
 !!! abstract "한눈에 보기"
 
     | 항목 | 확인 내용 |
     | --- | --- |
-    | **확인된 기술** | 1개 / 감시 기술 11개 |
+    | **확인된 기술** | 1개 / 감시 기술 13개 |
     | **연결 프로젝트** | 1개 |
     | **실행 단계** | 가동·현장 적용 1건 |
-    | **직접 연결 근거** | 2건 |
+    | **직접 연결 근거** | 8건 |
 
 ## 기술 포트폴리오
 
@@ -38,6 +38,13 @@
 
     **다음 확인:** 투자·제휴 발표와 자체 설비 운영을 구분하고, 셀 규모, 연속 운전시간, 제품 품질과 상용 설비 착공 여부를 확인해야 합니다.
 
+## 사업화·프로젝트 지표
+
+| 항목 | 현재 확인 내용 |
+| --- | --- |
+| **지원·조달 금액** | 2026-05-20 USD 75 million 신규 조달, 회사 발표 누적 조달액 USD 500 million 초과 [^src-20260728-01342e8c] |
+| **massachusetts grant award** | Massachusetts는 2026-02-11 Woburn의 Boston Metal에 Business Builds 자본보조금 USD 950,308을 발표했다. 보도자료의 일자리 90개·민간투자 USD 52 million 초과는 3개 수혜사업 합계로 Boston Metal 단독 수치가 아니다. [^src-20260728-203ccd00] |
+
 ## 주요 프로젝트
 
 회사 직접 Claim뿐 아니라 같은 원문 근거 또는 참여기관 문구로 연결된 프로젝트를 함께 표시합니다.
@@ -54,14 +61,23 @@
 
     | 항목 | 확인된 내용 |
     | --- | --- |
+    | **Disclosure limit** | 현재 회사 페이지는 2025년 톤 단위 출선 이정표를 반복하지만 연속 캠페인 시간·연산 환산능력·전류효율·양극 수명·전력원단위·고객 품질승인을 공개하지 않는다. [^src-20260728-422a2ab7] |
     | **기술 경로** | 상용 철광석을 용융 산화물 전해질에서 불활성 양극으로 전해해 음극의 액체 철과 양극의 산소를 생산 [^src-20260725-cedc4521] |
+    | **Steel scaleup financing limit** | 회사 설명상 MOE Steel 개발 비용·복잡성이 당시 매출과 가용자본을 초과해 metals 중심 구조조정과 burn-rate 축소가 필요 [^src-20260728-88c8008a] |
     | **위치** | Woburn, Massachusetts, USA [^src-20260725-3c2197ef] |
+    | **Workforce financing risk** | 2026-02 회사는 Brazil 설비 사고와 연계된 financing milestone 미달 뒤 Woburn 3개 시설 71명 감원·폐쇄 계획을 주정부에 통지 [^src-20260728-88c8008a] |
+    | **Grant timing boundary** | USD 950,308 주정부 보조금 발표는 2026-02-24 WARN 보도보다 앞선 2026-02-11 사건이며, 이후 Woburn 인력·시설 유지, 철강 프로그램 연속운전 또는 과거 상용화 일정 복구를 입증하지 않는다. [^src-20260728-203ccd00] |
+    | **Independent schedule estimate** | 2026-03-10 AIST 발표자는 Boston Metal의 철강용 MOE 실증을 2028년경으로 추정; 회사의 과거 2026년 목표와 달라 일정 리스크 신호이며 확정 EPC 일정이 아님 [^src-20260728-13a7a69d] |
+    | **Workforce notice update** | 추가 단기 자금 확보로 71명 Woburn 감원 예정일이 2026-03-14에서 2026-04-21로 연기됐으나 장기 운영·철강 실증 일정 복구는 확인되지 않음 [^src-20260728-ce51e854] |
     | **연속운전 결과** | DOE 실증에서 10 kg 철 생산과 산소 발생을 확인했으나 후속 100 kg·1주 내구 캠페인은 당시 목표에 미달 [^src-20260725-cedc4521] |
     | **설비 구성** | 자체발열형 MOE 셀, 다중 불활성 양극, 액체 금속 반복 출선과 셀·양극 수 증가에 의한 모듈 확대 [^src-20260725-cedc4521] |
+    | **Funding scope boundary** | 2026-05 USD 75 million 조달의 명시 용도는 critical metals 상업 배치이며 Woburn MOE Steel 실증 건설비나 복구 일정으로 배정됐다는 근거는 없음 [^src-20260728-01342e8c] |
     | **가동·시운전 확인 시점** | 2025-03-12 발표 기준 산업 셀 가동 확인 [^src-20260725-3c2197ef] |
     | **단계 완료 시점** | DOE 협력 프로젝트 기간은 2023-01-31 종료 [^src-20260725-cedc4521] |
     | **프로젝트 착수 시점** | 2018-08-01 DOE 협력 프로젝트 착수 [^src-20260725-cedc4521] |
     | **공개 성과의 한계** | 2025년 산업 셀의 톤 단위 출선 발표에도 연속 캠페인 시간·전류효율·양극 마모율·연산 환산능력은 공개되지 않음 [^src-20260725-3c2197ef] |
+    | **Commercialization priority** | 2026 AIST 독립 발표는 Boston Metal이 단기 상업화에서 철강보다 고부가 critical metals·niobium을 먼저 추진한다고 평가 [^src-20260728-13a7a69d] |
+    | **Current roadmap timing** | 2026년 7월 현재 회사 기술 페이지는 MOE Critical Metals의 2026년 매출화를 앞세우고 MOE Steel 배치를 날짜 없는 '향후 수년'으로 표현한다. 과거의 철강 2026 상용화 목표를 현재 확정 일정으로 볼 수 없다. [^src-20260728-422a2ab7] |
     | **프로젝트 상태** | 다중 불활성 양극 산업 셀 가동과 톤 단위 철 출선이 확인됐으며, 별도 제철 실증 플랜트는 향후 단계다. [^src-20260725-3c2197ef] |
     | **지원·조달 금액** | DOE 지원 USD 1,750,032와 프로젝트 비용분담 USD 2,295,752 [^src-20260725-cedc4521] |
     | **상용화 모델** | Boston Metal은 셀과 불활성 양극 기술을 제철사에 라이선스하는 모델을 제시하며 자체 상업 제철소 운영과는 구분 [^src-20260725-cedc4521] |
@@ -73,7 +89,13 @@
     | 2018-08-01 | 착수 | **프로젝트 착수 시점**: 2018-08-01 DOE 협력 프로젝트 착수 [^src-20260725-cedc4521] |
     | 2023-01-31 | 단계 완료 | **단계 완료 시점**: DOE 협력 프로젝트 기간은 2023-01-31 종료 [^src-20260725-cedc4521] |
     | 2025-03-12 | 발표·검증 | **위치**: Woburn, Massachusetts, USA · **가동·시운전 확인 시점**: 2025-03-12 발표 기준 산업 셀 가동 확인 · **공개 성과의 한계**: 2025년 산업 셀의 톤 단위 출선 발표에도 연속 캠페인 시간·전류효율·양극 마모율·연산 환산능력은 공개되지 않음 · **프로젝트 상태**: 다중 불활성 양극 산업 셀 가동과 톤 단위 철 출선이 확인됐으며, 별도 제철 실증 플랜트는 향후 단계다. [^src-20260725-3c2197ef] |
+    | 2026-02-11 | 발표·검증 | **Grant timing boundary**: USD 950,308 주정부 보조금 발표는 2026-02-24 WARN 보도보다 앞선 2026-02-11 사건이며, 이후 Woburn 인력·시설 유지, 철강 프로그램 연속운전 또는 과거 상용화 일정 복구를 입증하지 않는다. [^src-20260728-203ccd00] |
+    | 2026-02-24 | 발표·검증 | **Steel scaleup financing limit**: 회사 설명상 MOE Steel 개발 비용·복잡성이 당시 매출과 가용자본을 초과해 metals 중심 구조조정과 burn-rate 축소가 필요 · **Workforce financing risk**: 2026-02 회사는 Brazil 설비 사고와 연계된 financing milestone 미달 뒤 Woburn 3개 시설 71명 감원·폐쇄 계획을 주정부에 통지 [^src-20260728-88c8008a] |
+    | 2026-03-10 | 발표·검증 | **Independent schedule estimate**: 2026-03-10 AIST 발표자는 Boston Metal의 철강용 MOE 실증을 2028년경으로 추정; 회사의 과거 2026년 목표와 달라 일정 리스크 신호이며 확정 EPC 일정이 아님 · **Commercialization priority**: 2026 AIST 독립 발표는 Boston Metal이 단기 상업화에서 철강보다 고부가 critical metals·niobium을 먼저 추진한다고 평가 [^src-20260728-13a7a69d] |
+    | 2026-03-13 | 발표·검증 | **Workforce notice update**: 추가 단기 자금 확보로 71명 Woburn 감원 예정일이 2026-03-14에서 2026-04-21로 연기됐으나 장기 운영·철강 실증 일정 복구는 확인되지 않음 [^src-20260728-ce51e854] |
+    | 2026-05-20 | 발표·검증 | **Funding scope boundary**: 2026-05 USD 75 million 조달의 명시 용도는 critical metals 상업 배치이며 Woburn MOE Steel 실증 건설비나 복구 일정으로 배정됐다는 근거는 없음 [^src-20260728-01342e8c] |
     | 2026-07-25 | 수집 확인 | **기술 경로**: 상용 철광석을 용융 산화물 전해질에서 불활성 양극으로 전해해 음극의 액체 철과 양극의 산소를 생산 · **연속운전 결과**: DOE 실증에서 10 kg 철 생산과 산소 발생을 확인했으나 후속 100 kg·1주 내구 캠페인은 당시 목표에 미달 · **설비 구성**: 자체발열형 MOE 셀, 다중 불활성 양극, 액체 금속 반복 출선과 셀·양극 수 증가에 의한 모듈 확대 · **단계 완료 시점**: DOE 협력 프로젝트 기간은 2023-01-31 종료 · **프로젝트 착수 시점**: 2018-08-01 DOE 협력 프로젝트 착수 · **지원·조달 금액**: DOE 지원 USD 1,750,032와 프로젝트 비용분담 USD 2,295,752 · **상용화 모델**: Boston Metal은 셀과 불활성 양극 기술을 제철사에 라이선스하는 모델을 제시하며 자체 상업 제철소 운영과는 구분 [^src-20260725-cedc4521] |
+    | 2026-07-28 | 수집 확인 | **Disclosure limit**: 현재 회사 페이지는 2025년 톤 단위 출선 이정표를 반복하지만 연속 캠페인 시간·연산 환산능력·전류효율·양극 수명·전력원단위·고객 품질승인을 공개하지 않는다. · **Current roadmap timing**: 2026년 7월 현재 회사 기술 페이지는 MOE Critical Metals의 2026년 매출화를 앞세우고 MOE Steel 배치를 날짜 없는 '향후 수년'으로 표현한다. 과거의 철강 2026 상용화 목표를 현재 확정 일정으로 볼 수 없다. [^src-20260728-422a2ab7] |
 
 ## AI 분석
 
@@ -89,6 +111,18 @@
 | --- | --- | --- |
 | [[sources/SRC-20260725-3C2197EF|Boston Metal Celebrates Historic Commissioning Run of MOE Green Steel Cell]] | Boston Metal · 2025-03-12 | [원문 보기](https://www.bostonmetal.com/news/boston-metal-celebrates-historic-commissioning-run-of-moe-green-steel-cell/) |
 | [[sources/SRC-20260725-CEDC4521|Carbon-free Iron for a Sustainable Future: Boston Metal IEDO Peer Review]] | U.S. Department of Energy IEDO / Boston Metal · 게시일 미상 | [원문 보기](https://www1.eere.energy.gov/iedo/downloads/2023/peer_review/Boston%20Metal_Lambotte_IEDO_Iron-and-Steel_Carbon%20Free%20Iron%20for%20a%20Sustainable%20Future.pdf) |
+| [[sources/SRC-20260728-01342E8C|Boston Metal Raises $75 Million to Scale Critical Metals Business]] | Boston Metal / GlobeNewswire · 2026-05-20 | [원문 보기](https://www.globenewswire.com/news-release/2026/05/20/3298554/0/en/boston-metal-raises-75-million-to-scale-critical-metals-business.html) |
+| [[sources/SRC-20260728-13A7A69D|Forging the Future of Iron: Energy, Economics, and Emissions]] | Association for Iron & Steel Technology · 2026-03-10 | [원문 보기](https://www.aist.org/getmedia/e578ebb3-40c5-4047-8c82-665a07fc6f1c/Forging-the-Future-of-Iron-Energy.pdf) |
+| [[sources/SRC-20260728-203CCD00|Healey-Driscoll Administration Awards $4.45 Million to Expand Advanced Manufacturing, Create Jobs Across Massachusetts]] | Massachusetts Executive Office of Economic Development · 2026-02-11 | [원문 보기](https://www.mass.gov/news/healey-driscoll-administration-awards-445-million-to-expand-advanced-manufacturing-create-jobs-across-massachusetts) |
+| [[sources/SRC-20260728-422A2AB7|MOE Steel current roadmap and critical-metals sequencing]] | Boston Metal · 게시일 미상 | [원문 보기](https://www.bostonmetal.com/green-steel-solution/) |
+| [[sources/SRC-20260728-88C8008A|Layoffs hit Boston Metal as company plans Woburn shutdown]] | Boston.com · 2026-02-24 | [원문 보기](https://www.boston.com/news/business/2026/02/24/layoffs-hit-boston-metal-as-company-plans-woburn-shutdown/) |
+| [[sources/SRC-20260728-CE51E854|Expecting Layoffs Saturday, 71 Boston Metal Workers Get Reprieve - For Now]] | Woburn Patch · 2026-03-13 | [원문 보기](https://patch.com/massachusetts/woburn/expecting-layoffs-saturday-71-boston-metal-works-get-reprieve-now) |
 
 [^src-20260725-3c2197ef]: **Boston Metal Celebrates Historic Commissioning Run of MOE Green Steel Cell** — Boston Metal, 2025-03-12. [원문](https://www.bostonmetal.com/news/boston-metal-celebrates-historic-commissioning-run-of-moe-green-steel-cell/) · [[sources/SRC-20260725-3C2197EF|보관 원문·메타데이터]]
 [^src-20260725-cedc4521]: **Carbon-free Iron for a Sustainable Future: Boston Metal IEDO Peer Review** — U.S. Department of Energy IEDO / Boston Metal, 게시일 미상. [원문](https://www1.eere.energy.gov/iedo/downloads/2023/peer_review/Boston%20Metal_Lambotte_IEDO_Iron-and-Steel_Carbon%20Free%20Iron%20for%20a%20Sustainable%20Future.pdf) · [[sources/SRC-20260725-CEDC4521|보관 원문·메타데이터]]
+[^src-20260728-01342e8c]: **Boston Metal Raises $75 Million to Scale Critical Metals Business** — Boston Metal / GlobeNewswire, 2026-05-20. [원문](https://www.globenewswire.com/news-release/2026/05/20/3298554/0/en/boston-metal-raises-75-million-to-scale-critical-metals-business.html) · [[sources/SRC-20260728-01342E8C|보관 원문·메타데이터]]
+[^src-20260728-13a7a69d]: **Forging the Future of Iron: Energy, Economics, and Emissions** — Association for Iron & Steel Technology, 2026-03-10. [원문](https://www.aist.org/getmedia/e578ebb3-40c5-4047-8c82-665a07fc6f1c/Forging-the-Future-of-Iron-Energy.pdf) · [[sources/SRC-20260728-13A7A69D|보관 원문·메타데이터]]
+[^src-20260728-203ccd00]: **Healey-Driscoll Administration Awards $4.45 Million to Expand Advanced Manufacturing, Create Jobs Across Massachusetts** — Massachusetts Executive Office of Economic Development, 2026-02-11. [원문](https://www.mass.gov/news/healey-driscoll-administration-awards-445-million-to-expand-advanced-manufacturing-create-jobs-across-massachusetts) · [[sources/SRC-20260728-203CCD00|보관 원문·메타데이터]]
+[^src-20260728-422a2ab7]: **MOE Steel current roadmap and critical-metals sequencing** — Boston Metal, 게시일 미상. [원문](https://www.bostonmetal.com/green-steel-solution/) · [[sources/SRC-20260728-422A2AB7|보관 원문·메타데이터]]
+[^src-20260728-88c8008a]: **Layoffs hit Boston Metal as company plans Woburn shutdown** — Boston.com, 2026-02-24. [원문](https://www.boston.com/news/business/2026/02/24/layoffs-hit-boston-metal-as-company-plans-woburn-shutdown/) · [[sources/SRC-20260728-88C8008A|보관 원문·메타데이터]]
+[^src-20260728-ce51e854]: **Expecting Layoffs Saturday, 71 Boston Metal Workers Get Reprieve - For Now** — Woburn Patch, 2026-03-13. [원문](https://patch.com/massachusetts/woburn/expecting-layoffs-saturday-71-boston-metal-works-get-reprieve-now) · [[sources/SRC-20260728-CE51E854|보관 원문·메타데이터]]

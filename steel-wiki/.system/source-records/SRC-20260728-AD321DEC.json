@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-20260728-AD321DEC",
+  "title": "Numerical analysis of hydrogen-based iron ore reduction in a fluidized bed reactor: influence of distributor plate on reaction kinetics",
+  "url": "https://doi.org/10.1016/j.clet.2026.101252",
+  "canonical_url": "https://doi.org/10.1016/j.clet.2026.101252",
+  "publisher": "Elsevier",
+  "published_at": "2026-06-01",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "ad321dec7e0d977d0ab70142c74af8585179820c964ac0e77d5e2f69d85ad0b1",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Bong-Min Jin",
+      "Hyeonjin Kim",
+      "Hyunjin Yang"
+    ],
+    "venue": "Cleaner Engineering and Technology",
+    "doi": "10.1016/j.clet.2026.101252",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "6441a7d4b655822f8fa97bccc34f173c8536930c7a8490bca4daf631d704c263",
+  "raw_path": ".system/raw/SRC-20260728-AD321DEC.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}

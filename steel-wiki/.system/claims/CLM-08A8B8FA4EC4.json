@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-08A8B8FA4EC4",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "representative_process_reference",
+  "value": "2022년 MIDREX 공개 공급사 개념도는 재생전력·현장 수소생산·DR 펠릿·직접환원·EAF·압연·후처리와 스크랩 순환을 연결; 현재 준공도는 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2022-12-31",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-CEF2D62E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2022-12-31",
+      "action": "created",
+      "reason": "공장 외관 대신 프로젝트 통합 경계를 설명하는 공식 공급사 공정도 등록",
+      "source_ids": [
+        "SRC-20260728-CEF2D62E"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-CEF2D62E"
+      ]
+    }
+  ]
+}

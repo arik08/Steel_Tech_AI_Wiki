@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-86D37D22219D",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "laboratory_metal_purity",
+  "value": "5~10분 소규모 실험에서 금속 순도 98% 초과; 산화물 개재물과 실제 회수율은 별도 한계",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-05-22",
+  "last_verified": "2026-05-22",
+  "source_ids": [
+    "SRC-20260728-A0536CA5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-22",
+      "action": "created",
+      "reason": "동료심사 실험 결과이며 산업 생산 성능으로 확대하지 않음",
+      "source_ids": [
+        "SRC-20260728-A0536CA5"
+      ]
+    }
+  ]
+}

@@ -40,6 +40,7 @@ extra_javascript:
   - javascripts/mermaid-contrast.js
   - javascripts/mermaid-viewer.js
   - javascripts/footnote-tooltips.js
+  - javascripts/contextual-navigation.js
 
 markdown_extensions:
   - admonition

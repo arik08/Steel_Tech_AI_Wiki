@@ -28,11 +28,36 @@
       "collected_at": "2026-07-25",
       "content_sha256": null,
       "local_path": null,
-      "hero_priority": -100,
+      "display_width": "detail",
+      "hero_priority": -1000,
       "subject_ids": [
         "COM-POSCO",
-        "PRJ-POSCO-HYREX-DEMO"
+        "PRJ-POSCO-HYREX-DEMO",
+        "PRJ-POSCO-HYREX-POHANG-DEMO",
+        "TEC-hydrogen-based-fine-ore-reduction"
       ]
+    },
+    {
+      "media_id": "MED-1DFBEB84CEB5",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — POSCO 공개 HyREX 개념도를 바탕으로 4개 독립 유동층 반응기의 계단식 캐스케이드, 단계별 cyclone의 비산 미분 회수·동일 반응기 환류, 환원가스의 FBR-4→FBR-1 향류, 압력 경계를 고려한 단계간 고체 이송과 고온 DRI 밀폐 배출을 재구성했다. 반응기 단수와 이송·밀봉 상세는 공개 개념 범위이며 실제 실증설비의 준공도·PFD·P&ID가 아니다.",
+      "alt_text": "4개 독립 유동층 반응기가 계단식으로 배치되고 각 단계 cyclone이 비산 미분을 같은 반응기로 되돌리며 수소계 가스는 FBR-4에서 FBR-1로 역방향 흐르는 HyREX 공개 개념 기반 AI 재구성",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://www.posco.com/homepage/docs/eng7/jsp/hyrex",
+      "rights_status": "ai_generated",
+      "rights_note": "2026-07-27 생성. POSCO 공식 HyREX 공개 공정도와 POSCO·Primetals 공개 설명, 관련 POSCO·RIST 특허의 단계별 cyclone·미분 환류 원리를 참고한 교육용 AI 재구성이다. 공개자료가 밝히지 않은 실증설비 치수·밸브·seal leg·압력제어 상세를 확정하지 않으며 as-built·PFD·P&ID가 아니다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": "1dfbeb84ceb5c174136981f81f0e5d80095ba6459c3673a4a79a9c5e38d27056",
+      "local_path": "assets/media/SRC-20260725-013F0FA1/MED-1DFBEB84CEB5.png",
+      "subject_ids": [
+        "TEC-hydrogen-based-fine-ore-reduction"
+      ],
+      "display_width": "detail",
+      "hero_priority": -300,
+      "display_eligible": false,
+      "hero_eligible": false,
+      "qc_note": "2026-07-28 사용자 기술 검토와 HyREX 학술 도식 재대조 결과 cyclone을 반응기 외부에 그린 형상이 부정확해 표시 대상에서 제외했습니다. HyREX는 각 유동층 반응기 shell 내부에 고효율 cyclone과 dipleg 계통을 배치합니다."
     }
   ]
 }

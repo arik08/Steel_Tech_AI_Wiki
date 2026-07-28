@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-3451F85F9DD3",
+  "subject_id": "PRJ-HY4SMELT",
+  "predicate": "smelter_design_hot_metal_output_tph",
+  "value": "up to 2.4 t/h green hot metal (EMECR 2026 event abstract); attached paper states up to 3 t/h",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-05-12",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-7D3D8F38"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-12",
+      "action": "created",
+      "reason": "행사 초록과 첨부 논문의 설계 처리량 불일치를 보존",
+      "source_ids": [
+        "SRC-20260728-7D3D8F38"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "2026-07-28 현재 원문에서 Claim의 의미 전체와 검증 경계를 재확인; 사건일은 first_seen 및 기존 history에 유지",
+      "source_ids": [
+        "SRC-20260728-7D3D8F38"
+      ]
+    }
+  ]
+}

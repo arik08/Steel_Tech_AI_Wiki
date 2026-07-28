@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E4E7EF3DAD7B",
+  "subject_id": "TEC-zesty-hydrogen-flash-reduction",
+  "predicate": "pilot_test_count",
+  "value": "Calix 보고 기준 다양한 광석으로 130회 초과 파일럿 시험",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-05-29",
+  "last_verified": "2026-05-29",
+  "source_ids": [
+    "SRC-20260728-73732712"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-05-29",
+      "action": "created",
+      "reason": "개발사 수치로 독립 검증되지 않았으므로 회사 주장 범위로 기록",
+      "source_ids": [
+        "SRC-20260728-73732712"
+      ]
+    }
+  ]
+}

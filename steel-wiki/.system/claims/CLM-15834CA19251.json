@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-15834CA19251",
+  "subject_id": "PRJ-NUCOR-WEST-VIRGINIA-SHEET-MILL",
+  "predicate": "product_scope",
+  "value": "현재 Nucor 제품 페이지가 84-inch sheet, 76-inch tandem cold mill, advanced high-end automotive 및 construction grades용 2개 galvanizing line의 계획 범위를 재확인; 실제 생산·품질승인 실적은 아님",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-1E16B6C3"
+  ],
+  "supersedes": [
+    "CLM-257E4DBEE4E3"
+  ],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "현재 Nucor 제품 페이지가 주요 계획 사양을 재확인하며 2022 발표의 full inspection 세부 문구는 최신 페이지에서 재확인되지 않아 최신 상태 Claim에서 분리",
+      "source_ids": [
+        "SRC-20260728-1E16B6C3"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "review_supersede",
+      "reason": "현재 Nucor sheet-products 페이지가 84-inch sheet, 76-inch tandem cold mill 및 자동차·건설 등급용 2개 도금라인을 재확인한다. 2022 발표의 full inspection 세부 문구는 이전 Claim에 역사로 보존하되 최신 페이지에서 재확인된 범위만 현행 product_scope로 채택한다."
+    }
+  ]
+}

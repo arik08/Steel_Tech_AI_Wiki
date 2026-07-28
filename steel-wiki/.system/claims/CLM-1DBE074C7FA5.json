@@ -6,9 +6,10 @@
   "status": "active",
   "confidence": "medium",
   "first_seen": "2026-07-25",
-  "last_verified": "2026-07-25",
+  "last_verified": "2026-07-28",
   "source_ids": [
-    "SRC-20260725-3C2197EF"
+    "SRC-20260725-3C2197EF",
+    "SRC-20260728-A9BA86B5"
   ],
   "supersedes": [],
   "coexists_with": [],
@@ -19,6 +20,14 @@
       "reason": "회사 발표에서 확인되는 산업 셀 성과와 아직 남은 실증 단계를 구분해 등록",
       "source_ids": [
         "SRC-20260725-3C2197EF"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "action": "verified",
+      "reason": "Boston Metal 공식 발표의 tonnage steel 주장과 MIT Technology Review의 1 tonne 이상 생산 취재가 일치함. 단 연속 처리량·에너지·양극수명·상업 플랜트 완료는 공개 검증되지 않음",
+      "source_ids": [
+        "SRC-20260728-A9BA86B5"
       ]
     }
   ]

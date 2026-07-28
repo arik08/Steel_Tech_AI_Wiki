@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-37F10D9977E1",
+  "subject_id": "PRJ-ELECTRA-CLEAN-IRON-DEMO",
+  "predicate": "equipment_installation_milestone",
+  "value": "Electra는 2026-04-23 Colorado demonstration facility에 핵심 electrowinning bath 설치를 공개했다. 이는 장비 설치·construction 진척 근거이며 시운전 완료, 연속 철 생산 또는 500 t/y 달성 근거가 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-F9066CB4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "회사 현장 게시물과 사진이 핵심 전해조 설치를 직접 확인하지만 운영 성과는 주장하지 않는다.",
+      "source_ids": [
+        "SRC-20260728-F9066CB4"
+      ]
+    }
+  ]
+}

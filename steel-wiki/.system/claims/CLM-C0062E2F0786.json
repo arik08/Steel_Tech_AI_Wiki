@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C0062E2F0786",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "in_flight_reduction_result",
+  "value": "2026년 undiluted-H2 elongated-arc 실험에서 18~30 ms 비행시간 동안 hematite·combusted iron은 71~76%, Al 함유 goethite는 42% 절대 환원도를 보였고, 보고 효율은 26.8 g-iron/kWh였다. Al계 spinel 형성이 goethite의 빠른 환원을 방해했으며 맥석은 공정에서 제거되지 않았다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-FECCAF8C"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "동료심사 원문과 DOI 서지기록을 교차 확인하고 feedstock별 수치와 맥석 한계를 함께 기록",
+      "source_ids": [
+        "SRC-20260728-FECCAF8C"
+      ]
+    }
+  ]
+}

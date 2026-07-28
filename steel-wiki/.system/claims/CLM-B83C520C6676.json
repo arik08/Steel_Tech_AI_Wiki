@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-B83C520C6676",
+  "subject_id": "PRJ-JFE-CHIBA-NO4-EAF",
+  "predicate": "capex_jpy",
+  "value": "approximately JPY 18 billion",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-30",
+  "last_verified": "2026-04-30",
+  "source_ids": [
+    "SRC-20260728-BC8B3047"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-30",
+      "action": "created",
+      "reason": "Official equipment overview",
+      "source_ids": [
+        "SRC-20260728-BC8B3047"
+      ]
+    }
+  ]
+}

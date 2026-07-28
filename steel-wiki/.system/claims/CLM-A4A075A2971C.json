@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A4A075A2971C",
+  "subject_id": "PRJ-STEGRA-BODEN",
+  "predicate": "industrial_leap_support_context",
+  "value": "Stegra는 앞서 Industriklivet에서 SEK 1.2 billion 지원을 승인받았고 추가 SEK 1.6 billion을 신청했으나, 기관은 예산 범위상 SEK 389.597 million을 최대 추가 승인액으로 결정했다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-EC5093B5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "정부 원문에서 기존 승인액·추가 신청액·실제 추가 승인액을 구분해 확인",
+      "source_ids": [
+        "SRC-20260728-EC5093B5"
+      ]
+    }
+  ]
+}

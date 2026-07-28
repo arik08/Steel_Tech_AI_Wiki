@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2F7329A2FE62",
+  "subject_id": "TEC-hydrogen-plasma-smelting-reduction",
+  "predicate": "grain_scale_model_evidence_boundary",
+  "value": "TRGM 결과는 단일 미크론 입자의 diffuse reaction zone과 기공 진화에 따른 외곽 수소확산 증가를 설명하는 모델 검증이며, 펠릿·반응기·연속 파일럿 처리량·t당 에너지·내화물 수명·제품 품질 또는 상용 scale-up 실적이 아니다.",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-28",
+  "last_verified": "2026-07-28",
+  "source_ids": [
+    "SRC-20260728-664277C6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-28",
+      "action": "created",
+      "reason": "grain-scale 예측을 플랜트 성능으로 확대하지 않도록 검증 범위를 명시",
+      "source_ids": [
+        "SRC-20260728-664277C6"
+      ]
+    }
+  ]
+}

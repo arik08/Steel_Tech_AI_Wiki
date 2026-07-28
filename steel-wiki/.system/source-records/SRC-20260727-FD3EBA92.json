@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-20260727-FD3EBA92",
+  "title": "Tata Steel Board affirms the long-term strategy for growth in India",
+  "url": "https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india/",
+  "canonical_url": "https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india",
+  "publisher": "Tata Steel",
+  "published_at": "2025-12-10",
+  "collected_at": "2026-07-27",
+  "source_type": "company_release",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "fd3eba920e9058674c7b00526fdaf7bf8ed52511d3a8f011be3e5144699697b9",
+  "raw_sha256": "cca00a902ef3c44d18ba556260409f42c06069250609c0d09f47f7c7b336fe06",
+  "raw_path": ".system/raw/SRC-20260727-FD3EBA92.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-4B9CC0789A73",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — 상부 CCF에서 미분광과 산소를 투입해 용융·부분환원하고, 하부 SRV에서 미분탄 환원과 상부 공간 산소 후연소로 열을 공급해 용선과 슬래그를 분리 배출하는 HIsarna 개념도. 오프가스 급냉·정제와 선택적 CCUS 경계를 함께 표시했으며 실제 설비의 준공도나 P&ID가 아니다.",
+      "alt_text": "CCF 미분광 산소 투입, SRV 미분탄 환원, 용선과 슬래그 출탕, 오프가스 정제와 선택적 CCUS를 나타낸 HIsarna AI 개념도",
+      "creator": "OpenAI ImageGen / Codex",
+      "image_url": null,
+      "origin_url": "https://www.tatasteel.com/newsroom/press-releases/india/2025/tata-steel-board-affirms-the-long-term-strategy-for-growth-in-india",
+      "rights_status": "ai_generated",
+      "rights_note": "Tata Steel의 HIsarna 공개 설명과 Hosseini et al. 2022 오프가스 스케일업 논문을 근거로 2026-07-27 생성한 기술 설명용 AI 재구성이다. 장치 형상과 배관은 개념 표현이며 특정 설비의 as-built 또는 P&ID가 아니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "4b9cc0789a739de25a8e7d1cd904aa53bbbe2e15f114a5b7ac25b409ec4cfa3c",
+      "local_path": "assets/media/SRC-20260727-FD3EBA92/MED-4B9CC0789A73.png",
+      "subject_ids": [
+        "TEC-hisarna-cyclone-smelting-reduction"
+      ],
+      "display_width": "detail",
+      "hero_priority": -200
+    }
+  ]
+}

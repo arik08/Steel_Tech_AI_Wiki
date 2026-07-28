@@ -1,0 +1,39 @@
+{
+  "source_id": "SRC-20260728-233C5C7D",
+  "title": "Midrex selected for Big River DRI plant",
+  "url": "https://www.midrex.com/press-release/midrex-selected-for-u-s-steels-first-of-its-kind-dri-facility-at-big-river-steel-works/",
+  "canonical_url": "https://www.midrex.com/press-release/midrex-selected-for-u-s-steels-first-of-its-kind-dri-facility-at-big-river-steel-works",
+  "publisher": "Midrex Technologies, Inc.",
+  "published_at": "2026-06-15",
+  "collected_at": "2026-07-28",
+  "source_type": "equipment_supplier",
+  "language": "en",
+  "reliability": "primary",
+  "content_sha256": "233c5c7da89eae7c9b3d82fbaee65b1ca64b32988d75352529f0f8810542b7d0",
+  "raw_sha256": "de78e0554f4bf384b0ea15c1c3a020e251e2c1c618be9640a60e69c5c175c980",
+  "raw_path": ".system/raw/SRC-20260728-233C5C7D.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": [
+    {
+      "media_id": "MED-590B5F345AA1",
+      "kind": "equipment_drawing",
+      "caption": "Supplier model of the planned 2.5 Mt/y Big River Steel MIDREX Flex HDRI/HBI plant; not an as-built photograph",
+      "alt_text": "Midrex supplier rendering of the planned Big River Steel direct reduced iron plant",
+      "creator": "Midrex Technologies, Inc.",
+      "image_url": "https://www.midrex.com/wp-content/uploads/BRS-Model-1024x572.jpg",
+      "origin_url": "https://www.midrex.com/press-release/midrex-selected-for-u-s-steels-first-of-its-kind-dri-facility-at-big-river-steel-works",
+      "rights_status": "link_only",
+      "rights_note": "Official Midrex supplier model and caption verified. Reuse permission was not stated, so the original server image is displayed by remote link only; it is not an as-built drawing.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "PRJ-NIPPON-USS-BIG-RIVER-DRI",
+        "TEC-hydrogen-direct-reduced-iron"
+      ],
+      "display_width": "detail",
+      "hero_priority": -400
+    }
+  ]
+}

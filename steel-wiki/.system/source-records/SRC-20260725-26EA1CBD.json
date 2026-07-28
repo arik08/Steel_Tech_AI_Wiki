@@ -14,5 +14,45 @@
   "raw_path": ".system/raw/SRC-20260725-26EA1CBD.md",
   "previous_version": null,
   "supporting_sources": [],
-  "images": []
+  "images": [
+    {
+      "media_id": "MED-49390EFFBA04",
+      "kind": "ai_reconstruction",
+      "caption": "AI 재구성 — Boston Metal 공개 설명과 학술 근거를 바탕으로 다중 불활성 양극·용융산화물 전해질·액체철 음극 풀·산소 발생·연속 출선을 기능 단위로 재구성한 MOE R&D 공정도. 실제 Woburn 셀 준공도가 아님.",
+      "alt_text": "다중 불활성 양극, 용융산화물 전해질, 액체철 음극 풀과 산소 발생을 보여 주는 MOE AI 공정도",
+      "creator": "OpenAI image generation / Codex",
+      "image_url": null,
+      "origin_url": "https://www.bostonmetal.com/moe-steel",
+      "rights_status": "ai_generated",
+      "rights_note": "Boston Metal 공개 설명과 연결 학술 근거를 바탕으로 생성했습니다. 실제 셀 치수·전극 수명·운전성능을 나타내는 준공도나 실증 증거가 아닙니다.",
+      "collected_at": "2026-07-27",
+      "content_sha256": "49390effba04f1c3f8198ac9c3960e0ae38134e38815a15dfff121ae8d9f5f4c",
+      "local_path": "assets/media/SRC-20260725-26EA1CBD/MED-49390EFFBA04.png",
+      "subject_ids": [
+        "TEC-molten-oxide-electrolysis"
+      ],
+      "display_width": "detail",
+      "hero_priority": -100
+    },
+    {
+      "media_id": "MED-3968D4FEEEBC",
+      "kind": "facility_photo",
+      "caption": "Boston Metal Woburn의 다중 불활성 양극 MOE Steel 산업 셀 공식 사진. 회사는 2025년 이 셀의 시운전과 톤 단위 용융철 출선을 발표했다. 사진은 실제 핵심 설비 외형을 보여주지만 내부 전극 간격·전해질 조성·전류효율·양극 수명이나 별도 상업 제철 플랜트 완공을 입증하는 단면도는 아니다.",
+      "alt_text": "Boston Metal Woburn 시설의 다중 불활성 양극 용융산화물 전해 산업 셀 외형",
+      "creator": "Boston Metal; photographer not identified",
+      "image_url": "https://www.bostonmetal.com/wp-content/uploads/2025/03/Boston-Metal-M5M-Cell-2025.jpg",
+      "origin_url": "https://www.bostonmetal.com/moe-steel",
+      "rights_status": "link_only",
+      "rights_note": "Boston Metal 공식 MOE Steel 페이지 원본 사진을 원격 표시합니다. 재사용 라이선스와 촬영자 표기가 확인되지 않아 로컬 복제하지 않습니다.",
+      "collected_at": "2026-07-28",
+      "content_sha256": null,
+      "local_path": null,
+      "subject_ids": [
+        "TEC-molten-oxide-electrolysis",
+        "PRJ-BOSTON-METAL-MOE-WOBURN"
+      ],
+      "display_width": "compact",
+      "hero_priority": -600
+    }
+  ]
 }

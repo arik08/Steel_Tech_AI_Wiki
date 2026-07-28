@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-12DAD5F340E7",
+  "subject_id": "PRJ-POSCO-HYREX-DEMO",
+  "predicate": "target_demo_completion_date",
+  "value": "2028년 300,000 t/y 통합 실증설비 완공 목표",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-27",
+  "last_verified": "2026-07-27",
+  "source_ids": [
+    "SRC-20260727-A39F1D70"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-27",
+      "action": "created",
+      "reason": "설비 완공 목표와 2030 기술개발 목표 범위 분리",
+      "source_ids": [
+        "SRC-20260727-A39F1D70"
+      ]
+    }
+  ]
+}

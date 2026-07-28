@@ -1,0 +1,28 @@
+{
+  "source_id": "SRC-20260728-3D63EF37",
+  "title": "Production of Iron from Iron Oxide Powder by Suspension Electrolysis in Alkaline Electrolyte",
+  "url": "https://doi.org/10.1021/acs.jpcc.5c08453",
+  "canonical_url": "https://doi.org/10.1021/acs.jpcc.5c08453",
+  "publisher": "American Chemical Society",
+  "published_at": "2026-02-12",
+  "collected_at": "2026-07-28",
+  "source_type": "academic",
+  "language": "en",
+  "reliability": "high",
+  "content_sha256": "3d63ef37e724ce0de9e3a241d2094b62c6e78123e0725634b1ff185c8e211ddf",
+  "academic": {
+    "kind": "journal_article",
+    "authors": [
+      "Manabu Tokushige",
+      "Geir Martin Haarberg"
+    ],
+    "venue": "The Journal of Physical Chemistry C",
+    "doi": "10.1021/acs.jpcc.5c08453",
+    "peer_review_status": "peer_reviewed"
+  },
+  "raw_sha256": "3437206353367f5164c8aee36e22e9e2a0aa1a9dabe437e9fdd08cad7bc2a449",
+  "raw_path": ".system/raw/SRC-20260728-3D63EF37.md",
+  "previous_version": null,
+  "supporting_sources": [],
+  "images": []
+}
