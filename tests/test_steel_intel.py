@@ -557,7 +557,9 @@ class SteelIntelTests(unittest.TestCase):
         self.assertIn("border-color: #c9d5dc", styles)
         self.assertIn("backdrop-filter: blur(4px)", styles)
 
-    def test_contextual_navigation_skips_redundant_motion(self):
+    def test_contextual_navigation_uses_instant_navigation_and_skips_redundant_motion(
+        self,
+    ):
         config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
         navigation = (
             PROJECT_ROOT
@@ -567,9 +569,11 @@ class SteelIntelTests(unittest.TestCase):
         ).read_text(encoding="utf-8")
 
         self.assertIn("javascripts/contextual-navigation.js", config)
-        self.assertIn("function suppressRedundantNavigation", navigation)
-        self.assertIn("event.preventDefault()", navigation)
-        self.assertIn("function sameDocumentLocation", navigation)
+        self.assertIn("site_url: https://steel-tech-ai-wiki.vercel.app", config)
+        self.assertIn("- navigation.instant", config)
+        self.assertIn("- navigation.instant.prefetch", config)
+        self.assertNotIn("function suppressRedundantNavigation", navigation)
+        self.assertNotIn("event.preventDefault()", navigation)
         self.assertIn(
             "scrollingElement.scrollHeight <= window.innerHeight + 1",
             navigation,
