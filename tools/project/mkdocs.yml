@@ -1,4 +1,5 @@
 site_name: 철강 기술 인텔리전스
+site_url: https://steel-tech-ai-wiki.vercel.app
 site_description: 해외 경쟁사 철강 신기술 근거 기반 LLM Wiki
 docs_dir: ../../steel-wiki
 site_dir: site
@@ -9,6 +10,8 @@ theme:
   name: material
   language: ko
   features:
+    - navigation.instant
+    - navigation.instant.prefetch
     - navigation.tabs
     - navigation.sections
     - navigation.top

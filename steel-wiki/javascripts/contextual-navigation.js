@@ -18,43 +18,6 @@
     return decoded.length > 1 ? decoded.replace(/\/+$/u, "") : decoded;
   }
 
-  function sameDocumentLocation(target) {
-    return (
-      target.origin === window.location.origin &&
-      normalizePath(target.pathname) === normalizePath(window.location.pathname) &&
-      target.search === window.location.search &&
-      target.hash === window.location.hash
-    );
-  }
-
-  function suppressRedundantNavigation(event) {
-    if (
-      event.defaultPrevented ||
-      event.button !== 0 ||
-      event.altKey ||
-      event.ctrlKey ||
-      event.metaKey ||
-      event.shiftKey ||
-      !(event.target instanceof Element)
-    ) {
-      return;
-    }
-
-    const link = event.target.closest("a[href]");
-    if (
-      !link ||
-      link.hasAttribute("download") ||
-      (link.target && link.target !== "_self")
-    ) {
-      return;
-    }
-
-    const target = new URL(link.href, window.location.href);
-    if (sameDocumentLocation(target)) {
-      event.preventDefault();
-    }
-  }
-
   function uniqueCandidates(values) {
     const seen = new Set();
     const result = [];
@@ -245,7 +208,6 @@
 
   if (!window.__steelContextualNavigationInstalled) {
     window.__steelContextualNavigationInstalled = true;
-    document.addEventListener("click", suppressRedundantNavigation, true);
     document.addEventListener("click", rememberContext, true);
   }
 
