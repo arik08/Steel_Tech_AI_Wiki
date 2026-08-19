@@ -85,6 +85,19 @@ WARNING_LEVELS = ("observe", "watch", "warning", "critical")
 WARNING_STATUSES = {"active", "closed"}
 STRATEGIC_ISSUE_DIRECTIONS = {"opportunity", "risk", "mixed"}
 DECISION_LENS_DIRECTIONS = {"opportunity", "risk", "mixed"}
+STRATEGIC_CAUSAL_DIRECTIONS = {"LR", "TB"}
+STRATEGIC_CAUSAL_NODE_KINDS = {
+    "change",
+    "driver",
+    "assumption",
+    "condition",
+    "opportunity",
+    "risk",
+    "impact",
+    "decision",
+    "action",
+    "trigger",
+}
 STRATEGIC_ISSUE_TIMELINE_KINDS = {
     "event",
     "publication",
@@ -3900,6 +3913,78 @@ def _required_text_list(
     return [item.strip() for item in value]
 
 
+def validate_strategic_causal_map(value: Any, label: str = "causal_map") -> dict[str, Any]:
+    """Validate an LLM-authored causal structure without accepting raw Mermaid."""
+    if not isinstance(value, dict):
+        raise ValueError(f"{label} must be an object")
+    title = _required_text(value, "title", label)
+    rationale = _required_text(value, "design_rationale", label)
+    direction = _required_text(value, "direction", label)
+    if direction not in STRATEGIC_CAUSAL_DIRECTIONS:
+        raise ValueError(f"{label}.direction must be LR or TB")
+    nodes = value.get("nodes")
+    edges = value.get("edges")
+    if not isinstance(nodes, list) or not 3 <= len(nodes) <= 9:
+        raise ValueError(f"{label}.nodes must contain 3 to 9 nodes")
+    if not isinstance(edges, list) or not 2 <= len(edges) <= 12:
+        raise ValueError(f"{label}.edges must contain 2 to 12 edges")
+    node_ids: set[str] = set()
+    node_kinds: set[str] = set()
+    for index, node in enumerate(nodes, 1):
+        node_label = f"{label}.nodes[{index}]"
+        if not isinstance(node, dict):
+            raise ValueError(f"{node_label} must be an object")
+        node_id = _required_text(node, "id", node_label)
+        if not re.fullmatch(r"[A-Z][A-Z0-9_]{0,7}", node_id):
+            raise ValueError(f"{node_label}.id must be a short uppercase identifier")
+        if node_id in node_ids:
+            raise ValueError(f"{label}: duplicate node id {node_id}")
+        kind = _required_text(node, "kind", node_label)
+        if kind not in STRATEGIC_CAUSAL_NODE_KINDS:
+            raise ValueError(f"{node_label}: invalid kind {kind!r}")
+        text = _required_text(node, "label", node_label)
+        if len(text) > 90:
+            raise ValueError(f"{node_label}.label must be 90 characters or fewer")
+        node_ids.add(node_id)
+        node_kinds.add(kind)
+    if len(node_kinds) < 3:
+        raise ValueError(f"{label} must use at least 3 semantic node kinds")
+    adjacency = {node_id: set() for node_id in node_ids}
+    seen_edges: set[tuple[str, str, str]] = set()
+    for index, edge in enumerate(edges, 1):
+        edge_label = f"{label}.edges[{index}]"
+        if not isinstance(edge, dict):
+            raise ValueError(f"{edge_label} must be an object")
+        source = _required_text(edge, "from", edge_label)
+        target = _required_text(edge, "to", edge_label)
+        text = str(edge.get("label") or "").strip()
+        if source not in node_ids or target not in node_ids:
+            raise ValueError(f"{edge_label} references an unknown node")
+        if source == target:
+            raise ValueError(f"{edge_label} must not be a self-loop")
+        if len(text) > 32:
+            raise ValueError(f"{edge_label}.label must be 32 characters or fewer")
+        edge_key = (source, target, text)
+        if edge_key in seen_edges:
+            raise ValueError(f"{label}: duplicate edge {source}->{target}")
+        seen_edges.add(edge_key)
+        adjacency[source].add(target)
+        adjacency[target].add(source)
+    visited: set[str] = set()
+    pending = [next(iter(node_ids))]
+    while pending:
+        current = pending.pop()
+        if current in visited:
+            continue
+        visited.add(current)
+        pending.extend(adjacency[current] - visited)
+    if visited != node_ids:
+        raise ValueError(f"{label} must be one connected causal graph")
+    if len(title) < 12 or len(rationale) < 24:
+        raise ValueError(f"{label} title or design_rationale is too short")
+    return value
+
+
 def validate_strategic_watch_manifest(
     root: Path, manifest: dict[str, Any]
 ) -> tuple[dict[str, Any], dict[str, Any], dict[str, Any]]:
@@ -4003,6 +4088,9 @@ def validate_strategic_watch_manifest(
         )
     validate_decision_lens(
         warning.get("decision_lens"), f"{warning_id}.decision_lens"
+    )
+    validate_strategic_causal_map(
+        warning.get("causal_map"), f"{warning_id}.causal_map"
     )
     executive_summary = _required_text(warning, "executive_summary", warning_id)
     if len(executive_summary) < 120:
@@ -7954,10 +8042,8 @@ def _warning_link(warning: dict[str, Any]) -> str:
     )
 
 
-def _strategic_issue_flow_lines(
-    trend: dict[str, Any], section_by_role: dict[str, dict[str, Any]]
-) -> list[str]:
-    """Render the report's evidence-backed causal spine without adding new claims."""
+def _strategic_issue_flow_lines(warning: dict[str, Any]) -> list[str]:
+    """Render an LLM-authored, validated causal structure without raw Mermaid input."""
 
     def node_text(value: Any) -> str:
         return (
@@ -7969,19 +8055,40 @@ def _strategic_issue_flow_lines(
             .strip()
         )
 
-    return [
-        "**사업 영향이 전달되는 순서**",
-        "",
-        "```mermaid",
-        "flowchart TB",
-        f'    A["외부 변화 · {node_text(trend.get("title"))}"]',
-        f'    B["전제 변화 · {node_text((section_by_role.get("assumption_shift") or {}).get("heading"))}"]',
-        f'    C["사업 영향 · {node_text((section_by_role.get("business_impact") or {}).get("heading"))}"]',
-        f'    D["판단 · {node_text((section_by_role.get("recommendation") or {}).get("heading"))}"]',
-        "    A --> B --> C --> D",
-        "```",
-        "",
-    ]
+    causal_map = validate_strategic_causal_map(
+        warning.get("causal_map"), f"{warning.get('warning_id')}.causal_map"
+    )
+    lines = [f"**{node_text(causal_map.get('title'))}**", "", "```mermaid", f"flowchart {causal_map['direction']}"]
+    semantic_nodes: dict[str, list[str]] = {
+        "opportunity": [],
+        "risk": [],
+        "decision": [],
+        "action": [],
+    }
+    for node in causal_map["nodes"]:
+        kind = str(node.get("kind"))
+        opener, closer = ('{"', '"}') if kind in {"condition", "trigger"} else ('["', '"]')
+        text = node_text(node.get("label"))
+        lines.append(f"    {node['id']}{opener}{text}{closer}")
+        if kind in semantic_nodes:
+            semantic_nodes[kind].append(str(node["id"]))
+    for edge in causal_map["edges"]:
+        edge_text = node_text(edge.get("label")) if edge.get("label") else ""
+        connector = f" -->|{edge_text}| " if edge_text else " --> "
+        lines.append(f"    {edge['from']}{connector}{edge['to']}")
+    lines.extend(
+        [
+            "    classDef opportunity fill:#edf7f1,stroke:#2f7d68,color:#1f4f42",
+            "    classDef risk fill:#fff1f0,stroke:#a63f3f,color:#6f2929",
+            "    classDef decision fill:#eaf2f8,stroke:#05507d,color:#12384d,stroke-width:2px",
+            "    classDef action fill:#f4f6f8,stroke:#68727d,color:#303841",
+        ]
+    )
+    for kind, node_ids in semantic_nodes.items():
+        if node_ids:
+            lines.append(f"    class {','.join(node_ids)} {kind}")
+    lines.extend(["```", "", f"_구조 선택 근거: {node_text(causal_map.get('design_rationale'))}_", ""])
+    return lines
 
 
 def _strategic_indicator_lines(
@@ -8122,7 +8229,7 @@ def strategic_warning_page_lines(
             "",
         ]
     )
-    lines.extend(_strategic_issue_flow_lines(trends[0] if trends else {}, section_by_role))
+    lines.extend(_strategic_issue_flow_lines(warning))
     lines.extend(_strategic_decision_lens_lines(warning.get("decision_lens")))
     lines.extend(
         [

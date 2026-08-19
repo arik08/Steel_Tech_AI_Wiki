@@ -147,7 +147,8 @@ Insight의 `quantification`은 모든 active Signal에 필수인 schema v1 판�
 - `.system/theses/THS-*.json`: 위협받는 전략가정, 사업 영향 경로, 판단 기간, 반대 근거,
   반증 조건
 - `.system/warnings/WRN-*.json`: 내부 호환 ID, 단계·상태·기회/위험 방향, 문서 제목과
-  요약, 사건·시행·사업 판단 시간축, 자연어 보고서 절, 판단 질문·조치·변경 이력
+  요약, 사건·시행·사업 판단 시간축, 자연어 보고서 절, LLM이 설계한 `causal_map`,
+  판단 질문·조치·변경 이력
 
 세 레코드는 schema version 3이며 `upsert-strategic-watch`로 함께 검증·저장한다. 활성
 레코드는 명시적 review 없이 삭제하거나 종료하지 않으며 변경은 history에 append한다.
@@ -158,6 +159,13 @@ Insight의 `quantification`은 모든 active Signal에 필수인 schema v1 판�
 Warning은 Signal과 같은 schema v1 `decision_lens`를 필수로 가지며, `issue_direction`은
 대표 방향으로만 사용한다. 보고서 상단에는 포착할 기회, 방어할 위험, 미실행 기회비용,
 결정 전환 조건을 함께 투영한다.
+
+`causal_map`은 원문 Mermaid가 아니라 LLM이 분석 후 선택한 구조 데이터다. `title`,
+`direction`, `design_rationale`, 3~9개의 의미형 노드와 2~12개의 연결을 저장한다. 노드는
+변화·동인·전제·조건·기회·위험·영향·판단·행동·트리거 중 실제 인과에 필요한 것만
+선택한다. 모든 이슈를 같은 4단계로 맞추지 않으며, 분기가 판단을 바꾸면 조건 노드와
+두 경로를 명시한다. `LR`은 넓은 화면에서 시간·인과가 이어질 때, `TB`는 병렬 분기가
+겹쳐 좌우 흐름보다 읽기 어려울 때만 선택하고 그 이유를 `design_rationale`에 적는다.
 
 ## 목차
 

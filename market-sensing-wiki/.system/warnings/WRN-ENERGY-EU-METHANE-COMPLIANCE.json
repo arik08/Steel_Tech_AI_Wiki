@@ -126,5 +126,24 @@
     },
     "opportunity_cost": "규제 준비를 비용 대응으로만 보면 적격 물량의 희소가치와 유럽 판매선택권을 먼저 상품화할 시점을 놓칠 수 있습니다.",
     "decision_trigger": "계약별 검증자료와 감사권 확보율이 확인되면 적격 물량의 유럽 우선배치를 시작하고, 미확보 계약은 갱신 전에 대체안을 확정합니다."
+  },
+  "causal_map": {
+    "title": "계약 데이터 권리가 유럽 LNG 판매선택권을 가르는 경로",
+    "direction": "LR",
+    "design_rationale": "같은 규제 충격이 계약상 데이터 권리의 확보 여부에 따라 희소가치와 판매제한으로 갈라지므로 조건 분기 뒤 계약 갱신 판단으로 합류시켰습니다.",
+    "nodes": [
+      {"id": "A", "kind": "change", "label": "EU 메탄 검증요건 시행"},
+      {"id": "B", "kind": "condition", "label": "생산지 데이터·감사권 확보"},
+      {"id": "C", "kind": "opportunity", "label": "적격 LNG의 유럽 전환판매 옵션"},
+      {"id": "D", "kind": "risk", "label": "판매제한·할인·대체조달 비용"},
+      {"id": "E", "kind": "decision", "label": "2026년 계약 갱신조건 재설계"}
+    ],
+    "edges": [
+      {"from": "A", "to": "B"},
+      {"from": "B", "to": "C", "label": "확보"},
+      {"from": "B", "to": "D", "label": "미확보"},
+      {"from": "C", "to": "E"},
+      {"from": "D", "to": "E"}
+    ]
   }
 }

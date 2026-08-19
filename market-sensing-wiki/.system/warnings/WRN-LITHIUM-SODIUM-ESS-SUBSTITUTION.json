@@ -132,5 +132,25 @@
     },
     "opportunity_cost": "대체를 전체 리튬 수요 감소로만 읽으면 리튬이온이 우위를 유지하는 고성능 ESS 구간과 고객을 먼저 재정의할 기회를 잃을 수 있습니다.",
     "decision_trigger": "2026년 실제 납품량과 해외 고객 확대가 확인되면 ESS 대체율을 높이고, 특정 용도에 제한되면 리튬 우위 구간의 계약을 확대합니다."
+  },
+  "causal_map": {
+    "title": "나트륨이온의 실제 납품 범위가 리튬 수요모델을 바꾸는 두 갈래",
+    "direction": "LR",
+    "design_rationale": "발표나 계약 규모가 아니라 실제 납품의 용도와 지역이 대체율을 결정하므로 상용화 확인점에서 수요 하방과 리튬 방어구간이 서로 다른 행동으로 이어지게 했습니다.",
+    "nodes": [
+      {"id": "A", "kind": "change", "label": "나트륨이온 60GWh 계약·증설"},
+      {"id": "B", "kind": "trigger", "label": "2026년 실제 납품·해외 후속수주"},
+      {"id": "C", "kind": "risk", "label": "ESS 리튬 대체율 상승"},
+      {"id": "D", "kind": "action", "label": "증설·장기계약 민감도 재계산"},
+      {"id": "E", "kind": "opportunity", "label": "고성능 리튬 우위 구간 분리"},
+      {"id": "F", "kind": "action", "label": "용도별 고객계약 집중"}
+    ],
+    "edges": [
+      {"from": "A", "to": "B"},
+      {"from": "B", "to": "C", "label": "범용·해외 확산"},
+      {"from": "C", "to": "D"},
+      {"from": "B", "to": "E", "label": "특정 용도 제한"},
+      {"from": "E", "to": "F"}
+    ]
   }
 }

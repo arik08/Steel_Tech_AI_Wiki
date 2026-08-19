@@ -116,5 +116,26 @@
     },
     "opportunity_cost": "원료 병목을 조달 위험으로만 관리하면 분광 활용을 원가우위와 기술수출 자산으로 전환할 수 있는 선점 기회를 놓칠 수 있습니다.",
     "decision_trigger": "광종별 장기 연속운전에서 생산성·품질·총원가가 기준을 충족하면 제휴·라이선스 준비를 시작하고, 미달하면 실증 범위를 재설계합니다."
+  },
+  "causal_map": {
+    "title": "펠렛 병목이 HyREX 원료 유연성을 기술수출 옵션으로 바꾸는 검증선",
+    "direction": "LR",
+    "design_rationale": "기회가 성립하려면 시장 병목과 HyREX의 상업 검증이 모두 필요하므로 두 입력이 하나의 검증 조건에 모이고 통과 여부에 따라 사업화와 재설계로 분기되게 했습니다.",
+    "nodes": [
+      {"id": "A", "kind": "change", "label": "직접환원급 펠렛 부족·프리미엄"},
+      {"id": "B", "kind": "driver", "label": "HyREX의 분광 사용 가능성"},
+      {"id": "C", "kind": "condition", "label": "상업 규모 생산성·품질·총원가 입증"},
+      {"id": "D", "kind": "opportunity", "label": "원료비 우위·기술제휴·라이선스"},
+      {"id": "E", "kind": "risk", "label": "차별가치 미확인·회수 지연"},
+      {"id": "F", "kind": "decision", "label": "사업화 준비 또는 실증 재설계"}
+    ],
+    "edges": [
+      {"from": "A", "to": "C"},
+      {"from": "B", "to": "C"},
+      {"from": "C", "to": "D", "label": "충족"},
+      {"from": "C", "to": "E", "label": "미달"},
+      {"from": "D", "to": "F"},
+      {"from": "E", "to": "F"}
+    ]
   }
 }

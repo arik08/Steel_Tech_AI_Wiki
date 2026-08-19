@@ -474,6 +474,25 @@ class MarketSensingTests(unittest.TestCase):
                 "status": "active",
                 "issue_direction": "mixed",
                 "decision_lens": self.valid_decision_lens(),
+                "causal_map": {
+                    "title": "제품별 수요 분리가 사업계획을 바꾸는 경로",
+                    "direction": "LR",
+                    "design_rationale": "시장 평균과 제품 수요가 갈라지는 조건에서 기회와 위험이 분기되므로 선형 네 칸 대신 조건 분기를 사용합니다.",
+                    "nodes": [
+                        {"id": "A", "kind": "change", "label": "시장구성 변화"},
+                        {"id": "B", "kind": "condition", "label": "제품별 수요가 분리되는가"},
+                        {"id": "C", "kind": "opportunity", "label": "전환 제품 계약 확대"},
+                        {"id": "D", "kind": "risk", "label": "기존 제품 가동률 하락"},
+                        {"id": "E", "kind": "decision", "label": "제품별 사업계획 재산정"},
+                    ],
+                    "edges": [
+                        {"from": "A", "to": "B"},
+                        {"from": "B", "to": "C", "label": "전환 가능"},
+                        {"from": "B", "to": "D", "label": "기존안 유지"},
+                        {"from": "C", "to": "E"},
+                        {"from": "D", "to": "E"},
+                    ],
+                },
                 "executive_summary": (
                     "독립된 외부 근거가 같은 시장구성 변화를 가리키고 있어 기존 제품이 "
                     "시장 평균만큼 성장한다는 전제를 다시 확인해야 합니다. 제품별 수요와 "
@@ -529,7 +548,9 @@ class MarketSensingTests(unittest.TestCase):
         self.assertIn("변화와 분기점", page)
         self.assertIn("판단을 고정한 수치와 일정", page)
         self.assertIn("기회·위험·미실행 비용의 분기", page)
-        self.assertIn("사업 영향이 전달되는 순서", page)
+        self.assertIn("제품별 수요 분리가 사업계획을 바꾸는 경로", page)
+        self.assertIn("flowchart LR", page)
+        self.assertIn("전환 가능", page)
         self.assertIn("```mermaid", page)
         self.assertNotIn("strategic-issue-title", page)
         self.assertIn("시장구성 전환이 시작된 배경", page)
