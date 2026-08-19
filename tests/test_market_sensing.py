@@ -154,7 +154,10 @@ class MarketSensingTests(unittest.TestCase):
 
     def valid_signal_analysis(self) -> str:
         return (
-            "## 비용 조건이 바뀌는 정책 경계\n**확인된 변화:** 정책 시행으로 비용 조건이 바뀌었습니다. "
+            "## 비용 조건이 바뀌는 정책 경계\n"
+            "**판단 질문:** 새 정책을 기존 계약 조건으로 흡수할 수 있는가?\n\n"
+            "**잠정 결론:** 가격 전가가 확인되기 전에는 기존 조건을 유지할 수 없습니다.\n\n"
+            "**확인된 변화:** 정책 시행으로 비용 조건이 바뀌었습니다. "
             + "확인된 사실과 시점을 구분합니다. " * 20
             + "\n## 가격과 계약을 거쳐 움직이는 판매 마진\n**사업 영향:** 가격과 계약을 거쳐 판매 마진에 전달됩니다. "
             + "전달 조건과 영향을 설명합니다. " * 20
@@ -172,6 +175,9 @@ class MarketSensingTests(unittest.TestCase):
             + "\n**다음 산출물:**\n"
             + "1. 고객별 민감도\n2. 선택지 비교표\n3. 대응 조건표\n"
             + "실행 가능한 산출물을 정의합니다. " * 15
+            + "\n**반증 조건:** 고객 가격 전가율이 인증비를 넘으면 현재 결론을 폐기합니다.\n"
+            + "**확인 담당:** 철강 마케팅 계약 담당과 통상정책 담당\n"
+            + "**감지 트리거:** 쿼터 소진 또는 고객 가격 전가율 하락 시 재판단합니다.\n"
             + '\n!!! warning "판단의 한계"\n\n'
             + "    내부 원가와 계약정보가 필요합니다. "
             + "공개정보의 한계를 명시합니다. " * 15
@@ -618,7 +624,7 @@ class MarketSensingTests(unittest.TestCase):
             "## 의사결정에 필요한 다음 산출물\n1. 하나\n"
             '!!! warning "판단의 한계"\n\n    짧음'
         )
-        with self.assertRaisesRegex(ValueError, "at least 1200 characters"):
+        with self.assertRaisesRegex(ValueError, "missing required sections"):
             market_sensing.validate_signal_analysis(thin)
 
     def test_signal_analysis_rejects_unquoted_mermaid_parentheses(self):
@@ -802,8 +808,8 @@ class MarketSensingTests(unittest.TestCase):
 
     def test_signal_analysis_rejects_opaque_intro_without_reducing_depth(self):
         opaque = self.valid_signal_analysis().replace(
-            "정책 시행으로 비용 조건이 바뀌었습니다.",
-            "램프업 게이트와 트리거가 바뀌었습니다.",
+            "새 정책을 기존 계약 조건으로 흡수할 수 있는가?",
+            "램프업 게이트와 트리거가 바뀌었는가?",
             1,
         )
         with self.assertRaisesRegex(ValueError, "analysis lead contains"):

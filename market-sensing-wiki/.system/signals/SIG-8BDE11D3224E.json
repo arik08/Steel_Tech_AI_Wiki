@@ -16,8 +16,7 @@
   },
   "urgency": {
     "score": 4,
-    "rationale": "2027년 말 양산 목표보다 앞서 샘플승인과 계약변경이 진행될 수 있어 다음 계약주기 전에 확인이 필요합니다.",
-    "response_deadline": "2026-10-31"
+    "rationale": "2027년 말 양산 목표보다 앞서 샘플승인과 계약변경이 진행될 수 있어 다음 계약주기 전에 확인이 필요합니다."
   },
   "assessed_at": "2026-08-19",
   "assessment_confidence": "high",
