@@ -72,7 +72,7 @@
   font-weight: 750;
   line-height: 1.22;
   letter-spacing: -0.025em;
-  text-wrap: balance;
+  text-wrap: wrap;
 }
 
 .md-content__inner:has(> h1 + .admonition.warning) h2 {
