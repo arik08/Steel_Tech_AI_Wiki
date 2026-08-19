@@ -154,22 +154,22 @@ class MarketSensingTests(unittest.TestCase):
 
     def valid_signal_analysis(self) -> str:
         return (
-            "## 확인된 변화\n정책 시행으로 비용 조건이 바뀌었습니다. "
+            "## 비용 조건이 바뀌는 정책 경계\n**확인된 변화:** 정책 시행으로 비용 조건이 바뀌었습니다. "
             + "확인된 사실과 시점을 구분합니다. " * 20
-            + "\n## 사업 영향 경로\n가격과 계약을 거쳐 판매 마진에 전달됩니다. "
+            + "\n## 가격과 계약을 거쳐 움직이는 판매 마진\n**사업 영향:** 가격과 계약을 거쳐 판매 마진에 전달됩니다. "
             + "전달 조건과 영향을 설명합니다. " * 20
-            + "\n## 조건부 시나리오\n\n"
+            + "\n## 조건별 손익과 대응의 갈림길\n\n**조건부 시나리오:**\n\n"
             + "| 시나리오 | 관찰 조건 | 사업 의미 | 우선 대응 |\n"
             + "| --- | --- | --- | --- |\n"
             + "| 방어 | 조건 A | 의미 A | 대응 A |\n"
             + "| 압박 | 조건 B | 의미 B | 대응 B |\n"
             + "| 재배치 | 조건 C | 의미 C | 대응 C |\n\n"
             + "각 조건과 대응을 구분합니다. " * 15
-            + "\n## 지금 확인할 지표\n"
+            + "\n## 결론을 바꿀 지표와 다음 작업\n**이번 주 확인할 지표:**\n"
             + "- 가격 — 마진 판단 변경\n- 물량 — 판매 판단 변경\n"
             + "- 계약 만기 — 대응시점 변경\n"
             + "판단을 바꾸는 지표를 설명합니다. " * 15
-            + "\n## 의사결정에 필요한 다음 산출물\n"
+            + "\n**다음 산출물:**\n"
             + "1. 고객별 민감도\n2. 선택지 비교표\n3. 대응 조건표\n"
             + "실행 가능한 산출물을 정의합니다. " * 15
             + '\n!!! warning "판단의 한계"\n\n'
@@ -324,9 +324,10 @@ class MarketSensingTests(unittest.TestCase):
         page = (self.root / "signals" / f"{created['signal_id']}.md").read_text(
             encoding="utf-8"
         )
-        self.assertIn("## 왜 중요한가", page)
+        self.assertIn("**핵심 해석**", page)
+        self.assertIn('??? note "점수 근거"', page)
         self.assertIn("기존 전제를 무엇이 깨는가", page)
-        self.assertIn("기회와 위험을 함께 보는 판단", page)
+        self.assertIn("**기회·위험·기회비용**", page)
         self.assertIn("미실행 기회비용", page)
         self.assertNotIn("대응 시한:", page)
         signal = market_sensing.read_json(
@@ -336,7 +337,8 @@ class MarketSensingTests(unittest.TestCase):
         self.assertEqual(
             signal["assumption_challenge"]["pattern"], "market_access_rule"
         )
-        self.assertIn("## 상세 분석", page)
+        self.assertNotIn("## 상세 분석", page)
+        self.assertIn("## 비용 조건이 바뀌는 정책 경계", page)
         self.assertNotIn("## 정량 영향 검토", page)
         self.assertNotIn("현재는 금액 계산을 보류했습니다", page)
         self.assertIn("## 원문", page)
@@ -806,6 +808,18 @@ class MarketSensingTests(unittest.TestCase):
         )
         with self.assertRaisesRegex(ValueError, "analysis lead contains"):
             market_sensing.validate_signal_analysis(opaque)
+
+    def test_signal_analysis_rejects_template_headings_and_repeated_h1(self):
+        generic = self.valid_signal_analysis().replace(
+            "## 비용 조건이 바뀌는 정책 경계",
+            "## 확인된 변화와 시점",
+            1,
+        )
+        with self.assertRaisesRegex(ValueError, "schema labels"):
+            market_sensing.validate_signal_analysis(generic)
+        repeated_title = "# 정책 변화 보고서\n\n" + self.valid_signal_analysis()
+        with self.assertRaisesRegex(ValueError, "must not repeat the Signal title"):
+            market_sensing.validate_signal_analysis(repeated_title)
 
     def test_editorial_migration_applies_schema_v2_and_type_atomically(self):
         signal_id = "SIG-LEGACY"
@@ -1661,7 +1675,10 @@ class MarketSensingTests(unittest.TestCase):
                 {},
             )
         )
-        self.assertLess(page.index("## 상세 분석"), page.index("## 정량 영향 시뮬레이션"))
+        self.assertLess(
+            page.index("### 판단 질문과 잠정 결론"),
+            page.index("## 정량 영향 시뮬레이션"),
+        )
         self.assertLess(
             page.index("## 정량 영향 시뮬레이션"),
             page.index('??? note "연결된 판단 근거"'),
@@ -1810,6 +1827,7 @@ class MarketSensingTests(unittest.TestCase):
         self.assertIn("start_level: 2", config)
         self.assertIn("increment_across_pages: false", config)
         self.assertIn("toc_depth: 3", config)
+        self.assertIn("- signals/*", config)
         self.assertIn("  projects/", config)
         self.assertIn(".enumerate-headings-plugin", styles)
         self.assertIn(".md-typeset h2,", styles)

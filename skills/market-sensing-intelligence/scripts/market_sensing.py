@@ -4265,6 +4265,10 @@ def _records_by_id(
 def validate_signal_analysis(markdown: str) -> None:
     """Reject thin summaries that cannot serve as the document-level layer."""
     text = markdown.strip()
+    if re.search(r"^#\s+", text, flags=re.MULTILINE):
+        raise ValueError(
+            "analysis Markdown must not repeat the Signal title as an H1 heading"
+        )
     lead = first_markdown_prose_paragraph(text)
     if not lead or not re.search(r"[가-힣]", lead):
         raise ValueError("analysis Markdown must begin with a plain Korean explanation")
@@ -4297,10 +4301,51 @@ def validate_signal_analysis(markdown: str) -> None:
         raise ValueError("analysis Markdown must be document-level (at least 1200 characters)")
     headings = [
         match.group(1).strip()
-        for match in re.finditer(r"^#{2,4}\s+(.+)$", text, flags=re.MULTILINE)
+        for match in re.finditer(r"^##\s+(.+)$", text, flags=re.MULTILINE)
     ]
-    if len(headings) < 5:
-        raise ValueError("analysis Markdown must use at least five meaningful sections")
+    if not 3 <= len(headings) <= 5:
+        raise ValueError(
+            "analysis Markdown must use three to five editorial H2 sections"
+        )
+    generic_headings = {
+        "판단 질문과 잠정 결론",
+        "판단 제안",
+        "확인된 변화 요약",
+        "사업 판단 요약",
+        "확인된 변화와 시점",
+        "일반적 해석과 확인된 차이",
+        "통념과 확인된 간극",
+        "포스코에 전달되는 사업 영향",
+        "포스코홀딩스에 전달되는 사업 영향",
+        "포스코인터내셔널에 전달되는 사업 영향",
+        "사업 영향 경로",
+        "사업 시나리오",
+        "조건부 사업 시나리오",
+        "조건부 시나리오",
+        "지금 확인할 지표",
+        "의사결정에 필요한 다음 산출물",
+        "결론을 확정·폐기할 조건",
+        "판단의 한계",
+        "공개 근거 확인",
+    }
+    rejected = [heading for heading in headings if heading in generic_headings]
+    if rejected:
+        raise ValueError(
+            "analysis headings must state issue-specific conclusions, not schema labels: "
+            + ", ".join(rejected)
+        )
+    numbered = [
+        heading
+        for heading in headings
+        if re.match(r"^\d+(?:\.\d+)*[.)]?\s+", heading)
+    ]
+    if numbered:
+        raise ValueError(
+            "analysis headings must not contain manual numbering: "
+            + ", ".join(numbered)
+        )
+    if len({normalize_text(heading) for heading in headings}) != len(headings):
+        raise ValueError("analysis Markdown must not repeat editorial headings")
     table_rows = [
         line
         for line in text.splitlines()
@@ -4310,14 +4355,16 @@ def validate_signal_analysis(markdown: str) -> None:
     if len(table_rows) < 4 or not any("시나리오" in row for row in table_rows):
         raise ValueError("analysis Markdown must include a scenario table with three scenarios")
     monitoring_match = re.search(
-        r"^#{2,4}\s+.*(?:확인할|관찰)\s*지표.*?$(.*?)(?=^#{2,4}\s+|\Z)",
+        r"(?:확인할|관찰)\s*지표[^\n]*\n(.*?)(?=^##\s+|\Z)",
         text,
         flags=re.MULTILINE | re.DOTALL,
     )
-    if not monitoring_match or len(re.findall(r"^\s*-\s+", monitoring_match.group(1), re.MULTILINE)) < 3:
+    if not monitoring_match or len(
+        re.findall(r"^\s*-\s+", monitoring_match.group(1), re.MULTILINE)
+    ) < 3:
         raise ValueError("analysis Markdown must include at least three monitoring indicators")
     output_match = re.search(
-        r"^#{2,4}\s+.*(?:다음\s+산출물|의사결정에\s+필요한).*?$(.*?)(?=^#{2,4}\s+|\Z)",
+        r"(?:다음\s+산출물|의사결정에\s+필요한)[^\n]*\n(.*?)(?=^##\s+|\Z)",
         text,
         flags=re.MULTILINE | re.DOTALL,
     )
@@ -7800,7 +7847,7 @@ def decision_lens_block_lines(lens: dict[str, Any] | None) -> list[str]:
     opportunity = lens.get("opportunity") or {}
     risk = lens.get("risk") or {}
     return [
-        "## 기회와 위험을 함께 보는 판단",
+        "**기회·위험·기회비용**",
         "",
         "이 평가는 위협 회피뿐 아니라 유리한 조건을 먼저 잡지 못할 때 생기는 "
         "기회비용까지 함께 봅니다. 아래 내용은 연결 근거를 바탕으로 한 AI 분석입니다.",
@@ -7855,17 +7902,17 @@ def signal_page_lines(
         f"| **{_score_label(urgency.get('score', '-'))}** "
         f"| {markdown_cell(signal.get('assessed_at') or '-')} |",
         "",
-        "## 왜 중요한가",
+        "**핵심 해석**",
         "",
         str(insight.get("summary") or "-").strip(),
         "",
-        "### 판단 근거",
+        '??? note "점수 근거"',
         "",
-        f"- **사업 영향:** {markdown_cell(impact.get('rationale') or '-')}",
-        f"- **긴급성:** {markdown_cell(urgency.get('rationale') or '-')}",
+        f"    - **사업 영향:** {markdown_cell(impact.get('rationale') or '-')}",
+        f"    - **긴급성:** {markdown_cell(urgency.get('rationale') or '-')}",
     ]
     if urgency.get("response_deadline"):
-        lines.append(f"- **대응 시한:** {markdown_cell(urgency['response_deadline'])}")
+        lines.append(f"    - **대응 시한:** {markdown_cell(urgency['response_deadline'])}")
     assumption = signal.get("assumption_challenge")
     if isinstance(assumption, dict):
         lines.extend(
@@ -7883,12 +7930,6 @@ def signal_page_lines(
             ]
         )
     lines.extend(decision_lens_block_lines(signal.get("decision_lens")))
-    lines.extend(
-        [
-            "## 상세 분석",
-            "",
-        ]
-    )
     analysis_markdown = str(insight.get("analysis_markdown") or "").strip()
     if analysis_markdown:
         lines.extend([analysis_markdown, ""])
