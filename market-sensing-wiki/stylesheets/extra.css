@@ -366,13 +366,14 @@
 }
 
 .md-typeset .signal-detail-title {
-  max-width: 75ch;
+  max-width: none;
   margin-top: 0;
   color: #173746;
   font-weight: 750;
   line-height: 1.28;
   word-break: keep-all;
   overflow-wrap: anywhere;
+  text-wrap: wrap;
 }
 
 .md-typeset .signal-detail-lede.admonition {
