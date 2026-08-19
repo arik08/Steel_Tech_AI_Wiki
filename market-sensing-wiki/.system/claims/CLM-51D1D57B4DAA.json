@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-51D1D57B4DAA",
+  "subject_id": "POL-KR-RARE-EARTH-2026",
+  "predicate": "supply_chain_scope",
+  "value": "광산개발·분리정제·제품생산 전 주기",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-02-05",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-052832C0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-02-05",
+      "action": "created",
+      "reason": "산업통상부 공급망 종합대책",
+      "source_ids": [
+        "SRC-20260819-052832C0"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "action": "verified",
+      "reason": "2026-08-19 공식 원문 재검증; 사건 기준시점은 predicate와 value에 보존",
+      "source_ids": [
+        "SRC-20260819-052832C0"
+      ]
+    }
+  ]
+}

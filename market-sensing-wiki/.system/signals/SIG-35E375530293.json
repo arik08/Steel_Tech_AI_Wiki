@@ -1,0 +1,72 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-35E375530293",
+  "sentence": "포스코홀딩스는 중국 희토류 규제를 전면 시행으로 단정하지 말고 4월 유지품목과 10월 중단품목을 나눠 11월 후속결정 전에 대체공급을 준비해야 합니다.",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "중국이 2025년에 발표한 희토류 수출통제는 현재 모두 같은 범위와 강도로 시행되고 있습니다.",
+    "observed_break": "4월 7개 희토류 관련 통제는 유지되지만 10월 추가 품목·장비·기술 통제는 2026년 11월 10일까지 중단됐습니다.",
+    "decision_change": "전면통제 가정에서 원소·품목·효력일별 노출관리와 11월 후속결정별 계약·투자 대응으로 바꿉니다.",
+    "pattern": "timing_gap",
+    "surprise_score": 5,
+    "falsification_check": "4월 제18호까지 공식 중단 또는 폐지됐는지와 국내 고객이 유지통제품목에 실제로 노출되는지 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "4월 통제품목을 사용하는 국내 고객이 비중국 원료와 장기구매를 원하고 중단기간 안에 대체공급 품질승인이 가능할 때",
+      "business_effect": "추가통제 재개 전에 분리·정제·재자원화 후보의 고객검증과 구매계약을 선점할 수 있습니다.",
+      "action": "유지통제품목의 고객 노출을 먼저 확인하고 중단기간을 활용해 대체원료와 파트너를 승인받습니다."
+    },
+    "risk": {
+      "condition": "10월 추가조치 중단을 전면 해제로 오인해 11월 이후 재개 가능성과 4월 유지통제를 준비하지 않을 때",
+      "business_effect": "허가·납기 충격이 재발하면 고객 재고부족과 고가 긴급조달이 동시에 발생할 수 있습니다.",
+      "action": "원소·품목·효력일별 노출표를 만들고 11월 후속공고별 계약·재고 대응안을 사전에 승인합니다."
+    },
+    "opportunity_cost": "중단기간을 준비에 쓰지 않으면 재개 시점에 검증된 비중국 공급자, 고객 공동계약, 정책지원 신청의 선택권을 경쟁사에 내줄 수 있습니다.",
+    "decision_trigger": "2026년 11월 10일 전 추가조치 재개·연장·범위조정 공고가 나오면 사전 승인된 후보의 실사 속도와 계약형태를 즉시 전환합니다."
+  },
+  "insight_id": "INS-54E698DD5786",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "business_axis": "전략광물",
+  "business_impact": {
+    "score": 5,
+    "rationale": "4월의 7개 희토류 관련 통제는 유지되고 10월 추가조치는 2026년 11월 10일까지 중단돼, 포스코홀딩스는 전면통제로 단정하지 말고 원소·품목·효력일별 고객 노출과 대체공급 준비를 나눠야 합니다."
+  },
+  "urgency": {
+    "score": 5,
+    "rationale": "추가조치 중단 종료가 2026년 11월 10일로 예정돼 있어 그 전에 고객 품목코드·재고·대체공급 승인기간과 재개 시 대응안을 확정해야 합니다.",
+    "response_deadline": "2026-09-30"
+  },
+  "assessed_at": "2026-08-19",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-0BB2ECD3DC17",
+    "CLM-56958409A20B",
+    "CLM-7249A2614FA8",
+    "CLM-73697330BCA5",
+    "CLM-84091FC60BD6",
+    "CLM-93C078B55890",
+    "CLM-B28F9C6BCFB1",
+    "CLM-C4D6FE0EC8B0",
+    "CLM-D19D9B4348E1",
+    "CLM-D93661DE16A4",
+    "CLM-D9BF0D3837EB",
+    "CLM-F2CF7232D4A4",
+    "CLM-F3554E360A22"
+  ],
+  "source_ids": [
+    "SRC-20260819-6BAE3360",
+    "SRC-20260819-F35BD3B2"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T22:30:57+09:00",
+  "updated_at": "2026-08-19T22:30:57+09:00",
+  "run_id": "2026-08-19-strategic-minerals-entry"
+}

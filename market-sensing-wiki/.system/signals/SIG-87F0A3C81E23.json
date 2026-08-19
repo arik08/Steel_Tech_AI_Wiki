@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-87F0A3C81E23",
+  "sentence": "EU 탄소국경조정제도(CBAM)가 2026년 1월 1일 본제도에 들어갔으므로, 포스코는 제품별 검증 배출량과 고객별 비용 부담을 연결해 EU 판매이익을 다시 계산해야 합니다.",
+  "insight_id": "INS-6495E12E3CF3",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "business_axis": "철강",
+  "business_impact": {
+    "score": 5,
+    "rationale": "EU 수입자의 인증서 비용이 계약가격과 공급사 선택을 통해 포스코 EU향 제품 마진에 직접 전달됩니다."
+  },
+  "urgency": {
+    "score": 5,
+    "rationale": "본과세가 이미 시행돼 2026년 계약·배출량 증빙에 즉시 반영해야 합니다.",
+    "response_deadline": "2026-08-31"
+  },
+  "assessed_at": "2026-08-18",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-0965B02D9353",
+    "CLM-B1771E4AF051",
+    "CLM-1B1CD7542EF5",
+    "CLM-4339270D1FEF",
+    "CLM-01276A332E78",
+    "CLM-0F01AFACD680",
+    "CLM-580EFD39543A",
+    "CLM-6807B8958A1E",
+    "CLM-CD3482520DF4",
+    "CLM-E83F79871783",
+    "CLM-1ECE8E036990",
+    "CLM-4728530117BD"
+  ],
+  "source_ids": [
+    "SRC-20260818-D363136D"
+  ],
+  "status": "active",
+  "created_at": "2026-08-18T23:35:39+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "topic-scan-20260818",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘검증 배출량이 경쟁재보다 낮고 고객이 자료를 인정함’입니다.",
+      "business_effect": "예상 사업 효과는 ‘가격 가산분과 장기계약 여지’입니다.",
+      "action": "우선 행동은 ‘저탄소 제품 우선 배정’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘기본값 적용 또는 증빙 지연이 늘어남’입니다.",
+      "business_effect": "예상 사업 효과는 ‘도착원가 급등과 대체조달’입니다.",
+      "action": "우선 행동은 ‘데이터 보완과 물량 재배치’입니다."
+    },
+    "opportunity_cost": "‘저탄소 제품 우선 배정’ 대응을 늦추면 ‘가격 가산분과 장기계약 여지’ 기회를 놓치고, ‘도착원가 급등과 대체조달’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘검증 배출량이 경쟁재보다 낮고 고객이 자료를 인정함’ 조건이 확인되면 기회 대응을 시작하고, ‘기본값 적용 또는 증빙 지연이 늘어남’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

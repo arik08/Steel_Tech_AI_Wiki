@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-E0EC580CD9DD",
+  "subject_id": "MKT-TUNGSTEN-SUPPLY-CONTROL-2025",
+  "predicate": "controlled_scope",
+  "value": "일부 텅스텐 제품·합금·생산기술",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-02-04",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-8AC9B06A"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-02-04",
+      "action": "created",
+      "reason": "중국 수출통제 공고",
+      "source_ids": [
+        "SRC-20260819-8AC9B06A"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "action": "verified",
+      "reason": "2026-08-19 공식 원문 재검증; 사건 기준시점은 predicate와 value에 보존",
+      "source_ids": [
+        "SRC-20260819-8AC9B06A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-00E3234F714D",
+  "subject_id": "POL-KR-RARE-EARTH-2026",
+  "predicate": "recommended_follow_up",
+  "value": "산업통상부 지원사업 공고와 HSK 코드 세분화안을 기준으로 희토류 17종을 수요처·공급집중도·가공난이도·정책적격성으로 1차 선별",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-19",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-052832C0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-19",
+      "action": "created",
+      "reason": "정책창구 대응 산출물",
+      "source_ids": [
+        "SRC-20260819-052832C0"
+      ]
+    }
+  ]
+}

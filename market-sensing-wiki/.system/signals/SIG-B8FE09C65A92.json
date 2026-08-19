@@ -1,0 +1,63 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-B8FE09C65A92",
+  "sentence": "2025년 겨울 호주 남부의 공급 부족 전망은 유효한 외부 신호였지만 대상 기간이 지났으므로, 포스코인터내셔널은 당시 실제 부족량·가격·Senex 인도량을 확인한 뒤 현재 판단에 사용할지를 정해야 합니다.",
+  "insight_id": "INS-7008B0B01776",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 5,
+    "rationale": "겨울 부족과 전송·저장 조건이 Senex 판매·조달 마진에 직접 반영됩니다."
+  },
+  "urgency": {
+    "score": 5,
+    "rationale": "2025년 7~9월 이전 조달·저장·계약 대응이 필요합니다.",
+    "response_deadline": "2025-05-31"
+  },
+  "assessed_at": "2025-03-27",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-D12F80EBBFB2",
+    "CLM-85A594E4B589",
+    "CLM-8E0AFED0F7B8",
+    "CLM-36EAE1136C85",
+    "CLM-575AFAD3B145",
+    "CLM-9C1D4204D492",
+    "CLM-32B8D956A2B8",
+    "CLM-B3BC37CAEE3F",
+    "CLM-7FF6039D5EA7",
+    "CLM-B23AA1E34821",
+    "CLM-A618955006BD",
+    "CLM-9435A27FBF60",
+    "CLM-92477F97037B",
+    "CLM-CF9B25D430C1"
+  ],
+  "source_ids": [
+    "SRC-20260819-0270DC5A"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:55:09+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "energy-backfill-20240819-20260819",
+  "signal_type": "수급·가격",
+  "signal_role": "core_market_signal",
+  "signal_origin": "external_market",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘LNG 미계약 가스 국내 공급, 저장충전 정상’입니다.",
+      "business_effect": "예상 사업 효과는 ‘부족 회피·계약가격 안정’입니다.",
+      "action": "우선 행동은 ‘Senex 겨울 인도량·전송권 선확보’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘수출 지속·한파·석탄발전 고장’입니다.",
+      "business_effect": "예상 사업 효과는 ‘부족·가격급등·물량 미이행 위험’입니다.",
+      "action": "우선 행동은 ‘비상 LNG·저장·계약 재협상 경보 조건 설정’입니다."
+    },
+    "opportunity_cost": "‘Senex 겨울 인도량·전송권 선확보’ 대응을 늦추면 ‘부족 회피·계약가격 안정’ 기회를 놓치고, ‘부족·가격급등·물량 미이행 위험’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘LNG 미계약 가스 국내 공급, 저장충전 정상’ 조건이 확인되면 기회 대응을 시작하고, ‘수출 지속·한파·석탄발전 고장’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

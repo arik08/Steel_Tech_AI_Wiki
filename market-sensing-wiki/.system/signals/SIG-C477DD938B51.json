@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-C477DD938B51",
+  "sentence": "중국 공업정보화부가 2024년 8월 23일부터 신규 철강 생산능력 치환안의 공시·공고를 중단했지만, 포스코는 실제 조강·수출 감소가 확인되기 전에는 동북아 가격 회복을 판매계획에 반영하지 않아야 합니다.",
+  "insight_id": "INS-2E84D35BF6EF",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "business_axis": "철강",
+  "business_impact": {
+    "score": 4,
+    "rationale": "중국 공급 승인과 동북아 가격 경쟁에 직접 연결됩니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "개정안·공시 재개 전후로 판매계획을 갱신해야 합니다.",
+    "response_deadline": "2024-12-15"
+  },
+  "assessed_at": "2024-08-20",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-4964CF8F5A07",
+    "CLM-2675325FEB2B",
+    "CLM-856A1E8DDF49",
+    "CLM-BD4DDA060917",
+    "CLM-EE1BADE37EC3",
+    "CLM-6FBB7065A894",
+    "CLM-46D690C1D15A",
+    "CLM-ECAAC333591B",
+    "CLM-676A51064537",
+    "CLM-A4FBF7755DD3",
+    "CLM-14DA12D5E6D2",
+    "CLM-60C9EAA412C3"
+  ],
+  "source_ids": [
+    "SRC-20260819-BCECCDDE"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:53:52+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "steel-backfill-20240819-20260819",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘공시 중단이 유지되고 중국 조강 생산·수출이 함께 감소함’입니다.",
+      "business_effect": "예상 사업 효과는 ‘동북아 가격 하방 완화 가능성’입니다.",
+      "action": "우선 행동은 ‘고부가 계약의 가격 전가 조항 점검’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘제도 개정 후 치환이 재개되거나 중국 수출이 확대됨’입니다.",
+      "business_effect": "예상 사업 효과는 ‘저가 수입과 이익 압박 지속’입니다.",
+      "action": "우선 행동은 ‘탄력적 가동과 지역별 판매 전환 준비’입니다."
+    },
+    "opportunity_cost": "‘고부가 계약의 가격 전가 조항 점검’ 대응을 늦추면 ‘동북아 가격 하방 완화 가능성’ 기회를 놓치고, ‘저가 수입과 이익 압박 지속’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘공시 중단이 유지되고 중국 조강 생산·수출이 함께 감소함’ 조건이 확인되면 기회 대응을 시작하고, ‘제도 개정 후 치환이 재개되거나 중국 수출이 확대됨’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

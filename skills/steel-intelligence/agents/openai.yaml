@@ -1,4 +1,0 @@
-interface:
-  display_name: "철강 기술 인텔리전스"
-  short_description: "해외 철강 기술 정보를 탐색·검색·중복 제거·누적·검토합니다"
-  default_prompt: "Use $steel-intelligence to search or update the evidence-backed overseas steel technology knowledge base."

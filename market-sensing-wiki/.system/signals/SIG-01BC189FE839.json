@@ -1,0 +1,63 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-01BC189FE839",
+  "sentence": "Senex가 2025년 2월 Atlas 확장 가스의 첫 생산과 Orora 10년 계약의 공급 개시를 발표했으므로, 포스코인터내셔널은 연 60페타줄(PJ) 목표를 미리 실적으로 잡지 말고 분기 판매량·단가·운영비·현금 회수를 확인해야 합니다.",
+  "insight_id": "INS-68CE85A21EEB",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 5,
+    "rationale": "실제 고객 인도가 Senex 물량과 계약 현금회수로 연결됩니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "후속 시설 ramp-up과 고객별 판매량을 분기 실적에서 확인해야 합니다.",
+    "response_deadline": "2025-04-15"
+  },
+  "assessed_at": "2025-02-28",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-8F1DA7050893",
+    "CLM-32E04FDC784E",
+    "CLM-00C4A16D9792",
+    "CLM-88EBF86AAE8B",
+    "CLM-2CC0444F0B4A",
+    "CLM-34C594FBAF2C",
+    "CLM-670F30F76679",
+    "CLM-0726C5322ABD",
+    "CLM-A7227491F3CC",
+    "CLM-673A20838211",
+    "CLM-A9BF59B5BC76",
+    "CLM-899870AF2547",
+    "CLM-B1B45E7A568F",
+    "CLM-C9EB2F1D3A5A"
+  ],
+  "source_ids": [
+    "SRC-20260819-72A89CB9"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:54:59+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "energy-backfill-20240819-20260819",
+  "signal_type": "고객·계약",
+  "signal_role": "execution_context",
+  "signal_origin": "company_execution",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘Orora 등 고객 인도 정상, 추가 시설 조기 가동’입니다.",
+      "business_effect": "예상 사업 효과는 ‘계약 기반 현금흐름 가시성 상승’입니다.",
+      "action": "우선 행동은 ‘고객별 납품량·청구액 월별 대조’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘고객 인도 제한·운영비 증가·시설 지연’입니다.",
+      "business_effect": "예상 사업 효과는 ‘목표 생산과 연결이익 차이 확대’입니다.",
+      "action": "우선 행동은 ‘인수의무·대체판매 조건 점검’입니다."
+    },
+    "opportunity_cost": "‘고객별 납품량·청구액 월별 대조’ 대응을 늦추면 ‘계약 기반 현금흐름 가시성 상승’ 기회를 놓치고, ‘목표 생산과 연결이익 차이 확대’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘Orora 등 고객 인도 정상, 추가 시설 조기 가동’ 조건이 확인되면 기회 대응을 시작하고, ‘고객 인도 제한·운영비 증가·시설 지연’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

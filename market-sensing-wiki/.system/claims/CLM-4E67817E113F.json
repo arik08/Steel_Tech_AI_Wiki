@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-4E67817E113F",
+  "subject_id": "POL-KR-RARE-EARTH-2026",
+  "predicate": "urgency_score_1_to_5",
+  "value": "4",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-19",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-052832C0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-19",
+      "action": "created",
+      "reason": "2026년 예산·펀드·지원사업이 진행 중인 정책창구",
+      "source_ids": [
+        "SRC-20260819-052832C0"
+      ]
+    }
+  ]
+}

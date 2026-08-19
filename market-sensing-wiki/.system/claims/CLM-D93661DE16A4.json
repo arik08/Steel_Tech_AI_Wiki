@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-D93661DE16A4",
+  "subject_id": "POL-CN-RARE-EARTH-CONTROLS-2025",
+  "predicate": "business_axis",
+  "value": "전략광물",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-19",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-F35BD3B2"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-19",
+      "action": "created",
+      "reason": "2026-08-19 중국 상무부 공식 원문 확인",
+      "source_ids": [
+        "SRC-20260819-F35BD3B2"
+      ]
+    }
+  ]
+}

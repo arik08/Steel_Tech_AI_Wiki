@@ -1,0 +1,59 @@
+{
+  "schema_version": 3,
+  "run_id": "initial-signal-sample-20260818",
+  "signal_id": "SIG-E424C4E087DE",
+  "sentence": "호주가 LNG 수출량의 20% 상당을 내수에 공급하는 제도를 추진해, 포스코인터내셔널은 Senex의 직접 적용 여부뿐 아니라 지역 가격과 계약 만기에 따른 증산 수익률 변화를 다시 계산해야 합니다.",
+  "insight_id": "INS-38FB400C6EF1",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 4,
+    "rationale": "LNG 수출업자의 내수 공급 의무가 호주 동부 내수 공급을 늘리고 가격 하락을 유도하면 내수 생산자인 Senex의 판매가격과 증산 프로젝트 경제성에 하방 압력이 생길 수 있다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "시행은 2027년 7월이지만 세부 제도 협의가 진행 중이어서 지금이 Senex의 국내전용 생산자 처리와 가격영향을 정책에 반영할 시점이다.",
+    "response_deadline": "2026-12-31"
+  },
+  "assessed_at": "2026-08-18",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-5C13AD56BDBA",
+    "CLM-1DA2149EBCDA",
+    "CLM-8A3EB7D27C9B",
+    "CLM-79D5D5698523",
+    "CLM-443A624FE11D",
+    "CLM-A9F14ECF842B",
+    "CLM-8315EB9263C4",
+    "CLM-57F62973ED31",
+    "CLM-8BF00733F00D",
+    "CLM-3E25A3C5F54B"
+  ],
+  "source_ids": [
+    "SRC-20260818-38019D54"
+  ],
+  "status": "active",
+  "created_at": "2026-08-18T22:19:03+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘낮은 가격이 산업 수요·장기구매 확대’입니다.",
+      "business_effect": "예상 사업 효과는 ‘단가 하락을 판매량 증가로 일부 상쇄’입니다.",
+      "action": "우선 행동은 ‘핵심 고객 장기계약 선점’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘의무 물량이 추가 공급으로 이어지고 수요 증가 제한’입니다.",
+      "business_effect": "예상 사업 효과는 ‘재계약 단가·증산 수익률 하락’입니다.",
+      "action": "우선 행동은 ‘만기별 가격 방어·투자 민감도 재산정’입니다."
+    },
+    "opportunity_cost": "‘핵심 고객 장기계약 선점’ 대응을 늦추면 ‘단가 하락을 판매량 증가로 일부 상쇄’ 기회를 놓치고, ‘재계약 단가·증산 수익률 하락’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘낮은 가격이 산업 수요·장기구매 확대’ 조건이 확인되면 기회 대응을 시작하고, ‘의무 물량이 추가 공급으로 이어지고 수요 증가 제한’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-ECBFAFB863BF",
+  "sentence": "포스코홀딩스는 텅스텐을 희토류와 별도의 우선 후보로 올리고 국내 고객의 장기구매 조건을 확인한 뒤 병목 가치사슬에 진입해야 합니다.",
+  "signal_type": "수급·가격",
+  "signal_role": "core_market_signal",
+  "signal_origin": "external_market",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "국가안보형 신규진입 검토는 희토류를 중심으로 시작하고 텅스텐은 후순위로 둘 수 있습니다.",
+    "observed_break": "중국이 일부 텅스텐 제품과 기술을 수출허가 대상으로 전환한 가운데 중국의 세계 광산생산 비중은 약 79%였고 2025년 정광·APT 국제가격이 두 배 안팎 상승했습니다.",
+    "decision_change": "텅스텐을 우선 실사 후보에 포함하고 광산·APT·탄화물·재활용 중 국내 고객 병목과 장기계약이 확인되는 단계를 먼저 비교합니다.",
+    "pattern": "input_bottleneck",
+    "surprise_score": 5,
+    "falsification_check": "중국 외 신규생산 증가와 수출허가 안정화 뒤에도 국내 고객이 비중국 공급 프리미엄을 지불하는지 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "중국 수출허가 불확실성이 이어지고 한국 수요기업이 비중국 원산지와 안정공급에 장기 프리미엄을 제시할 때",
+      "business_effect": "텅스텐 광산·APT·탄화물·재활용 가운데 병목 단계에서 장기계약 기반 수익을 만들 수 있습니다.",
+      "action": "국내 고객의 품목별 최소구매와 가격공식을 먼저 확보한 뒤 공급망 단계별 예비타당성을 비교합니다."
+    },
+    "risk": {
+      "condition": "중국 외 신규생산이 늘어 가격이 정상화되고도 고가 자산 인수와 현물가격 가정을 유지할 때",
+      "business_effect": "가격하락과 가동지연이 겹치면 투자회수기간이 늘고 재고평가와 현금흐름 부담이 커질 수 있습니다.",
+      "action": "2024년 가격 수준의 하방 스트레스와 고객 프리미엄 소멸 시나리오를 통과하지 못한 직접투자는 보류합니다."
+    },
+    "opportunity_cost": "경쟁 공급자가 장기구매와 정책금융을 먼저 묶으면 국내 고객검증, 공동투자, 우량 원료권에 대한 초기 협상 선택권을 잃을 수 있습니다.",
+    "decision_trigger": "국내 고객의 최소구매량과 장기 가격공식이 비중국 공급원 원가를 지지하면 실사로 전환하고 그렇지 않으면 옵션형 참여로 제한합니다."
+  },
+  "insight_id": "INS-182645FAE9B5",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "business_axis": "전략광물",
+  "business_impact": {
+    "score": 5,
+    "rationale": "중국의 세계 광산생산 비중 약 79%와 수출허가제가 겹친 뒤 국제가격이 두 배 안팎 올라, 텅스텐은 국가안보성과 비중국 공급 프리미엄을 함께 검증할 우선 후보입니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "수출통제가 이미 시행 중이고 2025년 가격상승이 확인돼, 대체 공급원·정광·APT·재활용 중 어느 단계가 병목인지 즉시 확인할 필요가 있습니다.",
+    "response_deadline": "2026-09-30"
+  },
+  "assessed_at": "2026-08-19",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-074187C78459",
+    "CLM-10BB21F146AB",
+    "CLM-1BE20A581F96",
+    "CLM-2A6F62B343D8",
+    "CLM-2C326929A346",
+    "CLM-3C667A844019",
+    "CLM-4D40B23D0FD6",
+    "CLM-84D377164F5F",
+    "CLM-A58B9796CB50",
+    "CLM-BA47DAF76029",
+    "CLM-C23C77CA044A",
+    "CLM-CBD4B7239969",
+    "CLM-D023A8FCE48E",
+    "CLM-E0EC580CD9DD",
+    "CLM-EFC1EF60C0B8",
+    "CLM-EFF2C5EDEDE1"
+  ],
+  "source_ids": [
+    "SRC-20260819-1D416335",
+    "SRC-20260819-8AC9B06A"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T22:20:32+09:00",
+  "updated_at": "2026-08-19T22:20:32+09:00",
+  "run_id": "2026-08-19-strategic-minerals-entry"
+}

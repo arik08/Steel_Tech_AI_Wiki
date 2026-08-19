@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-0B6C56D8B4D8",
+  "sentence": "호주 남부 기존 가스전 생산이 향후 5년간 46% 감소할 전망이어서, 포스코인터내셔널은 Senex 증산의 가치를 생산량보다 남부 장기계약·운송권·저장권 확보 여부로 평가해야 합니다.",
+  "insight_id": "INS-D1FBEA76A243",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 5,
+    "rationale": "2030년 이후 공급공백은 Senex 증산의 장기계약·운송권 가치를 높이지만 단기 가격약세와 내수규제가 상단을 제한할 수 있습니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "생산·파이프라인·장기계약을 2030 공백 이전에 함께 확정해야 희소가치를 실현할 수 있습니다.",
+    "response_deadline": "2026-10-31"
+  },
+  "assessed_at": "2026-08-18",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-4901B6B4958F",
+    "CLM-DE2E244F0123",
+    "CLM-9D3799372F63",
+    "CLM-81DE121254A5",
+    "CLM-046C20F4E464",
+    "CLM-8ABDC8B0B44B",
+    "CLM-839765411947",
+    "CLM-693D296E40C1",
+    "CLM-D50C648E9E94",
+    "CLM-532EDCC4EC39",
+    "CLM-337728D3B08C",
+    "CLM-FFB1860DC828"
+  ],
+  "source_ids": [
+    "SRC-20260818-0C29491C"
+  ],
+  "status": "active",
+  "created_at": "2026-08-18T23:36:33+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "topic-scan-20260818",
+  "signal_type": "수급·가격",
+  "signal_role": "core_market_signal",
+  "signal_origin": "external_market",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘증산·가스관·장기계약 동시 확정’입니다.",
+      "business_effect": "예상 사업 효과는 ‘2030년 희소가치 확보’입니다.",
+      "action": "우선 행동은 ‘계약기간·피크 운송권 확대’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘단기 공급개선·가격약세 지속’입니다.",
+      "business_effect": "예상 사업 효과는 ‘초기 수익성 압박’입니다.",
+      "action": "우선 행동은 ‘단계 증산·비용 절감’입니다."
+    },
+    "opportunity_cost": "‘계약기간·피크 운송권 확대’ 대응을 늦추면 ‘2030년 희소가치 확보’ 기회를 놓치고, ‘초기 수익성 압박’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘증산·가스관·장기계약 동시 확정’ 조건이 확인되면 기회 대응을 시작하고, ‘단기 공급개선·가격약세 지속’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-BA47DAF76029",
+  "subject_id": "MKT-TUNGSTEN-SUPPLY-CONTROL-2025",
+  "predicate": "business_impact_score_1_to_5",
+  "value": "5",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-19",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-1D416335"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-19",
+      "action": "created",
+      "reason": "생산집중과 통제 이후 가격변화가 신규공급자 경제성을 동시에 바꿈",
+      "source_ids": [
+        "SRC-20260819-1D416335"
+      ]
+    }
+  ]
+}

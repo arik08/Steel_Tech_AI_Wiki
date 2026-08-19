@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-A4D20EDE549C",
+  "sentence": "Rio Tinto의 2026년 2분기 리튬 생산이 전년보다 20% 늘고 일부 프로젝트가 첫 생산에 들어갔으므로, 포스코홀딩스는 경쟁사의 실제 배터리급 출하를 반영해 증설 원가·품질·장기계약 기준을 다시 세워야 합니다.",
+  "insight_id": "INS-6BC559400743",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "business_axis": "리튬",
+  "business_impact": {
+    "score": 4,
+    "rationale": "경쟁사 램프업 선행은 비중국계 공급곡선과 고객 협상력을 바꿔 포스코홀딩스의 증설 시점·요구수익률에 영향을 줍니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "2027~2028 증설 의사결정 전에 발표 용량이 아닌 실제 분기 출하속도를 반영해야 합니다.",
+    "response_deadline": "2026-09-30"
+  },
+  "assessed_at": "2026-08-18",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-62DD80208A03",
+    "CLM-20D7B201892D",
+    "CLM-50517CF684C1",
+    "CLM-43208EF68C2D",
+    "CLM-B84DEEE0B7FF",
+    "CLM-7E92C4676AE0",
+    "CLM-08B99FB42555",
+    "CLM-3EEC0357D423",
+    "CLM-CD5E7311E2F9",
+    "CLM-D7BC29C3A259",
+    "CLM-38406BD67672",
+    "CLM-A5D68520EDF2"
+  ],
+  "source_ids": [
+    "SRC-20260818-D7286E4D"
+  ],
+  "status": "active",
+  "created_at": "2026-08-18T23:36:30+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "topic-scan-20260818",
+  "signal_type": "경쟁사",
+  "signal_role": "core_market_signal",
+  "signal_origin": "competitor_counterparty",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘품질·가동 문제로 고객 출하가 지연됨’입니다.",
+      "business_effect": "예상 사업 효과는 ‘공급 압력이 늦춰짐’입니다.",
+      "action": "우선 행동은 ‘선택적 조기계약 검토’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘분기 생산·출하 증가와 계획치 상향이 함께 확인됨’입니다.",
+      "business_effect": "예상 사업 효과는 ‘가격 회복폭이 제한되고 고객 협상이 어려워짐’입니다.",
+      "action": "우선 행동은 ‘저가격 스트레스 강화’입니다."
+    },
+    "opportunity_cost": "‘선택적 조기계약 검토’ 대응을 늦추면 ‘공급 압력이 늦춰짐’ 기회를 놓치고, ‘가격 회복폭이 제한되고 고객 협상이 어려워짐’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘품질·가동 문제로 고객 출하가 지연됨’ 조건이 확인되면 기회 대응을 시작하고, ‘분기 생산·출하 증가와 계획치 상향이 함께 확인됨’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

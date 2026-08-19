@@ -1,0 +1,75 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-C68CC1899242",
+  "sentence": "포스코홀딩스는 전략광물 자산을 먼저 고르기보다 정책금융·가격보호·최소구매를 묶을 수 있는 사업구조를 신규진입의 선행조건으로 삼아야 합니다.",
+  "signal_type": "고객·계약",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "전략광물 신규진입의 핵심은 유망 광산이나 가공자산을 먼저 확보한 뒤 정부지원과 판매처를 붙이는 것입니다.",
+    "observed_break": "미국은 희토류 사업에 지분·대출·10년 가격하한·10년 구매계약을 함께 제공했고 EU는 희토류·텅스텐을 포함한 전략사업을 역내외에서 선정했습니다.",
+    "decision_change": "자산 선확보에서 정책 적격성·앵커 수요·가격보호를 먼저 설계한 뒤 자산과 가치사슬 단계를 고르는 계약선행형 심사로 바꿉니다.",
+    "pattern": "customer_behavior_gap",
+    "surprise_score": 5,
+    "falsification_check": "포스코홀딩스 후보사업에서 실제 정책계약과 고객 최소구매가 확보되지 않거나 지배구조 제한의 비용이 지원가치를 넘는지 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "opportunity",
+    "opportunity": {
+      "condition": "후보사업이 정책금융·가격보호·최소구매 중 두 가지 이상과 적격 원료·파트너를 함께 확보할 때",
+      "business_effect": "초기 자본비용과 현물가격·판매량 하방을 외부 이해관계자와 분담해 투자안의 생존범위를 넓힐 수 있습니다.",
+      "action": "한국·미국·EU 정책과 앵커 고객을 묶는 계약선행형 합작구조를 후보광물별로 설계합니다."
+    },
+    "risk": {
+      "condition": "지원계약의 원산지·판매제한·지배구조 조건이 포스코홀딩스의 글로벌 판매와 파트너 선택을 과도하게 제한할 때",
+      "business_effect": "자금지원보다 통제권·판매시장 상실의 가치가 커져 장기 사업유연성이 낮아질 수 있습니다.",
+      "action": "지원 규모와 별도로 허용국가·구매자 제한·통제권·종료조건을 투자심사에서 독립 평가합니다."
+    },
+    "opportunity_cost": "경쟁사가 10년 구매권과 전략사업 지위를 선점한 뒤 접근하면 우량 원료, 정책자금, 고객 공동개발의 선택권이 줄고 독자 부담 자본이 커질 수 있습니다.",
+    "decision_trigger": "가격보호·최소구매·정책금융 중 두 가지 이상을 확보하고 지배구조 제약을 수용할 수 있을 때 우선협상으로 전환합니다."
+  },
+  "insight_id": "INS-569F49A38AF7",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "business_axis": "전략광물",
+  "business_impact": {
+    "score": 5,
+    "rationale": "미국은 희토류 분리·자석 사업에 지분·대출·가격하한·장기구매를 묶었고 EU는 희토류·텅스텐 사업을 전략사업으로 선정해, 신규진입은 광물 보유보다 정책·수요 계약을 먼저 확보하는 구조가 중요해졌습니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "10년 계약과 전략사업 선정이 이미 진행돼 후발 진입자는 판매처·정책금융·허용국가 조건을 광산 인수 전에 확보해야 선택권을 잃지 않습니다.",
+    "response_deadline": "2026-10-31"
+  },
+  "assessed_at": "2026-08-19",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-02D59C909421",
+    "CLM-0FC1E3B63E6E",
+    "CLM-2E990C0D78B2",
+    "CLM-5779EACA28DA",
+    "CLM-613D9C6C12C3",
+    "CLM-67F3CA11A172",
+    "CLM-82DC91931F63",
+    "CLM-873CA1FCDD93",
+    "CLM-8A3FCF7F46AD",
+    "CLM-978DB9619B54",
+    "CLM-CA6197A1ECAC",
+    "CLM-CC094DCE9AB5",
+    "CLM-D2FBE42AC030",
+    "CLM-FC953CE24BC8",
+    "CLM-FE72E2AA953C"
+  ],
+  "source_ids": [
+    "SRC-20260819-0692EE56",
+    "SRC-20260819-F04174E5",
+    "SRC-20260819-67D8D329"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T22:20:34+09:00",
+  "updated_at": "2026-08-19T22:20:34+09:00",
+  "run_id": "2026-08-19-strategic-minerals-entry"
+}

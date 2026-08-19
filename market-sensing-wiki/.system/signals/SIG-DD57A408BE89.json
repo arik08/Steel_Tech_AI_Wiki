@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-DD57A408BE89",
+  "sentence": "EU가 2025년 4월과 7월부터 철강 무관세 쿼터 확대폭을 1%에서 0.1%로 줄이고 일부 이월·재배분을 막았으므로, 포스코는 제품·국가별 잔여 쿼터와 고객별 가격 전가를 기준으로 유럽 물량을 배분해야 합니다.",
+  "insight_id": "INS-C5BD71A98506",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "business_axis": "철강",
+  "business_impact": {
+    "score": 5,
+    "rationale": "EU 쿼터와 관세 규칙이 POSCO의 수출 물량·가격을 직접 제한합니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "2025-04-01·07-01 단계 발효와 분기 소진에 대응해야 합니다.",
+    "response_deadline": "2025-04-15"
+  },
+  "assessed_at": "2025-03-25",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-FF352C63013E",
+    "CLM-A30A1EC14968",
+    "CLM-9DEB56A8669A",
+    "CLM-A371096A30A2",
+    "CLM-230823DCB413",
+    "CLM-15ABA555A4F3",
+    "CLM-CB5F3A9101E9",
+    "CLM-8307D7E12D81",
+    "CLM-869796555605",
+    "CLM-F8D8D338531C",
+    "CLM-562B096AEA3C",
+    "CLM-A18C6AFA0207"
+  ],
+  "source_ids": [
+    "SRC-20260819-351CD350"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:53:55+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "steel-backfill-20240819-20260819",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘포스코 주요 HS 품목의 분기 말 쿼터 잔여가 20% 이상임’입니다.",
+      "business_effect": "예상 사업 효과는 ‘가격 가산분과 납기 유지 가능성’입니다.",
+      "action": "우선 행동은 ‘고이익 자동차·전기강판 우선 배분’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘분기 중 일부 품목이 조기 소진되고 고객이 납기 조정을 요구함’입니다.",
+      "business_effect": "예상 사업 효과는 ‘물량과 이익이 함께 압박’입니다.",
+      "action": "우선 행동은 ‘쿼터 사용률 기반 월간 판매 상한 설정’입니다."
+    },
+    "opportunity_cost": "‘고이익 자동차·전기강판 우선 배분’ 대응을 늦추면 ‘가격 가산분과 납기 유지 가능성’ 기회를 놓치고, ‘물량과 이익이 함께 압박’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘포스코 주요 HS 품목의 분기 말 쿼터 잔여가 20% 이상임’ 조건이 확인되면 기회 대응을 시작하고, ‘분기 중 일부 품목이 조기 소진되고 고객이 납기 조정을 요구함’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

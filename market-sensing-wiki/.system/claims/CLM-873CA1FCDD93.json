@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-873CA1FCDD93",
+  "subject_id": "MKT-STRATEGIC-MINERALS-POLICY-BACKING-2025",
+  "predicate": "business_impact_rationale",
+  "value": "미국은 희토류 분리·자석 사업에 지분·대출·가격하한·장기구매를 묶었고 EU는 희토류·텅스텐 사업을 전략사업으로 선정해, 신규진입은 광물 보유보다 정책·수요 계약을 먼저 확보하는 구조가 중요해졌습니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-19",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-0692EE56"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-19",
+      "action": "created",
+      "reason": "미국 계약과 EU 사업선정의 진입조건 평가",
+      "source_ids": [
+        "SRC-20260819-0692EE56"
+      ]
+    }
+  ]
+}

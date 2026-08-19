@@ -1,0 +1,73 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-F6C60D414787",
+  "sentence": "포스코홀딩스는 재활용 설비의 처리능력보다 장기 원료소유권·최소물량·가격연동 조건을 먼저 점검해 중국행 물량 이동에 따른 가동률 위험을 계산해야 합니다.",
+  "signal_type": "공급망·물류",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "유럽에서 발생한 블랙매스는 지역 규제 때문에 현지 재활용 설비에 안정적으로 남는다는 전제입니다.",
+    "observed_break": "중국이 품질기준을 충족한 블랙매스를 고형폐기물에서 제외하고 자유수입을 허용해 원료 이동 통로를 다시 열었습니다.",
+    "decision_change": "재활용 증설보다 공급계약의 물질 소유권·최소물량·수출제한을 우선 심사하고 원료가격 상승 민감도를 반영해야 합니다.",
+    "pattern": "trade_flow_reversal",
+    "surprise_score": 5,
+    "falsification_check": "유럽산 블랙매스의 중국 세관 통관량이 늘지 않거나 EU 규정이 역외 반출을 실질적으로 막는지 확인합니다."
+  },
+  "insight_id": "INS-ACFBA62A320D",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "business_axis": "리튬",
+  "business_impact": {
+    "score": 4,
+    "rationale": "고품위 블랙매스의 중국행 경쟁은 유럽 재활용 설비의 원료가격·가동률·회수마진을 동시에 바꿀 수 있습니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "수입제도가 이미 2025년 8월 시행됐으므로 원료 장기계약 갱신 전에 실제 통관량과 가격 프리미엄을 확인해야 합니다.",
+    "response_deadline": "2026-10-31"
+  },
+  "assessed_at": "2026-08-19",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-E02445F10CA3",
+    "CLM-0086CF6B85A3",
+    "CLM-14586E4CB975",
+    "CLM-545F22F48295",
+    "CLM-977EDCE267DB",
+    "CLM-5C36B065C674",
+    "CLM-C86DA7871DD1",
+    "CLM-DCBCD95DE9A5",
+    "CLM-294357841D9E",
+    "CLM-3FEB6578FC7E",
+    "CLM-A2641BFB824E",
+    "CLM-6DCA7491EDBF",
+    "CLM-711B17DD307D"
+  ],
+  "source_ids": [
+    "SRC-20260819-E9790E38",
+    "SRC-20260819-2B84CAB4",
+    "SRC-20260819-3F479FFE"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T18:59:22+09:00",
+  "updated_at": "2026-08-19T18:59:22+09:00",
+  "run_id": "2026-08-19-assumption-breaking-scout",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘EU 규정이 역외 반출을 억제’입니다.",
+      "business_effect": "예상 사업 효과는 ‘현지 원료 확보 유지’입니다.",
+      "action": "우선 행동은 ‘규정별 분류 확인’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘중국행 선적과 현지 처리비가 확대’입니다.",
+      "business_effect": "예상 사업 효과는 ‘가동률·회수마진 압박’입니다.",
+      "action": "우선 행동은 ‘폐배터리 직접 확보와 위탁처리 병행’입니다."
+    },
+    "opportunity_cost": "‘규정별 분류 확인’ 대응을 늦추면 ‘현지 원료 확보 유지’ 기회를 놓치고, ‘가동률·회수마진 압박’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘EU 규정이 역외 반출을 억제’ 조건이 확인되면 기회 대응을 시작하고, ‘중국행 선적과 현지 처리비가 확대’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

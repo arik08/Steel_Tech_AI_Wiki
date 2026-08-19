@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import posixpath
 import re
 from pathlib import Path, PurePosixPath
@@ -9,9 +10,18 @@ from typing import Any
 
 
 WIKILINK_RE = re.compile(r"\[\[([^\[\]|]+?)(?:\|([^\]]+))?\]\]")
+SIGNAL_WIKILINK_RE = re.compile(
+    r"\[\[signals/(?P<signal_id>SIG-[A-Z0-9]+)(?:\|[^\]]+)?\]\]"
+)
 HALF_YEAR_REPORT_TITLE_RE = re.compile(
     r"^(?P<period>\d{4}년 [상하]반기) 철강 신기술·프로젝트 동향$"
 )
+COMPANY_DISPLAY_NAMES = {
+    "COM-POSCO": "POSCO",
+    "COM-POSCO-HOLDINGS": "POSCO Holdings",
+    "COM-POSCO-INTERNATIONAL": "POSCO International",
+}
+SIGNAL_AXIS_ORDER = ("철강", "리튬", "전략광물", "에너지")
 
 
 def convert_wikilinks(markdown: str, current_src_path: str) -> str:
@@ -40,33 +50,117 @@ def convert_wikilinks(markdown: str, current_src_path: str) -> str:
     return WIKILINK_RE.sub(replace, markdown)
 
 
+def _read_json(path: Path) -> dict[str, Any]:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _display_text(value: Any) -> str:
+    if isinstance(value, list):
+        return " · ".join(
+            str(item).strip()
+            for item in value
+            if item is not None and str(item).strip()
+        )
+    return str(value or "").strip()
+
+
+def _signal_ui_item(root: Path, signal_id: str) -> dict[str, Any] | None:
+    signal_path = root / ".system" / "signals" / f"{signal_id}.json"
+    if not signal_path.is_file():
+        return None
+
+    signal = _read_json(signal_path)
+    insight_id = str(signal.get("insight_id") or "").strip()
+    insight_path = root / ".system" / "insights" / f"{insight_id}.json"
+    insight = _read_json(insight_path) if insight_id and insight_path.is_file() else {}
+    company_names = [
+        COMPANY_DISPLAY_NAMES.get(
+            str(company_id),
+            str(company_id).removeprefix("COM-").replace("-", " "),
+        )
+        for company_id in signal.get("company_ids", [])
+        if str(company_id).strip()
+    ]
+    region = next(
+        (
+            _display_text(record.get(field))
+            for record in (signal, insight)
+            for field in ("country_region", "region", "regions", "countries")
+            if _display_text(record.get(field))
+        ),
+        "",
+    )
+    decision_lens = signal.get("decision_lens") or {}
+    opportunity = decision_lens.get("opportunity") or {}
+    return {
+        "title": _display_text(insight.get("title")),
+        "sentence": _display_text(signal.get("sentence")),
+        "company": " · ".join(company_names),
+        "business_axis": _display_text(signal.get("business_axis")),
+        "signal_type": _display_text(signal.get("signal_type")),
+        "signal_role": _display_text(signal.get("signal_role")),
+        "opportunity": _display_text(opportunity.get("business_effect")),
+        "region": region,
+        "business_impact": (signal.get("business_impact") or {}).get("score"),
+        "urgency": (signal.get("urgency") or {}).get("score"),
+        "assessed_at": _display_text(signal.get("assessed_at")),
+    }
+
+
+def _signal_ui_payload(
+    root: Path, src_path: str, source_markdown: str
+) -> dict[str, Any] | None:
+    normalized_path = src_path.replace("\\", "/")
+    if normalized_path == "signals/index.md":
+        signal_ids = dict.fromkeys(
+            match.group("signal_id")
+            for match in SIGNAL_WIKILINK_RE.finditer(source_markdown)
+        )
+        items = [
+            item
+            for signal_id in signal_ids
+            if (item := _signal_ui_item(root, signal_id)) is not None
+        ]
+        return {"kind": "index", "items": items}
+
+    match = re.fullmatch(r"signals/(?P<signal_id>SIG-[A-Z0-9]+)\.md", normalized_path)
+    if not match:
+        return None
+    item = _signal_ui_item(root, match.group("signal_id"))
+    return {"kind": "detail", "item": item} if item else None
+
+
+def _signal_ui_data_script(payload: dict[str, Any]) -> str:
+    serialized = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+    serialized = (
+        serialized.replace("&", "\\u0026")
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+    )
+    kind = payload["kind"]
+    return (
+        # Material instant navigation executes inserted script nodes even when their
+        # type is application/json. A template preserves inert JSON across both full
+        # loads and instant navigation without producing a console SyntaxError.
+        f'<template data-signal-ui="{kind}">'
+        f"{serialized}</template>"
+    )
+
+
 def on_page_markdown(
     markdown: str,
     page: Any,
     config: Any,
     files: Any,
 ) -> str:
-    """Render Obsidian links without modifying the Markdown source."""
-    return convert_wikilinks(markdown, page.file.src_path)
-
-
-def on_page_content(
-    html: str,
-    page: Any,
-    config: Any,
-    files: Any,
-) -> str:
-    """Mark the change-history table for page-specific column sizing."""
-    if page.file.src_path.replace("\\", "/") != "recent-updates.md":
-        return html
-    marker = "<table>"
-    parts = html.split(marker, 2)
-    if len(parts) != 3:
-        return html
-    return (
-        f"{parts[0]}{marker}{parts[1]}"
-        f"<table data-recent-updates-changes>{parts[2]}"
+    """Render links and attach Signal UI data without changing source Markdown."""
+    rendered = convert_wikilinks(markdown, page.file.src_path)
+    payload = _signal_ui_payload(
+        Path(config["docs_dir"]), page.file.src_path, markdown
     )
+    if payload is None:
+        return rendered
+    return f"{_signal_ui_data_script(payload)}\n\n{rendered}"
 
 
 def _page_title(path: Path) -> str:
@@ -133,26 +227,69 @@ def _pages(root: Path, pattern: str) -> list[dict[str, str]]:
     ]
 
 
+def _signal_nav_groups(root: Path) -> list[dict[str, list[dict[str, str]]]]:
+    grouped: dict[str, list[tuple[str, str, str]]] = {}
+    for path in root.glob("signals/SIG-*.md"):
+        if not path.is_file():
+            continue
+        record_path = root / ".system" / "signals" / f"{path.stem}.json"
+        record = _read_json(record_path) if record_path.is_file() else {}
+        axis = _display_text(record.get("business_axis")) or "기타"
+        grouped.setdefault(axis, []).append(
+            (
+                _display_text(record.get("assessed_at")),
+                _page_title(path),
+                path.relative_to(root).as_posix(),
+            )
+        )
+
+    axes = [*SIGNAL_AXIS_ORDER, *sorted(set(grouped) - set(SIGNAL_AXIS_ORDER))]
+    return [
+        {
+            axis: [
+                {title: relative_path}
+                for _, title, relative_path in sorted(
+                    sorted(
+                        grouped.get(axis, []),
+                        key=lambda item: item[1].casefold(),
+                    ),
+                    key=lambda item: item[0],
+                    reverse=True,
+                )
+            ]
+        }
+        for axis in axes
+        if grouped.get(axis)
+    ]
+
+
 def on_config(config: Any) -> Any:
     """Build concise navigation from the generated knowledge pages."""
     root = Path(config["docs_dir"])
     nav: list[dict[str, Any]] = [{"홈": "index.md"}]
 
+    warnings = _pages(root, "strategic-warnings/WRN-*.md")
+    warning_index = root / "strategic-warnings" / "index.md"
+    if warning_index.is_file():
+        nav.append(
+            {"핵심 전략 이슈": [{"전체 이슈": "strategic-warnings/index.md"}, *warnings]}
+        )
+
+    signal_groups = _signal_nav_groups(root)
+    signal_index = root / "signals" / "index.md"
+    if signal_index.is_file():
+        nav.append(
+            {
+                "마켓 시그널": [
+                    {"전체 시그널": "signals/index.md"},
+                    *signal_groups,
+                ]
+            }
+        )
+
     recent_updates = root / "recent-updates.md"
     if recent_updates.is_file():
-        nav.append({"업데이트": "recent-updates.md"})
-
-    technologies = _pages(root, "technologies/*.md")
-    if technologies:
-        nav.append({"기술별 현황": technologies})
-
-    companies = _pages(root, "companies/*.md")
-    if companies:
-        nav.append({"기업별 현황": companies})
-
-    projects = _pages(root, "projects/*.md")
-    if projects:
-        nav.append({"프로젝트 진행": projects})
+        nav.append({"최근 변화": "recent-updates.md"})
 
     trend_reports: list[dict[str, str]] = []
     report_index = root / "reports" / "index.md"

@@ -1,0 +1,63 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-DC54DC18D74A",
+  "sentence": "2024년 3분기 미얀마 가스전 이익은 유지보수와 비용 회수 감소로 줄고 Senex는 판매단가 상승의 수혜를 봤으므로, 포스코인터내셔널은 에너지 전체 이익이 아니라 자산별 생산·가격·현금 회수 조건을 나눠 관리해야 합니다.",
+  "insight_id": "INS-64EF044EF45F",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 5,
+    "rationale": "자산별 물량·가격·회수율이 연결 에너지 손익에 직접 반영됩니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "다음 분기까지 미얀마 회수율과 Senex 단가의 지속성을 검증해야 합니다.",
+    "response_deadline": "2025-01-31"
+  },
+  "assessed_at": "2024-10-30",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-71E083BBB1A6",
+    "CLM-491DB9B5F8CB",
+    "CLM-73FB909EC7A7",
+    "CLM-EBC5DFA45237",
+    "CLM-16D35038ECE6",
+    "CLM-5DCBE499B310",
+    "CLM-BEB2119C24B8",
+    "CLM-C7F3C2407056",
+    "CLM-D2C35C4C7775",
+    "CLM-325978C8D8D6",
+    "CLM-2C81B88FE8B2",
+    "CLM-A62CAB7DC8FF",
+    "CLM-CA670E77990C",
+    "CLM-231E762B622B"
+  ],
+  "source_ids": [
+    "SRC-20260819-73A730DD"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:54:42+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "energy-backfill-20240819-20260819",
+  "signal_type": "재무·실적",
+  "signal_role": "execution_context",
+  "signal_origin": "company_execution",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘미얀마 정비 종료·회수율 회복, Senex 단가 유지’입니다.",
+      "business_effect": "예상 사업 효과는 ‘미얀마 현금흐름 정상화와 호주 실적 병행’입니다.",
+      "action": "우선 행동은 ‘정비별 생산·회수율 월별 대조’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘정비 장기화·비용 회수 추가 하락·Senex 단가 하락’입니다.",
+      "business_effect": "예상 사업 효과는 ‘통합 효과 동시 약화’입니다.",
+      "action": "우선 행동은 ‘미얀마 계약수익·호주 판매계약 재검토’입니다."
+    },
+    "opportunity_cost": "‘정비별 생산·회수율 월별 대조’ 대응을 늦추면 ‘미얀마 현금흐름 정상화와 호주 실적 병행’ 기회를 놓치고, ‘통합 효과 동시 약화’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘미얀마 정비 종료·회수율 회복, Senex 단가 유지’ 조건이 확인되면 기회 대응을 시작하고, ‘정비 장기화·비용 회수 추가 하락·Senex 단가 하락’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

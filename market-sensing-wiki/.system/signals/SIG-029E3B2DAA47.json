@@ -1,0 +1,63 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-029E3B2DAA47",
+  "sentence": "Senex가 10억 호주달러 규모의 Atlas·Roma North 1단계 확장시설과 160개가 넘는 생산정을 공개했으므로, 포스코인터내셔널은 연 60페타줄(PJ) 목표보다 후속 시설 가동·고객 인도·현금 회수를 순서대로 확인해야 합니다.",
+  "insight_id": "INS-4F2DD61C177F",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 5,
+    "rationale": "생산능력과 고객계약이 CAPEX 회수와 연결이익을 직접 좌우합니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "2025년 first gas와 후속 시설 가동 증빙을 확인해야 합니다.",
+    "response_deadline": "2025-02-15"
+  },
+  "assessed_at": "2024-11-25",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-5162D267E6AB",
+    "CLM-473933EE6EC9",
+    "CLM-15D1AD827448",
+    "CLM-BF613893BCBF",
+    "CLM-F8FF37ED5860",
+    "CLM-0E9CCEBCC71A",
+    "CLM-7495AEBF47BA",
+    "CLM-4DDD6B4C1009",
+    "CLM-F22E855EEBC4",
+    "CLM-614B38E4B4FF",
+    "CLM-A8CA5879DDC6",
+    "CLM-DD2EC29FCE11",
+    "CLM-F34F733E5C46",
+    "CLM-2CC06C1455AC"
+  ],
+  "source_ids": [
+    "SRC-20260819-F3EBEB9A"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:54:46+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "energy-backfill-20240819-20260819",
+  "signal_type": "투자·프로젝트",
+  "signal_role": "execution_context",
+  "signal_origin": "company_execution",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘첫 생산 조기, 생산정·시설 순차 가동, 장기계약 인도 정상’입니다.",
+      "business_effect": "예상 사업 효과는 ‘60페타줄(PJ) 목표 가시성과 투자 회수 속도 상승’입니다.",
+      "action": "우선 행동은 ‘고객별 인도·이익 현황표 운영’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘처리·가스관 지연, 가격·전송비 상승’입니다.",
+      "business_effect": "예상 사업 효과는 ‘물량은 늘어도 현금흐름·수익성 지연’입니다.",
+      "action": "우선 행동은 ‘지연 임계값·대체판매 계획 마련’입니다."
+    },
+    "opportunity_cost": "‘고객별 인도·이익 현황표 운영’ 대응을 늦추면 ‘60페타줄(PJ) 목표 가시성과 투자 회수 속도 상승’ 기회를 놓치고, ‘물량은 늘어도 현금흐름·수익성 지연’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘첫 생산 조기, 생산정·시설 순차 가동, 장기계약 인도 정상’ 조건이 확인되면 기회 대응을 시작하고, ‘처리·가스관 지연, 가격·전송비 상승’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

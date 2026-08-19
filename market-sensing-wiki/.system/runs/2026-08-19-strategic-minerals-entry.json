@@ -1,0 +1,265 @@
+{
+  "run_id": "2026-08-19-strategic-minerals-entry",
+  "status": "success",
+  "started_at": "2026-08-19T22:15:00+09:00",
+  "completed_at": "2026-08-19T22:42:00+09:00",
+  "scope": {
+    "purpose": "포스코홀딩스의 국가안보형 전략광물 신규 진입 후보와 진입조건 탐색",
+    "company": "POSCO Holdings",
+    "date_from": "2024-05-03",
+    "date_to": "2026-08-19"
+  },
+  "queries": [
+    "한국 희토류 17종 핵심광물 공급망 종합대책",
+    "중국 텅스텐 수출통제 2025 공식",
+    "USGS 2026 tungsten production price",
+    "MP Materials DoD price floor offtake SEC 8-K",
+    "EU CRMA strategic projects rare earth tungsten"
+  ],
+  "source_ids": [
+    "SRC-20260819-052832C0",
+    "SRC-20260819-8AC9B06A",
+    "SRC-20260819-1D416335",
+    "SRC-20260819-0692EE56",
+    "SRC-20260819-F04174E5",
+    "SRC-20260819-67D8D329",
+    "SRC-20260819-F35BD3B2",
+    "SRC-20260819-6BAE3360"
+  ],
+  "claim_ids": [
+    "CLM-85837132295E",
+    "CLM-51D1D57B4DAA",
+    "CLM-BCB2206195BC",
+    "CLM-E01FB6FD43E7",
+    "CLM-900CC34F34DF",
+    "CLM-885043AD098A",
+    "CLM-F5B2EF05CE53",
+    "CLM-4E67817E113F",
+    "CLM-9D4A50904EE1",
+    "CLM-3A0C43A6852B",
+    "CLM-A18785D3F682",
+    "CLM-383BEFEF1714",
+    "CLM-00E3234F714D",
+    "CLM-2C326929A346",
+    "CLM-E0EC580CD9DD",
+    "CLM-D023A8FCE48E",
+    "CLM-EFC1EF60C0B8",
+    "CLM-1BE20A581F96",
+    "CLM-EFF2C5EDEDE1",
+    "CLM-3C667A844019",
+    "CLM-074187C78459",
+    "CLM-BA47DAF76029",
+    "CLM-CBD4B7239969",
+    "CLM-C23C77CA044A",
+    "CLM-4D40B23D0FD6",
+    "CLM-10BB21F146AB",
+    "CLM-2A6F62B343D8",
+    "CLM-A58B9796CB50",
+    "CLM-84D377164F5F",
+    "CLM-8A3FCF7F46AD",
+    "CLM-0FC1E3B63E6E",
+    "CLM-FE72E2AA953C",
+    "CLM-5779EACA28DA",
+    "CLM-FC953CE24BC8",
+    "CLM-CA6197A1ECAC",
+    "CLM-613D9C6C12C3",
+    "CLM-2E990C0D78B2",
+    "CLM-873CA1FCDD93",
+    "CLM-D2FBE42AC030",
+    "CLM-978DB9619B54",
+    "CLM-CC094DCE9AB5",
+    "CLM-67F3CA11A172",
+    "CLM-02D59C909421",
+    "CLM-82DC91931F63",
+    "CLM-D19D9B4348E1",
+    "CLM-93C078B55890",
+    "CLM-0BB2ECD3DC17",
+    "CLM-F2CF7232D4A4",
+    "CLM-D93661DE16A4",
+    "CLM-84091FC60BD6",
+    "CLM-C4D6FE0EC8B0",
+    "CLM-73697330BCA5",
+    "CLM-7249A2614FA8",
+    "CLM-B28F9C6BCFB1",
+    "CLM-D9BF0D3837EB",
+    "CLM-56958409A20B",
+    "CLM-F3554E360A22"
+  ],
+  "signal_ids": [
+    "SIG-7A04B05EA7F7",
+    "SIG-ECBFAFB863BF",
+    "SIG-C68CC1899242",
+    "SIG-35E375530293"
+  ],
+  "failed_urls": [
+    "https://motie.go.kr/kor/article/ATCL8764a1224/155118989/view"
+  ],
+  "access_attempts": [
+    {
+      "url": "https://motie.go.kr/kor/article/ATCL8764a1224/155118989/view",
+      "attempted_at": "2026-08-19T22:20:00+09:00",
+      "method": "http",
+      "outcome": "failed",
+      "http_status": null,
+      "failure_class": "content_missing",
+      "retry_count": 0,
+      "session_reused": false,
+      "final": true,
+      "note": "공식 산업부 페이지 본문 추출 실패 후 동일 정책의 대한민국 정책브리핑 공개 본문으로 검증"
+    }
+  ],
+  "results": {
+    "new_sources": 8,
+    "new_claims": 57,
+    "new_signals": 4
+  },
+  "coverage": {
+    "scope": {
+      "business_axes": [
+        "전략광물"
+      ],
+      "impact_paths": [
+        "정책지원",
+        "공급집중",
+        "수출통제",
+        "가격",
+        "장기구매",
+        "가공·분리"
+      ],
+      "signal_types": [
+        "정책·규제",
+        "수급·가격",
+        "투자·프로젝트",
+        "고객·계약"
+      ],
+      "markets": [
+        "한국",
+        "중국",
+        "미국",
+        "EU",
+        "세계"
+      ],
+      "date_from": "2024-05-03",
+      "date_to": "2026-08-19"
+    },
+    "assumption_patterns_checked": [
+      "policy_collision",
+      "input_bottleneck",
+      "cost_curve_break",
+      "customer_behavior_gap"
+    ],
+    "cells_checked": [
+      "전략광물×정책지원×정책·규제×한국×2026",
+      "전략광물×공급집중·가격×수급·가격×중국·세계×2025-2026",
+      "전략광물×장기구매·금융×고객·계약×미국×2025-2026",
+      "전략광물×전략사업×투자·프로젝트×EU·역외×2025-2026",
+      "전략광물×규제효력·준비기간×정책·규제×중국×2025-2026"
+    ],
+    "channel_coverage": [
+      "한국 정부 정책",
+      "중국 수출통제",
+      "미국 지질통계",
+      "미국 국방금융·SEC 공시",
+      "EU 전략사업"
+    ],
+    "high_risk_gaps": [
+      "정부가 포스코홀딩스에 요청한 광물·가치사슬 단계의 공식 범위",
+      "포스코홀딩스 내부 후보광물·진입방식·투자한도",
+      "희토류·텅스텐 후보별 국내 수요기업의 장기 구매의향과 가격 조건"
+    ],
+    "query_yield": [
+      {
+        "query": "한국 희토류 17종 핵심광물 공급망 종합대책",
+        "new_candidates": 1,
+        "independent_primary_sources": 1,
+        "new_claims": 13,
+        "decision_changing_information": 1
+      },
+      {
+        "query": "중국 텅스텐 수출통제 2025 공식",
+        "new_candidates": 1,
+        "independent_primary_sources": 1,
+        "new_claims": 2,
+        "decision_changing_information": 1
+      },
+      {
+        "query": "USGS 2026 tungsten production price",
+        "new_candidates": 1,
+        "independent_primary_sources": 1,
+        "new_claims": 14,
+        "decision_changing_information": 1
+      },
+      {
+        "query": "MP Materials DoD price floor offtake SEC 8-K",
+        "new_candidates": 2,
+        "independent_primary_sources": 2,
+        "new_claims": 14,
+        "decision_changing_information": 1
+      },
+      {
+        "query": "EU CRMA strategic projects rare earth tungsten",
+        "new_candidates": 1,
+        "independent_primary_sources": 1,
+        "new_claims": 1,
+        "decision_changing_information": 1
+      },
+      {
+        "query": "중국 희토류 수출통제 시행 중단 2026년 11월 공식",
+        "new_candidates": 2,
+        "independent_primary_sources": 2,
+        "new_claims": 13,
+        "decision_changing_information": 1
+      }
+    ],
+    "stop_reason": "한국 지정·지원, 중국 통제와 세계 생산·가격, 미국의 실제 가격·구매·금융 계약, EU 전략사업까지 고위험 셀을 공식 원문으로 확인했습니다. 후속 검색은 같은 정책의 재인용 비중이 높아졌고 남은 핵심 불확실성은 공개 웹보다 정부의 기업별 과제와 포스코홀딩스 내부 후보·고객조건에 있으므로 다음 트리거로 전환했습니다.",
+    "next_triggers": [
+      "한국 정부의 기업별 전략광물 과제 또는 지원사업 공고",
+      "2026년 11월 10일 전후 중국의 추가 희토류 수출통제 재개·연장 결정",
+      "포스코홀딩스의 대상 광물·가치사슬·파트너 공식 발표"
+    ],
+    "limitations": [
+      "회장 지시 및 정부 요청의 구체 원소는 공개 원문으로 확인하지 못함",
+      "신규 진입 대상 자산·생산능력·투자비·판매계약이 없어 회사 손익 정량화는 아직 불가능",
+      "현지어 공식자료는 한국어·중국어·영어를 확인했으나 일본·호주 정책 채널은 다음 탐색으로 남김"
+    ],
+    "signal_mix": {
+      "minimum_core_market_ratio": 0.7,
+      "counts_by_axis": {
+        "전략광물": {
+          "core_market_signal": 4,
+          "execution_context": 0
+        }
+      },
+      "dominant_asset_by_axis": {
+        "전략광물": {
+          "subject": null,
+          "share": 0.0
+        }
+      }
+    }
+  },
+  "signal_contract": {
+    "version": 1,
+    "minimum_core_market_ratio": 0.7,
+    "single_asset_concentration_threshold": 0.5,
+    "single_asset_minimum_signals": 3,
+    "signal_ids": [
+      "SIG-7A04B05EA7F7",
+      "SIG-ECBFAFB863BF",
+      "SIG-C68CC1899242",
+      "SIG-35E375530293"
+    ]
+  },
+  "discovery_contract": {
+    "version": 1,
+    "required_for_roles": [
+      "core_market_signal"
+    ],
+    "signal_ids": [
+      "SIG-7A04B05EA7F7",
+      "SIG-ECBFAFB863BF",
+      "SIG-C68CC1899242",
+      "SIG-35E375530293"
+    ]
+  }
+}

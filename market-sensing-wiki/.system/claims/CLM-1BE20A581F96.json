@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-1BE20A581F96",
+  "subject_id": "MKT-TUNGSTEN-SUPPLY-CONTROL-2025",
+  "predicate": "china_world_production_share_2025",
+  "value": "약 79%",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-12-31",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-1D416335"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-12-31",
+      "action": "created",
+      "reason": "USGS 세계생산 표에서 계산",
+      "source_ids": [
+        "SRC-20260819-1D416335"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "action": "verified",
+      "reason": "2026-08-19 공식 원문 재검증; 사건 기준시점은 predicate와 value에 보존",
+      "source_ids": [
+        "SRC-20260819-1D416335"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-E31D64ABA031",
+  "sentence": "세계 수요 회복 폭과 중국 수요가 예상보다 약해, 포스코는 제품·지역별 주문잔고와 가격 전가율을 기준으로 하반기 판매·생산계획을 다시 계산해야 합니다.",
+  "signal_type": "수급·가격",
+  "signal_role": "core_market_signal",
+  "signal_origin": "external_market",
+  "insight_id": "INS-67727E88D2ED",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "business_axis": "철강",
+  "business_impact": {
+    "score": 5,
+    "rationale": "세계 수요 하향과 중국 수요 오차가 제품·지역별 판매량과 가격 방어력 가정을 바꿉니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "2026년 하반기 판매계획과 지역별 생산·수출 배분을 다음 분기 전에 다시 검증해야 합니다.",
+    "response_deadline": "2026-09-30"
+  },
+  "assessed_at": "2026-08-19",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-695849501C11",
+    "CLM-0A9B3890063B",
+    "CLM-BF410ACD5CB0",
+    "CLM-3B567C6CC4F2",
+    "CLM-40A82359C769",
+    "CLM-C7EAB8771419",
+    "CLM-1F6EA7B40D46",
+    "CLM-A3067BB32E11",
+    "CLM-0CA5B4F640BA",
+    "CLM-8D7B9F0C836F",
+    "CLM-0BCF51478992",
+    "CLM-638628A8CF6A",
+    "CLM-B6EF94DABE57",
+    "CLM-9581B7C580EC",
+    "CLM-3D541FB9A143",
+    "CLM-1FE5D8D2B514",
+    "CLM-A535DE3F1A35",
+    "CLM-EE0869BD27DA",
+    "CLM-D0654D9A90AF"
+  ],
+  "source_ids": [
+    "SRC-20260819-33A52DFC",
+    "SRC-20260819-4E44C10E"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T16:18:06+09:00",
+  "updated_at": "2026-08-19T16:18:06+09:00",
+  "run_id": "one-year-adaptive-20260819",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘중국 생산·수출이 함께 줄고 EU·미국 주문이 4월 전망 이상 회복’입니다.",
+      "business_effect": "예상 사업 효과는 ‘가격압력이 제한되고 고부가재 주문 회복 가능’입니다.",
+      "action": "우선 행동은 ‘기존 생산계획 유지, 제품별 마진 확인’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘중동 충돌 장기화, 중국 수출 증가, 선진국 주문 회복 지연’입니다.",
+      "business_effect": "예상 사업 효과는 ‘재고·가격·가동률이 동시에 악화될 가능성’입니다.",
+      "action": "우선 행동은 ‘생산·원료구매 하향안과 대체시장 한도를 사전 승인’입니다."
+    },
+    "opportunity_cost": "‘기존 생산계획 유지, 제품별 마진 확인’ 대응을 늦추면 ‘가격압력이 제한되고 고부가재 주문 회복 가능’ 기회를 놓치고, ‘재고·가격·가동률이 동시에 악화될 가능성’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘중국 생산·수출이 함께 줄고 EU·미국 주문이 4월 전망 이상 회복’ 조건이 확인되면 기회 대응을 시작하고, ‘중동 충돌 장기화, 중국 수출 증가, 선진국 주문 회복 지연’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

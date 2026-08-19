@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-978DB9619B54",
+  "subject_id": "MKT-STRATEGIC-MINERALS-POLICY-BACKING-2025",
+  "predicate": "urgency_rationale",
+  "value": "10년 계약과 전략사업 선정이 이미 진행돼 후발 진입자는 판매처·정책금융·허용국가 조건을 광산 인수 전에 확보해야 선택권을 잃지 않습니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-19",
+  "last_verified": "2026-08-19",
+  "source_ids": [
+    "SRC-20260819-0692EE56"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-19",
+      "action": "created",
+      "reason": "장기계약 선점 기준 평가",
+      "source_ids": [
+        "SRC-20260819-0692EE56"
+      ]
+    }
+  ]
+}

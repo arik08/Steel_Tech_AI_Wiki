@@ -1,0 +1,70 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-616AB52ADDF4",
+  "sentence": "금지 외국기업의 소유·재료·공정 관여가 미국 생산세액공제를 줄일 수 있어, 포스코홀딩스는 실증·계약 전에 법인구조와 공급자별 비용·인증을 확인해야 합니다.",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "insight_id": "INS-BDEC76B6A4BE",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "business_axis": "리튬",
+  "business_impact": {
+    "score": 5,
+    "rationale": "금지 외국기업의 소유·재료·공정 관여 여부가 미국 리튬 생산세액공제와 고객 계약경제성을 바꿉니다."
+  },
+  "urgency": {
+    "score": 5,
+    "rationale": "미국 리튬 실증·법인·공급계약을 확정하기 전에 소유구조와 공급자 인증을 점검해야 합니다.",
+    "response_deadline": "2026-09-30"
+  },
+  "assessed_at": "2026-08-19",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-286EC95D5241",
+    "CLM-F0C5206C7F7D",
+    "CLM-8CD81B10A893",
+    "CLM-4E882F384FCC",
+    "CLM-8587453B997A",
+    "CLM-ECFC912BD0A9",
+    "CLM-6019F342650E",
+    "CLM-9F3330646D4E",
+    "CLM-B42DBCA0FC34",
+    "CLM-D6771A3229DD",
+    "CLM-31257A37CAC8",
+    "CLM-2C7316AA338E",
+    "CLM-BB8DDC5362A1",
+    "CLM-06CDB9EE2901",
+    "CLM-AB25B59A6CB0",
+    "CLM-F8161BDCDB09",
+    "CLM-E1BE90948F49",
+    "CLM-C221CDAF373C",
+    "CLM-90AFB4E862ED"
+  ],
+  "source_ids": [
+    "SRC-20260819-53232380",
+    "SRC-20260819-F58609F2",
+    "SRC-20260819-3C4323B0"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T16:18:06+09:00",
+  "updated_at": "2026-08-19T16:18:06+09:00",
+  "run_id": "one-year-adaptive-20260819",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘소유·지배권이 적격이고 금지기업 관련 비용이 낮으며 공급자 인증 확보’입니다.",
+      "business_effect": "예상 사업 효과는 ‘45X 공제 대부분을 사업경제성에 반영 가능’입니다.",
+      "action": "우선 행동은 ‘시설·공급자별 증빙 체계 확정’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘법인 지배권 또는 핵심 공정·재료가 금지기업 제한에 해당’입니다.",
+      "business_effect": "예상 사업 효과는 ‘공제 상실과 일정 지연이 동시에 발생 가능’입니다.",
+      "action": "우선 행동은 ‘구조 변경안과 공제 제외 기준 투자안 병행 비교’입니다."
+    },
+    "opportunity_cost": "‘시설·공급자별 증빙 체계 확정’ 대응을 늦추면 ‘45X 공제 대부분을 사업경제성에 반영 가능’ 기회를 놓치고, ‘공제 상실과 일정 지연이 동시에 발생 가능’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘소유·지배권이 적격이고 금지기업 관련 비용이 낮으며 공급자 인증 확보’ 조건이 확인되면 기회 대응을 시작하고, ‘법인 지배권 또는 핵심 공정·재료가 금지기업 제한에 해당’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

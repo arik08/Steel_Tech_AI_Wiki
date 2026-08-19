@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-EFCFCCCC5A58",
+  "sentence": "포스코홀딩스가 2026년 신년사에서 호주·아르헨티나 공급망 활용과 선택적 투자를 강조했으므로, 리튬 투자는 선언된 생산능력보다 고객 인증·가격 가산분·현금 원가가 확인되는 사업부터 집행해야 합니다.",
+  "insight_id": "INS-783A7CFD6326",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "business_axis": "리튬",
+  "business_impact": {
+    "score": 4,
+    "rationale": "비중국 조달은 FEOC·고객 적격성 방어력을 높일 수 있지만 프리미엄·운송·검증비용이 현금흐름을 압박할 수 있습니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "2026년 CAPEX·구매계약·고객 인증을 동시에 재설계해야 하는 운영 신호입니다.",
+    "response_deadline": "2026-03-31"
+  },
+  "assessed_at": "2026-01-02",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-4FDB54F2A130",
+    "CLM-276F8D3A11E2",
+    "CLM-A4ACEE51B892",
+    "CLM-4533819D014A",
+    "CLM-FDFFB04DA4C4",
+    "CLM-5480B4B4C4B3",
+    "CLM-80A0FD45CE9B",
+    "CLM-1E417C1416C0",
+    "CLM-10344AD4F5EF",
+    "CLM-C54DC616199A",
+    "CLM-BDAC66C2BB53",
+    "CLM-D61028489F11"
+  ],
+  "source_ids": [
+    "SRC-20260819-A3487743"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:54:35+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "lithium-backfill-20240819-20260819",
+  "signal_type": "투자·프로젝트",
+  "signal_role": "execution_context",
+  "signal_origin": "company_execution",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘비중국 판매 구성과 원가가 개선됨’입니다.",
+      "business_effect": "예상 사업 효과는 ‘선택투자와 공급망 활용의 효과가 확인됨’입니다.",
+      "action": "우선 행동은 ‘고객 인증 확대’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘가격 하락과 판매 전환 실패가 함께 발생함’입니다.",
+      "business_effect": "예상 사업 효과는 ‘고정비·재고 위험이 커짐’입니다.",
+      "action": "우선 행동은 ‘증산 지연과 원가개선 집중’입니다."
+    },
+    "opportunity_cost": "‘고객 인증 확대’ 대응을 늦추면 ‘선택투자와 공급망 활용의 효과가 확인됨’ 기회를 놓치고, ‘고정비·재고 위험이 커짐’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘비중국 판매 구성과 원가가 개선됨’ 조건이 확인되면 기회 대응을 시작하고, ‘가격 하락과 판매 전환 실패가 함께 발생함’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

@@ -1,7 +1,7 @@
-site_name: 철강 기술 인텔리전스
-site_url: https://steel-tech-ai-wiki.vercel.app
-site_description: 해외 경쟁사 철강 신기술 근거 기반 LLM Wiki
-docs_dir: ../../steel-wiki
+site_name: 포스코그룹 마켓센싱
+site_url: https://market-sensing-ai-wiki.vercel.app
+site_description: 철강·리튬·전략광물·에너지 사업축의 근거 기반 Market Sensing Wiki
+docs_dir: ../../market-sensing-wiki
 site_dir: site
 use_directory_urls: true
 strict: true
@@ -13,7 +13,6 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.tabs
-    - navigation.sections
     - navigation.top
     - navigation.tracking
     - search.suggest
@@ -30,6 +29,8 @@ plugins:
       start_level: 2
       increment_across_pages: false
       toc_depth: 3
+      exclude:
+        - strategic-warnings/*
 
 hooks:
   - mkdocs_hooks.py
@@ -44,6 +45,8 @@ extra_javascript:
   - javascripts/mermaid-viewer.js
   - javascripts/footnote-tooltips.js
   - javascripts/contextual-navigation.js
+  - javascripts/signal-list.js
+  - javascripts/impact-simulator.js
 
 markdown_extensions:
   - admonition
@@ -60,10 +63,14 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
+        - name: impact-simulator
+          class: impact-simulator-data
+          format: !!python/name:pymdownx.superfences.fence_div_format
 
 exclude_docs: |
   .system/
   config/
+  projects/
   reports/audits/
   AGENTS.md
   log.md
@@ -71,4 +78,4 @@ exclude_docs: |
 not_in_nav: |
   sources/
 
-copyright: 근거 기반 철강 기술 인텔리전스 · POSCO Blue theme
+copyright: 근거 기반 포스코그룹 마켓센싱 · POSCO Blue theme

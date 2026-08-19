@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-50D67D94CE68",
+  "sentence": "미국이 2025년 6월 4일부터 철강과 파생제품의 추가관세를 25%에서 50%로 높였으므로, 포스코는 품목별 관세 전가율과 주문 변화를 기준으로 미국 출하 유지와 대체시장 전환을 결정해야 합니다.",
+  "insight_id": "INS-45F1C31469F4",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "business_axis": "철강",
+  "business_impact": {
+    "score": 5,
+    "rationale": "미국향 철강의 가격·물량·통관을 즉시 바꾸는 관세입니다."
+  },
+  "urgency": {
+    "score": 5,
+    "rationale": "2025-06-04 발효로 계약·선적 대응 시간이 짧습니다.",
+    "response_deadline": "2025-07-15"
+  },
+  "assessed_at": "2025-06-03",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-2C429C7AD338",
+    "CLM-35CBCB7D7792",
+    "CLM-DC73C26A0A65",
+    "CLM-E06F5394AD78",
+    "CLM-5A551B7D2C09",
+    "CLM-953AAB65BDE1",
+    "CLM-7EC6BA2F7114",
+    "CLM-BCCDBADEC35E",
+    "CLM-12F490DC743E",
+    "CLM-4CEC322B6A26",
+    "CLM-0ADC9BA64003",
+    "CLM-5D78B6614E92"
+  ],
+  "source_ids": [
+    "SRC-20260819-E42DE3D9"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:53:54+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "steel-backfill-20240819-20260819",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘고객이 관세 대부분을 부담하고 품목별 면제·쿼터가 유지됨’입니다.",
+      "business_effect": "예상 사업 효과는 ‘미국 판매량은 유지되지만 단위이익과 통관비가 낮아질 수 있음’입니다.",
+      "action": "우선 행동은 ‘관세 전가·재협상 조항을 계약에 적용’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘전면 전가가 어렵고 파생제품 단속도 강화됨’입니다.",
+      "business_effect": "예상 사업 효과는 ‘미국 접근성 저하와 아시아 가격 하락 가능성’입니다.",
+      "action": "우선 행동은 ‘생산·선적 전환, 현지 가공·파트너 선택권 검토’입니다."
+    },
+    "opportunity_cost": "‘관세 전가·재협상 조항을 계약에 적용’ 대응을 늦추면 ‘미국 판매량은 유지되지만 단위이익과 통관비가 낮아질 수 있음’ 기회를 놓치고, ‘미국 접근성 저하와 아시아 가격 하락 가능성’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘고객이 관세 대부분을 부담하고 품목별 면제·쿼터가 유지됨’ 조건이 확인되면 기회 대응을 시작하고, ‘전면 전가가 어렵고 파생제품 단속도 강화됨’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}

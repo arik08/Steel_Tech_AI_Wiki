@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-4A25A18DCE47",
+  "sentence": "포스코홀딩스와 Hancock이 연 3만 톤 규모의 호주 리튬 사업을 검토하기로 했지만 투자액·입지·가동 일정은 정하지 않았으므로, 포스코홀딩스는 이를 확정 공급량이 아닌 비중국 원료 후보로 관리해야 합니다.",
+  "insight_id": "INS-AF82310CDC25",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "business_axis": "리튬",
+  "business_impact": {
+    "score": 4,
+    "rationale": "비중국 원료와 고객 적격성은 북미 판매 가능 물량과 계약 프리미엄을 좌우할 수 있습니다."
+  },
+  "urgency": {
+    "score": 3,
+    "rationale": "협력 실행 단계가 2025~2026년 투자·계약 선점 여부를 결정합니다.",
+    "response_deadline": "2026-10-15"
+  },
+  "assessed_at": "2024-12-16",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-9865C55C6CBB",
+    "CLM-3CC01AEBB90E",
+    "CLM-F39968BD2A48",
+    "CLM-3D121A222C9A",
+    "CLM-17D0E1235FD8",
+    "CLM-1960E80B83A5",
+    "CLM-5A1413D2F4AE",
+    "CLM-5254915E399C",
+    "CLM-D7214E86F86B",
+    "CLM-DE7425F8C853",
+    "CLM-2F9F2A394FD9",
+    "CLM-BCD355BF15C9"
+  ],
+  "source_ids": [
+    "SRC-20260819-55D6ECBF"
+  ],
+  "status": "active",
+  "created_at": "2026-08-19T00:54:10+09:00",
+  "updated_at": "2026-08-19T07:13:54+09:00",
+  "run_id": "lithium-backfill-20240819-20260819",
+  "signal_type": "투자·프로젝트",
+  "signal_role": "execution_context",
+  "signal_origin": "company_execution",
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "관찰 기준은 ‘입지·원료계약·고객 인증이 순차적으로 확정됨’입니다.",
+      "business_effect": "예상 사업 효과는 ‘비중국 원료 가격 가산분과 북미 판매 선택지 가능’입니다.",
+      "action": "우선 행동은 ‘단계별 투자와 장기구매 승인’입니다."
+    },
+    "risk": {
+      "condition": "관찰 기준은 ‘합작 논의가 지연되고 대체 계약도 없음’입니다.",
+      "business_effect": "예상 사업 효과는 ‘3만 톤는 여전히 계획이며 기존 자산 안정화가 우선’입니다.",
+      "action": "우선 행동은 ‘기존 6만8천 톤 생산능력의 안정 가동’입니다."
+    },
+    "opportunity_cost": "‘단계별 투자와 장기구매 승인’ 대응을 늦추면 ‘비중국 원료 가격 가산분과 북미 판매 선택지 가능’ 기회를 놓치고, ‘3만 톤는 여전히 계획이며 기존 자산 안정화가 우선’ 상황이 현실화된 뒤에야 대응할 수 있습니다.",
+    "decision_trigger": "‘입지·원료계약·고객 인증이 순차적으로 확정됨’ 조건이 확인되면 기회 대응을 시작하고, ‘합작 논의가 지연되고 대체 계약도 없음’ 조건이 확인되면 방어 결정으로 전환합니다."
+  }
+}
