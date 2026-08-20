@@ -16,3 +16,6 @@ tools/project/__pycache__
 steel-wiki/.system
 steel-wiki/reports/audits
 steel-wiki/log.md
+.publish
+.env*
+.playwright-mcp
