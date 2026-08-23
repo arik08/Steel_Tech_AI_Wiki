@@ -1,0 +1,33 @@
+{
+  "thesis_id": "THS-LNG-SUPPLY-ROUTE-FLEXIBILITY",
+  "title": "평균가격보다 화물별 전환권과 도착원가를 살 시기",
+  "statement": "LNG 조달·트레이딩·터미널·발전을 생산지·항로·도착지 선택권별 순마진으로 함께 배분해야 합니다.",
+  "strategic_assumption_at_risk": "세계 LNG 공급 총량이 늘거나 줄면 모든 조달가격과 장기계약 가치가 같은 방향으로 움직인다는 전제",
+  "business_axis": "에너지",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "trend_ids": [
+    "TRD-LNG-SUPPLY-ROUTE-FLEXIBILITY"
+  ],
+  "supporting_signal_ids": [
+    "SIG-8A4DAC9E36CA",
+    "SIG-3ECBC5C37ED7"
+  ],
+  "execution_context_signal_ids": [
+    "SIG-DC54DC18D74A",
+    "SIG-B3D99438BE40"
+  ],
+  "business_impact_path": "중동 공급 감소·미국과 비중동 증산 → 지역 도착가격·운임·선복 변화 → 목적지 전환·광양 저장·발전 투입 선택 → 조달비·트레이딩 마진·터미널 회전·발전이익",
+  "confidence": "medium",
+  "decision_horizon": "2026년 실제 선적 확인부터 2027년 계약·선복·터미널 배분까지",
+  "counter_evidence": [
+    "IEA는 비중동 공급 증가가 중동 감소분을 대부분 상쇄해 2026년 세계 LNG 교역이 대체로 전년 수준일 수 있다고 봅니다.",
+    "미국 수출 허용량 증가는 실제 생산·선적·아시아 도착을 보장하지 않습니다."
+  ],
+  "falsification_conditions": [
+    "중동 공급과 비중동 증설이 모두 정상화되고 아시아·유럽 가격차와 운임이 평시 범위로 수렴합니다.",
+    "미국의 실제 아시아 도착량이 늘지 않고 광양 도착원가도 장기계약보다 낮아지지 않습니다."
+  ],
+  "schema_version": 7
+}

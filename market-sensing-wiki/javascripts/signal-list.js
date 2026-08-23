@@ -24,14 +24,18 @@
       detail ? "signal-detail-context" : "signal-row-context",
     );
 
-    if (item.company) {
-      const company = createElement("span", "signal-company-name", item.company);
-      company.setAttribute("aria-label", `회사 ${item.company}`);
-      context.append(company);
-    }
-
     const pills = createElement("div", "signal-pills");
-    pills.setAttribute("aria-label", "사업축과 변화 유형");
+    pills.setAttribute("aria-label", "회사, 사업축과 변화 유형");
+
+    if (item.company) {
+      const company = createElement(
+        "span",
+        "signal-pill signal-pill-company signal-company-name",
+        item.company,
+      );
+      company.setAttribute("aria-label", `회사 ${item.company}`);
+      pills.append(company);
+    }
 
     if (item.business_axis) {
       pills.append(createElement("span", "signal-pill signal-pill-axis", item.business_axis));
@@ -42,7 +46,9 @@
     if (pills.childElementCount) context.append(pills);
 
     const text = createElement("div", "signal-context-text");
+    appendContextText(text, "경영 Function", item.management_function);
     appendContextText(text, "국가·지역", item.region);
+    appendContextText(text, "회사 관심도", item.interest_level);
     if (text.childElementCount) context.append(text);
     return context;
   };
@@ -239,6 +245,43 @@
     return true;
   };
 
+  const enhanceStrategicIndex = (script, payload) => {
+    const scope = script.closest(".md-content__inner") || document;
+    if (scope.querySelector(".strategic-issue-context")) return true;
+    const table = Array.from(scope.querySelectorAll("table")).find((candidate) => {
+      const headers = Array.from(candidate.querySelectorAll("thead th"), (cell) =>
+        cell.textContent.trim(),
+      );
+      return headers.includes("회사·분야·카테고리") && headers.includes("핵심 전략 이슈");
+    });
+    if (!table || !Array.isArray(payload.items)) return false;
+    const rows = Array.from(table.tBodies[0]?.rows || []);
+    if (!rows.length || rows.length !== payload.items.length) return false;
+    table.classList.add("strategic-issue-index-table");
+    table
+      .closest(".md-typeset__scrollwrap")
+      ?.classList.add("strategic-issue-index-scrollwrap");
+    rows.forEach((row, index) => {
+      const metadataCell = row.cells[2];
+      if (!metadataCell) return;
+      const context = createContext(payload.items[index]);
+      context.classList.add("strategic-issue-context");
+      metadataCell.replaceChildren(context);
+    });
+    return rows.every((row) => row.querySelector(".strategic-issue-context"));
+  };
+
+  const enhanceStrategicDetail = (script, payload) => {
+    const scope = script.closest(".md-content__inner") || document;
+    if (scope.querySelector(".strategic-issue-context")) return true;
+    const title = scope.querySelector("h1");
+    if (!payload.item || !title) return false;
+    const context = createContext(payload.item, true);
+    context.classList.add("strategic-issue-context");
+    title.before(context);
+    return true;
+  };
+
   const enhanceSignals = () => {
     document.querySelectorAll("template[data-signal-ui]").forEach((container) => {
       if (container.dataset.signalUiEnhanced === "true") return;
@@ -248,12 +291,16 @@
       } catch (_error) {
         return;
       }
-      const enhanced =
-        payload.kind === "index"
-          ? enhanceIndex(container, payload)
-          : payload.kind === "detail"
-            ? enhanceDetail(container, payload)
-            : false;
+      let enhanced = false;
+      if (payload.kind === "index") {
+        enhanced = enhanceIndex(container, payload);
+      } else if (payload.kind === "detail") {
+        enhanced = enhanceDetail(container, payload);
+      } else if (payload.kind === "strategic-index") {
+        enhanced = enhanceStrategicIndex(container, payload);
+      } else if (payload.kind === "strategic-detail") {
+        enhanced = enhanceStrategicDetail(container, payload);
+      }
       if (enhanced) container.dataset.signalUiEnhanced = "true";
     });
   };
@@ -263,5 +310,9 @@
   } else {
     enhanceSignals();
   }
-  if (typeof document$ !== "undefined") document$.subscribe(enhanceSignals);
+  if (typeof document$ !== "undefined") {
+    document$.subscribe(() => {
+      enhanceSignals();
+    });
+  }
 })();

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7A0CC4D60840",
+  "subject_id": "MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026",
+  "predicate": "business_axis",
+  "value": "에너지",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-0281FEC0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "POSCO International energy exposure classification",
+      "source_ids": [
+        "SRC-20260820-0281FEC0"
+      ]
+    }
+  ]
+}

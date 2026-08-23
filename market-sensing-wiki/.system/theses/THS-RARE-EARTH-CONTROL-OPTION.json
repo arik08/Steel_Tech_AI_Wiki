@@ -1,0 +1,30 @@
+{
+  "thesis_id": "THS-RARE-EARTH-CONTROL-OPTION",
+  "title": "희토류 자산보다 옵션과 수요계약을 먼저 확보할 시기",
+  "statement": "통제 재개 여부가 열려 있는 동안 비중국 자산을 확정 매입하기보다 고객 수요와 정책금융을 묶은 구매권·소수지분 옵션을 먼저 확보해야 합니다.",
+  "strategic_assumption_at_risk": "중국 통제가 확정된 뒤 유망 희토류 자산을 골라도 공급망 진입 기회가 남아 있다는 전제",
+  "business_axis": "전략광물",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "trend_ids": [
+    "TRD-RARE-EARTH-CONTROL-OPTION"
+  ],
+  "supporting_signal_ids": [
+    "SIG-35E375530293",
+    "SIG-C68CC1899242"
+  ],
+  "execution_context_signal_ids": [],
+  "business_impact_path": "중국 허가제와 재개 가능성 + 미국 장기 가격·구매 보장 → 비중국 원료·분리정제의 옵션가치 상승 → 진입 구조와 고객계약 순서 변화",
+  "confidence": "high",
+  "decision_horizon": "2026년 11월 중국 후속공고 전후의 희토류 진입 방식",
+  "counter_evidence": [
+    "2025년 10월 추가조치는 2026년 11월 10일까지 중단돼 전면 시행 상태가 아닙니다.",
+    "정책지원은 특정 사업의 상업수율과 포스코홀딩스의 투자수익을 보증하지 않습니다."
+  ],
+  "falsification_conditions": [
+    "중국이 추가통제를 장기 중단하고 4월 통제 품목도 공식 해제합니다.",
+    "후보사업의 고객 최소구매와 정책금융 조건이 자산가격·지배구조 제약을 보상하지 못합니다."
+  ],
+  "schema_version": 7
+}

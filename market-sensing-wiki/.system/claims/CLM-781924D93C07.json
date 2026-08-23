@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-781924D93C07",
+  "subject_id": "MKT-STEEL-MARKET-REGIONALISATION-2026",
+  "predicate": "business_axis",
+  "value": "철강",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-422EE636"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "POSCO 철강 시장접근과 직접 연결",
+      "source_ids": [
+        "SRC-20260820-422EE636"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 7,
+  "thesis_id": "THS-STRATEGIC-MINERALS-MARKET-DESIGN",
+  "title": "신규 광종은 자산보다 하방분담 계약을 먼저 확보할 시기",
+  "statement": "고객 최소구매와 정책지원이 가격·물량·자본비 하방을 실제로 분담하는 후보에만 단계투자해야 합니다.",
+  "strategic_assumption_at_risk": "유망 광종과 자산을 먼저 고른 뒤 고객과 정책지원을 붙여도 우량 진입조건이 남아 있다는 전제",
+  "business_axis": "전략광물",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "trend_ids": [
+    "TRD-STRATEGIC-MINERALS-MARKET-DESIGN"
+  ],
+  "supporting_signal_ids": [
+    "SIG-C68CC1899242",
+    "SIG-58262BC4861B"
+  ],
+  "execution_context_signal_ids": [],
+  "business_impact_path": "가격·구매·금융·가공비 정책개입 → 프로젝트 가격·물량·자본비 하방 축소 → 단계투자 NPV와 진입순서 변경",
+  "confidence": "medium",
+  "decision_horizon": "2026년 첫 G7·EU 계약부터 2027년 호주 세액상계 시행까지",
+  "counter_evidence": [
+    "G7 로드맵 일부는 제도 설계 단계이며 EU 메커니즘의 첫 공동구매 성과는 미확인입니다.",
+    "미국 가격하한은 특정 회사와 품목에 적용돼 포스코 후보사업에 전용할 수 없습니다."
+  ],
+  "falsification_conditions": [
+    "발표된 정책수단이 2개 분기 동안 개별 프로젝트 계약으로 이어지지 않습니다.",
+    "지원 제약을 반영한 후보사업 NPV가 무지원 구매대안보다 낮고 고객 최소구매도 확보되지 않습니다."
+  ]
+}

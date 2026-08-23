@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C6642D7490F1",
+  "subject_id": "POL-US-LNG-PLAQUEMINES-UPRATE-2026",
+  "predicate": "company_energy_value_chain_scope",
+  "value": "gas-field production, trading, transportation, LNG-terminal storage, and LNG combined-cycle power generation",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-0281FEC0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "POSCO International official energy overview",
+      "source_ids": [
+        "SRC-20260820-0281FEC0"
+      ]
+    }
+  ]
+}

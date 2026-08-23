@@ -60,11 +60,11 @@
   font-weight: 650;
 }
 
-.md-content__inner:has(> h1 + .admonition.warning) {
+.md-content__inner:has(> .strategic-issue-context) {
   max-width: none;
 }
 
-.md-content__inner:has(> h1 + .admonition.warning) > h1 {
+.md-content__inner:has(> .strategic-issue-context) > h1 {
   max-width: none;
   margin-bottom: 1.5rem;
   color: #12384d;
@@ -75,7 +75,7 @@
   text-wrap: wrap;
 }
 
-.md-content__inner:has(> h1 + .admonition.warning) h2 {
+.md-content__inner:has(> .strategic-issue-context) h2 {
   margin-top: 2.7rem;
   padding-top: 0.2rem;
   color: #12384d;
@@ -85,29 +85,139 @@
   text-wrap: balance;
 }
 
-.md-content__inner:has(> h1 + .admonition.warning) p {
+.md-content__inner:has(> .strategic-issue-context) p {
   line-height: 1.78;
   text-wrap: pretty;
 }
 
-.md-content__inner:has(> h1 + .admonition.warning) table:not([class]) {
+.md-content__inner:has(.strategic-issue-context) table:not([class]) {
   font-variant-numeric: tabular-nums;
 }
 
+.md-content__inner:has(.strategic-issue-context) table:not([class]) thead {
+  background: #edf4f7;
+}
+
+.md-content__inner:has(.strategic-issue-context) table:not([class]) thead th {
+  background: #edf4f7;
+  color: #173a4d;
+  border-bottom-color: #c8d8e1;
+}
+
 @media screen and (max-width: 48em) {
-  .md-content__inner:has(> h1 + .admonition.warning) {
+  .md-content__inner:has(> .strategic-issue-context) {
     max-width: none;
   }
 
-  .md-content__inner:has(> h1 + .admonition.warning) > h1 {
+  .md-content__inner:has(> .strategic-issue-context) > h1 {
     max-width: none;
     font-size: 1.55rem;
     line-height: 1.28;
   }
 
-  .md-content__inner:has(> h1 + .admonition.warning) h2 {
+  .md-content__inner:has(> .strategic-issue-context) h2 {
     margin-top: 2.2rem;
     font-size: 1.15rem;
+  }
+
+  .md-typeset__scrollwrap.strategic-issue-index-scrollwrap {
+    margin: 0;
+    overflow-x: visible;
+  }
+
+  .md-typeset .strategic-issue-index-table {
+    display: block;
+    min-width: 0;
+  }
+
+  .md-typeset .strategic-issue-index-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .md-typeset .strategic-issue-index-table tbody {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .md-typeset .strategic-issue-index-table tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0.7rem 1rem;
+    padding: 1rem;
+    border: 1px solid #d5e1e7;
+    border-radius: 0.6rem;
+    background: #fff;
+  }
+
+  .md-typeset .strategic-issue-index-table td {
+    display: block;
+    width: auto;
+    min-width: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.55;
+  }
+
+  .md-typeset .strategic-issue-index-table td::before {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: #607583;
+    font-size: 0.67rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(1) {
+    order: 3;
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(1)::before {
+    content: "상태";
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(2) {
+    order: 4;
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(2)::before {
+    content: "방향";
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(3) {
+    grid-column: 1 / -1;
+    order: 2;
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(3)::before {
+    content: "회사 · 사업축 · 분류";
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(4) {
+    grid-column: 1 / -1;
+    order: 1;
+    font-size: 0.94rem;
+    line-height: 1.55;
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(4)::before {
+    content: "핵심 전략 이슈";
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(5) {
+    grid-column: 1 / -1;
+    order: 5;
+  }
+
+  .md-typeset .strategic-issue-index-table td:nth-child(5)::before {
+    content: "다음 사업 분기점";
   }
 }
 
@@ -226,11 +336,14 @@
 }
 
 .md-typeset .signal-company-name {
-  color: #173746;
-  font-size: 0.72rem;
+  max-width: 100%;
+}
+
+.md-typeset .signal-pill-company {
+  border-color: #b8c2c8;
+  background: #eef1f3;
+  color: #263b46;
   font-weight: 750;
-  line-height: 1.4;
-  overflow-wrap: anywhere;
 }
 
 .md-typeset .signal-pill {
@@ -247,16 +360,25 @@
   white-space: nowrap;
 }
 
+.md-typeset .signal-pill.signal-pill-company {
+  border-color: #b8c2c8;
+  background: #eef1f3;
+  color: #263b46;
+  overflow-wrap: anywhere;
+  text-align: center;
+  white-space: normal;
+}
+
 .md-typeset .signal-pill-axis {
-  border-color: color-mix(in srgb, var(--md-primary-fg-color) 34%, #ffffff);
-  background: color-mix(in srgb, var(--md-primary-fg-color) 9%, #ffffff);
-  color: var(--md-primary-fg-color--dark);
+  border-color: #8ebbd1;
+  background: #e4f2f8;
+  color: #064d73;
 }
 
 .md-typeset .signal-pill-type {
-  border-color: #cbd5db;
-  background: #f3f6f8;
-  color: #344953;
+  border-color: #a9c29a;
+  background: #edf4e8;
+  color: #355b2e;
 }
 
 .md-typeset .signal-row-copy {
@@ -547,7 +669,7 @@
 
 @media screen and (min-width: 76.25em) {
   .md-grid {
-    max-width: 100%;
+    max-width: 1600px;
   }
 
   .md-typeset table:not([class]) th:first-child,
@@ -1148,5 +1270,54 @@
       "basis";
     grid-template-columns: 1fr;
     row-gap: 0.28rem;
+  }
+}
+
+/* Evidence-backed charts on strategic issue pages. SVG keeps labels crisp while
+   the width rule prevents a wide chart from becoming a mobile overflow source. */
+.md-typeset .strategic-quant-chart {
+  margin: 0.8rem auto 0.65rem;
+}
+
+.md-typeset .strategic-quant-chart img {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #d9e1e7;
+  border-radius: 0.35rem;
+  background: #fff;
+}
+
+.md-typeset .strategic-quant-lead + .md-typeset__scrollwrap table {
+  width: 100%;
+  margin: 0.65rem 0 0.7rem;
+  border-top: 2px solid #05507d;
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset .strategic-quant-lead + .md-typeset__scrollwrap th {
+  background: #eaf2f7;
+  color: #12384d;
+  font-weight: 700;
+}
+
+.md-typeset .strategic-quant-lead + .md-typeset__scrollwrap th:not(:first-child),
+.md-typeset .strategic-quant-lead + .md-typeset__scrollwrap td:not(:first-child) {
+  text-align: right;
+}
+
+.md-typeset .strategic-quant-lead + .md-typeset__scrollwrap tbody tr:nth-child(even) {
+  background: #f7f9fb;
+}
+
+@media screen and (max-width: 37.5em) {
+  .md-typeset .strategic-quant-chart {
+    margin-top: 0.6rem;
+  }
+
+  .md-typeset .strategic-quant-chart img {
+    border-radius: 0.2rem;
   }
 }

@@ -1,0 +1,35 @@
+{
+  "trend_id": "TRD-STEEL-DEMAND-CAPACITY-GAP",
+  "title": "철강 수요전망 하향과 2028년 과잉설비 확대가 동시 진행",
+  "summary": "2026년 수요 회복 전망은 낮아졌는데 세계 과잉설비는 2028년 7억4,500만 톤으로 늘 전망이라 평균 물량성장보다 제품별 가격방어력이 중요해졌습니다.",
+  "business_axis": "철강",
+  "direction": "strengthening",
+  "first_detected_at": "2025-10-13",
+  "last_observed_at": "2026-08-19",
+  "signal_ids": [
+    "SIG-E31D64ABA031",
+    "SIG-A07F1B887CA2"
+  ],
+  "supporting_source_ids": [
+    "SRC-20260819-33A52DFC",
+    "SRC-20260819-4E44C10E",
+    "SRC-20260818-2778E1E7"
+  ],
+  "counter_source_ids": [
+    "SRC-20260819-4E44C10E"
+  ],
+  "indicators": [
+    {
+      "label": "2028년 세계 철강 과잉설비 전망",
+      "baseline": "2025년 640",
+      "current": "745",
+      "unit": "Mt",
+      "observed_at": "2026-06-04",
+      "interpretation": "수요 회복보다 설비 증가가 빨라 범용재 가격과 무역구제 압력이 함께 커질 수 있습니다.",
+      "source_ids": [
+        "SRC-20260818-2778E1E7"
+      ]
+    }
+  ],
+  "schema_version": 7
+}

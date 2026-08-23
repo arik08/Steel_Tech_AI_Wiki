@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-357676B9CAFD",
+  "subject_id": "POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES",
+  "predicate": "financial_services_scope",
+  "value": "loans, transfers, accounts, insurance, investments, securities, guarantees, foreign exchange, letters of credit, and commodity futures or options",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-71D52944"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "OFAC FAQ 1138",
+      "source_ids": [
+        "SRC-20260820-71D52944"
+      ]
+    }
+  ]
+}

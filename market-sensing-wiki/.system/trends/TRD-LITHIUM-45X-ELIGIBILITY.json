@@ -1,0 +1,35 @@
+{
+  "trend_id": "TRD-LITHIUM-45X-ELIGIBILITY",
+  "title": "미국 45X 공제가 생산량보다 공급망 증빙을 먼저 요구",
+  "summary": "미국 생산만으로 공제가 확정되지 않고 금지 외국기업의 소유·재료·공정 관여와 공급자 인증이 적격비용을 좌우합니다.",
+  "business_axis": "리튬",
+  "direction": "strengthening",
+  "first_detected_at": "2024-12-16",
+  "last_observed_at": "2026-08-19",
+  "signal_ids": [
+    "SIG-616AB52ADDF4"
+  ],
+  "supporting_source_ids": [
+    "SRC-20260819-3C4323B0",
+    "SRC-20260819-53232380",
+    "SRC-20260819-F58609F2"
+  ],
+  "counter_source_ids": [
+    "SRC-20260819-F58609F2"
+  ],
+  "indicators": [
+    {
+      "label": "금지 외국기업 제한 적용 과세연도 시작 기준",
+      "baseline": "기존 45X 생산·판매 요건",
+      "current": "2025-07-04 이후",
+      "unit": "date",
+      "observed_at": "2026-02-12",
+      "interpretation": "법인·재료·공정 비용과 인증을 투자 전에 추적해야 합니다.",
+      "source_ids": [
+        "SRC-20260819-53232380",
+        "SRC-20260819-F58609F2"
+      ]
+    }
+  ],
+  "schema_version": 7
+}

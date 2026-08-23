@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E115DCDC9C72",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "business_axis",
+  "value": "전략광물",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-FF867E92"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "정책수단과 POSCO 신규 진입 의사결정의 직접 사업축",
+      "source_ids": [
+        "SRC-20260820-FF867E92"
+      ]
+    }
+  ]
+}

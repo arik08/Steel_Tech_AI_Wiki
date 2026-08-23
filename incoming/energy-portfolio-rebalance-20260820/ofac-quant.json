@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "decision": "omitted",
+  "assessed_at": "2026-08-20",
+  "omission": {
+    "reason_code": "double_counting_risk",
+    "rationale": "미국 금융서비스 제한의 금액효과는 유럽연합 제재와 같은 결제·보험 경로에서 중복될 수 있어 개별 Signal에 손실액을 만들지 않고 미얀마 전략 이슈에서 거래경로별로 통합 계산합니다.",
+    "required_inputs": ["미국 달러·금융기관 접점", "MOGE 실질 귀속 대금", "대체은행·보험 비용과 결제지연"],
+    "reconsider_when": "미국 규칙으로 인한 독립적인 거래거절·지연·추가비용이 내부 자료에서 분리될 때 재산정합니다."
+  }
+}

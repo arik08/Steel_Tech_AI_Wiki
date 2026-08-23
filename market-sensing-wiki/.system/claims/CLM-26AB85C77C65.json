@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-26AB85C77C65",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "sanctioned_individuals_count",
+  "value": "105",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-E33837C5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "EU Council 2026 annual renewal",
+      "source_ids": [
+        "SRC-20260820-E33837C5"
+      ]
+    }
+  ]
+}

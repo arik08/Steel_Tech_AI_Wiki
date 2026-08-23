@@ -16,6 +16,7 @@ import time
 from collections import defaultdict
 from datetime import date, datetime
 from difflib import SequenceMatcher
+from html import escape as html_escape
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
@@ -53,6 +54,7 @@ INSIGHT_SCHEMA_VERSION = 1
 ASSUMPTION_CHALLENGE_SCHEMA_VERSION = 1
 DECISION_LENS_SCHEMA_VERSION = 1
 QUANTIFICATION_SCHEMA_VERSION = 1
+SIGNAL_ATOMIC_SCOPE_SCHEMA_VERSION = 1
 SIGNAL_TYPES = (
     "정책·규제",
     "수급·가격",
@@ -78,12 +80,23 @@ SIGNAL_ROLE_ORIGINS = {
     },
     "execution_context": {"company_execution"},
 }
-STRATEGIC_WATCH_SCHEMA_VERSION = 3
+STRATEGIC_WATCH_SCHEMA_VERSION = 7
 TREND_DIRECTIONS = {"strengthening", "stable", "weakening", "mixed"}
 THESIS_CONFIDENCE = {"high", "medium", "low"}
 WARNING_LEVELS = ("observe", "watch", "warning", "critical")
 WARNING_STATUSES = {"active", "closed"}
 STRATEGIC_ISSUE_DIRECTIONS = {"opportunity", "risk", "mixed"}
+STRATEGIC_ISSUE_CATEGORIES = {*SIGNAL_TYPES, "복합 이슈"}
+MANAGEMENT_FUNCTIONS = {
+    "전략·투자",
+    "영업·고객",
+    "구매·공급망",
+    "생산·운영",
+    "기술·연구개발",
+    "재무",
+    "인사·조직",
+}
+COMPANY_INTEREST_LEVELS = {"core", "conditional"}
 DECISION_LENS_DIRECTIONS = {"opportunity", "risk", "mixed"}
 STRATEGIC_CAUSAL_DIRECTIONS = {"LR", "TB"}
 STRATEGIC_CAUSAL_NODE_KINDS = {
@@ -98,6 +111,17 @@ STRATEGIC_CAUSAL_NODE_KINDS = {
     "action",
     "trigger",
 }
+STRATEGIC_TITLE_FORBIDDEN_TERMS = (
+    "45X",
+    "LNG",
+    "LFP",
+    "ESS",
+    "DRI",
+    "HyREX",
+    "GWh",
+    "PJ",
+    "블랙매스",
+)
 STRATEGIC_ISSUE_TIMELINE_KINDS = {
     "event",
     "publication",
@@ -124,6 +148,19 @@ RUN_SIGNAL_CONTRACT = {
 RUN_DISCOVERY_CONTRACT = {
     "version": 1,
     "required_for_roles": ["core_market_signal"],
+}
+RUN_ATOMIC_SIGNAL_CONTRACT = {"version": 1}
+SIGNAL_CHANGE_UNITS = {
+    "policy_measure",
+    "market_metric_shift",
+    "supply_event",
+    "demand_event",
+    "competitor_action",
+    "customer_action",
+    "logistics_event",
+    "technology_event",
+    "financial_event",
+    "company_execution",
 }
 SURPRISE_PATTERNS = {
     "substitute_demand",
@@ -3279,8 +3316,13 @@ STORE_AGENTS = """# Market Sensing Intelligence 저장소 지침
   한국어를 사용하세요. 제목은 관측된 변화만 짧게 적고 사업영향은 완전문장인
   `사업 시사점`으로 분리하세요.
 - Signal에는 `정책·규제`, `수급·가격`, `경쟁사`, `투자·프로젝트`, `공급망·물류`,
-  `고객·계약`, `기술·운영`, `재무·실적` 중 하나의 변화 유형을 저장하세요. 사람 화면에는
-  사업축 pill 1개와 변화 유형 pill 1개만 표시하세요.
+  `고객·계약`, `기술·운영`, `재무·실적` 중 하나의 변화 유형을 저장하세요. Signal과
+  핵심 전략 이슈의 목록·상세 첫 화면에는 회사 pill, 사업축 pill, 변화 유형 또는 이슈
+  카테고리 pill을 `회사 → 사업축 → 분류` 순서로 표시하고 일반 텍스트로 대체하지 마세요.
+- 핵심 전략 이슈의 표 헤더는 연한 배경색과 충분한 대비를 유지하세요. 스타일은 H1·경고문·
+  표의 인접 순서가 아닌 `.strategic-issue-context` 의미 클래스를 기준으로 적용하고,
+  데스크톱·390px 모바일 브라우저와 자동 회귀 테스트에서 pill 3개의 순서·형태와 표 헤더
+  배경색을 확인하세요.
 - 외부 시장·정책·경쟁사·거래상대 변화는 `core_market_signal`, 대상 회사의 투자·증산·
   실적·공정 진척은 `execution_context/company_execution`으로 분리하세요. 회사 자체 발표만
   근거인 실행 사실을 core로 발행하지 말고, run×사업축마다 core 비중 70% 이상을 유지하세요.
@@ -3913,6 +3955,123 @@ def _required_text_list(
     return [item.strip() for item in value]
 
 
+def validate_strategic_issue_title(value: Any, label: str = "warning.title") -> str:
+    """Keep the executive-facing title understandable without prior context."""
+    title = re.sub(r"\s+", " ", str(value or "")).strip()
+    if not 18 <= len(title) <= 72:
+        raise ValueError(f"{label} must be 18-72 characters for the executive first view")
+    bare_acronym = re.search(r"(?<![A-Za-z0-9])[A-Z][A-Z0-9-]{1,}(?![A-Za-z0-9])", title)
+    forbidden = next((term for term in STRATEGIC_TITLE_FORBIDDEN_TERMS if term in title), None)
+    if bare_acronym or forbidden:
+        term = forbidden or str(bare_acronym.group(0))
+        raise ValueError(
+            f"{label} contains unexplained shorthand {term!r}; "
+            "use plain Korean in the title and define the formal term in the lead"
+        )
+    return title
+
+
+def strategic_issue_title_closing_shape(value: Any) -> str | None:
+    """Collapse overused executive-title endings into portfolio-level shapes."""
+    title = re.sub(r"\s+", " ", str(value or "")).strip()
+    closing_patterns = (
+        ("~할 때", r"(?:볼|할|나눌|확인할|설계할)\s*때[.!?]?$"),
+        ("~먼저다", r"(?:먼저다|먼저)[.!?]?$"),
+        ("~수 없다", r"수\s*없다[.!?]?$"),
+    )
+    return next(
+        (shape for shape, pattern in closing_patterns if re.search(pattern, title)),
+        None,
+    )
+
+
+def validate_signal_atomic_scope(
+    value: Any, label: str = "atomic_scope"
+) -> dict[str, Any]:
+    """Require one bounded observed change per Signal."""
+    if not isinstance(value, dict):
+        raise ValueError(f"{label} must be an object")
+    if value.get("schema_version") != SIGNAL_ATOMIC_SCOPE_SCHEMA_VERSION:
+        raise ValueError(
+            f"{label}.schema_version must be {SIGNAL_ATOMIC_SCOPE_SCHEMA_VERSION}"
+        )
+    event_key = _required_text(value, "event_key", label)
+    if not re.fullmatch(r"[a-z0-9][a-z0-9._:-]{7,119}", event_key):
+        raise ValueError(
+            f"{label}.event_key must be an 8-120 character lowercase stable key"
+        )
+    change_unit = _required_text(value, "change_unit", label)
+    if change_unit not in SIGNAL_CHANGE_UNITS:
+        raise ValueError(
+            f"{label}.change_unit must be one of: "
+            + ", ".join(sorted(SIGNAL_CHANGE_UNITS))
+        )
+    for field, minimum, maximum in (
+        ("observation", 20, 300),
+        ("market_boundary", 8, 200),
+        ("time_boundary", 8, 200),
+        ("excluded_context", 20, 400),
+        ("single_event_rationale", 40, 500),
+    ):
+        text = re.sub(r"\s+", " ", str(value.get(field) or "")).strip()
+        if not minimum <= len(text) <= maximum:
+            raise ValueError(
+                f"{label}.{field} must be {minimum}-{maximum} characters"
+            )
+    return value
+
+
+def validate_strategic_synthesis_contract(
+    value: Any,
+    supporting_signal_ids: list[str],
+    signals_by_id: dict[str, dict[str, Any]],
+    label: str,
+) -> dict[str, Any]:
+    """Keep cross-event conclusions at Strategic Issue level."""
+    if not isinstance(value, dict):
+        raise ValueError(f"{label} must be an object")
+    if value.get("schema_version") != 1:
+        raise ValueError(f"{label}.schema_version must be 1")
+    _required_text(value, "decision_key", label)
+    _required_text(value, "synthesis_statement", label)
+    contract_ids = _required_text_list(value, "supporting_signal_ids", label)
+    if contract_ids != supporting_signal_ids:
+        raise ValueError(
+            f"{label}.supporting_signal_ids must match thesis.supporting_signal_ids"
+        )
+    if len(set(contract_ids)) < 2:
+        raise ValueError(f"{label} requires at least two independent Signals")
+    event_keys: list[str] = []
+    for signal_id in contract_ids:
+        signal = signals_by_id.get(signal_id) or {}
+        if signal.get("status", "active") != "active":
+            raise ValueError(f"{label}: {signal_id} must be active")
+        if signal.get("signal_role") != "core_market_signal":
+            raise ValueError(f"{label}: {signal_id} must be a core_market_signal")
+        atomic_scope = validate_signal_atomic_scope(
+            signal.get("atomic_scope"), f"{signal_id}.atomic_scope"
+        )
+        event_keys.append(str(atomic_scope["event_key"]))
+    if len(set(event_keys)) != len(event_keys):
+        raise ValueError(f"{label}: supporting Signals must use distinct event_key values")
+    relationships = value.get("signal_relationships")
+    if not isinstance(relationships, list) or len(relationships) != len(contract_ids):
+        raise ValueError(f"{label}.signal_relationships must cover every supporting Signal")
+    covered = set()
+    for index, relationship in enumerate(relationships, 1):
+        if not isinstance(relationship, dict):
+            raise ValueError(f"{label}.signal_relationships[{index}] must be an object")
+        signal_id = _required_text(relationship, "signal_id", label)
+        _required_text(relationship, "contribution", label)
+        relation = _required_text(relationship, "relationship", label)
+        if relation not in {"reinforces", "limits", "contradicts", "contextualizes"}:
+            raise ValueError(f"{label}: invalid relationship {relation!r}")
+        covered.add(signal_id)
+    if covered != set(contract_ids):
+        raise ValueError(f"{label}.signal_relationships must cover the same Signal IDs")
+    return value
+
+
 def validate_strategic_causal_map(value: Any, label: str = "causal_map") -> dict[str, Any]:
     """Validate an LLM-authored causal structure without accepting raw Mermaid."""
     if not isinstance(value, dict):
@@ -3985,6 +4144,174 @@ def validate_strategic_causal_map(value: Any, label: str = "causal_map") -> dict
     return value
 
 
+def validate_strategic_editorial_plan(
+    value: Any,
+    sources_by_id: dict[str, dict[str, Any]],
+    label: str = "editorial_plan",
+) -> dict[str, Any] | None:
+    """Validate the optional reader-facing visual storyboard for one issue."""
+    if value is None:
+        return None
+    if not isinstance(value, dict):
+        raise ValueError(f"{label} must be an object")
+    _required_text(value, "reader_question", label)
+    _required_text(value, "provisional_conclusion", label)
+
+    key_numbers = value.get("key_numbers")
+    if not isinstance(key_numbers, list) or not 1 <= len(key_numbers) <= 3:
+        raise ValueError(f"{label}.key_numbers must contain 1 to 3 items")
+    for index, item in enumerate(key_numbers, 1):
+        item_label = f"{label}.key_numbers[{index}]"
+        if not isinstance(item, dict):
+            raise ValueError(f"{item_label} must be an object")
+        for field in ("value", "label", "meaning"):
+            _required_text(item, field, item_label)
+        source_ids = _required_text_list(item, "source_ids", item_label)
+        missing = sorted(set(source_ids) - set(sources_by_id))
+        if missing:
+            raise ValueError(f"{item_label}: unknown source_ids {', '.join(missing)}")
+
+    quantification = value.get("quantification")
+    if not isinstance(quantification, dict):
+        raise ValueError(f"{label}.quantification must be an object")
+    quantification_status = _required_text(
+        quantification, "status", f"{label}.quantification"
+    )
+    if quantification_status not in {"modeled", "omitted"}:
+        raise ValueError(
+            f"{label}.quantification.status must be modeled or omitted"
+        )
+    _required_text(quantification, "decision_metric", f"{label}.quantification")
+    if quantification_status == "omitted":
+        _required_text(quantification, "reason", f"{label}.quantification")
+        _required_text_list(
+            quantification, "attempted_data_paths", f"{label}.quantification"
+        )
+        _required_text_list(
+            quantification, "required_inputs", f"{label}.quantification"
+        )
+        _required_text(quantification, "recheck_trigger", f"{label}.quantification")
+
+    visuals = value.get("visuals")
+    if not isinstance(visuals, list) or len(visuals) < 3:
+        raise ValueError(f"{label}.visuals must contain at least 3 candidates")
+    adopted = 0
+    adopted_quantitative = 0
+    for index, visual in enumerate(visuals, 1):
+        visual_label = f"{label}.visuals[{index}]"
+        if not isinstance(visual, dict):
+            raise ValueError(f"{visual_label} must be an object")
+        visual_type = _required_text(visual, "type", visual_label)
+        status = _required_text(visual, "status", visual_label)
+        if status not in {"adopted", "deferred"}:
+            raise ValueError(f"{visual_label}.status must be adopted or deferred")
+        _required_text(visual, "title", visual_label)
+        if status == "deferred":
+            _required_text(visual, "reason", visual_label)
+            _required_text_list(visual, "required_inputs", visual_label)
+            continue
+        adopted += 1
+        source_ids = _required_text_list(visual, "source_ids", visual_label)
+        missing = sorted(set(source_ids) - set(sources_by_id))
+        if missing:
+            raise ValueError(f"{visual_label}: unknown source_ids {', '.join(missing)}")
+        if visual_type == "comparison_table":
+            columns = _required_text_list(visual, "columns", visual_label)
+            rows = visual.get("rows")
+            if not isinstance(rows, list) or len(rows) < 2:
+                raise ValueError(f"{visual_label}.rows must contain at least 2 rows")
+            for row in rows:
+                if not isinstance(row, list) or len(row) != len(columns):
+                    raise ValueError(f"{visual_label}: every row must match columns")
+        elif visual_type == "quantitative_chart":
+            adopted_quantitative += 1
+            chart_kind = _required_text(visual, "chart_kind", visual_label)
+            if chart_kind not in {"line", "bar"}:
+                raise ValueError(f"{visual_label}.chart_kind must be line or bar")
+            for field in ("unit", "as_of", "takeaway", "method_note", "data_kind"):
+                _required_text(visual, field, visual_label)
+            validate_date(str(visual["as_of"]), f"{visual_label}.as_of")
+            if visual["data_kind"] not in {"verified", "derived", "scenario"}:
+                raise ValueError(
+                    f"{visual_label}.data_kind must be verified, derived, or scenario"
+                )
+            series = visual.get("series")
+            if not isinstance(series, list) or not 1 <= len(series) <= 4:
+                raise ValueError(f"{visual_label}.series must contain 1 to 4 series")
+            point_count = 0
+            for series_index, item in enumerate(series, 1):
+                series_label = f"{visual_label}.series[{series_index}]"
+                if not isinstance(item, dict):
+                    raise ValueError(f"{series_label} must be an object")
+                _required_text(item, "name", series_label)
+                points = item.get("points")
+                minimum_points = 4 if chart_kind == "line" else 5
+                if not isinstance(points, list) or not minimum_points <= len(points) <= 12:
+                    raise ValueError(
+                        f"{series_label}.points must contain {minimum_points} to 12 points "
+                        f"for a {chart_kind} chart; use quantitative_table for sparse data"
+                    )
+                point_count += len(points)
+                for point_index, point in enumerate(points, 1):
+                    point_label = f"{series_label}.points[{point_index}]"
+                    if not isinstance(point, dict):
+                        raise ValueError(f"{point_label} must be an object")
+                    _required_text(point, "label", point_label)
+                    number = point.get("value")
+                    if (
+                        not isinstance(number, (int, float))
+                        or isinstance(number, bool)
+                        or not math.isfinite(float(number))
+                    ):
+                        raise ValueError(f"{point_label}.value must be a finite number")
+            if point_count < (4 if chart_kind == "line" else 5):
+                raise ValueError(f"{visual_label} does not have enough points for a chart")
+        elif visual_type == "quantitative_table":
+            adopted_quantitative += 1
+            table_kind = _required_text(visual, "table_kind", visual_label)
+            if table_kind not in {"scenario", "comparison", "trend"}:
+                raise ValueError(
+                    f"{visual_label}.table_kind must be scenario, comparison, or trend"
+                )
+            for field in ("unit", "as_of", "takeaway", "method_note", "data_kind"):
+                _required_text(visual, field, visual_label)
+            validate_date(str(visual["as_of"]), f"{visual_label}.as_of")
+            if visual["data_kind"] not in {"verified", "derived", "scenario"}:
+                raise ValueError(
+                    f"{visual_label}.data_kind must be verified, derived, or scenario"
+                )
+            columns = _required_text_list(visual, "columns", visual_label)
+            if not 3 <= len(columns) <= 5:
+                raise ValueError(f"{visual_label}.columns must contain 3 to 5 items")
+            rows = visual.get("rows")
+            if not isinstance(rows, list) or not 2 <= len(rows) <= 8:
+                raise ValueError(f"{visual_label}.rows must contain 2 to 8 rows")
+            for row in rows:
+                if not isinstance(row, list) or len(row) != len(columns):
+                    raise ValueError(f"{visual_label}: every row must match columns")
+        elif visual_type in {"decision_sequence", "monitoring_dashboard"}:
+            columns = _required_text_list(visual, "columns", visual_label)
+            rows = visual.get("rows")
+            if not isinstance(rows, list) or len(rows) < 3:
+                raise ValueError(f"{visual_label}.rows must contain at least 3 rows")
+            for row in rows:
+                if not isinstance(row, list) or len(row) != len(columns):
+                    raise ValueError(f"{visual_label}: every row must match columns")
+        elif visual_type != "causal_map":
+            raise ValueError(f"{visual_label}: unsupported adopted visual type {visual_type!r}")
+    if adopted < 2:
+        raise ValueError(f"{label} must adopt at least 2 evidence-backed visuals")
+    if quantification_status == "modeled" and adopted_quantitative < 1:
+        raise ValueError(
+            f"{label} modeled quantification requires an adopted quantitative exhibit"
+        )
+    if quantification_status == "omitted" and adopted_quantitative:
+        raise ValueError(
+            f"{label} omitted quantification must not adopt a quantitative exhibit"
+        )
+    return value
+
+
 def validate_strategic_watch_manifest(
     root: Path, manifest: dict[str, Any]
 ) -> tuple[dict[str, Any], dict[str, Any], dict[str, Any]]:
@@ -4008,6 +4335,7 @@ def validate_strategic_watch_manifest(
     for record in (trend, thesis, warning):
         record["schema_version"] = STRATEGIC_WATCH_SCHEMA_VERSION
         _required_text(record, "title", str(record.get("trend_id") or record.get("thesis_id") or record.get("warning_id")))
+    warning["title"] = validate_strategic_issue_title(warning.get("title"), f"{warning_id}.title")
 
     axis = _required_text(trend, "business_axis", trend_id)
     if axis not in MARKET_SENSING_BUSINESS_AXES:
@@ -4054,7 +4382,11 @@ def validate_strategic_watch_manifest(
         raise ValueError(f"{thesis_id}: invalid confidence {thesis.get('confidence')!r}")
     if _required_text_list(thesis, "trend_ids", thesis_id) != [trend_id]:
         raise ValueError(f"{thesis_id}: trend_ids must contain this manifest's {trend_id}")
-    _required_text_list(thesis, "supporting_signal_ids", thesis_id)
+    thesis_signal_ids = _required_text_list(thesis, "supporting_signal_ids", thesis_id)
+    if thesis_signal_ids != signal_ids:
+        raise ValueError(
+            f"{thesis_id}: supporting_signal_ids must match {trend_id}.signal_ids"
+        )
     context_signal_ids = _required_text_list(
         thesis, "execution_context_signal_ids", thesis_id, allow_empty=True
     )
@@ -4078,19 +4410,96 @@ def validate_strategic_watch_manifest(
         "rationale",
         "persistence_rule",
         "decision_question",
-        "decision_deadline",
         "owner",
     ):
         _required_text(warning, field, warning_id)
+    decision_deadline = str(warning.get("decision_deadline") or "").strip()
+    if decision_deadline:
+        validate_date(decision_deadline, "decision_deadline")
     if warning.get("issue_direction") not in STRATEGIC_ISSUE_DIRECTIONS:
         raise ValueError(
             f"{warning_id}: invalid issue_direction {warning.get('issue_direction')!r}"
         )
+    issue_category = str(warning.get("issue_category") or "").strip()
+    if issue_category not in STRATEGIC_ISSUE_CATEGORIES:
+        raise ValueError(
+            f"{warning_id}: invalid issue_category {issue_category!r}"
+        )
+    structured_context = warning.get("structured_context")
+    if not isinstance(structured_context, dict):
+        raise ValueError(f"{warning_id}: structured_context must be an object")
+    company_id = _required_text(structured_context, "company_id", warning_id)
+    thesis_company_ids = _required_text_list(thesis, "company_ids", thesis_id)
+    if company_id not in thesis_company_ids:
+        raise ValueError(
+            f"{warning_id}: structured_context.company_id must be in {thesis_id}.company_ids"
+        )
+    if not company_supports_business_axis(company_id, axis):
+        raise ValueError(
+            f"{warning_id}: {company_id} does not support business axis {axis!r}"
+        )
+    if structured_context.get("business_axis") != axis:
+        raise ValueError(f"{warning_id}: structured_context.business_axis must be {axis!r}")
+    if structured_context.get("change_category") != issue_category:
+        raise ValueError(
+            f"{warning_id}: structured_context.change_category must match issue_category"
+        )
+    functions = _required_text_list(
+        structured_context, "management_functions", warning_id
+    )
+    invalid_functions = sorted(set(functions) - MANAGEMENT_FUNCTIONS)
+    if invalid_functions:
+        raise ValueError(
+            f"{warning_id}: invalid management_functions {', '.join(invalid_functions)}"
+        )
+    _required_text_list(structured_context, "regions", warning_id)
+    _required_text(structured_context, "time_horizon", warning_id)
+
+    company_lens = warning.get("company_lens")
+    if not isinstance(company_lens, dict):
+        raise ValueError(f"{warning_id}: company_lens must be an object")
+    if company_lens.get("interest_level") not in COMPANY_INTEREST_LEVELS:
+        raise ValueError(
+            f"{warning_id}: company_lens.interest_level must be core or conditional"
+        )
+    for field in ("official_basis", "exposure", "impact_path", "decision_use"):
+        if len(_required_text(company_lens, field, warning_id)) < 20:
+            raise ValueError(f"{warning_id}: company_lens.{field} is too short")
+    company_source_ids = _required_text_list(
+        company_lens, "evidence_source_ids", warning_id
+    )
+    unknown_company_sources = sorted(set(company_source_ids) - set(sources_by_id))
+    if unknown_company_sources:
+        raise ValueError(
+            f"{warning_id}: unknown company_lens sources "
+            + ", ".join(unknown_company_sources)
+        )
+    non_company_sources = sorted(
+        source_id
+        for source_id in company_source_ids
+        if sources_by_id[source_id].get("source_type") not in COMPANY_OWNED_SOURCE_TYPES
+    )
+    if non_company_sources:
+        raise ValueError(
+            f"{warning_id}: company_lens evidence must be company IR or releases: "
+            + ", ".join(non_company_sources)
+        )
     validate_decision_lens(
         warning.get("decision_lens"), f"{warning_id}.decision_lens"
     )
+    synthesis_contract = warning.get("synthesis_contract")
+    if synthesis_contract is not None:
+        validate_strategic_synthesis_contract(
+            synthesis_contract,
+            thesis_signal_ids,
+            signals_by_id,
+            f"{warning_id}.synthesis_contract",
+        )
     validate_strategic_causal_map(
         warning.get("causal_map"), f"{warning_id}.causal_map"
+    )
+    validate_strategic_editorial_plan(
+        warning.get("editorial_plan"), sources_by_id, f"{warning_id}.editorial_plan"
     )
     executive_summary = _required_text(warning, "executive_summary", warning_id)
     if len(executive_summary) < 120:
@@ -4154,7 +4563,16 @@ def validate_strategic_watch_manifest(
     total_report_chars = sum(len(str(item.get("body") or "")) for item in sections)
     if total_report_chars < 2200:
         raise ValueError(f"{warning_id}: report body must be at least 2200 characters")
-    validate_date(str(warning["decision_deadline"]), "decision_deadline")
+    if warning.get("editorial_plan"):
+        for role, section in section_by_role.items():
+            body = str(section.get("body") or "")
+            ordinal_hits = sum(
+                1 for token in ("첫째", "둘째", "셋째", "넷째") if token in body
+            )
+            if ordinal_hits >= 2:
+                raise ValueError(
+                    f"{warning_id}/{role}: move multi-step prose enumeration into a structured sequence"
+                )
     for field in ("escalation_rules", "deescalation_rules", "actions"):
         _required_text_list(warning, field, warning_id)
     history = warning.get("history")
@@ -4676,6 +5094,15 @@ def read_decision_lens(path_value: str | None) -> dict[str, Any]:
     return validate_decision_lens(read_json(Path(path_value).resolve()))
 
 
+def read_signal_atomic_scope(path_value: str | None) -> dict[str, Any]:
+    if not path_value:
+        raise ValueError(
+            "atomic_scope_file is required: bound the Signal to one observed "
+            "event and state which surrounding context is excluded"
+        )
+    return validate_signal_atomic_scope(read_json(Path(path_value).resolve()))
+
+
 IMPACT_EXPRESSION_OPERATIONS = {"add", "subtract", "multiply", "divide", "negate"}
 IMPACT_INPUT_KINDS = {"verified", "derived", "assumption"}
 QUANTIFICATION_DECISIONS = {"modeled", "omitted"}
@@ -4974,6 +5401,9 @@ def add_signal(args: argparse.Namespace) -> dict[str, Any]:
     decision_lens = read_decision_lens(
         getattr(args, "decision_lens_file", None)
     )
+    atomic_scope = read_signal_atomic_scope(
+        getattr(args, "atomic_scope_file", None)
+    )
     quantification = resolve_quantification_input(args)
     impact_estimate = quantification.get("impact_estimate")
     referenced_model_sources = {
@@ -5076,6 +5506,7 @@ def add_signal(args: argparse.Namespace) -> dict[str, Any]:
         "signal_origin": signal_origin,
         "assumption_challenge": assumption_challenge,
         "decision_lens": decision_lens,
+        "atomic_scope": atomic_scope,
         "insight_id": insight_id,
         "company_ids": company_ids,
         "business_axis": args.business_axis.strip(),
@@ -5116,6 +5547,13 @@ def add_signal(args: argparse.Namespace) -> dict[str, Any]:
             dict.fromkeys([*discovery_contract.get("signal_ids", []), signal_id])
         )
         run_record["discovery_contract"] = discovery_contract
+    atomic_contract = dict(
+        run_record.get("atomic_signal_contract") or RUN_ATOMIC_SIGNAL_CONTRACT
+    )
+    atomic_contract["signal_ids"] = list(
+        dict.fromkeys([*atomic_contract.get("signal_ids", []), signal_id])
+    )
+    run_record["atomic_signal_contract"] = atomic_contract
     run_record.setdefault("results", {})["new_signals"] = len(published_signal_ids)
     write_json(run_path, run_record)
     sync_obsidian_store(root)
@@ -8185,15 +8623,384 @@ def _strategic_decision_lens_lines(lens: dict[str, Any] | None) -> list[str]:
         "| 판단 축 | 성립 조건 | 사업 효과와 행동 |",
         "| --- | --- | --- |",
         f"| **기회** | {markdown_cell(opportunity.get('condition') or '-')} "
-        f"| {markdown_cell(opportunity.get('business_effect') or '-')} "
-        f"{markdown_cell(opportunity.get('action') or '-')} |",
+        f"| **효과:** {markdown_cell(opportunity.get('business_effect') or '-')}<br>"
+        f"**행동:** {markdown_cell(opportunity.get('action') or '-')} |",
         f"| **위험** | {markdown_cell(risk.get('condition') or '-')} "
-        f"| {markdown_cell(risk.get('business_effect') or '-')} "
-        f"{markdown_cell(risk.get('action') or '-')} |",
+        f"| **효과:** {markdown_cell(risk.get('business_effect') or '-')}<br>"
+        f"**행동:** {markdown_cell(risk.get('action') or '-')} |",
         f"| **미실행 비용** | 판단을 미룰 때 "
         f"| {markdown_cell(lens.get('opportunity_cost') or '-')} |",
         "",
         f"**결정 전환 조건:** {markdown_cell(lens.get('decision_trigger') or '-')}",
+        "",
+    ]
+
+
+def _strategic_key_number_lines(
+    editorial_plan: dict[str, Any] | None,
+    sources_by_id: dict[str, dict[str, Any]],
+) -> list[str]:
+    if not isinstance(editorial_plan, dict):
+        return []
+    key_numbers = editorial_plan.get("key_numbers") or []
+    if not key_numbers:
+        return []
+    headers = " | ".join(f"**{markdown_cell(item.get('value') or '-')}**" for item in key_numbers)
+    separators = " | ".join("---:" for _ in key_numbers)
+    labels = " | ".join(markdown_cell(item.get("label") or "-") for item in key_numbers)
+    meanings = " | ".join(markdown_cell(item.get("meaning") or "-") for item in key_numbers)
+    evidence = " | ".join(
+        " · ".join(
+            wikilink(Path("sources") / f"{source_id}.md", f"근거 {index}")
+            for index, source_id in enumerate(item.get("source_ids") or [], 1)
+            if source_id in sources_by_id
+        )
+        or "-"
+        for item in key_numbers
+    )
+    return [
+        "**세 숫자로 읽는 시장 전환**",
+        "",
+        f"| {headers} |",
+        f"| {separators} |",
+        f"| {labels} |",
+        f"| {meanings} |",
+        f"| {evidence} |",
+        "",
+    ]
+
+
+STRATEGIC_CHART_COLORS = ("#05507D", "#2F7198", "#6A8FA8", "#A9BFCE")
+
+
+def _strategic_chart_value(value: float) -> str:
+    absolute = abs(value)
+    if absolute >= 1000:
+        return f"{value:,.0f}"
+    if absolute >= 100:
+        return f"{value:.0f}"
+    if absolute >= 10:
+        return f"{value:.1f}".rstrip("0").rstrip(".")
+    return f"{value:.2f}".rstrip("0").rstrip(".")
+
+
+def strategic_quantitative_chart_svg(visual: dict[str, Any]) -> str:
+    """Render a source-backed chart as a responsive, dependency-free SVG."""
+    width, height = 960, 500
+    left, right, top, bottom = 92, 32, 38, 102
+    plot_width = width - left - right
+    plot_height = height - top - bottom
+    series = list(visual.get("series") or [])
+    values = [
+        float(point["value"])
+        for item in series
+        for point in item.get("points") or []
+    ]
+    minimum = min(0.0, min(values))
+    maximum = max(0.0, max(values))
+    if math.isclose(minimum, maximum):
+        maximum = minimum + 1.0
+    raw_step = (maximum - minimum) / 5
+    magnitude = 10 ** math.floor(math.log10(raw_step))
+    normalized_step = raw_step / magnitude
+    nice_factor = next(
+        factor for factor in (1.0, 2.0, 5.0, 10.0) if normalized_step <= factor
+    )
+    tick_step = nice_factor * magnitude
+    maximum = math.ceil(maximum / tick_step) * tick_step
+    minimum = math.floor(minimum / tick_step) * tick_step if minimum < 0 else 0.0
+    tick_count = max(1, int(round((maximum - minimum) / tick_step)))
+
+    def y(value: float) -> float:
+        return top + (maximum - value) / (maximum - minimum) * plot_height
+
+    labels = [str(point["label"]) for point in series[0].get("points") or []]
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" role="img" '
+        f'aria-labelledby="chart-title chart-desc">',
+        f'<title id="chart-title">{html_escape(str(visual.get("title") or "정량 차트"))}</title>',
+        f'<desc id="chart-desc">{html_escape(str(visual.get("takeaway") or ""))}</desc>',
+        '<rect width="100%" height="100%" rx="18" fill="#ffffff"/>',
+    ]
+    for index in range(tick_count + 1):
+        value = minimum + tick_step * index
+        yy = y(value)
+        parts.extend(
+            [
+                f'<line x1="{left}" y1="{yy:.1f}" x2="{width-right}" y2="{yy:.1f}" '
+                'stroke="#dbe4ee" stroke-width="1"/>',
+                f'<text x="{left-12}" y="{yy+5:.1f}" text-anchor="end" '
+                'font-family="Arial, Noto Sans KR, sans-serif" font-size="15" fill="#52606d">'
+                f'{html_escape(_strategic_chart_value(value))}</text>',
+            ]
+        )
+    zero_y = y(0.0)
+    parts.append(
+        f'<line x1="{left}" y1="{zero_y:.1f}" x2="{width-right}" y2="{zero_y:.1f}" '
+        'stroke="#64748b" stroke-width="1.4"/>'
+    )
+    chart_kind = str(visual.get("chart_kind"))
+    if chart_kind == "line":
+        count = max(1, len(labels) - 1)
+        for series_index, item in enumerate(series):
+            color = STRATEGIC_CHART_COLORS[series_index % len(STRATEGIC_CHART_COLORS)]
+            points = list(item.get("points") or [])
+            coordinates = []
+            for point_index, point in enumerate(points):
+                xx = left + plot_width * point_index / count
+                yy = y(float(point["value"]))
+                coordinates.append(f"{xx:.1f},{yy:.1f}")
+            parts.append(
+                f'<polyline points="{" ".join(coordinates)}" fill="none" stroke="{color}" '
+                'stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
+            )
+            for point_index, point in enumerate(points):
+                xx = left + plot_width * point_index / count
+                yy = y(float(point["value"]))
+                parts.extend(
+                    [
+                        f'<circle cx="{xx:.1f}" cy="{yy:.1f}" r="6" fill="{color}"/>',
+                        f'<text x="{xx:.1f}" y="{yy-12:.1f}" text-anchor="middle" '
+                        'font-family="Arial, Noto Sans KR, sans-serif" font-size="15" font-weight="700" '
+                        f'fill="#172033">{html_escape(_strategic_chart_value(float(point["value"])))}</text>',
+                    ]
+                )
+    else:
+        category_count = max(1, len(labels))
+        group_width = plot_width / category_count
+        bar_width = min(78.0, group_width * 0.72 / max(1, len(series)))
+        for category_index, label in enumerate(labels):
+            group_center = left + group_width * (category_index + 0.5)
+            for series_index, item in enumerate(series):
+                point = (item.get("points") or [])[category_index]
+                value = float(point["value"])
+                xx = group_center + (series_index - (len(series) - 1) / 2) * bar_width - bar_width * 0.42
+                yy = y(max(value, 0.0))
+                bar_height = abs(y(value) - zero_y)
+                if value < 0:
+                    yy = zero_y
+                color = STRATEGIC_CHART_COLORS[series_index % len(STRATEGIC_CHART_COLORS)]
+                parts.extend(
+                    [
+                        f'<rect x="{xx:.1f}" y="{yy:.1f}" width="{bar_width*0.84:.1f}" '
+                        f'height="{max(2.0, bar_height):.1f}" rx="5" fill="{color}"/>',
+                        f'<text x="{xx + bar_width*0.42:.1f}" y="{(yy-10 if value >= 0 else yy+bar_height+20):.1f}" '
+                        'text-anchor="middle" font-family="Arial, Noto Sans KR, sans-serif" '
+                        f'font-size="15" font-weight="700" fill="#172033">{html_escape(_strategic_chart_value(value))}</text>',
+                    ]
+                )
+    for index, label in enumerate(labels):
+        xx = left + plot_width * (index / max(1, len(labels) - 1) if chart_kind == "line" else (index + 0.5) / len(labels))
+        parts.append(
+            f'<text x="{xx:.1f}" y="{height-bottom+34}" text-anchor="middle" '
+            'font-family="Arial, Noto Sans KR, sans-serif" font-size="15" fill="#334155">'
+            f'{html_escape(label[:18])}</text>'
+        )
+    if len(series) > 1:
+        legend_x = left
+        for index, item in enumerate(series):
+            color = STRATEGIC_CHART_COLORS[index % len(STRATEGIC_CHART_COLORS)]
+            parts.extend(
+                [
+                    f'<rect x="{legend_x}" y="{height-34}" width="15" height="15" rx="3" fill="{color}"/>',
+                    f'<text x="{legend_x+22}" y="{height-21}" font-family="Arial, Noto Sans KR, sans-serif" '
+                    f'font-size="14" fill="#334155">{html_escape(str(item.get("name") or "계열"))}</text>',
+                ]
+            )
+            legend_x += 190
+    parts.append("</svg>")
+    return "".join(parts)
+
+
+def write_strategic_quantitative_assets(root: Path, warning: dict[str, Any]) -> None:
+    plan = warning.get("editorial_plan") or {}
+    warning_id = str(warning.get("warning_id") or "strategic-issue")
+    asset_dir = root / "assets" / "charts" / "strategic"
+    asset_dir.mkdir(parents=True, exist_ok=True)
+    for stale_asset in asset_dir.glob(f"{warning_id}-*.svg"):
+        stale_asset.unlink()
+    for index, visual in enumerate(plan.get("visuals") or [], 1):
+        if visual.get("status") != "adopted" or visual.get("type") != "quantitative_chart":
+            continue
+        atomic_write_text(
+            asset_dir / f"{warning_id}-{index}.svg",
+            strategic_quantitative_chart_svg(visual) + "\n",
+        )
+
+
+def _strategic_quantitative_visual_lines(
+    editorial_plan: dict[str, Any] | None,
+    warning_id: str,
+    sources_by_id: dict[str, dict[str, Any]],
+) -> list[str]:
+    if not isinstance(editorial_plan, dict):
+        return []
+    lines: list[str] = []
+    for index, visual in enumerate(editorial_plan.get("visuals") or [], 1):
+        visual_type = visual.get("type")
+        if visual.get("status") != "adopted" or visual_type not in {
+            "quantitative_chart",
+            "quantitative_table",
+        }:
+            continue
+        title = markdown_cell(visual.get("title") or "정량 근거")
+        links = " · ".join(
+            wikilink(Path("sources") / f"{source_id}.md", f"근거 {link_index}")
+            for link_index, source_id in enumerate(visual.get("source_ids") or [], 1)
+            if source_id in sources_by_id
+        )
+        data_kind = {
+            "verified": "공식 확인값",
+            "derived": "공개자료 역산",
+            "scenario": "회사 실제값이 아닌 민감도",
+        }.get(str(visual.get("data_kind") or ""), "정량 근거")
+        lines.extend([f"**{title}**", ""])
+        if visual_type == "quantitative_chart":
+            lines.extend(
+                [
+                    f"![{title}](../assets/charts/strategic/{warning_id}-{index}.svg)",
+                    "{ .strategic-quant-chart }",
+                    "",
+                ]
+            )
+        else:
+            lines.extend(
+                [
+                    f"**읽는 법:** {markdown_cell(visual.get('takeaway') or '-')}",
+                    "{ .strategic-quant-lead }",
+                    "",
+                    f"| {' | '.join(markdown_cell(item) for item in visual.get('columns') or [])} |",
+                    f"| {' | '.join('---' for _ in visual.get('columns') or [])} |",
+                ]
+            )
+            for row in visual.get("rows") or []:
+                lines.append(f"| {' | '.join(markdown_cell(item) for item in row)} |")
+            lines.append("")
+        if visual_type == "quantitative_chart":
+            lines.extend(
+                [
+                    f"**읽는 법:** {markdown_cell(visual.get('takeaway') or '-')}",
+                    "",
+                ]
+            )
+        lines.extend(
+            [
+                f"_단위 {markdown_cell(visual.get('unit') or '-')} · 기준일 "
+                f"{markdown_cell(visual.get('as_of') or '-')} · "
+                f"{data_kind} · {links or '근거 미연결'}_",
+                "",
+                f"_계산·범위: {markdown_cell(visual.get('method_note') or '-')}_",
+                "",
+            ]
+        )
+    return lines
+
+
+def _strategic_editorial_visual_lines(
+    editorial_plan: dict[str, Any] | None, visual_type: str
+) -> list[str]:
+    if not isinstance(editorial_plan, dict):
+        return []
+    visual = next(
+        (
+            item
+            for item in editorial_plan.get("visuals", [])
+            if item.get("status") == "adopted" and item.get("type") == visual_type
+        ),
+        None,
+    )
+    if not isinstance(visual, dict):
+        return []
+    title = markdown_cell(visual.get("title") or "시각화")
+    caption = markdown_cell(visual.get("caption") or "")
+    if visual_type in {"comparison_table", "decision_sequence", "monitoring_dashboard"}:
+        columns = visual.get("columns") or []
+        lines = [f"**{title}**", "", f"| {' | '.join(markdown_cell(item) for item in columns)} |"]
+        lines.append(f"| {' | '.join('---' for _ in columns)} |")
+        for row in visual.get("rows") or []:
+            lines.append(f"| {' | '.join(markdown_cell(item) for item in row)} |")
+        lines.extend(["", f"_{caption}_", ""] if caption else [""])
+        return lines
+    if visual_type == "scenario_bars":
+        items = visual.get("items") or []
+        labels = ", ".join(f'"{markdown_cell(item.get("label") or "-")}"' for item in items)
+        values = ", ".join(str(item.get("value")) for item in items)
+        upper = max(float(item.get("value") or 0) for item in items) * 1.1
+        upper_label = str(max(1, int(upper + 0.999)))
+        unit = markdown_cell(visual.get("unit") or "")
+        lines = [
+            f"**{title}**",
+            "",
+            "```mermaid",
+            "xychart-beta",
+            f'    title "{title}"',
+            f"    x-axis [{labels}]",
+            f'    y-axis "{unit}" 0 --> {upper_label}',
+            f"    bar [{values}]",
+            "```",
+            "",
+        ]
+        if caption:
+            lines.extend([f"_{caption}_", ""])
+        return lines
+    return []
+
+
+COMPANY_INTEREST_LABELS = {"core": "핵심 관심", "conditional": "조건부 관심"}
+
+
+def _strategic_pill_lines(
+    warning: dict[str, Any], settings: dict[str, Any]
+) -> list[str]:
+    context = warning.get("structured_context") or {}
+    company_id = str(context.get("company_id") or "")
+    company_name = subject_display_name(company_id, settings) if company_id else "-"
+    business_axis = markdown_cell(context.get("business_axis") or "-")
+    change_category = markdown_cell(context.get("change_category") or "-")
+    return [
+        f'**{markdown_cell(company_name)}**{{ .signal-pill .signal-pill-company .signal-company-name aria-label="회사 {markdown_cell(company_name)}" }} '
+        f'**{business_axis}**{{ .signal-pill .signal-pill-axis aria-label="사업축 {business_axis}" }} '
+        f'**{change_category}**{{ .signal-pill .signal-pill-type aria-label="변화 유형 {change_category}" }}',
+        '{ .signal-detail-context .strategic-issue-context aria-label="회사, 사업축과 변화 유형" }',
+        "",
+    ]
+
+
+def _strategic_context_lines(
+    warning: dict[str, Any],
+    sources_by_id: dict[str, dict[str, Any]],
+    settings: dict[str, Any],
+) -> list[str]:
+    context = warning.get("structured_context") or {}
+    lens = warning.get("company_lens") or {}
+    company_id = str(context.get("company_id") or "")
+    company_name = subject_display_name(company_id, settings) if company_id else "-"
+    functions = " · ".join(str(item) for item in context.get("management_functions", []))
+    regions = " · ".join(str(item) for item in context.get("regions", []))
+    interest = COMPANY_INTEREST_LABELS.get(str(lens.get("interest_level")), "관심도 미정")
+    evidence_links = []
+    for index, source_id in enumerate(lens.get("evidence_source_ids", []), 1):
+        if str(source_id) not in sources_by_id:
+            continue
+        evidence_links.append(
+            wikilink(Path("sources") / f"{source_id}.md", f"회사 공식 근거 {index}")
+        )
+    return [
+        f"**이 이슈의 위치** · **경영 Function:** {markdown_cell(functions or '-')} · "
+        f"**지역·시장:** {markdown_cell(regions or '-')} · "
+        f"**시간:** {markdown_cell(context.get('time_horizon') or '-')}",
+        "",
+        f"**왜 우리 회사 이슈인가 · {interest}** · "
+        f"{markdown_cell(lens.get('exposure') or '-')} "
+        f"**바꿀 결정:** {markdown_cell(lens.get('decision_use') or '-')}",
+        "",
+        f'??? info "회사 연결 근거"',
+        "",
+        f"    **공식 사업 근거:** {markdown_cell(lens.get('official_basis') or '-')}",
+        "",
+        f"    **전달 경로:** {markdown_cell(lens.get('impact_path') or '-')}",
+        "",
+        f"    **회사 공식 원문:** {' · '.join(evidence_links) or '-'}",
         "",
     ]
 
@@ -8205,36 +9012,61 @@ def strategic_warning_page_lines(
     signals_by_id: dict[str, dict[str, Any]],
     insights_by_id: dict[str, dict[str, Any]],
     sources_by_id: dict[str, dict[str, Any]],
+    settings: dict[str, Any],
 ) -> list[str]:
     level = WARNING_LEVEL_LABELS.get(str(warning.get("level")), "미정")
     direction = STRATEGIC_ISSUE_DIRECTION_LABELS.get(
         str(warning.get("issue_direction")), "방향 미정"
     )
     status = "활성" if warning.get("status") == "active" else "종료"
+    editorial_plan = warning.get("editorial_plan")
+    has_editorial_plan = isinstance(editorial_plan, dict)
+    reader_question = (
+        editorial_plan.get("reader_question")
+        if has_editorial_plan
+        else warning.get("decision_question")
+    )
+    provisional_conclusion = (
+        editorial_plan.get("provisional_conclusion")
+        if has_editorial_plan
+        else warning.get("executive_summary")
+    )
     lines = [
         GENERATED_MARKER,
         "",
+    ]
+    lines.extend(_strategic_pill_lines(warning, settings))
+    lines.extend([
         f"# {markdown_cell(warning.get('title') or '핵심 전략 이슈')}",
         "",
+    ])
+    lines.extend(_strategic_context_lines(warning, sources_by_id, settings))
+    lines.extend([
         f'!!! warning "{level} · {status} · {direction}"',
         "",
-        f"    **{markdown_cell(warning.get('executive_summary') or '-')}**",
+        f"    **판단 질문:** {markdown_cell(reader_question or '-')}",
         "",
-        f"    **판단 질문:** {markdown_cell(warning.get('decision_question') or '-')}",
+        f"    **잠정 결론:** {markdown_cell(provisional_conclusion or '-')}",
         "",
         f"    **다음 사업 분기점:** {markdown_cell(warning.get('next_milestone') or '-')}",
         "",
-        "**변화와 분기점**",
-        "",
-        "| 시점 | 구분 | 확인된 변화·판단 |",
-        "| --- | --- | --- |",
-    ]
-    for item in warning.get("timeline", []):
-        lines.append(
-            f"| **{markdown_cell(item.get('date_label') or '-')}** "
-            f"| {STRATEGIC_ISSUE_TIMELINE_LABELS.get(str(item.get('kind')), '-')} "
-            f"| {markdown_cell(item.get('label') or '-')} |"
+    ])
+    lines.extend(_strategic_key_number_lines(editorial_plan, sources_by_id))
+    lines.extend(
+        _strategic_quantitative_visual_lines(
+            editorial_plan,
+            str(warning.get("warning_id") or "strategic-issue"),
+            sources_by_id,
         )
+    )
+    if not has_editorial_plan:
+        lines.extend(["**변화와 분기점**", "", "| 시점 | 구분 | 확인된 변화·판단 |", "| --- | --- | --- |"])
+        for item in warning.get("timeline", []):
+            lines.append(
+                f"| **{markdown_cell(item.get('date_label') or '-')}** "
+                f"| {STRATEGIC_ISSUE_TIMELINE_LABELS.get(str(item.get('kind')), '-')} "
+                f"| {markdown_cell(item.get('label') or '-')} |"
+            )
 
     signal_ids = list(
         dict.fromkeys(
@@ -8249,7 +9081,8 @@ def strategic_warning_page_lines(
     section_by_role = {
         str(section.get("role")): section for section in warning.get("report_sections", [])
     }
-    lines.extend(_strategic_indicator_lines(trends, sources_by_id))
+    if not has_editorial_plan:
+        lines.extend(_strategic_indicator_lines(trends, sources_by_id))
 
     market_change = section_by_role.get("market_change") or {}
     assumption_shift = section_by_role.get("assumption_shift") or {}
@@ -8269,12 +9102,27 @@ def strategic_warning_page_lines(
             "",
             str(assumption_shift.get("body") or "-").strip(),
             "",
+        ]
+    )
+    lines.extend(_strategic_editorial_visual_lines(editorial_plan, "comparison_table"))
+    if has_editorial_plan:
+        lines.extend(["**변화와 분기점**", "", "| 시점 | 구분 | 확인된 변화·판단 |", "| --- | --- | --- |"])
+        for item in warning.get("timeline", []):
+            lines.append(
+                f"| **{markdown_cell(item.get('date_label') or '-')}** "
+                f"| {STRATEGIC_ISSUE_TIMELINE_LABELS.get(str(item.get('kind')), '-')} "
+                f"| {markdown_cell(item.get('label') or '-')} |"
+            )
+        lines.append("")
+    lines.extend(
+        [
             f"## {business_impact.get('heading') or '사업 영향'}",
             "",
             str(business_impact.get("body") or "-").strip(),
             "",
         ]
     )
+    lines.extend(_strategic_editorial_visual_lines(editorial_plan, "scenario_bars"))
     lines.extend(_strategic_issue_flow_lines(warning))
     lines.extend(_strategic_decision_lens_lines(warning.get("decision_lens")))
     lines.extend(
@@ -8286,14 +9134,28 @@ def strategic_warning_page_lines(
             "",
             str(recommendation.get("body") or "-").strip(),
             "",
-            f"**권고 시한:** {markdown_cell(warning.get('decision_deadline') or '-')} · "
-            f"**담당:** {markdown_cell(warning.get('owner') or '-')}",
-            "",
-            "**지금 만들 산출물**",
-            "",
         ]
     )
-    lines.extend(f"- {markdown_cell(item)}" for item in warning.get("actions", []))
+    decision_sequence_lines = _strategic_editorial_visual_lines(
+        editorial_plan, "decision_sequence"
+    )
+    lines.extend(decision_sequence_lines)
+    decision_deadline = str(warning.get("decision_deadline") or "").strip()
+    if decision_deadline:
+        deadline_line = f"**권고 시한:** {markdown_cell(decision_deadline)}"
+        if not decision_sequence_lines:
+            deadline_line += f" · **담당:** {markdown_cell(warning.get('owner') or '-')}"
+        lines.extend([deadline_line, ""])
+    elif not decision_sequence_lines:
+        lines.extend(
+            [
+                f"**담당:** {markdown_cell(warning.get('owner') or '-')}",
+                "",
+            ]
+        )
+    if not decision_sequence_lines:
+        lines.extend(["**지금 만들 산출물**", ""])
+        lines.extend(f"- {markdown_cell(item)}" for item in warning.get("actions", []))
     lines.extend(
         [
             "",
@@ -8301,16 +9163,35 @@ def strategic_warning_page_lines(
             "",
             str(monitoring.get("body") or "-").strip(),
             "",
-            "| 확인 방향 | 구체적 변화 |",
-            "| --- | --- |",
         ]
     )
-    for item in warning.get("escalation_rules", []):
-        lines.append(f"| 이슈 강도 상승 | {markdown_cell(item)} |")
-    for item in warning.get("deescalation_rules", []):
-        lines.append(f"| 이슈 강도 완화 | {markdown_cell(item)} |")
-    for item in thesis.get("falsification_conditions", []):
-        lines.append(f"| 기존 해석 재검토 | {markdown_cell(item)} |")
+    monitoring_dashboard_lines = _strategic_editorial_visual_lines(
+        editorial_plan, "monitoring_dashboard"
+    )
+    lines.extend(monitoring_dashboard_lines)
+    if monitoring_dashboard_lines:
+        escalation = list(warning.get("escalation_rules", []))
+        deescalation = list(warning.get("deescalation_rules", []))
+        lines.extend(
+            [
+                "**결론을 바꾸는 조건**",
+                "",
+                "| 이슈 강화 | 이슈 완화 |",
+                "| --- | --- |",
+            ]
+        )
+        for index in range(max(len(escalation), len(deescalation))):
+            up = escalation[index] if index < len(escalation) else "-"
+            down = deescalation[index] if index < len(deescalation) else "-"
+            lines.append(f"| {markdown_cell(up)} | {markdown_cell(down)} |")
+    else:
+        lines.extend(["| 확인 방향 | 구체적 변화 |", "| --- | --- |"])
+        for item in warning.get("escalation_rules", []):
+            lines.append(f"| 이슈 강도 상승 | {markdown_cell(item)} |")
+        for item in warning.get("deescalation_rules", []):
+            lines.append(f"| 이슈 강도 완화 | {markdown_cell(item)} |")
+        for item in thesis.get("falsification_conditions", []):
+            lines.append(f"| 기존 해석 재검토 | {markdown_cell(item)} |")
 
     lines.extend(
         [
@@ -8419,7 +9300,7 @@ def strategic_warning_index_lines(warnings: list[dict[str, Any]]) -> list[str]:
         "",
         "## 현재 추적 중인 이슈",
         "",
-        "| 상태 | 방향 | 사업축 | 핵심 전략 이슈 | 다음 사업 분기점 |",
+        "| 상태 | 방향 | 회사·분야·카테고리 | 핵심 전략 이슈 | 다음 사업 분기점 |",
         "| --- | --- | --- | --- | --- |",
     ]
     for warning in active:
@@ -8468,7 +9349,11 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
         if record.get("source_id")
     }
     claims = [claim for _, claim in claim_records(root)]
-    signals = [signal for _, signal in signal_records(root)]
+    signals = [
+        signal
+        for _, signal in signal_records(root)
+        if signal.get("status", "active") == "active"
+    ]
     insights = [insight for _, insight in insight_records(root)]
     trends = [trend for _, trend in trend_records(root)]
     theses = [thesis for _, thesis in thesis_records(root)]
@@ -8726,7 +9611,21 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
             lines.append("> 보관 원문을 찾을 수 없습니다.")
         atomic_write_text(root / relative, "\n".join(lines) + "\n")
 
-    for signal in signals:
+    active_signals = [
+        signal for signal in signals if signal.get("status", "active") == "active"
+    ]
+    active_signal_ids = {
+        str(signal.get("signal_id") or "") for signal in active_signals
+    }
+    for generated_path in (root / "signals").glob("SIG-*.md"):
+        if generated_path.stem in active_signal_ids:
+            continue
+        if generated_path.read_text(encoding="utf-8", errors="replace").startswith(
+            GENERATED_MARKER
+        ):
+            generated_path.unlink()
+
+    for signal in active_signals:
         signal_id = str(signal.get("signal_id") or "")
         insight = insights_by_id.get(str(signal.get("insight_id") or ""))
         if not signal_id or insight is None:
@@ -8738,7 +9637,7 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
         )
     atomic_write_text(
         root / "signals" / "index.md",
-        "\n".join(signal_index_lines(signals, insights_by_id, settings)) + "\n",
+        "\n".join(signal_index_lines(active_signals, insights_by_id, settings)) + "\n",
     )
 
     for warning in warnings:
@@ -8751,6 +9650,7 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
             for trend_id in thesis.get("trend_ids", [])
             if trend_id in trends_by_id
         ]
+        write_strategic_quantitative_assets(root, warning)
         atomic_write_text(
             root / "strategic-warnings" / f"{warning_id}.md",
             "\n".join(
@@ -8761,6 +9661,7 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
                     _records_by_id(signal_records(root), "signal_id"),
                     insights_by_id,
                     sources_by_id,
+                    settings,
                 )
             )
             + "\n",
@@ -8994,8 +9895,12 @@ def sync_obsidian_store(root: Path) -> dict[str, Any]:
                 "",
                 f"    **포착할 기회:** {opportunity}",
                 "",
-                f"    다음 검토: {markdown_cell(warning.get('next_review_at') or '-')} · "
-                f"판단 시한: {markdown_cell(warning.get('decision_deadline') or '-')}",
+                (
+                    f"    다음 검토: {markdown_cell(warning.get('next_review_at') or '-')} · "
+                    f"판단 시한: {markdown_cell(warning.get('decision_deadline'))}"
+                    if warning.get("decision_deadline")
+                    else f"    다음 검토: {markdown_cell(warning.get('next_review_at') or '-')}"
+                ),
                 "",
             ]
         )
@@ -10014,6 +10919,19 @@ def audit_store(args: argparse.Namespace) -> dict[str, Any]:
                 validate_assumption_challenge(signal.get("assumption_challenge"))
             except ValueError as exc:
                 findings["signal_quality"].append(f"{signal_id}: {exc}")
+        atomic_contract = (
+            audit_runs_by_id.get(run_id, {}).get("atomic_signal_contract")
+            if run_id
+            else None
+        )
+        atomic_signal_ids = {
+            str(item) for item in (atomic_contract or {}).get("signal_ids", [])
+        }
+        if signal_id in atomic_signal_ids:
+            try:
+                validate_signal_atomic_scope(signal.get("atomic_scope"))
+            except ValueError as exc:
+                findings["signal_quality"].append(f"{signal_id}: {exc}")
         insight_id = str(signal.get("insight_id") or "")
         if not insight_id or insight_id not in insights:
             findings["signal_integrity"].append(
@@ -10237,6 +11155,19 @@ def audit_store(args: argparse.Namespace) -> dict[str, Any]:
         if warning.get("status") == "active" and next_review and next_review < date.today():
             findings["strategic_watch"].append(
                 f"{warning_id}: active warning review overdue since {next_review.isoformat()}"
+            )
+    closing_shapes: dict[str, list[str]] = defaultdict(list)
+    for warning_id, warning in sorted(audit_warnings.items()):
+        if warning.get("status") != "active":
+            continue
+        shape = strategic_issue_title_closing_shape(warning.get("title"))
+        if shape:
+            closing_shapes[shape].append(warning_id)
+    for shape, warning_ids in sorted(closing_shapes.items()):
+        if len(warning_ids) > 2:
+            findings["strategic_watch"].append(
+                f"active strategic issue titles repeat the {shape} closing "
+                f"{len(warning_ids)} times: {', '.join(warning_ids)}"
             )
     for thesis_id in sorted(set(audit_theses) - referenced_theses):
         findings["strategic_watch"].append(f"{thesis_id}: thesis is not linked to a warning")
@@ -10738,6 +11669,13 @@ def build_parser() -> argparse.ArgumentParser:
         help=(
             "JSON assessment of opportunity, risk, cost of inaction, and the "
             "condition that changes the decision."
+        ),
+    )
+    signal_parser.add_argument(
+        "--atomic-scope-file", required=True,
+        help=(
+            "JSON boundary proving that this Signal represents one observed event; "
+            "cross-event conclusions belong in a Strategic Issue."
         ),
     )
     signal_parser.add_argument(

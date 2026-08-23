@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "decision": "omitted",
+  "assessed_at": "2026-08-19",
+  "omission": {
+    "reason_code": "insufficient_causal_model",
+    "rationale": "MP Materials의 가격·구매계약은 특정 미국 사업에 적용되므로 이를 포스코홀딩스 후보사업의 지원액이나 수익으로 전용할 수 없고, 한국·EU에서 받을 실제 계약조건도 아직 없습니다.",
+    "required_inputs": ["포스코홀딩스 후보사업의 국가와 지배구조", "적용 가능한 정책금융 조건", "앵커 고객 가격보호·최소구매 조건", "자체 부담 투자비와 자본비용"],
+    "reconsider_when": "후보사업별 정책지원 조건서와 고객 최소구매 계약초안이 확보돼 시장단독안과 계약선행안의 현금흐름을 비교할 수 있을 때 모델링합니다."
+  }
+}

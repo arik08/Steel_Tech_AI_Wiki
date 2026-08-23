@@ -1,0 +1,168 @@
+{
+  "run_id": "2026-08-20-core-strategic-issue-sensing-test",
+  "started_at": "2026-08-20T21:00:00+09:00",
+  "completed_at": "2026-08-20T21:40:00+09:00",
+  "decision_context": {
+    "decision_question": "최근 3년 안의 공개 변화 중 포스코그룹 핵심 전략 이슈로 유지하거나 승격할 만한 것은 무엇인가?",
+    "decision_horizon": "2026-2028",
+    "business_exposure": ["가격", "원가", "물량", "계약", "투자", "운영", "현금흐름"],
+    "key_assumptions": [
+      "철강은 총수요 회복과 평균 통상장벽으로 생산·수출 계획을 세울 수 있다",
+      "리튬은 전체 배터리 성장률이 곧 리튬 수요 성장률로 전달된다",
+      "전략광물은 공급통제 확인 뒤 자산을 매입해도 진입 기회가 남는다",
+      "에너지는 생산량과 연평균 가격만으로 LNG·가스 포트폴리오 가치를 판단할 수 있다"
+    ],
+    "decision_variables": ["시장접근 규칙", "고객 실제 구매행동", "원료 병목", "대체기술 실제 납품", "제도 시행일", "계약 데이터 권리"],
+    "provisional": false
+  },
+  "coverage": {
+    "scope": {
+      "business_axes": ["철강", "리튬", "전략광물", "에너지"],
+      "impact_paths": ["가격", "원가", "물량", "계약", "투자", "운영", "현금흐름"],
+      "signal_types": ["정책·규제", "수급·가격", "고객·계약", "공급망·물류", "기술·운영"],
+      "markets": ["EU", "미국", "중국", "호주", "세계 철강시장", "세계 배터리시장"],
+      "date_from": "2023-08-20",
+      "date_to": "2026-08-20"
+    },
+    "cells": [
+      {
+        "cell_id": "steel-market-access-carbon-tariff",
+        "assumption": "수출 물량은 국가·품목별 쿼터와 평균 관세로만 배분하면 된다",
+        "assumption_breaking_pattern": "market_access_rule",
+        "priority": "high",
+        "priority_reason": "EU CBAM 본격 시행, EU 철강 수입축소, 미국 Section 232 50% 관세가 모두 고객·제품 선택을 바꿈",
+        "status": "checked",
+        "verification_state": "confirmed_existing",
+        "strategies_checked": ["primary-source search", "local knowledge trace", "counterparty search"]
+      },
+      {
+        "cell_id": "lithium-chemistry-and-sodium-ess",
+        "assumption": "배터리 저장용량 증가는 대부분 리튬 수요로 환산된다",
+        "assumption_breaking_pattern": "substitute_demand",
+        "priority": "high",
+        "priority_reason": "LFP 확산과 나트륨이온 ESS 계약·납품일이 수산화리튬·ESS 수요모델을 분리하게 만듦",
+        "status": "checked",
+        "verification_state": "confirmed_existing",
+        "strategies_checked": ["primary-source search", "customer-action search", "counter-evidence search"]
+      },
+      {
+        "cell_id": "critical-minerals-china-controls-options",
+        "assumption": "중국 통제가 확정된 뒤 비중국 자산을 골라도 진입 기회가 남는다",
+        "assumption_breaking_pattern": "policy_collision",
+        "priority": "high",
+        "priority_reason": "희토류·텅스텐 통제와 미국 장기구매·가격보장이 옵션 확보 순서를 앞당김",
+        "status": "checked",
+        "verification_state": "confirmed_existing",
+        "strategies_checked": ["primary-source search", "counterparty search", "failure-signal search"]
+      },
+      {
+        "cell_id": "energy-gas-contract-optionality",
+        "assumption": "가스 생산량과 연평균 가격으로 포트폴리오 가치를 판단할 수 있다",
+        "assumption_breaking_pattern": "timing_gap",
+        "priority": "high",
+        "priority_reason": "호주 2027년 겨울 부족과 내수공급 제도, EU 메탄 검증요건이 계약 선택권을 바꿈",
+        "status": "checked",
+        "verification_state": "confirmed_existing",
+        "strategies_checked": ["primary-source search", "physical-market search", "regulatory search"]
+      }
+    ],
+    "cells_checked": [
+      "OECD Steel Outlook 2026의 2028년 과잉설비 전망과 worldsteel 2026 수요전망",
+      "EU CBAM 본격 시행과 EU 철강 수입조치, 미국 Section 232 관세",
+      "IEA Global EV Outlook 2026의 배터리 화학계 변화와 CATL 나트륨 ESS 계약·납품일",
+      "중국 희토류·텅스텐 수출통제와 미국 희토류 장기구매",
+      "ACCC 2027년 겨울 가스 부족 전망, 호주 내수공급 제도, EU 메탄 수입요건"
+    ],
+    "screened_external_candidates": [
+      {
+        "candidate": "2026년 8월 희토류 일부 품목 가격 급등 보도",
+        "decision": "not_ingested",
+        "reason": "전략광물 이슈를 보강할 수 있으나 유료 보도와 가격 스니펫만으로 원자 Claim을 만들지 않았고, 기존 중국 통제·미국 장기구매 이슈가 더 직접적인 1차 근거를 가짐"
+      },
+      {
+        "candidate": "미국·캐나다 철강 관세 협상 보도",
+        "decision": "not_ingested",
+        "reason": "협상 보도는 최신성이 높지만 최종 공식 조치가 아니며 POSCO 사업 전달 경로는 기존 미국 Section 232·EU 시장접근 이슈보다 약함"
+      },
+      {
+        "candidate": "중국 흑연·리튬배터리 수출통제 추가 보도",
+        "decision": "not_ingested",
+        "reason": "일부 조치가 한시 중단된 상태라 희토류·텅스텐보다 포스코홀딩스의 확정 전략광물 진입 판단과 연결성이 낮고, 별도 원문 등록은 후속 공식 재개 시점에 수행"
+      }
+    ],
+    "validated_strategic_issue_ids": [
+      "WRN-STEEL-EU-VOLUME-CARBON-MIX",
+      "WRN-STEEL-DEMAND-CAPACITY-GAP",
+      "WRN-STEEL-DRI-PELLET-BOTTLENECK",
+      "WRN-LITHIUM-HYDROXIDE-MIX",
+      "WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION",
+      "WRN-LITHIUM-45X-ELIGIBILITY",
+      "WRN-LITHIUM-BLACK-MASS-FEEDSTOCK",
+      "WRN-RARE-EARTH-CONTROL-OPTION",
+      "WRN-TUNGSTEN-LICENSE-PRICE",
+      "WRN-ENERGY-EU-METHANE-COMPLIANCE",
+      "WRN-AU-GAS-RESERVATION-WINTER"
+    ],
+    "high_risk_gaps": [
+      "포스코 제품별 EU·미국 고객 가격차, 쿼터 소진률, 계약 갱신일은 내부 데이터가 필요함",
+      "나트륨이온 ESS의 실제 누적 납품량과 총소유비용은 후속 상용 운전 자료가 필요함",
+      "중국 희토류 추가조치의 2026년 11월 10일 이후 재개·연장 여부는 아직 미확정",
+      "호주 내수공급 제도의 최종 적용대상과 Senex 직접 적용 여부는 미확정",
+      "전략광물 후보 원소와 국내 고객 최소구매량은 공개정보로 확인되지 않음"
+    ],
+    "query_yield": [
+      {
+        "query_group": "official-source web refresh",
+        "new_urls": 28,
+        "new_events": 2,
+        "new_claims": 0,
+        "state_changes": 0,
+        "decision_changes": 0,
+        "note": "EU·미국·UK 철강 수입조치, IEA 핵심광물·나트륨이온, 호주 가스 내수공급 제도, ACER LNG 집중도 등을 추가 확인했으나 기존 핵심 전략 이슈의 보강 또는 다음 트리거로 분류함"
+      },
+      {
+        "query_group": "local strategic issue trace",
+        "new_urls": 0,
+        "new_events": 0,
+        "new_claims": 0,
+        "state_changes": 0,
+        "decision_changes": 11,
+        "note": "기존 11개 active 핵심 전략 이슈가 최근 3년 범위의 고영향 외부 변화와 연결되어 있음을 확인"
+      }
+    ],
+    "stop_reason": "공식 원문과 기존 Source·Signal을 대조한 결과 신규 저장이 필요한 독립 고영향 사건보다 기존 11개 핵심 전략 이슈의 보강·추적 가치가 더 큼",
+    "next_triggers": [
+      "2026-11-10 중국 희토류 추가조치 중단 종료 후속공고",
+      "2026년 말 나트륨이온 ESS 실제 누적 인도량과 해외 후속수주",
+      "2026년 9월 호주 가스 내수공급 제도 수정안 또는 추가 협의 개시 여부",
+      "호주 내수공급 제도 최종 법안·적용대상 공개",
+      "2026-08-31 EU 철강 melt and pour 증빙요건 확정·시행",
+      "EU CBAM 첫 본격 이행 과정의 고객별 비용 전가와 인증서 가격",
+      "worldsteel·OECD 차기 철강 수요·설비 전망",
+      "미국 Section 232 관세의 최종 예외·쿼터·국가별 조정 공식 발표"
+    ],
+    "limitations": [
+      "웹 스크리닝은 공식·주요 공개 채널 중심이며 인터넷 전체 확인이 아님",
+      "스니펫·유료 보도만 확인된 최신 가격 움직임과 정책 재설계 전망은 Source·Claim으로 저장하지 않음",
+      "회사 내부 노출·원가·계약 데이터가 없어 일부 이슈의 정량 영향은 내부 입력 후 갱신 필요"
+    ],
+    "signal_mix": {
+      "minimum_core_market_ratio": 0.7,
+      "interpretation": "bias_warning_not_fill_quota",
+      "counts_by_axis": {
+        "철강": {"core": 13, "execution": 1},
+        "리튬": {"core": 13, "execution": 6},
+        "전략광물": {"core": 4, "execution": 0},
+        "에너지": {"core": 12, "execution": 6}
+      },
+      "dominant_asset_by_axis": {}
+    }
+  },
+  "results": {
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_signals": 0,
+    "new_strategic_issues": 0,
+    "validated_strategic_issues": 11
+  }
+}

@@ -14,6 +14,16 @@
     "surprise_score": 4,
     "falsification_check": "최종 법률에서 저탄소 철강 조달기준이 삭제되거나 역외 제품의 참여가 배제되는지 확인합니다."
   },
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "eu.steel-quota-carbon-proposal.2025",
+    "change_unit": "policy_measure",
+    "observation": "EU가 철강 무관세 물량 축소와 초과관세·원산지·저탄소 조건을 결합한 대체조치를 제안했습니다.",
+    "market_boundary": "EU 철강 수입시장과 제안된 대체조치 적용 품목",
+    "time_boundary": "2025년 제안부터 최종 법문 확정 전까지",
+    "excluded_context": "미국·영국·인도 조치와 세계 초과설비는 별도 사건으로 제외합니다.",
+    "single_event_rationale": "EU 집행위의 같은 입법 제안이 하나의 시장접근 체계에서 쿼터와 자격조건을 함께 설계한 정책 사건입니다."
+  },
   "insight_id": "INS-FA050567F705",
   "company_ids": [
     "COM-POSCO"

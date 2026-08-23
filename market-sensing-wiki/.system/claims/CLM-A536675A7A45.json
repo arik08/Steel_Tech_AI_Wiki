@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-A536675A7A45",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "restriction_scope",
+  "value": "listed entities are subject to asset freeze and direct or indirect provision of funds or economic resources is prohibited",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-E33837C5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "EU Council sanctions terms",
+      "source_ids": [
+        "SRC-20260820-E33837C5"
+      ]
+    }
+  ]
+}

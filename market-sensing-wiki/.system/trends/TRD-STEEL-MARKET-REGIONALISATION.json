@@ -1,0 +1,62 @@
+{
+  "schema_version": 7,
+  "trend_id": "TRD-STEEL-MARKET-REGIONALISATION",
+  "title": "주요 철강시장의 접근조건과 세계 초과설비가 동시에 강화",
+  "summary": "미국·EU·영국·인도의 장벽이 현지 생산자격과 축소 쿼터로 이동하는 동안 세계 초과설비도 확대되고 있습니다.",
+  "business_axis": "철강",
+  "direction": "strengthening",
+  "first_detected_at": "2025-04-21",
+  "last_observed_at": "2026-08-20",
+  "signal_ids": [
+    "SIG-A07F1B887CA2",
+    "SIG-50D67D94CE68",
+    "SIG-C8AF9A1B623E",
+    "SIG-EFB4A11676A9",
+    "SIG-DE2981C00725",
+    "SIG-7A55EC61FBC5"
+  ],
+  "supporting_source_ids": [
+    "SRC-20260818-2778E1E7",
+    "SRC-20260818-5C2CEB19",
+    "SRC-20260819-E0FF0193",
+    "SRC-20260819-E42DE3D9",
+    "SRC-20260819-1066116D",
+    "SRC-20260820-422EE636",
+    "SRC-20260820-214114A4"
+  ],
+  "counter_source_ids": [
+    "SRC-20260819-E0FF0193"
+  ],
+  "indicators": [
+    {
+      "label": "EU 제안 무관세 수입물량",
+      "current": "18.3",
+      "unit": "Mt/년",
+      "observed_at": "2026-08-20",
+      "interpretation": "기존 세이프가드보다 희소해질 접근물량의 기준입니다.",
+      "source_ids": [
+        "SRC-20260818-5C2CEB19"
+      ]
+    },
+    {
+      "label": "영국 무관세 쿼터 축소율",
+      "current": "51",
+      "unit": "percent",
+      "observed_at": "2026-08-20",
+      "interpretation": "보호시장 접근권 희소화의 실제 시행 강도입니다.",
+      "source_ids": [
+        "SRC-20260820-422EE636"
+      ]
+    },
+    {
+      "label": "세계 철강 초과설비 2028 전망",
+      "current": "745",
+      "unit": "Mt",
+      "observed_at": "2026-08-20",
+      "interpretation": "보호시장 배제 물량이 제3시장 가격을 누를 물리적 배경입니다.",
+      "source_ids": [
+        "SRC-20260818-2778E1E7"
+      ]
+    }
+  ]
+}

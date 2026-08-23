@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-45EB722E9643",
+  "subject_id": "POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES",
+  "predicate": "assessment_confidence",
+  "value": "medium",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-5E07EF78",
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Rule is confirmed but transaction routing is private",
+      "source_ids": [
+        "SRC-20260820-5E07EF78",
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

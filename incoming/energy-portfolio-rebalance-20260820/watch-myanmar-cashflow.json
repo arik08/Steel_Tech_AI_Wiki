@@ -1,0 +1,154 @@
+{
+  "schema_version": 7,
+  "trend": {
+    "trend_id": "TRD-MYANMAR-GAS-SANCTIONS-CASHFLOW",
+    "title": "미얀마 가스 생산과 국제 제재의 결제영향이 분리",
+    "summary": "가스전은 정상 운영 상태를 유지했지만 미국 금융서비스 제한과 EU 제재 연장이 거래별 대금회수 경로를 별도로 관리하게 합니다.",
+    "business_axis": "에너지",
+    "direction": "strengthening",
+    "first_detected_at": "2023-10-31",
+    "last_observed_at": "2026-08-20",
+    "signal_ids": ["SIG-3C1FC7BD3A4D", "SIG-562D3364FA7B"],
+    "supporting_source_ids": ["SRC-20260820-E33837C5", "SRC-20260820-5E07EF78", "SRC-20260820-71D52944", "SRC-20260820-54ADB74E", "SRC-20260819-D7164DFA"],
+    "counter_source_ids": ["SRC-20260820-54ADB74E"],
+    "indicators": [
+      {"label": "포스코인터내셔널 가스전 운영지분", "current": "51", "unit": "%", "observed_at": "2026-08-20", "interpretation": "생산·정비 운영 노출의 기준입니다.", "source_ids": ["SRC-20260820-54ADB74E"]},
+      {"label": "MOGE 가스전 참여지분", "current": "15", "unit": "%", "observed_at": "2026-08-20", "interpretation": "제재 대상과 연결된 수익 귀속을 분리할 기준입니다.", "source_ids": ["SRC-20260820-54ADB74E"]},
+      {"label": "OFAC 소유기준", "current": "50", "unit": "%", "observed_at": "2026-08-20", "interpretation": "합작법인 자동 적용 여부와 거래 목적 심사를 구분하는 경계입니다.", "source_ids": ["SRC-20260820-71D52944"]}
+    ]
+  },
+  "thesis": {
+    "thesis_id": "THS-MYANMAR-GAS-SANCTIONS-CASHFLOW",
+    "title": "안정 생산과 안정 현금회수를 별도 승인할 시기",
+    "statement": "미얀마 가스전은 생산·정비 지표와 별도로 거래별 제재 접점·결제·보험·외환 경로를 승인해야 합니다.",
+    "strategic_assumption_at_risk": "가스전이 정상 생산되면 판매대금 회수와 현금흐름도 같은 수준으로 안정적이라는 전제",
+    "business_axis": "에너지",
+    "company_ids": ["COM-POSCO-INTERNATIONAL"],
+    "trend_ids": ["TRD-MYANMAR-GAS-SANCTIONS-CASHFLOW"],
+    "supporting_signal_ids": ["SIG-3C1FC7BD3A4D", "SIG-562D3364FA7B"],
+    "execution_context_signal_ids": ["SIG-DC54DC18D74A", "SIG-B3D99438BE40"],
+    "business_impact_path": "EU 제재 연장·미국 금융서비스 제한 → 실질 수익자·소유관계·미국 접점 심사 → 결제·보험 승인 또는 지연 → 대금회수 기간·비용 → 미얀마 가스전 현금흐름",
+    "confidence": "medium",
+    "decision_horizon": "2026년 거래경로 재검증부터 2027년 4월 EU 연례 검토까지",
+    "counter_evidence": ["회사 감사자료는 2024년 말 가스전이 정상 운영 중이라고 공시했습니다.", "미국 지침은 다른 법률에 의해 금지되지 않은 비금융 활동을 일괄 금지하지 않습니다."],
+    "falsification_conditions": ["EU가 MOGE 관련 제한을 해제하고 OFAC가 현행 결제·보험 경로를 명시적으로 허용합니다.", "주요 거래은행의 승인기간과 미수금 일수가 평시 범위에서 유지됩니다."]
+  },
+  "warning": {
+    "warning_id": "WRN-MYANMAR-GAS-SANCTIONS-CASHFLOW",
+    "title": "미얀마 가스전의 정상 생산과 대금회수를 갈라놓는 국제 제재",
+    "business_axis": "에너지",
+    "thesis_id": "THS-MYANMAR-GAS-SANCTIONS-CASHFLOW",
+    "level": "warning",
+    "status": "active",
+    "issue_direction": "risk",
+    "executive_summary": "유럽연합은 미얀마 제재를 2027년 4월 30일까지 연장했고, 미국은 미얀마 국영 석유가스공사(MOGE)를 위한 송금·보험·보증·외환 등 금융서비스를 제한하고 있습니다. 포스코인터내셔널은 가스전 51% 운영지분을 보유하고 MOGE가 15% 참여하며 2024년 말 생산은 정상 운영 중이었습니다. 이제 생산량과 비용회수율만으로 현금흐름을 판단하지 말고 계약별 실질 수익자·은행·통화·보험 경로를 별도 승인해야 합니다.",
+    "next_milestone": "EU의 2027년 연례 제재 검토와 거래은행 심사기준 변경 확인",
+    "timeline": [
+      {"date_label": "2023년 10월 31일", "kind": "publication", "label": "미국 재무부가 MOGE 금융서비스 지침 발표", "source_ids": ["SRC-20260820-5E07EF78"]},
+      {"date_label": "2023년 12월 15일", "kind": "effective", "label": "미국인의 MOGE 관련 금융서비스 제한 시행", "source_ids": ["SRC-20260820-5E07EF78"]},
+      {"date_label": "2024년 12월 31일", "kind": "event", "label": "회사가 미얀마 가스전 정상 운영과 영향액 산정 불가 공시", "source_ids": ["SRC-20260820-54ADB74E"]},
+      {"date_label": "2026년 4월 27일", "kind": "publication", "label": "EU가 미얀마 제재를 12개월 연장", "source_ids": ["SRC-20260820-E33837C5"]},
+      {"date_label": "2027년 4월 30일", "kind": "milestone", "label": "현행 EU 제재 연장기한과 다음 연례 검토 기준", "source_ids": ["SRC-20260820-E33837C5"]}
+    ],
+    "report_sections": [
+      {
+        "role": "market_change",
+        "heading": "정상 생산 위에 결제·보험의 두 번째 운영조건이 생겼다",
+        "body": "EU는 2026년 연례 검토에서 미얀마 제재를 2027년 4월 30일까지 연장했습니다. 제재 대상은 105명과 22개 기관·기업이며 자산동결과 직·간접 자금 제공 금지가 유지됩니다. 미국 재무부 지침은 미국인이 MOGE를 위해 송금·보험·보증·외환·신용장 등 금융서비스를 제공하는 것을 금지합니다. 이 조치들은 미얀마 가스전의 모든 생산활동을 일괄 중단시키는 규칙은 아니지만, 생산된 가스를 현금으로 바꾸는 거래경로에 별도 조건을 만들었습니다. 가동률과 판매량이 정상이어도 은행·보험사가 실질 수익자와 미국 접점을 재심사하면 회수시점과 비용은 달라질 수 있습니다."
+      },
+      {
+        "role": "assumption_shift",
+        "heading": "51% 운영권이 15% 제재 접점을 지우지 않는다",
+        "body": "포스코인터내셔널은 미얀마 A-1·A-3 가스전의 51% 운영지분을 보유하고 MOGE는 15% 참여합니다. MOGE 지분이 OFAC의 50% 소유기준보다 낮다는 사실은 합작법인 전체가 자동으로 MOGE와 동일 취급되는지 판단하는 한 요소입니다. 그러나 금융서비스가 직접 또는 간접으로 MOGE의 이익을 위한 것인지, 미국인이나 미국 금융망이 관여하는지는 별도 질문으로 남습니다. 따라서 '지분율이 낮으니 제재 영향도 낮다'와 '생산이 정상이라 현금회수도 정상이다'라는 두 단순화 모두 피해야 합니다. 운영권, 수익 귀속, 결제서비스를 서로 다른 열로 관리하는 것이 필요합니다."
+      },
+      {
+        "role": "business_impact",
+        "heading": "손익의 지배변수는 생산량에서 회수기간과 금융비용으로 확장",
+        "body": "2025년 3분기 회사 자료는 미얀마 가스전 판매량 42.9Bcf와 영업이익 900억원을 제시해 사업의 현금창출 중요성을 보여줍니다. 같은 자료는 비용회수율 하락이 이익 감소 원인이라고 설명합니다. 여기에 제재상 심사가 더해지면 생산량뿐 아니라 미수금 일수, 환전·보험·보증 비용, 허용된 결제경로의 지속성이 자산가치를 좌우합니다. 총노출액은 가스판매대금 전체가 아니라 거래별 MOGE 귀속분과 제재 접점에서 시작해야 합니다. 실제 순영향은 결제지연에 따른 운전자본, 대체은행·통화 비용, 보험·보증 프리미엄을 더하고 정상 회수분을 제외해 계산해야 합니다."
+      },
+      {
+        "role": "recommendation",
+        "heading": "계약·송금·보험을 한 장의 거래지도로 연결",
+        "body": "가스판매 계약마다 지급자와 최종 수취인, 통화, 은행, 보험사, 보증 제공자, 미국인·미국 금융망 접점, MOGE 귀속분과 적용 예외를 연결해야 합니다. 각 경로에 법률검토일, 증빙 갱신일, 평시 승인기간과 대체경로를 붙이면 생산상태와 결제상태를 독립적으로 승인할 수 있습니다. 경영진에게는 생산량·비용회수율·미수금 일수·경로별 추가비용을 같은 화면에 두되 하나의 종합점수로 뭉개지 않는 편이 낫습니다. 거래은행이 경로를 중단하면 법무 승인 없이 우회하지 않고, 허용된 대체통화·은행·보험의 비용과 회수기간을 비교해 전환합니다. 이 거래지도는 제재 명단이 바뀔 때 영향을 받는 지급·수취 경로만 즉시 골라내고, 생산계획은 유지하되 현금회수 계획만 별도로 조정하는 운영 기반이 됩니다."
+      },
+      {
+        "role": "evidence",
+        "heading": "정책 원문과 감사자료가 위험의 범위와 반대조건을 함께 제시",
+        "body": "EU 이사회 원문은 제재 연장기한과 자산동결·자금 제공 금지를 확인합니다. 미국 재무부 지침과 FAQ는 금융서비스의 넓은 범위, 다른 활동의 허용 경계, 50% 소유기준을 구분합니다. 회사 감사자료는 51% 운영지분과 MOGE 15% 지분, 2024년 말 정상 운영, 미래 영향액 산정 불가를 동시에 공시합니다. 이는 '즉시 생산중단' 결론을 제한하면서도 '영향 없음' 결론도 허용하지 않는 반대근거입니다. 2025년 3분기 실적은 실제 판매량과 이익, 비용회수율 민감도를 보여줍니다. 정책 사실과 회사 운영상태를 섞어 제재 손실액을 만들지 않고 거래별 내부자료가 필요한 경계를 남겼습니다."
+      },
+      {
+        "role": "monitoring",
+        "heading": "제재 명단보다 거래은행 승인기간이 먼저 보내는 경보",
+        "body": "외부에서는 EU 제재 명단과 연례 검토, OFAC 지침·FAQ·일반허가, 주요 금융기관의 미얀마 거래정책을 추적합니다. 내부에서는 미국 달러 결제비중, 미국인·미국 금융기관 접점, MOGE 귀속분, 은행별 승인기간, 미수금 일수, 보험·보증 거절과 비용회수율을 월별로 확인합니다. 명단이 바뀌지 않아도 은행의 위험회피로 승인기간이 늘면 현금흐름 경보를 높입니다. 반대로 현행 경로의 적합성이 재확인되고 승인기간과 미수금이 평시 범위에 머물면 방어비용과 이슈 강도를 낮춥니다."
+      },
+      {
+        "role": "limitations",
+        "heading": "공개지분과 정상운영만으로 거래의 적법성을 판정하지 않는 경계",
+        "body": "공개자료는 계약별 판매대금의 수취인, MOGE 귀속분, 사용통화, 은행·보험사와 미국 접점을 보여주지 않습니다. OFAC 50% 소유기준 아래라는 사실도 개별 금융서비스가 MOGE의 이익을 위한 것인지에 대한 판단을 대신하지 않습니다. 이 보고서는 특정 거래의 적법성에 관한 법률의견이 아니며 제재를 우회할 방법을 제안하지 않습니다. 회사의 2024년 말 정상 운영 공시는 그 시점의 상태이고 이후 규칙·금융기관 행동을 확정하지 않습니다. 실제 영향액은 내부 계약·송금·보험 자료와 최신 법률검토를 넣어야 계산할 수 있습니다."
+      }
+    ],
+    "first_raised_at": "2026-08-20",
+    "last_reviewed_at": "2026-08-20",
+    "next_review_at": "2026-10-31",
+    "rationale": "EU 제재 연장과 미국 금융서비스 제한이 정상 생산과 별도로 미얀마 가스전의 대금회수 경로와 비용을 바꿀 수 있습니다.",
+    "persistence_rule": "거래별 제재 적합성과 결제경로가 확인되고 반증 조건이 충족될 때까지 유지합니다.",
+    "escalation_rules": ["MOGE 관련 제재가 추가되거나 거래은행·보험사가 현행 경로를 중단합니다.", "미수금 일수나 금융·보험 비용이 평시 범위를 이탈합니다."],
+    "deescalation_rules": ["EU·미국이 MOGE 관련 제한을 해제하거나 현행 경로를 명시적으로 허용합니다.", "주요 거래은행 승인기간과 미수금이 정상 범위에서 지속됩니다."],
+    "decision_question": "미얀마 가스전의 생산·정비 승인과 거래별 결제·보험·외환 승인을 별도 경영절차로 분리할 것인가?",
+    "decision_deadline": "2027-04-30",
+    "owner": "포스코인터내셔널 미얀마 가스전 재무·법무·컴플라이언스·자금 담당",
+    "actions": ["계약별 지급자·수취인·통화·은행·보험·MOGE 귀속분 거래지도를 만듭니다.", "거래경로별 법률근거·증빙 갱신일·대체경로를 연결합니다.", "결제지연·보험·환전비용을 반영한 현금흐름 민감도를 계산합니다."],
+    "history": [{"date": "2026-08-20", "action": "raised", "to_level": "warning", "added_signal_ids": ["SIG-3C1FC7BD3A4D", "SIG-562D3364FA7B"], "rationale": "EU와 미국의 서로 다른 제재 사건이 하나의 거래경로·현금회수 결정으로 수렴했습니다."}],
+    "decision_lens": {
+      "schema_version": 1,
+      "primary_direction": "risk",
+      "opportunity": {"condition": "거래별 제재 접점과 허용 결제경로를 사전에 문서화할 때", "business_effect": "정상 생산분의 회수 선택권과 금융기관 협상속도를 유지", "action": "계약·송금·보험·외환을 연결한 적합성 거래지도 완성"},
+      "risk": {"condition": "추가 지정이나 금융기관 위험회피로 현행 경로가 막힐 때", "business_effect": "대금회수 지연과 금융·보험 비용 증가로 현금흐름 하락", "action": "거래를 중단하고 법무 승인된 대체은행·통화·보험으로 전환"},
+      "opportunity_cost": "거래지도를 늦게 만들면 규칙이나 은행정책이 바뀐 뒤에야 대체경로를 찾아 정상 생산분의 회수시점과 협상 선택권을 잃을 수 있습니다.",
+      "decision_trigger": "제재 명단·일반허가·은행 심사기준이 강화되면 방어경로로 전환하고, 현행 경로의 적합성과 정상 결제가 확인되면 대응강도를 낮춥니다."
+    },
+    "synthesis_contract": {
+      "schema_version": 1,
+      "decision_key": "myanmar-gas-production-versus-cash-collection-governance",
+      "synthesis_statement": "EU 제재기간과 미국 금융서비스 범위를 함께 볼 때 생산상태와 거래별 현금화 가능성을 별도 승인해야 합니다.",
+      "supporting_signal_ids": ["SIG-3C1FC7BD3A4D", "SIG-562D3364FA7B"],
+      "signal_relationships": [
+        {"signal_id": "SIG-3C1FC7BD3A4D", "relationship": "reinforces", "contribution": "EU 제재가 2027년 4월까지 유지되는 시간 경계를 제공합니다."},
+        {"signal_id": "SIG-562D3364FA7B", "relationship": "contextualizes", "contribution": "미국 금융서비스의 대상과 50% 소유기준, 비금융 활동 허용경계를 제공합니다."}
+      ]
+    },
+    "causal_map": {
+      "title": "정상 생산이 거래심사를 거쳐 현금흐름으로 바뀌는 경로",
+      "direction": "LR",
+      "design_rationale": "생산과 결제를 분리하고 거래경로 적합성에서 정상 회수와 지연 위험이 갈리도록 설계했습니다.",
+      "nodes": [
+        {"id": "A", "kind": "change", "label": "EU 제재 연장·미국 금융서비스 제한"},
+        {"id": "B", "kind": "condition", "label": "실질 수익자·미국 접점·소유관계"},
+        {"id": "C", "kind": "opportunity", "label": "허용 경로의 정상 회수"},
+        {"id": "D", "kind": "risk", "label": "결제·보험 지연과 추가비용"},
+        {"id": "E", "kind": "decision", "label": "생산승인과 거래승인의 분리"}
+      ],
+      "edges": [{"from": "A", "to": "B"}, {"from": "B", "to": "C", "label": "적합"}, {"from": "B", "to": "D", "label": "불확실·부적합"}, {"from": "C", "to": "E"}, {"from": "D", "to": "E"}]
+    },
+    "issue_category": "복합 이슈",
+    "structured_context": {"company_id": "COM-POSCO-INTERNATIONAL", "business_axis": "에너지", "management_functions": ["재무", "생산·운영", "전략·투자"], "change_category": "복합 이슈", "regions": ["미얀마 해상 가스전", "미얀마·중국 가스판매", "국제 금융·보험"], "time_horizon": "2026년 거래 재검증부터 2027년 4월 EU 연례 검토까지"},
+    "company_lens": {"interest_level": "core", "official_basis": "포스코인터내셔널 감사자료는 미얀마 A-1·A-3 가스전의 51% 운영지분, MOGE 15% 참여와 정상 운영 상태를 확인합니다.", "exposure": "가스 판매대금의 수익 귀속, 통화·은행·보험·보증, 비용회수율과 회수기간이 직접 노출됩니다.", "impact_path": "국제 제재가 거래별 금융서비스 심사로 전달되면 생산이 계속돼도 결제지연과 금융·보험 비용이 현금흐름을 바꿉니다.", "decision_use": "생산·정비 승인과 거래별 결제·보험·외환 적합성 승인을 별도 절차로 분리할지 결정해야 합니다.", "evidence_source_ids": ["SRC-20260820-54ADB74E", "SRC-20260819-D7164DFA"]},
+    "editorial_plan": {
+      "reader_question": "미얀마 가스전의 생산·정비 승인과 거래별 결제·보험·외환 승인을 별도 경영절차로 분리할 것인가?",
+      "provisional_conclusion": "정상 생산과 정상 현금회수는 같은 상태가 아니므로 거래별 제재 적합성 지도를 별도 승인해야 합니다.",
+      "key_numbers": [
+        {"value": "51%", "label": "포스코인터내셔널 가스전 운영지분", "meaning": "생산·정비의 직접 운영노출입니다.", "source_ids": ["SRC-20260820-54ADB74E"]},
+        {"value": "15%", "label": "MOGE 참여지분", "meaning": "제재 대상과 연결된 수익 귀속을 분리할 기준입니다.", "source_ids": ["SRC-20260820-54ADB74E"]},
+        {"value": "2027-04-30", "label": "EU 제재 연장기한", "meaning": "거래경로 재검증을 지속할 공식 시간경계입니다.", "source_ids": ["SRC-20260820-E33837C5"]}
+      ],
+      "visuals": [
+        {"type": "quantitative_table", "status": "adopted", "table_kind": "comparison", "title": "운영지분과 제재 소유기준을 같은 표에서 구분", "unit": "%", "as_of": "2026-08-20", "takeaway": "51% 운영권, MOGE 15% 참여, OFAC 50% 기준은 서로 다른 질문에 답하므로 지분 하나로 위험을 단정할 수 없습니다.", "method_note": "회사 감사자료와 OFAC FAQ의 확인값을 나란히 둔 비교이며 회사 손실액이 아닙니다.", "data_kind": "verified", "columns": ["항목", "확인값", "판단"], "rows": [["포스코인터내셔널 운영지분", "51%", "생산·정비 운영노출"], ["MOGE 참여지분", "15%", "수익 귀속·제재 접점"], ["OFAC 소유기준", "50%", "자동 적용 여부의 한 경계"]], "source_ids": ["SRC-20260820-54ADB74E", "SRC-20260820-71D52944"]},
+        {"type": "causal_map", "status": "adopted", "title": "정상 생산이 거래심사를 거쳐 현금흐름으로 바뀌는 경로", "source_ids": ["SRC-20260820-E33837C5", "SRC-20260820-5E07EF78", "SRC-20260820-54ADB74E"]},
+        {"type": "decision_sequence", "status": "adopted", "title": "거래별 적합성에서 현금흐름까지 이어지는 세 산출물", "columns": ["순서·책임", "이번에 만들 것", "완료 후 판단"], "rows": [["1 · 법무·컴플라이언스", "거래경로별 제재 적합성 지도", "허용·보완·중단 분류"], ["2 · 자금·보험", "대체은행·통화·보험 비용표", "경로별 전환 가능성"], ["3 · 미얀마 사업·재무", "결제지연 현금흐름 민감도", "운영계획·배당·투자 조정"]], "source_ids": ["SRC-20260820-E33837C5", "SRC-20260820-5E07EF78", "SRC-20260820-71D52944", "SRC-20260820-54ADB74E"]},
+        {"type": "monitoring_dashboard", "status": "adopted", "title": "생산·결제·제재의 세 확인선을 분리", "columns": ["관찰 지표·책임", "강화 신호", "완화 신호"], "rows": [["생산·비용회수 · 미얀마 사업", "비용회수율 하락·정비차질", "안정 생산·회수율 정상화"], ["결제·보험 · 자금", "승인지연·거절·비용증가", "승인기간·미수금 정상"], ["제재규칙 · 법무", "추가 지정·일반허가 축소", "명시적 허용·제한 해제"]], "source_ids": ["SRC-20260820-E33837C5", "SRC-20260820-5E07EF78", "SRC-20260820-54ADB74E", "SRC-20260819-D7164DFA"]},
+        {"type": "quantitative_chart", "status": "deferred", "title": "제재 전후 미수금·결제기간 시계열", "reason": "공개자료에 동일 정의의 결제기간·미수금 4개 시점이 없어 억지 선그래프를 만들지 않았습니다.", "required_inputs": ["월별 결제 승인기간", "미수금 일수", "보험·환전·보증 추가비용"]}
+      ],
+      "quantification": {"status": "modeled", "decision_metric": "운영지분·MOGE 참여지분·OFAC 소유기준의 검증된 구조 비교"}
+    }
+  }
+}

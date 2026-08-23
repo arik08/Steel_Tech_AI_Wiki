@@ -1,1 +1,8 @@
 .vercel
+.publish/
+.playwright-mcp/
+/tmp/
+/tools/tmp/
+/tools/project/tmp/
+/tools/project/tools/project/tmp/
+/market-sensing-recent-updates-mobile.png

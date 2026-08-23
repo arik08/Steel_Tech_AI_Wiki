@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-82809AC4FEE1",
+  "subject_id": "MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026",
+  "predicate": "urgency_score_1_to_5",
+  "value": "5",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260818-3DD53EA4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Supply disruption and offset are occurring during 2026",
+      "source_ids": [
+        "SRC-20260818-3DD53EA4"
+      ]
+    }
+  ]
+}

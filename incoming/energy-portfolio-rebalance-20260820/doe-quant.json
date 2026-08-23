@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "decision": "omitted",
+  "assessed_at": "2026-08-20",
+  "omission": {
+    "reason_code": "double_counting_risk",
+    "rationale": "수출허용 확대가 회사 손익으로 이어지는 경로는 국제에너지기구의 비중동 공급 증가와 같은 가격·운임 충격을 공유하므로 개별 Signal에서 금액화하지 않고 LNG 전략 이슈에서 통합합니다.",
+    "required_inputs": ["플라크민스 실제 선적·아시아 도착량", "회사 계약물량·가격식·목적지 권리", "운임·터미널비·발전 투입량"],
+    "reconsider_when": "허용량 증가분의 실제 선적과 회사 조달계약 배분이 확인되어 독립 증분효과를 분리할 수 있을 때 재산정합니다."
+  }
+}

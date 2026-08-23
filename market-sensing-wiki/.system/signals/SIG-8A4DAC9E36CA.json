@@ -1,0 +1,84 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-8A4DAC9E36CA",
+  "sentence": "세계 총량이 유지돼도 생산지와 항로가 바뀌므로 화물별 목적지 전환권·선복·광양터미널 저장·발전 투입을 묶어 순마진을 다시 비교해야 합니다.",
+  "signal_type": "수급·가격",
+  "signal_role": "core_market_signal",
+  "signal_origin": "external_market",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "세계 액화천연가스 공급이 늘거나 줄면 모든 조달가격과 화물가치가 같은 방향으로 움직입니다.",
+    "observed_break": "중동 공급은 크게 줄지만 북미·아프리카·호주 증산이 이를 상쇄해 총량과 공급지도가 반대 방향으로 움직입니다.",
+    "decision_change": "평균가격 중심 조달계획을 생산지·항로·목적지·저장·발전 선택권별 순마진 배분으로 바꿉니다.",
+    "pattern": "trade_flow_reversal",
+    "surprise_score": 5,
+    "falsification_check": "중동 공급과 비중동 증설이 모두 정상화되고 지역 가격차와 운임이 평시 범위로 수렴하는지 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "비중동 신규 물량이 예정대로 늘고 생산지·도착지 전환권을 확보할 때",
+      "business_effect": "저가 조달과 지역 간 재판매, 터미널 회전과 발전연료 최적화 기회가 커집니다.",
+      "action": "화물별 목적지·선복·저장·발전 투입권을 가격화해 유연물량을 우선 배분합니다."
+    },
+    "risk": {
+      "condition": "중동 공급 회복과 비중동 신규설비 가동이 함께 지연될 때",
+      "business_effect": "아시아 도착가격과 운임이 올라 고객판매·발전연료·재고 사이의 충돌이 커집니다.",
+      "action": "필수 발전·고객 물량을 먼저 고정하고 현물·선복·저장 노출에 상한을 둡니다."
+    },
+    "opportunity_cost": "평균가격만 보고 계약하면 공급지가 바뀌는 동안 저가 조달·재판매·터미널 활용의 선택권을 따로 가격화할 시점을 놓칠 수 있습니다.",
+    "decision_trigger": "비중동 실제 가동과 지역 가격차가 확대되면 유연물량을 늘리고, 중동 회복 지연과 운임 급등이 겹치면 필수물량 방어로 전환합니다."
+  },
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "iea-q3-2026-nongulf-lng-offset-forecast",
+    "change_unit": "market_metric_shift",
+    "observation": "국제에너지기구는 2026년 중동 LNG 감소분을 비중동 신규·기존 공급 증가가 대부분 상쇄할 것으로 전망했습니다.",
+    "market_boundary": "2026년 세계 LNG 공급 중 중동과 북미·아프리카·호주 생산지역의 물량 변화",
+    "time_boundary": "2026년 7월 발표한 2026년 연간 수급 전망과 2026~2027년 단기 영향",
+    "excluded_context": "미국 개별 터미널의 수출허용 확대와 포스코인터내셔널 계약·터미널·발전 실적은 별도 사건으로 제외합니다.",
+    "single_event_rationale": "이 Signal은 국제에너지기구의 2026년 지역별 LNG 공급 상쇄 전망 하나를 다루며 개별 정책과 회사 의사결정의 결합은 전략 이슈에서 수행합니다."
+  },
+  "insight_id": "INS-21BDEDB11204",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 5,
+    "rationale": "중동 공급 감소와 비중동 증산이 동시에 진행되면 조달원가뿐 아니라 목적지 전환권·선복·광양터미널 저장·발전연료 배분의 상대가치가 달라집니다."
+  },
+  "urgency": {
+    "score": 5,
+    "rationale": "중동 통항 회복과 신규설비 가동이 2026~2027년에 집중돼 화물·선복·저장 포지션을 실제 선적에 맞춰 갱신해야 합니다."
+  },
+  "assessed_at": "2026-08-20",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-388DA2EF041B",
+    "CLM-7A0CC4D60840",
+    "CLM-82809AC4FEE1",
+    "CLM-8FCABEC02AB0",
+    "CLM-93068F0E30B1",
+    "CLM-9A7FEEEA4049",
+    "CLM-9C88DA8013DA",
+    "CLM-A14D4DB22BAA",
+    "CLM-A7586C9D0729",
+    "CLM-B9948FFFD51B",
+    "CLM-CCD618F90032",
+    "CLM-DC1C11714FC5",
+    "CLM-E42D0E3A2FDD",
+    "CLM-FBB04C7744B8",
+    "CLM-FF18EF44B482"
+  ],
+  "source_ids": [
+    "SRC-20260818-3DD53EA4",
+    "SRC-20260820-47B392B3",
+    "SRC-20260820-0281FEC0"
+  ],
+  "status": "active",
+  "created_at": "2026-08-20T22:45:01+09:00",
+  "updated_at": "2026-08-20T22:54:45+09:00",
+  "run_id": "energy-portfolio-rebalance-20260820"
+}

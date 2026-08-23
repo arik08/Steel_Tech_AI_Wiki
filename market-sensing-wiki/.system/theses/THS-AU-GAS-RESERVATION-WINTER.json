@@ -1,0 +1,30 @@
+{
+  "thesis_id": "THS-AU-GAS-RESERVATION-WINTER",
+  "title": "Senex의 가치는 연간 증산량보다 겨울 남부 인도권에서 결정",
+  "statement": "내수의무가 평균가격을 낮춰도 2027년 겨울 남부 부족이 남는다면 Senex는 연간 물량보다 계절·지역·저장 선택권을 계약화해야 수익을 방어할 수 있습니다.",
+  "strategic_assumption_at_risk": "호주 내수의무가 시행되면 동부 가스가격이 전반적으로 내려 Senex 증산분의 가치도 같은 비율로 낮아진다는 전제",
+  "business_axis": "에너지",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "trend_ids": [
+    "TRD-AU-GAS-RESERVATION-WINTER"
+  ],
+  "supporting_signal_ids": [
+    "SIG-E424C4E087DE",
+    "SIG-87E7FDAE469F"
+  ],
+  "execution_context_signal_ids": [],
+  "business_impact_path": "LNG 수출자의 내수공급 확대 + 남부 생산감소·겨울 부족 → 분기·지역별 가격분화 → Senex 계약가격·배분·저장권 가치 변화",
+  "confidence": "high",
+  "decision_horizon": "2027년 7월 제도 시행과 2027년 겨울 판매·저장 배분",
+  "counter_evidence": [
+    "ACCC는 2026년 4분기 동부시장에 13PJ 잉여를 전망했습니다.",
+    "최종 내수의무 대상·예외와 Senex의 직접 적용 여부는 아직 확정되지 않았습니다."
+  ],
+  "falsification_conditions": [
+    "2027년 2·3분기 남부 부족 전망이 해소되고 저장·가스관 여유가 충분해집니다.",
+    "경쟁 LNG 공급자의 내수물량이 늘어도 Senex 고객별 겨울 프리미엄과 선택권 가치가 발생하지 않습니다."
+  ],
+  "schema_version": 7
+}

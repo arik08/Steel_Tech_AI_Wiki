@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-B73CE49B7CE3",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "recommended_follow_up",
+  "value": "계약별 지급자·수취인·통화·은행·보험·MOGE 귀속분을 연결한 제재 적합성 거래지도를 작성합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-E33837C5",
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Decision follow-up from verified exposure",
+      "source_ids": [
+        "SRC-20260820-E33837C5",
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

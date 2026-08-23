@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-C2447A1A4744",
+  "subject_id": "POL-US-LNG-PLAQUEMINES-UPRATE-2026",
+  "predicate": "impact_path",
+  "value": "수출허용 확대 → 실제 생산·선적 → 유럽·아시아 도착지 경쟁 → 가격·운임·목적지 권리 → 터미널·트레이딩·발전 순마진",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-DB8E75B6",
+    "SRC-20260820-0281FEC0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI impact-path analysis",
+      "source_ids": [
+        "SRC-20260820-DB8E75B6",
+        "SRC-20260820-0281FEC0"
+      ]
+    }
+  ]
+}

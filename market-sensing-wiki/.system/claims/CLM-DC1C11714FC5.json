@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-DC1C11714FC5",
+  "subject_id": "MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026",
+  "predicate": "business_impact_rationale",
+  "value": "중동 공급 감소와 비중동 증산이 동시에 진행되면 조달원가뿐 아니라 목적지 전환권·선복·광양터미널 저장·발전연료 배분의 상대가치가 달라집니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260818-3DD53EA4",
+    "SRC-20260820-0281FEC0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI assessment connecting market shift and company value chain",
+      "source_ids": [
+        "SRC-20260818-3DD53EA4",
+        "SRC-20260820-0281FEC0"
+      ]
+    }
+  ]
+}

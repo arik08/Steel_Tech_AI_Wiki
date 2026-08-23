@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://posco.example/schemas/signal-atomic-scope.schema.json",
+  "title": "Atomic market Signal boundary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_key",
+    "change_unit",
+    "observation",
+    "market_boundary",
+    "time_boundary",
+    "excluded_context",
+    "single_event_rationale"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "event_key": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._:-]{7,119}$"
+    },
+    "change_unit": {
+      "enum": [
+        "policy_measure",
+        "market_metric_shift",
+        "supply_event",
+        "demand_event",
+        "competitor_action",
+        "customer_action",
+        "logistics_event",
+        "technology_event",
+        "financial_event",
+        "company_execution"
+      ]
+    },
+    "observation": { "type": "string", "minLength": 20, "maxLength": 300 },
+    "market_boundary": { "type": "string", "minLength": 8, "maxLength": 200 },
+    "time_boundary": { "type": "string", "minLength": 8, "maxLength": 200 },
+    "excluded_context": { "type": "string", "minLength": 20, "maxLength": 400 },
+    "single_event_rationale": { "type": "string", "minLength": 40, "maxLength": 500 }
+  }
+}

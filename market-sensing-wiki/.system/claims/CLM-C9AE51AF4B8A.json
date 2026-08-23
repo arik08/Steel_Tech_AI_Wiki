@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-C9AE51AF4B8A",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "business_axis",
+  "value": "에너지",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "POSCO International energy exposure classification",
+      "source_ids": [
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

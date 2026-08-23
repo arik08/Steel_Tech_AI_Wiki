@@ -1,0 +1,30 @@
+{
+  "thesis_id": "THS-STEEL-DEMAND-CAPACITY-GAP",
+  "title": "평균 수요회복보다 제품별 가격방어력이 생산계획의 기준",
+  "statement": "세계 수요 회복률이 낮아지고 과잉설비가 커지는 동안 범용재 물량 확대를 기본값으로 두지 말고 제품·시장별 가격차와 재계약률을 생산·현지화 투자의 선행조건으로 삼아야 합니다.",
+  "strategic_assumption_at_risk": "2026년 이후 세계 철강 수요가 회복하면 가동률과 물량 증가가 범용재의 단가·마진 하락을 상쇄한다는 전제",
+  "business_axis": "철강",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "trend_ids": [
+    "TRD-STEEL-DEMAND-CAPACITY-GAP"
+  ],
+  "supporting_signal_ids": [
+    "SIG-E31D64ABA031",
+    "SIG-A07F1B887CA2"
+  ],
+  "execution_context_signal_ids": [],
+  "business_impact_path": "수요전망 하향 + 과잉설비·수출 증가 → 도착가격 하락·무역구제 → 제품별 가격차·재계약률 → 생산배분·현지화 투자수익 변화",
+  "confidence": "high",
+  "decision_horizon": "2027~2028 제품·시장별 생산·판매·현지화 계획",
+  "counter_evidence": [
+    "worldsteel은 인도 등 일부 시장의 높은 성장과 선진국 회복을 전망합니다.",
+    "세계 총량 자료는 POSCO 고부가 제품의 실제 가격차·고객 고착도를 직접 보여주지 않습니다."
+  ],
+  "falsification_conditions": [
+    "POSCO 핵심 품목의 가격차와 재계약률이 잉여수출 증가에도 구조적으로 유지됩니다.",
+    "현지화 투자안이 저가격·저가동률 시나리오에서도 자본비용을 충분히 넘습니다."
+  ],
+  "schema_version": 7
+}

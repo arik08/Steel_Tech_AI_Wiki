@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "event_key": "us-ofac-moge-financial-services-2023-12-15",
+  "change_unit": "policy_measure",
+  "observation": "미국 재무부가 2023년 12월 15일부터 미국인의 MOGE 관련 금융서비스 제공을 금지했습니다.",
+  "market_boundary": "미국인과 미국 금융망이 제공하는 MOGE 관련 송금·보험·보증·외환 등 금융서비스",
+  "time_boundary": "2023년 10월 31일 지침 발표와 2023년 12월 15일 효력 발생 이후",
+  "excluded_context": "유럽연합의 제재 연장은 별도 사건이며 미얀마 가스전의 생산·비용회수 실적도 이 Signal에서 제외합니다.",
+  "single_event_rationale": "이 Signal은 미국 재무부 금융서비스 지침과 그 적용범위만 다루며 국가별 제재의 결합효과는 전략 이슈에서 판단합니다."
+}

@@ -1,0 +1,29 @@
+{
+  "claim_id": "CLM-1B8BD0DF3DEC",
+  "subject_id": "POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES",
+  "predicate": "recommended_follow_up",
+  "value": "송금·보험·보증·외환·신용장별 미국 접점과 실질 수익자를 표시한 거래 적합성 표를 작성합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-5E07EF78",
+    "SRC-20260820-71D52944",
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Decision follow-up from verified rule scope",
+      "source_ids": [
+        "SRC-20260820-5E07EF78",
+        "SRC-20260820-71D52944",
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

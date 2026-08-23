@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-CCD618F90032",
+  "subject_id": "MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026",
+  "predicate": "assessed_at",
+  "value": "2026-08-20",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260818-3DD53EA4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Assessment date",
+      "source_ids": [
+        "SRC-20260818-3DD53EA4"
+      ]
+    }
+  ]
+}

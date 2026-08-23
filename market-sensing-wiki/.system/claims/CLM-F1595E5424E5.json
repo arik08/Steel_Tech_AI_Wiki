@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F1595E5424E5",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "urgency_rationale",
+  "value": "G7·EU 첫 계약과 호주 2027년 시행 전에 고객 구매권과 정책 적격성을 선점해야 합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-FF867E92"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "공식 로드맵 후속 계약이 판단을 바꿈",
+      "source_ids": [
+        "SRC-20260820-FF867E92"
+      ]
+    }
+  ]
+}

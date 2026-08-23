@@ -1,0 +1,56 @@
+{
+  "trend_id": "TRD-MYANMAR-GAS-SANCTIONS-CASHFLOW",
+  "title": "미얀마 가스 생산과 국제 제재의 결제영향이 분리",
+  "summary": "가스전은 정상 운영 상태를 유지했지만 미국 금융서비스 제한과 EU 제재 연장이 거래별 대금회수 경로를 별도로 관리하게 합니다.",
+  "business_axis": "에너지",
+  "direction": "strengthening",
+  "first_detected_at": "2023-10-31",
+  "last_observed_at": "2026-08-20",
+  "signal_ids": [
+    "SIG-3C1FC7BD3A4D",
+    "SIG-562D3364FA7B"
+  ],
+  "supporting_source_ids": [
+    "SRC-20260820-E33837C5",
+    "SRC-20260820-5E07EF78",
+    "SRC-20260820-71D52944",
+    "SRC-20260820-54ADB74E",
+    "SRC-20260819-D7164DFA"
+  ],
+  "counter_source_ids": [
+    "SRC-20260820-54ADB74E"
+  ],
+  "indicators": [
+    {
+      "label": "포스코인터내셔널 가스전 운영지분",
+      "current": "51",
+      "unit": "%",
+      "observed_at": "2026-08-20",
+      "interpretation": "생산·정비 운영 노출의 기준입니다.",
+      "source_ids": [
+        "SRC-20260820-54ADB74E"
+      ]
+    },
+    {
+      "label": "MOGE 가스전 참여지분",
+      "current": "15",
+      "unit": "%",
+      "observed_at": "2026-08-20",
+      "interpretation": "제재 대상과 연결된 수익 귀속을 분리할 기준입니다.",
+      "source_ids": [
+        "SRC-20260820-54ADB74E"
+      ]
+    },
+    {
+      "label": "OFAC 소유기준",
+      "current": "50",
+      "unit": "%",
+      "observed_at": "2026-08-20",
+      "interpretation": "합작법인 자동 적용 여부와 거래 목적 심사를 구분하는 경계입니다.",
+      "source_ids": [
+        "SRC-20260820-71D52944"
+      ]
+    }
+  ],
+  "schema_version": 7
+}

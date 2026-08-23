@@ -1,0 +1,310 @@
+{
+  "run_id": "energy-portfolio-rebalance-20260820",
+  "started_at": "2026-08-20T10:00:00+09:00",
+  "finished_at": "2026-08-20T22:54:45+09:00",
+  "search_since": "2023-10-31",
+  "search_until": "2026-08-20",
+  "scope": "포스코인터내셔널 에너지축의 Senex 편중을 미얀마 가스전과 LNG 가치사슬의 독립 의사결정 경로로 보완",
+  "queries": [
+    "EU Myanmar sanctions extension 2026 MOGE official",
+    "US Treasury MOGE financial services directive official",
+    "POSCO International audited Myanmar gas field sanctions ownership",
+    "IEA Q3 2026 LNG non-Gulf supply offset official",
+    "US DOE Plaquemines LNG 13 percent export authorisation",
+    "POSCO International LNG value chain terminal power official"
+  ],
+  "checked_urls": [
+    "https://www.consilium.europa.eu/en/press/press-releases/2026/04/27/myanmar-eu-restrictive-measures-extended-until-april-2027/",
+    "https://ofac.treasury.gov/media/932251/download?inline",
+    "https://ofac.treasury.gov/faqs/added/2023-10-31",
+    "https://www.poscointl.com/upload/file/202506/202506jSC_mILrzPv.pdf",
+    "https://www.iea.org/reports/gas-market-report-q3-2026/executive-summary",
+    "https://www.energy.gov/articles/energy-department-approves-immediate-additional-lng-exports-plaquemines-lng",
+    "https://www.poscointl.com/eng/energy"
+  ],
+  "failed_urls": [],
+  "coverage": {
+    "scope": {
+      "business_axes": [
+        "에너지"
+      ],
+      "impact_paths": [
+        "현금흐름",
+        "계약",
+        "조달",
+        "트레이딩",
+        "터미널 운영",
+        "발전원가"
+      ],
+      "signal_types": [
+        "정책·규제",
+        "수급·가격"
+      ],
+      "markets": [
+        "미얀마·중국 가스 판매",
+        "글로벌 LNG",
+        "한국 LNG 조달·발전"
+      ],
+      "date_from": "2023-10-31",
+      "date_to": "2026-08-20"
+    },
+    "cells": [
+      {
+        "cell_id": "energy-myanmar-sanctions-payment",
+        "assumption": "안정 생산이 이어지면 미얀마 가스전 현금흐름도 안정적이다",
+        "assumption_breaking_pattern": "시장접근 규칙",
+        "priority": "high",
+        "priority_reason": "MOGE 제재가 생산중단보다 결제·보험·외환 경로에 먼저 영향을 줄 수 있음",
+        "status": "checked",
+        "verification_state": "confirmed",
+        "strategies_checked": [
+          "primary-source search",
+          "company audited disclosure",
+          "counter-evidence search"
+        ]
+      },
+      {
+        "cell_id": "energy-lng-origin-flexibility",
+        "assumption": "세계 LNG 공급 증가가 모든 조달가격을 같은 방향으로 낮춘다",
+        "assumption_breaking_pattern": "무역흐름 역전",
+        "priority": "high",
+        "priority_reason": "중동 손실과 비중동 증산이 동시에 발생해 생산지·항로·도착지 권리의 가치가 분화",
+        "status": "checked",
+        "verification_state": "confirmed",
+        "strategies_checked": [
+          "broad semantic search",
+          "primary-source search",
+          "company portfolio verification"
+        ]
+      }
+    ],
+    "cells_checked": [
+      {
+        "cell": "에너지 × 현금흐름·계약 × 정책·규제 × 미얀마·중국 가스판매 × 2023-10-31~2026-08-20",
+        "channels": [
+          "EU regulator",
+          "US Treasury regulator",
+          "company audited disclosure"
+        ],
+        "status": "material_update"
+      },
+      {
+        "cell": "에너지 × 조달·트레이딩·터미널·발전 × 수급·가격 × 글로벌 LNG·한국 × 2025-07-22~2026-08-20",
+        "channels": [
+          "IEA physical market",
+          "US energy regulator",
+          "company portfolio disclosure"
+        ],
+        "status": "material_update"
+      }
+    ],
+    "high_risk_gaps": [
+      "미얀마 가스판매 계약의 통화·결제은행·보험사·MOGE 귀속 대금은 비공개",
+      "포스코인터내셔널 LNG 계약별 목적지 전환권·도착원가·광양터미널 슬롯은 비공개"
+    ],
+    "channel_coverage": [
+      "EU 규제기관",
+      "미국 재무·에너지 당국",
+      "IEA 시장·물리 전망",
+      "회사 감사보고·포트폴리오"
+    ],
+    "event_groups": [
+      {
+        "event_group": "미얀마 가스전의 생산과 대금회수 분리",
+        "candidate_events": 4,
+        "promoted_signals": [
+          "SIG-3C1FC7BD3A4D",
+          "SIG-562D3364FA7B"
+        ],
+        "decision": "생산·정비 승인과 거래별 결제·보험·외환 승인을 분리"
+      },
+      {
+        "event_group": "LNG 공급지 이동과 화물 전환권",
+        "candidate_events": 6,
+        "promoted_signals": [
+          "SIG-8A4DAC9E36CA",
+          "SIG-3ECBC5C37ED7"
+        ],
+        "decision": "화물별 아시아 판매·유럽 전환·광양 저장·국내 발전 순마진으로 재배분"
+      }
+    ],
+    "query_yield": [
+      {
+        "query_group": "미얀마 제재·가스전 회사노출 원문 검증",
+        "new_urls": 4,
+        "new_events": 3,
+        "new_claims": 32,
+        "decision_changes": 1
+      },
+      {
+        "query_group": "글로벌 LNG 공급지 이동·미국 증산·회사 가치사슬 검증",
+        "new_urls": 3,
+        "new_events": 4,
+        "new_claims": 30,
+        "decision_changes": 1
+      },
+      {
+        "query_group": "추가 반증·중복 후보 탐색",
+        "new_urls": 0,
+        "new_events": 0,
+        "new_claims": 0,
+        "decision_changes": 0,
+        "note": "추가 결과가 기존 공식 원문의 재인용 또는 비공개 계약자료 요구로 수렴해 중단"
+      }
+    ],
+    "candidate_funnel": {
+      "discovered_candidates": 10,
+      "deduplicated_events": 7,
+      "deep_validation_candidates": 4,
+      "promoted_strategic_issues": 2,
+      "counts_by_axis": {
+        "에너지": 2
+      },
+      "rejection_reasons": {
+        "company_execution_only": 2,
+        "weak_decision_path": 1
+      }
+    },
+    "evidence_packets": [
+      {
+        "issue": "미얀마 가스전 생산과 대금회수 분리",
+        "source_count": 5,
+        "independent_channel_count": 4,
+        "roles": {
+          "eu_rule": [
+            "SRC-20260820-E33837C5"
+          ],
+          "us_rule": [
+            "SRC-20260820-5E07EF78",
+            "SRC-20260820-71D52944"
+          ],
+          "company_exposure": [
+            "SRC-20260820-54ADB74E",
+            "SRC-20260819-D7164DFA"
+          ],
+          "counter_limit": [
+            "SRC-20260820-54ADB74E",
+            "SRC-20260820-5E07EF78"
+          ]
+        }
+      },
+      {
+        "issue": "LNG 공급지 이동과 화물 전환권",
+        "source_count": 8,
+        "independent_channel_count": 5,
+        "roles": {
+          "physical_market": [
+            "SRC-20260820-47B392B3",
+            "SRC-20260818-3DD53EA4",
+            "SRC-20260819-2FA37997"
+          ],
+          "us_supply": [
+            "SRC-20260820-DB8E75B6",
+            "SRC-20260819-198CA198"
+          ],
+          "korea_demand": [
+            "SRC-20260819-FE4320CB"
+          ],
+          "company_exposure": [
+            "SRC-20260820-0281FEC0",
+            "SRC-20260819-D7164DFA"
+          ],
+          "counter_limit": [
+            "SRC-20260820-47B392B3"
+          ]
+        }
+      }
+    ],
+    "stop_reason": "미얀마 규제·회사 노출과 글로벌 LNG 수급·미국 증산·회사 가치사슬을 서로 다른 원문 채널에서 확인했고, 추가 결과는 기존 원문의 재인용 또는 계약 비공개 영역으로 수확이 감소",
+    "next_triggers": [
+      "EU의 2027년 미얀마 제재 연례 검토 또는 MOGE 명단 변경",
+      "OFAC의 MOGE 일반허가·FAQ 변경",
+      "IEA의 호르무즈 완전 재개 가정 변경",
+      "미국 신규 LNG 설비의 실제 상업운전·아시아 도착물량 변화",
+      "포스코인터내셔널의 미얀마 결제·비용회수율 또는 광양터미널 회전율 공시"
+    ],
+    "limitations": [
+      "공개정보로 회사 계약별 현금흐름과 제재 적용 여부를 법률 의견처럼 확정하지 않음",
+      "LNG 공급 전망은 설비 가동·항로 회복 가정에 따라 달라짐"
+    ],
+    "signal_mix": {
+      "minimum_core_market_ratio": 0.7,
+      "interpretation": "bias_warning_not_fill_quota",
+      "counts_by_axis": {
+        "에너지": {
+          "core_market_signal": 4,
+          "company_execution_signal": 0,
+          "total": 4,
+          "core_market_ratio": 1.0
+        }
+      },
+      "dominant_asset_by_axis": {
+        "에너지": {
+          "asset": "none",
+          "count": 0,
+          "total": 4,
+          "ratio": 0.0,
+          "interpretation": "미얀마 현금회수와 글로벌 LNG 화물배분의 두 독립 의사결정 경로"
+        }
+      }
+    }
+  },
+  "editorial_plans": [
+    {
+      "target_id": "WRN-MYANMAR-GAS-SANCTIONS-CASHFLOW",
+      "reader_question": "미얀마 가스전의 생산·정비 승인과 거래별 결제·보험·외환 승인을 분리할 것인가?",
+      "provisional_conclusion": "정상 생산과 정상 현금회수는 다른 조건이므로 거래별 결제경로를 별도 승인해야 함",
+      "visual_decision": "3개 지분·규제 기준은 정량 표, 5개 시점은 타임라인, 영향경로는 인과도로 제시하고 연속 시계열이 없어 막대그래프는 생략"
+    },
+    {
+      "target_id": "WRN-LNG-SUPPLY-ROUTE-FLEXIBILITY",
+      "reader_question": "장기계약·현물·자체생산 LNG를 목적지 전환·광양 저장·발전 투입의 화물별 순마진으로 재배분할 것인가?",
+      "provisional_conclusion": "세계 총량보다 공급지 이동이 커 평균가격이 아니라 화물별 전환권과 도착원가로 배분해야 함",
+      "visual_decision": "서로 다른 공급증감 수치는 비교표, 가치사슬 전달은 인과도로 제시하고 동일 정의의 4개 이상 시점이 없어 추세그래프는 생략"
+    }
+  ],
+  "results": {
+    "new_sources": 7,
+    "new_claims": 62,
+    "new_signals": 4
+  },
+  "signal_ids": [
+    "SIG-3C1FC7BD3A4D",
+    "SIG-562D3364FA7B",
+    "SIG-8A4DAC9E36CA",
+    "SIG-3ECBC5C37ED7"
+  ],
+  "signal_contract": {
+    "version": 1,
+    "minimum_core_market_ratio": 0.7,
+    "single_asset_concentration_threshold": 0.5,
+    "single_asset_minimum_signals": 3,
+    "signal_ids": [
+      "SIG-3C1FC7BD3A4D",
+      "SIG-562D3364FA7B",
+      "SIG-8A4DAC9E36CA",
+      "SIG-3ECBC5C37ED7"
+    ]
+  },
+  "discovery_contract": {
+    "version": 1,
+    "required_for_roles": [
+      "core_market_signal"
+    ],
+    "signal_ids": [
+      "SIG-3C1FC7BD3A4D",
+      "SIG-562D3364FA7B",
+      "SIG-8A4DAC9E36CA",
+      "SIG-3ECBC5C37ED7"
+    ]
+  },
+  "atomic_signal_contract": {
+    "version": 1,
+    "signal_ids": [
+      "SIG-3C1FC7BD3A4D",
+      "SIG-562D3364FA7B",
+      "SIG-8A4DAC9E36CA",
+      "SIG-3ECBC5C37ED7"
+    ]
+  }
+}

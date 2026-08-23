@@ -1,0 +1,29 @@
+{
+  "thesis_id": "THS-TUNGSTEN-LICENSE-PRICE",
+  "title": "광산 보유보다 고객 규격과 장기 가격공식이 텅스텐 진입을 결정",
+  "statement": "가격 급등만 따라 광산을 사기보다 국내 수요기업이 구매할 규격·최소물량과 비중국 원료를 묶을 수 있는 가공·재활용 단계를 먼저 골라야 합니다.",
+  "strategic_assumption_at_risk": "중국 공급집중이 높으므로 텅스텐 원광 자산만 확보하면 국가안보형 사업성이 자동으로 생긴다는 전제",
+  "business_axis": "전략광물",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "trend_ids": [
+    "TRD-TUNGSTEN-LICENSE-PRICE"
+  ],
+  "supporting_signal_ids": [
+    "SIG-ECBFAFB863BF"
+  ],
+  "execution_context_signal_ids": [],
+  "business_impact_path": "중국 수출허가제 → 정광·APT 납기와 가격 변동 확대 → 국내 고객의 재고·대체조달 수요 → 가공·재활용 단계의 계약가치 변화",
+  "confidence": "high",
+  "decision_horizon": "중국 허가제 아래 텅스텐 후보사업의 단계·고객·가격공식 선정",
+  "counter_evidence": [
+    "중국 밖 신규광산과 재활용 공급이 늘면 2025년 가격급등이 되돌려질 수 있습니다.",
+    "USGS 가격은 국제시장 지표이며 포스코홀딩스 고객의 실제 구매가격·규격을 입증하지 않습니다."
+  ],
+  "falsification_conditions": [
+    "중국의 허가 처리와 수출량이 정상화되고 국제가격이 2024년 범위로 장기간 복귀합니다.",
+    "국내 고객의 최소구매·품질승인과 비중국 원료계약을 같은 사업에 묶을 수 없습니다."
+  ],
+  "schema_version": 7
+}

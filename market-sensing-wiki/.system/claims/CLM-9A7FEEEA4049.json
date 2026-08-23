@@ -1,0 +1,34 @@
+{
+  "claim_id": "CLM-9A7FEEEA4049",
+  "subject_id": "MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026",
+  "predicate": "legacy_supply_addition_bcm_2026",
+  "value": "more than 10",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260818-3DD53EA4",
+    "SRC-20260820-47B392B3"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "IEA Q3 2026 forecast",
+      "source_ids": [
+        "SRC-20260818-3DD53EA4"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "action": "verified",
+      "reason": "IEA executive summary detailed verification",
+      "source_ids": [
+        "SRC-20260820-47B392B3"
+      ]
+    }
+  ]
+}

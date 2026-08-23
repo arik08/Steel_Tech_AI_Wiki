@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-218A381A65A9",
+  "subject_id": "MKT-STEEL-UK-QUOTA-2026",
+  "predicate": "recommended_follow_up",
+  "value": "영국향 품목·고객별 잔여 쿼터와 초과관세 귀속을 확인합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-422EE636"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Signal atomicity correction",
+      "source_ids": [
+        "SRC-20260820-422EE636"
+      ]
+    }
+  ]
+}

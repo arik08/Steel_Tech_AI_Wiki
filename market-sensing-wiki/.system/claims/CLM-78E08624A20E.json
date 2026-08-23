@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-78E08624A20E",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "business_impact_score_1_to_5",
+  "value": "5",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-E33837C5",
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Direct operating and cash-flow exposure through Myanmar gas field",
+      "source_ids": [
+        "SRC-20260820-E33837C5",
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

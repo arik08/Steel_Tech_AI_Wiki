@@ -2,6 +2,16 @@
   "schema_version": 3,
   "signal_id": "SIG-50D67D94CE68",
   "sentence": "미국이 2025년 6월 4일부터 철강과 파생제품의 추가관세를 25%에서 50%로 높였으므로, 포스코는 품목별 관세 전가율과 주문 변화를 기준으로 미국 출하 유지와 대체시장 전환을 결정해야 합니다.",
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "us.section232.steel-tariff-50pct.2025",
+    "change_unit": "policy_measure",
+    "observation": "미국이 무역확장법 232조 철강 관세율을 50%로 인상했습니다.",
+    "market_boundary": "미국으로 수입되는 적용 대상 철강제품",
+    "time_boundary": "2025년 6월 관세 인상 시행 이후",
+    "excluded_context": "자본재 85% 생산자격과 EU·영국·인도 조치는 별도 사건으로 제외합니다.",
+    "single_event_rationale": "미국 정부가 같은 관세조치에서 적용 대상 철강의 관세율을 하나의 시점에 50%로 바꾼 사건입니다."
+  },
   "insight_id": "INS-45F1C31469F4",
   "company_ids": [
     "COM-POSCO"

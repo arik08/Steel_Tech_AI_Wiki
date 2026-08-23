@@ -1,0 +1,34 @@
+{
+  "schema_version": 7,
+  "thesis_id": "THS-STEEL-MARKET-REGIONALISATION",
+  "title": "수출 총물량보다 고객별 현지 생산자격을 배분할 시기",
+  "statement": "고객별 접근자격·관세 전가율·최소구매를 기준으로 수출 유지와 현지 생산 옵션을 비교해야 합니다.",
+  "strategic_assumption_at_risk": "국가·품목별 쿼터와 수출가격을 조정하면 주요 시장의 무역장벽에 대응할 수 있다는 전제",
+  "business_axis": "철강",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "trend_ids": [
+    "TRD-STEEL-MARKET-REGIONALISATION"
+  ],
+  "supporting_signal_ids": [
+    "SIG-A07F1B887CA2",
+    "SIG-50D67D94CE68",
+    "SIG-C8AF9A1B623E",
+    "SIG-EFB4A11676A9",
+    "SIG-DE2981C00725",
+    "SIG-7A55EC61FBC5"
+  ],
+  "execution_context_signal_ids": [],
+  "business_impact_path": "지역별 접근조건 강화와 초과설비 확대 → 적격 물량 희소화·배제 물량 이동 → 보호시장 마진·제3시장 가격 압박 → 판매·생산·현지화 재배분",
+  "confidence": "medium",
+  "decision_horizon": "2026년 시행 조치부터 2027년 고객계약·생산배분까지",
+  "counter_evidence": [
+    "EU 대체조치와 저탄소 조달기준은 최종 법문과 세부 배분이 남았습니다.",
+    "고객이 관세를 대부분 부담하고 제3시장 가격이 방어되면 현지화 경제성은 낮아질 수 있습니다."
+  ],
+  "falsification_conditions": [
+    "최종 규칙에서 생산자격 조건이 약화되고 주요 고객의 관세 전가율이 70%를 지속 상회합니다.",
+    "보호시장 배제 물량 증가에도 동남아·중동 제품 스프레드가 두 분기 이상 방어됩니다."
+  ]
+}

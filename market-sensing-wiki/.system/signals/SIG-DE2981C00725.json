@@ -1,0 +1,78 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-DE2981C00725",
+  "sentence": "포스코는 미국 자본재 주문별 용해·주조 증빙 가능성을 확인한 뒤 수출과 현지조달 경로를 선택해야 합니다.",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "미국 자본재 주문은 제품가격과 일반 관세율을 맞추면 기존 생산경로로 수주할 수 있습니다.",
+    "observed_break": "일부 자본재의 우대관세에 철강 함량 중 미국 용해·주조 85% 이상이라는 생산자격이 추가됐습니다.",
+    "decision_change": "주문별 적용품목·철강 함량·용해주조 증빙을 먼저 확인하고 적격 생산경로별 원가와 납기를 비교해야 합니다.",
+    "pattern": "market_access_rule",
+    "surprise_score": 4,
+    "falsification_check": "적용품목이 포스코 고객 주문과 겹치는지와 세관이 요구하는 증빙 범위를 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "주요 자본재 주문이 적용품목이며 현지 소재·가공으로 85% 기준을 경제적으로 충족할 때",
+      "business_effect": "고객의 우대관세 경로와 장기 주문을 적격 생산경로에 고정",
+      "action": "적격 주문부터 미국 소재·가공 파트너와 인증책임을 우선 협상합니다."
+    },
+    "risk": {
+      "condition": "적용품목이나 기존 생산경로로 85% 기준 또는 증빙을 충족하지 못할 때",
+      "business_effect": "우대관세를 전제로 한 가격제안과 납품경로가 무효화될 가능성",
+      "action": "비적격 주문은 가격조정·현지조달·철수 대안을 주문별로 비교합니다."
+    },
+    "opportunity_cost": "적용품목과 증빙 원장을 늦게 만들면 적격 고객의 장기 주문과 현지 파트너 협상순서를 경쟁사에 먼저 내줄 수 있습니다.",
+    "decision_trigger": "주문별 우대관세 절감액이 현지 소재·가공의 증분비용보다 크고 증빙이 승인되면 적격 경로로 전환합니다."
+  },
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "us.capital-equipment.85pct-melted-poured.2026",
+    "change_unit": "policy_measure",
+    "observation": "미국이 일부 자본재 철강의 우대관세에 미국 용해·주조 85% 이상 기준을 적용했습니다.",
+    "market_boundary": "미국으로 수입되는 적용 대상 자본재와 그 철강 함량",
+    "time_boundary": "2026년 6월 8일부터 2027년 12월 31일까지",
+    "excluded_context": "미국 일반 철강 50% 관세와 EU·영국 쿼터, 세계 과잉설비는 별도 사건으로 제외합니다.",
+    "single_event_rationale": "같은 미국 대통령 포고문이 특정 자본재의 우대관세 자격에 하나의 용해·주조 기준과 적용기간을 부여한 사건입니다."
+  },
+  "insight_id": "INS-0A10C47D6297",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "business_axis": "철강",
+  "business_impact": {
+    "score": 4,
+    "rationale": "미국 자본재 주문의 적격 판정이 수출 가능 경로와 고객 협상조건을 직접 바꿉니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "85% 용해·주조 기준이 이미 적용 중이며 제도는 2027년 말까지 이어집니다."
+  },
+  "assessed_at": "2026-08-20",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-270518002ABB",
+    "CLM-AC2E25AFF727",
+    "CLM-3051AA205BA6",
+    "CLM-4873D4D7B804",
+    "CLM-96C6791F3255",
+    "CLM-52A4BD5A041A",
+    "CLM-1D7EE8EA60F2",
+    "CLM-933301028F21",
+    "CLM-C4A35EA2AD61",
+    "CLM-1AADE04407D7",
+    "CLM-4385CC77DE45"
+  ],
+  "source_ids": [
+    "SRC-20260820-214114A4"
+  ],
+  "status": "active",
+  "created_at": "2026-08-20T19:22:06+09:00",
+  "updated_at": "2026-08-20T19:22:06+09:00",
+  "run_id": "2026-08-20-signal-atomicity-correction"
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-562D3364FA7B",
+  "sentence": "송금·보험·보증·외환·신용장까지 넓은 금융서비스 제한이 미얀마 가스전의 대금회수 시점과 비용을 바꿀 수 있어 거래별 미국 접점과 실질 수익자를 확인해야 합니다.",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "미얀마 가스전 합작지분이 분리돼 있으면 정상 생산분의 결제와 보험도 안정적으로 유지됩니다.",
+    "observed_break": "미국 재무부는 MOGE를 위한 송금·보험·보증·외환 등 금융서비스를 미국인에게 금지했습니다.",
+    "decision_change": "가스전 운영심사에 거래별 미국 접점·실질 수익자·소유비율·적용 예외 승인을 추가합니다.",
+    "pattern": "policy_collision",
+    "surprise_score": 5,
+    "falsification_check": "미국 재무부의 명시적 허용과 주요 금융기관의 현행 거래구조 승인 여부를 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "risk",
+    "opportunity": {
+      "condition": "금융서비스별 미국 접점과 실질 수익자를 사전에 분리하고 허용 근거를 문서화할 때",
+      "business_effect": "정상 생산분의 결제·보험 경로를 유지하고 거래은행의 심사시간을 줄일 수 있습니다.",
+      "action": "송금·보험·보증·외환·신용장별 적합성 표와 대체서비스 경로를 준비합니다."
+    },
+    "risk": {
+      "condition": "거래가 국영가스공사의 이익을 위한 금융서비스로 판단되거나 미국 접점이 확대될 때",
+      "business_effect": "결제·보험·보증이 지연 또는 거절되어 회수기간과 금융비용이 늘 수 있습니다.",
+      "action": "거래를 중단하고 법률검토를 거쳐 허용된 대체통화·은행·보험 경로로 전환합니다."
+    },
+    "opportunity_cost": "사전 분류를 미루면 금융기관 심사 단계에서 거래가 멈춰 정상 생산분의 회수시점과 대체경로 협상력을 잃을 수 있습니다.",
+    "decision_trigger": "미국 재무부 지침이나 거래은행 심사기준이 강화되면 방어경로로 전환하고, 명시적 허용과 정상 결제가 확인되면 대응비용을 낮춥니다."
+  },
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "us-ofac-moge-financial-services-2023-12-15",
+    "change_unit": "policy_measure",
+    "observation": "미국 재무부가 2023년 12월 15일부터 미국인의 MOGE 관련 금융서비스 제공을 금지했습니다.",
+    "market_boundary": "미국인과 미국 금융망이 제공하는 MOGE 관련 송금·보험·보증·외환 등 금융서비스",
+    "time_boundary": "2023년 10월 31일 지침 발표와 2023년 12월 15일 효력 발생 이후",
+    "excluded_context": "유럽연합의 제재 연장은 별도 사건이며 미얀마 가스전의 생산·비용회수 실적도 이 Signal에서 제외합니다.",
+    "single_event_rationale": "이 Signal은 미국 재무부 금융서비스 지침과 그 적용범위만 다루며 국가별 제재의 결합효과는 전략 이슈에서 판단합니다."
+  },
+  "insight_id": "INS-55B9BFBF46D2",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 5,
+    "rationale": "미국 금융서비스 범위가 송금·보험·보증·외환·신용장까지 넓어 미얀마 가스전의 정상 생산과 별개로 거래별 결제 가능성과 비용을 바꿀 수 있습니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "지침은 이미 효력이 있으며 거래은행·보험사의 심사기준이 바뀌면 결제가 즉시 지연될 수 있어 상시 점검이 필요합니다."
+  },
+  "assessed_at": "2026-08-20",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-0D782B6CB736",
+    "CLM-1B8BD0DF3DEC",
+    "CLM-1D87DA277C8A",
+    "CLM-2DB11AAB7171",
+    "CLM-319F6F65D2A8",
+    "CLM-357676B9CAFD",
+    "CLM-45EB722E9643",
+    "CLM-54B4EF9098D9",
+    "CLM-7851E510B64A",
+    "CLM-830518DB7BB0",
+    "CLM-858113417560",
+    "CLM-9A3A38BE103D",
+    "CLM-C32252115217",
+    "CLM-EF93997FB454",
+    "CLM-F4FA197AF057",
+    "CLM-F680D9FAD8E1"
+  ],
+  "source_ids": [
+    "SRC-20260820-5E07EF78",
+    "SRC-20260820-71D52944",
+    "SRC-20260820-54ADB74E"
+  ],
+  "status": "active",
+  "created_at": "2026-08-20T22:44:59+09:00",
+  "updated_at": "2026-08-20T22:44:59+09:00",
+  "run_id": "energy-portfolio-rebalance-20260820"
+}

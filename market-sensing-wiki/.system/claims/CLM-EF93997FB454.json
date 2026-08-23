@@ -1,0 +1,29 @@
+{
+  "claim_id": "CLM-EF93997FB454",
+  "subject_id": "POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES",
+  "predicate": "impact_path",
+  "value": "미국 금융망 접점 → 실질 수익자·소유관계 심사 → 은행·보험 승인 또는 거절 → 대금회수 기간·비용 → 현금흐름",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-5E07EF78",
+    "SRC-20260820-71D52944",
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI impact-path analysis",
+      "source_ids": [
+        "SRC-20260820-5E07EF78",
+        "SRC-20260820-71D52944",
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

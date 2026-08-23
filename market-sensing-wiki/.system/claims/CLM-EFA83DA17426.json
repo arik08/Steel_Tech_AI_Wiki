@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-EFA83DA17426",
+  "subject_id": "POL-US-LNG-PLAQUEMINES-UPRATE-2026",
+  "predicate": "recommended_follow_up",
+  "value": "미국 주요 터미널의 허용량·가동량·선적량·아시아 도착량과 회사 계약 도착원가를 월별로 연결합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-DB8E75B6",
+    "SRC-20260820-0281FEC0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Decision follow-up from verified export authorisation",
+      "source_ids": [
+        "SRC-20260820-DB8E75B6",
+        "SRC-20260820-0281FEC0"
+      ]
+    }
+  ]
+}

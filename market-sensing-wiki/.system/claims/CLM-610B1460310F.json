@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-610B1460310F",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "eu_raw_materials_mechanism_scope",
+  "value": "구매수요 통합·공급자·금융기관·비축서비스 연결",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-13",
+  "last_verified": "2026-04-13",
+  "source_ids": [
+    "SRC-20260820-E5D2140D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-13",
+      "action": "created",
+      "reason": "European Commission 공식 발표",
+      "source_ids": [
+        "SRC-20260820-E5D2140D"
+      ]
+    }
+  ]
+}

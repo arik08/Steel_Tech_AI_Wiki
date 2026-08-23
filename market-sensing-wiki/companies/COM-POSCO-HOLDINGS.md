@@ -2,7 +2,7 @@
 
 # POSCO Holdings 기술 현황
 
-> 조사 기준일: **2026-08-18** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
+> 조사 기준일: **2026-08-20** · 공식·1차 자료 중심 · 사실과 AI 분석을 구분해 작성
 
 !!! abstract "한눈에 보기"
 
@@ -11,7 +11,7 @@
     | **확인된 기술** | 0개 / 감시 기술 0개 |
     | **연결 프로젝트** | 0개 |
     | **실행 단계** | 단계 정보 없음 |
-    | **직접 연결 근거** | 1건 |
+    | **직접 연결 근거** | 2건 |
 
 ## 기술 포트폴리오
 
@@ -36,6 +36,7 @@
 | **assessment confidence** | medium [^src-20260818-f3e8e66b] |
 | **impact path** | 리튬 수요 증가·가격 반등 + 업계 투자 급감 → 단기 판매가격 개선과 2030년대 공급부족 가능성 → 기존 프로젝트 램프업·신규 투자·오프테이크 조건의 가치 상승 [^src-20260818-f3e8e66b] |
 | **recommended follow up** | 아르헨티나·호주 프로젝트별 손익분기 가격과 램프업, 경쟁사 CAPEX 취소·연기, 고객 장기계약 가격식을 월간 재평가 [^src-20260818-f3e8e66b] |
+| **critical minerals rd lab opened** | 2025-06-09 호주 퍼스 연구소 개소 [^src-20260820-c228e651] |
 
 ## 프로젝트 정보 공백
 
@@ -56,5 +57,7 @@
 | 자료 | 발행 정보 | 원문 |
 | --- | --- | --- |
 | [[sources/SRC-20260818-F3E8E66B|Global Critical Minerals Outlook 2026: lithium market and investment signals]] | International Energy Agency · 2026-07-16 | [원문 보기](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary) |
+| [[sources/SRC-20260820-C228E651|POSCO Holdings strengthens future competitiveness through localized research strategy for critical minerals]] | POSCO Holdings · 2025-06-09 | [원문 보기](https://newsroom.posco.com/en/posco-holdings-strengthens-future-competitiveness-through-localized-research-strategy-for-critical-minerals-in-steel-and-battery-sectors/) |
 
 [^src-20260818-f3e8e66b]: **Global Critical Minerals Outlook 2026: lithium market and investment signals** — International Energy Agency, 2026-07-16. [원문](https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary) · [[sources/SRC-20260818-F3E8E66B|보관 원문·메타데이터]]
+[^src-20260820-c228e651]: **POSCO Holdings strengthens future competitiveness through localized research strategy for critical minerals** — POSCO Holdings, 2025-06-09. [원문](https://newsroom.posco.com/en/posco-holdings-strengthens-future-competitiveness-through-localized-research-strategy-for-critical-minerals-in-steel-and-battery-sectors/) · [[sources/SRC-20260820-C228E651|보관 원문·메타데이터]]

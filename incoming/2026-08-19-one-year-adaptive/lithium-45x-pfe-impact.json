@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "title": "미국 리튬 45X 세액공제 순가치 민감도",
+  "description": "적격 생산비, 공제율, 금지기업 관련 비적격 비중과 준수비용에 따른 연간 순가치입니다.",
+  "as_of": "2026-08-19",
+  "confidence": "low",
+  "notice": "공개 제도와 AI 가정을 결합한 예비 계산이며 POSCO 실제 생산비·세액공제·세무의견이 아닙니다.",
+  "formula_display": "생산비 × 공제율 × (1 - 비적격 비용비중) - 연간 준수비용",
+  "variables": [
+    {
+      "id": "production_cost",
+      "label": "연간 생산비",
+      "unit": "USD m/년",
+      "min": 10,
+      "max": 500,
+      "step": 10,
+      "default": 100,
+      "kind": "assumption",
+      "basis": "미국 사업의 내부 적격 생산비로 교체할 가정",
+      "source_ids": []
+    },
+    {
+      "id": "credit_rate",
+      "label": "45X 공제율",
+      "unit": "fraction",
+      "min": 0,
+      "max": 0.1,
+      "step": 0.01,
+      "default": 0.1,
+      "kind": "verified",
+      "basis": "적격 핵심광물 생산비의 10%",
+      "source_ids": ["SRC-20260819-3C4323B0"]
+    },
+    {
+      "id": "ineligible_share",
+      "label": "비적격 비용비중",
+      "unit": "fraction",
+      "min": 0,
+      "max": 1,
+      "step": 0.05,
+      "default": 0.5,
+      "kind": "assumption",
+      "basis": "금지기업 물질적 지원 및 증빙 실패 비용비중",
+      "source_ids": ["SRC-20260819-F58609F2"]
+    },
+    {
+      "id": "compliance_cost",
+      "label": "연간 준수·대체조달 비용",
+      "unit": "USD m/년",
+      "min": 0,
+      "max": 20,
+      "step": 0.5,
+      "default": 2,
+      "kind": "assumption",
+      "basis": "법무·세무·인증·대체조달의 예비 비용",
+      "source_ids": []
+    }
+  ],
+  "outputs": [
+    {
+      "id": "net_credit_value",
+      "label": "연간 세액공제 순가치",
+      "unit": "USD m/년",
+      "decimals": 1,
+      "primary": true,
+      "expression": {
+        "op": "subtract",
+        "args": [
+          {
+            "op": "multiply",
+            "args": [
+              {"var": "production_cost"},
+              {"var": "credit_rate"},
+              {"op": "subtract", "args": [1, {"var": "ineligible_share"}]}
+            ]
+          },
+          {"var": "compliance_cost"}
+        ]
+      }
+    }
+  ],
+  "presets": [
+    {"id": "defense", "label": "방어", "values": {"production_cost": 100, "credit_rate": 0.1, "ineligible_share": 0.1, "compliance_cost": 1}},
+    {"id": "base", "label": "기준", "values": {"production_cost": 100, "credit_rate": 0.1, "ineligible_share": 0.5, "compliance_cost": 2}},
+    {"id": "pressure", "label": "압박", "values": {"production_cost": 100, "credit_rate": 0.1, "ineligible_share": 1, "compliance_cost": 5}}
+  ]
+}

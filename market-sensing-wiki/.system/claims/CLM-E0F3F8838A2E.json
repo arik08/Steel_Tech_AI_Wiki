@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-E0F3F8838A2E",
+  "subject_id": "MKT-STEEL-MARKET-REGIONALISATION-2026",
+  "predicate": "business_impact_rationale",
+  "value": "보호시장 접근자격과 배제 물량의 제3시장 이동이 제품·고객별 마진과 현지화 투자결정을 함께 바꿉니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-422EE636"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "시장접근에서 판매·투자로 이어지는 영향 경로",
+      "source_ids": [
+        "SRC-20260820-422EE636"
+      ]
+    }
+  ]
+}

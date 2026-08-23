@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "event_key": "iea-q3-2026-nongulf-lng-offset-forecast",
+  "change_unit": "market_metric_shift",
+  "observation": "국제에너지기구는 2026년 중동 LNG 감소분을 비중동 신규·기존 공급 증가가 대부분 상쇄할 것으로 전망했습니다.",
+  "market_boundary": "2026년 세계 LNG 공급 중 중동과 북미·아프리카·호주 생산지역의 물량 변화",
+  "time_boundary": "2026년 7월 발표한 2026년 연간 수급 전망과 2026~2027년 단기 영향",
+  "excluded_context": "미국 개별 터미널의 수출허용 확대와 포스코인터내셔널 계약·터미널·발전 실적은 별도 사건으로 제외합니다.",
+  "single_event_rationale": "이 Signal은 국제에너지기구의 2026년 지역별 LNG 공급 상쇄 전망 하나를 다루며 개별 정책과 회사 의사결정의 결합은 전략 이슈에서 수행합니다."
+}

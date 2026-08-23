@@ -1,0 +1,34 @@
+{
+  "trend_id": "TRD-AU-GAS-RESERVATION-WINTER",
+  "title": "호주 내수의무와 2027년 겨울 지역부족이 같은 판매시장을 재편",
+  "summary": "연간 내수물량 확대 정책과 남부의 계절 부족 위험이 겹쳐 Senex 판매가치는 연간 총량보다 인도지역·계절·저장권에서 갈립니다.",
+  "business_axis": "에너지",
+  "direction": "strengthening",
+  "first_detected_at": "2026-05-07",
+  "last_observed_at": "2026-08-19",
+  "signal_ids": [
+    "SIG-E424C4E087DE",
+    "SIG-87E7FDAE469F"
+  ],
+  "supporting_source_ids": [
+    "SRC-20260818-38019D54",
+    "SRC-20260819-943D3138"
+  ],
+  "counter_source_ids": [
+    "SRC-20260819-943D3138"
+  ],
+  "indicators": [
+    {
+      "label": "추진 중인 LNG 수출량 대비 내수공급 의무",
+      "baseline": "기존 제도",
+      "current": "20",
+      "unit": "%",
+      "observed_at": "2026-05-07",
+      "interpretation": "경쟁 공급자의 내수물량과 가격이 늘어도 겨울 남부 인도권의 희소가치는 남을 수 있습니다.",
+      "source_ids": [
+        "SRC-20260818-38019D54"
+      ]
+    }
+  ],
+  "schema_version": 7
+}

@@ -1,0 +1,29 @@
+{
+  "thesis_id": "THS-LITHIUM-45X-ELIGIBILITY",
+  "title": "미국 리튬 실증의 선행조건은 공정성능이 아니라 공제 적격성",
+  "statement": "미국 리튬 사업은 수율 실증과 별도로 법인구조·공급자·재료·공정 비용의 금지 외국기업 노출을 먼저 검증해야 예상 45X 공제를 투자경제성에 반영할 수 있습니다.",
+  "strategic_assumption_at_risk": "미국에서 적격 리튬을 생산·판매하면 생산량에 비례한 45X 공제를 대부분 받을 수 있다는 전제",
+  "business_axis": "리튬",
+  "company_ids": [
+    "COM-POSCO-HOLDINGS"
+  ],
+  "trend_ids": [
+    "TRD-LITHIUM-45X-ELIGIBILITY"
+  ],
+  "supporting_signal_ids": [
+    "SIG-616AB52ADDF4"
+  ],
+  "execution_context_signal_ids": [],
+  "business_impact_path": "금지 외국기업 소유·물질적 지원 규칙 → 적격 생산비용과 공급자 인증 변화 → 세액공제·현금흐름 → 실증·계약·투자 구조 변화",
+  "confidence": "high",
+  "decision_horizon": "미국 리튬 실증·상업투자 전 45X 적격성 설계",
+  "counter_evidence": [
+    "IRS는 향후 표가 나올 때까지 사용할 임시 계산방법과 일부 안전기준을 제시했습니다.",
+    "공개정보로 포스코 관련 미국 법인의 실제 공급자별 비용비율과 세무상 적격성을 확정할 수 없습니다."
+  ],
+  "falsification_conditions": [
+    "세무·법률 검토 결과 금지 외국기업 관련 비용이 적용 기준 아래이고 공급자 인증이 모두 확보됩니다.",
+    "공제 제외 시나리오에서도 사업의 세후 수익률이 투자 기준을 충분히 넘습니다."
+  ],
+  "schema_version": 7
+}

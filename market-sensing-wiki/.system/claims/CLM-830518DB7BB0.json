@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-830518DB7BB0",
+  "subject_id": "POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES",
+  "predicate": "posco_operator_interest_percent",
+  "value": "51",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "POSCO International audited joint arrangement disclosure",
+      "source_ids": [
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

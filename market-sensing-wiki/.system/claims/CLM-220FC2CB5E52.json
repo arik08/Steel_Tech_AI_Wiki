@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-220FC2CB5E52",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "recommended_follow_up",
+  "value": "후보광종별 고객 최소구매·가격하방·정책 적격성·철회비용 비교표 작성",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-FF867E92"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "투자 전 필요한 의사결정 산출물",
+      "source_ids": [
+        "SRC-20260820-FF867E92"
+      ]
+    }
+  ]
+}

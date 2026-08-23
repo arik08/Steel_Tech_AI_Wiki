@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-486ADE34E48D",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "g7_policy_tools",
+  "value": "조달·세제·금융지원·투자정책·무역조치·가격하한 등",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-10-31",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-FF867E92"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-10-31",
+      "action": "created",
+      "reason": "G7 공식 로드맵",
+      "source_ids": [
+        "SRC-20260820-FF867E92"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "action": "verified",
+      "reason": "2026-08-20 G7 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260820-FF867E92"
+      ]
+    }
+  ]
+}

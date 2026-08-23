@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9A8EACE840F1",
+  "subject_id": "MKT-STEEL-MARKET-REGIONALISATION-2026",
+  "predicate": "uk_tariff_free_quota_cut",
+  "value": "기존 세이프가드 대비 51% 축소",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-01",
+  "last_verified": "2026-07-01",
+  "source_ids": [
+    "SRC-20260820-422EE636"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-01",
+      "action": "created",
+      "reason": "영국 정부 무역조치",
+      "source_ids": [
+        "SRC-20260820-422EE636"
+      ]
+    }
+  ]
+}

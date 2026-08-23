@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-270518002ABB",
+  "subject_id": "MKT-STEEL-MARKET-REGIONALISATION-2026",
+  "predicate": "us_domestic_melted_poured_threshold",
+  "value": "철강 함량 중 미국 용해·주조 85% 이상",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-06-08",
+  "last_verified": "2026-06-08",
+  "source_ids": [
+    "SRC-20260820-214114A4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-06-08",
+      "action": "created",
+      "reason": "미국 대통령 포고문",
+      "source_ids": [
+        "SRC-20260820-214114A4"
+      ]
+    }
+  ]
+}

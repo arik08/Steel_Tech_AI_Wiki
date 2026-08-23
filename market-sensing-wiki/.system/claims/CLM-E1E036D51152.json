@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-E1E036D51152",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "business_impact_rationale",
+  "value": "미얀마 가스전은 51% 운영지분과 MOGE 15% 지분이 연결돼 있어, 제재 연장은 생산과 별개로 결제·보험·외환 경로와 현금회수 조건을 계속 점검하게 합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-E33837C5",
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI assessment connecting official policy and audited company exposure",
+      "source_ids": [
+        "SRC-20260820-E33837C5",
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

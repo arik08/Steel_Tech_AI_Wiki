@@ -4151,3 +4151,1543 @@ SIG-35E375530293: 중국 추가 희토류 통제 2026년 11월까지 중단
 ## [2026-08-19T22:47:30+09:00] audit
 
 0 findings. Report: reports/audits/audit-2026-08-19.md
+
+## [2026-08-19T23:01:50+09:00] sync-obsidian
+
+59 subjects and 67 sources projected.
+
+## [2026-08-19T23:02:58+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-19.md
+
+## [2026-08-19T23:04:28+09:00] sync-obsidian
+
+59 subjects and 67 sources projected.
+
+## [2026-08-19T23:16:43+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-19.md
+
+## [2026-08-20T00:13:01+09:00] sync-obsidian
+
+59 subjects and 67 sources projected.
+
+## [2026-08-20T00:13:10+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T00:15:10+09:00] sync-obsidian
+
+59 subjects and 67 sources projected.
+
+## [2026-08-20T00:15:20+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T00:20:28+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T01:06:57+09:00] sync-obsidian
+
+59 subjects and 67 sources projected.
+
+## [2026-08-20T01:07:07+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T07:02:47+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T07:35:42+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T07:46:41+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 희토류 통제는 멈춘 것이 아니다, 11월 전 자산보다 구매권을 잡을 때
+
+## [2026-08-20T07:46:41+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격은 두 배가 됐지만, 광산보다 고객 규격을 먼저 잡아야 한다
+
+## [2026-08-20T07:46:42+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 미국에서 만들기만 해서는 45X를 못 받는다, 실증 전에 공급자를 바꿀 때
+
+## [2026-08-20T07:46:42+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 호주 가스는 남아도 겨울 남부는 부족하다, Senex는 연간 물량보다 계절을 팔아야 한다
+
+## [2026-08-20T07:46:43+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 수요는 4,900만 톤 줄고 설비는 더 는다, 범용재 물량계획을 멈춰 세울 때
+
+## [2026-08-20T07:47:48+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T07:50:01+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 희토류 통제는 멈춘 것이 아니다, 11월 전 자산보다 구매권을 잡을 때
+
+## [2026-08-20T07:50:02+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격은 두 배가 됐지만, 광산보다 고객 규격을 먼저 잡아야 한다
+
+## [2026-08-20T07:50:02+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 미국에서 만들기만 해서는 45X를 못 받는다, 실증 전에 공급자를 바꿀 때
+
+## [2026-08-20T07:50:03+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 호주 가스는 남아도 겨울 남부는 부족하다, Senex는 연간 물량보다 계절을 팔아야 한다
+
+## [2026-08-20T07:50:03+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 수요는 4,900만 톤 줄고 설비는 더 는다, 범용재 물량계획을 멈춰 세울 때
+
+## [2026-08-20T07:50:17+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T15:48:32+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T15:51:06+09:00] sync-obsidian
+
+59 subjects and 67 sources projected.
+
+## [2026-08-20T15:51:15+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T17:08:36+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T17:37:19+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T17:42:31+09:00] add-source
+
+SRC-20260820-FF867E92: Roadmap to Promote Standards-based Markets for Critical Minerals
+
+## [2026-08-20T17:42:32+09:00] add-source
+
+SRC-20260820-E5D2140D: Commission launches platform to aggregate demand of raw materials and boost diversification
+
+## [2026-08-20T17:42:33+09:00] add-source
+
+SRC-20260820-F778010D: Critical Minerals Production Tax Incentive
+
+## [2026-08-20T17:42:34+09:00] add-source
+
+SRC-20260820-C228E651: POSCO Holdings strengthens future competitiveness through localized research strategy for critical minerals
+
+## [2026-08-20T17:42:35+09:00] add-source
+
+SRC-20260820-422EE636: UK's steel trade measure from 1 July 2026
+
+## [2026-08-20T17:42:36+09:00] add-source
+
+SRC-20260820-214114A4: Further Adjusting the Tariff Regimes for Imports of Aluminum, Steel, and Copper
+
+## [2026-08-20T17:43:11+09:00] add-claim
+
+CLM-486ADE34E48D: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / g7_policy_tools = 조달·세제·금융지원·투자정책·무역조치·가격하한 등
+
+## [2026-08-20T17:43:12+09:00] add-claim
+
+CLM-9F6A6C0285CB: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / eu_raw_materials_mechanism_launch_date = 2026-04-13
+
+## [2026-08-20T17:43:13+09:00] add-claim
+
+CLM-610B1460310F: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / eu_raw_materials_mechanism_scope = 구매수요 통합·공급자·금융기관·비축서비스 연결
+
+## [2026-08-20T17:43:15+09:00] add-claim
+
+CLM-03C6CD955E36: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / australia_processing_tax_offset = 적격 가공·정제비의 10% 환급형 세액공제
+
+## [2026-08-20T17:43:16+09:00] add-claim
+
+CLM-577477333167: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / australia_tax_incentive_period = 2027-07-01~2040-06-30
+
+## [2026-08-20T17:43:17+09:00] add-claim
+
+CLM-7CDE56E2F5B7: COM-POSCO-HOLDINGS / critical_minerals_rd_lab_opened = 2025-06-09 호주 퍼스 연구소 개소
+
+## [2026-08-20T17:43:18+09:00] add-claim
+
+CLM-9A8EACE840F1: MKT-STEEL-MARKET-REGIONALISATION-2026 / uk_tariff_free_quota_cut = 기존 세이프가드 대비 51% 축소
+
+## [2026-08-20T17:43:19+09:00] add-claim
+
+CLM-8729605AE770: MKT-STEEL-MARKET-REGIONALISATION-2026 / uk_out_of_quota_duty = 50%
+
+## [2026-08-20T17:43:20+09:00] add-claim
+
+CLM-270518002ABB: MKT-STEEL-MARKET-REGIONALISATION-2026 / us_domestic_melted_poured_threshold = 철강 함량 중 미국 용해·주조 85% 이상
+
+## [2026-08-20T17:43:22+09:00] add-claim
+
+CLM-AC2E25AFF727: MKT-STEEL-MARKET-REGIONALISATION-2026 / us_updated_tariff_window = 2026-06-08~2027-12-31
+
+## [2026-08-20T17:54:03+09:00] add-claim
+
+CLM-E115DCDC9C72: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / business_axis = 전략광물
+
+## [2026-08-20T17:54:03+09:00] add-claim
+
+CLM-8C8C8A2ABD03: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / business_impact_score_1_to_5 = 5
+
+## [2026-08-20T17:54:04+09:00] add-claim
+
+CLM-BD507731F853: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / urgency_score_1_to_5 = 4
+
+## [2026-08-20T17:54:05+09:00] add-claim
+
+CLM-F1595E5424E5: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / urgency_rationale = G7·EU 첫 계약과 호주 2027년 시행 전에 고객 구매권과 정책 적격성을 선점해야 합니다.
+
+## [2026-08-20T17:54:06+09:00] add-claim
+
+CLM-E914E7EE9E84: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / assessment_confidence = medium
+
+## [2026-08-20T17:54:07+09:00] add-claim
+
+CLM-E910D73FE2EE: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / assessed_at = 2026-08-20
+
+## [2026-08-20T17:54:07+09:00] add-claim
+
+CLM-F15D217F0D64: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / impact_path = 가격·구매·가공비 정책지원 → 프로젝트 가격·물량·자본비 하방 축소 → 단계투자 NPV와 진입순서 변경
+
+## [2026-08-20T17:54:08+09:00] add-claim
+
+CLM-220FC2CB5E52: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / recommended_follow_up = 후보광종별 고객 최소구매·가격하방·정책 적격성·철회비용 비교표 작성
+
+## [2026-08-20T17:54:35+09:00] add-claim
+
+CLM-AB1A6EAC486B: MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026 / business_impact_rationale = 가격·물량·자본비 하방을 누가 부담하는지가 신규 광종의 투자순서와 NPV를 직접 바꿉니다.
+
+## [2026-08-20T17:54:57+09:00] add-signal
+
+SIG-58262BC4861B: 전략광물 지원이 가격·구매·가공비 보전으로 확대
+
+## [2026-08-20T17:55:11+09:00] add-claim
+
+CLM-781924D93C07: MKT-STEEL-MARKET-REGIONALISATION-2026 / business_axis = 철강
+
+## [2026-08-20T17:55:12+09:00] add-claim
+
+CLM-3772F81C3699: MKT-STEEL-MARKET-REGIONALISATION-2026 / business_impact_score_1_to_5 = 5
+
+## [2026-08-20T17:55:13+09:00] add-claim
+
+CLM-E0F3F8838A2E: MKT-STEEL-MARKET-REGIONALISATION-2026 / business_impact_rationale = 보호시장 접근자격과 배제 물량의 제3시장 이동이 제품·고객별 마진과 현지화 투자결정을 함께 바꿉니다.
+
+## [2026-08-20T17:55:14+09:00] add-claim
+
+CLM-CBD9CAEBD088: MKT-STEEL-MARKET-REGIONALISATION-2026 / urgency_score_1_to_5 = 5
+
+## [2026-08-20T17:55:15+09:00] add-claim
+
+CLM-30D05EEBE289: MKT-STEEL-MARKET-REGIONALISATION-2026 / urgency_rationale = EU·영국 조치가 2026년 7월 적용되고 미국 체계가 2027년 말까지 이어져 2027년 고객계약 전에 생산경로를 정해야 합니다.
+
+## [2026-08-20T17:55:15+09:00] add-claim
+
+CLM-3083D0BA238F: MKT-STEEL-MARKET-REGIONALISATION-2026 / assessment_confidence = medium
+
+## [2026-08-20T17:55:16+09:00] add-claim
+
+CLM-B910CEFE3598: MKT-STEEL-MARKET-REGIONALISATION-2026 / assessed_at = 2026-08-20
+
+## [2026-08-20T17:55:17+09:00] add-claim
+
+CLM-8D19B621C1A8: MKT-STEEL-MARKET-REGIONALISATION-2026 / impact_path = 지역별 접근조건 강화 → 무관세·적격 물량 희소화와 배제 물량 이동 → 보호시장 마진·제3시장 가격 압박 → 판매·생산·현지화 재배분
+
+## [2026-08-20T17:55:18+09:00] add-claim
+
+CLM-2C1480B940BF: MKT-STEEL-MARKET-REGIONALISATION-2026 / recommended_follow_up = 고객별 용해·주조국·쿼터·관세 귀속·가격전가율을 묶은 시장접근 원장 작성
+
+## [2026-08-20T17:55:39+09:00] add-signal
+
+SIG-E8C4FAE73412: 미국·EU·영국 철강 시장접근 장벽 동시 강화
+
+## [2026-08-20T18:00:14+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 전략광물 가격을 정부가 설계하기 시작했다, 광산보다 구매계약을 먼저 잡을 때
+
+## [2026-08-20T18:00:14+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 철강 수출시장이 50% 장벽으로 갈라진다, 물량보다 현지 생산자격을 살 때
+
+## [2026-08-20T18:04:17+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:04:27+09:00] audit
+
+2 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:08:19+09:00] audit
+
+3 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:09:03+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:09:13+09:00] audit
+
+2 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:09:55+09:00] verify-claim
+
+CLM-486ADE34E48D: added evidence SRC-20260820-FF867E92
+
+## [2026-08-20T18:09:56+09:00] verify-claim
+
+CLM-7CDE56E2F5B7: added evidence SRC-20260820-C228E651
+
+## [2026-08-20T18:09:57+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:10:07+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:33:18+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:37:53+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:38:42+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:38:55+09:00] audit
+
+1 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:39:28+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:39:42+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:42:00+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:42:13+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:49:27+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:53:03+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:53:20+09:00] audit
+
+1 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:53:54+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:54:11+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:54:29+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:54:46+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:56:16+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:56:30+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T18:57:51+09:00] sync-obsidian
+
+61 subjects and 73 sources projected.
+
+## [2026-08-20T18:58:05+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T19:08:49+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T19:18:08+09:00] add-claim
+
+CLM-3051AA205BA6: MKT-STEEL-US-QUALIFICATION-2026 / business_axis = 철강
+
+## [2026-08-20T19:18:08+09:00] add-claim
+
+CLM-4873D4D7B804: MKT-STEEL-US-QUALIFICATION-2026 / business_impact_score_1_to_5 = 4
+
+## [2026-08-20T19:18:09+09:00] add-claim
+
+CLM-96C6791F3255: MKT-STEEL-US-QUALIFICATION-2026 / business_impact_rationale = 미국 자본재 주문의 적격 판정이 수출 가능 경로와 고객 협상조건을 직접 바꿉니다.
+
+## [2026-08-20T19:18:10+09:00] add-claim
+
+CLM-52A4BD5A041A: MKT-STEEL-US-QUALIFICATION-2026 / urgency_score_1_to_5 = 4
+
+## [2026-08-20T19:18:11+09:00] add-claim
+
+CLM-1D7EE8EA60F2: MKT-STEEL-US-QUALIFICATION-2026 / urgency_rationale = 85% 용해·주조 기준이 이미 적용 중이며 제도는 2027년 말까지 이어집니다.
+
+## [2026-08-20T19:18:12+09:00] add-claim
+
+CLM-933301028F21: MKT-STEEL-US-QUALIFICATION-2026 / assessment_confidence = medium
+
+## [2026-08-20T19:18:12+09:00] add-claim
+
+CLM-C4A35EA2AD61: MKT-STEEL-US-QUALIFICATION-2026 / assessed_at = 2026-08-20
+
+## [2026-08-20T19:18:13+09:00] add-claim
+
+CLM-1AADE04407D7: MKT-STEEL-US-QUALIFICATION-2026 / impact_path = 85% 미국 용해·주조 기준 → 자본재 적격 판정 → 주문별 관세·조달조건 → 생산경로 선택
+
+## [2026-08-20T19:18:14+09:00] add-claim
+
+CLM-4385CC77DE45: MKT-STEEL-US-QUALIFICATION-2026 / recommended_follow_up = 미국 자본재 고객 주문별 철강 원산지·용해주조 인증 가능성을 확인합니다.
+
+## [2026-08-20T19:18:15+09:00] add-claim
+
+CLM-73DA72EA0200: MKT-STEEL-UK-QUOTA-2026 / business_axis = 철강
+
+## [2026-08-20T19:18:15+09:00] add-claim
+
+CLM-0B47345ABA54: MKT-STEEL-UK-QUOTA-2026 / business_impact_score_1_to_5 = 4
+
+## [2026-08-20T19:18:16+09:00] add-claim
+
+CLM-4A6F60C47CDA: MKT-STEEL-UK-QUOTA-2026 / business_impact_rationale = 무관세 쿼터 51% 축소와 초과분 50% 관세가 영국향 판매물량과 계약마진을 직접 제한합니다.
+
+## [2026-08-20T19:18:17+09:00] add-claim
+
+CLM-DF2E0A3473DD: MKT-STEEL-UK-QUOTA-2026 / urgency_score_1_to_5 = 5
+
+## [2026-08-20T19:18:18+09:00] add-claim
+
+CLM-62F95EA10095: MKT-STEEL-UK-QUOTA-2026 / urgency_rationale = 영국 조치가 2026년 7월 1일부터 시행돼 계약별 잔여 쿼터와 관세 귀속을 즉시 확인해야 합니다.
+
+## [2026-08-20T19:18:19+09:00] add-claim
+
+CLM-41E602C00829: MKT-STEEL-UK-QUOTA-2026 / assessment_confidence = high
+
+## [2026-08-20T19:18:19+09:00] add-claim
+
+CLM-2895AD1ACB8C: MKT-STEEL-UK-QUOTA-2026 / assessed_at = 2026-08-20
+
+## [2026-08-20T19:18:21+09:00] add-claim
+
+CLM-22BB4A2D53C4: MKT-STEEL-UK-QUOTA-2026 / impact_path = 무관세 쿼터 51% 축소 → 초과분 50% 관세 → 고객별 도착원가·판매량 → 영국향 계약 재배분
+
+## [2026-08-20T19:18:21+09:00] add-claim
+
+CLM-218A381A65A9: MKT-STEEL-UK-QUOTA-2026 / recommended_follow_up = 영국향 품목·고객별 잔여 쿼터와 초과관세 귀속을 확인합니다.
+
+## [2026-08-20T19:22:06+09:00] add-signal
+
+SIG-DE2981C00725: 미국 자본재에 85% 자국 용해·주조 기준 적용
+
+## [2026-08-20T19:23:06+09:00] add-signal
+
+SIG-7A55EC61FBC5: 영국 철강 무관세 쿼터 51% 축소
+
+## [2026-08-20T19:25:37+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T19:25:41+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T19:28:27+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T19:29:23+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T19:29:47+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T19:54:36+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T19:54:53+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T20:31:16+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T20:31:28+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T20:31:46+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T20:38:14+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 호주 가스는 남아도 겨울 남부는 부족하다, Senex는 연간 물량보다 계절을 팔아야 한다
+
+## [2026-08-20T20:38:14+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: 2027년부터 LNG도 ‘메탄 여권’이 필요하다, 유럽 판매선택권의 숨은 공백
+
+## [2026-08-20T20:38:15+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 미국에서 만들기만 해서는 45X를 못 받는다, 실증 전에 공급자를 바꿀 때
+
+## [2026-08-20T20:38:16+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국이 블랙매스를 다시 빨아들인다, 재활용 원료 확보전의 판이 바뀐다
+
+## [2026-08-20T20:38:16+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 전기차는 늘어도 수산화리튬은 덜 팔릴 수 있다, LFP가 바꾼 성장공식
+
+## [2026-08-20T20:38:17+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: ESS의 리튬 공식이 깨지기 시작했다, 나트륨이온 60GWh 계약의 의미
+
+## [2026-08-20T20:38:18+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 희토류 통제는 멈춘 것이 아니다, 11월 전 자산보다 구매권을 잡을 때
+
+## [2026-08-20T20:38:19+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 수요는 4,900만 톤 줄고 설비는 더 는다, 범용재 물량계획을 멈춰 세울 때
+
+## [2026-08-20T20:38:20+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 수소환원제철의 병목은 수소가 아니라 철광석일 수 있다
+
+## [2026-08-20T20:38:21+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: EU 철강 쿼터 1톤의 값이 달라진다, 물량보다 고객을 골라야 할 때
+
+## [2026-08-20T20:38:22+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 철강 시장접근권이 관세에서 생산자격으로 이동한다
+
+## [2026-08-20T20:38:22+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 전략광물 가격을 정부가 설계하기 시작했다, 광산보다 구매계약을 먼저 잡을 때
+
+## [2026-08-20T20:38:23+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격은 두 배가 됐지만, 광산보다 고객 규격을 먼저 잡아야 한다
+
+## [2026-08-20T20:39:56+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T20:40:10+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T20:41:24+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T20:41:39+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T20:42:10+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T20:55:00+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:05:38+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:07:17+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:07:41+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:10:04+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 호주 가스는 남아도 겨울 남부는 부족하다, Senex는 연간 물량보다 계절을 팔아야 한다
+
+## [2026-08-20T21:10:04+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: 2027년부터 LNG도 ‘메탄 여권’이 필요하다, 유럽 판매선택권의 숨은 공백
+
+## [2026-08-20T21:10:05+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 미국에서 만들기만 해서는 45X를 못 받는다, 실증 전에 공급자를 바꿀 때
+
+## [2026-08-20T21:10:06+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국이 블랙매스를 다시 빨아들인다, 재활용 원료 확보전의 판이 바뀐다
+
+## [2026-08-20T21:10:07+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 전기차는 늘어도 수산화리튬은 덜 팔릴 수 있다, LFP가 바꾼 성장공식
+
+## [2026-08-20T21:10:08+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: ESS의 리튬 공식이 깨지기 시작했다, 나트륨이온 60GWh 계약의 의미
+
+## [2026-08-20T21:10:09+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 희토류 통제는 멈춘 것이 아니다, 11월 전 자산보다 구매권을 잡을 때
+
+## [2026-08-20T21:10:10+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 수요는 4,900만 톤 줄고 설비는 더 는다, 범용재 물량계획을 멈춰 세울 때
+
+## [2026-08-20T21:10:10+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 수소환원제철의 병목은 수소가 아니라 철광석일 수 있다
+
+## [2026-08-20T21:10:11+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: EU 철강 쿼터 1톤의 값이 달라진다, 물량보다 고객을 골라야 할 때
+
+## [2026-08-20T21:10:12+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 전략광물 가격을 정부가 설계하기 시작했다, 광산보다 구매계약을 먼저 잡을 때
+
+## [2026-08-20T21:10:13+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격은 두 배가 됐지만, 광산보다 고객 규격을 먼저 잡아야 한다
+
+## [2026-08-20T21:11:03+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T21:11:21+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:20:41+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T21:20:57+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:21:57+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T21:22:08+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:22:34+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:24:01+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:36:13+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 연간 잉여 13PJ 뒤에 겨울 부족이 남는다, Senex는 계절 가치를 팔 때
+
+## [2026-08-20T21:36:13+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: LNG의 유럽 입장권이 가격에서 메탄 데이터로 바뀐다
+
+## [2026-08-20T21:36:14+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 45X의 병목은 공장이 아니라 공급자 비용장부다
+
+## [2026-08-20T21:36:14+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국 블랙매스 수입 재개, 재활용 설비보다 원료계약이 먼저다
+
+## [2026-08-20T21:36:15+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 전기차는 늘어도 수산화리튬은 덜 팔릴 수 있다, LFP가 바꾼 성장공식
+
+## [2026-08-20T21:36:16+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: 60GWh 주문이 ESS의 리튬 독점을 깨기 시작했다
+
+## [2026-08-20T21:36:17+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 희토류 통제 유예 11월 종료, 자산보다 구매권이 먼저다
+
+## [2026-08-20T21:36:18+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 2028년 과잉설비 7.45억 톤, 범용재 물량보다 가격방어가 먼저다
+
+## [2026-08-20T21:36:19+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 직접환원급 철광석은 해상물량의 3~4%, HyREX 경쟁은 원료에서 갈린다
+
+## [2026-08-20T21:36:20+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: EU 무관세 물량 47% 축소, 쿼터 1톤의 고객가치를 다시 셀 때
+
+## [2026-08-20T21:36:21+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 철강 접근권이 관세에서 생산자격으로 이동한다
+
+## [2026-08-20T21:36:21+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 가격·구매·세제까지 정부가 묶는다, 전략광물은 계약부터 설계할 때
+
+## [2026-08-20T21:36:22+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격은 1년 새 두 배, 고객 규격 없는 광산은 답이 아니다
+
+## [2026-08-20T21:36:35+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T21:37:26+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 연간 잉여 13PJ 뒤에 겨울 부족이 남는다, Senex는 계절 가치를 팔 때
+
+## [2026-08-20T21:37:27+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: LNG의 유럽 입장권이 가격에서 메탄 데이터로 바뀐다
+
+## [2026-08-20T21:37:28+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 45X의 병목은 공장이 아니라 공급자 비용장부다
+
+## [2026-08-20T21:37:29+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국 블랙매스 수입 재개, 재활용 설비보다 원료계약이 먼저다
+
+## [2026-08-20T21:37:29+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 전기차는 늘어도 수산화리튬은 덜 팔릴 수 있다, LFP가 바꾼 성장공식
+
+## [2026-08-20T21:37:30+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: 60GWh 주문이 ESS의 리튬 독점을 깨기 시작했다
+
+## [2026-08-20T21:37:31+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 희토류 통제 유예 11월 종료, 자산보다 구매권이 먼저다
+
+## [2026-08-20T21:37:32+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 2028년 과잉설비 7.45억 톤, 범용재 물량보다 가격방어가 먼저다
+
+## [2026-08-20T21:37:33+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 직접환원급 철광석은 해상물량의 3~4%, HyREX 경쟁은 원료에서 갈린다
+
+## [2026-08-20T21:37:33+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: EU 무관세 물량 47% 축소, 쿼터 1톤의 고객가치를 다시 셀 때
+
+## [2026-08-20T21:37:34+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 철강 접근권이 관세에서 생산자격으로 이동한다
+
+## [2026-08-20T21:37:35+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 가격·구매·세제까지 정부가 묶는다, 전략광물은 계약부터 설계할 때
+
+## [2026-08-20T21:37:36+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격은 1년 새 두 배, 고객 규격 없는 광산은 답이 아니다
+
+## [2026-08-20T21:38:22+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T21:38:45+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T21:42:14+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T21:45:27+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:02:08+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 연간 잉여 13PJ 뒤에 겨울 부족이 남는다, Senex는 계절 가치를 팔 때
+
+## [2026-08-20T22:02:09+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: LNG의 유럽 입장권이 가격에서 메탄 데이터로 바뀐다
+
+## [2026-08-20T22:02:10+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 45X의 병목은 공장이 아니라 공급자 비용장부다
+
+## [2026-08-20T22:02:10+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국 블랙매스 수입 재개, 재활용 설비보다 원료계약이 먼저다
+
+## [2026-08-20T22:02:11+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 전기차는 늘어도 수산화리튬은 덜 팔릴 수 있다, LFP가 바꾼 성장공식
+
+## [2026-08-20T22:02:12+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: 60GWh 주문이 ESS의 리튬 독점을 깨기 시작했다
+
+## [2026-08-20T22:02:13+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 희토류 통제 유예 11월 종료, 자산보다 구매권이 먼저다
+
+## [2026-08-20T22:02:13+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 2028년 과잉설비 7.45억 톤, 범용재 물량보다 가격방어가 먼저다
+
+## [2026-08-20T22:02:14+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 직접환원급 철광석은 해상물량의 3~4%, HyREX 경쟁은 원료에서 갈린다
+
+## [2026-08-20T22:02:15+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: EU 무관세 물량 47% 축소, 쿼터 1톤의 고객가치를 다시 셀 때
+
+## [2026-08-20T22:02:16+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 철강 접근권이 관세에서 생산자격으로 이동한다
+
+## [2026-08-20T22:02:17+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 가격·구매·세제까지 정부가 묶는다, 전략광물은 계약부터 설계할 때
+
+## [2026-08-20T22:02:18+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격은 1년 새 두 배, 고객 규격 없는 광산은 답이 아니다
+
+## [2026-08-20T22:02:43+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 연간 잉여 13PJ 뒤에 겨울 부족이 남는다, Senex는 계절 가치를 팔 때
+
+## [2026-08-20T22:02:44+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: LNG의 유럽 입장권이 가격에서 메탄 데이터로 바뀐다
+
+## [2026-08-20T22:02:44+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 45X의 병목은 공장이 아니라 공급자 비용장부다
+
+## [2026-08-20T22:02:45+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국 블랙매스 수입 재개, 재활용 설비보다 원료계약이 먼저다
+
+## [2026-08-20T22:02:45+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 전기차는 늘어도 수산화리튬은 덜 팔릴 수 있다, LFP가 바꾼 성장공식
+
+## [2026-08-20T22:02:46+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: 60GWh 주문이 ESS의 리튬 독점을 깨기 시작했다
+
+## [2026-08-20T22:02:47+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 희토류 통제 유예 11월 종료, 자산보다 구매권이 먼저다
+
+## [2026-08-20T22:02:48+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 2028년 과잉설비 7.45억 톤, 범용재 물량보다 가격방어가 먼저다
+
+## [2026-08-20T22:02:49+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 직접환원급 철광석은 해상물량의 3~4%, HyREX 경쟁은 원료에서 갈린다
+
+## [2026-08-20T22:02:50+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: EU 무관세 물량 47% 축소, 쿼터 1톤의 고객가치를 다시 셀 때
+
+## [2026-08-20T22:02:50+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 철강 접근권이 관세에서 생산자격으로 이동한다
+
+## [2026-08-20T22:02:51+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 가격·구매·세제까지 정부가 묶는다, 전략광물은 계약부터 설계할 때
+
+## [2026-08-20T22:02:52+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격은 1년 새 두 배, 고객 규격 없는 광산은 답이 아니다
+
+## [2026-08-20T22:05:21+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:06:34+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T22:07:17+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T22:09:04+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:12:59+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:18:09+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 호주 가스는 연간 남아도 겨울에는 부족하다, 판매계획을 계절별로 나눌 때
+
+## [2026-08-20T22:18:09+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: 유럽은 2027년부터 수입 가스의 메탄 검증을 요구한다, 가격만으로 계약할 수 없다
+
+## [2026-08-20T22:18:10+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 미국 리튬 세액공제, 공급자와 원재료까지 검증해야 받을 수 있다
+
+## [2026-08-20T22:18:11+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국이 폐배터리 원료 수입을 다시 연다, 재활용 공장보다 원료계약이 먼저다
+
+## [2026-08-20T22:18:11+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 인산철 배터리가 세계 절반을 넘었다, 수산화리튬 성장계획을 다시 볼 때
+
+## [2026-08-20T22:18:12+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: 대규모 나트륨 배터리 주문이 나왔다, 저장장치용 리튬 수요를 따로 볼 때
+
+## [2026-08-20T22:18:13+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 중국 희토류 추가 통제의 유예가 11월 끝난다, 광산보다 구매권이 먼저다
+
+## [2026-08-20T22:18:14+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 세계 철강 과잉설비가 2028년 7.45억 톤으로 늘어난다, 판매량보다 가격방어가 먼저다
+
+## [2026-08-20T22:18:14+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 수소환원제철용 고품위 철광석은 전체의 3~4%뿐이다, 원료 확보가 기술 경쟁을 가른다
+
+## [2026-08-20T22:18:15+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: 유럽의 무관세 철강 수입량이 47% 줄어든다, 한정된 물량을 고객별로 다시 배분할 때
+
+## [2026-08-20T22:18:16+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 주요 철강시장의 진입조건이 관세에서 생산지·원산지 자격으로 바뀐다
+
+## [2026-08-20T22:18:17+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 정부가 전략광물의 가격·구매·세제를 함께 보장하기 시작했다, 광산보다 계약을 먼저 설계할 때
+
+## [2026-08-20T22:18:18+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격이 1년 새 두 배가 됐다, 고객이 살 규격부터 확인할 때
+
+## [2026-08-20T22:18:19+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T22:18:48+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:20:23+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 호주 가스는 연간 남아도 겨울에는 부족하다, 판매계획을 계절별로 나눌 때
+
+## [2026-08-20T22:20:24+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: 유럽은 2027년부터 수입 가스의 메탄 검증을 요구한다, 가격만으로 계약할 수 없다
+
+## [2026-08-20T22:20:25+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 미국 리튬 세액공제, 공급자와 원재료까지 검증해야 받을 수 있다
+
+## [2026-08-20T22:20:26+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국이 폐배터리 원료 수입을 다시 연다, 재활용 공장보다 원료계약이 먼저다
+
+## [2026-08-20T22:20:26+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 인산철 배터리가 세계 절반을 넘었다, 수산화리튬 성장계획을 다시 볼 때
+
+## [2026-08-20T22:20:27+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: 대규모 나트륨 배터리 주문이 나왔다, 저장장치용 리튬 수요를 따로 볼 때
+
+## [2026-08-20T22:20:28+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 중국 희토류 추가 통제의 유예가 11월 끝난다, 광산보다 구매권이 먼저다
+
+## [2026-08-20T22:20:29+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 세계 철강 과잉설비가 2028년 7.45억 톤으로 늘어난다, 판매량보다 가격방어가 먼저다
+
+## [2026-08-20T22:20:30+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 수소환원제철용 고품위 철광석은 전체의 3~4%뿐이다, 원료 확보가 기술 경쟁을 가른다
+
+## [2026-08-20T22:20:30+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: 유럽의 무관세 철강 수입량이 47% 줄어든다, 한정된 물량을 고객별로 다시 배분할 때
+
+## [2026-08-20T22:20:31+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 주요 철강시장의 진입조건이 관세에서 생산지·원산지 자격으로 바뀐다
+
+## [2026-08-20T22:20:32+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 정부가 전략광물의 가격·구매·세제를 함께 보장하기 시작했다, 광산보다 계약을 먼저 설계할 때
+
+## [2026-08-20T22:20:33+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격이 1년 새 두 배가 됐다, 고객이 살 규격부터 확인할 때
+
+## [2026-08-20T22:20:33+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T22:20:56+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:23:25+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 호주 가스는 연간 남아도 겨울에는 부족하다, 판매계획을 계절별로 나눌 때
+
+## [2026-08-20T22:23:25+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: 유럽은 2027년부터 수입 가스의 메탄 검증을 요구한다, 가격만으로 계약할 수 없다
+
+## [2026-08-20T22:23:26+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 미국 리튬 세액공제, 공급자와 원재료까지 검증해야 받을 수 있다
+
+## [2026-08-20T22:23:27+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국이 폐배터리 원료 수입을 다시 연다, 재활용 공장보다 원료계약이 먼저다
+
+## [2026-08-20T22:23:27+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 인산철 배터리가 세계 절반을 넘었다, 수산화리튬 성장계획을 다시 볼 때
+
+## [2026-08-20T22:23:28+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: 대규모 나트륨 배터리 주문이 나왔다, 저장장치용 리튬 수요를 따로 볼 때
+
+## [2026-08-20T22:23:29+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 중국 희토류 추가 통제의 유예가 11월 끝난다, 광산보다 구매권이 먼저다
+
+## [2026-08-20T22:23:29+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 세계 철강 과잉설비가 2028년 7.45억 톤으로 늘어난다, 판매량보다 가격방어가 먼저다
+
+## [2026-08-20T22:23:30+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 수소환원제철용 고품위 철광석은 전체의 3~4%뿐이다, 원료 확보가 기술 경쟁을 가른다
+
+## [2026-08-20T22:23:31+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: 유럽의 무관세 철강 수입량이 47% 줄어든다, 한정된 물량을 고객별로 다시 배분할 때
+
+## [2026-08-20T22:23:32+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 주요 철강시장의 진입조건이 관세에서 생산지·원산지 자격으로 바뀐다
+
+## [2026-08-20T22:23:33+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 정부가 전략광물의 가격·구매·세제를 함께 보장하기 시작했다, 광산보다 계약을 먼저 설계할 때
+
+## [2026-08-20T22:23:34+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격이 1년 새 두 배가 됐다, 고객이 살 규격부터 확인할 때
+
+## [2026-08-20T22:23:35+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T22:24:01+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:24:57+09:00] upsert-strategic-watch
+
+WRN-AU-GAS-RESERVATION-WINTER: 호주 가스는 연간 남아도 겨울에는 부족하다, 판매계획을 계절별로 나눌 때
+
+## [2026-08-20T22:24:58+09:00] upsert-strategic-watch
+
+WRN-ENERGY-EU-METHANE-COMPLIANCE: 유럽은 2027년부터 수입 가스의 메탄 검증을 요구한다, 가격만으로 계약할 수 없다
+
+## [2026-08-20T22:24:58+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-45X-ELIGIBILITY: 미국 리튬 세액공제, 공급자와 원재료까지 검증해야 받을 수 있다
+
+## [2026-08-20T22:24:59+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-BLACK-MASS-FEEDSTOCK: 중국이 폐배터리 원료 수입을 다시 연다, 재활용 공장보다 원료계약이 먼저다
+
+## [2026-08-20T22:25:00+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-HYDROXIDE-MIX: 인산철 배터리가 세계 절반을 넘었다, 수산화리튬 성장계획을 다시 볼 때
+
+## [2026-08-20T22:25:01+09:00] upsert-strategic-watch
+
+WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION: 대규모 나트륨 배터리 주문이 나왔다, 저장장치용 리튬 수요를 따로 볼 때
+
+## [2026-08-20T22:25:01+09:00] upsert-strategic-watch
+
+WRN-RARE-EARTH-CONTROL-OPTION: 중국 희토류 추가 통제의 유예가 11월 끝난다, 광산보다 구매권이 먼저다
+
+## [2026-08-20T22:25:02+09:00] upsert-strategic-watch
+
+WRN-STEEL-DEMAND-CAPACITY-GAP: 세계 철강 과잉설비가 2028년 7.45억 톤으로 늘어난다, 판매량보다 가격방어가 먼저다
+
+## [2026-08-20T22:25:03+09:00] upsert-strategic-watch
+
+WRN-STEEL-DRI-PELLET-BOTTLENECK: 수소환원제철용 고품위 철광석은 전체의 3~4%뿐이다, 원료 확보가 기술 경쟁을 가른다
+
+## [2026-08-20T22:25:04+09:00] upsert-strategic-watch
+
+WRN-STEEL-EU-VOLUME-CARBON-MIX: 유럽의 무관세 철강 수입량이 47% 줄어든다, 한정된 물량을 고객별로 다시 배분할 때
+
+## [2026-08-20T22:25:05+09:00] upsert-strategic-watch
+
+WRN-STEEL-MARKET-REGIONALISATION: 주요 철강시장의 진입조건이 관세에서 생산지·원산지 자격으로 바뀐다
+
+## [2026-08-20T22:25:06+09:00] upsert-strategic-watch
+
+WRN-STRATEGIC-MINERALS-MARKET-DESIGN: 정부가 전략광물의 가격·구매·세제를 함께 보장하기 시작했다, 광산보다 계약을 먼저 설계할 때
+
+## [2026-08-20T22:25:06+09:00] upsert-strategic-watch
+
+WRN-TUNGSTEN-LICENSE-PRICE: 텅스텐 가격이 1년 새 두 배가 됐다, 고객이 살 규격부터 확인할 때
+
+## [2026-08-20T22:25:08+09:00] sync-obsidian
+
+63 subjects and 73 sources projected.
+
+## [2026-08-20T22:25:34+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:29:16+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:36:12+09:00] add-source
+
+SRC-20260820-E33837C5: Myanmar: EU restrictive measures extended until April 2027
+
+## [2026-08-20T22:36:13+09:00] add-source
+
+SRC-20260820-5E07EF78: Directive 1: Financial services involving MOGE
+
+## [2026-08-20T22:36:13+09:00] add-source
+
+SRC-20260820-71D52944: OFAC FAQs 1138 and 1139 on the MOGE directive
+
+## [2026-08-20T22:36:14+09:00] add-source
+
+SRC-20260820-54ADB74E: POSCO International 2024 audited disclosure on Myanmar gas-field uncertainty
+
+## [2026-08-20T22:36:15+09:00] add-source
+
+SRC-20260820-DB8E75B6: Energy Department approves immediate additional LNG exports from Plaquemines LNG
+
+## [2026-08-20T22:36:16+09:00] add-source
+
+SRC-20260820-0281FEC0: POSCO International energy portfolio overview
+
+## [2026-08-20T22:39:54+09:00] add-claim
+
+CLM-50587A909D9D: POL-MYANMAR-EU-SANCTIONS-2027 / policy_end_date = 2027-04-30
+
+## [2026-08-20T22:39:54+09:00] add-claim
+
+CLM-26AB85C77C65: POL-MYANMAR-EU-SANCTIONS-2027 / sanctioned_individuals_count = 105
+
+## [2026-08-20T22:39:55+09:00] add-claim
+
+CLM-E96D9FEECD4B: POL-MYANMAR-EU-SANCTIONS-2027 / sanctioned_entities_count = 22
+
+## [2026-08-20T22:39:56+09:00] add-claim
+
+CLM-A536675A7A45: POL-MYANMAR-EU-SANCTIONS-2027 / restriction_scope = listed entities are subject to asset freeze and direct or indirect provision of funds or economic resources is prohibited
+
+## [2026-08-20T22:39:57+09:00] add-claim
+
+CLM-DB9E2B5B3CE9: POL-MYANMAR-EU-SANCTIONS-2027 / posco_operator_interest_percent = 51
+
+## [2026-08-20T22:39:58+09:00] add-claim
+
+CLM-1F11546288DA: POL-MYANMAR-EU-SANCTIONS-2027 / moge_interest_percent = 15
+
+## [2026-08-20T22:39:58+09:00] add-claim
+
+CLM-121EA9CB1E26: POL-MYANMAR-EU-SANCTIONS-2027 / operating_status_at_2024_12_31 = operating normally
+
+## [2026-08-20T22:39:59+09:00] add-claim
+
+CLM-C9AE51AF4B8A: POL-MYANMAR-EU-SANCTIONS-2027 / business_axis = 에너지
+
+## [2026-08-20T22:40:00+09:00] add-claim
+
+CLM-78E08624A20E: POL-MYANMAR-EU-SANCTIONS-2027 / business_impact_score_1_to_5 = 5
+
+## [2026-08-20T22:40:01+09:00] add-claim
+
+CLM-E1E036D51152: POL-MYANMAR-EU-SANCTIONS-2027 / business_impact_rationale = 미얀마 가스전은 51% 운영지분과 MOGE 15% 지분이 연결돼 있어, 제재 연장은 생산과 별개로 결제·보험·외환 경로와 현금회수 조건을 계속 점검하게 합니다.
+
+## [2026-08-20T22:40:01+09:00] add-claim
+
+CLM-FD86CDEC3544: POL-MYANMAR-EU-SANCTIONS-2027 / urgency_score_1_to_5 = 4
+
+## [2026-08-20T22:40:02+09:00] add-claim
+
+CLM-7614570D75D4: POL-MYANMAR-EU-SANCTIONS-2027 / urgency_rationale = 유럽연합 제재는 2027년 4월 30일까지 유지되며 그 전에 계약·결제경로와 제재 대상 귀속을 재검증해야 합니다.
+
+## [2026-08-20T22:40:03+09:00] add-claim
+
+CLM-44D9AD39D36B: POL-MYANMAR-EU-SANCTIONS-2027 / assessment_confidence = medium
+
+## [2026-08-20T22:40:04+09:00] add-claim
+
+CLM-610528A839CF: POL-MYANMAR-EU-SANCTIONS-2027 / assessed_at = 2026-08-20
+
+## [2026-08-20T22:40:05+09:00] add-claim
+
+CLM-20FA1CA4CCEA: POL-MYANMAR-EU-SANCTIONS-2027 / impact_path = 제재 연장 → 거래상대·수익귀속 확인 → 은행·보험·외환 심사 → 대금회수 시점·비용 → 현금흐름
+
+## [2026-08-20T22:40:05+09:00] add-claim
+
+CLM-B73CE49B7CE3: POL-MYANMAR-EU-SANCTIONS-2027 / recommended_follow_up = 계약별 지급자·수취인·통화·은행·보험·MOGE 귀속분을 연결한 제재 적합성 거래지도를 작성합니다.
+
+## [2026-08-20T22:40:34+09:00] add-claim
+
+CLM-2DB11AAB7171: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / effective_date = 2023-12-15
+
+## [2026-08-20T22:40:35+09:00] add-claim
+
+CLM-0D782B6CB736: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / prohibited_service = U.S. persons may not provide, export, or re-export financial services directly or indirectly to or for the benefit of MOGE
+
+## [2026-08-20T22:40:35+09:00] add-claim
+
+CLM-357676B9CAFD: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / financial_services_scope = loans, transfers, accounts, insurance, investments, securities, guarantees, foreign exchange, letters of credit, and commodity futures or options
+
+## [2026-08-20T22:40:36+09:00] add-claim
+
+CLM-1D87DA277C8A: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / fifty_percent_rule_threshold_percent = 50
+
+## [2026-08-20T22:40:37+09:00] add-claim
+
+CLM-C32252115217: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / other_activities_status = other activities with MOGE remain permitted when not otherwise prohibited
+
+## [2026-08-20T22:40:38+09:00] add-claim
+
+CLM-830518DB7BB0: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / posco_operator_interest_percent = 51
+
+## [2026-08-20T22:40:39+09:00] add-claim
+
+CLM-319F6F65D2A8: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / moge_interest_percent = 15
+
+## [2026-08-20T22:40:39+09:00] add-claim
+
+CLM-F680D9FAD8E1: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / business_axis = 에너지
+
+## [2026-08-20T22:40:40+09:00] add-claim
+
+CLM-9A3A38BE103D: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / business_impact_score_1_to_5 = 5
+
+## [2026-08-20T22:40:41+09:00] add-claim
+
+CLM-F4FA197AF057: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / business_impact_rationale = 미국 금융서비스 범위가 송금·보험·보증·외환·신용장까지 넓어 미얀마 가스전의 정상 생산과 별개로 거래별 결제 가능성과 비용을 바꿀 수 있습니다.
+
+## [2026-08-20T22:40:42+09:00] add-claim
+
+CLM-7851E510B64A: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / urgency_score_1_to_5 = 4
+
+## [2026-08-20T22:40:42+09:00] add-claim
+
+CLM-54B4EF9098D9: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / urgency_rationale = 지침은 이미 효력이 있으며 거래은행·보험사의 심사기준이 바뀌면 결제가 즉시 지연될 수 있어 상시 점검이 필요합니다.
+
+## [2026-08-20T22:40:43+09:00] add-claim
+
+CLM-45EB722E9643: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / assessment_confidence = medium
+
+## [2026-08-20T22:40:44+09:00] add-claim
+
+CLM-858113417560: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / assessed_at = 2026-08-20
+
+## [2026-08-20T22:40:45+09:00] add-claim
+
+CLM-EF93997FB454: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / impact_path = 미국 금융망 접점 → 실질 수익자·소유관계 심사 → 은행·보험 승인 또는 거절 → 대금회수 기간·비용 → 현금흐름
+
+## [2026-08-20T22:40:46+09:00] add-claim
+
+CLM-1B8BD0DF3DEC: POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES / recommended_follow_up = 송금·보험·보증·외환·신용장별 미국 접점과 실질 수익자를 표시한 거래 적합성 표를 작성합니다.
+
+## [2026-08-20T22:41:13+09:00] add-claim
+
+CLM-388DA2EF041B: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / qatar_uae_supply_change_bcm_yoy_2026 = -54
+
+## [2026-08-20T22:41:14+09:00] add-claim
+
+CLM-A7586C9D0729: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / new_nongulf_project_supply_addition_bcm_2026 = 50
+
+## [2026-08-20T22:41:15+09:00] add-claim
+
+CLM-9A7FEEEA4049: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / legacy_supply_addition_bcm_2026 = more than 10
+
+## [2026-08-20T22:41:15+09:00] add-claim
+
+CLM-93068F0E30B1: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / nongulf_production_growth_percent_march_june_2026_yoy = 18
+
+## [2026-08-20T22:41:16+09:00] add-claim
+
+CLM-A14D4DB22BAA: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / global_lng_trade_outlook_2026 = broadly flat year-on-year
+
+## [2026-08-20T22:41:17+09:00] add-claim
+
+CLM-9C88DA8013DA: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / company_energy_value_chain_scope = gas-field production, trading, transportation, LNG-terminal storage, and LNG combined-cycle power generation
+
+## [2026-08-20T22:41:18+09:00] add-claim
+
+CLM-7A0CC4D60840: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / business_axis = 에너지
+
+## [2026-08-20T22:41:18+09:00] add-claim
+
+CLM-FF18EF44B482: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / business_impact_score_1_to_5 = 5
+
+## [2026-08-20T22:41:19+09:00] add-claim
+
+CLM-DC1C11714FC5: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / business_impact_rationale = 중동 공급 감소와 비중동 증산이 동시에 진행되면 조달원가뿐 아니라 목적지 전환권·선복·광양터미널 저장·발전연료 배분의 상대가치가 달라집니다.
+
+## [2026-08-20T22:41:20+09:00] add-claim
+
+CLM-82809AC4FEE1: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / urgency_score_1_to_5 = 5
+
+## [2026-08-20T22:41:21+09:00] add-claim
+
+CLM-B9948FFFD51B: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / urgency_rationale = 중동 통항 회복과 신규설비 가동이 2026~2027년에 집중돼 화물·선복·저장 포지션을 실제 선적에 맞춰 갱신해야 합니다.
+
+## [2026-08-20T22:41:22+09:00] add-claim
+
+CLM-E42D0E3A2FDD: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / assessment_confidence = medium
+
+## [2026-08-20T22:41:23+09:00] add-claim
+
+CLM-CCD618F90032: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / assessed_at = 2026-08-20
+
+## [2026-08-20T22:41:23+09:00] add-claim
+
+CLM-FBB04C7744B8: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / impact_path = 생산지별 공급 변화 → 지역 도착가격·운임 → 목적지 전환·선복·저장 선택 → 터미널·발전 배분 → 조달비·트레이딩·발전이익
+
+## [2026-08-20T22:41:24+09:00] add-claim
+
+CLM-8FCABEC02AB0: MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026 / recommended_follow_up = 화물별 생산지·가격식·목적지 전환권·선복·터미널 슬롯·발전 투입 가능성을 연결한 순마진 지도를 작성합니다.
+
+## [2026-08-20T22:41:50+09:00] add-claim
+
+CLM-540E813613E5: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / authorization_date = 2026-03-13
+
+## [2026-08-20T22:41:51+09:00] add-claim
+
+CLM-5BA33B4202C2: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / authorized_export_increase_percent = 13
+
+## [2026-08-20T22:41:51+09:00] add-claim
+
+CLM-AAA6143AF60D: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / additional_authorized_exports_bcfd = 0.45
+
+## [2026-08-20T22:41:52+09:00] add-claim
+
+CLM-D7A054AD4B97: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / total_authorized_exports_bcfd = 3.85
+
+## [2026-08-20T22:41:53+09:00] add-claim
+
+CLM-C2B87A7B1608: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / authorization_status = immediate export authorisation to FTA and non-FTA countries
+
+## [2026-08-20T22:41:54+09:00] add-claim
+
+CLM-C6642D7490F1: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / company_energy_value_chain_scope = gas-field production, trading, transportation, LNG-terminal storage, and LNG combined-cycle power generation
+
+## [2026-08-20T22:41:55+09:00] add-claim
+
+CLM-5CE59BFA96AE: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / business_axis = 에너지
+
+## [2026-08-20T22:41:55+09:00] add-claim
+
+CLM-B34DD4A63148: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / business_impact_score_1_to_5 = 4
+
+## [2026-08-20T22:41:56+09:00] add-claim
+
+CLM-CA705A395139: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / business_impact_rationale = 미국산 추가 물량이 실제 선적으로 이어지면 LNG 조달원가와 지역 간 재판매 마진, 광양터미널 회전과 발전연료 배분을 함께 바꿀 수 있습니다.
+
+## [2026-08-20T22:41:57+09:00] add-claim
+
+CLM-64DEF1E6AA05: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / urgency_score_1_to_5 = 4
+
+## [2026-08-20T22:41:58+09:00] add-claim
+
+CLM-764B06120A89: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / urgency_rationale = 수출 허용은 2026년 3월 13일부터 즉시 확대됐으므로 실제 생산·선적·아시아 도착을 월별로 확인해야 합니다.
+
+## [2026-08-20T22:41:59+09:00] add-claim
+
+CLM-73F45F0A6A2F: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / assessment_confidence = medium
+
+## [2026-08-20T22:41:59+09:00] add-claim
+
+CLM-7B937D723BB7: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / assessed_at = 2026-08-20
+
+## [2026-08-20T22:42:00+09:00] add-claim
+
+CLM-C2447A1A4744: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / impact_path = 수출허용 확대 → 실제 생산·선적 → 유럽·아시아 도착지 경쟁 → 가격·운임·목적지 권리 → 터미널·트레이딩·발전 순마진
+
+## [2026-08-20T22:42:01+09:00] add-claim
+
+CLM-EFA83DA17426: POL-US-LNG-PLAQUEMINES-UPRATE-2026 / recommended_follow_up = 미국 주요 터미널의 허용량·가동량·선적량·아시아 도착량과 회사 계약 도착원가를 월별로 연결합니다.
+
+## [2026-08-20T22:44:15+09:00] add-signal
+
+SIG-3C1FC7BD3A4D: EU의 미얀마 제재가 2027년 4월까지 연장
+
+## [2026-08-20T22:45:00+09:00] add-signal
+
+SIG-562D3364FA7B: 미국의 미얀마 국영가스공사 금융서비스 금지
+
+## [2026-08-20T22:45:01+09:00] add-signal
+
+SIG-8A4DAC9E36CA: 비중동 공급이 중동 액화천연가스 감소분을 상쇄할 전망
+
+## [2026-08-20T22:45:02+09:00] add-signal
+
+SIG-3ECBC5C37ED7: 미국의 액화천연가스 수출 허용량 13% 확대
+
+## [2026-08-20T22:48:27+09:00] add-source
+
+SRC-20260820-47B392B3: IEA Gas Market Report Q3 2026 executive summary
+
+## [2026-08-20T22:48:38+09:00] verify-claim
+
+CLM-388DA2EF041B: added evidence SRC-20260820-47B392B3
+
+## [2026-08-20T22:48:39+09:00] verify-claim
+
+CLM-93068F0E30B1: added evidence SRC-20260820-47B392B3
+
+## [2026-08-20T22:48:40+09:00] verify-claim
+
+CLM-9A7FEEEA4049: added evidence SRC-20260820-47B392B3
+
+## [2026-08-20T22:48:40+09:00] verify-claim
+
+CLM-A14D4DB22BAA: added evidence SRC-20260820-47B392B3
+
+## [2026-08-20T22:48:41+09:00] verify-claim
+
+CLM-A7586C9D0729: added evidence SRC-20260820-47B392B3
+
+## [2026-08-20T22:54:08+09:00] upsert-strategic-watch
+
+WRN-MYANMAR-GAS-SANCTIONS-CASHFLOW: 미얀마 제재가 2027년까지 이어진다, 생산과 대금회수를 따로 볼 때
+
+## [2026-08-20T22:54:09+09:00] upsert-strategic-watch
+
+WRN-LNG-SUPPLY-ROUTE-FLEXIBILITY: 중동 액화천연가스는 줄고 미국 물량은 늘었다, 조달계약의 전환권을 다시 볼 때
+
+## [2026-08-20T22:55:43+09:00] audit
+
+1 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:56:16+09:00] sync-obsidian
+
+67 subjects and 80 sources projected.
+
+## [2026-08-20T22:56:31+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-20T22:59:26+09:00] upsert-strategic-watch
+
+WRN-MYANMAR-GAS-SANCTIONS-CASHFLOW: 미얀마 제재 2027년까지 연장, 생산과 대금회수는 별도 관리
+
+## [2026-08-20T22:59:27+09:00] upsert-strategic-watch
+
+WRN-LNG-SUPPLY-ROUTE-FLEXIBILITY: 중동 액화천연가스 감소·미국 물량 확대, 화물별 전환권 재점검
+
+## [2026-08-20T22:59:28+09:00] sync-obsidian
+
+67 subjects and 80 sources projected.
+
+## [2026-08-20T22:59:52+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-20.md
+
+## [2026-08-21T05:16:26+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-21.md
+
+## [2026-08-21T05:21:38+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-21.md
+
+## [2026-08-21T05:21:49+09:00] sync-obsidian
+
+67 subjects and 80 sources projected.
+
+## [2026-08-21T05:28:18+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-21.md
+
+## [2026-08-24T04:27:22+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-24.md
+
+## [2026-08-24T04:27:44+09:00] audit
+
+0 findings. Report: reports/audits/audit-2026-08-24.md

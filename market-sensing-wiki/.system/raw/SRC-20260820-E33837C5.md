@@ -1,0 +1,16 @@
+# EU restrictive measures against Myanmar extended until April 2027
+
+- Publisher: Council of the European Union
+- Published: 2026-04-27
+- Original: https://www.consilium.europa.eu/en/press/press-releases/2026/04/27/myanmar-eu-restrictive-measures-extended-until-april-2027/
+- Collected: 2026-08-20
+
+## Confirmed official facts
+
+The Council prolonged its restrictive measures concerning Myanmar for twelve months, through 30 April 2027, following its annual review. The Council said the grave situation in Myanmar continued and that the review removed one deceased individual from the list.
+
+The regime covered 105 individuals and 22 entities at the time of the decision. Listed persons and entities are subject to an asset freeze, and EU persons are prohibited from providing funds or economic resources to them directly or indirectly. Other measures, including the arms embargo and restrictions on dual-use goods and military cooperation, remained in place.
+
+## Interpretation boundary
+
+This source establishes the renewal date, the overall scope of the sanctions regime and the type of restrictions. It does not by itself quantify POSCO International's financial exposure or establish that Myanmar gas production has stopped. Company exposure and current operating status must be checked against POSCO International's audited disclosures.

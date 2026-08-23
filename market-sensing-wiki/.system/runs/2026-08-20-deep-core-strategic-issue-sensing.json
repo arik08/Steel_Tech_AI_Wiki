@@ -1,0 +1,369 @@
+{
+  "run_id": "2026-08-20-deep-core-strategic-issue-sensing",
+  "started_at": "2026-08-20T16:30:00+09:00",
+  "decision_context": {
+    "decision_question": "최근 3년 외부 변화 중 포스코그룹의 자본배분·시장접근·조달·장기계약 결정을 바꿀 핵심 전략 이슈는 무엇인가?",
+    "decision_horizon": "2026-2029",
+    "business_exposure": [
+      "가격",
+      "원가",
+      "물량",
+      "시장접근",
+      "계약",
+      "투자",
+      "현금흐름"
+    ],
+    "key_assumptions": [
+      "철강 무역장벽은 국가별 쿼터와 가격으로 대응할 수 있다",
+      "전략광물 진입은 유망 광종과 자산을 먼저 찾는 순서다",
+      "리튬 가격회복은 기존 제품·지역 믹스의 수익성을 함께 높인다",
+      "LNG 공급증가는 지역별 규제·물류 제약을 충분히 상쇄한다"
+    ],
+    "decision_variables": [
+      "현지 생산자격",
+      "고객 최소구매",
+      "가격하방",
+      "정책 적격성",
+      "관세 전가율",
+      "물류·계절 인도권"
+    ],
+    "provisional": false
+  },
+  "coverage": {
+    "scope": {
+      "business_axes": [
+        "철강",
+        "리튬",
+        "전략광물",
+        "에너지"
+      ],
+      "markets": [
+        "한국",
+        "중국",
+        "미국",
+        "EU",
+        "영국",
+        "인도",
+        "호주",
+        "글로벌"
+      ],
+      "date_from": "2023-08-20",
+      "date_to": "2026-08-20",
+      "source_policy": "정부·규제기관·국제기구·기업 공시의 공개 원문 우선"
+    },
+    "candidate_funnel": {
+      "discovered": 32,
+      "deduplicated_event_groups": 29,
+      "promotion_reviewed": 16,
+      "deep_evidence_packets_completed": 2,
+      "newly_promoted": 2,
+      "existing_active_issues": 11,
+      "counts_by_axis": {
+        "철강": 8,
+        "리튬": 8,
+        "전략광물": 8,
+        "에너지": 8
+      },
+      "promotion_rule": "5개 이상 원문, 3개 이상 독립 근거 역할, 반증·제약 근거 1개 이상, 회사 영향경로와 의사결정 질문 성립"
+    },
+    "candidate_register": [
+      {
+        "axis": "철강",
+        "candidate": "미국·EU·영국 시장접근 조건의 현지 생산자격화",
+        "status": "promoted"
+      },
+      {
+        "axis": "철강",
+        "candidate": "세계 초과설비 2028년 확대와 중국 수출 기록",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "철강",
+        "candidate": "EU 저탄소 조달기준과 수입쿼터 결합",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "철강",
+        "candidate": "인도 세이프가드 뒤 열연 반덤핑 조사",
+        "status": "monitor"
+      },
+      {
+        "axis": "철강",
+        "candidate": "중국 철강업 ETS 편입과 수출 원가 전가",
+        "status": "deferred",
+        "reason": "POSCO 제품별 가격 전이 근거 부족"
+      },
+      {
+        "axis": "철강",
+        "candidate": "DRI급 펠릿 병목과 고품위 원료 프리미엄",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "철강",
+        "candidate": "중동·인도 신규 설비의 저탄소 수출 경쟁",
+        "status": "monitor"
+      },
+      {
+        "axis": "철강",
+        "candidate": "보호시장 배제 물량의 동남아 가격 전이",
+        "status": "monitor"
+      },
+      {
+        "axis": "리튬",
+        "candidate": "2026년 가격반등과 2025년 투자급감의 시차",
+        "status": "monitor"
+      },
+      {
+        "axis": "리튬",
+        "candidate": "LFP 40% 팩 가격우위와 수산화리튬 믹스",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "리튬",
+        "candidate": "나트륨이온 ESS의 LFP 보완시장 확대",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "리튬",
+        "candidate": "EU 배터리 여권 2027년 의무화",
+        "status": "monitor"
+      },
+      {
+        "axis": "리튬",
+        "candidate": "중국 양극재·리튬가공 기술 수출제한",
+        "status": "monitor"
+      },
+      {
+        "axis": "리튬",
+        "candidate": "EU·중국 블랙매스 국경규칙 분화",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "리튬",
+        "candidate": "미국 45X 공급자 적격성 강화",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "리튬",
+        "candidate": "호주 가공비 세액상계와 비중국 정제경제성",
+        "status": "merged",
+        "reason": "전략광물 정책시장 설계 이슈에 통합"
+      },
+      {
+        "axis": "전략광물",
+        "candidate": "가격하한·구매계약·가공비 보전의 정책시장 수렴",
+        "status": "promoted"
+      },
+      {
+        "axis": "전략광물",
+        "candidate": "중국 희토류 통제와 비중국 구매권 선점",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "전략광물",
+        "candidate": "중국 텅스텐 허가제와 가격급등",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "전략광물",
+        "candidate": "EU 전략프로젝트와 공동구매 메커니즘",
+        "status": "merged",
+        "reason": "정책시장 설계 이슈의 EU 근거"
+      },
+      {
+        "axis": "전략광물",
+        "candidate": "POSCO 퍼스 연구소의 후보광종 공정검증",
+        "status": "context",
+        "reason": "회사 실행은 독립 시장이슈가 아님"
+      },
+      {
+        "axis": "전략광물",
+        "candidate": "동남아 희토류 원료와 미국 자석 공급망",
+        "status": "monitor"
+      },
+      {
+        "axis": "전략광물",
+        "candidate": "중국 정제장비·기술 통제의 설비 병목",
+        "status": "monitor"
+      },
+      {
+        "axis": "전략광물",
+        "candidate": "재활용 원료의 전략비축 인정 여부",
+        "status": "deferred",
+        "reason": "공식 구매규칙과 회사 노출 미확인"
+      },
+      {
+        "axis": "에너지",
+        "candidate": "호주 20% 가스 내수의무와 2027년 겨울 부족",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "에너지",
+        "candidate": "EU 메탄규정의 2027 MRV·2030 강도기준",
+        "status": "existing_issue"
+      },
+      {
+        "axis": "에너지",
+        "candidate": "EU 러시아 가스 단계적 금지와 장기계약 재편",
+        "status": "monitor"
+      },
+      {
+        "axis": "에너지",
+        "candidate": "미국 LNG 의존 58%와 TTF 연동 확대",
+        "status": "monitor"
+      },
+      {
+        "axis": "에너지",
+        "candidate": "호르무즈 경로 리스크와 LNG 공급파동 지연",
+        "status": "monitor"
+      },
+      {
+        "axis": "에너지",
+        "candidate": "호주 남부 저장·운송 제약의 계절 프리미엄",
+        "status": "merged",
+        "reason": "호주 내수의무·겨울부족 이슈에 통합"
+      },
+      {
+        "axis": "에너지",
+        "candidate": "메탄 데이터 품질에 따른 계약 페널티 분화",
+        "status": "monitor"
+      },
+      {
+        "axis": "에너지",
+        "candidate": "유럽 LNG 공동구매와 장기계약 기간 충돌",
+        "status": "deferred",
+        "reason": "포스코인터내셔널 계약 영향 원문 부족"
+      }
+    ],
+    "evidence_packets": [
+      {
+        "issue": "전략광물 정책시장 설계",
+        "source_count": 7,
+        "independent_channel_count": 5,
+        "roles": {
+          "policy_rule": [
+            "SRC-20260820-FF867E92",
+            "SRC-20260820-E5D2140D"
+          ],
+          "commercial_contract": [
+            "SRC-20260819-0692EE56",
+            "SRC-20260819-F04174E5"
+          ],
+          "processing_incentive": [
+            "SRC-20260820-F778010D"
+          ],
+          "company_exposure": [
+            "SRC-20260820-C228E651"
+          ],
+          "counter_limit": [
+            "SRC-20260819-67D8D329"
+          ]
+        }
+      },
+      {
+        "issue": "철강 시장접근의 지역 생산자격화",
+        "source_count": 7,
+        "independent_channel_count": 6,
+        "roles": {
+          "market_capacity": [
+            "SRC-20260818-2778E1E7"
+          ],
+          "eu_rule": [
+            "SRC-20260818-5C2CEB19",
+            "SRC-20260819-E0FF0193"
+          ],
+          "uk_rule": [
+            "SRC-20260820-422EE636"
+          ],
+          "us_rule": [
+            "SRC-20260819-E42DE3D9",
+            "SRC-20260820-214114A4"
+          ],
+          "india_rule": [
+            "SRC-20260819-1066116D"
+          ],
+          "counter_limit": [
+            "SRC-20260819-E0FF0193"
+          ]
+        }
+      }
+    ],
+    "query_yield": [
+      {
+        "query_group": "4개 사업축 공식채널 후보 발굴",
+        "new_urls": 46,
+        "new_events": 32,
+        "new_claims": 10,
+        "decision_changes": 8
+      },
+      {
+        "query_group": "승격후보 원문 검증·반증 탐색",
+        "new_urls": 19,
+        "new_events": 6,
+        "new_claims": 10,
+        "decision_changes": 2
+      },
+      {
+        "query_group": "세 번째 독립 전략 탐색",
+        "new_urls": 11,
+        "new_events": 1,
+        "new_claims": 0,
+        "decision_changes": 0,
+        "note": "재인용·중복 비중이 높아져 중단"
+      }
+    ],
+    "stop_reason": "각 사업축 8개 후보를 확보하고 두 승격 이슈는 근거 패킷 기준을 충족했으며, 세 번째 독립 탐색에서 신규 의사결정 변화가 0으로 떨어졌습니다.",
+    "limitations": [
+      "공개 공식채널 중심의 경계가 있는 조사이며 인터넷 전체를 확인했다는 뜻이 아닙니다.",
+      "회사 내부 고객별 물량·가격·관세 귀속·프로젝트 원가는 확인할 수 없습니다.",
+      "2026년 제안·시행예정 제도는 최종 규칙과 실제 계약으로 이어지는지 후속 검증이 필요합니다.",
+      "기존 11개 전략 이슈는 새 근거 밀도 기준에 따라 별도 보강 감사가 필요합니다."
+    ],
+    "next_triggers": [
+      "EU 철강 조치의 최종 법문과 국가·품목별 쿼터 배분",
+      "미국 85% 용해·주조 기준의 적용품목과 고객 인증절차",
+      "G7 가격하한·차액계약의 첫 프로젝트 계약",
+      "EU Raw Materials Mechanism의 첫 공동구매·매칭 결과",
+      "호주 세액상계 적격비용 세부규칙과 2027년 청구"
+    ]
+  },
+  "results": {
+    "new_sources": 6,
+    "new_claims": 27,
+    "new_signals": 2,
+    "new_strategic_issues": 2,
+    "signal_ids": [
+      "SIG-58262BC4861B",
+      "SIG-E8C4FAE73412"
+    ],
+    "strategic_issue_ids": [
+      "WRN-STRATEGIC-MINERALS-MARKET-DESIGN",
+      "WRN-STEEL-MARKET-REGIONALISATION"
+    ]
+  },
+  "completed_at": "2026-08-20T18:20:00+09:00",
+  "signal_ids": [
+    "SIG-58262BC4861B",
+    "SIG-E8C4FAE73412"
+  ],
+  "signal_contract": {
+    "version": 1,
+    "minimum_core_market_ratio": 0.7,
+    "single_asset_concentration_threshold": 0.5,
+    "single_asset_minimum_signals": 3,
+    "signal_ids": [
+      "SIG-58262BC4861B",
+      "SIG-E8C4FAE73412"
+    ]
+  },
+  "discovery_contract": {
+    "version": 1,
+    "required_for_roles": [
+      "core_market_signal"
+    ],
+    "signal_ids": [
+      "SIG-58262BC4861B",
+      "SIG-E8C4FAE73412"
+    ]
+  }
+}

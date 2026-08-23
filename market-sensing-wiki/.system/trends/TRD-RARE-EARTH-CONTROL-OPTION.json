@@ -1,0 +1,35 @@
+{
+  "trend_id": "TRD-RARE-EARTH-CONTROL-OPTION",
+  "title": "중국 희토류 통제의 불확실성과 미국 장기구매가 동시에 확대",
+  "summary": "중국의 4월 통제는 유지되고 10월 추가조치만 한시 중단된 사이 미국은 가격하한과 10년 구매계약으로 비중국 공급망을 선점했습니다.",
+  "business_axis": "전략광물",
+  "direction": "strengthening",
+  "first_detected_at": "2025-04-04",
+  "last_observed_at": "2026-08-19",
+  "signal_ids": [
+    "SIG-35E375530293",
+    "SIG-C68CC1899242"
+  ],
+  "supporting_source_ids": [
+    "SRC-20260819-F35BD3B2",
+    "SRC-20260819-6BAE3360",
+    "SRC-20260819-0692EE56",
+    "SRC-20260819-F04174E5"
+  ],
+  "counter_source_ids": [
+    "SRC-20260819-6BAE3360"
+  ],
+  "indicators": [
+    {
+      "label": "추가 희토류 통제 중단 종료일",
+      "current": "2026-11-10",
+      "unit": "종료일",
+      "observed_at": "2026-08-19",
+      "interpretation": "재개·연장 여부가 대체공급 투자와 구매권의 가치를 바꿉니다.",
+      "source_ids": [
+        "SRC-20260819-6BAE3360"
+      ]
+    }
+  ],
+  "schema_version": 7
+}

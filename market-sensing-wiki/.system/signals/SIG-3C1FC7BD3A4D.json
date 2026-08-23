@@ -1,0 +1,84 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-3C1FC7BD3A4D",
+  "sentence": "제재 대상과 연결된 자금·보험·외환 경로가 미얀마 가스전의 대금회수 시점과 비용을 바꿀 수 있어 계약별 거래지도를 다시 확인해야 합니다.",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "미얀마 가스전이 정상 생산되면 판매대금 회수도 같은 수준으로 안정적입니다.",
+    "observed_break": "유럽연합은 미얀마 제재와 자금 제공 금지를 2027년 4월 30일까지 연장했습니다.",
+    "decision_change": "생산·정비 계획과 별도로 계약별 제재 접점·결제·보험·외환 경로를 상시 승인하도록 바꿉니다.",
+    "pattern": "market_access_rule",
+    "surprise_score": 5,
+    "falsification_check": "유럽연합이 MOGE 관련 제한을 해제하고 주요 거래은행이 현행 결제구조를 명시적으로 허용하는지 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "risk",
+    "opportunity": {
+      "condition": "거래별 제재 접점과 허용 가능한 결제경로를 경쟁사보다 먼저 문서화할 때",
+      "business_effect": "정상 생산분의 대금회수 선택권과 금융기관 협상 속도를 유지할 수 있습니다.",
+      "action": "계약별 지급자·통화·은행·보험·수익 귀속을 연결한 제재 적합성 지도를 완성합니다."
+    },
+    "risk": {
+      "condition": "추가 지정이나 금융기관 위험회피로 기존 결제·보험 경로의 심사가 강화될 때",
+      "business_effect": "생산이 계속돼도 대금회수 지연과 금융·보험 비용 증가가 현금흐름을 낮출 수 있습니다.",
+      "action": "허용 가능한 대체 경로를 법무 검토하고 결제지연과 비용을 자산 손익에 별도 반영합니다."
+    },
+    "opportunity_cost": "거래지도를 늦게 만들면 제재가 바뀐 뒤에야 결제 대안을 찾게 되어 정상 생산분의 회수시점과 협상 선택권을 잃을 수 있습니다.",
+    "decision_trigger": "제재 명단·일반허가·은행 심사기준이 바뀌면 방어안을 즉시 적용하고, 현행 경로의 적합성과 정상 결제가 확인되면 운영강도를 낮춥니다."
+  },
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "eu-myanmar-sanctions-renewal-2026-04-27",
+    "change_unit": "policy_measure",
+    "observation": "유럽연합 이사회가 미얀마 제재를 2027년 4월 30일까지 12개월 연장했습니다.",
+    "market_boundary": "유럽연합의 미얀마 제재 대상 개인·기관과 관련 자금·경제자원 제공",
+    "time_boundary": "2026년 4월 27일 연례 검토부터 2027년 4월 30일까지",
+    "excluded_context": "미국 재무부의 금융서비스 금지는 별도 사건이며 미얀마 가스전의 생산·실적 상태도 이 Signal에 합치지 않습니다.",
+    "single_event_rationale": "이 Signal은 유럽연합의 2026년 연례 제재 연장 결정 하나만 다루며 회사 운영과 미국 규칙은 전략 이슈에서 결합합니다."
+  },
+  "insight_id": "INS-B25D472C280E",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 5,
+    "rationale": "미얀마 가스전은 51% 운영지분과 MOGE 15% 지분이 연결돼 있어, 제재 연장은 생산과 별개로 결제·보험·외환 경로와 현금회수 조건을 계속 점검하게 합니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "유럽연합 제재는 2027년 4월 30일까지 유지되며 그 전에 계약·결제경로와 제재 대상 귀속을 재검증해야 합니다."
+  },
+  "assessed_at": "2026-08-20",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-121EA9CB1E26",
+    "CLM-1F11546288DA",
+    "CLM-20FA1CA4CCEA",
+    "CLM-26AB85C77C65",
+    "CLM-44D9AD39D36B",
+    "CLM-50587A909D9D",
+    "CLM-610528A839CF",
+    "CLM-7614570D75D4",
+    "CLM-78E08624A20E",
+    "CLM-A536675A7A45",
+    "CLM-B73CE49B7CE3",
+    "CLM-C9AE51AF4B8A",
+    "CLM-DB9E2B5B3CE9",
+    "CLM-E1E036D51152",
+    "CLM-E96D9FEECD4B",
+    "CLM-FD86CDEC3544"
+  ],
+  "source_ids": [
+    "SRC-20260820-54ADB74E",
+    "SRC-20260820-E33837C5"
+  ],
+  "status": "active",
+  "created_at": "2026-08-20T22:44:15+09:00",
+  "updated_at": "2026-08-20T22:44:15+09:00",
+  "run_id": "energy-portfolio-rebalance-20260820"
+}

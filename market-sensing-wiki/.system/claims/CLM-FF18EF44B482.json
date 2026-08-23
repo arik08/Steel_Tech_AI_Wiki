@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-FF18EF44B482",
+  "subject_id": "MKT-GLOBAL-LNG-SUPPLY-REBALANCE-2026",
+  "predicate": "business_impact_score_1_to_5",
+  "value": "5",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260818-3DD53EA4",
+    "SRC-20260820-0281FEC0"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Portfolio-wide procurement, trading, terminal and power exposure",
+      "source_ids": [
+        "SRC-20260818-3DD53EA4",
+        "SRC-20260820-0281FEC0"
+      ]
+    }
+  ]
+}

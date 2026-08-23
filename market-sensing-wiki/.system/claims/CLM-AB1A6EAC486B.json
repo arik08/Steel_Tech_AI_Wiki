@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-AB1A6EAC486B",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "business_impact_rationale",
+  "value": "가격·물량·자본비 하방을 누가 부담하는지가 신규 광종의 투자순서와 NPV를 직접 바꿉니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-FF867E92"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "정책지원 구조에서 투자성과로 이어지는 영향 경로",
+      "source_ids": [
+        "SRC-20260820-FF867E92"
+      ]
+    }
+  ]
+}

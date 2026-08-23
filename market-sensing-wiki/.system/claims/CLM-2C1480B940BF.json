@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2C1480B940BF",
+  "subject_id": "MKT-STEEL-MARKET-REGIONALISATION-2026",
+  "predicate": "recommended_follow_up",
+  "value": "고객별 용해·주조국·쿼터·관세 귀속·가격전가율을 묶은 시장접근 원장 작성",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-422EE636"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "생산·판매 배분 전 필요한 산출물",
+      "source_ids": [
+        "SRC-20260820-422EE636"
+      ]
+    }
+  ]
+}

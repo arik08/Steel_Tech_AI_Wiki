@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "event_key": "eu-myanmar-sanctions-renewal-2026-04-27",
+  "change_unit": "policy_measure",
+  "observation": "유럽연합 이사회가 미얀마 제재를 2027년 4월 30일까지 12개월 연장했습니다.",
+  "market_boundary": "유럽연합의 미얀마 제재 대상 개인·기관과 관련 자금·경제자원 제공",
+  "time_boundary": "2026년 4월 27일 연례 검토부터 2027년 4월 30일까지",
+  "excluded_context": "미국 재무부의 금융서비스 금지는 별도 사건이며 미얀마 가스전의 생산·실적 상태도 이 Signal에 합치지 않습니다.",
+  "single_event_rationale": "이 Signal은 유럽연합의 2026년 연례 제재 연장 결정 하나만 다루며 회사 운영과 미국 규칙은 전략 이슈에서 결합합니다."
+}

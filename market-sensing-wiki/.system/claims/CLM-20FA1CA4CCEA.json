@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-20FA1CA4CCEA",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "impact_path",
+  "value": "제재 연장 → 거래상대·수익귀속 확인 → 은행·보험·외환 심사 → 대금회수 시점·비용 → 현금흐름",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-E33837C5",
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI impact-path analysis",
+      "source_ids": [
+        "SRC-20260820-E33837C5",
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

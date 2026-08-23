@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-3051AA205BA6",
+  "subject_id": "MKT-STEEL-US-QUALIFICATION-2026",
+  "predicate": "business_axis",
+  "value": "철강",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-214114A4"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "Signal atomicity correction",
+      "source_ids": [
+        "SRC-20260820-214114A4"
+      ]
+    }
+  ]
+}

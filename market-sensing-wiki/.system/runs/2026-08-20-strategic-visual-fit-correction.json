@@ -1,0 +1,90 @@
+{
+  "run_id": "2026-08-20-strategic-visual-fit-correction",
+  "started_at": "2026-08-20T22:00:00+09:00",
+  "decision_context": {
+    "decision_question": "희소한 2~3개 값과 방어·기준·압박 시나리오를 축 그래프 없이 더 정확하게 비교하게 할 것인가?",
+    "decision_horizon": "현재 13개 핵심 전략 이슈",
+    "business_exposure": [
+      "가격",
+      "물량",
+      "원가",
+      "계약",
+      "투자"
+    ],
+    "key_assumptions": [
+      "modeled 판정은 정량 차트 채택을 항상 요구한다",
+      "X축 세 항목만 있어도 막대그래프가 표보다 낫다",
+      "일반 데이터 계열에 녹색을 사용해도 브랜드·의미 혼동이 없다"
+    ],
+    "decision_variables": [
+      "시점 수",
+      "비교항목 수",
+      "최대·최소값 배율",
+      "지배가정",
+      "데이터색 의미"
+    ],
+    "provisional": false
+  },
+  "coverage": {
+    "scope": {
+      "business_axes": [
+        "철강",
+        "리튬",
+        "전략광물",
+        "에너지"
+      ],
+      "markets": [
+        "현재 발행된 핵심 전략 이슈 전체"
+      ],
+      "date_from": "2026-08-20",
+      "date_to": "2026-08-20",
+      "source_policy": "신규 조사 없이 기존 검증 수치의 시각적 적합성만 재평가"
+    },
+    "visual_audit": {
+      "issues_reviewed": 13,
+      "forced_svg_charts_removed": 13,
+      "scenario_tables": 7,
+      "verified_or_derived_comparison_tables": 6,
+      "remaining_axis_charts": 0,
+      "future_chart_thresholds": {
+        "line_minimum_points_per_series": 4,
+        "bar_minimum_categories_per_series": 5,
+        "linear_bar_forbidden_ratio": 20,
+        "default_palette": "POSCO Blue #05507D"
+      }
+    },
+    "stop_reason": "13개 이슈 모두에서 희소 데이터와 시나리오가 정량표로 전환되고 기존 SVG 참조와 파일이 제거되었습니다.",
+    "limitations": [
+      "이번 교정은 시각적 적합성 수정이며 신규 시계열을 만들거나 중간값을 추정하지 않았습니다.",
+      "향후 공식 동일 기준 시계열이 4개 이상 확보되면 해당 이슈만 선 차트로 재검토합니다."
+    ],
+    "next_triggers": [
+      "동일 정의의 네 번째 연속 시점 공개",
+      "동일 단위 비교항목 다섯 개 이상 확보",
+      "내부값 입력으로 지배변수별 민감도 곡선 생성 가능"
+    ]
+  },
+  "results": {
+    "new_sources": 0,
+    "new_claims": 0,
+    "new_signals": 0,
+    "new_strategic_issues": 0,
+    "updated_strategic_issues": 13,
+    "strategic_issue_ids": [
+      "WRN-AU-GAS-RESERVATION-WINTER",
+      "WRN-ENERGY-EU-METHANE-COMPLIANCE",
+      "WRN-LITHIUM-45X-ELIGIBILITY",
+      "WRN-LITHIUM-BLACK-MASS-FEEDSTOCK",
+      "WRN-LITHIUM-HYDROXIDE-MIX",
+      "WRN-LITHIUM-SODIUM-ESS-SUBSTITUTION",
+      "WRN-RARE-EARTH-CONTROL-OPTION",
+      "WRN-STEEL-DEMAND-CAPACITY-GAP",
+      "WRN-STEEL-DRI-PELLET-BOTTLENECK",
+      "WRN-STEEL-EU-VOLUME-CARBON-MIX",
+      "WRN-STEEL-MARKET-REGIONALISATION",
+      "WRN-STRATEGIC-MINERALS-MARKET-DESIGN",
+      "WRN-TUNGSTEN-LICENSE-PRICE"
+    ]
+  },
+  "completed_at": "2026-08-20T22:20:00+09:00"
+}

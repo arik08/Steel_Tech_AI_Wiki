@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8729605AE770",
+  "subject_id": "MKT-STEEL-MARKET-REGIONALISATION-2026",
+  "predicate": "uk_out_of_quota_duty",
+  "value": "50%",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-01",
+  "last_verified": "2026-07-01",
+  "source_ids": [
+    "SRC-20260820-422EE636"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-01",
+      "action": "created",
+      "reason": "영국 정부 무역조치",
+      "source_ids": [
+        "SRC-20260820-422EE636"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "claim_id": "CLM-F4FA197AF057",
+  "subject_id": "POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES",
+  "predicate": "business_impact_rationale",
+  "value": "미국 금융서비스 범위가 송금·보험·보증·외환·신용장까지 넓어 미얀마 가스전의 정상 생산과 별개로 거래별 결제 가능성과 비용을 바꿀 수 있습니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-5E07EF78",
+    "SRC-20260820-71D52944",
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI assessment connecting OFAC scope and company exposure",
+      "source_ids": [
+        "SRC-20260820-5E07EF78",
+        "SRC-20260820-71D52944",
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

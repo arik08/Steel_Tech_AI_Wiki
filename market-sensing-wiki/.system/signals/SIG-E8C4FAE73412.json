@@ -1,0 +1,92 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-E8C4FAE73412",
+  "sentence": "포스코는 보호시장 접근자격과 고객별 관세 전가력을 기준으로 2027년 판매·생산·현지화 옵션을 다시 배분해야 합니다.",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "철강 무역장벽은 국가·품목별 쿼터와 수출가격을 조정하면 대응할 수 있습니다.",
+    "observed_break": "미국은 용해·주조 기준을, EU와 영국은 축소 쿼터와 50% 초과관세를 결합해 시장접근을 생산지·원산지·용도 자격으로 바꾸고 있습니다.",
+    "decision_change": "수출 총물량이 아니라 고객 주문별 접근자격·관세 전가율·현지화 증분비용으로 생산과 판매를 배분해야 합니다.",
+    "pattern": "market_access_rule",
+    "surprise_score": 5,
+    "falsification_check": "최종 규정에서 생산자격이 약화되고 주요 고객의 관세 전가율과 제3시장 가격이 방어되는지 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "mixed",
+    "opportunity": {
+      "condition": "장기 고객물량과 관세·저탄소 프리미엄이 현지 생산·가공의 연간 자본비와 운영비를 넘을 때",
+      "business_effect": "희소해진 보호시장 접근권과 가격 프리미엄을 장기 계약으로 고정",
+      "action": "고객 최소구매를 전제로 현지 가공·JV·생산 옵션을 시장별로 우선협상합니다."
+    },
+    "risk": {
+      "condition": "쿼터 축소와 50% 장벽은 유지되지만 고객 전가율이 낮고 배제 물량이 제3시장으로 이동할 때",
+      "business_effect": "보호시장 판매마진과 아시아·신흥시장 가격이 동시에 압박",
+      "action": "저마진 수출을 줄이고 제품·고객별 쿼터와 생산경로를 재배분합니다."
+    },
+    "opportunity_cost": "접근권 원장과 현지화 옵션 검토를 늦추면 2027년 장기계약·쿼터 배분·현지 파트너 협상순서를 경쟁사에 내주고 저마진 잔여시장에 물량이 남을 수 있습니다.",
+    "decision_trigger": "고객별 3년 순관세 노출이 현지화 증분비용보다 크고 최소구매가 계약되면 현지화로, 그렇지 않으면 쿼터·가격조정으로 대응합니다."
+  },
+  "insight_id": "INS-8B0F45725CB2",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "business_axis": "철강",
+  "business_impact": {
+    "score": 5,
+    "rationale": "보호시장 접근자격과 배제 물량의 제3시장 이동이 제품·고객별 마진과 현지화 투자결정을 함께 바꿉니다."
+  },
+  "urgency": {
+    "score": 5,
+    "rationale": "EU·영국 조치가 2026년 7월 적용되고 미국 체계가 2027년 말까지 이어져 2027년 고객계약 전에 생산경로를 정해야 합니다."
+  },
+  "assessed_at": "2026-08-20",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-7F8FBE547BCE",
+    "CLM-EC6238D6CF0F",
+    "CLM-D8A86EF178E1",
+    "CLM-D8DD08219276",
+    "CLM-ABA95100D2E5",
+    "CLM-5F2FD49C1739",
+    "CLM-8D4615A185CB",
+    "CLM-DC73C26A0A65",
+    "CLM-42B0F287A905",
+    "CLM-E9FCE181B14F",
+    "CLM-52C2FEC2F112",
+    "CLM-9A8EACE840F1",
+    "CLM-8729605AE770",
+    "CLM-270518002ABB",
+    "CLM-AC2E25AFF727",
+    "CLM-781924D93C07",
+    "CLM-3772F81C3699",
+    "CLM-E0F3F8838A2E",
+    "CLM-CBD9CAEBD088",
+    "CLM-30D05EEBE289",
+    "CLM-3083D0BA238F",
+    "CLM-B910CEFE3598",
+    "CLM-8D19B621C1A8",
+    "CLM-2C1480B940BF"
+  ],
+  "source_ids": [
+    "SRC-20260818-2778E1E7",
+    "SRC-20260818-5C2CEB19",
+    "SRC-20260819-E0FF0193",
+    "SRC-20260819-E42DE3D9",
+    "SRC-20260819-1066116D",
+    "SRC-20260820-422EE636",
+    "SRC-20260820-214114A4"
+  ],
+  "status": "superseded",
+  "superseded_by": [
+    "SIG-DE2981C00725",
+    "SIG-7A55EC61FBC5"
+  ],
+  "supersession_reason": "서로 다른 국가·효력·시장경계를 합친 광역 Signal을 원자 Signal로 분리하고 종합 결론은 핵심 전략 이슈로 이동했습니다.",
+  "created_at": "2026-08-20T17:55:39+09:00",
+  "updated_at": "2026-08-20T17:55:39+09:00",
+  "run_id": "2026-08-20-deep-core-strategic-issue-sensing"
+}

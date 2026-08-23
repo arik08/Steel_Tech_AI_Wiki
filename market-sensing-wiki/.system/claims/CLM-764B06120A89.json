@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-764B06120A89",
+  "subject_id": "POL-US-LNG-PLAQUEMINES-UPRATE-2026",
+  "predicate": "urgency_rationale",
+  "value": "수출 허용은 2026년 3월 13일부터 즉시 확대됐으므로 실제 생산·선적·아시아 도착을 월별로 확인해야 합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-DB8E75B6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI assessment based on immediate authorisation timing",
+      "source_ids": [
+        "SRC-20260820-DB8E75B6"
+      ]
+    }
+  ]
+}

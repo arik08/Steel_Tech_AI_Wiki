@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-F15D217F0D64",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "impact_path",
+  "value": "가격·구매·가공비 정책지원 → 프로젝트 가격·물량·자본비 하방 축소 → 단계투자 NPV와 진입순서 변경",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-FF867E92"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "정책에서 투자결정으로 이어지는 분석 경로",
+      "source_ids": [
+        "SRC-20260820-FF867E92"
+      ]
+    }
+  ]
+}

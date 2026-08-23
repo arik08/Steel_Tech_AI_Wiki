@@ -140,6 +140,30 @@ class MarketSensingTests(unittest.TestCase):
             (self.root / "index.md").read_text(encoding="utf-8"),
         )
 
+    def test_sync_removes_generated_pages_for_inactive_signals(self):
+        inactive_path = self.root / ".system" / "signals" / "SIG-INACTIVE.json"
+        market_sensing.write_json(
+            inactive_path,
+            {
+                "signal_id": "SIG-INACTIVE",
+                "insight_id": "INS-INACTIVE",
+                "status": "superseded",
+            },
+        )
+        generated_path = self.root / "signals" / "SIG-INACTIVE.md"
+        generated_path.write_text(
+            market_sensing.GENERATED_MARKER + "\n\n# 오래된 투영본\n",
+            encoding="utf-8",
+        )
+
+        market_sensing.sync_obsidian_store(self.root)
+
+        self.assertFalse(generated_path.exists())
+        self.assertNotIn(
+            "SIG-INACTIVE",
+            (self.root / "signals" / "index.md").read_text(encoding="utf-8"),
+        )
+
     def claim_args(self, source_id, value):
         return Namespace(
             root=str(self.root),
@@ -272,6 +296,20 @@ class MarketSensingTests(unittest.TestCase):
         )
         decision_lens = self.root.parent / "signal-decision-lens.json"
         market_sensing.write_json(decision_lens, self.valid_decision_lens())
+        atomic_scope = self.root.parent / "signal-atomic-scope.json"
+        market_sensing.write_json(
+            atomic_scope,
+            {
+                "schema_version": 1,
+                "event_key": "eu.steel.quota.2027",
+                "change_unit": "policy_measure",
+                "observation": "EU가 철강 무관세 수입쿼터를 축소하는 새 정책을 발표했습니다.",
+                "market_boundary": "EU 철강 수입시장과 적용 품목",
+                "time_boundary": "2027년 정책 시행 이후",
+                "excluded_context": "미국 관세와 영국 쿼터는 별도 사건이므로 이 Signal의 영향 계산에서 제외합니다.",
+                "single_event_rationale": "한 규제기관이 같은 법적 조치에서 바꾼 하나의 무관세 수입물량 조건이므로 독립적으로 확인하고 반증할 수 있습니다.",
+            },
+        )
         created = market_sensing.add_signal(
             Namespace(
                 root=str(self.root),
@@ -295,6 +333,7 @@ class MarketSensingTests(unittest.TestCase):
                 document_path="reports/briefs/decision-note.md",
                 analysis_file=str(analysis),
                 decision_lens_file=str(decision_lens),
+                atomic_scope_file=str(atomic_scope),
                 quantification_file=str(quantification),
                 company_id=["COM-POSCO"],
                 business_axis="철강",
@@ -364,8 +403,14 @@ class MarketSensingTests(unittest.TestCase):
         self.assertEqual(signal_record["signal_type"], "정책·규제")
         self.assertEqual(signal_record["signal_role"], "core_market_signal")
         self.assertEqual(signal_record["signal_origin"], "policy_regulator")
+        self.assertEqual(
+            signal_record["atomic_scope"]["event_key"], "eu.steel.quota.2027"
+        )
         self.assertEqual(run["signal_contract"]["minimum_core_market_ratio"], 0.7)
         self.assertEqual(run["signal_contract"]["signal_ids"], [created["signal_id"]])
+        self.assertEqual(
+            run["atomic_signal_contract"]["signal_ids"], [created["signal_id"]]
+        )
         audit = market_sensing.audit_store(
             Namespace(root=str(self.root), stale_days=180)
         )
@@ -388,6 +433,17 @@ class MarketSensingTests(unittest.TestCase):
                 "title": "Official market source",
                 "publisher": "Agency",
                 "source_type": "government",
+                "reliability": "primary",
+                "raw_path": "",
+            },
+        )
+        market_sensing.write_json(
+            self.root / ".system" / "source-records" / "SRC-COMPANY.json",
+            {
+                "source_id": "SRC-COMPANY",
+                "title": "Official company portfolio source",
+                "publisher": "POSCO Holdings",
+                "source_type": "company_ir",
                 "reliability": "primary",
                 "raw_path": "",
             },
@@ -465,6 +521,7 @@ class MarketSensingTests(unittest.TestCase):
                 "strategic_assumption_at_risk": "기존 제품이 시장 평균만큼 성장한다는 전제",
                 "business_impact_path": "시장구성 → 제품수요 → 가동률",
                 "business_axis": "리튬",
+                "company_ids": ["COM-POSCO-HOLDINGS"],
                 "trend_ids": ["TRD-TEST"],
                 "supporting_signal_ids": ["SIG-TEST"],
                 "execution_context_signal_ids": [],
@@ -481,6 +538,23 @@ class MarketSensingTests(unittest.TestCase):
                 "level": "warning",
                 "status": "active",
                 "issue_direction": "mixed",
+                "issue_category": "기술·운영",
+                "structured_context": {
+                    "company_id": "COM-POSCO-HOLDINGS",
+                    "business_axis": "리튬",
+                    "management_functions": ["전략·투자", "생산·운영"],
+                    "change_category": "기술·운영",
+                    "regions": ["글로벌 배터리 시장"],
+                    "time_horizon": "2027년 제품별 사업계획",
+                },
+                "company_lens": {
+                    "interest_level": "core",
+                    "official_basis": "포스코홀딩스는 리튬 자원과 정제설비 투자를 공식 사업 포트폴리오로 관리합니다.",
+                    "exposure": "제품별 계약물량과 정제설비 가동률, 신규 증설 투자회수기간이 직접 노출됩니다.",
+                    "impact_path": "시장구성 변화가 제품별 수요와 계약을 거쳐 설비 가동률과 투자회수기간으로 전달됩니다.",
+                    "decision_use": "시장 평균이 아니라 제품별 수요를 기준으로 다음 사업계획을 다시 계산할지 결정합니다.",
+                    "evidence_source_ids": ["SRC-COMPANY"],
+                },
                 "decision_lens": self.valid_decision_lens(),
                 "causal_map": {
                     "title": "제품별 수요 분리가 사업계획을 바꾸는 경로",
@@ -499,6 +573,84 @@ class MarketSensingTests(unittest.TestCase):
                         {"from": "B", "to": "D", "label": "기존안 유지"},
                         {"from": "C", "to": "E"},
                         {"from": "D", "to": "E"},
+                    ],
+                },
+                "editorial_plan": {
+                    "reader_question": "제품별 계획을 바꿀 것인가?",
+                    "provisional_conclusion": "시장 평균이 아니라 제품별 수요를 기준으로 계획을 다시 계산해야 합니다.",
+                    "quantification": {
+                        "status": "modeled",
+                        "decision_metric": "제품별 수요 비중과 가동률 변화",
+                    },
+                    "key_numbers": [
+                        {
+                            "value": "55%",
+                            "label": "전환 시장 비중",
+                            "meaning": "주류 전환 기준",
+                            "source_ids": ["SRC-TEST"],
+                        }
+                    ],
+                    "visuals": [
+                        {
+                            "type": "quantitative_table",
+                            "status": "adopted",
+                            "table_kind": "trend",
+                            "title": "전환 제품 비중이 3년 연속 상승",
+                            "unit": "표 안에 표시",
+                            "as_of": "2026-08-19",
+                            "takeaway": "전환 제품 비중이 40%에서 55%로 높아졌습니다.",
+                            "method_note": "동일 기준의 공개 시장 비중을 연도별로 연결했습니다.",
+                            "data_kind": "verified",
+                            "columns": ["시점", "비중", "첫 값 대비"],
+                            "rows": [
+                                ["2024", "40%", "기준"],
+                                ["2025", "48%", "+20%"],
+                                ["2026", "55%", "+38%"],
+                            ],
+                            "source_ids": ["SRC-TEST"],
+                        },
+                        {
+                            "type": "comparison_table",
+                            "status": "adopted",
+                            "title": "제품별 수요 비교",
+                            "columns": ["제품", "시장 신호"],
+                            "rows": [["기존", "둔화"], ["전환", "확대"]],
+                            "caption": "같은 시장 안에서도 제품별 수요가 갈립니다.",
+                            "source_ids": ["SRC-TEST"],
+                        },
+                        {
+                            "type": "decision_sequence",
+                            "status": "adopted",
+                            "title": "세 단계 실행 순서",
+                            "columns": ["순서", "산출물", "완료 기준", "다음 결정"],
+                            "rows": [
+                                ["1", "수요표", "제품별 분리", "후보 선정"],
+                                ["2", "경제성", "동일 기준 비교", "옵션 압축"],
+                                ["3", "계약안", "고객 확인", "투자 판단"],
+                            ],
+                            "caption": "실행과 판단을 연결합니다.",
+                            "source_ids": ["SRC-TEST"],
+                        },
+                        {
+                            "type": "monitoring_dashboard",
+                            "status": "adopted",
+                            "title": "결정을 바꾸는 지표",
+                            "columns": ["지표", "의미", "전환 신호", "담당"],
+                            "rows": [
+                                ["수요", "성장성", "상승", "영업"],
+                                ["원가", "경제성", "하락", "생산"],
+                                ["계약", "확실성", "확정", "전략"],
+                            ],
+                            "caption": "판단 신호를 분리합니다.",
+                            "source_ids": ["SRC-TEST"],
+                        },
+                        {
+                            "type": "break_even",
+                            "status": "deferred",
+                            "title": "설비전환 손익분기",
+                            "reason": "설비 전환비가 공개되지 않았습니다.",
+                            "required_inputs": ["제품별 전환비"],
+                        },
                     ],
                 },
                 "executive_summary": (
@@ -553,9 +705,25 @@ class MarketSensingTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn("핵심 전략 이슈", (self.root / "strategic-warnings" / "index.md").read_text(encoding="utf-8"))
+        self.assertIn("이 이슈의 위치", page)
+        self.assertIn("왜 우리 회사 이슈인가 · 핵심 관심", page)
+        self.assertIn("경영 Function", page)
+        self.assertIn("회사 공식 근거", page)
         self.assertIn("변화와 분기점", page)
-        self.assertIn("판단을 고정한 수치와 일정", page)
+        self.assertNotIn("판단을 고정한 수치와 일정", page)
         self.assertIn("기회·위험·미실행 비용의 분기", page)
+        self.assertIn("세 숫자로 읽는 시장 전환", page)
+        self.assertIn("전환 제품 비중이 3년 연속 상승", page)
+        self.assertIn("| 시점 | 비중 | 첫 값 대비 |", page)
+        self.assertNotIn("assets/charts/strategic/WRN-TEST-1.svg", page)
+        self.assertFalse(
+            (self.root / "assets" / "charts" / "strategic" / "WRN-TEST-1.svg").is_file()
+        )
+        self.assertIn("제품별 수요 비교", page)
+        self.assertNotIn("xychart-beta", page)
+        self.assertIn("세 단계 실행 순서", page)
+        self.assertIn("결정을 바꾸는 지표", page)
+        self.assertNotIn("지금 만들 산출물", page)
         self.assertIn("제품별 수요 분리가 사업계획을 바꾸는 경로", page)
         self.assertIn("flowchart LR", page)
         self.assertIn("전환 가능", page)
@@ -576,6 +744,111 @@ class MarketSensingTests(unittest.TestCase):
             Namespace(root=str(self.root), stale_days=3650)
         )
         self.assertEqual(audit["counts"]["strategic_watch"], 0)
+
+        manifest["warning"].pop("decision_deadline")
+        market_sensing.write_json(watch_path, manifest)
+        market_sensing.upsert_strategic_watch(
+            Namespace(root=str(self.root), watch_file=str(watch_path))
+        )
+        page_without_deadline = (
+            self.root / "strategic-warnings" / "WRN-TEST.md"
+        ).read_text(encoding="utf-8")
+        home_without_deadline = (self.root / "index.md").read_text(encoding="utf-8")
+        self.assertNotIn("권고 시한:", page_without_deadline)
+        self.assertNotIn("판단 시한: -", home_without_deadline)
+
+    def test_strategic_issue_title_rejects_unexplained_shorthand(self):
+        unclear_titles = [
+            "45X의 병목은 공장이 아니라 공급자 비용장부다",
+            "60GWh 주문이 ESS의 리튬 독점을 깨기 시작했다",
+            "LFP 확산이 수산화리튬 성장공식을 바꾼다",
+            "중국 블랙매스 수입 재개, 원료계약이 먼저다",
+        ]
+        for title in unclear_titles:
+            with self.subTest(title=title), self.assertRaisesRegex(
+                ValueError, "use plain Korean"
+            ):
+                market_sensing.validate_strategic_issue_title(title)
+
+        clear_title = "미국 리튬 세액공제, 공급자와 원재료까지 검증해야 받을 수 있다"
+        self.assertEqual(
+            market_sensing.validate_strategic_issue_title(clear_title), clear_title
+        )
+
+    def test_sparse_strategic_chart_is_rejected_and_palette_is_posco_blue(self):
+        sparse_chart = {
+            "type": "quantitative_chart",
+            "status": "adopted",
+            "chart_kind": "line",
+            "title": "세 개 시점을 억지로 연결한 차트",
+            "unit": "%",
+            "as_of": "2026-08-20",
+            "takeaway": "데이터 밀도가 낮아 차트가 비교를 개선하지 못합니다.",
+            "method_note": "동일 기준의 세 개 값입니다.",
+            "data_kind": "verified",
+            "series": [
+                {
+                    "name": "비중",
+                    "points": [
+                        {"label": "2024", "value": 40},
+                        {"label": "2025", "value": 48},
+                        {"label": "2026", "value": 55},
+                    ],
+                }
+            ],
+            "source_ids": ["SRC-TEST"],
+        }
+        plan = {
+            "reader_question": "이 수치를 차트로 그릴 것인가?",
+            "provisional_conclusion": "세 개 값은 정량표가 더 정확합니다.",
+            "quantification": {"status": "modeled", "decision_metric": "비중"},
+            "key_numbers": [
+                {
+                    "value": "55%",
+                    "label": "최종 비중",
+                    "meaning": "세 번째 관측값",
+                    "source_ids": ["SRC-TEST"],
+                }
+            ],
+            "visuals": [
+                sparse_chart,
+                {
+                    "type": "comparison_table",
+                    "status": "adopted",
+                    "title": "비교표",
+                    "columns": ["구분", "값"],
+                    "rows": [["이전", "40"], ["현재", "55"]],
+                    "source_ids": ["SRC-TEST"],
+                },
+                {
+                    "type": "break_even",
+                    "status": "deferred",
+                    "title": "손익분기",
+                    "reason": "원가가 없습니다.",
+                    "required_inputs": ["원가"],
+                },
+            ],
+        }
+        with self.assertRaisesRegex(ValueError, "use quantitative_table for sparse data"):
+            market_sensing.validate_strategic_editorial_plan(
+                plan, {"SRC-TEST": {"source_id": "SRC-TEST"}}
+            )
+
+        dense_chart = dict(sparse_chart)
+        dense_chart["series"] = [
+            {
+                "name": "비중",
+                "points": [
+                    {"label": "2023", "value": 35},
+                    {"label": "2024", "value": 40},
+                    {"label": "2025", "value": 48},
+                    {"label": "2026", "value": 55},
+                ],
+            }
+        ]
+        svg = market_sensing.strategic_quantitative_chart_svg(dense_chart)
+        self.assertIn("#05507D", svg)
+        self.assertNotIn("#0f766e", svg)
 
     def test_signal_rejects_invalid_score(self):
         document = self.root / "reports" / "briefs" / "decision-note.md"
@@ -707,6 +980,25 @@ class MarketSensingTests(unittest.TestCase):
         self.assertEqual(market_sensing.validate_signal_type("수급·가격"), "수급·가격")
         with self.assertRaisesRegex(ValueError, "signal_type must be one of"):
             market_sensing.validate_signal_type("시장 동향")
+
+    def test_signal_atomic_scope_requires_one_bounded_event(self):
+        scope = {
+            "schema_version": 1,
+            "event_key": "uk.steel.quota.2026",
+            "change_unit": "policy_measure",
+            "observation": "영국이 철강 무관세 쿼터를 51% 축소했습니다.",
+            "market_boundary": "영국 철강 수입시장과 대상 품목",
+            "time_boundary": "2026년 7월 1일 시행 이후",
+            "excluded_context": "EU 쿼터와 미국 생산자격은 별도 사건으로 이 Signal에서 제외합니다.",
+            "single_event_rationale": "영국 정부의 같은 시행 조치에서 쿼터와 초과관세가 결합되어 하나의 시장접근 규칙으로 독립 검증할 수 있습니다.",
+        }
+        self.assertEqual(
+            market_sensing.validate_signal_atomic_scope(scope)["event_key"],
+            "uk.steel.quota.2026",
+        )
+        scope["event_key"] = "UK and EU"
+        with self.assertRaisesRegex(ValueError, "lowercase stable key"):
+            market_sensing.validate_signal_atomic_scope(scope)
 
     def test_signal_role_and_origin_contract_rejects_own_execution_as_core(self):
         self.assertEqual(
@@ -1350,6 +1642,59 @@ class MarketSensingTests(unittest.TestCase):
             ],
         )
 
+    def test_mkdocs_strategic_issue_navigation_groups_axes_and_keeps_priority(self):
+        warning_specs = (
+            ("WRN-STEEL-WATCH", "철강", "watch", "2026-08-20", "철강 주목 이슈", "active"),
+            ("WRN-STEEL-CRITICAL", "철강", "critical", "2026-08-18", "철강 즉시 이슈", "active"),
+            ("WRN-LITHIUM", "리튬", "warning", "2026-08-19", "리튬 대응 이슈", "active"),
+            ("WRN-MINERALS", "전략광물", "observe", "2026-08-17", "전략광물 관찰 이슈", "active"),
+            ("WRN-ENERGY", "에너지", "warning", "2026-08-16", "에너지 대응 이슈", "active"),
+            ("WRN-INACTIVE", "철강", "critical", "2026-08-21", "종료된 철강 이슈", "closed"),
+        )
+        for warning_id, axis, level, reviewed_at, title, status in warning_specs:
+            (self.root / "strategic-warnings" / f"{warning_id}.md").write_text(
+                f"# {title}\n",
+                encoding="utf-8",
+            )
+            market_sensing.write_json(
+                self.root / ".system" / "warnings" / f"{warning_id}.json",
+                {
+                    "business_axis": axis,
+                    "level": level,
+                    "last_reviewed_at": reviewed_at,
+                    "status": status,
+                },
+            )
+
+        config = {"docs_dir": str(self.root)}
+        mkdocs_hooks.on_config(config)
+
+        warning_nav = next(
+            item["핵심 전략 이슈"]
+            for item in config["nav"]
+            if "핵심 전략 이슈" in item
+        )
+        self.assertEqual(warning_nav[0], {"전체 이슈": "strategic-warnings/index.md"})
+        self.assertEqual(
+            warning_nav[1:],
+            [
+                {
+                    "철강": [
+                        {"철강 즉시 이슈": "strategic-warnings/WRN-STEEL-CRITICAL.md"},
+                        {"철강 주목 이슈": "strategic-warnings/WRN-STEEL-WATCH.md"},
+                    ]
+                },
+                {"리튬": [{"리튬 대응 이슈": "strategic-warnings/WRN-LITHIUM.md"}]},
+                {
+                    "전략광물": [
+                        {"전략광물 관찰 이슈": "strategic-warnings/WRN-MINERALS.md"}
+                    ]
+                },
+                {"에너지": [{"에너지 대응 이슈": "strategic-warnings/WRN-ENERGY.md"}]},
+            ],
+        )
+        self.assertNotIn("종료된 철강 이슈", repr(warning_nav))
+
     def test_mkdocs_navigation_shortens_and_sorts_half_year_reports(self):
         older_report = (
             self.root / "reports" / "briefs" / "brief-2025-h2.md"
@@ -1508,6 +1853,102 @@ class MarketSensingTests(unittest.TestCase):
             ["실행 확인", "핵심 변화"],
         )
 
+    def test_strategic_issue_ui_payload_shows_company_axis_and_category(self):
+        for signal_id, signal_type in (
+            ("SIG-POLICY", "정책·규제"),
+            ("SIG-MARKET", "수급·가격"),
+        ):
+            market_sensing.write_json(
+                self.root / ".system" / "signals" / f"{signal_id}.json",
+                {"signal_type": signal_type, "status": "active"},
+            )
+        market_sensing.write_json(
+            self.root / ".system" / "theses" / "THS-POLICY.json",
+            {
+                "company_ids": ["COM-POSCO"],
+                "supporting_signal_ids": ["SIG-POLICY"],
+            },
+        )
+        market_sensing.write_json(
+            self.root / ".system" / "warnings" / "WRN-POLICY.json",
+            {
+                "title": "철강 시장접근 규칙이 지역별로 갈라진다",
+                "thesis_id": "THS-POLICY",
+                "business_axis": "철강",
+                "issue_category": "정책·규제",
+                "structured_context": {
+                    "company_id": "COM-POSCO",
+                    "management_functions": ["영업·고객", "전략·투자"],
+                    "regions": ["EU 철강시장"],
+                },
+                "company_lens": {"interest_level": "core"},
+            },
+        )
+
+        index_payload = mkdocs_hooks._strategic_issue_ui_payload(
+            self.root,
+            "strategic-warnings/index.md",
+            "[[strategic-warnings/WRN-POLICY|시장접근 규칙]]",
+        )
+        detail_payload = mkdocs_hooks._strategic_issue_ui_payload(
+            self.root,
+            "strategic-warnings/WRN-POLICY.md",
+            "# 상세",
+        )
+
+        expected = {
+            "title": "철강 시장접근 규칙이 지역별로 갈라진다",
+            "company": "POSCO",
+            "business_axis": "철강",
+            "signal_type": "정책·규제",
+            "management_function": "영업·고객 · 전략·투자",
+            "region": "EU 철강시장",
+            "interest_level": "핵심 관심",
+        }
+        self.assertEqual(index_payload, {"kind": "strategic-index", "items": [expected]})
+        self.assertEqual(detail_payload, {"kind": "strategic-detail", "item": expected})
+        rendered_detail = mkdocs_hooks.on_page_markdown(
+            "# 상세",
+            Namespace(file=Namespace(src_path="strategic-warnings/WRN-POLICY.md")),
+            {"docs_dir": str(self.root)},
+            None,
+        )
+        self.assertTrue(rendered_detail.startswith('<div class="signal-detail-context'))
+        company_position = rendered_detail.index("signal-pill-company")
+        axis_position = rendered_detail.index("signal-pill-axis")
+        type_position = rendered_detail.index("signal-pill-type")
+        self.assertLess(company_position, axis_position)
+        self.assertLess(axis_position, type_position)
+        self.assertEqual(rendered_detail.count('<span class="signal-pill '), 3)
+        self.assertIn("POSCO", rendered_detail)
+        self.assertNotIn("<template", rendered_detail)
+
+        generated_detail = mkdocs_hooks.on_page_markdown(
+            "[POSCO]{ .signal-pill }\n{ .strategic-issue-context }\n\n# 상세",
+            Namespace(file=Namespace(src_path="strategic-warnings/WRN-POLICY.md")),
+            {"docs_dir": str(self.root)},
+            None,
+        )
+        self.assertEqual(generated_detail.count("strategic-issue-context"), 1)
+
+        market_sensing.write_json(
+            self.root / ".system" / "theses" / "THS-MIXED.json",
+            {
+                "company_ids": ["COM-POSCO"],
+                "supporting_signal_ids": ["SIG-POLICY", "SIG-MARKET"],
+            },
+        )
+        market_sensing.write_json(
+            self.root / ".system" / "warnings" / "WRN-MIXED.json",
+            {
+                "title": "복수 변화가 하나의 투자 판단으로 수렴한다",
+                "thesis_id": "THS-MIXED",
+                "business_axis": "철강",
+            },
+        )
+        mixed = mkdocs_hooks._strategic_issue_ui_item(self.root, "WRN-MIXED")
+        self.assertEqual(mixed["signal_type"], "복합 이슈")
+
     def test_signal_list_groups_roles_without_adding_a_role_pill(self):
         script = (
             PROJECT_ROOT
@@ -1530,6 +1971,12 @@ class MarketSensingTests(unittest.TestCase):
         self.assertIn("회사 발표·실적을 외부 시장신호의 노출과 실행 상태", script)
         self.assertIn('template[data-signal-ui]', script)
         self.assertIn("container.content.textContent", script)
+        self.assertIn('payload.kind === "strategic-index"', script)
+        self.assertIn('payload.kind === "strategic-detail"', script)
+        self.assertIn("enhanceStrategicIndex", script)
+        self.assertIn("enhanceStrategicDetail", script)
+        self.assertNotIn("data-signal-ui-ready", script)
+        self.assertNotIn("signal-ui-failsafe-reveal", styles)
         rendered_payload = mkdocs_hooks._signal_ui_data_script(
             {"kind": "detail", "item": {"title": "테스트"}}
         )
@@ -1561,7 +2008,7 @@ class MarketSensingTests(unittest.TestCase):
             r"\.signal-detail-evaluation\s*\{[^}]*max-width:\s*none",
         )
 
-    def test_signal_context_leads_with_unlabelled_company_name(self):
+    def test_signal_context_leads_with_company_pill(self):
         script = (
             PROJECT_ROOT
             / "market-sensing-wiki"
@@ -1575,13 +2022,112 @@ class MarketSensingTests(unittest.TestCase):
             / "extra.css"
         ).read_text(encoding="utf-8")
 
-        company_markup = 'createElement("span", "signal-company-name", item.company)'
+        company_markup = '"signal-pill signal-pill-company signal-company-name",'
         pills_markup = 'const pills = createElement("div", "signal-pills")'
         self.assertIn(company_markup, script)
-        self.assertLess(script.index(company_markup), script.index(pills_markup))
+        self.assertLess(script.index(pills_markup), script.index(company_markup))
+        self.assertIn("pills.append(company)", script)
         self.assertNotIn('appendContextText(text, "회사", item.company)', script)
         self.assertIn('company.setAttribute("aria-label", `회사 ${item.company}`)', script)
         self.assertIn(".signal-company-name", styles)
+        self.assertIn(".signal-pill-company", styles)
+        self.assertRegex(
+            styles,
+            r"\.signal-pill\.signal-pill-company\s*\{[^}]*white-space:\s*normal",
+        )
+
+    def test_strategic_issue_visual_contract_uses_semantic_page_marker(self):
+        styles = (
+            PROJECT_ROOT
+            / "market-sensing-wiki"
+            / "stylesheets"
+            / "extra.css"
+        ).read_text(encoding="utf-8")
+        settings = (PROJECT_ROOT / "WIKI-SETTINGS.md").read_text(encoding="utf-8")
+        skill = (
+            PROJECT_ROOT
+            / "skills"
+            / "market-sensing-intelligence"
+            / "SKILL.md"
+        ).read_text(encoding="utf-8")
+        script = (
+            PROJECT_ROOT
+            / "market-sensing-wiki"
+            / "javascripts"
+            / "signal-list.js"
+        ).read_text(encoding="utf-8")
+
+        semantic_header_selector = (
+            ".md-content__inner:has(.strategic-issue-context) "
+            "table:not([class]) thead"
+        )
+        self.assertIn(semantic_header_selector, styles)
+        self.assertNotIn(":has(> h1 + .admonition.warning)", styles)
+        self.assertIn("strategic-issue-index-table", styles)
+        self.assertIn("strategic-issue-index-scrollwrap", styles)
+        self.assertIn('table.classList.add("strategic-issue-index-table")', script)
+        self.assertRegex(
+            styles,
+            r"table:not\(\[class\]\) thead\s*\{[^}]*background:\s*#edf4f7",
+        )
+        self.assertRegex(
+            styles,
+            r"table:not\(\[class\]\) thead th\s*\{[^}]*background:\s*#edf4f7",
+        )
+        warning_pages = sorted(
+            (PROJECT_ROOT / "market-sensing-wiki" / "strategic-warnings").glob(
+                "WRN-*.md"
+            )
+        )
+        self.assertEqual(len(warning_pages), 15)
+        for warning_page in warning_pages:
+            markdown = warning_page.read_text(encoding="utf-8")
+            marker_position = markdown.index(".strategic-issue-context")
+            company_position = markdown.index(".signal-pill-company")
+            axis_position = markdown.index(".signal-pill-axis")
+            type_position = markdown.index(".signal-pill-type")
+            title_position = markdown.index("\n# ")
+            self.assertEqual(markdown.count(".signal-pill "), 3, warning_page.name)
+            self.assertLess(marker_position, title_position, warning_page.name)
+            self.assertLess(company_position, axis_position, warning_page.name)
+            self.assertLess(axis_position, type_position, warning_page.name)
+        for contract in (
+            "회사 → 사업축 → 카테고리",
+            "표 헤더의 비투명 배경색",
+            "390px 모바일",
+        ):
+            self.assertIn(contract, settings)
+        self.assertIn("회사 → 사업축 → 카테고리", skill)
+        self.assertIn("표 헤더의 비투명 배경색", skill)
+
+    def test_strategic_issue_titles_use_varied_closing_shapes(self):
+        self.assertEqual(
+            market_sensing.strategic_issue_title_closing_shape(
+                "수산화리튬 성장계획을 다시 볼 때"
+            ),
+            "~할 때",
+        )
+        self.assertEqual(
+            market_sensing.strategic_issue_title_closing_shape(
+                "판매계획을 계절별로 나눌 때"
+            ),
+            "~할 때",
+        )
+        closing_counts = {}
+        for warning_path in (
+            PROJECT_ROOT / "market-sensing-wiki" / ".system" / "warnings"
+        ).glob("WRN-*.json"):
+            warning = json.loads(warning_path.read_text(encoding="utf-8"))
+            if warning.get("status") != "active":
+                continue
+            shape = market_sensing.strategic_issue_title_closing_shape(
+                warning.get("title")
+            )
+            if shape:
+                closing_counts[shape] = closing_counts.get(shape, 0) + 1
+        self.assertTrue(
+            all(count <= 2 for count in closing_counts.values()), closing_counts
+        )
 
     def test_footnote_source_preview_is_loaded(self):
         config = (PROJECT_TOOLS / "mkdocs.yml").read_text(encoding="utf-8")
@@ -1850,6 +2396,21 @@ class MarketSensingTests(unittest.TestCase):
 
         self.assertNotIn("data-recent-updates-changes", styles)
         self.assertFalse(hasattr(mkdocs_hooks, "on_page_content"))
+
+    def test_wide_mkdocs_layout_is_capped_at_1600px(self):
+        styles = (
+            PROJECT_ROOT
+            / "market-sensing-wiki"
+            / "stylesheets"
+            / "extra.css"
+        ).read_text(encoding="utf-8")
+
+        self.assertRegex(
+            styles,
+            r"@media screen and \(min-width: 76\.25em\)\s*\{\s*"
+            r"\.md-grid\s*\{\s*max-width: 1600px;",
+        )
+        self.assertNotIn(".md-grid {\n    max-width: 100%;", styles)
 
     def test_home_matrix_gives_china_baowu_two_line_width(self):
         styles = (

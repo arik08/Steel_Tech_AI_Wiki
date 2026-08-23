@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-2DB11AAB7171",
+  "subject_id": "POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES",
+  "predicate": "effective_date",
+  "value": "2023-12-15",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-5E07EF78"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "OFAC Directive 1 effective date",
+      "source_ids": [
+        "SRC-20260820-5E07EF78"
+      ]
+    }
+  ]
+}

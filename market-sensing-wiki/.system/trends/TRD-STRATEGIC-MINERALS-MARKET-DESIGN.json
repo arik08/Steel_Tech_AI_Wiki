@@ -1,0 +1,58 @@
+{
+  "schema_version": 7,
+  "trend_id": "TRD-STRATEGIC-MINERALS-MARKET-DESIGN",
+  "title": "전략광물 지원이 가격·구매·금융·가공비 보전으로 수렴",
+  "summary": "미국의 실제 가격·구매계약 뒤 G7·EU·호주가 가격하한·공동구매·가공비 보전 수단을 확대했습니다.",
+  "business_axis": "전략광물",
+  "direction": "strengthening",
+  "first_detected_at": "2025-07-10",
+  "last_observed_at": "2026-08-20",
+  "signal_ids": [
+    "SIG-C68CC1899242",
+    "SIG-58262BC4861B"
+  ],
+  "supporting_source_ids": [
+    "SRC-20260819-0692EE56",
+    "SRC-20260819-F04174E5",
+    "SRC-20260819-67D8D329",
+    "SRC-20260820-FF867E92",
+    "SRC-20260820-E5D2140D",
+    "SRC-20260820-F778010D",
+    "SRC-20260820-C228E651"
+  ],
+  "counter_source_ids": [
+    "SRC-20260819-67D8D329"
+  ],
+  "indicators": [
+    {
+      "label": "미국 NdPr 계약 가격하한",
+      "current": "110",
+      "unit": "USD/kg",
+      "observed_at": "2026-08-20",
+      "interpretation": "가격하방을 정부 계약으로 분담한 실증 사례입니다.",
+      "source_ids": [
+        "SRC-20260819-0692EE56"
+      ]
+    },
+    {
+      "label": "호주 적격 가공·정제비 세액상계율",
+      "current": "10",
+      "unit": "percent",
+      "observed_at": "2026-08-20",
+      "interpretation": "정책이 광산보다 중간가공 비용으로 이동하는 정도를 보여줍니다.",
+      "source_ids": [
+        "SRC-20260820-F778010D"
+      ]
+    },
+    {
+      "label": "EU 원자재 메커니즘 개시일",
+      "current": "2026-04-13",
+      "unit": "date",
+      "observed_at": "2026-08-20",
+      "interpretation": "공동구매와 매칭이 실제 계약으로 이어지는지 확인할 시작점입니다.",
+      "source_ids": [
+        "SRC-20260820-E5D2140D"
+      ]
+    }
+  ]
+}

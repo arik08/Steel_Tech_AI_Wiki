@@ -1,0 +1,27 @@
+{
+  "claim_id": "CLM-54B4EF9098D9",
+  "subject_id": "POL-MYANMAR-MOGE-US-FINANCIAL-SERVICES",
+  "predicate": "urgency_rationale",
+  "value": "지침은 이미 효력이 있으며 거래은행·보험사의 심사기준이 바뀌면 결제가 즉시 지연될 수 있어 상시 점검이 필요합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-5E07EF78",
+    "SRC-20260820-71D52944"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI assessment based on effective directive and service breadth",
+      "source_ids": [
+        "SRC-20260820-5E07EF78",
+        "SRC-20260820-71D52944"
+      ]
+    }
+  ]
+}

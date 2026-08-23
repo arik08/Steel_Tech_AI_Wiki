@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "decision": "omitted",
+  "assessed_at": "2026-08-19",
+  "omission": {
+    "reason_code": "no_grounded_exposure_basis",
+    "rationale": "세계 생산과 가격은 확인됐지만 포스코홀딩스가 검토할 광산·APT·탄화물·재활용 단계와 목표 물량이 정해지지 않아 가격충격을 회사 현금흐름으로 환산할 노출 기준이 없습니다.",
+    "required_inputs": ["목표 텅스텐 제품과 연간 물량", "후보 공급원의 현금원가와 수율", "투자비와 가동시점", "고객 장기계약 가격과 최소구매량"],
+    "reconsider_when": "후보 가치사슬 단계와 연간 물량이 정해지고 고객 가격공식 또는 자산 원가자료를 확보할 때 하방·기준·상방 모델을 작성합니다."
+  }
+}

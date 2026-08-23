@@ -1,0 +1,83 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-3ECBC5C37ED7",
+  "sentence": "허용량 증가가 실제 아시아 도착으로 이어지는지에 따라 조달원가·재판매 마진·광양터미널 회전·발전연료 배분이 달라져 월별 선적과 도착량을 확인해야 합니다.",
+  "signal_type": "수급·가격",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "미국 액화천연가스 공급 증가는 장기 증설계획에 따라 천천히 시장에 반영됩니다.",
+    "observed_break": "미국 에너지부가 플라크민스 터미널의 수출 허용량을 즉시 13% 확대했습니다.",
+    "decision_change": "설비계획 중심 조달판단을 실제 허용량·가동량·선적량·아시아 도착량 중심으로 바꿉니다.",
+    "pattern": "timing_gap",
+    "surprise_score": 4,
+    "falsification_check": "실제 선적과 아시아 도착량이 허용 확대 이전 수준에 머무는지 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "opportunity",
+    "opportunity": {
+      "condition": "허용 확대가 실제 선적과 아시아 도착물량 증가로 이어지고 운임이 안정될 때",
+      "business_effect": "저가 단기조달과 재판매, 광양터미널 회전 및 발전연료 비용 개선 여지가 커집니다.",
+      "action": "미국 화물의 도착원가와 목적지 권리를 비교해 유연조달 비중을 단계적으로 높입니다."
+    },
+    "risk": {
+      "condition": "설비 가동이 늦거나 유럽이 추가 물량을 흡수해 아시아 도착량이 늘지 않을 때",
+      "business_effect": "공급완화 기대를 선반영한 계약이 현물가격·운임 상승에 노출될 수 있습니다.",
+      "action": "실제 선적·도착 확인 전에는 필수 발전·고객 물량을 장기계약으로 방어합니다."
+    },
+    "opportunity_cost": "실제 아시아 도착이 늘어난 뒤에 계약을 바꾸면 저가 미국 물량과 목적지 전환권을 먼저 확보할 협상시점을 놓칠 수 있습니다.",
+    "decision_trigger": "실제 선적과 아시아 도착이 함께 늘면 유연조달을 확대하고, 가동지연·운임급등·유럽 흡수가 확인되면 고정물량 방어로 전환합니다."
+  },
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "us-doe-plaquemines-export-uprate-2026-03-13",
+    "change_unit": "policy_measure",
+    "observation": "미국 에너지부가 플라크민스 LNG 터미널의 수출 허용량을 즉시 13% 확대했습니다.",
+    "market_boundary": "미국 루이지애나 플라크민스 터미널의 자유무역협정·비협정국 대상 LNG 수출허용량",
+    "time_boundary": "2026년 3월 13일 수출허가 변경 결정과 그 이후 실제 선적 확인기간",
+    "excluded_context": "국제에너지기구의 세계 공급전망과 다른 미국 터미널 증설, 회사 계약·터미널·발전 실적은 별도 사건입니다.",
+    "single_event_rationale": "이 Signal은 미국 에너지부가 한 터미널의 수출허용 상한을 즉시 높인 결정 하나만 다루고 실제 시장상쇄 효과는 전략 이슈에서 결합합니다."
+  },
+  "insight_id": "INS-E9D5C232B31B",
+  "company_ids": [
+    "COM-POSCO-INTERNATIONAL"
+  ],
+  "business_axis": "에너지",
+  "business_impact": {
+    "score": 4,
+    "rationale": "미국산 추가 물량이 실제 선적으로 이어지면 LNG 조달원가와 지역 간 재판매 마진, 광양터미널 회전과 발전연료 배분을 함께 바꿀 수 있습니다."
+  },
+  "urgency": {
+    "score": 4,
+    "rationale": "수출 허용은 2026년 3월 13일부터 즉시 확대됐으므로 실제 생산·선적·아시아 도착을 월별로 확인해야 합니다."
+  },
+  "assessed_at": "2026-08-20",
+  "assessment_confidence": "medium",
+  "claim_ids": [
+    "CLM-540E813613E5",
+    "CLM-5BA33B4202C2",
+    "CLM-5CE59BFA96AE",
+    "CLM-64DEF1E6AA05",
+    "CLM-73F45F0A6A2F",
+    "CLM-764B06120A89",
+    "CLM-7B937D723BB7",
+    "CLM-AAA6143AF60D",
+    "CLM-B34DD4A63148",
+    "CLM-C2447A1A4744",
+    "CLM-C2B87A7B1608",
+    "CLM-C6642D7490F1",
+    "CLM-CA705A395139",
+    "CLM-D7A054AD4B97",
+    "CLM-EFA83DA17426"
+  ],
+  "source_ids": [
+    "SRC-20260820-DB8E75B6",
+    "SRC-20260820-0281FEC0"
+  ],
+  "status": "active",
+  "created_at": "2026-08-20T22:45:02+09:00",
+  "updated_at": "2026-08-20T22:45:02+09:00",
+  "run_id": "energy-portfolio-rebalance-20260820"
+}

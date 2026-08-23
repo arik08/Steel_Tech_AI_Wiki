@@ -5,7 +5,7 @@
 
 !!! abstract "현재 발행 상태"
 
-    **발행된 보고서 1건**
+    **발행된 보고서 2건**
 
     최신 보고서: [포스코그룹 Market Sensing 샘플 브리프](briefs/market-sensing-sample-2026-08-18.md)
 
@@ -29,6 +29,7 @@
 | 발행일 | 보고서 | 관찰 기간 |
 | --- | --- | --- |
 | 2026-08-18 | [포스코그룹 Market Sensing 샘플 브리프](briefs/market-sensing-sample-2026-08-18.md) | 보고서에서 확인 |
+| 날짜 미상 | [최근 3년 핵심 전략 이슈 마켓센싱](briefs/2026-08-20-deep-core-strategic-issue-sensing.md) | 보고서에서 확인 |
 
 ??? info "운영 안내"
 

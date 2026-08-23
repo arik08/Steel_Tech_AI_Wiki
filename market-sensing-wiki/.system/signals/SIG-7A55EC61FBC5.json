@@ -1,0 +1,78 @@
+{
+  "schema_version": 3,
+  "signal_id": "SIG-7A55EC61FBC5",
+  "sentence": "포스코는 영국향 계약을 품목별 잔여 쿼터와 고객의 50% 초과관세 부담 여부에 따라 다시 배분해야 합니다.",
+  "signal_type": "정책·규제",
+  "signal_role": "core_market_signal",
+  "signal_origin": "policy_regulator",
+  "assumption_challenge": {
+    "schema_version": 1,
+    "baseline_assumption": "영국향 철강 판매는 기존 세이프가드 쿼터와 고객 수요를 기준으로 연간 물량을 배분할 수 있습니다.",
+    "observed_break": "영국이 무관세 쿼터를 기존 대비 51% 줄이고 같은 조치의 초과분 관세를 50%로 높였습니다.",
+    "decision_change": "고객·품목별 잔여 쿼터와 관세 귀속을 확인해 무관세 우선배분과 초과물량 축소를 결정해야 합니다.",
+    "pattern": "market_access_rule",
+    "surprise_score": 5,
+    "falsification_check": "포스코 주력 품목의 잔여 쿼터가 계약물량을 수용하고 고객 전가율이 70%를 넘는지 확인합니다."
+  },
+  "decision_lens": {
+    "schema_version": 1,
+    "primary_direction": "risk",
+    "opportunity": {
+      "condition": "포스코 제품의 잔여 쿼터를 조기에 확보하고 고객이 관세 또는 가격 가산분을 수용할 때",
+      "business_effect": "희소해진 무관세 접근권을 고마진 장기 고객에게 우선 배분",
+      "action": "최소구매와 관세분담을 조건으로 잔여 쿼터를 핵심 고객에게 우선 배정합니다."
+    },
+    "risk": {
+      "condition": "품목별 쿼터가 조기 소진되고 고객 전가율이 낮아 초과분 50% 관세를 흡수할 때",
+      "business_effect": "영국향 판매마진과 계약물량이 동시에 감소",
+      "action": "저마진 초과쿼터 주문을 줄이고 가격·물량·대체제품을 재협상합니다."
+    },
+    "opportunity_cost": "쿼터 소진과 계약 귀속 확인을 늦추면 무관세 물량을 저수익 주문에 먼저 쓰고 핵심 고객의 장기계약 선택권을 잃을 수 있습니다.",
+    "decision_trigger": "고객별 예상 순관세 노출이 계약마진을 넘으면 물량을 줄이고, 고객 전가와 최소구매가 확보되면 판매를 유지합니다."
+  },
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "uk.steel-quota-cut.overquota-duty.2026",
+    "change_unit": "policy_measure",
+    "observation": "영국이 철강 무관세 쿼터를 51% 줄이고 같은 조치의 초과분 관세를 50%로 정했습니다.",
+    "market_boundary": "영국 철강 수입시장과 정부 조치의 적용 대상 품목",
+    "time_boundary": "2026년 7월 1일 시행 이후",
+    "excluded_context": "EU 쿼터와 미국 관세·생산자격, 제3시장 가격전이는 별도 사건으로 제외합니다.",
+    "single_event_rationale": "영국 정부가 한 시행조치에서 무관세 허용량과 그 한도를 넘는 물량의 관세를 결합해 바꾼 단일 시장접근 규칙입니다."
+  },
+  "insight_id": "INS-3A5F11531CD4",
+  "company_ids": [
+    "COM-POSCO"
+  ],
+  "business_axis": "철강",
+  "business_impact": {
+    "score": 4,
+    "rationale": "무관세 쿼터 51% 축소와 초과분 50% 관세가 영국향 판매물량과 계약마진을 직접 제한합니다."
+  },
+  "urgency": {
+    "score": 5,
+    "rationale": "영국 조치가 2026년 7월 1일부터 시행돼 계약별 잔여 쿼터와 관세 귀속을 즉시 확인해야 합니다."
+  },
+  "assessed_at": "2026-08-20",
+  "assessment_confidence": "high",
+  "claim_ids": [
+    "CLM-9A8EACE840F1",
+    "CLM-8729605AE770",
+    "CLM-73DA72EA0200",
+    "CLM-0B47345ABA54",
+    "CLM-4A6F60C47CDA",
+    "CLM-DF2E0A3473DD",
+    "CLM-62F95EA10095",
+    "CLM-41E602C00829",
+    "CLM-2895AD1ACB8C",
+    "CLM-22BB4A2D53C4",
+    "CLM-218A381A65A9"
+  ],
+  "source_ids": [
+    "SRC-20260820-422EE636"
+  ],
+  "status": "active",
+  "created_at": "2026-08-20T19:23:06+09:00",
+  "updated_at": "2026-08-20T19:23:06+09:00",
+  "run_id": "2026-08-20-signal-atomicity-correction"
+}

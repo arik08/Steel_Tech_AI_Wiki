@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "decision": "omitted",
+  "assessed_at": "2026-08-20",
+  "omission": {
+    "reason_code": "insufficient_causal_model",
+    "rationale": "신규 진입 광종과 프로젝트가 정해지지 않았고 미국 특정 기업의 가격하한·구매계약 및 호주 적격 가공비 상계를 포스코 후보사업에 전용하면 지원범위와 물량을 과대평가합니다.",
+    "required_inputs": [
+      "후보 프로젝트별 CAPEX·OPEX·수율과 연간 판매가능량",
+      "고객 최소구매량·기간과 가격공식",
+      "정책별 적격비용·금리·판매처·지배구조 제한",
+      "무지원 기준가격과 지원 종료 후 손익분기 가격"
+    ],
+    "reconsider_when": "후보 광종과 프로젝트가 정해지고 최소구매 또는 정책지원 조건서가 확보될 때 NPV 하방 모델로 재검토합니다."
+  }
+}

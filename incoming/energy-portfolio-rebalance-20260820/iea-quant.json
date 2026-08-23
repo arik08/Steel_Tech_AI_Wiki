@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "decision": "omitted",
+  "assessed_at": "2026-08-20",
+  "omission": {
+    "reason_code": "double_counting_risk",
+    "rationale": "지역별 공급 변화의 회사 금액효과는 미국 수출 확대와 호르무즈 충격을 같은 가격·운임 경로로 반영하므로 개별 Signal에서 계산하면 중복됩니다. 전략 이슈에서 공급지도와 계약 선택권을 함께 정량화합니다.",
+    "required_inputs": ["생산지별 계약물량·가격식", "목적지 전환권과 선복비", "광양터미널 슬롯·재고와 발전 투입량"],
+    "reconsider_when": "화물별 도착원가와 전환권이 확인되어 이 전망의 독립적인 증분효과를 분리할 수 있을 때 재산정합니다."
+  }
+}

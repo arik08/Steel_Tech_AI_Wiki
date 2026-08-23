@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-577477333167",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "australia_tax_incentive_period",
+  "value": "2027-07-01~2040-06-30",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-01",
+  "last_verified": "2026-07-01",
+  "source_ids": [
+    "SRC-20260820-F778010D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-01",
+      "action": "created",
+      "reason": "호주 정부 제도 안내",
+      "source_ids": [
+        "SRC-20260820-F778010D"
+      ]
+    }
+  ]
+}

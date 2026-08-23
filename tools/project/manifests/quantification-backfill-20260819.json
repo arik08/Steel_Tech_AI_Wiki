@@ -1,0 +1,2333 @@
+{
+  "schema_version": 1,
+  "decisions": {
+    "SIG-C09FE799E568": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-19",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "나트륨이온 ESS의 리튬 매출 노출 민감도",
+        "description": "60GWh 계약이 리튬이온 ESS 수요를 대체하는 비율에 따른 리튬 매출 노출입니다.",
+        "as_of": "2026-08-19",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "계약용량 × GWh당 LCE × 대체율 × 리튬가격 ÷ 1,000,000",
+        "variables": [
+          {
+            "id": "capacity",
+            "label": "계약용량",
+            "unit": "GWh",
+            "min": 10,
+            "max": 100,
+            "step": 5,
+            "default": 60,
+            "kind": "verified",
+            "basis": "3년 누적 공급계약",
+            "source_ids": [
+              "SRC-20260819-17C5D778"
+            ]
+          },
+          {
+            "id": "lce_intensity",
+            "label": "GWh당 탄산리튬환산량",
+            "unit": "t LCE/GWh",
+            "min": 400,
+            "max": 900,
+            "step": 25,
+            "default": 700,
+            "kind": "assumption",
+            "basis": "배터리 화학·에너지밀도 차이를 포함한 넓은 대용 범위",
+            "source_ids": []
+          },
+          {
+            "id": "displacement",
+            "label": "리튬이온 대체율",
+            "unit": "fraction",
+            "min": 0.1,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.6,
+            "kind": "assumption",
+            "basis": "계약 물량 중 기존 리튬이온 ESS를 실제 대체하는 비율",
+            "source_ids": []
+          },
+          {
+            "id": "lithium_price",
+            "label": "리튬 가격",
+            "unit": "USD/t LCE",
+            "min": 8000,
+            "max": 30000,
+            "step": 1000,
+            "default": 12000,
+            "kind": "assumption",
+            "basis": "제품·지역별 가격차를 포함한 예비 가격 범위",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "리튬 매출 노출",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "divide",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "var": "capacity"
+                    },
+                    {
+                      "var": "lce_intensity"
+                    },
+                    {
+                      "var": "displacement"
+                    },
+                    {
+                      "var": "lithium_price"
+                    }
+                  ]
+                },
+                1000000
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "capacity": 27.5,
+              "lce_intensity": 505.0,
+              "displacement": 0.275,
+              "lithium_price": 9400.0
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "capacity": 60,
+              "lce_intensity": 700,
+              "displacement": 0.6,
+              "lithium_price": 12000
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "capacity": 86.0,
+              "lce_intensity": 830.0,
+              "displacement": 0.86,
+              "lithium_price": 23700.0
+            }
+          }
+        ]
+      }
+    },
+    "SIG-5C3D01947FFB": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-18",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "EU 철강 쿼터 초과 관세 노출",
+        "description": "EU 판매량과 쿼터 초과비중·가격 전가율에 따른 총 관세 노출입니다.",
+        "as_of": "2026-08-18",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "EU 판매량 × 판매단가 × 초과관세율 × 미전가율",
+        "variables": [
+          {
+            "id": "eu_volume",
+            "label": "EU 연간 판매량",
+            "unit": "Mt",
+            "min": 0.1,
+            "max": 3,
+            "step": 0.1,
+            "default": 1,
+            "kind": "assumption",
+            "basis": "POSCO 내부 고객별 물량으로 교체할 가정",
+            "source_ids": []
+          },
+          {
+            "id": "steel_price",
+            "label": "평균 판매단가",
+            "unit": "USD/t",
+            "min": 450,
+            "max": 1200,
+            "step": 25,
+            "default": 700,
+            "kind": "assumption",
+            "basis": "제품 믹스를 포함한 넓은 가격 가정",
+            "source_ids": []
+          },
+          {
+            "id": "duty_rate",
+            "label": "초과 관세율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 0.5,
+            "step": 0.05,
+            "default": 0.5,
+            "kind": "verified",
+            "basis": "확정된 초과 관세율",
+            "source_ids": [
+              "SRC-20260818-5C2CEB19"
+            ]
+          },
+          {
+            "id": "unpassed_share",
+            "label": "가격 미전가율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.5,
+            "kind": "assumption",
+            "basis": "고객 계약별 관세 전가 실패 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "순 관세 노출",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "eu_volume"
+                },
+                {
+                  "var": "steel_price"
+                },
+                {
+                  "var": "duty_rate"
+                },
+                {
+                  "var": "unpassed_share"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "eu_volume": 0.41500000000000004,
+              "steel_price": 537.5,
+              "duty_rate": 0.175,
+              "unpassed_share": 0.175
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "eu_volume": 1,
+              "steel_price": 700,
+              "duty_rate": 0.5,
+              "unpassed_share": 0.5
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "eu_volume": 2.3,
+              "steel_price": 1025.0,
+              "duty_rate": 0.5,
+              "unpassed_share": 0.825
+            }
+          }
+        ]
+      }
+    },
+    "SIG-A07F1B887CA2": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-18",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "세계 과잉설비의 철강 EBITDA 압박",
+        "description": "과잉설비가 가격·마진을 낮출 때 POSCO 노출 물량에 미치는 연간 EBITDA 민감도입니다.",
+        "as_of": "2026-08-18",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "영향 물량 × 판매단가 × 마진 하락률 × 실현율",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "영향 물량",
+            "unit": "Mt",
+            "min": 2,
+            "max": 30,
+            "step": 1,
+            "default": 10,
+            "kind": "assumption",
+            "basis": "가격 경쟁에 노출된 제품군 물량 가정",
+            "source_ids": []
+          },
+          {
+            "id": "price",
+            "label": "평균 판매단가",
+            "unit": "USD/t",
+            "min": 450,
+            "max": 1200,
+            "step": 25,
+            "default": 700,
+            "kind": "assumption",
+            "basis": "제품 믹스 대용 가격",
+            "source_ids": []
+          },
+          {
+            "id": "margin_erosion",
+            "label": "마진 하락률",
+            "unit": "fraction",
+            "min": 0,
+            "max": 0.12,
+            "step": 0.005,
+            "default": 0.03,
+            "kind": "assumption",
+            "basis": "과잉설비가 실제 마진으로 전이되는 범위",
+            "source_ids": []
+          },
+          {
+            "id": "realization",
+            "label": "손익 실현율",
+            "unit": "fraction",
+            "min": 0.2,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "계약·제품믹스·원가 대응 후 실현 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 EBITDA 압박",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "volume"
+                },
+                {
+                  "var": "price"
+                },
+                {
+                  "var": "margin_erosion"
+                },
+                {
+                  "var": "realization"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 4.8,
+              "price": 537.5,
+              "margin_erosion": 0.010499999999999999,
+              "realization": 0.375
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 10,
+              "price": 700,
+              "margin_erosion": 0.03,
+              "realization": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 23.0,
+              "price": 1025.0,
+              "margin_erosion": 0.0885,
+              "realization": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-1BC42A78C68E": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-19",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "EU 메탄 검증의 LNG 마진 노출",
+        "description": "검증자료 미비로 EU 판매선택권이 제한될 때의 연간 LNG 마진 노출입니다.",
+        "as_of": "2026-08-19",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "EU 연계 물량 × 단위마진 × 판매제한 비율 × 미완화율",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "EU 연계 LNG 물량",
+            "unit": "Mt/년",
+            "min": 0.1,
+            "max": 5,
+            "step": 0.1,
+            "default": 1,
+            "kind": "assumption",
+            "basis": "계약별 생산지·도착지 물량으로 교체할 가정",
+            "source_ids": []
+          },
+          {
+            "id": "margin",
+            "label": "LNG 단위마진",
+            "unit": "USD/t",
+            "min": 10,
+            "max": 150,
+            "step": 5,
+            "default": 60,
+            "kind": "assumption",
+            "basis": "트레이딩·터미널 비용 전 단위마진 가정",
+            "source_ids": []
+          },
+          {
+            "id": "restricted",
+            "label": "판매제한 비율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.2,
+            "kind": "assumption",
+            "basis": "MRV·검증자료 미비로 영향받는 계약 비중",
+            "source_ids": []
+          },
+          {
+            "id": "unmitigated",
+            "label": "미완화율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.5,
+            "kind": "assumption",
+            "basis": "대체 판매처·데이터 보완 후 남는 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 EBITDA 노출",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "volume"
+                },
+                {
+                  "var": "margin"
+                },
+                {
+                  "var": "restricted"
+                },
+                {
+                  "var": "unmitigated"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 0.41500000000000004,
+              "margin": 27.5,
+              "restricted": 0.06999999999999999,
+              "unmitigated": 0.175
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 1,
+              "margin": 60,
+              "restricted": 0.2,
+              "unmitigated": 0.5
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 3.6,
+              "margin": 118.5,
+              "restricted": 0.72,
+              "unmitigated": 0.825
+            }
+          }
+        ]
+      }
+    },
+    "SIG-73C13A4E0FC9": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-19",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "DRI 원료 프리미엄의 제조원가 민감도",
+        "description": "고품위 펠렛 조달 프리미엄과 대체원료 사용률에 따른 연간 제조원가 노출입니다.",
+        "as_of": "2026-08-19",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "DRI 생산량 × 원료투입계수 × 펠렛 프리미엄 × 미대체율",
+        "variables": [
+          {
+            "id": "dri_output",
+            "label": "DRI 생산량",
+            "unit": "Mt/년",
+            "min": 0.2,
+            "max": 8,
+            "step": 0.2,
+            "default": 2,
+            "kind": "assumption",
+            "basis": "상업 규모 전환 시나리오 가정",
+            "source_ids": []
+          },
+          {
+            "id": "ore_intensity",
+            "label": "원료투입계수",
+            "unit": "t/t DRI",
+            "min": 1.2,
+            "max": 1.8,
+            "step": 0.05,
+            "default": 1.4,
+            "kind": "assumption",
+            "basis": "수율·환원조건을 포함한 예비 원료계수",
+            "source_ids": []
+          },
+          {
+            "id": "pellet_premium",
+            "label": "고품위 펠렛 프리미엄",
+            "unit": "USD/t",
+            "min": 0,
+            "max": 100,
+            "step": 5,
+            "default": 30,
+            "kind": "assumption",
+            "basis": "일반 철광석 대비 조달 프리미엄 가정",
+            "source_ids": []
+          },
+          {
+            "id": "unsubstituted",
+            "label": "펠렛 미대체율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "HyREX 원료 유연성으로 대체하지 못하는 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 원료비 증가",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "dri_output"
+                },
+                {
+                  "var": "ore_intensity"
+                },
+                {
+                  "var": "pellet_premium"
+                },
+                {
+                  "var": "unsubstituted"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "dri_output": 0.8300000000000001,
+              "ore_intensity": 1.27,
+              "pellet_premium": 10.5,
+              "unsubstituted": 0.24499999999999997
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "dri_output": 2,
+              "ore_intensity": 1.4,
+              "pellet_premium": 30,
+              "unsubstituted": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "dri_output": 5.9,
+              "ore_intensity": 1.6600000000000001,
+              "pellet_premium": 75.5,
+              "unsubstituted": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-87F0A3C81E23": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-18",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "EU CBAM 순탄소비용 민감도",
+        "description": "검증 배출량·인증서 가격·고객 전가율에 따른 EU 판매의 연간 순탄소비용입니다.",
+        "as_of": "2026-08-18",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "EU 판매량 × 제품 배출집약도 × 인증서 가격 × 미전가율",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "EU 판매량",
+            "unit": "Mt/년",
+            "min": 0.1,
+            "max": 3,
+            "step": 0.1,
+            "default": 1,
+            "kind": "assumption",
+            "basis": "제품·고객별 실제 수출물량으로 교체할 가정",
+            "source_ids": []
+          },
+          {
+            "id": "emissions",
+            "label": "제품 배출집약도",
+            "unit": "tCO2/t",
+            "min": 0.2,
+            "max": 3,
+            "step": 0.1,
+            "default": 2,
+            "kind": "assumption",
+            "basis": "검증 배출량이 없을 때의 넓은 공정별 범위",
+            "source_ids": []
+          },
+          {
+            "id": "certificate_price",
+            "label": "인증서 가격",
+            "unit": "EUR/tCO2",
+            "min": 20,
+            "max": 200,
+            "step": 5,
+            "default": 80,
+            "kind": "derived",
+            "basis": "EU ETS 경매가격 연동 범위",
+            "source_ids": [
+              "SRC-20260818-D363136D"
+            ]
+          },
+          {
+            "id": "unpassed",
+            "label": "가격 미전가율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.5,
+            "kind": "assumption",
+            "basis": "고객 계약에서 회수하지 못하는 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 순탄소비용",
+            "unit": "EUR m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "volume"
+                },
+                {
+                  "var": "emissions"
+                },
+                {
+                  "var": "certificate_price"
+                },
+                {
+                  "var": "unpassed"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 0.41500000000000004,
+              "emissions": 0.8300000000000001,
+              "certificate_price": 41.0,
+              "unpassed": 0.175
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 1,
+              "emissions": 2,
+              "certificate_price": 80,
+              "unpassed": 0.5
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 2.3,
+              "emissions": 2.65,
+              "certificate_price": 158.0,
+              "unpassed": 0.825
+            }
+          }
+        ]
+      }
+    },
+    "SIG-EEE1E86FA129": {
+      "schema_version": 1,
+      "decision": "omitted",
+      "assessed_at": "2025-02-21",
+      "omission": {
+        "reason_code": "non_financial_decision_signal",
+        "rationale": "2038년 발전 비중은 확인됐지만 포스코인터내셔널에 귀속되는 발전량·LNG 조달지분·계약마진이 없어 그룹 금액으로 환산하면 장기 계획 수치를 실제 사업권으로 오인하게 됩니다.",
+        "required_inputs": [
+          "포스코인터내셔널 귀속 발전용량과 이용률",
+          "LNG 조달지분·가격식·단위마진"
+        ],
+        "reconsider_when": "열병합 용량시장 낙찰 결과와 회사 귀속 물량이 확인되면 금액 모델을 다시 작성합니다."
+      }
+    },
+    "SIG-01BC189FE839": {
+      "schema_version": 1,
+      "decision": "omitted",
+      "assessed_at": "2025-02-28",
+      "omission": {
+        "reason_code": "double_counting_risk",
+        "rationale": "Atlas 첫 생산의 물량·가동률 충격은 이미 Atlas 확장시설과 시운전 Signal의 현금흐름·EBITDA 모델에 포함돼 있어 별도 금액을 더하면 같은 생산능력을 중복계상합니다.",
+        "required_inputs": [
+          "공통 충격 식별자와 대표 Signal",
+          "Orora 계약의 독립 증분물량·단위마진"
+        ],
+        "reconsider_when": "Orora 계약의 기존 모델과 겹치지 않는 증분물량과 가격식이 확인되면 별도 계산합니다."
+      }
+    },
+    "SIG-A4D20EDE549C": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-18",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "Rio Tinto 증산의 리튬 매출 압박",
+        "description": "경쟁사 공급 증가가 가격에 전이될 때 POSCO 리튬 판매량에 미치는 연간 매출 민감도입니다.",
+        "as_of": "2026-08-18",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "POSCO 노출물량 × 리튬가격 × 가격하락률 × 실현율 ÷ 1,000",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "POSCO 노출물량",
+            "unit": "kt LCE/년",
+            "min": 5,
+            "max": 100,
+            "step": 5,
+            "default": 30,
+            "kind": "assumption",
+            "basis": "경쟁 공급과 같은 시장에서 판매되는 물량 가정",
+            "source_ids": []
+          },
+          {
+            "id": "price",
+            "label": "리튬 가격",
+            "unit": "USD/t LCE",
+            "min": 8000,
+            "max": 30000,
+            "step": 1000,
+            "default": 12000,
+            "kind": "assumption",
+            "basis": "제품별 가격 범위",
+            "source_ids": []
+          },
+          {
+            "id": "price_effect",
+            "label": "증산발 가격하락률",
+            "unit": "fraction",
+            "min": 0,
+            "max": 0.3,
+            "step": 0.01,
+            "default": 0.05,
+            "kind": "assumption",
+            "basis": "경쟁사 증산이 가격에 전이되는 비율",
+            "source_ids": []
+          },
+          {
+            "id": "realization",
+            "label": "손익 실현율",
+            "unit": "fraction",
+            "min": 0.2,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "계약 시차와 제품 믹스 반영 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 매출 압박",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "divide",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "var": "volume"
+                    },
+                    {
+                      "var": "price"
+                    },
+                    {
+                      "var": "price_effect"
+                    },
+                    {
+                      "var": "realization"
+                    }
+                  ]
+                },
+                1000
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 13.75,
+              "price": 9400.0,
+              "price_effect": 0.017499999999999998,
+              "realization": 0.375
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 30,
+              "price": 12000,
+              "price_effect": 0.05,
+              "realization": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 75.5,
+              "price": 23700.0,
+              "price_effect": 0.21250000000000002,
+              "realization": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-B8FE09C65A92": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2025-03-27",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "호주 남부 가스 부족의 Senex 마진 기회",
+        "description": "남부 부족물량과 가격 프리미엄 중 Senex가 실제 공급할 수 있는 비중에 따른 EBITDA 민감도입니다.",
+        "as_of": "2025-03-27",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "남부 부족량 × 가격 프리미엄 × 공급가능 비율 × 마진 실현율",
+        "variables": [
+          {
+            "id": "shortfall",
+            "label": "남부 부족량",
+            "unit": "PJ",
+            "min": 0,
+            "max": 60,
+            "step": 1,
+            "default": 40,
+            "kind": "verified",
+            "basis": "ACCC의 2025년 3분기 남부 부족 전망",
+            "source_ids": [
+              "SRC-20260819-0270DC5A"
+            ]
+          },
+          {
+            "id": "premium",
+            "label": "부족 프리미엄",
+            "unit": "AUD/GJ",
+            "min": 0,
+            "max": 12,
+            "step": 0.5,
+            "default": 4,
+            "kind": "assumption",
+            "basis": "기준 계약가격 대비 계절 프리미엄 가정",
+            "source_ids": []
+          },
+          {
+            "id": "deliverable_share",
+            "label": "Senex 공급가능 비율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 0.5,
+            "step": 0.05,
+            "default": 0.15,
+            "kind": "assumption",
+            "basis": "파이프라인·계약·가동률 제약 후 공급 비율",
+            "source_ids": []
+          },
+          {
+            "id": "margin_capture",
+            "label": "마진 실현율",
+            "unit": "fraction",
+            "min": 0.2,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "운송비·로열티·계약제약 반영 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 EBITDA 기회",
+            "unit": "AUD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "shortfall"
+                },
+                {
+                  "var": "premium"
+                },
+                {
+                  "var": "deliverable_share"
+                },
+                {
+                  "var": "margin_capture"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "shortfall": 14.0,
+              "premium": 1.4,
+              "deliverable_share": 0.0525,
+              "margin_capture": 0.375
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "shortfall": 40,
+              "premium": 4,
+              "deliverable_share": 0.15,
+              "margin_capture": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "shortfall": 53.0,
+              "premium": 9.2,
+              "deliverable_share": 0.37749999999999995,
+              "margin_capture": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-CC38306D8ADB": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-18",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "호르무즈 차질의 LNG 조달비용 노출",
+        "description": "해협 운송 차질로 발생하는 가격·운임 상승 중 포스코인터내셔널이 부담하는 연간 비용입니다.",
+        "as_of": "2026-08-18",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "영향 물량 × 단위 가격·운임 상승 × 노출 비율 × 미전가율",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "영향 LNG 물량",
+            "unit": "Mt/년",
+            "min": 0.1,
+            "max": 5,
+            "step": 0.1,
+            "default": 1,
+            "kind": "assumption",
+            "basis": "호르무즈 경유·대체조달 대상 물량 가정",
+            "source_ids": []
+          },
+          {
+            "id": "uplift",
+            "label": "가격·운임 상승",
+            "unit": "USD/t",
+            "min": 0,
+            "max": 300,
+            "step": 10,
+            "default": 100,
+            "kind": "assumption",
+            "basis": "현물가격과 우회 운임을 합친 예비 범위",
+            "source_ids": []
+          },
+          {
+            "id": "exposure",
+            "label": "차질 노출 비율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.4,
+            "kind": "assumption",
+            "basis": "목적지 전환·재고로 상쇄되지 않는 비율",
+            "source_ids": []
+          },
+          {
+            "id": "unpassed",
+            "label": "미전가율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.5,
+            "kind": "assumption",
+            "basis": "고객·발전 계약에 전가하지 못하는 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 조달비용 증가",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "volume"
+                },
+                {
+                  "var": "uplift"
+                },
+                {
+                  "var": "exposure"
+                },
+                {
+                  "var": "unpassed"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 0.41500000000000004,
+              "uplift": 35.0,
+              "exposure": 0.13999999999999999,
+              "unpassed": 0.175
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 1,
+              "uplift": 100,
+              "exposure": 0.4,
+              "unpassed": 0.5
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 3.6,
+              "uplift": 230.0,
+              "exposure": 0.79,
+              "unpassed": 0.825
+            }
+          }
+        ]
+      }
+    },
+    "SIG-3F2A4F44D389": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-18",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "리튬 가격 반등의 EBITDA 민감도",
+        "description": "리튬 가격 변화가 POSCO 판매물량과 계약 시차를 거쳐 EBITDA에 미치는 범위입니다.",
+        "as_of": "2026-08-18",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "판매물량 × 리튬가격 × 가격변화율 × 손익 실현율 ÷ 1,000",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "판매물량",
+            "unit": "kt LCE/년",
+            "min": 5,
+            "max": 100,
+            "step": 5,
+            "default": 30,
+            "kind": "assumption",
+            "basis": "내부 제품별 판매물량으로 교체할 가정",
+            "source_ids": []
+          },
+          {
+            "id": "price",
+            "label": "기준 리튬 가격",
+            "unit": "USD/t LCE",
+            "min": 8000,
+            "max": 30000,
+            "step": 1000,
+            "default": 12000,
+            "kind": "assumption",
+            "basis": "제품별 가격차를 포함한 범위",
+            "source_ids": []
+          },
+          {
+            "id": "price_change",
+            "label": "가격 변화율",
+            "unit": "fraction",
+            "min": -0.3,
+            "max": 0.5,
+            "step": 0.05,
+            "default": 0.2,
+            "kind": "assumption",
+            "basis": "반등 지속성과 재하락을 함께 포함한 범위",
+            "source_ids": []
+          },
+          {
+            "id": "flow_through",
+            "label": "손익 실현율",
+            "unit": "fraction",
+            "min": 0.1,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.5,
+            "kind": "assumption",
+            "basis": "계약 시차·원가·제품 믹스 반영 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 EBITDA 변화",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "divide",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "var": "volume"
+                    },
+                    {
+                      "var": "price"
+                    },
+                    {
+                      "var": "price_change"
+                    },
+                    {
+                      "var": "flow_through"
+                    }
+                  ]
+                },
+                1000
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 13.75,
+              "price": 9400.0,
+              "price_change": -0.125,
+              "flow_through": 0.24
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 30,
+              "price": 12000,
+              "price_change": 0.2,
+              "flow_through": 0.5
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 75.5,
+              "price": 23700.0,
+              "price_change": 0.395,
+              "flow_through": 0.825
+            }
+          }
+        ]
+      }
+    },
+    "SIG-934ECBF9D82E": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2025-03-20",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "2029년 남부 가스 부족의 Senex 마진 민감도",
+        "description": "구조적 부족이 시작될 때 Senex 공급가능 물량과 가격 프리미엄에 따른 EBITDA 범위입니다.",
+        "as_of": "2025-03-20",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "공급가능 물량 × 가격 프리미엄 × 부족기 판매비율 × 마진 실현율",
+        "variables": [
+          {
+            "id": "deliverable",
+            "label": "공급가능 물량",
+            "unit": "PJ/년",
+            "min": 5,
+            "max": 80,
+            "step": 5,
+            "default": 30,
+            "kind": "assumption",
+            "basis": "Atlas·Roma North의 계약 후 잔여 공급능력 가정",
+            "source_ids": []
+          },
+          {
+            "id": "premium",
+            "label": "남부 가격 프리미엄",
+            "unit": "AUD/GJ",
+            "min": 0,
+            "max": 12,
+            "step": 0.5,
+            "default": 4,
+            "kind": "assumption",
+            "basis": "구조적 부족기의 기준가격 대비 프리미엄",
+            "source_ids": []
+          },
+          {
+            "id": "shortage_sales",
+            "label": "부족기 판매비율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.5,
+            "kind": "assumption",
+            "basis": "프리미엄 시장에 판매 가능한 비율",
+            "source_ids": []
+          },
+          {
+            "id": "margin_capture",
+            "label": "마진 실현율",
+            "unit": "fraction",
+            "min": 0.2,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "운송·로열티·계약비용 반영 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 EBITDA 기회",
+            "unit": "AUD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "deliverable"
+                },
+                {
+                  "var": "premium"
+                },
+                {
+                  "var": "shortage_sales"
+                },
+                {
+                  "var": "margin_capture"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "deliverable": 13.75,
+              "premium": 1.4,
+              "shortage_sales": 0.175,
+              "margin_capture": 0.375
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "deliverable": 30,
+              "premium": 4,
+              "shortage_sales": 0.5,
+              "margin_capture": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "deliverable": 62.5,
+              "premium": 9.2,
+              "shortage_sales": 0.825,
+              "margin_capture": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-F0DF50590831": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2025-07-22",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "LNG 공급 증가의 트레이딩 마진 민감도",
+        "description": "2026년 공급 증가로 아시아 LNG 가격이 낮아질 때 순매수·순매도 포지션에 따른 마진 변화입니다.",
+        "as_of": "2025-07-22",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "거래물량 × 단위가격 변화 × 순노출 비율 × 마진 실현율",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "영향 거래물량",
+            "unit": "Mt/년",
+            "min": 0.1,
+            "max": 5,
+            "step": 0.1,
+            "default": 1,
+            "kind": "assumption",
+            "basis": "포스코인터내셔널의 순노출 거래물량 가정",
+            "source_ids": []
+          },
+          {
+            "id": "price_change",
+            "label": "단위가격 하락",
+            "unit": "USD/t",
+            "min": -100,
+            "max": 200,
+            "step": 10,
+            "default": 60,
+            "kind": "assumption",
+            "basis": "공급 증가가 현물가격에 전이되는 범위",
+            "source_ids": []
+          },
+          {
+            "id": "net_exposure",
+            "label": "순매도 노출 비율",
+            "unit": "fraction",
+            "min": -1,
+            "max": 1,
+            "step": 0.1,
+            "default": 0.3,
+            "kind": "assumption",
+            "basis": "순매수는 음수, 순매도는 양수로 입력",
+            "source_ids": []
+          },
+          {
+            "id": "margin_capture",
+            "label": "마진 실현율",
+            "unit": "fraction",
+            "min": 0.1,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.6,
+            "kind": "assumption",
+            "basis": "헤지·장기계약·운송비 반영 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 트레이딩 마진 변화",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "volume"
+                },
+                {
+                  "var": "price_change"
+                },
+                {
+                  "var": "net_exposure"
+                },
+                {
+                  "var": "margin_capture"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 0.41500000000000004,
+              "price_change": -44.0,
+              "net_exposure": -0.545,
+              "margin_capture": 0.275
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 1,
+              "price_change": 60,
+              "net_exposure": 0.3,
+              "margin_capture": 0.6
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 3.6,
+              "price_change": 151.0,
+              "net_exposure": 0.7549999999999999,
+              "margin_capture": 0.86
+            }
+          }
+        ]
+      }
+    },
+    "SIG-F6C60D414787": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-19",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "중국 블랙매스 수입 재개의 원료비 노출",
+        "description": "중국 수입 재개가 블랙매스 프리미엄을 높일 때 POSCO 재활용 원료 조달비에 미치는 범위입니다.",
+        "as_of": "2026-08-19",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "조달물량 × 프리미엄 상승 × 중국 경쟁노출 × 미완화율 ÷ 1,000",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "블랙매스 조달물량",
+            "unit": "kt/년",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "default": 20,
+            "kind": "assumption",
+            "basis": "재활용 사업의 내부 원료조달량으로 교체할 가정",
+            "source_ids": []
+          },
+          {
+            "id": "premium",
+            "label": "프리미엄 상승",
+            "unit": "USD/t",
+            "min": 0,
+            "max": 2000,
+            "step": 50,
+            "default": 500,
+            "kind": "assumption",
+            "basis": "중국 수입수요 재개에 따른 가격 상승 범위",
+            "source_ids": []
+          },
+          {
+            "id": "china_exposure",
+            "label": "중국 경쟁노출",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.6,
+            "kind": "assumption",
+            "basis": "중국 구매자와 경쟁하는 원료 비율",
+            "source_ids": []
+          },
+          {
+            "id": "unmitigated",
+            "label": "미완화율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "장기계약·자체 회수망으로 상쇄하지 못하는 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 원료비 증가",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "divide",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "var": "volume"
+                    },
+                    {
+                      "var": "premium"
+                    },
+                    {
+                      "var": "china_exposure"
+                    },
+                    {
+                      "var": "unmitigated"
+                    }
+                  ]
+                },
+                1000
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 7.6499999999999995,
+              "premium": 175.0,
+              "china_exposure": 0.21,
+              "unmitigated": 0.24499999999999997
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 20,
+              "premium": 500,
+              "china_exposure": 0.6,
+              "unmitigated": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 72.0,
+              "premium": 1475.0,
+              "china_exposure": 0.86,
+              "unmitigated": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-F062894EEB9A": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-19",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "LFP 확산의 수산화리튬 매출 노출",
+        "description": "배터리 수요 중 LFP 전환이 수산화리튬 판매량과 가격에 미치는 연간 매출 민감도입니다.",
+        "as_of": "2026-08-19",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "노출물량 × 제품가격 × LFP 전환율 × 미전환율 ÷ 1,000",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "수산화리튬 노출물량",
+            "unit": "kt/년",
+            "min": 5,
+            "max": 100,
+            "step": 5,
+            "default": 30,
+            "kind": "assumption",
+            "basis": "제품별 판매계획으로 교체할 가정",
+            "source_ids": []
+          },
+          {
+            "id": "price",
+            "label": "수산화리튬 가격",
+            "unit": "USD/t",
+            "min": 8000,
+            "max": 30000,
+            "step": 1000,
+            "default": 12000,
+            "kind": "assumption",
+            "basis": "계약·지역별 가격 범위",
+            "source_ids": []
+          },
+          {
+            "id": "lfp_shift",
+            "label": "LFP 전환율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 0.6,
+            "step": 0.05,
+            "default": 0.2,
+            "kind": "assumption",
+            "basis": "기존 고니켈 수요가 LFP로 이동하는 비율",
+            "source_ids": []
+          },
+          {
+            "id": "unmitigated",
+            "label": "제품전환 미완화율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "탄산리튬 전환·신규 고객으로 상쇄하지 못하는 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 수산화리튬 매출 노출",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "divide",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "var": "volume"
+                    },
+                    {
+                      "var": "price"
+                    },
+                    {
+                      "var": "lfp_shift"
+                    },
+                    {
+                      "var": "unmitigated"
+                    }
+                  ]
+                },
+                1000
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 13.75,
+              "price": 9400.0,
+              "lfp_shift": 0.06999999999999999,
+              "unmitigated": 0.24499999999999997
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 30,
+              "price": 12000,
+              "lfp_shift": 0.2,
+              "unmitigated": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 75.5,
+              "price": 23700.0,
+              "lfp_shift": 0.46,
+              "unmitigated": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-E12E73720ED1": {
+      "schema_version": 1,
+      "decision": "omitted",
+      "assessed_at": "2026-08-18",
+      "omission": {
+        "reason_code": "no_grounded_exposure_basis",
+        "rationale": "첫 흑자 여부와 하반기 원가 개선 방향만 공개됐고 영업이익 금액·판매량·제품가격·현금원가가 없어 넓은 범위조차 실제 사업규모와 무관한 숫자가 될 위험이 큽니다.",
+        "required_inputs": [
+          "분기 판매량과 평균 판매가격",
+          "현금원가와 감가상각 포함 영업이익"
+        ],
+        "reconsider_when": "분기 영업이익 금액 또는 판매량·가격·현금원가 조합이 공개되면 즉시 재계산합니다."
+      }
+    },
+    "SIG-B3D99438BE40": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2025-10-27",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "Senex·미얀마 영업이익 변화 브리지",
+        "description": "두 자산의 분기 영업이익 변화가 에너지부문에 미치는 순증감입니다.",
+        "as_of": "2025-10-27",
+        "confidence": "low",
+        "notice": "공개된 분기 영업이익과 AI 변화율 가정을 결합한 예비 계산이며 POSCO 실제 전망이 아닙니다.",
+        "formula_display": "Senex 영업이익 × 변화율 + 미얀마 영업이익 × 변화율",
+        "variables": [
+          {
+            "id": "senex_profit",
+            "label": "Senex 분기 영업이익",
+            "unit": "억원",
+            "min": 0,
+            "max": 800,
+            "step": 10,
+            "default": 267,
+            "kind": "verified",
+            "basis": "2025년 3분기 영업이익",
+            "source_ids": [
+              "SRC-20260819-D7164DFA"
+            ]
+          },
+          {
+            "id": "myanmar_profit",
+            "label": "미얀마 분기 영업이익",
+            "unit": "억원",
+            "min": 0,
+            "max": 1600,
+            "step": 25,
+            "default": 900,
+            "kind": "verified",
+            "basis": "2025년 3분기 영업이익",
+            "source_ids": [
+              "SRC-20260819-D7164DFA"
+            ]
+          },
+          {
+            "id": "senex_change",
+            "label": "Senex 이익 변화율",
+            "unit": "fraction",
+            "min": -0.5,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.2,
+            "kind": "assumption",
+            "basis": "판매량·단가 변화 시나리오",
+            "source_ids": []
+          },
+          {
+            "id": "myanmar_change",
+            "label": "미얀마 이익 변화율",
+            "unit": "fraction",
+            "min": -0.8,
+            "max": 0.5,
+            "step": 0.05,
+            "default": -0.2,
+            "kind": "assumption",
+            "basis": "회수비용·판매량 변화 시나리오",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "분기 영업이익 순증감",
+            "unit": "억원",
+            "decimals": 0,
+            "primary": true,
+            "expression": {
+              "op": "add",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "var": "senex_profit"
+                    },
+                    {
+                      "var": "senex_change"
+                    }
+                  ]
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "var": "myanmar_profit"
+                    },
+                    {
+                      "var": "myanmar_change"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "senex_profit": 267,
+              "myanmar_profit": 900,
+              "senex_change": 0.4,
+              "myanmar_change": -0.1
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "senex_profit": 267,
+              "myanmar_profit": 900,
+              "senex_change": 0.2,
+              "myanmar_change": -0.2
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "senex_profit": 267,
+              "myanmar_profit": 900,
+              "senex_change": 0,
+              "myanmar_change": -0.5
+            }
+          }
+        ]
+      }
+    },
+    "SIG-067F405D30C8": {
+      "schema_version": 1,
+      "decision": "omitted",
+      "assessed_at": "2026-02-03",
+      "omission": {
+        "reason_code": "double_counting_risk",
+        "rationale": "그룹 성장계획의 Senex 증산 방향은 확인되지만 독립 증분물량이 없고, 동일 생산능력은 Atlas 확장·가스 부족 Signal의 기존 EBITDA 모델에 이미 반영돼 별도 금액을 더하면 중복계상됩니다.",
+        "required_inputs": [
+          "2026년 Senex 독립 증분 판매물량",
+          "기존 모델과 구분되는 계약단가·가동률"
+        ],
+        "reconsider_when": "2026년 가이던스에서 독립 증분물량과 단가가 제시되면 대표 모델과의 중복을 제거해 계산합니다."
+      }
+    },
+    "SIG-8BDE11D3224E": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-19",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "GM LFP 전환의 수산화리튬 매출 노출",
+        "description": "북미 LFP 양산이 고니켈 양극재용 수산화리튬 수요를 대체할 때의 연간 매출 민감도입니다.",
+        "as_of": "2026-08-19",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "노출물량 × 제품가격 × 실제 LFP 전환율 × 미완화율 ÷ 1,000",
+        "variables": [
+          {
+            "id": "volume",
+            "label": "GM 연계 수산화리튬 노출물량",
+            "unit": "kt/년",
+            "min": 1,
+            "max": 50,
+            "step": 1,
+            "default": 10,
+            "kind": "assumption",
+            "basis": "GM·공급망 계약의 내부 물량으로 교체할 가정",
+            "source_ids": []
+          },
+          {
+            "id": "price",
+            "label": "수산화리튬 가격",
+            "unit": "USD/t",
+            "min": 8000,
+            "max": 30000,
+            "step": 1000,
+            "default": 12000,
+            "kind": "assumption",
+            "basis": "북미 계약가격 대용 범위",
+            "source_ids": []
+          },
+          {
+            "id": "conversion",
+            "label": "LFP 실제 전환율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "2027년 양산계획이 실제 판매로 전환되는 비율",
+            "source_ids": []
+          },
+          {
+            "id": "unmitigated",
+            "label": "제품전환 미완화율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.6,
+            "kind": "assumption",
+            "basis": "탄산리튬·다른 고객으로 상쇄하지 못하는 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 수산화리튬 매출 노출",
+            "unit": "USD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "divide",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "var": "volume"
+                    },
+                    {
+                      "var": "price"
+                    },
+                    {
+                      "var": "conversion"
+                    },
+                    {
+                      "var": "unmitigated"
+                    }
+                  ]
+                },
+                1000
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "volume": 4.15,
+              "price": 9400.0,
+              "conversion": 0.24499999999999997,
+              "unmitigated": 0.21
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "volume": 10,
+              "price": 12000,
+              "conversion": 0.7,
+              "unmitigated": 0.6
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "volume": 36.0,
+              "price": 23700.0,
+              "conversion": 0.895,
+              "unmitigated": 0.86
+            }
+          }
+        ]
+      }
+    },
+    "SIG-0B6C56D8B4D8": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2026-08-18",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "호주 남부 기존 가스전 감소의 Senex 마진 민감도",
+        "description": "남부 생산감소가 가격 프리미엄으로 전이될 때 Senex 물량의 연간 EBITDA 기회입니다.",
+        "as_of": "2026-08-18",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "Senex 공급물량 × 가격 프리미엄 × 생산감소 전이율 × 마진 실현율",
+        "variables": [
+          {
+            "id": "deliverable",
+            "label": "Senex 공급물량",
+            "unit": "PJ/년",
+            "min": 5,
+            "max": 80,
+            "step": 5,
+            "default": 30,
+            "kind": "assumption",
+            "basis": "계약 후 가격노출이 남은 공급물량 가정",
+            "source_ids": []
+          },
+          {
+            "id": "premium",
+            "label": "가격 프리미엄",
+            "unit": "AUD/GJ",
+            "min": 0,
+            "max": 12,
+            "step": 0.5,
+            "default": 4,
+            "kind": "assumption",
+            "basis": "남부 공급감소가 만드는 기준가격 대비 프리미엄",
+            "source_ids": []
+          },
+          {
+            "id": "decline_pass",
+            "label": "생산감소 전이율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.46,
+            "kind": "derived",
+            "basis": "향후 5년 기존 가스전 생산감소 전망",
+            "source_ids": [
+              "SRC-20260818-0C29491C"
+            ]
+          },
+          {
+            "id": "margin_capture",
+            "label": "마진 실현율",
+            "unit": "fraction",
+            "min": 0.2,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "운송·로열티·계약제약 반영 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 EBITDA 기회",
+            "unit": "AUD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "deliverable"
+                },
+                {
+                  "var": "premium"
+                },
+                {
+                  "var": "decline_pass"
+                },
+                {
+                  "var": "margin_capture"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "deliverable": 13.75,
+              "premium": 1.4,
+              "decline_pass": 0.161,
+              "margin_capture": 0.375
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "deliverable": 30,
+              "premium": 4,
+              "decline_pass": 0.46,
+              "margin_capture": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "deliverable": 62.5,
+              "premium": 9.2,
+              "decline_pass": 0.811,
+              "margin_capture": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-C5958F0A0B3B": {
+      "schema_version": 1,
+      "decision": "modeled",
+      "assessed_at": "2025-06-30",
+      "impact_estimate": {
+        "schema_version": 1,
+        "title": "2026년 호주 가스 부족의 Senex EBITDA 민감도",
+        "description": "단기 부족량과 가격 프리미엄 중 Senex가 공급할 수 있는 비중에 따른 EBITDA 범위입니다.",
+        "as_of": "2025-06-30",
+        "confidence": "low",
+        "notice": "공개자료와 넓은 AI 가정을 결합한 방향·민감도용 예비 계산입니다. POSCO의 실제 물량·가격·원가·계약조건 또는 공식 전망이 아니며 관련 Signal과 동일한 충격은 중복 합산하지 않습니다.",
+        "formula_display": "부족량 × 가격 프리미엄 × 공급가능 비율 × 마진 실현율",
+        "variables": [
+          {
+            "id": "shortfall",
+            "label": "단기 부족량",
+            "unit": "PJ",
+            "min": 0,
+            "max": 15,
+            "step": 0.5,
+            "default": 2,
+            "kind": "derived",
+            "basis": "공급범위 하단의 2PJ 부족",
+            "source_ids": [
+              "SRC-20260819-4F098D9C"
+            ]
+          },
+          {
+            "id": "premium",
+            "label": "가격 프리미엄",
+            "unit": "AUD/GJ",
+            "min": 0,
+            "max": 12,
+            "step": 0.5,
+            "default": 4,
+            "kind": "assumption",
+            "basis": "생산자 제시가격 대비 부족 프리미엄 가정",
+            "source_ids": []
+          },
+          {
+            "id": "deliverable_share",
+            "label": "Senex 공급가능 비율",
+            "unit": "fraction",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.4,
+            "kind": "assumption",
+            "basis": "계약·파이프라인 제약 후 공급 비율",
+            "source_ids": []
+          },
+          {
+            "id": "margin_capture",
+            "label": "마진 실현율",
+            "unit": "fraction",
+            "min": 0.2,
+            "max": 1,
+            "step": 0.05,
+            "default": 0.7,
+            "kind": "assumption",
+            "basis": "운송·로열티·계약비용 반영 비율",
+            "source_ids": []
+          }
+        ],
+        "outputs": [
+          {
+            "id": "net_impact",
+            "label": "연간 EBITDA 기회",
+            "unit": "AUD m",
+            "decimals": 1,
+            "primary": true,
+            "expression": {
+              "op": "multiply",
+              "args": [
+                {
+                  "var": "shortfall"
+                },
+                {
+                  "var": "premium"
+                },
+                {
+                  "var": "deliverable_share"
+                },
+                {
+                  "var": "margin_capture"
+                }
+              ]
+            }
+          }
+        ],
+        "presets": [
+          {
+            "id": "defense",
+            "label": "방어",
+            "values": {
+              "shortfall": 0.7,
+              "premium": 1.4,
+              "deliverable_share": 0.13999999999999999,
+              "margin_capture": 0.375
+            }
+          },
+          {
+            "id": "base",
+            "label": "기준",
+            "values": {
+              "shortfall": 2,
+              "premium": 4,
+              "deliverable_share": 0.4,
+              "margin_capture": 0.7
+            }
+          },
+          {
+            "id": "pressure",
+            "label": "압박",
+            "values": {
+              "shortfall": 10.450000000000001,
+              "premium": 9.2,
+              "deliverable_share": 0.79,
+              "margin_capture": 0.895
+            }
+          }
+        ]
+      }
+    },
+    "SIG-EFB4A11676A9": {
+      "schema_version": 1,
+      "decision": "omitted",
+      "assessed_at": "2026-08-19",
+      "omission": {
+        "reason_code": "double_counting_risk",
+        "rationale": "이 Signal은 EU 쿼터 축소와 저탄소 조달기준을 하나의 의사결정으로 묶지만 금액 충격은 개별 EU 쿼터·CBAM Signal 모델에 이미 포함됩니다. 합산 모델을 별도로 만들면 같은 판매물량과 탄소비용을 중복계상합니다.",
+        "required_inputs": [
+          "Signal 간 공통 EU 판매물량 식별자",
+          "쿼터·CBAM·저탄소 프리미엄의 상호배타적 계산식"
+        ],
+        "reconsider_when": "공통 판매물량을 한 번만 사용하는 포트폴리오 계산기가 연결되면 통합 순마진 모델로 재검토합니다."
+      }
+    }
+  }
+}

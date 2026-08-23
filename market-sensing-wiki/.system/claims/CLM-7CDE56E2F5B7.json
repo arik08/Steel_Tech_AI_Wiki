@@ -1,0 +1,33 @@
+{
+  "claim_id": "CLM-7CDE56E2F5B7",
+  "subject_id": "COM-POSCO-HOLDINGS",
+  "predicate": "critical_minerals_rd_lab_opened",
+  "value": "2025-06-09 호주 퍼스 연구소 개소",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2025-06-09",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-C228E651"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2025-06-09",
+      "action": "created",
+      "reason": "POSCO Holdings 공식 실행 발표",
+      "source_ids": [
+        "SRC-20260820-C228E651"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "action": "verified",
+      "reason": "2026-08-20 POSCO Holdings 공식 원문 재검증",
+      "source_ids": [
+        "SRC-20260820-C228E651"
+      ]
+    }
+  ]
+}

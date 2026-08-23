@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-03C6CD955E36",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "australia_processing_tax_offset",
+  "value": "적격 가공·정제비의 10% 환급형 세액공제",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-07-01",
+  "last_verified": "2026-07-01",
+  "source_ids": [
+    "SRC-20260820-F778010D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-07-01",
+      "action": "created",
+      "reason": "호주 정부 제도 안내",
+      "source_ids": [
+        "SRC-20260820-F778010D"
+      ]
+    }
+  ]
+}

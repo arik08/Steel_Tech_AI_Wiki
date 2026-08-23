@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-121EA9CB1E26",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "operating_status_at_2024_12_31",
+  "value": "operating normally",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-54ADB74E"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "POSCO International audited disclosure as of reporting date",
+      "source_ids": [
+        "SRC-20260820-54ADB74E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "trend_id": "TRD-LNG-SUPPLY-ROUTE-FLEXIBILITY",
+  "title": "중동 공급 감소와 비중동 증산이 LNG 공급지도를 재편",
+  "summary": "세계 LNG 총량은 거의 유지될 수 있지만 중동 감소와 미국·비중동 증산이 겹치며 생산지·항로·도착지 선택권의 가치가 갈립니다.",
+  "business_axis": "에너지",
+  "direction": "mixed",
+  "first_detected_at": "2025-07-22",
+  "last_observed_at": "2026-08-20",
+  "signal_ids": [
+    "SIG-8A4DAC9E36CA",
+    "SIG-3ECBC5C37ED7"
+  ],
+  "supporting_source_ids": [
+    "SRC-20260820-47B392B3",
+    "SRC-20260818-3DD53EA4",
+    "SRC-20260820-DB8E75B6",
+    "SRC-20260819-198CA198",
+    "SRC-20260819-2FA37997",
+    "SRC-20260820-0281FEC0",
+    "SRC-20260819-D7164DFA",
+    "SRC-20260819-FE4320CB"
+  ],
+  "counter_source_ids": [
+    "SRC-20260820-47B392B3"
+  ],
+  "indicators": [
+    {
+      "label": "카타르·아랍에미리트 2026년 공급 감소",
+      "current": "-54",
+      "unit": "bcm",
+      "observed_at": "2026-08-20",
+      "interpretation": "중동 항로·시설 회복 지연의 공급 공백입니다.",
+      "source_ids": [
+        "SRC-20260820-47B392B3"
+      ]
+    },
+    {
+      "label": "북미·아프리카·호주 신규 공급 증가",
+      "current": "+50",
+      "unit": "bcm",
+      "observed_at": "2026-08-20",
+      "interpretation": "중동 공백을 대체할 신규 공급원 규모입니다.",
+      "source_ids": [
+        "SRC-20260820-47B392B3"
+      ]
+    },
+    {
+      "label": "비중동 기존설비 추가 공급",
+      "current": ">10",
+      "unit": "bcm",
+      "observed_at": "2026-08-20",
+      "interpretation": "신규 프로젝트 외의 단기 완충물량입니다.",
+      "source_ids": [
+        "SRC-20260820-47B392B3"
+      ]
+    }
+  ],
+  "schema_version": 7
+}

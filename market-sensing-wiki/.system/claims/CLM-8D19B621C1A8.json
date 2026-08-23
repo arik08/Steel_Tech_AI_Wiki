@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-8D19B621C1A8",
+  "subject_id": "MKT-STEEL-MARKET-REGIONALISATION-2026",
+  "predicate": "impact_path",
+  "value": "지역별 접근조건 강화 → 무관세·적격 물량 희소화와 배제 물량 이동 → 보호시장 마진·제3시장 가격 압박 → 판매·생산·현지화 재배분",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-422EE636"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "정책에서 사업변수로 이어지는 분석 경로",
+      "source_ids": [
+        "SRC-20260820-422EE636"
+      ]
+    }
+  ]
+}

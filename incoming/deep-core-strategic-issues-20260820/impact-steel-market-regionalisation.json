@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "title": "보호시장 철강 수출 순관세 노출 민감도",
+  "description": "관세 대상 물량과 가격, 관세율, 고객 전가율로 연간 총관세와 회사 측 순노출을 계산합니다.",
+  "as_of": "2026-08-20",
+  "confidence": "low",
+  "notice": "공개 규정과 가정에 기반한 민감도이며 POSCO 실제 물량·가격·계약조건 또는 실적 전망이 아닙니다.",
+  "variables": [
+    {"id":"tonnes","label":"관세 대상 물량","unit":"t/년","min":25000,"max":250000,"step":5000,"default":100000,"kind":"assumption","basis":"시장·제품별 내부 노출 입력 전 예시 범위","source_ids":[]},
+    {"id":"price","label":"평균 판매가격","unit":"USD/t","min":600,"max":1000,"step":25,"default":800,"kind":"assumption","basis":"제품별 내부 계약가격 입력 전 예시 범위","source_ids":[]},
+    {"id":"tariff","label":"적용 관세율","unit":"fraction","min":0.1,"max":0.5,"step":0.05,"default":0.5,"kind":"verified","basis":"EU·영국 초과관세 50% 및 하방 시나리오","source_ids":["SRC-20260818-5C2CEB19","SRC-20260820-422EE636"]},
+    {"id":"pass_through","label":"고객 전가율","unit":"fraction","min":0.3,"max":0.7,"step":0.05,"default":0.5,"kind":"assumption","basis":"계약별 관세 귀속 확인 전 민감도 범위","source_ids":[]}
+  ],
+  "outputs": [
+    {"id":"gross_tariff","label":"연간 총관세 노출","unit":"USD m/년","decimals":1,"primary":false,"expression":{"op":"divide","args":[{"op":"multiply","args":[{"op":"multiply","args":[{"var":"tonnes"},{"var":"price"}]},{"var":"tariff"}]},1000000]}},
+    {"id":"net_exposure","label":"회사 측 연간 순관세 노출","unit":"USD m/년","decimals":1,"primary":true,"expression":{"op":"divide","args":[{"op":"multiply","args":[{"op":"multiply","args":[{"op":"multiply","args":[{"var":"tonnes"},{"var":"price"}]},{"var":"tariff"}]},{"op":"subtract","args":[1,{"var":"pass_through"}]}]},1000000]}}
+  ],
+  "presets": [
+    {"id":"defense","label":"방어","values":{"tonnes":50000,"price":600,"tariff":0.1,"pass_through":0.7}},
+    {"id":"base","label":"기준","values":{"tonnes":100000,"price":800,"tariff":0.5,"pass_through":0.5}},
+    {"id":"pressure","label":"압박","values":{"tonnes":250000,"price":1000,"tariff":0.5,"pass_through":0.3}}
+  ]
+}

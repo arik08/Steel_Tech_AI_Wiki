@@ -9,6 +9,14 @@ Claim·Source·Archive로 이어진다.
 
 Signal의 `signal_type`은 다음 8개 값 중 정확히 하나다.
 
+신규 발행 Signal은 `atomic_scope` schema v1을 필수로 가진다. `event_key`는 같은 사건의
+후속 확인을 묶는 안정 키이며, `change_unit`, `observation`, `market_boundary`,
+`time_boundary`, `excluded_context`, `single_event_rationale`를 함께 저장한다. 이 경계는
+Claim의 원자성과 별개다. 여러 원자 Claim이 한 정책 조치 하나를 설명할 수는 있지만,
+효력 주체·시장·시점·변화 변수가 다른 정책과 시장사건을 한 Signal로 합칠 수는 없다.
+`add-signal --atomic-scope-file`과 run의 `atomic_signal_contract`가 신규 발행분에 이를
+강제한다.
+
 - `정책·규제`
 - `수급·가격`
 - `경쟁사`
@@ -147,10 +155,10 @@ Insight의 `quantification`은 모든 active Signal에 필수인 schema v1 판�
 - `.system/theses/THS-*.json`: 위협받는 전략가정, 사업 영향 경로, 판단 기간, 반대 근거,
   반증 조건
 - `.system/warnings/WRN-*.json`: 내부 호환 ID, 단계·상태·기회/위험 방향, 문서 제목과
-  요약, 사건·시행·사업 판단 시간축, 자연어 보고서 절, LLM이 설계한 `causal_map`,
+  `issue_category`, 요약, 사건·시행·사업 판단 시간축, 자연어 보고서 절, LLM이 설계한 `causal_map`,
   판단 질문·조치·변경 이력
 
-세 레코드는 schema version 3이며 `upsert-strategic-watch`로 함께 검증·저장한다. 활성
+세 레코드는 schema version 7이며 `upsert-strategic-watch`로 함께 검증·저장한다. 활성
 레코드는 명시적 review 없이 삭제하거나 종료하지 않으며 변경은 history에 append한다.
 보고서 절은 `market_change`, `assumption_shift`, `business_impact`, `recommendation`,
 `evidence`, `monitoring`, `limitations` 역할을 각각 한 번 갖는다. 화면 소제목은 역할명을
@@ -159,6 +167,87 @@ Insight의 `quantification`은 모든 active Signal에 필수인 schema v1 판�
 Warning은 Signal과 같은 schema v1 `decision_lens`를 필수로 가지며, `issue_direction`은
 대표 방향으로만 사용한다. 보고서 상단에는 포착할 기회, 방어할 위험, 미실행 기회비용,
 결정 전환 조건을 함께 투영한다.
+`issue_category`는 Signal의 8개 변화 유형 또는 `복합 이슈` 중 하나다. 사람 화면은
+Thesis의 `company_ids`, Warning의 `business_axis`, `issue_category`를 제목보다 먼저
+보여준다. 카테고리는 추론값으로 남기지 않고 모든 활성 Warning에 명시한다.
+
+Warning의 `title`은 18~72자이며 그 제목만 읽어도 관측된 변화와 바뀌는 판단을 이해할 수
+있어야 한다. 설명 없는 영문 대문자 약어, 법령 코드, 업계 은어를 제목에 둘 수 없으며
+필요한 공식 명칭과 약어는 `executive_summary` 첫 사용에서 쉬운 한국어 뒤에 설명한다.
+`upsert-strategic-watch`와 `audit`은 이 규칙을 위반한 활성 이슈를 차단한다.
+활성 Warning 전체에서는 `~볼 때·~할 때·~나눌 때`를 하나의 `~할 때` 종결틀로 보고,
+`~먼저다`, `~수 없다`와 함께 같은 틀이 2건을 넘으면 `strategic_watch` 감사 오류로
+처리한다. 개별 제목의 유효성만으로 목록 문체의 다양성이 확보됐다고 보지 않는다.
+
+모든 Warning은 다음 두 구조를 필수로 저장한다.
+
+- `structured_context`: `company_id`, `business_axis`, 실제 전달 경로가 있는
+  `management_functions`, `change_category`, `regions`, `time_horizon`
+- `company_lens`: `interest_level(core|conditional)`, 회사 공식 자료로 확인한
+  `official_basis`, 직접 노출 `exposure`, 외부 변화의 `impact_path`, 바꿀 결정
+  `decision_use`, 회사 IR·공식 발표의 `evidence_source_ids`
+
+사람 화면은 제목을 읽기 전에 구조 지도를 보여주고, 바로 다음에 `왜 우리 회사
+이슈인가`를 공식 사업 근거·직접 노출·전달 경로·바꿀 결정 순서로 설명한다. 전략광물처럼
+신규 진입 후보는 기존 사업으로 확정하지 않고 `conditional`로 판정한다. 이 두 구조가
+없거나 회사 공식 근거가 일반 시장자료뿐이면 발행과 audit을 통과하지 못한다.
+
+신규·개편 핵심 전략 이슈는 `warning.synthesis_contract` schema v1을 가진다.
+`decision_key`, `synthesis_statement`, Trend·Thesis와 동일한 `supporting_signal_ids`,
+Signal별 `relationship`과 `contribution`을 저장한다. 연결 대상은 최소 2개의 활성
+`core_market_signal`이며 각 Signal의 `atomic_scope.event_key`가 달라야 한다. 허용 관계는
+`reinforces`, `limits`, `contradicts`, `contextualizes`다. 광역 결론은 이 계약과 이슈
+보고서에만 두고 개별 Signal 본문에 역으로 복제하지 않는다.
+
+### 독자용 편집 계획
+
+신규 핵심 전략 이슈와 문서급 Signal을 발행하는 run은 근거 데이터와 별도로
+`editorial_plans`를 기록한다. 이 계약은 분석자 근거철을 사람 화면에 그대로 노출하지
+않고, 다른 세션·LLM도 같은 편집 판단을 이어받게 하기 위한 것이다.
+
+각 편집 계획은 최소 다음 필드를 가진다.
+
+- `target_id`: 대상 Signal 또는 Warning ID
+- `reader_question`: 독자가 글을 읽고 답해야 할 판단 질문 1개
+- `one_sentence_thesis`: 현재 근거의 한 문장 결론과 적용 조건
+- `key_numbers`: 최대 3개의 값·단위·기준일·Source ID·역할
+- `consensus_gap`: 익숙한 시장 해석과 확인된 사실 사이의 간극
+- `decision_change`: 회사가 바꿀 결정 하나
+- `next_catalyst`: 결론을 갱신할 공식 사건 또는 관찰값
+- `visual_candidates`: 최소 3개의 질문·유형·필요 데이터·Source ID·채택 상태·기각 이유
+- `first_viewport_check`: 변화·숫자·결정·촉매의 첫 화면 노출 여부
+- `meta_moved_to_appendix`: 출처 수·근거 역할·검증 문구 등 본문에서 내린 항목
+- `execution_sequence`: 세 단계 이상일 때 산출물·완료 기준·다음 결정·담당을 가진 실행 순서
+- `monitoring_dashboard`: 세 개 이상 관찰값일 때 지표·판단 의미·전환 신호·담당을 가진 비교 구조
+
+`key_numbers`는 출처로 확인된 값, 공개자료 역산, AI 가정을 구분한다. 시각화 후보는
+`adopted`, `rejected_insufficient_data`, `rejected_redundant`, `deferred` 중 하나로
+판정하고, 기각·보류 시 이유와 필요한 입력을 남긴다. 핵심 전략 이슈는 근거가 허용하면
+서로 다른 질문에 답하는 `adopted` 시각화가 2개 이상이어야 한다. 이 수를 맞추기 위해
+장식용 차트나 근거 없는 지도를 만들지 않는다.
+
+Warning의 `editorial_plan.quantification`은 다음 계약을 따른다.
+
+```json
+{
+  "status": "modeled",
+  "decision_metric": "결정을 바꾸는 가격·물량·비율·영향액"
+}
+```
+
+`modeled`는 `visuals`에 `type=quantitative_table|quantitative_chart`, `status=adopted`를
+최소 1개 요구한다. `quantitative_table`은 `table_kind(scenario|comparison|trend)`,
+3~5개 columns, 2~8개 rows, `unit`, `as_of`, `takeaway`, `method_note`,
+`data_kind(verified|derived|scenario)`, Source ID를 저장한다. 2~3개 시점·비교값과
+방어·기준·압박 민감도는 이 형식을 기본으로 한다.
+
+`quantitative_chart`는 `chart_kind(line|bar)`와 같은 메타데이터를 저장하되 선 차트는
+series별 4개 이상 동일 시계열, 막대 차트는 series별 5개 이상 동일 비교항목을 요구한다.
+최대·최소값이 20배 이상 차이 나는 선형 막대그래프는 만들지 않는다. 같은 series의
+point는 같은 정의·단위를 사용하고, 시장 확인값과 회사 민감도는 같은 series에 섞지
+않는다. 차트 계열색은 POSCO Blue `#05507D` 기반 청색 팔레트를 기본으로 하며 의미 없는
+녹색을 사용하지 않는다. `omitted`는 `reason`, `attempted_data_paths`, `required_inputs`,
+`recheck_trigger`를 모두 요구하고 정량 전시를 채택하지 않는다.
 
 `causal_map`은 원문 Mermaid가 아니라 LLM이 분석 후 선택한 구조 데이터다. `title`,
 `direction`, `design_rationale`, 3~9개의 의미형 노드와 2~12개의 연결을 저장한다. 노드는
@@ -442,6 +531,10 @@ Insight·문서급 분석·원문으로 이어진다. 회사·정책·프로젝�
 - 신규 발행 run의 `signal_contract`: 계약 버전, 이 계약이 적용되는 `signal_ids`, 사업축별
   외부 핵심 시그널 최소 비율 0.7, 단일 프로젝트·설비 편중 기준 0.5, 편중 검사를
   시작하는 Signal 수 3
+- 최근 3년 또는 전사 범위 발굴 run의 `candidate_funnel`: 발견 후보, 중복 통합 사건,
+  심층 검증 후보, 승격 이슈의 전체·사업축별 건수와 표준화된 탈락 사유
+- 승격한 핵심 전략 이슈별 `evidence_packets`: 원문 Source ID, 독립 채널, 근거 역할,
+  반증 Source, 빠진 역할, 예외 사유, 평가 신뢰도
 
 `results.new_claims`가 1 이상인 저장 작업은 `results.new_signals`와 `signal_ids`를 함께
 기록한다. 읽기 전용 조사나 사용자가 발행을 금지한 작업이 아니라면 Claim을 만들고

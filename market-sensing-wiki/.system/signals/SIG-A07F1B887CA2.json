@@ -2,6 +2,16 @@
   "schema_version": 3,
   "signal_id": "SIG-A07F1B887CA2",
   "sentence": "OECD가 세계 철강 과잉설비가 2025년 6억4,000만 톤에서 2028년 7억4,500만 톤으로 늘 것으로 전망했으므로, 포스코는 수요 회복만을 전제로 물량이나 현지화 투자를 늘리지 말고 제품·지역별 가격 방어력을 먼저 검증해야 합니다.",
+  "atomic_scope": {
+    "schema_version": 1,
+    "event_key": "global.oecd.steel-excess-capacity.2025-2028",
+    "change_unit": "market_metric_shift",
+    "observation": "OECD가 세계 철강 초과설비의 현재 규모와 2028년 확대 전망을 갱신했습니다.",
+    "market_boundary": "세계 철강 생산능력과 수요의 격차",
+    "time_boundary": "2025년 확인값부터 2028년 전망까지",
+    "excluded_context": "개별 국가의 관세·쿼터와 회사별 생산계획은 별도 사건으로 제외합니다.",
+    "single_event_rationale": "같은 OECD 전망 체계가 하나의 시장 변수인 세계 철강 초과설비의 기준값과 전망 경로를 갱신한 사건입니다."
+  },
   "insight_id": "INS-35A5BFD1457B",
   "company_ids": [
     "COM-POSCO"

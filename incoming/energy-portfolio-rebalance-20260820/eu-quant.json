@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "decision": "omitted",
+  "assessed_at": "2026-08-20",
+  "omission": {
+    "reason_code": "double_counting_risk",
+    "rationale": "이 정책 한 건의 금액효과를 별도로 만들면 미국 금융서비스 제한과 같은 결제충격을 전략 이슈에서 다시 합산할 위험이 있어, 소유지분·제재기한·거래경로를 통합한 전략 이슈에서만 정량화합니다.",
+    "required_inputs": ["계약별 MOGE 귀속 대금", "결제은행·통화·보험 경로", "결제지연 일수와 추가 금융비용"],
+    "reconsider_when": "거래별 귀속대금과 결제경로가 확인되어 유럽연합 제재의 독립 증분효과를 분리할 수 있을 때 재산정합니다."
+  }
+}

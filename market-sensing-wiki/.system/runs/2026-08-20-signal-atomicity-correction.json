@@ -1,0 +1,89 @@
+{
+  "run_id": "2026-08-20-signal-atomicity-correction",
+  "started_at": "2026-08-20T20:00:00+09:00",
+  "decision_context": {
+    "decision_question": "광역 철강 시장접근 결론을 독립 사건 Signal과 핵심 전략 이슈로 어떻게 분리할 것인가?",
+    "decision_horizon": "2026-2027",
+    "business_exposure": [
+      "시장접근",
+      "계약",
+      "판매물량",
+      "관세"
+    ],
+    "key_assumptions": [
+      "서로 다른 국가의 시장접근 조치를 한 Signal로 합쳐도 판단 단위가 유지된다"
+    ],
+    "decision_variables": [
+      "생산자격",
+      "무관세 쿼터",
+      "초과관세",
+      "고객별 적격성"
+    ],
+    "provisional": false
+  },
+  "coverage": {
+    "scope": {
+      "business_axes": [
+        "철강"
+      ],
+      "markets": [
+        "미국",
+        "영국"
+      ],
+      "date_from": "2026-06-01",
+      "date_to": "2026-08-20",
+      "source_policy": "기존 등록 공식 원문의 사건 경계 재검증"
+    },
+    "stop_reason": "기존 공식 원문에서 미국 생산자격과 영국 쿼터라는 두 독립 사건의 사실·효력 경계를 확인했습니다.",
+    "limitations": [
+      "신규 웹 탐색이 아니라 기존 검증 원문의 데이터 계층 교정입니다."
+    ],
+    "next_triggers": [
+      "미국 적용품목별 인증절차",
+      "영국 품목별 쿼터 소진률"
+    ]
+  },
+  "results": {
+    "new_sources": 0,
+    "new_claims": 18,
+    "new_signals": 2,
+    "new_strategic_issues": 0,
+    "signal_ids": [
+      "SIG-DE2981C00725",
+      "SIG-7A55EC61FBC5"
+    ],
+    "strategic_issue_ids": []
+  },
+  "signal_ids": [
+    "SIG-DE2981C00725",
+    "SIG-7A55EC61FBC5"
+  ],
+  "completed_at": "2026-08-20T20:30:00+09:00",
+  "signal_contract": {
+    "version": 1,
+    "minimum_core_market_ratio": 0.7,
+    "single_asset_concentration_threshold": 0.5,
+    "single_asset_minimum_signals": 3,
+    "signal_ids": [
+      "SIG-DE2981C00725",
+      "SIG-7A55EC61FBC5"
+    ]
+  },
+  "discovery_contract": {
+    "version": 1,
+    "required_for_roles": [
+      "core_market_signal"
+    ],
+    "signal_ids": [
+      "SIG-DE2981C00725",
+      "SIG-7A55EC61FBC5"
+    ]
+  },
+  "atomic_signal_contract": {
+    "version": 1,
+    "signal_ids": [
+      "SIG-DE2981C00725",
+      "SIG-7A55EC61FBC5"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-7614570D75D4",
+  "subject_id": "POL-MYANMAR-EU-SANCTIONS-2027",
+  "predicate": "urgency_rationale",
+  "value": "유럽연합 제재는 2027년 4월 30일까지 유지되며 그 전에 계약·결제경로와 제재 대상 귀속을 재검증해야 합니다.",
+  "status": "active",
+  "confidence": "medium",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-E33837C5"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "AI assessment based on official end date",
+      "source_ids": [
+        "SRC-20260820-E33837C5"
+      ]
+    }
+  ]
+}

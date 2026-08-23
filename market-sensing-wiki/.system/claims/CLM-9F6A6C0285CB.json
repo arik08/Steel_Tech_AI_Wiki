@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-9F6A6C0285CB",
+  "subject_id": "MKT-STRATEGIC-MINERALS-MARKET-DESIGN-2026",
+  "predicate": "eu_raw_materials_mechanism_launch_date",
+  "value": "2026-04-13",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-04-13",
+  "last_verified": "2026-04-13",
+  "source_ids": [
+    "SRC-20260820-E5D2140D"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-04-13",
+      "action": "created",
+      "reason": "European Commission 공식 발표",
+      "source_ids": [
+        "SRC-20260820-E5D2140D"
+      ]
+    }
+  ]
+}

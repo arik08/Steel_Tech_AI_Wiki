@@ -1,0 +1,25 @@
+{
+  "claim_id": "CLM-540E813613E5",
+  "subject_id": "POL-US-LNG-PLAQUEMINES-UPRATE-2026",
+  "predicate": "authorization_date",
+  "value": "2026-03-13",
+  "status": "active",
+  "confidence": "high",
+  "first_seen": "2026-08-20",
+  "last_verified": "2026-08-20",
+  "source_ids": [
+    "SRC-20260820-DB8E75B6"
+  ],
+  "supersedes": [],
+  "coexists_with": [],
+  "history": [
+    {
+      "date": "2026-08-20",
+      "action": "created",
+      "reason": "U.S. Department of Energy export authorisation",
+      "source_ids": [
+        "SRC-20260820-DB8E75B6"
+      ]
+    }
+  ]
+}
